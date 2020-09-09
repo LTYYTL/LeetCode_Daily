@@ -51,7 +51,7 @@ public class Combination {
         //path.size() == 3 的时候，接下来要选择 11 个数，搜索起点最大是 1515，最后一个被选的是 [15]；
         //即：搜索起点的上界 = n - (k - path.size()) + 1，剪枝操作
         for (int i = begin; i <= n - (k - path.size()) + 1; ++i){
-            //向路径里添加一个树
+            //向路径里添加一个值
             path.push(i);
             //下一轮搜索，设置的搜索起点要加 1，因为组合数理不允许出现重复的元素
             dfs(n, k,i+1, path, res);
