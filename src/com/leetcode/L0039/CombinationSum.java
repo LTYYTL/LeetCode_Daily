@@ -102,7 +102,7 @@ public class CombinationSum {
         Arrays.sort(candidates);
         //用于深度优先搜索的栈
         Stack<Integer> path = new Stack<>();
-        //调用深度优先搜索函数
+        //调用深度优先搜索函数，从第0个索引位置开始
         dfs_cut(candidates,0,path,target,res);
         return res;
     }
