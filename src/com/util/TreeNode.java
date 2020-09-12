@@ -1,20 +1,20 @@
 package com.util;
 
-public class TreeNode {
+public class TreeNode<E> {
        public TreeNode root;
-       public Integer val;
+       public E val;
        public TreeNode left;
        public TreeNode right;
 
-       public TreeNode(Integer x) {
-             val = x;
+       public TreeNode(E e) {
+             val = e;
        }
 
     /**
      * 通过数组构建树
      * @param nums
      */
-    public TreeNode(Integer[] nums){
+    public TreeNode(E[] nums){
              root = createBinaryTree(nums,0);
     }
 
@@ -24,10 +24,10 @@ public class TreeNode {
      * @param index 节点的位置
      * @return
      */
-       private TreeNode createBinaryTree(Integer[] array, int index) {
+       private TreeNode createBinaryTree(E[] array, int index) {
                TreeNode tn = null;
                if (index < array.length){
-                       Integer value = array[index];
+                       E value = array[index];
                        tn = new TreeNode(value);
                        tn.left = createBinaryTree(array, 2*index+1);
                        tn.right = createBinaryTree(array, 2*index+2);

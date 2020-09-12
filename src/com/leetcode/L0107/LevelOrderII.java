@@ -23,6 +23,11 @@ import java.util.*;
  * ]
  */
 public class LevelOrderII {
+    /**
+     * 方法一：广度优先遍历
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         //空树
@@ -30,7 +35,7 @@ public class LevelOrderII {
             return res;
         }
         //节点队列
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode<Integer>> queue = new LinkedList<>();
         //将根节点添加到队列
         queue.add(root);
         //队列为空，跳出循环
@@ -42,7 +47,7 @@ public class LevelOrderII {
             //将本层节点循环输出
             for (int i = 0; i < size; i++){
                 //获得当前队首节点
-                TreeNode temp = queue.poll();
+                TreeNode<Integer> temp = queue.poll();
                 list.add(temp.val);
                 //将当前节点的孩子放入队列中
                 if (temp.left != null)
