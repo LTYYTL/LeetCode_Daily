@@ -25,9 +25,7 @@
 3、当第二层循环一遍结束后，说明在固定指针i的情况下无满足条件的两个数，将指针i向后移动一位，继续进行步骤2的操作
 4、当找到符合条件的两个数，用数组输出两个数的索引
 ```
-- 图示
 
-![TwoNumSum](https://github.com/LTYYTL/LeetCode_Daily/tree/master/src/com/leetcode/L0001/TwoNumSum.png)
 - 代码
 
 ```java_holder_method_tree
@@ -66,9 +64,6 @@
 3、在遍历过程中也进行判断，当前数与目标值target之间的差值，判断差值是否已经存储在map中
 4、当找到符合条件的两个数，用数组输出两个数的索引
 ```
-- 图示
-
-![TwoNumSum_Map](https://github.com/LTYYTL/LeetCode_Daily/tree/master/src/com/leetcode/L0001/TwoNumSum_Map.png)
 
 - 代码
 

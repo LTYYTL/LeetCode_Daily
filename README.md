@@ -6,7 +6,7 @@
 
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|1| 两数之和 | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
+|1| [两数之和](src/com/leetcode/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
