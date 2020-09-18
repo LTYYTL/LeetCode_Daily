@@ -14,6 +14,8 @@
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
 |39| 组合总和 | [CombinationSum](src/com/leetcode/L0039/CombinationSum.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |40| 组合总和II | [CombinationSumII](src/com/leetcode/L0040/CombinationSumII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|46| 全排列 | [Permutations](src/com/leetcode/L0046/Permutations.java) | 中等 | 回溯算法 | 回溯算法 |
+|47| 全排列II | [PermutationsII](src/com/leetcode/L0047/PermutationsII.java) | 中等 | 回溯算法 | 回溯算法 |
 |53| 最大子序和 | [MaxSequenceSum](src/com/leetcode/L0053/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
@@ -23,6 +25,7 @@
 |77| 组合 | [Combination](src/com/leetcode/L0077/Combination.java) | 中等 | 回溯算法 | 回溯算法 |
 |79| 单词搜索 | [Combination](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |94| 二叉树的中序遍历 | [InOrder](src/com/leetcode/L0094/InOrder.java) | 中等 | 递归、非递归 | 栈、树、哈希表 |
+|104| 二叉树的最大深度 | [BinaryTreeDepth](src/com/leetcode/L0104/BinaryTreeDepth.java) | 简单 | 递归、广度优先搜索、深度优先搜索 | 树、深度优先搜索 |
 |107| 二叉树的层次遍历 II | [LevelOrderII](src/com/leetcode/L0107/LevelOrderII.java) | 简单 | 广度优先搜索 | 树、广度优先搜索 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |

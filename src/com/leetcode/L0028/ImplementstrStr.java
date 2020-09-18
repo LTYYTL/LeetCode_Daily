@@ -73,6 +73,12 @@ public class ImplementstrStr {
         return originIndex - aimIndex;
     }
 
+    /**
+     * 方法二：KMP算法
+     * @param haystack
+     * @param needle
+     * @return
+     */
     public int strStr_kmp(String haystack, String needle) {
         //生成next数组
         int[] next = getNexts(needle);
