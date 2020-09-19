@@ -15,7 +15,7 @@
 
 ## 方法
 
-#### 1.暴力法
+#### 1.双指针
 
 - 思路
 ```
@@ -25,7 +25,7 @@
 3、当第二层循环一遍结束后，说明在固定指针i的情况下无满足条件的两个数，将指针i向后移动一位，继续进行步骤2的操作
 4、当找到符合条件的两个数，用数组输出两个数的索引
 ```
-- 图示
+- 图示(方便观察，target=22)
 
 ![TwoNumSum](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0001/TwoNumSum.png)
 
@@ -34,7 +34,7 @@
 ```java_holder_method_tree
     /**
      * 方法一：双指针
-     * 时间复杂度：O(n^2)，对于每个元素，我们试图通过遍历数组的其余部分来寻找它所对应的目标元素，这将耗费 O(n) 的时间。因此时间复杂度为 O(n^2)
+     * 时间复杂度：O(n^2)
      * 空间复杂度：O(1)。
      *
      * @param nums   数组
@@ -58,16 +58,18 @@
     }
 ```
 
-#### 2.哈希表
+#### 2.Map映射
 - 思路
 ```
 通过Map存储每个数及其的索引
 1、构建Map，key为数，value为数所在索引
 2、遍历数组，将nums[]中的值存储在map中
 3、在遍历过程中也进行判断，当前数与目标值target之间的差值，判断差值是否已经存储在map中
+（1）存在map中，直接输出当前数字的索引和在map中差值存储的索引
+（2）不存在map中，将当前值存入map中，然后继续步骤3
 4、当找到符合条件的两个数，用数组输出两个数的索引
 ```
-- 图示
+- 图示（方便观察，target=18）
 
 ![TwoNumSum_Map](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0001/TwoNumSum_Map.png)
 
@@ -76,6 +78,9 @@
 ```java_holder_method_tree
     /**
      * 方法二：哈希表
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n)
+     *
      * @param nums   数组
      * @param target 目标值
      * @return 满足条件的索引组成的数组
