@@ -36,7 +36,7 @@
 ```
 - 图示
 
-![LevelOrderII_BSF](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0107/LevelOrderII_BSF.png)
+![LevelOrderII_BFS](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0107/LevelOrderII_BFS.png)
 
 - 代码
 

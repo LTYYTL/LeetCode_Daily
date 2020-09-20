@@ -96,7 +96,7 @@
 ```
 - 图示
 
-![LevelOrder_BSF](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0102/LevelOrder_BSF.png)
+![LevelOrder_BFS](https://github.com/LTYYTL/LeetCode_Daily/blob/master/src/com/leetcode/L0102/LevelOrder_BFS.png)
 
 - 代码
 
