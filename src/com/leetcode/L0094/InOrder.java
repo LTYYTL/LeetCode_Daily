@@ -53,7 +53,7 @@ public class InOrder {
     }
 
     /**
-     * 方法二：非递归
+     * 方法二：迭代
      */
     public List<Integer> inorderTraversal_NonRecursive(TreeNode<Integer> root) {
         //结果list

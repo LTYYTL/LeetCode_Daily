@@ -42,12 +42,16 @@
 ## 3. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|94| 二叉树的中序遍历 | [InOrder](src/com/leetcode/L0094/InOrder.java) | 中等 | 递归、非递归 | 栈、树、哈希表 |
+|94| 二叉树的中序遍历 | [InOrder](src/com/leetcode/L0094/InOrder.java) | 中等 | 递归、迭代 | 栈、树、哈希表 |
+|98| 验证二叉搜索树 | [ValidateBinarySearchTree](src/com/leetcode/L0098/ValidateBinarySearchTree.java) | 中等 | 递归 | 栈、树、哈希表 |
 |102| [二叉树的层序遍历](src/com/leetcode/L0102/LevelOrder.md) | [LevelOrder](src/com/leetcode/L0102/LevelOrder.java) | 中等 | 递归、广度优先搜索 | 树、广度优先搜索 |
 |104| 二叉树的最大深度 | [BinaryTreeDepth](src/com/leetcode/L0104/BinaryTreeDepth.java) | 简单 | 递归、广度优先搜索、深度优先搜索 | 树、深度优先搜索 |
 |107| [二叉树的层次遍历 II](src/com/leetcode/L0107/LevelOrderII.md) | [LevelOrderII](src/com/leetcode/L0107/LevelOrderII.java) | 简单 | 广度优先搜索 | 树、广度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
+|538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
+|700| 二叉搜索树中的搜索 | [SearchBST](src/com/leetcode/L0700/SearchBST.java) | 简单 | 递归、迭代 | 树 |
+|1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 
 ## 4. **_回溯算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
