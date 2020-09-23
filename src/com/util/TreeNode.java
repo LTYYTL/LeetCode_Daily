@@ -9,6 +9,11 @@ public class TreeNode<E> {
        public TreeNode(E e) {
              val = e;
        }
+       public TreeNode(E e,TreeNode left,TreeNode right) {
+           val = e;
+           this.left = left;
+           this.right = right;
+       }
 
     /**
      * 通过数组构建树

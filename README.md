@@ -1,11 +1,5 @@
 # LeetCode_Daily
-记录LeetCode每日刷题之旅（持续更新中...）
-
-##### **特别说明**：
-1. 题目对应的链接为根据我自己想法所写的题解、图解（只有几道）
-2. 类名对应的链接为Java文件，即题目对应的所有解法
-3. 所记录的题目中的方法可能不唯一，只记录了本人觉得在解题过程中觉得好理解的解题方式
-4. **本人菜鸟一只，哪里有错误的地方，请批评指正。**
+记录自己LeetCode每日刷题之旅（持续更新中...）
 
 ## 1. **_Leetcode题目_**
 
@@ -47,8 +41,11 @@
 |102| [二叉树的层序遍历](src/com/leetcode/L0102/LevelOrder.md) | [LevelOrder](src/com/leetcode/L0102/LevelOrder.java) | 中等 | 递归、广度优先搜索 | 树、广度优先搜索 |
 |104| 二叉树的最大深度 | [BinaryTreeDepth](src/com/leetcode/L0104/BinaryTreeDepth.java) | 简单 | 递归、广度优先搜索、深度优先搜索 | 树、深度优先搜索 |
 |107| [二叉树的层次遍历 II](src/com/leetcode/L0107/LevelOrderII.md) | [LevelOrderII](src/com/leetcode/L0107/LevelOrderII.java) | 简单 | 广度优先搜索 | 树、广度优先搜索 |
+|110| 平衡二叉树 | [AVL](src/com/leetcode/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
+|450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
+|617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
 |700| 二叉搜索树中的搜索 | [SearchBST](src/com/leetcode/L0700/SearchBST.java) | 简单 | 递归、迭代 | 树 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
