@@ -44,6 +44,7 @@
 |110| 平衡二叉树 | [AVL](src/com/leetcode/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
 |450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
+|501| 二叉搜索树中的众数 | [BSTMode](src/com/leetcode/L0501/BSTMode.java) | 简单 | 递归、迭代 | 树 |
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
