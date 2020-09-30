@@ -6,7 +6,9 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |1| [两数之和](src/com/leetcode/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 双指针、Map映射 | 数组、哈希表 |
+|11| 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L0011/ContainerWithMostWater.java) | 中等 | 双指针 | 数组、双指针 |
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
+|23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
@@ -46,6 +48,7 @@
 |110| 平衡二叉树 | [AVL](src/com/leetcode/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
 |112| 路径总和 | [PathSum](src/com/leetcode/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
 |113| 路径总和II | [PathSumII](src/com/leetcode/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
+|145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
@@ -55,6 +58,7 @@
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
 |700| 二叉搜索树中的搜索 | [SearchBST](src/com/leetcode/L0700/SearchBST.java) | 简单 | 递归、迭代 | 树 |
+|701| 二叉搜索树中的插入操作 | [insertIntoBST](src/com/leetcode/L0701/InsertBST.java) | 中等 | 递归、迭代 | 树 |
 |814| 二叉树剪枝 | [BinaryTreePruning](src/com/leetcode/L0814/BinaryTreePruning.java) | 中等 | 递归 | 树 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 
