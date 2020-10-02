@@ -7,25 +7,34 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |1| [两数之和](src/com/leetcode/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 双指针、Map映射 | 数组、哈希表 |
 |11| 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L0011/ContainerWithMostWater.java) | 中等 | 双指针 | 数组、双指针 |
-|14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
-|23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
-|28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
-|58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
-|125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
-|226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
 |344| 字符串反转 | [ReverseString](src/com/leetcode/L0344/ReverseString.java) | 简单 | 双指针 | 数组、双指针 |
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+
+## 2. **_链表系列_**
+|  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
+
+## 3. **_字符串系列_**
+|  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
+|20| 有效的括号 | [ValidParentheses](src/com/leetcode/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
+|28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
+|58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
+|125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
+|771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 
-## 2. **_动态规划系列_**
+## 4. **_动态规划系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |53| 最大子序和 | [MaxSequenceSum](src/com/leetcode/L0053/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
@@ -35,7 +44,7 @@
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 
-## 3. **_二叉树系列_**
+## 5. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |94| 二叉树的中序遍历 | [InOrder](src/com/leetcode/L0094/InOrder.java) | 中等 | 递归、迭代 | 栈、树、哈希表 |
@@ -50,6 +59,7 @@
 |113| 路径总和II | [PathSumII](src/com/leetcode/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
 |145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
+|226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
 |235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
 |450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
@@ -62,7 +72,7 @@
 |814| 二叉树剪枝 | [BinaryTreePruning](src/com/leetcode/L0814/BinaryTreePruning.java) | 中等 | 递归 | 树 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 
-## 4. **_回溯算法系列_**
+## 6. **_回溯算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |39| 组合总和 | [CombinationSum](src/com/leetcode/L0039/CombinationSum.java) | 中等 | 回溯算法 | 数组、回溯算法 |
@@ -74,7 +84,7 @@
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 
-## 5. **_数学方法系列_**
+## 7. **_数学方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
@@ -83,12 +93,12 @@
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 
-## 6. **_滑动窗口系列_**
+## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
 
-## 7. **_力扣杯竞赛题列表_**
+## 9. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
