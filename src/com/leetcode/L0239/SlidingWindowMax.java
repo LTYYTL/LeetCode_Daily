@@ -48,7 +48,7 @@ public class SlidingWindowMax {
                 queue.pollFirst();
             }
             //在添加一个值之前，前面比他小的都要被移除掉，
-            // 并且还要保证窗口中队列头部元素永远是队列中最大的
+            //并且还要保证窗口中队列头部元素永远是队列中最大的
             while (!queue.isEmpty() && nums[queue.peekLast()] < nums[i]){
                 queue.pollLast();
             }
@@ -60,7 +60,6 @@ public class SlidingWindowMax {
                 res[index++] = nums[queue.peekFirst()];
             }
         }
-
         return res;
     }
 }
