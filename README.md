@@ -15,6 +15,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -44,6 +45,7 @@
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
+|416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 
 ## 5. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -58,6 +60,7 @@
 |110| 平衡二叉树 | [AVL](src/com/leetcode/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
 |112| 路径总和 | [PathSum](src/com/leetcode/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
 |113| 路径总和II | [PathSumII](src/com/leetcode/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
+|116| 填充每个节点的下一个右侧节点指针 | [PopulatingNextRightPointersEachNode](src/com/leetcode/L0116/PopulatingNextRightPointersEachNode.java) | 中等 | 广度优先搜索 | 树、广度优先搜索 |
 |145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
