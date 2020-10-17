@@ -85,6 +85,8 @@
 |40| 组合总和II | [CombinationSumII](src/com/leetcode/L0040/CombinationSumII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |46| 全排列 | [Permutations](src/com/leetcode/L0046/Permutations.java) | 中等 | 回溯算法 | 回溯算法 |
 |47| 全排列II | [PermutationsII](src/com/leetcode/L0047/PermutationsII.java) | 中等 | 回溯算法 | 回溯算法 |
+|51| N皇后 | [NQueens](src/com/leetcode/L0051/NQueens.java) | 困难 | 回溯算法 | 回溯算法 |
+|52| N皇后II | [NQueensII](src/com/leetcode/L0052/NQueensII.java) | 困难 | 回溯算法 | 回溯算法 |
 |77| 组合 | [Combination](src/com/leetcode/L0077/Combination.java) | 中等 | 回溯算法 | 回溯算法 |
 |78| 子集 | [Subsets](src/com/leetcode/L0078/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
