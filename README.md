@@ -20,6 +20,7 @@
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|19| 删除链表的倒数第N个节点 | [DeleteNode](src/com/leetcode/L0019/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
 |23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
 
@@ -35,6 +36,7 @@
 |771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
+|844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 
 ## 4. **_动态规划系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
