@@ -33,11 +33,13 @@
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
+|763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
+
 
 ## 4. **_动态规划系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
