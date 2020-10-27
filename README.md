@@ -67,6 +67,7 @@
 |112| 路径总和 | [PathSum](src/com/leetcode/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
 |113| 路径总和II | [PathSumII](src/com/leetcode/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
 |116| 填充每个节点的下一个右侧节点指针 | [PopulatingNextRightPointersEachNode](src/com/leetcode/L0116/PopulatingNextRightPointersEachNode.java) | 中等 | 广度优先搜索 | 树、广度优先搜索 |
+|145| 二叉树的前序遍历 | [PerOrder](src/com/leetcode/L0144/PerOrder.java) | 中等 | 递归、迭代 | 树 |
 |145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |

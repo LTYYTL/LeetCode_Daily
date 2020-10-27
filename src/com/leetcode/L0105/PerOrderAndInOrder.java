@@ -31,7 +31,7 @@ public class PerOrderAndInOrder {
      * @return
      */
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        //利用HashMapMap，以便查找节点的位置
+        //利用HashMap，以便查找节点的位置
         //利用中序遍历将树分成左右子树
         for (int i = 0; i < inorder.length; i++){
             map.put(inorder[i],i);
