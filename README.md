@@ -15,6 +15,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
