@@ -45,6 +45,7 @@
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
+|1370| 长按键入 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 
 
 ## 4. **_动态规划系列_**
