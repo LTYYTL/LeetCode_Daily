@@ -11,6 +11,7 @@
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
+|164| 最大间距 | [MaximumGap](src/com/leetcode/L0164/MaximumGap.java) | 困难  | 桶计数 | 数组、排序 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |344| 字符串反转 | [ReverseString](src/com/leetcode/L0344/ReverseString.java) | 简单 | 双指针 | 数组、双指针 |
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
@@ -45,7 +46,7 @@
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
-|1370| 长按键入 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
+|1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 
 
 ## 4. **_动态规划系列_**
@@ -120,7 +121,13 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
 
-## 9. **_力扣杯竞赛题列表_**
+## 9. **_设计系列_**
+|  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|208| 实现 Trie (前缀树) | [Trie](src/com/leetcode/L0208/Trie.java) | 中等 | 前缀树 | 字典树、设计 |
+|211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
+
+## 10. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
