@@ -113,6 +113,7 @@
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
+|976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 
