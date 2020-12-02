@@ -1,6 +1,6 @@
 package com.leetcode.L0402;
 
-public class RemoveKdigitsTest {
+public class RemoveKDigitsTest {
     public static void main(String[] args) {
         RemoveKDigits removeKDigits = new RemoveKDigits();
         /*** 示例 1 :

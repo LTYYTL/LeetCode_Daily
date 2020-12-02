@@ -28,6 +28,11 @@ import java.util.Stack;
 public class RemoveKDigits {
     /**
      * 方法：栈
+     * 解题思路：
+     * 1、从左到右遍历，将每个元素加入到栈中
+     * 2、对于遍历到的元素，我们选择保留，但是我们可以选择性丢弃前面相邻的元素。
+     * 保留：当前元素左边没有元素或者比左边元素大
+     * 丢弃：当前元素比左边元素小
      * @param num
      * @param k
      * @return
