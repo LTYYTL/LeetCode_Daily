@@ -11,6 +11,7 @@
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
+|118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
 |164| 最大间距 | [MaximumGap](src/com/leetcode/L0164/MaximumGap.java) | 困难  | 桶计数 | 数组、排序 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
