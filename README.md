@@ -20,6 +20,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
@@ -46,6 +47,7 @@
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
+|649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
 |771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
@@ -60,6 +62,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |53| 最大子序和 | [MaxSequenceSum](src/com/leetcode/L0053/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|62| 不同路径 | [UniquePaths](src/com/leetcode/L0062/UniquePaths.java) | 中等 | 动态规划 | 动态规划 |
 |64| 最小路径和 | [MinPathSum](src/com/leetcode/L0064/MinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
 |70| 爬楼梯 | [ClimbStairs](src/com/leetcode/L0070/ClimbStairs.java) | 简单 | 动态规划 | 动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |

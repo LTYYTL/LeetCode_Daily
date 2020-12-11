@@ -39,6 +39,11 @@ package com.leetcode.L0860;
  * bills[i] 不是 5 就是 10 或是 20
  */
 public class LemonadeChange {
+    /**
+     * 方法：贪心算法
+     * @param bills
+     * @return
+     */
     public boolean lemonadeChange(int[] bills) {
         //一开始你手头没有任何零钱。
         if (bills[0] > 5)

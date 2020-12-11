@@ -69,7 +69,5 @@ public class ScoreAfterFlippingMatrix {
         }
         return res;
     }
-
-
-
+    
 }
