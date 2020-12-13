@@ -14,6 +14,7 @@
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
 |164| 最大间距 | [MaximumGap](src/com/leetcode/L0164/MaximumGap.java) | 困难  | 桶计数 | 数组、排序 |
+|217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
 |344| 字符串反转 | [ReverseString](src/com/leetcode/L0344/ReverseString.java) | 简单 | 双指针 | 数组、双指针 |
@@ -56,6 +57,7 @@
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
+|5626| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L5626/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 
 
 ## 4. **_动态规划系列_**
@@ -69,6 +71,7 @@
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
+|376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 
 ## 5. **_二叉树系列_**
@@ -116,6 +119,7 @@
 |78| 子集 | [Subsets](src/com/leetcode/L0078/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|5625| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L5625/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 
 ## 7. **_数学方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
