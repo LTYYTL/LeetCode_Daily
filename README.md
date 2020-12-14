@@ -42,6 +42,7 @@
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
+|49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
