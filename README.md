@@ -21,6 +21,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
@@ -46,6 +47,7 @@
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
+|290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
