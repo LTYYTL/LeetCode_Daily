@@ -21,6 +21,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
