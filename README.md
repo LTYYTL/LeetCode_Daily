@@ -51,6 +51,7 @@
 |290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
+|389| 找不同 | [FindTheDifference](src/com/leetcode/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
