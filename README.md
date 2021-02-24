@@ -146,6 +146,7 @@
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
+|832| 翻转图像 | [FlippingImage](src/com/leetcode/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
@@ -156,6 +157,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
+|1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 
 ## 9. **_设计系列_**
