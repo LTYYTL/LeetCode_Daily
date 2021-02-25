@@ -31,6 +31,7 @@
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
+|867| 转置矩阵 | [TransposeMatrix](src/com/leetcode/L0867/TransposeMatrix.java) | 简单 | 模拟 | 数组 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
