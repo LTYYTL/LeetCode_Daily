@@ -70,6 +70,7 @@
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
+|1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |5626| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L5626/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 
