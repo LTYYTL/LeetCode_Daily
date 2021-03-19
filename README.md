@@ -170,6 +170,7 @@
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
+|1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
 
 ## 10. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |

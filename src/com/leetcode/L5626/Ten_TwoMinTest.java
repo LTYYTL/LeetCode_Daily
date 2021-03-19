@@ -1,4 +1,4 @@
-package com.leetcode.L05626;
+package com.leetcode.L5626;
 
 public class Ten_TwoMinTest {
     public static void main(String[] args) {
