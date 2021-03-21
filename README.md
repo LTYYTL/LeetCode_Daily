@@ -10,6 +10,7 @@
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
+|73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
@@ -36,6 +37,8 @@
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
+|5709| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L5709/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
+|5710| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L5710/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
