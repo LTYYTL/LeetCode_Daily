@@ -149,6 +149,7 @@
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
+|191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
