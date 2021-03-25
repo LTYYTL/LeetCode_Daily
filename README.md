@@ -46,6 +46,8 @@
 |19| 删除链表的倒数第N个节点 | [DeleteNode](src/com/leetcode/L0019/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
 |23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
+|82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
+|83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 
 ## 3. **_字符串系列_**
