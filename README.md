@@ -10,6 +10,7 @@
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
+|74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
