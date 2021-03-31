@@ -9,6 +9,7 @@
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
+|54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
@@ -49,6 +50,7 @@
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
 |83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
+|92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 
 ## 3. **_字符串系列_**
