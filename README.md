@@ -162,6 +162,7 @@
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
+|1006| 笨阶乘 | [ClumsyFactorial](src/com/leetcode/L1006/ClumsyFactorial.java) | 中等 | 栈 | 数学 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
@@ -188,3 +189,8 @@
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
 |LCP19| 秋叶收藏集 | [AutumnLeavesCollection](src/com/LCP/L0019/AutumnLeavesCollection.java) | 中等 | 动态规划 | -- |
+
+## 11. **_程序员面试金典_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/LCP/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
