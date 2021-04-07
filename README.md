@@ -14,6 +14,7 @@
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L0079/WordSearch.java) | 中等 | 深度优先搜索 | 数组、回溯算法 |
 |80| 删除有序数组中的重复项 II | [RemoveDuplicatesSortedArrayII](src/com/leetcode/L0080/RemoveDuplicatesSortedArrayII.java) | 中等 | 双指针 | 数组、双指针 |
+|81| 搜索旋转排序数组 II | [SearchRotatedSortedArrayII](src/com/leetcode/L0081/SearchRotatedSortedArrayII.java) | 中等 | 二分法 | 数组、二分查找 |
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
