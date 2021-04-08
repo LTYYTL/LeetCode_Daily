@@ -1,4 +1,4 @@
-package com.leetcode.L5710;
+package com.leetcode.L1801;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

@@ -18,6 +18,7 @@
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
+|153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
 |164| 最大间距 | [MaximumGap](src/com/leetcode/L0164/MaximumGap.java) | 困难  | 桶计数 | 数组、排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
@@ -42,8 +43,8 @@
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
-|5709| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L5709/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
-|5710| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L5710/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
+|1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
+|1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -190,11 +191,13 @@
 ## 10. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|LCP01| 速算机器人 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 数学 | -- |
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
 |LCP19| 秋叶收藏集 | [AutumnLeavesCollection](src/com/LCP/L0019/AutumnLeavesCollection.java) | 中等 | 动态规划 | -- |
+|LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 
 ## 11. **_程序员面试金典_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/LCP/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
+|17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
