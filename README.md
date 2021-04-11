@@ -197,6 +197,8 @@
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
 |LCP19| 秋叶收藏集 | [AutumnLeavesCollection](src/com/LCP/L0019/AutumnLeavesCollection.java) | 中等 | 动态规划 | -- |
+|LCP28| 采购方案 | [ProcurementPlan](src/com/LCP/L0028/ProcurementPlan.java) | 简单 | 双指针 | -- |
+|LCP29| 乐团站位 | [OrchestraPosition](src/com/LCP/L0029/OrchestraPosition.java) | 简单 | 数学 | -- |
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 
 ## 11. **_程序员面试金典_**

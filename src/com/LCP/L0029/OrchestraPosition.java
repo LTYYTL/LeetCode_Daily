@@ -19,17 +19,39 @@ package com.LCP.L0029;
  * 0 <= Xpos, Ypos < num
  */
 public class OrchestraPosition {
-    //计算所在圈数
-    public int getTopLeft(int num, int xPos, int yPos) {
-        int diffX = Math.min(xPos, num - 1 - xPos);
-        int diffY = Math.min(yPos, num - 1 - yPos);
-        return Math.min(diffX, diffY);
-    }
 
     public int orchestraLayout(int num, int xPos, int yPos) {
-        int topLeft = getTopLeft(num, xPos, yPos);
+        long c=Math.min(Math.min(Math.min(xPos,yPos),num-xPos-1),num-yPos-1);
+        //圈数
+        long ans=0;
+        ans=num*num-(num-2*c)*(num-2*c);
+        //圈外格数
+        ans=(ans%9);
+        if(xPos==c)
+        //up
+        {
+            ans+=yPos-c+1;
+        }
+        else if(yPos==c)
+        //left
+        {
+            ans+=(num-(c*2))*4-3-xPos+c;
+        }
+        else if(num-yPos-1==c)
+        //right
+        {
+            ans+=num-(c*2)+xPos-c;
+        }
+        else if(num-xPos-1==c)
+        //down
+        {
+            ans+=(num-c*2)*2-1+(num-yPos-1-c);
+        }
 
-        return 0;
+        if(ans%9!=0)
+            return  (int)(ans%9);
+        else
+            return 9;
     }
 
 }
