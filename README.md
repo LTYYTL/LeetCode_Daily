@@ -173,6 +173,7 @@
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
+|1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -204,4 +205,5 @@
 ## 11. **_程序员面试金典_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|01.01| 判定字符是否唯一 | [IsUniqueLCCI](src/com/interview/L0101/IsUniqueLCCI.java) | 简单 | set集合、Map映射 | 数组 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
