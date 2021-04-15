@@ -31,6 +31,12 @@ import java.util.Deque;
  * 1 <= k <= nums.length
  */
 public class SlidingWindowMax {
+    /**
+     * 方法：滑动窗口
+     * @param nums
+     * @param k
+     * @return
+     */
     public int[] maxSlidingWindow(int[] nums, int k) {
         //空值情况
         if (nums == null || k <=0)

@@ -98,6 +98,7 @@
 |70| 爬楼梯 | [ClimbStairs](src/com/leetcode/L0070/ClimbStairs.java) | 简单 | 动态规划 | 动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
+|213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
 |264| 丑数 II | [UglyNumberII](src/com/leetcode/L0264/UglyNumberII.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
@@ -178,6 +179,7 @@
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|3| 无重复字符的最长子串 | [NoRepeatLongestStr](src/com/leetcode/L0003/NoRepeatLongestStr.java) | 中等 | set集合、Map映射 | 哈希表、双指针、字符串滑动窗口 |
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
 |1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
