@@ -96,6 +96,7 @@
 |62| 不同路径 | [UniquePaths](src/com/leetcode/L0062/UniquePaths.java) | 中等 | 动态规划 | 动态规划 |
 |64| 最小路径和 | [MinPathSum](src/com/leetcode/L0064/MinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
 |70| 爬楼梯 | [ClimbStairs](src/com/leetcode/L0070/ClimbStairs.java) | 简单 | 动态规划 | 动态规划 |
+|87| 扰乱字符串 | [ScrambleString](src/com/leetcode/L0087/ScrambleString.java) | 困难 | 暴力法、动态规划 | 字符串、动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
