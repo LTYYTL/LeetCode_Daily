@@ -6,6 +6,8 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |1| [两数之和](src/com/leetcode/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 双指针、Map映射 | 数组、哈希表 |
 |11| 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L0011/ContainerWithMostWater.java) | 中等 | 双指针 | 数组、双指针 |
+|26| 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L0026/RemoveDuplicatesSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
+|27| 移除元素 | [RemoveElement](src/com/leetcode/L0027/RemoveElement.java) | 简单 | 双指针 | 数组、双指针 |
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
@@ -45,6 +47,8 @@
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
+|1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
+|1834| 单线程 CPU | [SingleThreadedCPU](src/com/leetcode/L1834/SingleThreadedCPU.java) | 中等 | 堆 | 数组、堆 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -86,7 +90,9 @@
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
+|1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |5626| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L5626/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
+
 
 
 ## 4. **_动态规划系列_**
