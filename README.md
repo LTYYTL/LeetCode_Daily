@@ -204,7 +204,7 @@
 ## 10. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|LCP01| 速算机器人 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 数学 | -- |
+|LCP01| 猜数字 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 数学 | -- |
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
 |LCP19| 秋叶收藏集 | [AutumnLeavesCollection](src/com/LCP/L0019/AutumnLeavesCollection.java) | 中等 | 动态规划 | -- |
@@ -223,3 +223,4 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
+|09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
