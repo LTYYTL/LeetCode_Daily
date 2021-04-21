@@ -103,6 +103,7 @@
 |64| 最小路径和 | [MinPathSum](src/com/leetcode/L0064/MinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
 |70| 爬楼梯 | [ClimbStairs](src/com/leetcode/L0070/ClimbStairs.java) | 简单 | 动态规划 | 动态规划 |
 |87| 扰乱字符串 | [ScrambleString](src/com/leetcode/L0087/ScrambleString.java) | 困难 | 暴力法、动态规划 | 字符串、动态规划 |
+|91| 解码方法 | [DecodeWays](src/com/leetcode/L0091/DecodeWays.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
@@ -216,3 +217,9 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |01.01| 判定字符是否唯一 | [IsUniqueLCCI](src/com/interview/L0101/IsUniqueLCCI.java) | 简单 | set集合、Map映射 | 数组 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
+
+## 12. **_剑指offer_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
+|06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
