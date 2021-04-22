@@ -11,6 +11,7 @@
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
 |37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
+|41| 缺失的第一个正数 | [FirstMissingPositive](src/com/leetcode/L0041/FirstMissingPositive.java) | 困难 | 哈希表、排序 | 数组 |
 |54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
@@ -29,6 +30,7 @@
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
+|363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |

@@ -18,6 +18,7 @@ package com.leetcode.L0028;
  * 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
  */
 public class ImplementstrStr {
+
     /**
      * 方法一：Sunday匹配
      * 1、对齐目标串和模式串，从前向后匹配
@@ -72,7 +73,6 @@ public class ImplementstrStr {
         }
         return originIndex - aimIndex;
     }
-
     /**
      * 方法二：KMP算法
      * @param haystack
