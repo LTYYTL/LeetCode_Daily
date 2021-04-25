@@ -1,4 +1,4 @@
-package com.leetcode.L5625;
+package com.leetcode.L1688;
 
 /**
  * 5625. 比赛中的配对次数

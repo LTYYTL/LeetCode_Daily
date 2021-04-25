@@ -1,4 +1,4 @@
-package com.leetcode.L5625;
+package com.leetcode.L1688;
 
 public class CountMatchesTournamentTest {
     public static void main(String[] args) {

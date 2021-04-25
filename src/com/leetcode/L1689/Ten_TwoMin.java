@@ -1,4 +1,4 @@
-package com.leetcode.L5626;
+package com.leetcode.L1689;
 
 /**
  * 5626. 十-二进制数的最少数目

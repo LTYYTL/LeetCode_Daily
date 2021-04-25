@@ -93,8 +93,8 @@
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
-|5626| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L5626/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
-
+|1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
+|1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
 
 
 ## 4. **_动态规划系列_**
@@ -148,6 +148,7 @@
 |701| 二叉搜索树中的插入操作 | [insertIntoBST](src/com/leetcode/L0701/InsertBST.java) | 中等 | 递归、迭代 | 树 |
 |783| 二叉搜索树节点最小距离 | [BSTMinDistance](src/com/leetcode/L0783/BSTMinDistance.java) | 简单 | 递归、迭代 | 树 |
 |814| 二叉树剪枝 | [BinaryTreePruning](src/com/leetcode/L0814/BinaryTreePruning.java) | 中等 | 递归 | 树 |
+|897| 递增顺序搜索树 | [IncreasingOrderSearchTree](src/com/leetcode/L0897/IncreasingOrderSearchTree.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 
 ## 6. **_回溯算法系列_**
@@ -163,7 +164,7 @@
 |78| 子集 | [Subsets](src/com/leetcode/L0078/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|5625| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L5625/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
+|1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 
 ## 7. **_数学方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -185,6 +186,7 @@
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
+|1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -193,6 +195,7 @@
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
 |1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
+|1838| 最高频元素的频数 | [FrequencyMostFrequentElement](src/com/leetcode/L1838/FrequencyMostFrequentElement.java) | 中等 | 滑动窗口 | 滑动窗口 |
 
 ## 9. **_设计系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
