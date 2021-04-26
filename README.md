@@ -34,6 +34,7 @@
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
+|503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
@@ -46,6 +47,7 @@
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
+|1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
@@ -229,3 +231,4 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
