@@ -151,6 +151,7 @@
 |783| 二叉搜索树节点最小距离 | [BSTMinDistance](src/com/leetcode/L0783/BSTMinDistance.java) | 简单 | 递归、迭代 | 树 |
 |814| 二叉树剪枝 | [BinaryTreePruning](src/com/leetcode/L0814/BinaryTreePruning.java) | 中等 | 递归 | 树 |
 |897| 递增顺序搜索树 | [IncreasingOrderSearchTree](src/com/leetcode/L0897/IncreasingOrderSearchTree.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
+|938| 二叉搜索树的范围和 | [RangeSumBST](src/com/leetcode/L0938/RangeSumBST.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 
 ## 6. **_回溯算法系列_**
