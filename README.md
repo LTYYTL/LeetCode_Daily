@@ -180,6 +180,7 @@
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
+|633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
