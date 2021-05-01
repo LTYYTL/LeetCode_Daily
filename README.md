@@ -37,6 +37,7 @@
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
+|690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
@@ -115,6 +116,7 @@
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
+|403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
