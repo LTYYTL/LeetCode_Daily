@@ -175,6 +175,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
+|7| 整数反转 | [ReverseInteger](src/com/leetcode/L0007/ReverseInteger.java) | 简单 | 数学 | 数学 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
