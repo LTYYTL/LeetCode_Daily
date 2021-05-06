@@ -193,6 +193,7 @@
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
+|1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 
