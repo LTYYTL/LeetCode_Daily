@@ -115,6 +115,7 @@
 |264| 丑数 II | [UglyNumberII](src/com/leetcode/L0264/UglyNumberII.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
+|322| 零钱兑换 | [CoinChange](src/com/leetcode/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
@@ -191,6 +192,7 @@
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
 |1006| 笨阶乘 | [ClumsyFactorial](src/com/leetcode/L1006/ClumsyFactorial.java) | 中等 | 栈 | 数学 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
+|1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
