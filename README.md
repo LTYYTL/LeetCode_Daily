@@ -154,6 +154,7 @@
 |701| 二叉搜索树中的插入操作 | [insertIntoBST](src/com/leetcode/L0701/InsertBST.java) | 中等 | 递归、迭代 | 树 |
 |783| 二叉搜索树节点最小距离 | [BSTMinDistance](src/com/leetcode/L0783/BSTMinDistance.java) | 简单 | 递归、迭代 | 树 |
 |814| 二叉树剪枝 | [BinaryTreePruning](src/com/leetcode/L0814/BinaryTreePruning.java) | 中等 | 递归 | 树 |
+|872| 叶子相似的树 | [Leaf_SimilarTrees](src/com/leetcode/L0872/Leaf_SimilarTrees.java) | 简单 | 深度优先搜索 | 树、深度优先搜索 |
 |897| 递增顺序搜索树 | [IncreasingOrderSearchTree](src/com/leetcode/L0897/IncreasingOrderSearchTree.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
 |938| 二叉搜索树的范围和 | [RangeSumBST](src/com/leetcode/L0938/RangeSumBST.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
@@ -196,6 +197,7 @@
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
+|1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 
