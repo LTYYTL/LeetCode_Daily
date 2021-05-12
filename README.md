@@ -40,6 +40,7 @@
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
+|752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
@@ -64,6 +65,8 @@
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
 |83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
 |92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
+|141| 环形链表  | [LinkedListCycle](src/com/leetcode/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
+|142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 
 ## 3. **_字符串系列_**
@@ -135,6 +138,7 @@
 |106| 从中序与后序遍历序列构造二叉树 | [InOrderAndLastOrder](src/com/leetcode/L0106/InOrderAndLastOrder.java) | 中等 | 递归 | 树 |
 |107| [二叉树的层次遍历 II](src/com/leetcode/L0107/LevelOrderII.md) | [LevelOrderII](src/com/leetcode/L0107/LevelOrderII.java) | 简单 | 广度优先搜索 | 树、广度优先搜索 |
 |110| 平衡二叉树 | [AVL](src/com/leetcode/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
+|111| 二叉树的最小深度 | [MinimumDepthBinaryTree](src/com/leetcode/L0111/MinimumDepthBinaryTree.java) | 简单 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索 |
 |112| 路径总和 | [PathSum](src/com/leetcode/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
 |113| 路径总和II | [PathSumII](src/com/leetcode/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
 |116| 填充每个节点的下一个右侧节点指针 | [PopulatingNextRightPointersEachNode](src/com/leetcode/L0116/PopulatingNextRightPointersEachNode.java) | 中等 | 广度优先搜索 | 树、广度优先搜索 |
@@ -193,6 +197,7 @@
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
 |1006| 笨阶乘 | [ClumsyFactorial](src/com/leetcode/L1006/ClumsyFactorial.java) | 中等 | 栈 | 数学 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
+|1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
@@ -234,6 +239,8 @@
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |01.01| 判定字符是否唯一 | [IsUniqueLCCI](src/com/interview/L0101/IsUniqueLCCI.java) | 简单 | set集合、Map映射 | 数组 |
+|02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
 ## 12. **_剑指offer_**
@@ -242,4 +249,5 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
