@@ -38,6 +38,7 @@
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
+|704| 二分查找 | [BinarySearch](src/com/leetcode/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
@@ -125,6 +126,7 @@
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
+|1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 
 ## 5. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -183,6 +185,7 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |7| 整数反转 | [ReverseInteger](src/com/leetcode/L0007/ReverseInteger.java) | 简单 | 数学 | 数学 |
+|12| 整数转罗马数字 | [IntegerRoman](src/com/leetcode/L0012/IntegerRoman.java) | 中等 | 数学 | 数学、字符串 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
