@@ -1,9 +1,6 @@
 package com.leetcode.L0003;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 3. 无重复字符的最长子串
@@ -76,5 +73,43 @@ public class NoRepeatLongestStr {
             map.put(s.charAt(right), right + 1);
         }
         return result;
+    }
+
+    /**
+     * 方法三：滑动窗口
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring_window(String s) {
+
+        //窗口内字符出现的次数
+        Map<Character,Integer> window = new HashMap<>();
+
+        //窗口的左右边界
+        int left = 0,right = 0;
+
+        int res = 0;
+
+        while (right < s.length()){
+            //c是移入窗口的字符
+            char c = s.charAt(right);
+            //右移窗口
+            right++;
+            //进行窗口内数据的一系列更新
+            window.put(c,window.getOrDefault(c,0)+1);
+
+            while (window.get(c).intValue()>1){
+                //d是将移除窗口的字符
+                char d = s.charAt(left);
+                //左移动窗口
+                left++;
+
+                window.put(d,window.get(d)-1);
+            }
+            //更新答案
+            res = Math.max(res,right - left);
+
+        }
+        return res;
     }
 }

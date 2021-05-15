@@ -186,6 +186,7 @@
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |7| 整数反转 | [ReverseInteger](src/com/leetcode/L0007/ReverseInteger.java) | 简单 | 数学 | 数学 |
 |12| 整数转罗马数字 | [IntegerRoman](src/com/leetcode/L0012/IntegerRoman.java) | 中等 | 数学 | 数学、字符串 |
+|13| 罗马数字转整数 | [RomanInteger](src/com/leetcode/L0013/RomanInteger.java) | 简单 | 数学 | 数学、字符串 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
@@ -212,8 +213,11 @@
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|3| 无重复字符的最长子串 | [NoRepeatLongestStr](src/com/leetcode/L0003/NoRepeatLongestStr.java) | 中等 | set集合、Map映射 | 哈希表、双指针、字符串滑动窗口 |
+|3| 无重复字符的最长子串 | [NoRepeatLongestStr](src/com/leetcode/L0003/NoRepeatLongestStr.java) | 中等 | set集合、Map映射、滑动窗口 | 哈希表、双指针、字符串滑、动窗口 |
+|76| 最小覆盖子串 | [MinimumWindowSubstring](src/com/leetcode/L0076/MinimumWindowSubstring.java) | 困难 | 滑动窗口 | 哈希表、双指针、字符串、滑动窗口 |
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
+|438| 找到字符串中所有字母异位词 | [FindAllAnagramsString](src/com/leetcode/L0438/FindAllAnagramsString.java) | 中等 | 滑动窗口 | 哈希表、滑动窗口 |
+|567| 字符串的排列 | [PermutationInString](src/com/leetcode/L0567/PermutationInString.java) | 中等 | 滑动窗口 | 双指针、滑动窗口 |
 |1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1838| 最高频元素的频数 | [FrequencyMostFrequentElement](src/com/leetcode/L1838/FrequencyMostFrequentElement.java) | 中等 | 滑动窗口 | 滑动窗口 |
@@ -253,4 +257,5 @@
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|38| 字符串的排列 | [StringArrangement](src/com/offer/L038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |

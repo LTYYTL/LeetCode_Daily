@@ -11,6 +11,7 @@ public class NoRepeatLongestStrTest {
          */
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring("abcabcbb"));
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_Map("abcabcbb"));
+        System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_window("abcabcbb"));
         /**
          * 示例 2:
          * 输入: "bbbbb"
@@ -19,6 +20,7 @@ public class NoRepeatLongestStrTest {
          */
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring("bbbbb"));
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_Map("bbbbb"));
+        System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_window("bbbbb"));
         /**
          * 示例 3:
          * 输入: "pwwkew"
@@ -26,5 +28,6 @@ public class NoRepeatLongestStrTest {
          */
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring("pwwkew"));
         System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_Map("pwwkew"));
+        System.out.println(noRepeatLongestStr.lengthOfLongestSubstring_window("pwwkew"));
     }
 }
