@@ -31,6 +31,7 @@
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
+|421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
@@ -117,7 +118,7 @@
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
 |264| 丑数 II | [UglyNumberII](src/com/leetcode/L0264/UglyNumberII.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
-|300| 最长上升子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
+|300| 最长递增子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
 |322| 零钱兑换 | [CoinChange](src/com/leetcode/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
@@ -179,6 +180,7 @@
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
+|5759| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L5759/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
 
 ## 7. **_数学方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
