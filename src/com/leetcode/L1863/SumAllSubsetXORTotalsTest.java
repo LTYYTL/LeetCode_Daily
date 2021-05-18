@@ -1,4 +1,4 @@
-package com.leetcode.L5759;
+package com.leetcode.L1863;
 
 public class SumAllSubsetXORTotalsTest {
     public static void main(String[] args) {

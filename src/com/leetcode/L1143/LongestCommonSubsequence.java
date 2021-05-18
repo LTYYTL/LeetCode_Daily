@@ -44,6 +44,7 @@ public class LongestCommonSubsequence {
             char c1 = text1.charAt(i - 1);
             for (int j = 1; j <= n; ++j){
                 char c2 = text2.charAt(j - 1);
+                //状态转移逻辑
                 if (c1 == c2){
                     dp[i][j] = dp[i - 1][j -1] + 1;
                 }else {

@@ -53,6 +53,7 @@
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
+|1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 |1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
@@ -100,9 +101,10 @@
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
-|1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
+|1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
+|1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 
 
 ## 4. **_动态规划系列_**
@@ -112,6 +114,7 @@
 |62| 不同路径 | [UniquePaths](src/com/leetcode/L0062/UniquePaths.java) | 中等 | 动态规划 | 动态规划 |
 |64| 最小路径和 | [MinPathSum](src/com/leetcode/L0064/MinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
 |70| 爬楼梯 | [ClimbStairs](src/com/leetcode/L0070/ClimbStairs.java) | 简单 | 动态规划 | 动态规划 |
+|72| 编辑距离 | [EditDistance](src/com/leetcode/L0072/EditDistance.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |87| 扰乱字符串 | [ScrambleString](src/com/leetcode/L0087/ScrambleString.java) | 困难 | 暴力法、动态规划 | 字符串、动态规划 |
 |91| 解码方法 | [DecodeWays](src/com/leetcode/L0091/DecodeWays.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
@@ -182,7 +185,7 @@
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
-|5759| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L5759/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
+|1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
 
 ## 7. **_数学方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -213,6 +216,7 @@
 |1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
+|1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
 
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
