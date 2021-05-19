@@ -54,6 +54,7 @@
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
+|1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 |1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
@@ -128,6 +129,7 @@
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
+|516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
@@ -194,6 +196,7 @@
 |7| 整数反转 | [ReverseInteger](src/com/leetcode/L0007/ReverseInteger.java) | 简单 | 数学 | 数学 |
 |12| 整数转罗马数字 | [IntegerRoman](src/com/leetcode/L0012/IntegerRoman.java) | 中等 | 数学 | 数学、字符串 |
 |13| 罗马数字转整数 | [RomanInteger](src/com/leetcode/L0013/RomanInteger.java) | 简单 | 数学 | 数学、字符串 |
+|50| Pow(x, n) | [Pow](src/com/leetcode/L0050/Pow.java) | 中等 | 数学 | 数学、二分查找 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
