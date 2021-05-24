@@ -33,12 +33,14 @@
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
+|455| 分发饼干 | [AssignCookies](src/com/leetcode/L0455/AssignCookies.java) | 简单 | 贪心算法 | 贪心算法 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
+|692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
@@ -48,6 +50,7 @@
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |867| 转置矩阵 | [TransposeMatrix](src/com/leetcode/L0867/TransposeMatrix.java) | 简单 | 模拟 | 数组 |
+|905| 按奇偶排序数组 | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 双指针 | 数组 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
@@ -81,6 +84,7 @@
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
+|71| 简化路径 | [SimplifyPath](src/com/leetcode/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |150| 逆波兰表达式求值 | [EvaluateReversePolishNotation](src/com/leetcode/L0150/EvaluateReversePolishNotation.java) | 中等  | 栈 | 字符串、栈 |
 |224| 基本计算器 | [BasicCalculator](src/com/leetcode/L0224/BasicCalculator.java) | 困难  | 栈 | 栈、数学 |
@@ -99,6 +103,7 @@
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
+|990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
@@ -130,8 +135,10 @@
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
+|664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
+|1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 
@@ -202,10 +209,12 @@
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
+|504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
 |633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
+|810| 黑板异或游戏 | [ChalkboardXORGame](src/com/leetcode/L0810/ChalkboardXORGame.java) | 困难 | 数学 | 数学 |
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
@@ -241,6 +250,7 @@
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
+|1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
 
 ## 10. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |

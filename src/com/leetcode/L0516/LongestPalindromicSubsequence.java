@@ -1,5 +1,7 @@
 package com.leetcode.L0516;
 
+import java.util.Arrays;
+
 /**
  * 516. 最长回文子序列
  * 给定一个字符串 s ，找到其中最长的回文子序列，并返回该序列的长度。可以假设 s 的最大长度为 1000 。
@@ -44,5 +46,32 @@ public class LongestPalindromicSubsequence {
             }
         }
         return dp[0][length - 1];
+    }
+
+    /**
+     * 方法：动态规划+状态压缩
+     * @param s
+     * @return
+     */
+    public int longestPalindromeSubseq_dp(String s) {
+        int length = s.length();
+        int[] dp = new int[length];
+        Arrays.fill(dp,1);
+        //这里i要从最后一个开始遍历
+        for (int i = length - 2; i >= 0; i--) {
+            int pre = 0;
+            //j从i的下一个开始
+            for (int j = i + 1; j < length; j++) {
+                int temp = dp[j];
+                //下面是递推公式
+                if (s.charAt(i) == s.charAt(j)) {
+                    dp[j] = pre + 2;
+                } else {
+                    dp[j] = Math.max(dp[j], dp[j - 1]);
+                }
+                pre = temp;
+            }
+        }
+        return dp[length - 1];
     }
 }
