@@ -21,6 +21,7 @@
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
+|136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
@@ -117,6 +118,7 @@
 ## 4. **_动态规划系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|10| 正则表达式匹配 | [RegularExpressionMatching](src/com/leetcode/L0010/RegularExpressionMatching.java) | 困难 | 动态规划 | 字符串、动态规划、回溯算法 |
 |53| 最大子序和 | [MaxSequenceSum](src/com/leetcode/L0053/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |62| 不同路径 | [UniquePaths](src/com/leetcode/L0062/UniquePaths.java) | 中等 | 动态规划 | 动态规划 |
 |64| 最小路径和 | [MinPathSum](src/com/leetcode/L0064/MinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
@@ -212,6 +214,7 @@
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
+|477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
