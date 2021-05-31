@@ -142,6 +142,7 @@
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
+|1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 |1312| 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难 | 动态规划 | 动态规划 |
@@ -212,7 +213,9 @@
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
+|231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
+|342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
@@ -275,6 +278,7 @@
 |01.01| 判定字符是否唯一 | [IsUniqueLCCI](src/com/interview/L0101/IsUniqueLCCI.java) | 简单 | set集合、Map映射 | 数组 |
 |02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
+|16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
 ## 12. **_剑指offer_**
