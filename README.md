@@ -38,6 +38,7 @@
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
+|523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
@@ -63,6 +64,7 @@
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 |1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
 |1834| 单线程 CPU | [SingleThreadedCPU](src/com/leetcode/L1834/SingleThreadedCPU.java) | 中等 | 堆 | 数组、堆 |
+|1877| 数组中最大数对和的最小值 | [MinimizeMaximumPairSumArray](src/com/leetcode/L1877/MinimizeMaximumPairSumArray.java) | 中等 | 排序 | 贪心算法、排序 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -113,6 +115,7 @@
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
+|1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 
 
 ## 4. **_动态规划系列_**
@@ -215,7 +218,7 @@
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
-|342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
+|342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算    |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
@@ -235,6 +238,7 @@
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
 |1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
+|1744| 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | [EatFavoriteCandyOnFavoriteDay](src/com/leetcode/L1744/EatFavoriteCandyOnFavoriteDay.java) | 中等 | 数学 | 数学 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 |1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
