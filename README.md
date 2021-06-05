@@ -39,6 +39,7 @@
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
+|525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
@@ -65,6 +66,7 @@
 |1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
 |1834| 单线程 CPU | [SingleThreadedCPU](src/com/leetcode/L1834/SingleThreadedCPU.java) | 中等 | 堆 | 数组、堆 |
 |1877| 数组中最大数对和的最小值 | [MinimizeMaximumPairSumArray](src/com/leetcode/L1877/MinimizeMaximumPairSumArray.java) | 中等 | 排序 | 贪心算法、排序 |
+|1882| 使用服务器处理任务 | [ProcessTasksUsingServers](src/com/leetcode/L1882/ProcessTasksUsingServers.java) | 中等 | 堆 | 堆 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -77,6 +79,8 @@
 |92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
 |142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
+|160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
+|203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 
 ## 3. **_字符串系列_**
@@ -116,6 +120,7 @@
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
+|1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
 
 
 ## 4. **_动态规划系列_**
@@ -144,6 +149,7 @@
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
+|887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
@@ -242,6 +248,7 @@
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 |1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
+|1880| 检查某单词是否等于两单词之和 | [CheckWordEqualsSummationTwoWords](src/com/leetcode/L1880/CheckWordEqualsSummationTwoWords.java) | 简单 | 数学 | 字符串 |
 
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
