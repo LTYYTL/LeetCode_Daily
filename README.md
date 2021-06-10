@@ -140,12 +140,15 @@
 |264| 丑数 II | [UglyNumberII](src/com/leetcode/L0264/UglyNumberII.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |300| 最长递增子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
+|312| 戳气球 | [BurstBalloons](src/com/leetcode/L0312/BurstBalloons.java) | 困难 | 动态规划 | 动态规划 |
 |322| 零钱兑换 | [CoinChange](src/com/leetcode/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
 |354| 俄罗斯套娃信封问题 | [RussianDollEnvelopes](src/com/leetcode/L0354/RussianDollEnvelopes.java) | 困难 | 动态规划 | 动态规划、二分查找 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
+|474| 一和零 | [OnesAndZeroes](src/com/leetcode/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
+|518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0516/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
