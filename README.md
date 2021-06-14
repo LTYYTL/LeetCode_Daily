@@ -25,6 +25,7 @@
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
+|278| 第一个错误的版本 | [FirstBadVersion](src/com/leetcode/L0278/FirstBadVersion.java) | 简单 | 二分查找 | 二分查找 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
 |344| 字符串反转 | [ReverseString](src/com/leetcode/L0344/ReverseString.java) | 简单 | 双指针 | 数组、双指针 |
@@ -32,6 +33,7 @@
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
+|374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |455| 分发饼干 | [AssignCookies](src/com/leetcode/L0455/AssignCookies.java) | 简单 | 贪心算法 | 贪心算法 |
