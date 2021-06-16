@@ -155,6 +155,7 @@
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
+|877| 石子游戏 | [StoneGame](src/com/leetcode/L0746/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
 |887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
