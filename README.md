@@ -25,6 +25,7 @@
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
+|240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
 |278| 第一个错误的版本 | [FirstBadVersion](src/com/leetcode/L0278/FirstBadVersion.java) | 简单 | 二分查找 | 二分查找 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
@@ -276,6 +277,7 @@
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
+|1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
 |1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
 
@@ -302,9 +304,17 @@
 ## 12. **_剑指offer_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|03| 数组中重复的数字 | [RepeatedNumbersArray](src/com/offer/L003/RepeatedNumbersArray.java) | 简单 | set集合、排序 | 数组、哈希表 |
+|04| 二维数组中的查找 | [FindToArray](src/com/offer/L004/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
+
+## 13. **_微软题_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|LSP01| 下载插件 | [DownloadPlugin](src/com/LSP/L0001/DownloadPlugin.java) | 简单 | 数学 | -- |
+|LSP02| 完成一半题目 | [CompleteHalfProblem](src/com/LSP/L0002/CompleteHalfProblem.java) | 简单 | map映射+排序 | -- |
