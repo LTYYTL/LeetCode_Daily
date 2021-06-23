@@ -233,6 +233,7 @@
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算    |
+|401| 二进制手表 | [BinaryWatch](src/com/leetcode/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
@@ -309,6 +310,7 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
