@@ -52,6 +52,7 @@
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
+|773| 滑动谜题 | [SlidingPuzzle](src/com/leetcode/L0773/SlidingPuzzle.java) | 困难 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
 |852| 山脉数组的峰顶索引 | [PeakIndexMountainArray](src/com/leetcode/L0852/PeakIndexMountainArray.java) | 简单 | 二分查找 | 二分查找 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
