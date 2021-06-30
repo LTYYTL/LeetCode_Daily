@@ -282,6 +282,7 @@
 |208| 实现 Trie (前缀树) | [Trie](src/com/leetcode/L0208/Trie.java) | 中等 | 前缀树 | 字典树、设计 |
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
+|297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
@@ -317,6 +318,7 @@
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|37| 序列化二叉树 | [Codec](src/com/offer/L037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 
