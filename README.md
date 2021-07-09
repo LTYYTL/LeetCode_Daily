@@ -45,6 +45,7 @@
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
+|645| 错误的集合 | [SetMismatch](src/com/leetcode/L0645/SetMismatch.java) | 简单 | set集合 | 数组、哈希表、排序、位运算 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
@@ -66,7 +67,9 @@
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
+|1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
+|1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
@@ -111,6 +114,7 @@
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
+|726| 原子的数量 | [NumberAtoms](src/com/leetcode/L0726/NumberAtoms.java) | 困难 | map映射 | 字符串、栈、哈希表 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
 |771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
@@ -273,6 +277,7 @@
 |239| 滑动窗口最大值 | [SlidingWindowMax](src/com/leetcode/L0239/SlidingWindowMax.java) | 困难 | 滑动窗口 | 堆、滑动窗口 |
 |438| 找到字符串中所有字母异位词 | [FindAllAnagramsString](src/com/leetcode/L0438/FindAllAnagramsString.java) | 中等 | 滑动窗口 | 哈希表、滑动窗口 |
 |567| 字符串的排列 | [PermutationInString](src/com/leetcode/L0567/PermutationInString.java) | 中等 | 滑动窗口 | 双指针、滑动窗口 |
+|930| 和相同的二元子数组 | [BinarySubarraysWithSum](src/com/leetcode/L0930/BinarySubarraysWithSum.java) | 中等 | 滑动窗口、Map映射 | 数组、哈希表、前缀和、滑动窗口 |
 |1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1838| 最高频元素的频数 | [FrequencyMostFrequentElement](src/com/leetcode/L1838/FrequencyMostFrequentElement.java) | 中等 | 滑动窗口 | 滑动窗口 |
@@ -308,6 +313,7 @@
 |02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
+|17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
 ## 12. **_剑指offer_**
