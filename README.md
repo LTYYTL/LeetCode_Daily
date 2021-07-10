@@ -290,6 +290,7 @@
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
+|981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
 |1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
