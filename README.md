@@ -26,6 +26,7 @@
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
+|274| H 指数 | [HIndex](src/com/leetcode/L0274/HIndex.java) | 中等 | 计数、排序 | 数组、排序、计数排序 |
 |278| 第一个错误的版本 | [FirstBadVersion](src/com/leetcode/L0278/FirstBadVersion.java) | 简单 | 二分查找 | 二分查找 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
