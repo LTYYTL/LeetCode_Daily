@@ -25,8 +25,10 @@
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
+|218| 天际线问题 | [TheSkylineProblem](src/com/leetcode/L0218/TheSkylineProblem.java) | 困难 | 扫描线 | 数组、分治、堆、扫描线、线段树 |
 |240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
 |274| H 指数 | [HIndex](src/com/leetcode/L0274/HIndex.java) | 中等 | 计数、排序 | 数组、排序、计数排序 |
+|275| H 指数II | [HIndexII](src/com/leetcode/L0275/HIndexII.java) | 中等 | 遍历、二分查找 | 数组、二分查找|
 |278| 第一个错误的版本 | [FirstBadVersion](src/com/leetcode/L0278/FirstBadVersion.java) | 简单 | 二分查找 | 二分查找 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
