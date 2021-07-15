@@ -79,6 +79,7 @@
 |1818| 绝对差值和 | [MinimumAbsoluteSumDifference](src/com/leetcode/L1818/MinimumAbsoluteSumDifference.java) | 中等 | 二分查找 | 数组、贪心算法、二分查找、有序集合 |
 |1833| 雪糕的最大数量 | [MaximumIceCreamBars](src/com/leetcode/L1833/MaximumIceCreamBars.java) | 中等 | 排序 | 数组、排序 |
 |1834| 单线程 CPU | [SingleThreadedCPU](src/com/leetcode/L1834/SingleThreadedCPU.java) | 中等 | 堆 | 数组、堆 |
+|1846| 减小和重新排列数组后的最大元素 | [MaximumElementAfterDecreasingRearranging](src/com/leetcode/L1846/MaximumElementAfterDecreasingRearranging.java) | 中等 | 排序、计数 | 数组、排序、贪心 |
 |1877| 数组中最大数对和的最小值 | [MinimizeMaximumPairSumArray](src/com/leetcode/L1877/MinimizeMaximumPairSumArray.java) | 中等 | 排序 | 贪心算法、排序 |
 |1882| 使用服务器处理任务 | [ProcessTasksUsingServers](src/com/leetcode/L1882/ProcessTasksUsingServers.java) | 中等 | 堆 | 堆 |
 
