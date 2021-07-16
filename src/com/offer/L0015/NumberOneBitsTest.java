@@ -1,4 +1,4 @@
-package com.offer.L015;
+package com.offer.L0015;
 
 public class NumberOneBitsTest {
     public static void main(String[] args) {

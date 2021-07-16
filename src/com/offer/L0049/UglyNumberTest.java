@@ -1,4 +1,4 @@
-package com.offer.L049;
+package com.offer.L0049;
 
 public class UglyNumberTest {
     public static void main(String[] args) {

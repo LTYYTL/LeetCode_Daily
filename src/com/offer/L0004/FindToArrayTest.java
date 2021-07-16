@@ -1,4 +1,4 @@
-package com.offer.L004;
+package com.offer.L0004;
 
 public class FindToArrayTest {
     public static void main(String[] args) {

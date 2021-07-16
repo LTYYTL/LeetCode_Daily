@@ -1,4 +1,4 @@
-package com.offer.L003;
+package com.offer.L0003;
 
 public class RepeatedNumbersArrayTest {
     public static void main(String[] args) {

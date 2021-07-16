@@ -1,4 +1,4 @@
-package com.offer.L005;
+package com.offer.L0005;
 
 /**
  * 剑指 Offer 05. 替换空格

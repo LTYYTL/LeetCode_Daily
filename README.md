@@ -165,11 +165,11 @@
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |474| 一和零 | [OnesAndZeroes](src/com/leetcode/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
-|518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0516/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
+|518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
-|877| 石子游戏 | [StoneGame](src/com/leetcode/L0746/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
+|877| 石子游戏 | [StoneGame](src/com/leetcode/L0877/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
 |887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
@@ -325,16 +325,17 @@
 ## 12. **_剑指offer_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|03| 数组中重复的数字 | [RepeatedNumbersArray](src/com/offer/L003/RepeatedNumbersArray.java) | 简单 | set集合、排序 | 数组、哈希表 |
-|04| 二维数组中的查找 | [FindToArray](src/com/offer/L004/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
-|05| 替换空格 | [ReplaceSpaces](src/com/offer/L005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
-|06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
-|09| 用两个栈实现队列 | [CQueue](src/com/offer/L009/CQueue.java) | 简单 | 栈 | 栈、设计 |
-|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
-|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
-|37| 序列化二叉树 | [Codec](src/com/offer/L037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
-|38| 字符串的排列 | [StringArrangement](src/com/offer/L038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
-|49| 丑数 | [UglyNumber](src/com/offer/L049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
+|03| 数组中重复的数字 | [RepeatedNumbersArray](src/com/offer/L0003/RepeatedNumbersArray.java) | 简单 | set集合、排序 | 数组、哈希表 |
+|04| 二维数组中的查找 | [FindToArray](src/com/offer/L0004/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
+|05| 替换空格 | [ReplaceSpaces](src/com/offer/L0005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
+|06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
+|09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
+|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
+|49| 丑数 | [UglyNumber](src/com/offer/L0049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
+|53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 
 ## 13. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |

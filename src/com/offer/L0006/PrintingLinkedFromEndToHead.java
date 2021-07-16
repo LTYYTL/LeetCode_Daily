@@ -1,4 +1,4 @@
-package com.offer.L006;
+package com.offer.L0006;
 
 import com.util.ListNode;
 

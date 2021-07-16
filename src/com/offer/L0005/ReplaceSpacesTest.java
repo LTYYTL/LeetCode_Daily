@@ -1,4 +1,4 @@
-package com.offer.L005;
+package com.offer.L0005;
 
 
 public class ReplaceSpacesTest {
