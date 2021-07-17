@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**275**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**290**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -334,6 +334,7 @@
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
+|42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0042/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L0049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 
