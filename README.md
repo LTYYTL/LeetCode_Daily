@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**292**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**293**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -92,6 +92,7 @@
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
 |83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
 |92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
+|138| 复制带随机指针的链表  | [CopyListRandomPointer](src/com/leetcode/L0138/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
 |142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
