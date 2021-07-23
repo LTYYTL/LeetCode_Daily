@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**293**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**294**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -274,6 +274,7 @@
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
 |1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
 |1880| 检查某单词是否等于两单词之和 | [CheckWordEqualsSummationTwoWords](src/com/leetcode/L1880/CheckWordEqualsSummationTwoWords.java) | 简单 | 数学 | 字符串 |
+|1893| 检查是否区域内所有整数都被覆盖 | [CheckAllIntegersRangeAreCovered](src/com/leetcode/L1893/CheckAllIntegersRangeAreCovered.java) | 简单 | set集合、映射 | 数组、哈希表、前缀和 |
 
 ## 8. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
