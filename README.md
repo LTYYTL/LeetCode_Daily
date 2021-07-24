@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**294**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**295**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -134,6 +134,7 @@
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
+|1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
