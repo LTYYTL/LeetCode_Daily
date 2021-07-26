@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**296**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**297**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -73,6 +73,7 @@
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
+|1713| 得到子序列的最少操作次数 | [MinimumOperationsMakeSubsequence](src/com/leetcode/L1713/MinimumOperationsMakeSubsequence.java) | 困难 | 二分查找 | 数组、哈希表、贪心算法、二分查找 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
 |1743| 从相邻元素对还原数组 | [RestoreArrayFromAdjacentPairs](src/com/leetcode/L1743/RestoreArrayFromAdjacentPairs.java) | 中等 |Map映射 | 数组、哈希表 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
