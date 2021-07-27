@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**297**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**298**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -209,6 +209,7 @@
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
+|671| 二叉树中第二小的节点 | [SecondMinimumNodeInBinaryTree](src/com/leetcode/L0671/SecondMinimumNodeInBinaryTree.java) | 简单 | 深度优先搜索、set集合 | 树、二叉树、深度优先搜索 |
 |700| 二叉搜索树中的搜索 | [SearchBST](src/com/leetcode/L0700/SearchBST.java) | 简单 | 递归、迭代 | 树 |
 |701| 二叉搜索树中的插入操作 | [insertIntoBST](src/com/leetcode/L0701/InsertBST.java) | 中等 | 递归、迭代 | 树 |
 |783| 二叉搜索树节点最小距离 | [BSTMinDistance](src/com/leetcode/L0783/BSTMinDistance.java) | 简单 | 递归、迭代 | 树 |
