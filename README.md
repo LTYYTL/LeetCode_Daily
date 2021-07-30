@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**300**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**301**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -250,6 +250,7 @@
 |66| 加一 | [AddOne](src/com/leetcode/L0066/AddOne.java) | 简单 | 数学 | 数组 |
 |149| 直线上最多的点数 | [MaxPointsLine](src/com/leetcode/L0149/MaxPointsLine.java) | 困难 | 数学 | 几何、哈希表、数学 |
 |168| Excel表列名称 | [ExcelSheetColumnTitle](src/com/leetcode/L0168/ExcelSheetColumnTitle.java) | 简单 | 数学 | 字符串、数学 |
+|171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
