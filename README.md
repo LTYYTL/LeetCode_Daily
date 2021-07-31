@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**301**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**302**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -218,6 +218,7 @@
 |872| 叶子相似的树 | [Leaf_SimilarTrees](src/com/leetcode/L0872/Leaf_SimilarTrees.java) | 简单 | 深度优先搜索 | 树、深度优先搜索 |
 |897| 递增顺序搜索树 | [IncreasingOrderSearchTree](src/com/leetcode/L0897/IncreasingOrderSearchTree.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
 |938| 二叉搜索树的范围和 | [RangeSumBST](src/com/leetcode/L0938/RangeSumBST.java) | 简单 | 递归、迭代 | 树、递归、深度优先搜索 |
+|987| 二叉树的垂序遍历 | [VerticalOrderTraversalBinaryTree](src/com/leetcode/L0987/VerticalOrderTraversalBinaryTree.java) | 困难 | 深度优先搜索 | 树、深度优先搜索、广度优先搜索、二叉树、哈希表 |
 |993| 二叉树的堂兄弟节点 | [CousinsBinaryTree](src/com/leetcode/L0993/CousinsBinaryTree.java) | 简单 | 深度优先搜索、广度优先搜索 | 树、广度优先搜索 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 |1104| 二叉树寻路 | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1104/PathInZigzagLabelledBinaryTree.java) | 中等 | 数学 | 树、二叉树、数学 |
