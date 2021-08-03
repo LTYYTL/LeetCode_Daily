@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**304**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**305**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -46,6 +46,7 @@
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
+|581| 最短无序连续子数组 | [ShortestUnsortedContinuousSubarray](src/com/leetcode/L0581/ShortestUnsortedContinuousSubarray.java) | 中等 | 排序 | 数组、栈、贪心算法、排序、单调栈、双指针 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |645| 错误的集合 | [SetMismatch](src/com/leetcode/L0645/SetMismatch.java) | 简单 | set集合 | 数组、哈希表、排序、位运算 |
