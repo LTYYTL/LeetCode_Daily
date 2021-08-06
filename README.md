@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**307**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**308**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -192,6 +192,7 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+|847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
 
 ## 6. **_动态规划系列_**
