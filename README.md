@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**309**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**310**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -229,6 +229,7 @@
 |887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
+|1137| 第 N 个泰波那契数 | [NTribonacciNumber](src/com/leetcode/L1137/NTribonacciNumber.java) | 简单 | 动态规划 | 动态规划、数学、记忆化搜索 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 |1312| 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难 | 动态规划 | 动态规划 |
