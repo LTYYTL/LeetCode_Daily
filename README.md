@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**310**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**311**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -214,6 +214,7 @@
 |300| 最长递增子序列 | [LongestAscSequence](src/com/leetcode/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L0303/NumArray.java) | 简单 | 动态规划 | 动态规划 |
 |312| 戳气球 | [BurstBalloons](src/com/leetcode/L0312/BurstBalloons.java) | 困难 | 动态规划 | 动态规划 |
+|313| 超级丑数 | [SuperUglyNumber](src/com/leetcode/L0313/SuperUglyNumber.java) | 中等 | 堆、动态规划 | 数组、哈希表、堆、动态规划、数学 |
 |322| 零钱兑换 | [CoinChange](src/com/leetcode/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
 |354| 俄罗斯套娃信封问题 | [RussianDollEnvelopes](src/com/leetcode/L0354/RussianDollEnvelopes.java) | 困难 | 动态规划 | 动态规划、二分查找 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
