@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**311**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**312**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -219,6 +219,7 @@
 |354| 俄罗斯套娃信封问题 | [RussianDollEnvelopes](src/com/leetcode/L0354/RussianDollEnvelopes.java) | 困难 | 动态规划 | 动态规划、二分查找 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
+|413| 等差数列划分 | [ArithmeticSlices](src/com/leetcode/L0413/ArithmeticSlices.java) | 中等 | 动态规划 | 数组、动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |474| 一和零 | [OnesAndZeroes](src/com/leetcode/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
