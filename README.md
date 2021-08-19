@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**312**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**320**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -76,6 +76,7 @@
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
+|1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
 |1713| 得到子序列的最少操作次数 | [MinimumOperationsMakeSubsequence](src/com/leetcode/L1713/MinimumOperationsMakeSubsequence.java) | 困难 | 二分查找 | 数组、哈希表、贪心算法、二分查找 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
@@ -121,10 +122,12 @@
 |290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |330| 按要求补齐数组 | [PatchingArray](src/com/leetcode/L0330/PatchingArray.java) | 困难 | 贪心算法 | 贪心算法 |
+|345| 反转字符串中的元音字母 | [ReverseVowelsString](src/com/leetcode/L0345/ReverseVowelsString.java) | 简单 | 双指针 | 字符串、双指针 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
+|551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |726| 原子的数量 | [NumberAtoms](src/com/leetcode/L0726/NumberAtoms.java) | 困难 | map映射 | 字符串、栈、哈希表 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
@@ -221,9 +224,12 @@
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |413| 等差数列划分 | [ArithmeticSlices](src/com/leetcode/L0413/ArithmeticSlices.java) | 中等 | 动态规划 | 数组、动态规划 |
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
+|446| 等差数列划分 II - 子序列 | [ArithmeticSlicesII_Subsequence](src/com/leetcode/L0446/ArithmeticSlicesII_Subsequence.java) | 困难 | 动态规划 | 数组、动态规划 |
 |474| 一和零 | [OnesAndZeroes](src/com/leetcode/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
+|552| 学生出勤记录 II | [CoinChange2](src/com/leetcode/L0552/StudentAttendanceRecordII.java) | 困难 | 动态规划 | 动态规划 |
+|576| 出界的路径数 | [OutBoundaryPaths](src/com/leetcode/L0576/OutBoundaryPaths.java) | 中等 | 动态规划 | 动态规划 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
@@ -249,6 +255,7 @@
 |78| 子集 | [Subsets](src/com/leetcode/L0078/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
 
@@ -268,6 +275,7 @@
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
+|233| 数字 1 的个数 | [NumberDigitOne](src/com/leetcode/L0233/NumberDigitOne.java) | 中等 | 数学 | 数学、递归、动态规划 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算    |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
