@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**320**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**322**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -126,7 +126,9 @@
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
+|443| 压缩字符串 | [StringCompression](src/com/leetcode/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
+|541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |726| 原子的数量 | [NumberAtoms](src/com/leetcode/L0726/NumberAtoms.java) | 困难 | map映射 | 字符串、栈、哈希表 |
@@ -376,3 +378,11 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |LSP01| 下载插件 | [DownloadPlugin](src/com/LSP/L0001/DownloadPlugin.java) | 简单 | 数学 | -- |
 |LSP02| 完成一半题目 | [CompleteHalfProblem](src/com/LSP/L0002/CompleteHalfProblem.java) | 简单 | map映射+排序 | -- |
+
+## 15. **_美团题（未计总数）_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|L001| 小美的用户名 | [XiaomeiUsername](src/com/meituan/L001/XiaomeiUsername.java) | 简单 | 模拟 | -- |
+|L002| 小美的仓库整理 | [XiaomeiWarehouseConsolidation](src/com/meituan/L002/XiaomeiWarehouseConsolidation.java) | 中等 | 前缀和 | -- |
+|L003| 小美的跑腿代购 | [XiaomeiErrandShopping](src/com/meituan/L003/XiaomeiErrandShopping.java) | 简单 | 堆 | -- |
+|L004| 小团的复制粘贴 | [CopyPast](src/com/meituan/L004/CopyPast.java) | 困难 | 模拟 | -- |
