@@ -63,7 +63,7 @@ import java.io.*;
  * 1 <= m <= 2000
  * 请注意，本题需要自行编写「标准输入」和「标准输出」逻辑，以及自行 import/include 需要的 library。了解书写规则
  */
-public class CopyPast {
+public class XiaoTuanCopyPast {
 
     /**
      * 方法：模拟

@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**322**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**324**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -138,6 +138,7 @@
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
+|856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
@@ -288,6 +289,7 @@
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
 |633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
+|789| 逃脱阻碍者 | [EscapeTheGhosts](src/com/leetcode/L0789/EscapeTheGhosts.java) | 中等 | 数学 | 数组、数学 |
 |810| 黑板异或游戏 | [ChalkboardXORGame](src/com/leetcode/L0810/ChalkboardXORGame.java) | 困难 | 数学 | 数学 |
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
@@ -385,4 +387,6 @@
 |L001| 小美的用户名 | [XiaomeiUsername](src/com/meituan/L001/XiaomeiUsername.java) | 简单 | 模拟 | -- |
 |L002| 小美的仓库整理 | [XiaomeiWarehouseConsolidation](src/com/meituan/L002/XiaomeiWarehouseConsolidation.java) | 中等 | 前缀和 | -- |
 |L003| 小美的跑腿代购 | [XiaomeiErrandShopping](src/com/meituan/L003/XiaomeiErrandShopping.java) | 简单 | 堆 | -- |
-|L004| 小团的复制粘贴 | [CopyPast](src/com/meituan/L004/CopyPast.java) | 困难 | 模拟 | -- |
+|L004| 小团的复制粘贴 | [XiaoTuanCopyPast](src/com/meituan/L004/XiaoTuanCopyPast.java) | 困难 | 模拟 | -- |
+|L005| 小美的区域会议 | [XiaomeiRegionalConference](src/com/meituan/L005/XiaomeiRegionalConference.java) | 困难 | 深度优先搜索 | -- |
+|L006| 小团的神秘暗号 | [XiaoTuanMysteryCode](src/com/meituan/L006/XiaoTuanMysteryCode.java) | 简单 | 双指针 | -- |
