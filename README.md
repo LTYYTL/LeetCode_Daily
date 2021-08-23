@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**324**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**328**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -77,6 +77,7 @@
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
+|1646| 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1646/GetMaximumGeneratedArray.java) | 简单 | 模拟 | 数组、模拟、动态规划 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
 |1713| 得到子序列的最少操作次数 | [MinimumOperationsMakeSubsequence](src/com/leetcode/L1713/MinimumOperationsMakeSubsequence.java) | 困难 | 二分查找 | 数组、哈希表、贪心算法、二分查找 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
@@ -325,6 +326,7 @@
 ## 10. **_设计系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|146| LRU 缓存机制 | [LRUCache](src/com/leetcode/L0146/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |208| 实现 Trie (前缀树) | [Trie](src/com/leetcode/L0208/Trie.java) | 中等 | 前缀树 | 字典树、设计 |
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
@@ -355,6 +357,7 @@
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
+|16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
@@ -375,6 +378,11 @@
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0052/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 
+## 13. **_剑指offer_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|031| 最近最少使用缓存 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
+
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
@@ -390,3 +398,5 @@
 |L004| 小团的复制粘贴 | [XiaoTuanCopyPast](src/com/meituan/L004/XiaoTuanCopyPast.java) | 困难 | 模拟 | -- |
 |L005| 小美的区域会议 | [XiaomeiRegionalConference](src/com/meituan/L005/XiaomeiRegionalConference.java) | 困难 | 深度优先搜索 | -- |
 |L006| 小团的神秘暗号 | [XiaoTuanMysteryCode](src/com/meituan/L006/XiaoTuanMysteryCode.java) | 简单 | 双指针 | -- |
+|L007| 小团的选调计划 | [XiaoTuanSelectionPlan](src/com/meituan/L007/XiaoTuanSelectionPlan.java) | 简单 | 模拟 | -- |
+|L008| 小团无路可逃 | [XiaoTuanNoWayEscape](src/com/meituan/L008/XiaoTuanNoWayEscape.java) | 中等 | 广度优先搜索 | -- |
