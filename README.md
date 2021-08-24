@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**328**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**329**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -199,6 +199,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
+|787| K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L0787/CheapestFlightsWithinKStops.java) | 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
@@ -331,6 +332,7 @@
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|460| LFU 缓存 | [LFUCache](src/com/leetcode/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |？
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
@@ -378,7 +380,7 @@
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0052/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 
-## 13. **_剑指offer_**
+## 13. **_剑指offerII_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |031| 最近最少使用缓存 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
@@ -400,3 +402,5 @@
 |L006| 小团的神秘暗号 | [XiaoTuanMysteryCode](src/com/meituan/L006/XiaoTuanMysteryCode.java) | 简单 | 双指针 | -- |
 |L007| 小团的选调计划 | [XiaoTuanSelectionPlan](src/com/meituan/L007/XiaoTuanSelectionPlan.java) | 简单 | 模拟 | -- |
 |L008| 小团无路可逃 | [XiaoTuanNoWayEscape](src/com/meituan/L008/XiaoTuanNoWayEscape.java) | 中等 | 广度优先搜索 | -- |
+|L009| 小团的装饰物 | [XiaoTuanDecoration](src/com/meituan/L009/XiaoTuanDecoration.java) | 中等 | 动态规划 | -- |
+|L010| 小团的默契游戏 | [XiaoTuanTacitGame](src/com/meituan/L010/XiaoTuanTacitGame.java) | 简单 | 二分查找 | -- |
