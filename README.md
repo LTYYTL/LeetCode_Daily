@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**329**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**330**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -95,6 +95,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |19| 删除链表的倒数第N个节点 | [DeleteNode](src/com/leetcode/L0019/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
+|21| 合并两个有序链表 | [MergeTwoSortedLists](src/com/leetcode/L0021/MergeTwoSortedLists.java) | 简单 | 双指针 | 链表、递归 |？
 |23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
@@ -106,6 +107,7 @@
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
+|876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |？
 
 ## 3. **_字符串系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -200,6 +202,7 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 |787| K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L0787/CheapestFlightsWithinKStops.java) | 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
+|797| 所有可能的路径 | [AllPathsFromSourceTarget](src/com/leetcode/L0797/AllPathsFromSourceTarget.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
@@ -404,3 +407,6 @@
 |L008| 小团无路可逃 | [XiaoTuanNoWayEscape](src/com/meituan/L008/XiaoTuanNoWayEscape.java) | 中等 | 广度优先搜索 | -- |
 |L009| 小团的装饰物 | [XiaoTuanDecoration](src/com/meituan/L009/XiaoTuanDecoration.java) | 中等 | 动态规划 | -- |
 |L010| 小团的默契游戏 | [XiaoTuanTacitGame](src/com/meituan/L010/XiaoTuanTacitGame.java) | 简单 | 二分查找 | -- |
+|L011| 搭配出售 | [SoldWith](src/com/meituan/L011/SoldWith.java) | 中等 | 贪心算法 | -- |
+|L012| 小美的书架 | [XiaomeiBookshelf](src/com/meituan/L012/XiaomeiBookshelf.java) | 中等 | 模拟 | -- |
+|L013| 偏爱字母 | [PreferenceLetter](src/com/meituan/L013/PreferenceLetter.java) | 中等 | 动态规划 | -- |
