@@ -47,6 +47,9 @@ public class HouseRobber {
         }
         //房子的总数
         int len = nums.length;
+        if (len == 1) {
+            return nums[0];
+        }
         //构建状态方程，表示偷取至第i个房间的最大收益
         int[] dp = new int[len];
         //只有一间房子的情况
@@ -79,6 +82,9 @@ public class HouseRobber {
         }
         //房子的总数
         int len = nums.length;
+        if (len == 1) {
+            return nums[0];
+        }
         //只有一间房子的情:nums[0];
         //有两间房子的情况
         nums[1] = Math.max(nums[0],nums[1]);
