@@ -19,39 +19,35 @@ package com.LCP.L0029;
  * 0 <= Xpos, Ypos < num
  */
 public class OrchestraPosition {
-
+    /**
+     * 方法：数学
+     * @param num
+     * @param xPos
+     * @param yPos
+     * @return
+     */
     public int orchestraLayout(int num, int xPos, int yPos) {
-        long c=Math.min(Math.min(Math.min(xPos,yPos),num-xPos-1),num-yPos-1);
-        //圈数
-        long ans=0;
-        ans=num*num-(num-2*c)*(num-2*c);
-        //圈外格数
-        ans=(ans%9);
-        if(xPos==c)
-        //up
-        {
-            ans+=yPos-c+1;
-        }
-        else if(yPos==c)
-        //left
-        {
-            ans+=(num-(c*2))*4-3-xPos+c;
-        }
-        else if(num-yPos-1==c)
-        //right
-        {
-            ans+=num-(c*2)+xPos-c;
-        }
-        else if(num-xPos-1==c)
-        //down
-        {
-            ans+=(num-c*2)*2-1+(num-yPos-1-c);
+        //先确定这个位置在第几圈,circle从0开始计数，即第“一”圈为circle == 0
+        long circle = Math.min(Math.min(xPos,num-1-xPos), Math.min(yPos,num-1-yPos));
+
+        //len 记录第circle圈的边长，边长为正方形边长-1，每圈过后边长减2
+        long len = num-1-2*circle;
+
+        //count一定会溢出，这里参考 @灰包包 老哥的count解法。
+        long count = (long)num*num - (len+1)*(len+1);
+
+        //根据pos在不同的坐标来计算count，其实这里想要优化来着
+        if(xPos == circle && yPos < num-1-circle){
+            count += yPos - circle + 1;          //这个时候在上边的边
+        }else if(yPos == num-1-circle && xPos < num-1-circle){
+            count += len + xPos-circle+1;        //在右边的边
+        }else if(xPos == num-1-circle && yPos>circle){
+            count += 2*len + num-circle-yPos;    //在下边的边
+        }else{
+            count += 3*len + num-circle-xPos;
         }
 
-        if(ans%9!=0)
-            return  (int)(ans%9);
-        else
-            return 9;
+        return (int)(count%9==0?9:count%9);
     }
 
 }

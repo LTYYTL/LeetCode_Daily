@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**343**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**345**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -78,6 +78,7 @@
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
+|1480| 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1480/RunningSumArray.java) | 简单 | 模拟 | 数组、前缀和 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
 |1646| 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1646/GetMaximumGeneratedArray.java) | 简单 | 模拟 | 数组、模拟、动态规划 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
@@ -357,8 +358,8 @@
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
 |LCP19| 秋叶收藏集 | [AutumnLeavesCollection](src/com/LCP/L0019/AutumnLeavesCollection.java) | 中等 | 动态规划 | -- |
-|LCP28| 采购方案 | [ProcurementPlan](src/com/LCP/L0028/ProcurementPlan.java) | 简单 | 双指针 | -- |
-|LCP29| 乐团站位 | [OrchestraPosition](src/com/LCP/L0029/OrchestraPosition.java) | 简单 | 数学 | -- |
+|LCP28| 采购方案 | [ProcurementPlan](src/com/LCP/L0028/ProcurementPlan.java) | 简单 | 双指针 | 数学、双指针、排序、二分查找 |
+|LCP29| 乐团站位 | [OrchestraPosition](src/com/LCP/L0029/OrchestraPosition.java) | 简单 | 数学 | 数学 |
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 
 ## 12. **_程序员面试金典_**
@@ -381,6 +382,7 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L0005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
