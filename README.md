@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**345**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**352**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -124,6 +124,7 @@
 |71| 简化路径 | [SimplifyPath](src/com/leetcode/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |150| 逆波兰表达式求值 | [EvaluateReversePolishNotation](src/com/leetcode/L0150/EvaluateReversePolishNotation.java) | 中等  | 栈 | 字符串、栈 |
+|151| 翻转字符串里的单词 | [ReverseWordsString](src/com/leetcode/L0151/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |？
 |224| 基本计算器 | [BasicCalculator](src/com/leetcode/L0224/BasicCalculator.java) | 困难  | 栈 | 栈、数学 |
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
 |290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
@@ -311,6 +312,7 @@
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
+|1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
 |1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
 |1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
 |1744| 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | [EatFavoriteCandyOnFavoriteDay](src/com/leetcode/L1744/EatFavoriteCandyOnFavoriteDay.java) | 中等 | 数学 | 数学 |
@@ -393,6 +395,7 @@
 |53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
+|58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
 |59-II| 队列的最大值 | [MaxQueue](src/com/offer/L0592/MaxQueue.java) | 中等 | 设计 | 队列、单调队列、设计 |
 
 ## 13. **_剑指offerII_**
@@ -422,3 +425,12 @@
 |L011| 搭配出售 | [SoldWith](src/com/meituan/L011/SoldWith.java) | 中等 | 贪心算法 | -- |
 |L012| 小美的书架 | [XiaomeiBookshelf](src/com/meituan/L012/XiaomeiBookshelf.java) | 中等 | 模拟 | -- |
 |L013| 偏爱字母 | [PreferenceLetter](src/com/meituan/L013/PreferenceLetter.java) | 中等 | 动态规划 | -- |
+
+## 16. **_数据库_**
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|L0182| 查找重复的电子邮箱 | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql) | 简单 | -- | -- |
+|L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |
+|L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
+|L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
+|L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
