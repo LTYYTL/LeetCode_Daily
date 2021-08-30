@@ -32,69 +32,154 @@ import java.util.Queue;
  * -1000 <= Node.val <= 1000
  */
 public class Codec {
-    // Encodes a tree to a single string.
-    public String serialize(TreeNode<Integer> root) {
-        //空值情况
-        if (root == null)
-            return "[]";
-        //结果集
-        StringBuilder res = new StringBuilder("[");
 
-        //所需队列，将根节点存入
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+    String SEP = ",";
+    String NULL = "#";
 
-        //队列为空，退出循环
-        while (!queue.isEmpty()){
-            //队头的节点
-            TreeNode cur = queue.poll();
-            //当前节点不为空，将左右节点放入队列
-            //当前节点为空，直接存入null
-            if (cur != null){
-                res.append(cur.val + ",");
-                queue.add(cur.left);
-                queue.add(cur.right);
-            }else{
-                res.append("null,");
-            }
+    /**
+     * 方法一：前序遍历
+     * @param root
+     * @return
+     */
+    public String serialize_pre(TreeNode<Integer> root){
+        StringBuilder sb = new StringBuilder();
+        preOrder(root, sb);
+        return sb.toString();
+    }
+    private void preOrder(TreeNode<Integer> root, StringBuilder sb) {
+        if (root == null){
+            sb.append(NULL).append(SEP);
+            return;
         }
-        //除去最后一个"，"
-        res.deleteCharAt(res.length()-1);
-        res.append("]");
-        return res.toString();
+        sb.append(root.val).append(SEP);
+        preOrder(root.left,sb);
+        preOrder(root.right,sb);
     }
 
-    // Decodes your encoded data to tree.
-    public TreeNode deserialize(String data) {
-        //空值情况
-        if (data.equals("[]"))
+    public TreeNode deserialize_pre(String data) {
+        LinkedList<String> nodes = new LinkedList<>();
+        for (String s : data.split(SEP)) {
+            nodes.add(s);
+        }
+        return deserialize_pre(nodes);
+    }
+
+    private TreeNode deserialize_pre(LinkedList<String> nodes) {
+        if (nodes.isEmpty())
             return null;
-        //去除“[”，“]”并将字符串按照“，”分割
-        String[] vals = data.substring(1, data.length() - 1).split(",");
-        //新建根节点
-        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(vals[0]));
+        //取队首元素
+        String first = nodes.removeFirst();
+        if (first.equals(NULL))
+            return null;
+        //转换成数字
+        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(first));
+        root.left = deserialize_pre(nodes);
+        root.right = deserialize_pre(nodes);;
+        return root;
+    }
+
+    /**
+     * 方法二：后序遍历
+     * @param root
+     * @return
+     */
+    public String serialize_last(TreeNode<Integer> root){
+        StringBuilder sb = new StringBuilder();
+        lastOrder(root, sb);
+        return sb.toString();
+    }
+    private void lastOrder(TreeNode<Integer> root, StringBuilder sb) {
+        if (root == null){
+            sb.append(NULL).append(SEP);
+            return;
+        }
+
+        lastOrder(root.left,sb);
+        lastOrder(root.right,sb);
+        sb.append(root.val).append(SEP);
+    }
+
+    public TreeNode deserialize_last(String data) {
+        LinkedList<String> nodes = new LinkedList<>();
+        for (String s : data.split(SEP)) {
+            nodes.add(s);
+        }
+        return deserialize_last(nodes);
+    }
+
+    private TreeNode deserialize_last(LinkedList<String> nodes) {
+        if (nodes.isEmpty())
+            return null;
+        //取队尾元素
+        String last = nodes.removeLast();
+        if (last.equals(NULL))
+            return null;
+        //转换成数字
+        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(last));
+        //先构造右子树，在构造左子树
+        root.right = deserialize_last(nodes);
+        root.left = deserialize_last(nodes);;
+        return root;
+    }
+
+    /**
+     * 方法三：层序遍历
+     * @param root
+     * @return
+     */
+    public String serialize(TreeNode<Integer> root) {
+        if (root == null)
+            return "";
+        StringBuilder sb = new StringBuilder();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        //控制指针
-        int i = 1;
-        while (!queue.isEmpty()){
-            //队头的节点
-            TreeNode cur = queue.poll();
-            //当前指针指向的不为null,可将其放到左节点，并加入队列
-            if (!vals[i].equals("null")){
-                cur.left = new TreeNode(Integer.parseInt(vals[i]));
-                queue.add(cur.left);
-            }
-            //移动指针
-            i++;
 
-            //当前指针指向的不为null,可将其放到左节点，并加入队列
-            if (!vals[i].equals("null")){
-                cur.right = new TreeNode(Integer.parseInt(vals[i]));
-                queue.add(cur.right);
+        while (!queue.isEmpty()){
+            TreeNode<Integer> cur = queue.poll();
+            /*层序遍历代代码*/
+            if (cur == null){
+                sb.append(NULL).append(SEP);
+                continue;
             }
-            //移动指针
-            i++;
+
+            sb.append(cur.val).append(SEP);
+
+            queue.offer(cur.left);
+            queue.offer(cur.right);
+        }
+        return sb.toString();
+    }
+
+    public TreeNode deserialize(String data) {
+        //空置情况
+        if (data.isEmpty())
+            return null;
+        String[] nodes = data.split(SEP);
+        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(nodes[0]));
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        for (int i = 1; i < nodes.length;) {
+            //在队里中的都是父节点
+            TreeNode<Integer> parent = queue.poll();
+            //左子树
+            String left = nodes[i++];
+            if (!left.equals(NULL)){
+                parent.left = new TreeNode(Integer.parseInt(left));
+                queue.offer(parent.left);
+            }else {
+                parent.left = null;
+            }
+
+            //右子树
+            String right = nodes[i++];
+            if (!right.equals(NULL)){
+                parent.right = new TreeNode(Integer.parseInt(right));
+                queue.offer(parent.right);
+            }else {
+                parent.right = null;
+            }
         }
         return root;
     }

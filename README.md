@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**352**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**356**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -110,6 +110,7 @@
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
+|237| 删除链表中的节点 | [DeleteNodeLinkedList](src/com/leetcode/L0237/DeleteNodeLinkedList.java) | 简单 | 模拟 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 |876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |
 
@@ -181,6 +182,7 @@
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
 |235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树 |
+|236| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/leetcode/L0236/LowestCommonAncestorBinaryTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
 |450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
 |501| 二叉搜索树中的众数 | [BSTMode](src/com/leetcode/L0501/BSTMode.java) | 简单 | 递归、迭代 | 树 |
@@ -298,6 +300,7 @@
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
+|528| 按权重随机选择 | [RandomPickWithWeight](src/com/leetcode/L0528/RandomPickWithWeight.java) | 中等 | 前缀和+二分查找  | 数学、前缀和、二分查找、随机化 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
 |633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
@@ -344,7 +347,7 @@
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |295| 数据流的中位数 | [MedianFinder](src/com/leetcode/L0295/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
-|297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
@@ -387,7 +390,8 @@
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
-|37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|30| 包含min函数的栈 | [MinStack](src/com/offer/L0030/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0042/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L0049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
