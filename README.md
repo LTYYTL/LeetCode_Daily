@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**356**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**360**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -45,7 +45,8 @@
 |456| 132模式 | [Pattern132](src/com/leetcode/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |457| 环形数组是否存在循环 | [CircularArrayLoop](src/com/leetcode/L0457/CircularArrayLoop.java) | 中等 | 快慢指针 | 数组、双指针、哈希表 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
-|503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 栈 |
+|496| 下一个更大元素 I | [NextGreaterElementI](src/com/leetcode/L0496/NextGreaterElementI.java) | 简单 | 单调栈 | 数组、栈、哈希表、单调栈 |
+|503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 单调栈 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
 |581| 最短无序连续子数组 | [ShortestUnsortedContinuousSubarray](src/com/leetcode/L0581/ShortestUnsortedContinuousSubarray.java) | 中等 | 排序 | 数组、栈、贪心算法、排序、单调栈、双指针 |
@@ -58,6 +59,7 @@
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
+|739| 每日温度 | [DailyTemperatures](src/com/leetcode/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |？
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |773| 滑动谜题 | [SlidingPuzzle](src/com/leetcode/L0773/SlidingPuzzle.java) | 困难 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
@@ -74,6 +76,7 @@
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
+|1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、二分查找、矩阵、排列、堆 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
@@ -390,7 +393,9 @@
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|24| 反转链表 | [ReverseLinkedList](src/com/offer/L0024/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
 |30| 包含min函数的栈 | [MinStack](src/com/offer/L0030/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|35| 复杂链表的复制  | [CopyListRandomPointer](src/com/offer/L0035/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0042/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |

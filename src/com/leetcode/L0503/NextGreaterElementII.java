@@ -1,7 +1,7 @@
 package com.leetcode.L0503;
 
-import java.util.Arrays;
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 /**
  * 503. 下一个更大元素 II
@@ -20,7 +20,7 @@ import java.util.Stack;
  */
 public class NextGreaterElementII {
     /**
-     * 方法：栈
+     * 方法：单调栈
      * @param nums
      * @return
      */
@@ -29,18 +29,13 @@ public class NextGreaterElementII {
         int n = nums.length;
         //结果数组
         int[] res = new int[n];
-        //填充-1
-        Arrays.fill(res,-1);
-        Stack<Integer> stack = new Stack<>();
-        //遍历两遍
-        for (int i = 0; i < 2 * n - 1; i++) {
-            while (!stack.isEmpty() && nums[i%n] > nums[stack.peek()]){
-                res[stack.pop()] = nums[i%n];
-            }
-            //记录下标
-            stack.push(i%n);
+        Deque<Integer> stack = new LinkedList<>();
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && stack.peek() <= nums[i%n])
+                stack.pop();
+            res[i%n] = stack.isEmpty() ? -1 : stack.peek();
+            stack.push(nums[i%n]);
         }
-
         return res;
     }
 }
