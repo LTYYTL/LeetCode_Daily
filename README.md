@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**360**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**363**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -127,6 +127,7 @@
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |71| 简化路径 | [SimplifyPath](src/com/leetcode/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
+|165| 比较版本号 | [CompareVersionNumbers](src/com/leetcode/L0165/CompareVersionNumbers.java) | 中等  | 模拟、双指针 | 字符串、双指针 |
 |150| 逆波兰表达式求值 | [EvaluateReversePolishNotation](src/com/leetcode/L0150/EvaluateReversePolishNotation.java) | 中等  | 栈 | 字符串、栈 |
 |151| 翻转字符串里的单词 | [ReverseWordsString](src/com/leetcode/L0151/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |？
 |224| 基本计算器 | [BasicCalculator](src/com/leetcode/L0224/BasicCalculator.java) | 困难  | 栈 | 栈、数学 |
@@ -405,6 +406,8 @@
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
 |58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
+|58-II| 左旋转字符串 | [RotateStringLeft](src/com/offer/L0582/RotateStringLeft.java) | 简单 | 模拟 | 字符串、双指针、数学 |
+|59-I| 滑动窗口的最大值 | [SlidingWindowMax](src/com/offer/L0591/SlidingWindowMax.java) | 困难 | 单调队列 | 队列、单调队列、堆、滑动窗口 |
 |59-II| 队列的最大值 | [MaxQueue](src/com/offer/L0592/MaxQueue.java) | 中等 | 设计 | 队列、单调队列、设计 |
 
 ## 13. **_剑指offerII_**
