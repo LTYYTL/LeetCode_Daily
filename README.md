@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**363**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**367**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -22,7 +22,8 @@
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
-|153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分法 | 数组、二分查找 |
+|153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
+|154| 寻找旋转排序数组中的最小值II | [FindMinimumRotatedSortedArrayII](src/com/leetcode/L0154/FindMinimumRotatedSortedArrayII.java) | 困难 | 二分查找 | 数组、二分查找 |？
 |169| 多数元素 | [MajorityElement](src/com/leetcode/L0169/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
@@ -285,6 +286,7 @@
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |2| 两数相加 | [TwoNumAdd](src/com/leetcode/L0002/TwoNumAdd.java) | 中等 | 数学 | 链表、数学 |
 |7| 整数反转 | [ReverseInteger](src/com/leetcode/L0007/ReverseInteger.java) | 简单 | 数学 | 数学 |
+|9| 回文数 | [PalindromeNumber](src/com/leetcode/L0009/PalindromeNumber.java) | 简单 | 双指针 | 数学 |？
 |12| 整数转罗马数字 | [IntegerRoman](src/com/leetcode/L0012/IntegerRoman.java) | 中等 | 数学 | 数学、字符串 |
 |13| 罗马数字转整数 | [RomanInteger](src/com/leetcode/L0013/RomanInteger.java) | 简单 | 数学 | 数学、字符串 |
 |50| Pow(x, n) | [Pow](src/com/leetcode/L0050/Pow.java) | 中等 | 数学 | 数学、二分查找 |
@@ -381,6 +383,7 @@
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
+|17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
 ## 13. **_剑指offer_**
@@ -391,6 +394,7 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L0005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
+|11| 旋转数组的最小数字 | [RotateSmallestNumberArray](src/com/offer/L0011/RotateSmallestNumberArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
@@ -401,8 +405,10 @@
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0042/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |49| 丑数 | [UglyNumber](src/com/offer/L0049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
+|50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0050/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0052/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
-|53| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
+|53-I| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
+|53-II| 0～n-1中缺失的数字 | [NumbersMissing](src/com/offer/L0532/NumbersMissing.java) | 简单 | 二分查找 | 数组、哈希表、二分查找、数学、位运算 |
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
 |58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
