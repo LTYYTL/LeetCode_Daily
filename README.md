@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**367**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**371**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -105,6 +105,7 @@
 |21| 合并两个有序链表 | [MergeTwoSortedLists](src/com/leetcode/L0021/MergeTwoSortedLists.java) | 简单 | 双指针 | 链表、递归 |
 |23| 合并K个升序链表 | [MergeKSortedLists](src/com/leetcode/L0023/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
+|25| K 个一组翻转链表 | [ReverseNodesKGroup](src/com/leetcode/L0025/ReverseNodesKGroup.java) | 困难 | 迭代 | 链表、递归 |
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
 |83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
 |92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
@@ -394,19 +395,22 @@
 |05| 替换空格 | [ReplaceSpaces](src/com/offer/L0005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
-|11| 旋转数组的最小数字 | [RotateSmallestNumberArray](src/com/offer/L0011/RotateSmallestNumberArray.java) | 简单 | 二分查找 | 数组、二分查找 |
+|11| 旋转数组的最小数字 | [RotateSmallestNumberArray](src/com/offer/L0110/RotateSmallestNumberArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
-|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0015/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
-|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0022/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
-|24| 反转链表 | [ReverseLinkedList](src/com/offer/L0024/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
-|30| 包含min函数的栈 | [MinStack](src/com/offer/L0030/MinStack.java) | 简单 | 栈 | 栈、设计 |
-|35| 复杂链表的复制  | [CopyListRandomPointer](src/com/offer/L0035/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
-|37| 序列化二叉树 | [Codec](src/com/offer/L0037/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
-|38| 字符串的排列 | [StringArrangement](src/com/offer/L0038/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
-|42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0042/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
-|49| 丑数 | [UglyNumber](src/com/offer/L0049/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
-|50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0050/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
-|52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0052/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
+|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
+|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
+|30| 包含min函数的栈 | [MinStack](src/com/offer/L0300/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|32-I| 从上到下打印二叉树 | [PrintBinaryTree](src/com/offer/L0321/PrintBinaryTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
+|32-II| 从上到下打印二叉树II | [PrintBinaryTreeII](src/com/offer/L0322/PrintBinaryTreeII.java) | 简单 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
+|32-III| 从上到下打印二叉树III | [PrintBinaryTreeIII](src/com/offer/L0323/PrintBinaryTreeIII.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
+|35| 复杂链表的复制  | [CopyListRandomPointer](src/com/offer/L0350/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
+|37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
+|42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|49| 丑数 | [UglyNumber](src/com/offer/L0490/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
+|50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0500/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
+|52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0520/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |53-I| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 |53-II| 0～n-1中缺失的数字 | [NumbersMissing](src/com/offer/L0532/NumbersMissing.java) | 简单 | 二分查找 | 数组、哈希表、二分查找、数学、位运算 |
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
