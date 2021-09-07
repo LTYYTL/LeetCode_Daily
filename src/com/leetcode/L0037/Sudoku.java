@@ -31,14 +31,46 @@ package com.leetcode.L0037;
  */
 public class Sudoku {
     /**
-     * 方法：递归
+     * 方法：回溯算法
      * @param board
      */
     public void solveSudoku(char[][] board) {
         //空值情况
         if(board == null || board.length == 0 || board[0].length==0)
             return;
-        solve(board);
+        solve(board,0,0);
+    }
+
+    private boolean solve(char[][] board, int i, int j) {
+        int m = 9;
+        int n = 9;
+        if (j == n){
+            //穷举到最后一列的话换到下一行重新开始
+            return solve(board,i+1,0);
+        }
+        if (i == m){
+            //找到一个可行解，触发base case
+            return true;
+        }
+
+        if (board[i][j] != '.'){
+            //有预设数，不用穷举
+            return solve(board,i,j+1);
+        }
+
+        for (char ch = '1'; ch <= '9';ch++){
+            //遇到不合法的数字，就跳过
+            if (!isValid(board,i,j,ch))
+                continue;
+
+            board[i][j] = ch;
+            //找到一个可行解，立即结束
+            if (solve(board,i,j+1))
+                return true;
+            board[i][j] = '.';
+        }
+        //穷举完1~9,依旧没有找到可行解
+        return false;
     }
 
     /**

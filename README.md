@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**377**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**379**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -9,8 +9,7 @@
 |26| 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L0026/RemoveDuplicatesSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |27| 移除元素 | [RemoveElement](src/com/leetcode/L0027/RemoveElement.java) | 简单 | 双指针 | 数组、双指针 |
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
-|36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | -- | 哈希表 |
-|37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 递归 | 哈希表、回溯算法 |
+|36| 有效的数独 | [ValidSudoku](src/com/leetcode/L0036/ValidSudoku.java) | 中等 | 模拟 | 哈希表 |
 |41| 缺失的第一个正数 | [FirstMissingPositive](src/com/leetcode/L0041/FirstMissingPositive.java) | 困难 | 哈希表、排序 | 数组 |
 |54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
@@ -158,6 +157,7 @@
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
+|1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
@@ -269,6 +269,7 @@
 ## 7. **_回溯算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|37| 解数独 | [Sudoku](src/com/leetcode/L0037/Sudoku.java) | 困难 | 回溯算法 | 哈希表、回溯算法 |
 |39| 组合总和 | [CombinationSum](src/com/leetcode/L0039/CombinationSum.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |40| 组合总和II | [CombinationSumII](src/com/leetcode/L0040/CombinationSumII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |46| 全排列 | [Permutations](src/com/leetcode/L0046/Permutations.java) | 中等 | 回溯算法 | 回溯算法 |
@@ -414,6 +415,7 @@
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|47| 礼物的最大价值 | [MaximumValueGifts](src/com/offer/L0470/MaximumValueGifts.java) | 中等 | 动态规划 | 数组、动态规划、矩阵 |
 |49| 丑数 | [UglyNumber](src/com/offer/L0490/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0500/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0520/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
