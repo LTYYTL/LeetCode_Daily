@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**379**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**382**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -46,6 +46,7 @@
 |457| 环形数组是否存在循环 | [CircularArrayLoop](src/com/leetcode/L0457/CircularArrayLoop.java) | 中等 | 快慢指针 | 数组、双指针、哈希表 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
 |496| 下一个更大元素 I | [NextGreaterElementI](src/com/leetcode/L0496/NextGreaterElementI.java) | 简单 | 单调栈 | 数组、栈、哈希表、单调栈 |
+|502| IPO | [PIO](src/com/leetcode/L0502/PIO.java) | 困难 | 堆 | 数组、优先队列、贪心算法、排序 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 单调栈 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
@@ -415,7 +416,9 @@
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|46| 把数字翻译成字符串 | [TranslateNumbersIntoStrings](src/com/offer/L0460/TranslateNumbersIntoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |47| 礼物的最大价值 | [MaximumValueGifts](src/com/offer/L0470/MaximumValueGifts.java) | 中等 | 动态规划 | 数组、动态规划、矩阵 |
+|48| 最长不含重复字符的子字符串 | [TheLongestSubstringRepeatedCharacters](src/com/offer/L0480/TheLongestSubstringRepeatedCharacters.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
 |49| 丑数 | [UglyNumber](src/com/offer/L0490/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0500/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0520/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
