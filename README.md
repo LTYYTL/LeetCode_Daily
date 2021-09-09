@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**382**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**384**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -127,6 +127,7 @@
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
+|68| 文本左右对齐 | [TextJustification](src/com/leetcode/L0068/TextJustification.java) | 困难 | 模拟 | 字符串、模拟 |
 |71| 简化路径 | [SimplifyPath](src/com/leetcode/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
 |165| 比较版本号 | [CompareVersionNumbers](src/com/leetcode/L0165/CompareVersionNumbers.java) | 中等  | 模拟、双指针 | 字符串、双指针 |
@@ -403,6 +404,7 @@
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |10-II| 青蛙跳台阶问题 | [FrogJumpingProblem](src/com/offer/L0102/FrogJumpingProblem.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |？
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
+|18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
 |26| 树的子结构 | [TreeSubstructure](src/com/offer/L0260/TreeSubstructure.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
