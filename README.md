@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**384**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**387**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -97,6 +97,7 @@
 |1846| 减小和重新排列数组后的最大元素 | [MaximumElementAfterDecreasingRearranging](src/com/leetcode/L1846/MaximumElementAfterDecreasingRearranging.java) | 中等 | 排序、计数 | 数组、排序、贪心 |
 |1877| 数组中最大数对和的最小值 | [MinimizeMaximumPairSumArray](src/com/leetcode/L1877/MinimizeMaximumPairSumArray.java) | 中等 | 排序 | 贪心算法、排序 |
 |1882| 使用服务器处理任务 | [ProcessTasksUsingServers](src/com/leetcode/L1882/ProcessTasksUsingServers.java) | 中等 | 堆 | 堆 |
+|1894| 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1894/FindStudentWillReplaceChalk.java) | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -223,6 +224,8 @@
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
+|1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
+|1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |？
 
 ## 6. **_动态规划系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -407,6 +410,7 @@
 |18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
+|25| 合并两个排序的链表 | [MergeTwoSortedLists](src/com/offer/L0250/MergeTwoSortedLists.java) | 简单 | 双指针 | 链表、递归
 |26| 树的子结构 | [TreeSubstructure](src/com/offer/L0260/TreeSubstructure.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |27| 二叉树的镜像 | [MirrorBinaryTree](src/com/offer/L0270/MirrorBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |28| 对称的二叉树 | [SymmetricBinaryTree](src/com/offer/L0280/SymmetricBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
