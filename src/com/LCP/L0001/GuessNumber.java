@@ -23,7 +23,7 @@ package com.LCP.L0001;
  */
 public class GuessNumber {
     /**
-     * 方法：数学
+     * 方法：模拟
      * @param guess
      * @param answer
      * @return

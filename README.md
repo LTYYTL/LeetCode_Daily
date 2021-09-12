@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**387**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**394**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -148,6 +148,7 @@
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
+|678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
 |726| 原子的数量 | [NumberAtoms](src/com/leetcode/L0726/NumberAtoms.java) | 困难 | map映射 | 字符串、栈、哈希表 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
@@ -169,6 +170,7 @@
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 |1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
+|1999| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1999/ReversePrefixWord.java) | 简单 | 模拟 | -- |
 
 ## 4. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -259,6 +261,7 @@
 |518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |552| 学生出勤记录 II | [CoinChange2](src/com/leetcode/L0552/StudentAttendanceRecordII.java) | 困难 | 动态规划 | 动态规划 |
 |576| 出界的路径数 | [OutBoundaryPaths](src/com/leetcode/L0576/OutBoundaryPaths.java) | 中等 | 动态规划 | 动态规划 |
+|600| 不含连续1的非负整数 | [NoIntegersConsecutiveOnes](src/com/leetcode/L0600/NoIntegersConsecutiveOnes.java) | 困难 | 动态规划 | 动态规划 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
@@ -373,7 +376,8 @@
 ## 11. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|LCP01| 猜数字 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 数学 | -- |
+|LCP01| 猜数字 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 模拟 | 数组 |
+|LCP02| 分式化简 | [DeepDarkFraction](src/com/LCP/L0002/DeepDarkFraction.java) | 简单 | 模拟 | 数组、数学、数论、模拟 |
 |LCP07| 传递信息 | [SendMessage](src/com/LCP/L0007/SendMessage.java) | 简单 | 广度优先搜索 | 图、深度优先搜索、广度优先搜索、动态规划 |
 |LCP17| 速算机器人 | [QuickCalculationRobot](src/com/LCP/L0017/QuickCalculationRobot.java) | 简单 | 数学 | -- |
 |LCP18| 早餐组合 | [BreakfastCombo](src/com/LCP/L0018/BreakfastCombo.java) | 简单 | 双指针、二分查找 | -- |
@@ -381,6 +385,7 @@
 |LCP28| 采购方案 | [ProcurementPlan](src/com/LCP/L0028/ProcurementPlan.java) | 简单 | 双指针 | 数学、双指针、排序、二分查找 |
 |LCP29| 乐团站位 | [OrchestraPosition](src/com/LCP/L0029/OrchestraPosition.java) | 简单 | 数学 | 数学 |
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
+|LCP39| 无人机方阵 | [UAVPhalanx](src/com/LCP/L0039/UAVPhalanx.java) | 简单 | map映射 | -- |
 
 ## 12. **_程序员面试金典_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
@@ -404,10 +409,13 @@
 |06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
 |09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
 |11| 旋转数组的最小数字 | [RotateSmallestNumberArray](src/com/offer/L0110/RotateSmallestNumberArray.java) | 简单 | 二分查找 | 数组、二分查找 |
+|12| 矩阵中的路径 | [PathMatrix](src/com/offer/L0120/PathMatrix.java) | 中等 | 深度优先搜索 | 数组、回溯算法、矩阵 |
+|13| 机器人的运动范围 | [RobotRangeMotion](src/com/offer/L0130/RobotRangeMotion.java) | 中等 | 广度优先搜索 | 广度优先搜索、深度优先搜索、动态规划 |？
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |10-II| 青蛙跳台阶问题 | [FrogJumpingProblem](src/com/offer/L0102/FrogJumpingProblem.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |？
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
+|21| 调整数组顺序使奇数位于偶数前面 | [AdjustOrderArray](src/com/offer/L0210/AdjustOrderArray.java) | 简单 | 双指针 | 数组、双指针、排序 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
 |25| 合并两个排序的链表 | [MergeTwoSortedLists](src/com/offer/L0250/MergeTwoSortedLists.java) | 简单 | 双指针 | 链表、递归
