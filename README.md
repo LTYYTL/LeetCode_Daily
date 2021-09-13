@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**394**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**399**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -170,7 +170,7 @@
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 |1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
-|1999| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1999/ReversePrefixWord.java) | 简单 | 模拟 | -- |
+|2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L2000/ReversePrefixWord.java) | 简单 | 模拟 | -- |
 
 ## 4. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -311,7 +311,8 @@
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |233| 数字 1 的个数 | [NumberDigitOne](src/com/leetcode/L0233/NumberDigitOne.java) | 中等 | 数学 | 数学、递归、动态规划 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
-|342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算    |
+|342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
+|447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
@@ -342,6 +343,7 @@
 |1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
 |1880| 检查某单词是否等于两单词之和 | [CheckWordEqualsSummationTwoWords](src/com/leetcode/L1880/CheckWordEqualsSummationTwoWords.java) | 简单 | 数学 | 字符串 |
 |1893| 检查是否区域内所有整数都被覆盖 | [CheckAllIntegersRangeAreCovered](src/com/leetcode/L1893/CheckAllIntegersRangeAreCovered.java) | 简单 | set集合、映射 | 数组、哈希表、前缀和 |
+|2001| 可互换矩形的组数 | [NumberPairsInterchangeableRectangles](src/com/leetcode/L2001/NumberPairsInterchangeableRectangles.java) | 中等 | 数学 | -- |
 
 ## 9. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -426,7 +428,9 @@
 |32-I| 从上到下打印二叉树 | [PrintBinaryTree](src/com/offer/L0321/PrintBinaryTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
 |32-II| 从上到下打印二叉树II | [PrintBinaryTreeII](src/com/offer/L0322/PrintBinaryTreeII.java) | 简单 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
 |32-III| 从上到下打印二叉树III | [PrintBinaryTreeIII](src/com/offer/L0323/PrintBinaryTreeIII.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
+|34| 二叉树中和为某一值的路径 | [PathSum](src/com/offer/L0340/PathSum.java) | 中等 | 深度优先搜索 | 树、二叉树、回溯算法、深度优先搜索 |
 |35| 复杂链表的复制  | [CopyListRandomPointer](src/com/offer/L0350/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
+|36| 二叉搜索树与双向链表 | [BinarySearchTreeLinkedList](src/com/offer/L0360/BinarySearchTreeLinkedList.java) | 中等 | 递归 | 栈、树、二叉搜索树、二叉树、链表、双向链表、深度优先搜索 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
@@ -438,6 +442,7 @@
 |52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0520/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |53-I| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
 |53-II| 0～n-1中缺失的数字 | [NumbersMissing](src/com/offer/L0532/NumbersMissing.java) | 简单 | 二分查找 | 数组、哈希表、二分查找、数学、位运算 |
+|54| 二叉搜索树的第k大节点 | [TheKNodeBinarySearchTree](src/com/offer/L0540/TheKNodeBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
 |58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |

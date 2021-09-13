@@ -1,4 +1,4 @@
-package com.leetcode.L1999;
+package com.leetcode.L2000;
 
 /**
  * 5867. 反转单词前缀

@@ -1,4 +1,4 @@
-package com.leetcode.L1999;
+package com.leetcode.L2000;
 
 public class ReversePrefixWordTest {
     public static void main(String[] args) {
