@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**399**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**402**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -145,6 +145,7 @@
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |443| 压缩字符串 | [StringCompression](src/com/leetcode/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
+|524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
@@ -434,6 +435,7 @@
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|45| 把数组排成最小的数 | [ArrangeArraySmallestNumber](src/com/offer/L0450/ArrangeArraySmallestNumber.java) | 中等 | 排序 | 字符串、贪心算法、排序 |
 |46| 把数字翻译成字符串 | [TranslateNumbersIntoStrings](src/com/offer/L0460/TranslateNumbersIntoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |47| 礼物的最大价值 | [MaximumValueGifts](src/com/offer/L0470/MaximumValueGifts.java) | 中等 | 动态规划 | 数组、动态规划、矩阵 |
 |48| 最长不含重复字符的子字符串 | [TheLongestSubstringRepeatedCharacters](src/com/offer/L0480/TheLongestSubstringRepeatedCharacters.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
@@ -449,9 +451,10 @@
 |58-II| 左旋转字符串 | [RotateStringLeft](src/com/offer/L0582/RotateStringLeft.java) | 简单 | 模拟 | 字符串、双指针、数学 |
 |59-I| 滑动窗口的最大值 | [SlidingWindowMax](src/com/offer/L0591/SlidingWindowMax.java) | 困难 | 单调队列 | 队列、单调队列、堆、滑动窗口 |
 |59-II| 队列的最大值 | [MaxQueue](src/com/offer/L0592/MaxQueue.java) | 中等 | 设计 | 队列、单调队列、设计 |
+|61| 扑克牌中的顺子 | [StraightPlayingCards](src/com/offer/L0610/StraightPlayingCards.java) | 简单 | 数学、排序 | 数组、排序 |
 |63| 股票的最大利润 | [MaximumProfitStock](src/com/offer/L0630/MaximumProfitStock.java) | 中等 | 动态规划 | 数组、动态规划 |
 
-## 13. **_剑指offerII_**
+## 14. **_剑指offerII_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |031| 最近最少使用缓存 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
