@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**402**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**404**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -23,6 +23,7 @@
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
 |154| 寻找旋转排序数组中的最小值II | [FindMinimumRotatedSortedArrayII](src/com/leetcode/L0154/FindMinimumRotatedSortedArrayII.java) | 困难 | 二分查找 | 数组、二分查找 |？
+|162| 寻找峰值 | [FindPeakElement](src/com/leetcode/L0162/FindPeakElement.java) | 中等 | 二分查找 | 数组、二分查找 |
 |169| 多数元素 | [MajorityElement](src/com/leetcode/L0169/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
@@ -434,6 +435,8 @@
 |36| 二叉搜索树与双向链表 | [BinarySearchTreeLinkedList](src/com/offer/L0360/BinarySearchTreeLinkedList.java) | 中等 | 递归 | 栈、树、二叉搜索树、二叉树、链表、双向链表、深度优先搜索 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
+|40| 最小的k个数 | [TheSmallestNumberK](src/com/offer/L0400/TheSmallestNumberK.java) | 简单 | 快速排序 | 数组、分治、快速选择、排序、堆 |？
+|41| 数据流中的中位数 | [MedianFinder](src/com/offer/L0410/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |45| 把数组排成最小的数 | [ArrangeArraySmallestNumber](src/com/offer/L0450/ArrangeArraySmallestNumber.java) | 中等 | 排序 | 字符串、贪心算法、排序 |
 |46| 把数字翻译成字符串 | [TranslateNumbersIntoStrings](src/com/offer/L0460/TranslateNumbersIntoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
