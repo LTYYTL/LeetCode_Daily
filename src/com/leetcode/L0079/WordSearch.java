@@ -24,7 +24,7 @@ package com.leetcode.L0079;
  */
 public class WordSearch {
     /**
-     * 深度优先搜索
+     * 方法：回溯算法
      * @param board
      * @param word
      * @return
