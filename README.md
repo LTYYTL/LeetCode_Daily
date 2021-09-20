@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**425**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**427**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -265,6 +265,7 @@
 |600| 不含连续1的非负整数 | [NoIntegersConsecutiveOnes](src/com/leetcode/L0600/NoIntegersConsecutiveOnes.java) | 困难 | 动态规划 | 动态规划 |
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
+|673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |877| 石子游戏 | [StoneGame](src/com/leetcode/L0877/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
@@ -457,6 +458,8 @@
 |54| 二叉搜索树的第k大节点 | [TheKNodeBinarySearchTree](src/com/offer/L0540/TheKNodeBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |55-I| 二叉树的深度 | [DepthBinaryTree](src/com/offer/L0551/DepthBinaryTree.java) | 简单 | 递归、广度优先搜索、深度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |55-II| 平衡二叉树 | [BalancedBinaryTree](src/com/offer/L0552/BalancedBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+|56-I| 数组中数字出现的次数 | [NumberArray](src/com/offer/L0561/NumberArray.java) | 中等 | 位运算 | 数组、位运算 |？
+|56-II| 数组中数字出现的次数II | [NumberArrayII](src/com/offer/L0562/NumberArrayII.java) | 中等 | 位运算 | 数组、位运算 |
 |57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
 |58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
