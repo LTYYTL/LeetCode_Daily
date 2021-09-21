@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**427**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**429**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -443,6 +443,7 @@
 |36| 二叉搜索树与双向链表 | [BinarySearchTreeLinkedList](src/com/offer/L0360/BinarySearchTreeLinkedList.java) | 中等 | 递归 | 栈、树、二叉搜索树、二叉树、链表、双向链表、深度优先搜索 |
 |37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
+|39| 数组中出现次数超过一半的数字 | [MajorityElement](src/com/offer/L0390/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
 |40| 最小的k个数 | [TheSmallestNumberK](src/com/offer/L0400/TheSmallestNumberK.java) | 简单 | 快速排序 | 数组、分治、快速选择、排序、堆 |
 |41| 数据流中的中位数 | [MedianFinder](src/com/offer/L0410/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
@@ -470,6 +471,7 @@
 |63| 股票的最大利润 | [MaximumProfitStock](src/com/offer/L0630/MaximumProfitStock.java) | 中等 | 动态规划 | 数组、动态规划 |
 |64| 求1+2+…+n | [SumN](src/com/offer/L0640/SumN.java) | 中等 | 递归 | 位运算、递归、脑筋急转弯 |
 |65| 不用加减乘除做加法 | [Add](src/com/offer/L0650/Add.java) | 简单 | 位运算 | 位运算、数学 |
+|66| 构建乘积数组 | [BuildArrayProducts](src/com/offer/L0660/BuildArrayProducts.java) | 中等 | 数学 | 数组、前缀和 |
 |68-I| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/offer/L0681/LowestCommonAncestorBST.java) | 简单 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |68-II| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/offer/L0682/LowestCommonAncestorBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
 
