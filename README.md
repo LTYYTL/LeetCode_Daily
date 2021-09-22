@@ -1,11 +1,13 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**429**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**432**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |1| [两数之和](src/com/leetcode/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L0001/TwoNumSum.java) | 简单 | 双指针、Map映射 | 数组、哈希表 |
 |11| 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L0011/ContainerWithMostWater.java) | 中等 | 双指针 | 数组、双指针 |
+|15| 三数之和 | [Sum3](src/com/leetcode/L0015/Sum3.java) | 中等 | 双指针 | 数组、双指针、排序 |？
+|18| 四数之和 | [Sum4](src/com/leetcode/L0018/Sum4.java) | 中等 | 双指针 | 数组、双指针、排序 |？
 |26| 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L0026/RemoveDuplicatesSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |27| 移除元素 | [RemoveElement](src/com/leetcode/L0027/RemoveElement.java) | 简单 | 双指针 | 数组、双指针 |
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
@@ -118,6 +120,7 @@
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
 |237| 删除链表中的节点 | [DeleteNodeLinkedList](src/com/leetcode/L0237/DeleteNodeLinkedList.java) | 简单 | 模拟 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
+|725| 分隔链表 | [SplitLinkedListParts](src/com/leetcode/L0725/SplitLinkedListParts.java) | 中等 | 模拟 | 链表 |
 |876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |
 
 ## 3. **_字符串系列_**
@@ -319,6 +322,7 @@
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |292| Nim 游戏 | [NimGame](src/com/leetcode/L0292/NimGame.java) | 简单 | 数学-博弈论 | 数学、博弈、脑筋急转弯 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
+|343| 整数拆分 | [IntegerBreak](src/com/leetcode/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
@@ -424,6 +428,7 @@
 |16| Pow(x, n) | [Pow](src/com/offer/L0160/Pow.java) | 中等 | 数学 | 数学、二分查找 |
 |10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
 |10-II| 青蛙跳台阶问题 | [FrogJumpingProblem](src/com/offer/L0102/FrogJumpingProblem.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
+|14-I| 剪绳子 | [CutRope](src/com/offer/L0141/CutRope.java) | 中等 | 数学 | 数学、动态规划 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
 |21| 调整数组顺序使奇数位于偶数前面 | [AdjustOrderArray](src/com/offer/L0210/AdjustOrderArray.java) | 简单 | 双指针 | 数组、双指针、排序 |
@@ -468,6 +473,7 @@
 |59-I| 滑动窗口的最大值 | [SlidingWindowMax](src/com/offer/L0591/SlidingWindowMax.java) | 困难 | 单调队列 | 队列、单调队列、堆、滑动窗口 |
 |59-II| 队列的最大值 | [MaxQueue](src/com/offer/L0592/MaxQueue.java) | 中等 | 设计 | 队列、单调队列、设计 |
 |61| 扑克牌中的顺子 | [StraightPlayingCards](src/com/offer/L0610/StraightPlayingCards.java) | 简单 | 数学、排序 | 数组、排序 |
+|62| 圆圈中最后剩下的数字 | [RemainingNumberCircle](src/com/offer/L0620/RemainingNumberCircle.java) | 简单 | 数学 | 数学、递归 |？
 |63| 股票的最大利润 | [MaximumProfitStock](src/com/offer/L0630/MaximumProfitStock.java) | 中等 | 动态规划 | 数组、动态规划 |
 |64| 求1+2+…+n | [SumN](src/com/offer/L0640/SumN.java) | 中等 | 递归 | 位运算、递归、脑筋急转弯 |
 |65| 不用加减乘除做加法 | [Add](src/com/offer/L0650/Add.java) | 简单 | 位运算 | 位运算、数学 |
