@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**432**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**435**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -77,6 +77,7 @@
 |909| 蛇梯棋 | [SnakesLadders](src/com/leetcode/L0909/SnakesLadders.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
+|946| 验证栈序列 | [ValidateStackSequences](src/com/leetcode/L0946/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
@@ -137,7 +138,7 @@
 |165| 比较版本号 | [CompareVersionNumbers](src/com/leetcode/L0165/CompareVersionNumbers.java) | 中等  | 模拟、双指针 | 字符串、双指针 |
 |150| 逆波兰表达式求值 | [EvaluateReversePolishNotation](src/com/leetcode/L0150/EvaluateReversePolishNotation.java) | 中等  | 栈 | 字符串、栈 |
 |151| 翻转字符串里的单词 | [ReverseWordsString](src/com/leetcode/L0151/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
-|224| 基本计算器 | [BasicCalculator](src/com/leetcode/L0224/BasicCalculator.java) | 困难  | 栈 | 栈、数学 |
+|224| 基本计算器 | [BasicCalculator](src/com/leetcode/L0224/BasicCalculator.java) | 困难  | 模拟 | 栈、数学 |
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
 |290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
@@ -321,6 +322,7 @@
 |233| 数字 1 的个数 | [NumberDigitOne](src/com/leetcode/L0233/NumberDigitOne.java) | 中等 | 数学 | 数学、递归、动态规划 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |292| Nim 游戏 | [NimGame](src/com/leetcode/L0292/NimGame.java) | 简单 | 数学-博弈论 | 数学、博弈、脑筋急转弯 |
+|326| 3的幂 | [PowerThree](src/com/leetcode/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
@@ -438,7 +440,9 @@
 |26| 树的子结构 | [TreeSubstructure](src/com/offer/L0260/TreeSubstructure.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |27| 二叉树的镜像 | [MirrorBinaryTree](src/com/offer/L0270/MirrorBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |28| 对称的二叉树 | [SymmetricBinaryTree](src/com/offer/L0280/SymmetricBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
+|29| 顺时针打印矩阵 | [SpiralMatrix](src/com/offer/L0290/SpiralMatrix.java) | 简单 | 模拟 | 数组、矩阵、模拟 |？
 |30| 包含min函数的栈 | [MinStack](src/com/offer/L0300/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|31| 栈的压入、弹出序列 | [ValidateStackSequences](src/com/offer/L0310/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
 |32-I| 从上到下打印二叉树 | [PrintBinaryTree](src/com/offer/L0321/PrintBinaryTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
 |32-II| 从上到下打印二叉树II | [PrintBinaryTreeII](src/com/offer/L0322/PrintBinaryTreeII.java) | 简单 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
 |32-III| 从上到下打印二叉树III | [PrintBinaryTreeIII](src/com/offer/L0323/PrintBinaryTreeIII.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |

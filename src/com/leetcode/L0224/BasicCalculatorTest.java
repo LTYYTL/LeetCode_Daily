@@ -3,7 +3,8 @@ package com.leetcode.L0224;
 public class BasicCalculatorTest {
     public static void main(String[] args) {
         BasicCalculator basicCalculator = new BasicCalculator();
-        /** * 示例 1：
+        /**
+         * 示例 1：
          * 输入：s = "1 + 1"
          * 输出：2
          */
