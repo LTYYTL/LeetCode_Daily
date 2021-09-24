@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**435**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**438**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -76,8 +76,9 @@
 |905| 按奇偶排序数组 | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 双指针 | 数组 |
 |909| 蛇梯棋 | [SnakesLadders](src/com/leetcode/L0909/SnakesLadders.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
-|973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |946| 验证栈序列 | [ValidateStackSequences](src/com/leetcode/L0946/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
+|969| 煎饼排序 | [PancakeSorting](src/com/leetcode/L0969/PancakeSorting.java) | 中等 | 递归 | 数组、双指针、排序、贪心算法 |
+|973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
@@ -121,12 +122,14 @@
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
 |237| 删除链表中的节点 | [DeleteNodeLinkedList](src/com/leetcode/L0237/DeleteNodeLinkedList.java) | 简单 | 模拟 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
+|430| 扁平化多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/leetcode/L0430/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
 |725| 分隔链表 | [SplitLinkedListParts](src/com/leetcode/L0725/SplitLinkedListParts.java) | 中等 | 模拟 | 链表 |
 |876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |
 
 ## 3. **_字符串系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|8| 字符串转换整数 (atoi) | [StringToInteger](src/com/leetcode/L0008/StringToInteger.java) | 中等 | 模拟 | 字符串 |？
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
@@ -433,6 +436,7 @@
 |14-I| 剪绳子 | [CutRope](src/com/offer/L0141/CutRope.java) | 中等 | 数学 | 数学、动态规划 |
 |15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
 |18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
+|20| 表示数值的字符串 | [StringRepresentingValue](src/com/offer/L0200/StringRepresentingValue.java) | 中等 | 有限状态机 | 字符串 |？
 |21| 调整数组顺序使奇数位于偶数前面 | [AdjustOrderArray](src/com/offer/L0210/AdjustOrderArray.java) | 简单 | 双指针 | 数组、双指针、排序 |
 |22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
@@ -482,6 +486,7 @@
 |64| 求1+2+…+n | [SumN](src/com/offer/L0640/SumN.java) | 中等 | 递归 | 位运算、递归、脑筋急转弯 |
 |65| 不用加减乘除做加法 | [Add](src/com/offer/L0650/Add.java) | 简单 | 位运算 | 位运算、数学 |
 |66| 构建乘积数组 | [BuildArrayProducts](src/com/offer/L0660/BuildArrayProducts.java) | 中等 | 数学 | 数组、前缀和 |
+|67| 把字符串转换成整数 | [StringToInteger](src/com/offer/L0670/StringToInteger.java) | 中等 | 模拟 | 字符串 |
 |68-I| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/offer/L0681/LowestCommonAncestorBST.java) | 简单 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |68-II| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/offer/L0682/LowestCommonAncestorBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
 
