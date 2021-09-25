@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**438**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**439**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -52,6 +52,7 @@
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L0503/NextGreaterElementII.java) | 中等 | 栈 | 单调栈 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
+|560| 和为 K 的子数组 | [SubarraySumEqualsK](src/com/leetcode/L0560/SubarraySumEqualsK.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |？
 |581| 最短无序连续子数组 | [ShortestUnsortedContinuousSubarray](src/com/leetcode/L0581/ShortestUnsortedContinuousSubarray.java) | 中等 | 排序 | 数组、栈、贪心算法、排序、单调栈、双指针 |
 |611| 有效三角形的个数 | [ValidTriangleNumber](src/com/leetcode/L0611/ValidTriangleNumber.java) | 中等 | 二分查找、双指针 | 数组、二分查找、双指针、排序、贪心算法 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
@@ -269,6 +270,7 @@
 |518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |552| 学生出勤记录 II | [CoinChange2](src/com/leetcode/L0552/StudentAttendanceRecordII.java) | 困难 | 动态规划 | 动态规划 |
 |576| 出界的路径数 | [OutBoundaryPaths](src/com/leetcode/L0576/OutBoundaryPaths.java) | 中等 | 动态规划 | 动态规划 |
+|583| 两个字符串的删除操作 | [DeleteOperationTwoStrings](src/com/leetcode/L0583/DeleteOperationTwoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |600| 不含连续1的非负整数 | [NoIntegersConsecutiveOnes](src/com/leetcode/L0600/NoIntegersConsecutiveOnes.java) | 困难 | 动态规划 | 动态规划 |
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
