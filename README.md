@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**439**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**442**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -102,6 +102,8 @@
 |1846| 减小和重新排列数组后的最大元素 | [MaximumElementAfterDecreasingRearranging](src/com/leetcode/L1846/MaximumElementAfterDecreasingRearranging.java) | 中等 | 排序、计数 | 数组、排序、贪心 |
 |1877| 数组中最大数对和的最小值 | [MinimizeMaximumPairSumArray](src/com/leetcode/L1877/MinimizeMaximumPairSumArray.java) | 中等 | 排序 | 贪心算法、排序 |
 |1882| 使用服务器处理任务 | [ProcessTasksUsingServers](src/com/leetcode/L1882/ProcessTasksUsingServers.java) | 中等 | 堆 | 堆 |
+|1886| 判断矩阵经轮转后是否一致 | [DetermineWhetherMatrixRotation](src/com/leetcode/L1886/DetermineWhetherMatrixRotation.java) | 简单 | 模拟 | 数组、矩阵 |
+|1887| 使数组元素相等的减少操作次数 | [ReductionOperationsArrayEqual](src/com/leetcode/L1887/ReductionOperationsArrayEqual.java) | 中等 | 排序 | 数组、排序 |
 |1894| 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1894/FindStudentWillReplaceChalk.java) | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟 |
 
 ## 2. **_链表系列_**
@@ -330,6 +332,7 @@
 |326| 3的幂 | [PowerThree](src/com/leetcode/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
+|371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
@@ -386,6 +389,7 @@
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |295| 数据流的中位数 | [MedianFinder](src/com/leetcode/L0295/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |？
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
