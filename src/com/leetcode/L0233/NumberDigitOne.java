@@ -23,29 +23,31 @@ public class NumberDigitOne {
     }
 
     public int CountProblem(int n, int k) {
-        int cnt = 0;
-        for (long base = 1; base <= n; base *= 10) {
-            // x, y, z 分别表示第 i 位 前， 中， 后的数值，如12580第3位 - 12,5,80
-            long x = n / base / 10, y = (n / base) % 10, z = n % base;
-            if (k != 0) {
-                // 例：求1~128中 个位1 的个数，则为（12 + 1）* 1 = 13
-                if (y > k)
-                    cnt += (x + 1) * base;
-                    // 例：求1~128中 百位1 的个数，则为 0 * 100 + 28 + 1 = 29
-                else if (y == k)
-                    cnt += x * base + z + 1;
-                    // 例：求1~128中 十位5 的个数，则为 1 * 10
-                else
-                    cnt += x * base;
+        //当前是什么位
+        int digit = 1;
+        //结果
+        int res = 0;
+        //高位
+        int high = n / 10;
+        //当前位
+        int cur = n % 10;
+        //低位
+        int low = 0;
+        while (high != 0 || cur != 0){
+            if (cur < k){
+                res += high * digit;
+            }else if (cur == k){
+                res += high * digit + low + 1;
+            }else {
+                res += (high + 1) * digit;
             }
-            else { // k = 0 情况需要单独处理
-                if (y == 0)
-                    cnt += (x - 1) * base + z + 1;
-                else
-                    cnt += x * base;
-            }
+            //重新计算各位
+            low += cur * digit;
+            cur = high % 10;
+            high /= 10;
+            digit *= 10;
         }
-        return cnt;
+        return res;
     }
 
 }
