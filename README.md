@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**463**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**472**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -21,9 +21,11 @@
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
+|137| 只出现一次的数字II | [SingleNumberII](src/com/leetcode/L0137/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |？
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
 |154| 寻找旋转排序数组中的最小值II | [FindMinimumRotatedSortedArrayII](src/com/leetcode/L0154/FindMinimumRotatedSortedArrayII.java) | 困难 | 二分查找 | 数组、二分查找 |
 |162| 寻找峰值 | [FindPeakElement](src/com/leetcode/L0162/FindPeakElement.java) | 中等 | 二分查找 | 数组、二分查找 |
+|167| 两数之和 II - 输入有序数组 | [TwoSumII](src/com/leetcode/L0167/TwoSumII.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |169| 多数元素 | [MajorityElement](src/com/leetcode/L0169/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
@@ -132,6 +134,7 @@
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
+|67| 二进制加法 | [AddBinary](src/com/leetcode/L0067/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |？
 |68| 文本左右对齐 | [TextJustification](src/com/leetcode/L0068/TextJustification.java) | 困难 | 模拟 | 字符串、模拟 |
 |71| 简化路径 | [SimplifyPath](src/com/leetcode/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
@@ -142,6 +145,7 @@
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
 |290| 单词规律 | [WordPattern](src/com/leetcode/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
+|318| 最大单词长度乘积 | [MaximumProductWordLengths](src/com/leetcode/L0318/MaximumProductWordLengths.java) | 中等 | 位运算 | 数组、字符串、位运算 |
 |345| 反转字符串中的元音字母 | [ReverseVowelsString](src/com/leetcode/L0345/ReverseVowelsString.java) | 简单 | 双指针 | 字符串、双指针 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
@@ -165,6 +169,7 @@
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
+|1436| 旅行终点站 | [DestinationCity](src/com/leetcode/L1436/DestinationCity.java) | 简单 | set集合 | 字符串、哈希表 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
@@ -333,6 +338,7 @@
 |171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
+|223| 矩形面积 | [RectangleArea](src/com/leetcode/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |233| 数字 1 的个数 | [NumberDigitOne](src/com/leetcode/L0233/NumberDigitOne.java) | 中等 | 数学 | 数学、递归、动态规划 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
@@ -433,7 +439,7 @@
 |17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
-## 13. **_剑指offer_**
+## 13. **_剑指offer_**（共计75题）
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |03| 数组中重复的数字 | [RepeatedNumbersArray](src/com/offer/L0003/RepeatedNumbersArray.java) | 简单 | set集合、排序 | 数组、哈希表 |
@@ -515,7 +521,12 @@
 ## 14. **_剑指offerII_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|031| 最近最少使用缓存 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
+|002| 二进制加法 | [AddBinary](src/com/offerII/L002/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |
+|003| 前 n 个数字二进制中 1 的个数 | [CountingBits](src/com/offerII/L003/CountingBits.java) | 简单 | 数学 | 位运算、动态规划 |
+|004| 只出现一次的数字 | [SingleNumberII](src/com/offerII/L004/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |
+|005| 单词长度最大乘积 | [MaximumProductWordLengths](src/com/offerII/L005/MaximumProductWordLengths.java) | 中等 | 位运算 | 数组、字符串、位运算 |
+|006| 排序数组中两个数字之和 | [TwoSumII](src/com/offerII/L006/TwoSumII.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
+|031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
