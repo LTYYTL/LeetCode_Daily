@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**479**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**484**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -152,6 +152,7 @@
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |443| 压缩字符串 | [StringCompression](src/com/leetcode/L401_500/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
+|482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
 |524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L501_600/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
@@ -408,6 +409,7 @@
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L201_300/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |295| 数据流的中位数 | [MedianFinder](src/com/leetcode/L201_300/L0295/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L201_300/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
+|304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |？
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
@@ -533,6 +535,10 @@
 |007| 数组中和为 0 的三个数 | [Sum3](src/com/offerII/L007/Sum3.java) | 中等 | 双指针 | 数组、双指针、排序 |
 |008| 长度最小的子数组 | [MinimumSizeSubarraySum](src/com/offerII/L008/MinimumSizeSubarraySum.java) | 中等 | 滑动窗口 | 数组、二分查找、前缀和、滑动窗口 |
 |009| 乘积小于K的子数组 | [SubarrayProductLessThanK](src/com/offerII/L009/SubarrayProductLessThanK.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
+|010| 和为 K 的子数组 | [SubarraySumEqualsK](src/com/offerII/L010/SubarraySumEqualsK.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
+|011| 0 和 1 个数相同的子数组 | [ContiguousArray](src/com/offerII/L011/ContiguousArray.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
+|012| 左右两边子数组的和相等 | [FindPivotIndex](src/com/offerII/L012/FindPivotIndex.java) | 简单 | 数学 | 数组、前缀和 |
+|013| 二维子矩阵的和 | [NumMatrix](src/com/offerII/L013/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |
 |031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 
 ## 14. **_微软题_**
