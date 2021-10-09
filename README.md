@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**484**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**489**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -41,6 +41,7 @@
 |350| 两个数组的交集II | [IntersectionArrayII](src/com/leetcode/L301_400/L0350/IntersectionArrayII.java) | 简单 | Map映射、双指针 | 哈希表、双指针、二分查找 |
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L301_400/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
 |374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L301_400/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
+|414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 |数组、排序 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L401_500/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L401_500/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
@@ -141,6 +142,7 @@
 |165| 比较版本号 | [CompareVersionNumbers](src/com/leetcode/L101_200/L0165/CompareVersionNumbers.java) | 中等  | 模拟、双指针 | 字符串、双指针 |
 |150| 逆波兰表达式求值 | [EvaluateReversePolishNotation](src/com/leetcode/L101_200/L0150/EvaluateReversePolishNotation.java) | 中等  | 栈 | 字符串、栈 |
 |151| 翻转字符串里的单词 | [ReverseWordsString](src/com/leetcode/L101_200/L0151/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
+|187| 重复的DNA序列 | [RepeatedDNASequences](src/com/leetcode/L101_200/L0187/RepeatedDNASequences.java) | 中等 | 模拟 | 字符串、哈希表、滑动窗口、位运算、哈希函数、滚动哈希 |
 |224| 基本计算器 | [BasicCalculator](src/com/leetcode/L201_300/L0224/BasicCalculator.java) | 困难  | 模拟 | 栈、数学 |
 |242| 有效的字母异位词 | [ValidAnagram](src/com/leetcode/L201_300/L0242/ValidAnagram.java) | 简单  | 排序 | 哈希表、排序 |
 |290| 单词规律 | [WordPattern](src/com/leetcode/L201_300/L0290/WordPattern.java) | 简单  | 哈希表 | 哈希表 |
@@ -150,6 +152,7 @@
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
+|434| 字符串中的单词数 | [NumberSegmentsString](src/com/leetcode/L401_500/L0434/NumberSegmentsString.java) | 简单 | 模拟 | 字符串 |
 |443| 压缩字符串 | [StringCompression](src/com/leetcode/L401_500/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
 |482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
@@ -405,12 +408,14 @@
 |146| LRU 缓存机制 | [LRUCache](src/com/leetcode/L101_200/L0146/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |155| 最小栈 | [MinStack](src/com/leetcode/L101_200/L0155/MinStack.java) | 简单 | 栈 | 栈、设计 |
 |208| 实现 Trie (前缀树) | [Trie](src/com/leetcode/L201_300/L0208/Trie.java) | 中等 | 前缀树 | 字典树、设计 |
-|232| 用栈实现队列| [MyQueue](src/com/leetcode/L201_300/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L201_300/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
+|232| 用栈实现队列| [MyQueue](src/com/leetcode/L201_300/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
+|284| 窥探迭代器| [PeekingIterator](src/com/leetcode/L201_300/L0284/PeekingIterator.java) | 中等 | 迭代器 | 数组、迭代器、设计 |
 |295| 数据流的中位数 | [MedianFinder](src/com/leetcode/L201_300/L0295/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L201_300/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |？
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
+|352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
