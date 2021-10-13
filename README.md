@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**496**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**503**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -154,6 +154,7 @@
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
+|412| Fizz Buzz | [FizzBuzz](src/com/leetcode/L401_500/L0412/FizzBuzz.java) | 简单 | 模拟 | 字符串、数学、模拟 |
 |434| 字符串中的单词数 | [NumberSegmentsString](src/com/leetcode/L401_500/L0434/NumberSegmentsString.java) | 简单 | 模拟 | 字符串 |
 |443| 压缩字符串 | [StringCompression](src/com/leetcode/L401_500/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
@@ -163,6 +164,7 @@
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
+|680| 验证回文字符串 Ⅱ | [ValidPalindromeII](src/com/leetcode/L601_700/L0680/ValidPalindromeII.java) | 简单 | 双指针 | 字符串、贪心算法、双指针 |
 |726| 原子的数量 | [NumberAtoms](src/com/leetcode/L701_800/L0726/NumberAtoms.java) | 困难 | map映射 | 字符串、栈、哈希表 |
 |771| 宝石与石头 | [JewelsAndStones](src/com/leetcode/L701_800/L0771/JewelsAndStones.java) | 简单 | Set集合 | 字符串 |
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
@@ -276,6 +278,7 @@
 |583| 两个字符串的删除操作 | [DeleteOperationTwoStrings](src/com/leetcode/L501_600/L0583/DeleteOperationTwoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |600| 不含连续1的非负整数 | [NoIntegersConsecutiveOnes](src/com/leetcode/L501_600/L0600/NoIntegersConsecutiveOnes.java) | 困难 | 动态规划 | 动态规划 |
 |639| 解码方法 II | [DecodeWaysII](src/com/leetcode/L601_700/L0639/DecodeWaysII.java) | 困难 | 动态规划 | 字符串、动态规划 |
+|647| 回文子串 | [PalindromicSubstrings](src/com/leetcode/L601_700/L0647/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |？
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L601_700/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L601_700/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L601_700/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
@@ -552,6 +555,11 @@
 |015| 字符串中的所有变位词 | [FindAllAnagramsString](src/com/offerII/L015/FindAllAnagramsString.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
 |016| 不含重复字符的最长子字符串 | [NoRepeatLongestStr](src/com/offerII/L016/NoRepeatLongestStr.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
 |017| 含有所有字符的最短字符串 | [MinimumWindowSubstring](src/com/offerII/L017/MinimumWindowSubstring.java) | 困难 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
+|018| 有效的回文 | [ValidPalindrome](src/com/offerII/L018/ValidPalindrome.java) | 简单 | 双指针 | 字符串、双指针 |
+|019| 最多删除一个字符得到回文 | [ValidPalindromeII](src/com/offerII/L019/ValidPalindromeII.java) | 简单 | 双指针 | 字符串、贪心算法、双指针 |
+|020| 回文子字符串的个数 | [PalindromicSubstrings](src/com/offerII/L020/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
+|021| 删除链表的倒数第 n 个结点 | [DeleteNode](src/com/offerII/L021/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
+|022| 链表中环的入口节点 | [LinkedListCycleII](src/com/offerII/L022/LinkedListCycleII.java) | 中等 | 双指针 | 链表、哈希表、双指针 |
 |031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 
 ## 14. **_微软题_**
