@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**503**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**510**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -118,12 +118,15 @@
 |138| 复制带随机指针的链表  | [CopyListRandomPointer](src/com/leetcode/L101_200/L0138/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L101_200/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
 |142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L101_200/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
+|143| 重排链表  | [ReorderList](src/com/leetcode/L101_200/L0143/ReorderList.java) | 中等 | 双指针 | 链表、栈、双指针、递归 |？
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L101_200/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L201_300/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L201_300/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
+|234| 回文链表 | [PalindromeLinkedList](src/com/leetcode/L201_300/L0234/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |？
 |237| 删除链表中的节点 | [DeleteNodeLinkedList](src/com/leetcode/L201_300/L0237/DeleteNodeLinkedList.java) | 简单 | 模拟 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L301_400/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 |430| 扁平化多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/leetcode/L401_500/L0430/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
+|445| 两数相加 II | [AddTwoNumbersII](src/com/leetcode/L401_500/L0445/AddTwoNumbersII.java) | 中等 | 栈 | 链表、栈、数学 |？
 |725| 分隔链表 | [SplitLinkedListParts](src/com/leetcode/L701_800/L0725/SplitLinkedListParts.java) | 中等 | 模拟 | 链表 |
 |876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L801_900/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |
 
@@ -560,6 +563,13 @@
 |020| 回文子字符串的个数 | [PalindromicSubstrings](src/com/offerII/L020/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |021| 删除链表的倒数第 n 个结点 | [DeleteNode](src/com/offerII/L021/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
 |022| 链表中环的入口节点 | [LinkedListCycleII](src/com/offerII/L022/LinkedListCycleII.java) | 中等 | 双指针 | 链表、哈希表、双指针 |
+|023| 两个链表的第一个重合节点 | [IntersectionTwoLinkedLists](src/com/offerII/L023/IntersectionTwoLinkedLists.java) | 简单 | set集合、双指针 | 链表、哈希表、双指针 |
+|024| 反转链表 | [ReverseLinkedList](src/com/offerII/L024/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
+|025| 链表中的两数相加 | [AddTwoNumbersII](src/com/offerII/L025/AddTwoNumbersII.java) | 中等 | 栈 | 链表、栈、数学 |
+|026| 重排链表 | [ReorderList](src/com/offerII/L026/ReorderList.java) | 中等 | 双指针 | 链表、栈、递归、双指针 |
+|027| 回文链表 | [PalindromeLinkedList](src/com/offerII/L027/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |
+|028| 展平多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/offerII/L028/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
+|069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 |031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 
 ## 14. **_微软题_**

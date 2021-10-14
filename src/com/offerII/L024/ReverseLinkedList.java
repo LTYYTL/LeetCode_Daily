@@ -1,12 +1,12 @@
-package com.leetcode.L201_300.L0206;
+package com.offerII.L024;
 
 import com.util.ListNode;
 
 import java.util.Stack;
 
 /**
- * 206. 反转链表
- * 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
+ * 剑指 Offer II 024. 反转链表
+ * 给定单链表的头节点 head ，请反转链表，并返回反转后的链表的头节点。
  *
  * 示例 1：
  * 输入：head = [1,2,3,4,5]
@@ -25,6 +25,8 @@ import java.util.Stack;
  * -5000 <= Node.val <= 5000
  *
  * 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
+ *
+ * 注意：本题与主站 206 题相同： https://leetcode-cn.com/problems/reverse-linked-list/
  */
 public class ReverseLinkedList {
     /**
