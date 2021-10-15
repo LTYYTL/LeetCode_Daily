@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**510**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**519**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -137,6 +137,7 @@
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L1_100/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
+|38| 外观数列 | [CountSay](src/com/leetcode/L1_100/L0038/CountSay.java) | 中等 | 枚举 | 字符串 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L1_100/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L1_100/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
 |67| 二进制加法 | [AddBinary](src/com/leetcode/L1_100/L0067/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |？
@@ -163,6 +164,7 @@
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
 |482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
 |524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L501_600/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
+|539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
@@ -175,6 +177,7 @@
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
+|953| 验证外星语词典 | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1001_1100/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
@@ -425,6 +428,7 @@
 |304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |？
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
+|380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
@@ -569,8 +573,13 @@
 |026| 重排链表 | [ReorderList](src/com/offerII/L026/ReorderList.java) | 中等 | 双指针 | 链表、栈、递归、双指针 |
 |027| 回文链表 | [PalindromeLinkedList](src/com/offerII/L027/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |
 |028| 展平多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/offerII/L028/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
-|069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
+|030| 插入、删除和随机访问都是 O(1) 的容器 | [RandomizedSet](src/com/offerII/L030/RandomizedSet.java) | 中等 | list集合 | 数组、哈希表、数学、设计、随机化 |
 |031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
+|032| 有效的变位词 | [ValidConjugation](src/com/offerII/L032/ValidConjugation.java) | 简单 | 排序 | 字符串、哈希表、排序 |
+|033| 变位词组 | [GroupAnagrams](src/com/offerII/L033/GroupAnagrams.java) | 简单 | map映射 | 字符串、哈希表、排序 |
+|034| 外星语言是否排序 | [VerifyingAlienDictionary](src/com/offerII/L034/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、哈希表、数组 |
+|035| 最小时间差 | [MinimumTimeDifference](src/com/offerII/L035/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、数学、排序 |
+|069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |

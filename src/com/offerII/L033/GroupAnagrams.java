@@ -1,23 +1,30 @@
-package com.leetcode.L1_100.L0049;
+package com.offerII.L033;
 
 import java.util.*;
 
 /**
- * 49. 字母异位词分组
- * 给定一个字符串数组，将字母异位词组合在一起。字母异位词指字母相同，但排列不同的字符串。
+ * 剑指 Offer II 033. 变位词组
+ * 给定一个字符串数组 strs ，将 变位词 组合在一起。 可以按任意顺序返回结果列表。
+ * 注意：若两个字符串中每个字符出现的次数都相同，则称它们互为变位词。
  *
- * 示例:
- * 输入: ["eat", "tea", "tan", "ate", "nat", "bat"]
- * 输出:
- * [
- *   ["ate","eat","tea"],
- *   ["nat","tan"],
- *   ["bat"]
- * ]
+ * 示例 1:
+ * 输入: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+ * 输出: [["bat"],["nat","tan"],["ate","eat","tea"]]
  *
- * 说明：
- * 所有输入均为小写字母。
- * 不考虑答案输出的顺序。
+ * 示例 2:
+ * 输入: strs = [""]
+ * 输出: [[""]]
+ *
+ * 示例 3:
+ * 输入: strs = ["a"]
+ * 输出: [["a"]]
+ *
+ * 提示：
+ * 1 <= strs.length <= 104
+ * 0 <= strs[i].length <= 100
+ * strs[i] 仅包含小写字母
+ *
+ * 注意：本题与主站 49 题相同： https://leetcode-cn.com/problems/group-anagrams/
  */
 public class GroupAnagrams {
     /**
