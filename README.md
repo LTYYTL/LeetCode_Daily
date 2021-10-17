@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**519**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**533**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -18,6 +18,8 @@
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L1_100/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |80| 删除有序数组中的重复项 II | [RemoveDuplicatesSortedArrayII](src/com/leetcode/L1_100/L0080/RemoveDuplicatesSortedArrayII.java) | 中等 | 双指针 | 数组、双指针 |
 |81| 搜索旋转排序数组 II | [SearchRotatedSortedArrayII](src/com/leetcode/L1_100/L0081/SearchRotatedSortedArrayII.java) | 中等 | 二分法 | 数组、二分查找 |
+|84| 柱状图中最大的矩形 | [LargestRectangleHistogram](src/com/leetcode/L1_100/L0084/LargestRectangleHistogram.java) | 困难 | 单调栈 | 数组、栈、单调栈 |
+|85| 最大矩形 | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |？
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L1_100/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L101_200/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L101_200/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
@@ -62,6 +64,7 @@
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L601_700/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L701_800/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
+|735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
@@ -212,7 +215,8 @@
 |145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L101_200/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L201_300/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L201_300/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
-|235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L201_300/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树 |
+|230| 二叉搜索树中第K小的元素 | [KthSmallestElementBST](src/com/leetcode/L201_300/L0230/KthSmallestElementBST.java) | 中等 | 递归、迭代 | 树 |
+|235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L201_300/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树、二叉树、二叉搜素树、深度优先搜索 |
 |236| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/leetcode/L201_300/L0236/LowestCommonAncestorBinaryTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L401_500/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L401_500/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
 |437| 路径总和III | [PathSumIII](src/com/leetcode/L401_500/L0437/PathSumIII.java) | 中等 | 递归、前缀和 | 树、二叉树、深度优先搜索 |
@@ -316,6 +320,7 @@
 |90| 子集II | [SubsetsII](src/com/leetcode/L1_100/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |212| 单词搜索 II | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java) | 困难  | 字典树+回溯算法 | 数组、字符串、字典树、回溯算法、矩阵 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|282| 给表达式添加运算符 | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java) | 困难 | 回溯算法 | 字符串、数学、回溯算法 |
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1601_1700/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
@@ -431,6 +436,8 @@
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
+|919| 完全二叉树插入器 | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
+|933| 最近的请求次数 | [RecentCounter](src/com/leetcode/L901_1000/L0939/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
@@ -579,6 +586,14 @@
 |033| 变位词组 | [GroupAnagrams](src/com/offerII/L033/GroupAnagrams.java) | 简单 | map映射 | 字符串、哈希表、排序 |
 |034| 外星语言是否排序 | [VerifyingAlienDictionary](src/com/offerII/L034/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、哈希表、数组 |
 |035| 最小时间差 | [MinimumTimeDifference](src/com/offerII/L035/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、数学、排序 |
+|036| 后缀表达式 | [EvaluateReversePolishNotation](src/com/offerII/L036/EvaluateReversePolishNotation.java) | 中等 | 排序 | 数组、数学、栈 |
+|037| 小行星碰撞 | [AsteroidCollision](src/com/offerII/L037/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
+|038| 每日温度 | [DailyTemperatures](src/com/offerII/L038/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
+|039| 直方图最大矩形面积 | [LargestRectangleHistogram](src/com/offerII/L039/LargestRectangleHistogram.java) | 困难 | 单调栈 | 数组、栈、单调栈 |
+|040| 矩阵中最大的矩形 | [MaximalRectangle](src/com/offerII/L040/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |
+|041| 滑动窗口的平均值 | [MovingAverage](src/com/offerII/L041/MovingAverage.java) | 简单 | 队列 | 数组、队列、数据流、设计 |
+|042| 最近的请求次数 | [RecentCounter](src/com/offerII/L042/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
+|043| 往完全二叉树添加节点 | [CBTInserter](src/com/offerII/L043/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
 |069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 
 ## 14. **_微软题_**
