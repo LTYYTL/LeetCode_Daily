@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**533**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**544**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -211,8 +211,10 @@
 |112| 路径总和 | [PathSum](src/com/leetcode/L101_200/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
 |113| 路径总和II | [PathSumII](src/com/leetcode/L101_200/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
 |116| 填充每个节点的下一个右侧节点指针 | [PopulatingNextRightPointersEachNode](src/com/leetcode/L101_200/L0116/PopulatingNextRightPointersEachNode.java) | 中等 | 广度优先搜索 | 树、广度优先搜索 |
+|129| 求根节点到叶节点数字之和 | [SumRootLeafNumbers](src/com/leetcode/L101_200/L0129/SumRootLeafNumbers.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |？
 |145| 二叉树的前序遍历 | [PerOrder](src/com/leetcode/L101_200/L0144/PerOrder.java) | 中等 | 递归、迭代 | 树 |
-|145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L101_200/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |
+|145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L101_200/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |]
+|199| 二叉树的右视图 | [BinaryTreeRightSideView](src/com/leetcode/L101_200/L0199/BinaryTreeRightSideView.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |？
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L201_300/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L201_300/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
 |230| 二叉搜索树中第K小的元素 | [KthSmallestElementBST](src/com/leetcode/L201_300/L0230/KthSmallestElementBST.java) | 中等 | 递归、迭代 | 树 |
@@ -222,6 +224,8 @@
 |437| 路径总和III | [PathSumIII](src/com/leetcode/L401_500/L0437/PathSumIII.java) | 中等 | 递归、前缀和 | 树、二叉树、深度优先搜索 |
 |450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L401_500/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
 |501| 二叉搜索树中的众数 | [BSTMode](src/com/leetcode/L501_600/L0501/BSTMode.java) | 简单 | 递归、迭代 | 树 |
+|513| 找树左下角的值 | [FindBottomLeftTreeValue](src/com/leetcode/L501_600/L0513/FindBottomLeftTreeValue.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
+|515| 在每个树行中找最大值 | [FindLargestValueEachTreeRow](src/com/leetcode/L501_600/L0515/FindLargestValueEachTreeRow.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |530| 二叉搜索树的最小绝对差 | [BSTMin](src/com/leetcode/L501_600/L0530/BSTMin.java) | 简单 | 递归、迭代 | 树 |
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L501_600/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
 |543| 二叉树的直径 | [DiameterBinaryTree](src/com/leetcode/L501_600/L0543/DiameterBinaryTree.java) | 简单 | 递归 | 树、深度优先搜索、二叉树 |
@@ -375,6 +379,7 @@
 |405| 数字转换为十六进制数 | [ConvertNumberHexadecimal](src/com/leetcode/L401_500/L0405/ConvertNumberHexadecimal.java) | 简单 | 数学 | 数学、位运算 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
+|476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |504| 七进制数 | [Base7](src/com/leetcode/L501_600/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L501_600/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
@@ -388,6 +393,7 @@
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L901_1000/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L901_1000/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
 |1006| 笨阶乘 | [ClumsyFactorial](src/com/leetcode/L1001_1100/L1006/ClumsyFactorial.java) | 中等 | 栈 | 数学 |
+|1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
@@ -437,7 +443,7 @@
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |919| 完全二叉树插入器 | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
-|933| 最近的请求次数 | [RecentCounter](src/com/leetcode/L901_1000/L0939/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
+|933| 最近的请求次数 | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
 |981| 基于时间的键值存储 | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java) | 中等 | Map映射+二分查找 | 字符串、哈希表、二分查找、设计 |
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
@@ -594,6 +600,13 @@
 |041| 滑动窗口的平均值 | [MovingAverage](src/com/offerII/L041/MovingAverage.java) | 简单 | 队列 | 数组、队列、数据流、设计 |
 |042| 最近的请求次数 | [RecentCounter](src/com/offerII/L042/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
 |043| 往完全二叉树添加节点 | [CBTInserter](src/com/offerII/L043/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
+|044| 二叉树每层的最大值 | [FindLargestValueEachTreeRow](src/com/offerII/L044/FindLargestValueEachTreeRow.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
+|045| 二叉树最底层最左边的值 | [FindBottomLeftTreeValue](src/com/offerII/L045/FindBottomLeftTreeValue.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
+|046| 二叉树的右侧视图 | [BinaryTreeRightSideView](src/com/offerII/L046/BinaryTreeRightSideView.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
+|047| 二叉树剪枝 | [BinaryTreePruning](src/com/offerII/L047/BinaryTreePruning.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
+|048| 序列化与反序列化二叉树 | [Codec](src/com/offerII/L048/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、二叉树、字符串、深度优先搜索、广度优先搜索、设计 |
+|049| 从根节点到叶节点的路径数字之和 | [SumRootLeafNumbers](src/com/offerII/L049/SumRootLeafNumbers.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
+|052| 展平二叉搜索树 | [IncreasingOrderSearchTree](src/com/offerII/L052/IncreasingOrderSearchTree.java) | 中等 | 递归、迭代 | 树、二叉树、二叉搜索树、栈、深度优先搜索 |
 |069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 
 ## 14. **_微软题_**
