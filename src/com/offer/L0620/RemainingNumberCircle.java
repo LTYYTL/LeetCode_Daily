@@ -16,7 +16,6 @@ package com.offer.L0620;
  * 限制：
  * 1 <= n <= 10^5
  * 1 <= m <= 10^6
- * 通过次数107,618提交次数164,171
  */
 public class RemainingNumberCircle {
     /**

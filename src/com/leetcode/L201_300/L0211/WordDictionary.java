@@ -34,8 +34,13 @@ import java.util.TreeMap;
  * 最调用多 50000 次 addWord 和 search
  */
 public class WordDictionary {
+    /**
+     * 方法：字典树
+     */
     private class Node{
+        //当前是否是单词结束
         public boolean isWord;
+        //字母后的字母节点
         public TreeMap<Character, Node> next;
 
         public Node(boolean isWord){
@@ -60,11 +65,15 @@ public class WordDictionary {
     public void addWord(String word) {
         Node cur = root;
         for(int i = 0; i < word.length(); i++){
+            //单词当前字母
             char c = word.charAt(i);
+            //不存在创建
             if(cur.next.get(c) == null)
                 cur.next.put(c,new Node());
+            //指针向后移
             cur = cur.next.get(c);
         }
+        //是单词的结束
         cur.isWord = true;
 
     }
@@ -76,14 +85,17 @@ public class WordDictionary {
     }
 
     private boolean match(Node node,String word,int index){
+        //单词遍历结束
         if(index == word.length())
             return node.isWord;
-
+        //单词的字母
         char c = word.charAt(index);
-
+        //分类讨论
         if(c != '.'){
+            //字母不存在
             if(node.next.get(c) == null)
                 return false;
+            //指针向后移动
             return match(node.next.get(c),word,index+1);
         }else{
             for(char nextChar:node.next.keySet()){
