@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**560**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**567**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -33,6 +33,7 @@
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L201_300/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |218| 天际线问题 | [TheSkylineProblem](src/com/leetcode/L201_300/L0218/TheSkylineProblem.java) | 困难 | 扫描线 | 数组、分治、堆、扫描线、线段树 |
 |220| 存在重复元素 III | [ContainsDuplicateIII](src/com/leetcode/L201_300/L0220/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口 |？
+|229| 求众数 II | [MajorityElementII](src/com/leetcode/L201_300/L0229/MajorityElementII.java) | 中等 | map映射、摩尔投票 | 数组、哈希、排序、计数 |
 |240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L201_300/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
 |274| H 指数 | [HIndex](src/com/leetcode/L201_300/L0274/HIndex.java) | 中等 | 计数、排序 | 数组、排序、计数排序 |
 |275| H 指数II | [HIndexII](src/com/leetcode/L201_300/L0275/HIndexII.java) | 中等 | 遍历、二分查找 | 数组、二分查找|
@@ -172,6 +173,7 @@
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
+|648| 单词替换 | [ReplaceWords](src/com/leetcode/L601_700/L0648/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
 |680| 验证回文字符串 Ⅱ | [ValidPalindromeII](src/com/leetcode/L601_700/L0680/ValidPalindromeII.java) | 简单 | 双指针 | 字符串、贪心算法、双指针 |
@@ -386,6 +388,7 @@
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
+|492| 构造矩形 | [ConstructRectangle](src/com/leetcode/L401_500/L0492/ConstructRectangle.java) | 简单 | 数学 | 数学 |
 |504| 七进制数 | [Base7](src/com/leetcode/L501_600/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L501_600/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |528| 按权重随机选择 | [RandomPickWithWeight](src/com/leetcode/L501_600/L0528/RandomPickWithWeight.java) | 中等 | 前缀和+二分查找  | 数学、前缀和、二分查找、随机化 |
@@ -447,6 +450,7 @@
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
+|676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |703| 数据流中的第 K 大元素 | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |？
 |729| 我的日程安排表 I | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java) | 中等 | 线段树 | 线段树、有序集合、设计 |
@@ -626,6 +630,9 @@
 |059| 数据流中的第 K 大元素 | [KthLargest](src/com/offerII/L059/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |
 |060| 出现频率最高的 k 个数字 | [KHighElement](src/com/offerII/L060/KHighElement.java) | 中等 | 堆 |  数组、哈希表、堆、分治、计数、桶排序、快速选择、排序 |
 |061| 查找和最小的K对数字 | [FindKPairsSmallestSums](src/com/offerII/L061/FindKPairsSmallestSums.java) | 中等 | 堆 | 数组、堆 |
+|062| 实现前缀树 | [Trie](src/com/offerII/L062/Trie.java) | 中等 | 字典树 | 字符串、哈希表、字典树、设计 |
+|063| 替换单词 | [ReplaceWords](src/com/offerII/L063/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
+|064| 神奇字典 | [MagicDictionary](src/com/offerII/L064/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
 |069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
 
 ## 14. **_微软题_**
