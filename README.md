@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**579**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**588**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -15,6 +15,7 @@
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L1_100/L0036/ValidSudoku.java) | 中等 | 模拟 | 哈希表 |
 |41| 缺失的第一个正数 | [FirstMissingPositive](src/com/leetcode/L1_100/L0041/FirstMissingPositive.java) | 困难 | 哈希表、排序 | 数组 |
 |54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L1_100/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
+|56| 合并区间 | [MergeIntervals](src/com/leetcode/L1_100/L0056/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |？
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L1_100/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L1_100/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |80| 删除有序数组中的重复项 II | [RemoveDuplicatesSortedArrayII](src/com/leetcode/L1_100/L0080/RemoveDuplicatesSortedArrayII.java) | 中等 | 双指针 | 数组、双指针 |
@@ -31,6 +32,7 @@
 |167| 两数之和 II - 输入有序数组 | [TwoSumII](src/com/leetcode/L101_200/L0167/TwoSumII.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
 |169| 多数元素 | [MajorityElement](src/com/leetcode/L101_200/L0169/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
 |179| 最大数 | [LargestNumber](src/com/leetcode/L101_200/L0179/LargestNumber.java) | 中等  | 排序 | 排序 |
+|215| 数组中的第K个最大元素 | [KthLargestElementArray](src/com/leetcode/L201_300/L0215/KthLargestElementArray.java) | 中等  | 排序、堆、快速排序 | 数组、堆、排序、快速排序、分治 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L201_300/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |218| 天际线问题 | [TheSkylineProblem](src/com/leetcode/L201_300/L0218/TheSkylineProblem.java) | 困难 | 扫描线 | 数组、分治、堆、扫描线、线段树 |
 |220| 存在重复元素 III | [ContainsDuplicateIII](src/com/leetcode/L201_300/L0220/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口 |？
@@ -129,6 +131,7 @@
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L101_200/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
 |142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L101_200/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
 |143| 重排链表  | [ReorderList](src/com/leetcode/L101_200/L0143/ReorderList.java) | 中等 | 双指针 | 链表、栈、双指针、递归 |？
+|148| 排序链表  | [SortList](src/com/leetcode/L101_200/L0148/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |？
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L101_200/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L201_300/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L201_300/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
@@ -337,7 +340,9 @@
 |212| 单词搜索 II | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java) | 困难  | 字典树+回溯算法 | 数组、字符串、字典树、回溯算法、矩阵 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |282| 给表达式添加运算符 | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java) | 困难 | 回溯算法 | 字符串、数学、回溯算法 |
+|301| 删除无效的括号 | [RemoveInvalidParentheses](src/com/leetcode/L301_400/L0301/RemoveInvalidParentheses.java) | 困难 | 回溯算法 | 字符串、回溯算法、广度优先搜索 |
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
+|869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1601_1700/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
 
@@ -383,6 +388,7 @@
 |263| 丑数 | [UglyNumber](src/com/leetcode/L201_300/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |292| Nim 游戏 | [NimGame](src/com/leetcode/L201_300/L0292/NimGame.java) | 简单 | 数学-博弈论 | 数学、博弈、脑筋急转弯 |
 |326| 3的幂 | [PowerThree](src/com/leetcode/L301_400/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
+|335| 路径交叉 | [SelfCrossing](src/com/leetcode/L301_400/L0335/SelfCrossing.java) | 困难 | 数学 | 数组、数学、几何 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L301_400/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
@@ -649,6 +655,11 @@
 |071| 按权重生成随机数 | [Solution](src/com/offerII/L071/Solution.java) | 中等 | 前缀和+二分查找 | 数学、二分查找、前缀和、随进化 |
 |072| 求平方根 | [Sqrt](src/com/offerII/L072/Sqrt.java) | 简单 | 二分查找 | 数学、二分查找 |
 |073| 狒狒吃香蕉 | [KokoEatingBananas](src/com/offerII/L073/KokoEatingBananas.java) | 中等 | 二分查找 | 数组、二分查找 |
+|074| 合并区间 | [MergeIntervals](src/com/offerII/L074/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |
+|075| 数组相对排序 | [RelativeSortArray](src/com/offerII/L075/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
+|076| 数组中的第 k 大的数字 | [KthLargestElementArray](src/com/offerII/L076/KthLargestElementArray.java) | 中等 | 排序、堆、快速排序 | 数组、堆、排序、快速排序、分治 |
+|077| 链表排序 | [SortList](src/com/offerII/L077/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |
+|078| 合并排序链表 | [MergeKSortedLists](src/com/offerII/L078/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
