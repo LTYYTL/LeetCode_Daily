@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**600**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**603**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -673,6 +673,9 @@
 |085| 生成匹配的括号 | [GenerateParentheses](src/com/offerII/L085/GenerateParentheses.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |086| 分割回文子字符串 | [PalindromePartitioning](src/com/offerII/L086/PalindromePartitioning.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
 |087| 复原 IP | [RestoreIPAddresses](src/com/offerII/L087/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
+|088| 爬楼梯的最少成本 | [MinCostClimbingStairs](src/com/offerII/L088/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
+|089| 房屋偷盗 | [HouseRobber](src/com/offerII/L089/HouseRobber.java) | 中等 | 动态规划 | 数组、动态规划 |
+|089| 环形房屋偷盗 | [HouseRobberII](src/com/offerII/L090/HouseRobberII.java) | 中等 | 动态规划 | 数组、动态规划 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
