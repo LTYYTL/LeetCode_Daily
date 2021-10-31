@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**588**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**600**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -176,6 +176,7 @@
 |443| 压缩字符串 | [StringCompression](src/com/leetcode/L401_500/L0443/StringCompression.java) | 简单 | 双指针 | 字符串、双指针 |
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
 |482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
+|500| 键盘行 | [KeyboardRow](src/com/leetcode/L401_500/L0500/KeyboardRow.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L501_600/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
@@ -337,6 +338,8 @@
 |78| 子集 | [Subsets](src/com/leetcode/L1_100/L0078/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L1_100/L0079/WordSearch.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L1_100/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|93| 复原 IP 地址 | [RestoreIPAddresses](src/com/leetcode/L1_100/L0093/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
+|131| 分割回文串 | [PalindromePartitioning](src/com/leetcode/L101_200/L0131/PalindromePartitioning.java) | 中等  | 回溯算法 | 字符串、回溯算法、动态规划 |？
 |212| 单词搜索 II | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java) | 困难  | 字典树+回溯算法 | 数组、字符串、字典树、回溯算法、矩阵 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |282| 给表达式添加运算符 | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java) | 困难 | 回溯算法 | 字符串、数学、回溯算法 |
@@ -384,7 +387,8 @@
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L201_300/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |223| 矩形面积 | [RectangleArea](src/com/leetcode/L201_300/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L201_300/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
-|233| 数字 1 的个数 | [NumberDigitOne](src/com/leetcode/L201_300/L0233/NumberDigitOne.java) | 中等 | 数学 | 数学、递归、动态规划 |
+|260| 只出现一次的数字 III | [SingleNumberIII](src/com/leetcode/L201_300/L0260/SingleNumberIII.java) | 中等 | 位运算 | 数组、位运算 |
+|263| 丑数 | [UglyNumber](src/com/leetcode/L201_300/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L201_300/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |292| Nim 游戏 | [NimGame](src/com/leetcode/L201_300/L0292/NimGame.java) | 简单 | 数学-博弈论 | 数学、博弈、脑筋急转弯 |
 |326| 3的幂 | [PowerThree](src/com/leetcode/L301_400/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
@@ -660,6 +664,15 @@
 |076| 数组中的第 k 大的数字 | [KthLargestElementArray](src/com/offerII/L076/KthLargestElementArray.java) | 中等 | 排序、堆、快速排序 | 数组、堆、排序、快速排序、分治 |
 |077| 链表排序 | [SortList](src/com/offerII/L077/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |
 |078| 合并排序链表 | [MergeKSortedLists](src/com/offerII/L078/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
+|079| 所有子集 | [Subsets](src/com/offerII/L079/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
+|080| 含有 k 个元素的组合 | [Combination](src/com/offerII/L080/Combination.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|081| 允许重复选择元素的组合 | [CombinationSum](src/com/offerII/L081/CombinationSum.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|082| 含有重复元素集合的组合 | [CombinationSumII](src/com/offerII/L082/CombinationSumII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|083| 没有重复元素集合的全排列 | [Permutations](src/com/offerII/L083/Permutations.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|084| 含有重复元素集合的全排列 | [PermutationsII](src/com/offerII/L084/PermutationsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|085| 生成匹配的括号 | [GenerateParentheses](src/com/offerII/L085/GenerateParentheses.java) | 中等 | 回溯算法 | 数组、回溯算法 |
+|086| 分割回文子字符串 | [PalindromePartitioning](src/com/offerII/L086/PalindromePartitioning.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
+|087| 复原 IP | [RestoreIPAddresses](src/com/offerII/L087/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
