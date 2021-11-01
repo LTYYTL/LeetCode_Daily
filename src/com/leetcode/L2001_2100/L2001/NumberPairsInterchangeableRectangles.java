@@ -53,7 +53,7 @@ public class NumberPairsInterchangeableRectangles {
             map.put(temp,map.getOrDefault(temp,0L)+1);
         }
         //遍历map
-        for (var x : map.values()) {
+        for (long x : map.values()) {
             //计算排序组合
             res += x * (x - 1) / 2;
         }

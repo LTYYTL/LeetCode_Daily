@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**603**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**609**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -63,6 +63,7 @@
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L501_600/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
 |540| 有序数组中的单一元素 | [SingleElementSortedArray](src/com/leetcode/L501_600/L0540/SingleElementSortedArray.java) | 中等 | 暴力法、二分查找 | 数组、二分查找 |
 |560| 和为 K 的子数组 | [SubarraySumEqualsK](src/com/leetcode/L501_600/L0560/SubarraySumEqualsK.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
+|575| 分糖果 | [DistributeCandies](src/com/leetcode/L501_600/L0575/DistributeCandies.java) | 简单 | set集合 | 数组、哈希表 |
 |581| 最短无序连续子数组 | [ShortestUnsortedContinuousSubarray](src/com/leetcode/L501_600/L0581/ShortestUnsortedContinuousSubarray.java) | 中等 | 排序 | 数组、栈、贪心算法、排序、单调栈、双指针 |
 |611| 有效三角形的个数 | [ValidTriangleNumber](src/com/leetcode/L601_700/L0611/ValidTriangleNumber.java) | 中等 | 二分查找、双指针 | 数组、二分查找、双指针、排序、贪心算法 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L601_700/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
@@ -314,8 +315,10 @@
 |673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L601_700/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L701_800/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L701_800/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
+|873| 最长的斐波那契子序列的长度 | [LengthLongestFibonacciSubsequence](src/com/leetcode/L801_900/L0873/LengthLongestFibonacciSubsequence.java) | 中等 | 动态规划、set集合 | 数组、哈希表、动态规划 |
 |877| 石子游戏 | [StoneGame](src/com/leetcode/L801_900/L0877/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
 |887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L801_900/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
+|926| 将字符串翻转到单调递增 | [FlipStringMonotoneIncreasing](src/com/leetcode/L901_1000/L0926/FlipStringMonotoneIncreasing.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1001_1100/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1001_1100/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
 |1137| 第 N 个泰波那契数 | [NTribonacciNumber](src/com/leetcode/L1101_1200/L1137/NTribonacciNumber.java) | 简单 | 动态规划 | 动态规划、数学、记忆化搜索 |
@@ -675,7 +678,10 @@
 |087| 复原 IP | [RestoreIPAddresses](src/com/offerII/L087/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |088| 爬楼梯的最少成本 | [MinCostClimbingStairs](src/com/offerII/L088/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |089| 房屋偷盗 | [HouseRobber](src/com/offerII/L089/HouseRobber.java) | 中等 | 动态规划 | 数组、动态规划 |
-|089| 环形房屋偷盗 | [HouseRobberII](src/com/offerII/L090/HouseRobberII.java) | 中等 | 动态规划 | 数组、动态规划 |
+|090| 环形房屋偷盗 | [HouseRobberII](src/com/offerII/L090/HouseRobberII.java) | 中等 | 动态规划 | 数组、动态规划 |
+|091| 粉刷房子 | [PaintHouse](src/com/offerII/L091/PaintHouse.java) | 中等 | 动态规划 | 数组、动态规划 |
+|092| 翻转字符 | [FlipStringMonotoneIncreasing](src/com/offerII/L092/FlipStringMonotoneIncreasing.java) | 中等 | 动态规划 | 字符串、动态规划 |
+|093| 最长斐波那契数列 | [LengthLongestFibonacciSubsequence](src/com/offerII/L093/LengthLongestFibonacciSubsequence.java) | 中等 | 动态规划 | 数组、哈希表、动态规划 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
