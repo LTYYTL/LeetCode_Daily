@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**613**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**617**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -14,6 +14,7 @@
 |35| 搜索插入位置 | [SearchInsertPosition](src/com/leetcode/L1_100/L0035/SearchInsertPosition.java) | 简单 | 二分查找 | 数组、二分查找 |？
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L1_100/L0036/ValidSudoku.java) | 中等 | 模拟 | 哈希表 |
 |41| 缺失的第一个正数 | [FirstMissingPositive](src/com/leetcode/L1_100/L0041/FirstMissingPositive.java) | 困难 | 哈希表、排序 | 数组 |
+|42| 接雨水 | [TrappingRainWater](src/com/leetcode/L1_100/L0042/TrappingRainWater.java) | 困难 | 单调栈、双指针 | 数组、栈、单调栈、双指针、动态规划 |？
 |54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L1_100/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
 |56| 合并区间 | [MergeIntervals](src/com/leetcode/L1_100/L0056/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |？
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L1_100/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
@@ -49,6 +50,7 @@
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L301_400/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
 |373| 查找和最小的K对数字 | [FindKPairsSmallestSums](src/com/leetcode/L301_400/L0373/FindKPairsSmallestSums.java) | 中等 | 堆 | 数组、堆 |
 |374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L301_400/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
+|407| 接雨水 II | [TrappingRainWaterII](src/com/leetcode/L401_500/L0407/TrappingRainWaterII.java) | 困难 | 堆 | 数组、堆、矩阵、广度优先搜索 |
 |414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 |数组、排序 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |441| 排列硬币 | [ArrangingCoins](src/com/leetcode/L401_500/L0441/ArrangingCoins.java) | 简单 | 二分查找 | 数学、二分查找 |
@@ -285,6 +287,7 @@
 |87| 扰乱字符串 | [ScrambleString](src/com/leetcode/L1_100/L0087/ScrambleString.java) | 困难 | 暴力法、动态规划 | 字符串、动态规划 |
 |91| 解码方法 | [DecodeWays](src/com/leetcode/L1_100/L0091/DecodeWays.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |97| 交错字符串 | [InterleavingString](src/com/leetcode/L1_100/L0097/InterleavingString.java) | 中等 | 动态规划 | 字符串、动态规划 |
+|115| 不同的子序列 | [DistinctSubsequences](src/com/leetcode/L101_200/L0115/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |？
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L101_200/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |121| 买卖股票的最佳时机 | [BestTimeBuyAndSellStock](src/com/leetcode/L101_200/L0121/BestTimeBuyAndSellStock.java) | 简单  | 模拟、动态规划 | 数组、动态规划 |
 |132| 分割回文串 II | [PalindromePartitioningII](src/com/leetcode/L101_200/L0132/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |？
@@ -687,6 +690,9 @@
 |094| 最少回文分割 | [PalindromePartitioningII](src/com/offerII/L094/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |095| 最长公共子序列 | [LongestCommonSubsequence](src/com/offerII/L095/LongestCommonSubsequence.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |096| 字符串交织 | [InterleavingString](src/com/offerII/L096/InterleavingString.java) | 中等 | 动态规划 | 字符串、动态规划 |
+|097| 子序列的数目 | [DistinctSubsequences](src/com/offerII/L097/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |
+|098| 路径的数目 | [UniquePaths](src/com/offerII/L098/UniquePaths.java) | 中等 | 动态规划 | 动态规划、数学、组合数学 |
+|099| 最小路径之和 | [MinPathSum](src/com/offerII/L099/MinPathSum.java) | 中等 | 动态规划 | 数组、矩阵、动态规划 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
