@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**617**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**622**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -306,6 +306,7 @@
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L401_500/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |446| 等差数列划分 II - 子序列 | [ArithmeticSlicesII_Subsequence](src/com/leetcode/L401_500/L0446/ArithmeticSlicesII_Subsequence.java) | 困难 | 动态规划 | 数组、动态规划 |
 |474| 一和零 | [OnesAndZeroes](src/com/leetcode/L401_500/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
+|494| 目标和 | [TargetSum](src/com/leetcode/L401_500/L0494/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |？
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L501_600/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L501_600/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |552| 学生出勤记录 II | [CoinChange2](src/com/leetcode/L501_600/L0552/StudentAttendanceRecordII.java) | 困难 | 动态规划 | 动态规划 |
@@ -403,6 +404,7 @@
 |335| 路径交叉 | [SelfCrossing](src/com/leetcode/L301_400/L0335/SelfCrossing.java) | 困难 | 数学 | 数组、数学、几何 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L301_400/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
+|367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
@@ -693,6 +695,9 @@
 |097| 子序列的数目 | [DistinctSubsequences](src/com/offerII/L097/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |098| 路径的数目 | [UniquePaths](src/com/offerII/L098/UniquePaths.java) | 中等 | 动态规划 | 动态规划、数学、组合数学 |
 |099| 最小路径之和 | [MinPathSum](src/com/offerII/L099/MinPathSum.java) | 中等 | 动态规划 | 数组、矩阵、动态规划 |
+|100| 三角形中最小路径之和 | [TriangleMinPathSum](src/com/offerII/L100/TriangleMinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
+|101| 分割等和子集 | [PartitionStringSum](src/com/offerII/L101/PartitionStringSum.java) | 中等 | 动态规划 | 字符串、模拟、数学 |
+|102| 加减的目标值 | [TargetSum](src/com/offerII/L102/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
@@ -720,6 +725,8 @@
 ## 16. **_数据库_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|L0175| 组合两个表 | [CombineTwoTables](src/com/sql/L0175/CombineTwoTables.sql) | 简单 | -- | -- |？
+|L0176| 第二高的薪水 | [SecondHighestSalary](src/com/sql/L0176/SecondHighestSalary.sql) | 中等 | -- | -- |
 |L0182| 查找重复的电子邮箱 | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql) | 简单 | -- | -- |
 |L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |
 |L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
