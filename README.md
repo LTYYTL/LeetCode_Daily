@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**622**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**626**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -266,6 +266,7 @@
 ## 5. **_图系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|695| 岛屿的最大面积 | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |？
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L701_800/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 |787| K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java) | 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
 |797| 所有可能的路径 | [AllPathsFromSourceTarget](src/com/leetcode/L701_800/L0797/AllPathsFromSourceTarget.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
@@ -329,6 +330,7 @@
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1001_1100/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
 |1137| 第 N 个泰波那契数 | [NTribonacciNumber](src/com/leetcode/L1101_1200/L1137/NTribonacciNumber.java) | 简单 | 动态规划 | 动态规划、数学、记忆化搜索 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1101_1200/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
+|1218| 最长定差子序列 | [LongestSubsequenceDifference](src/com/leetcode/L1201_1300/L1218/LongestSubsequenceDifference.java) | 中等 | 动态规划 | 数组、哈希表、动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1201_1300/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 |1312| 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1301_1400/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难 | 动态规划 | 动态规划 |
 
@@ -698,6 +700,9 @@
 |100| 三角形中最小路径之和 | [TriangleMinPathSum](src/com/offerII/L100/TriangleMinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
 |101| 分割等和子集 | [PartitionStringSum](src/com/offerII/L101/PartitionStringSum.java) | 中等 | 动态规划 | 字符串、模拟、数学 |
 |102| 加减的目标值 | [TargetSum](src/com/offerII/L102/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |
+|103| 最少的硬币数目 | [CoinChange](src/com/offerII/L103/CoinChange.java) | 中等 | 动态规划 | 数组、广度优先搜索、动态规划 |
+|104| 排列的数目 | [CombinationSumIV](src/com/offerII/L104/CombinationSumIV.java) | 中等 | 动态规划 | 数组、动态规划 |
+|105| 岛屿的最大面积 | [MaxAreaIsland](src/com/offerII/L105/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |？
 
 ## 14. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
