@@ -1,12 +1,11 @@
-package com.leetcode.L701_800.L0797;
+package com.offerII.L110;
 
 import java.util.*;
 
 /**
- * 797. 所有可能的路径
- * 给你一个有 n 个节点的 有向无环图（DAG），请你找出所有从节点 0 到节点 n-1 的路径并输出（不要求按特定顺序）
- * 二维数组的第 i 个数组中的单元都表示有向图中 i 号节点所能到达的下一些节点，空就是没有下一个结点了。
- * 译者注：有向图是有方向的，即规定了 a→b 你就不能从 b→a 。
+ * 剑指 Offer II 110. 所有路径
+ * 给定一个有 n 个节点的有向无环图，用二维数组 graph 表示，请找到所有从 0 到 n-1 的路径并输出（不要求按顺序）。
+ * graph 的第 i 个数组中的单元都表示有向图中 i 号节点所能到达的下一些结点（译者注：有向图是有方向的，即规定了 a→b 你就不能从 b→a ），若为空，就是没有下一个节点了。
  *
  * 示例 1：
  * 输入：graph = [[1,2],[3],[3],[]]
@@ -33,9 +32,10 @@ import java.util.*;
  * n == graph.length
  * 2 <= n <= 15
  * 0 <= graph[i][j] < n
- * graph[i][j] != i（即，不存在自环）
- * graph[i] 中的所有元素 互不相同
- * 保证输入为 有向无环图（DAG）
+ * graph[i][j] != i
+ * 保证输入为有向无环图 (GAD)
+ *
+ * 注意：本题与主站 797 题相同：https://leetcode-cn.com/problems/all-paths-from-source-to-target/
  */
 public class AllPathsFromSourceTarget {
     //结果集

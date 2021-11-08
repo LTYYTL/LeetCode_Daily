@@ -1,5 +1,7 @@
 package com.leetcode.L901_1000.L0990;
 
+import com.util.UF;
+
 /**
  * 990. 等式方程的可满足性
  * 给定一个由表示变量之间关系的字符串方程组成的数组，每个字符串方程 equations[i] 的长度为 4，
@@ -42,54 +44,25 @@ public class SatisfiabilityEqualityEquations {
      * @return
      */
     public boolean equationsPossible(String[] equations) {
-        int[] parent = new int[26];
-        //最初每个节点的父节点为自己
-        for (int i = 0; i < parent.length; i++) {
-            parent[i] = i;
-        }
-
+        UF uf = new UF(26);
         //将相等的数字，放到一个集合中
         for (String equation : equations) {
             if (equation.charAt(1) == '='){
-                int index1 = equation.charAt(0) - 'a';
-                int index2 = equation.charAt(3) - 'a';
-                union(parent,index1,index2);
+                int p = equation.charAt(0) - 'a';
+                int q = equation.charAt(3) - 'a';
+                uf.union(p,q);
             }
         }
-        //判断两个数是不是在一个集合中
+        //将相等的数字，放到一个集合中
         for (String equation : equations) {
             if (equation.charAt(1) == '!'){
-                int index1 = equation.charAt(0) - 'a';
-                int index2 = equation.charAt(3) - 'a';
+                int p = equation.charAt(0) - 'a';
+                int q = equation.charAt(3) - 'a';
                 //有相同的父节点，证明两个数相等
-                if (find(parent,index1) == find(parent,index2))
+                if (uf.connected(p,q))
                     return false;
             }
         }
         return true;
-    }
-
-    /**
-     * 合并
-     * @param parent
-     * @param index1
-     * @param index2
-     */
-    private void union(int[] parent, int index1, int index2) {
-        parent[find(parent,index1)] = find(parent,index2);
-    }
-
-    /**
-     * 寻找父节点
-     * @param parent
-     * @param index
-     * @return
-     */
-    private int find(int[] parent, int index) {
-        while (parent[index] != index){
-            parent[index] = parent[parent[index]];
-            index = parent[index];
-        }
-        return index;
     }
 }
