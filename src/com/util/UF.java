@@ -73,4 +73,8 @@ public class UF {
         //处于同一棵树
         return rootP == rootQ;
     }
+
+    public int getCount() {
+        return count;
+    }
 }

@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**642**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**648**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -59,6 +59,7 @@
 |456| 132模式 | [Pattern132](src/com/leetcode/L401_500/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |457| 环形数组是否存在循环 | [CircularArrayLoop](src/com/leetcode/L401_500/L0457/CircularArrayLoop.java) | 中等 | 快慢指针 | 数组、双指针、哈希表 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L401_500/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
+|495| 提莫攻击 | [TeemoAttacking](src/com/leetcode/L401_500/L0495/TeemoAttacking.java) | 简单 | 模拟 | 数组、模拟 |
 |496| 下一个更大元素 I | [NextGreaterElementI](src/com/leetcode/L401_500/L0496/NextGreaterElementI.java) | 简单 | 单调栈 | 数组、栈、哈希表、单调栈 |
 |502| IPO | [PIO](src/com/leetcode/L501_600/L0502/PIO.java) | 困难 | 堆 | 数组、优先队列、贪心算法、排序 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L501_600/L0503/NextGreaterElementII.java) | 中等 | 栈 | 单调栈 |
@@ -92,7 +93,7 @@
 |946| 验证栈序列 | [ValidateStackSequences](src/com/leetcode/L901_1000/L0946/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
 |969| 煎饼排序 | [PancakeSorting](src/com/leetcode/L901_1000/L0969/PancakeSorting.java) | 中等 | 递归 | 数组、双指针、排序、贪心算法 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L901_1000/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
-|977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L901_1000/L0977/SquaresSortedArray.java) | 简单 | 暴力法 | 数组、双指针 |
+|977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L901_1000/L0977/SquaresSortedArray.java) | 简单 | 模拟 | 数组、双指针 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1001_1100/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
 |1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |？
@@ -285,8 +286,12 @@
 ## 6. **_并查集系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|128| 最长连续序列 | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java) | 中等 | 并查集 | 数组、并查集、哈希表 |？
 |130| 被围绕的区域 | [SurroundedRegions](src/com/leetcode/L101_200/L0130/SurroundedRegions.java) | 中等 | 并查集 | 数组、并查集、矩阵、深度优先搜索、广度优先搜索 |
 |399| 除法求值 | [EvaluateDivision](src/com/leetcode/L301_400/L0399/EvaluateDivision.java) | 中等 | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |？
+|547| 省份数量 | [NumberProvinces](src/com/leetcode/L501_600/L0547/NumberProvinces.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |？
+|684| 冗余连接 | [RedundantConnection](src/com/leetcode/L601_700/L0684/RedundantConnection.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |？
+|839| 相似字符串组 | [SimilarStringGroups](src/com/leetcode/L801_900/L0839/SimilarStringGroups.java) | 困难 | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索 |？
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L901_1000/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
 
 ## 7. **_动态规划系列_**
@@ -409,6 +414,7 @@
 |166| 分数到小数 | [FractionRecurringDecimal](src/com/leetcode/L101_200/L0166/FractionRecurringDecimal.java) | 中等 | 数学 | 字符串、哈希表、数学 |
 |168| Excel表列名称 | [ExcelSheetColumnTitle](src/com/leetcode/L101_200/L0168/ExcelSheetColumnTitle.java) | 简单 | 数学 | 字符串、数学 |
 |171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L101_200/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
+|189| 轮转数组 | [RotateArray](src/com/leetcode/L101_200/L0189/RotateArray.java) | 中等 | 数学 | 数组、数学、双指针 |？
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L101_200/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L201_300/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |223| 矩形面积 | [RectangleArea](src/com/leetcode/L201_300/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
@@ -728,6 +734,11 @@
 |112| 最长递增路径 | [LongestIncreasingPathMatrix](src/com/offerII/L112/LongestIncreasingPathMatrix.java) | 困难 | 动态规划 | 图、深度优先搜索、广度优先搜索、拓扑排序、记忆化搜索、动态规划 |
 |113| 课程顺序 | [CourseScheduleII](src/com/offerII/L113/CourseScheduleII.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |114| 外星文字典 | [AlienDictionary](src/com/offerII/L114/AlienDictionary.java) | 困难 | 拓扑排序 | 数组、字符串、图、深度优先搜索、广度优先搜索、拓扑排序 |
+|115| 重建序列 | [ReconstructionSequence](src/com/offerII/L115/ReconstructionSequence.java) | 中等 | 拓扑排序 | 数组、图、拓扑排序 |
+|116| 省份数量 | [NumberProvinces](src/com/offerII/L116/NumberProvinces.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
+|117| 相似的字符串 | [SimilarStringGroups](src/com/offerII/L117/SimilarStringGroups.java) | 困难 | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索 |
+|118| 冗余连接 | [RedundantConnection](src/com/offerII/L118/RedundantConnection.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
+|119| 最长连续序列 | [LongestConsecutiveSeq](src/com/offerII/L119/LongestConsecutiveSeq.java) | 中等 | 并查集 | 数组、并查集、哈希表 |
 
 ## 17. **_微软题_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
