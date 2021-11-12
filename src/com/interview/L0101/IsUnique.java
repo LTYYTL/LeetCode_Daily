@@ -1,8 +1,6 @@
 package com.interview.L0101;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 /**
@@ -21,7 +19,7 @@ import java.util.Set;
  * 0 <= len(s) <= 100
  * 如果你不使用额外的数据结构，会很加分。
  */
-public class IsUniqueLCCI {
+public class IsUnique {
     /**
      * 方法一：set方法
      * 解题思路：用set记录字符是否出现过

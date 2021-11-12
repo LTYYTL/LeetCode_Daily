@@ -1,8 +1,8 @@
 package com.interview.L0101;
 
-public class IsUniqueLCCITest {
+public class IsUniqueTest {
     public static void main(String[] args) {
-        IsUniqueLCCI isUniqueLCCI = new IsUniqueLCCI();
+        IsUnique isUniqueLCCI = new IsUnique();
         /**
          * 示例 1：
          * 输入: s = "leetcode"

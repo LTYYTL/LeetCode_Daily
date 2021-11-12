@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**648**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**653**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -187,6 +187,7 @@
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
+|557| 反转字符串中的单词 III | [ReverseWordsIII](src/com/leetcode/L501_600/L0557/ReverseWordsIII.java) | 简单 | 双指针 | 字符串、双指针 |？
 |648| 单词替换 | [ReplaceWords](src/com/leetcode/L601_700/L0648/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
@@ -320,6 +321,7 @@
 |322| 零钱兑换 | [CoinChange](src/com/leetcode/L301_400/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
 |329| 矩阵中的最长递增路径 | [LongestIncreasingPathMatrix](src/com/leetcode/L301_400/L0329/LongestIncreasingPathMatrix.java) | 困难 | 动态规划 | 图、深度优先搜索、广度优先搜索、拓扑排序、记忆化搜索、动态规划 |
 |354| 俄罗斯套娃信封问题 | [RussianDollEnvelopes](src/com/leetcode/L301_400/L0354/RussianDollEnvelopes.java) | 困难 | 动态规划 | 动态规划、二分查找 |
+|375| 猜数字大小 II | [GuessNumberII](src/com/leetcode/L301_400/L0375/GuessNumberII.java) | 中等 | 动态规划 | 数组、动态规划、博弈 |
 |376| 摆动序列 | [WiggleSubsequence](src/com/leetcode/L301_400/L0376/WiggleSubsequence.java) | 中等 | 动态规划 | 动态规划、贪心算法 |
 |403| 青蛙过河 | [FrogJump](src/com/leetcode/L401_500/L0403/FrogJump.java) | 困难 | 动态规划 | 动态规划 |
 |413| 等差数列划分 | [ArithmeticSlices](src/com/leetcode/L401_500/L0413/ArithmeticSlices.java) | 中等 | 动态规划 | 数组、动态规划 |
@@ -333,6 +335,7 @@
 |576| 出界的路径数 | [OutBoundaryPaths](src/com/leetcode/L501_600/L0576/OutBoundaryPaths.java) | 中等 | 动态规划 | 动态规划 |
 |583| 两个字符串的删除操作 | [DeleteOperationTwoStrings](src/com/leetcode/L501_600/L0583/DeleteOperationTwoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |600| 不含连续1的非负整数 | [NoIntegersConsecutiveOnes](src/com/leetcode/L501_600/L0600/NoIntegersConsecutiveOnes.java) | 困难 | 动态规划 | 动态规划 |
+|629| K个逆序对数组 | [KInversePairsArray](src/com/leetcode/L601_700/L0629/KInversePairsArray.java) | 困难 | 动态规划 | 动态规划 |
 |638| 大礼包 | [ShoppingOffers](src/com/leetcode/L601_700/L0638/ShoppingOffers.java) | 中等 | 深度优先搜索、动态规划 | 数组、位运算、状态压缩、动态规划、记忆化搜索、回溯 |
 |639| 解码方法 II | [DecodeWaysII](src/com/leetcode/L601_700/L0639/DecodeWaysII.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |647| 回文子串 | [PalindromicSubstrings](src/com/leetcode/L601_700/L0647/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |？
@@ -429,6 +432,7 @@
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
+|372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L401_500/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
@@ -529,7 +533,9 @@
 ## 14. **_程序员面试金典_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|01.01| 判定字符是否唯一 | [IsUniqueLCCI](src/com/interview/L0101/IsUniqueLCCI.java) | 简单 | set集合、Map映射 | 数组 |
+|01.01| 判定字符是否唯一 | [IsUnique](src/com/interview/L0101/IsUnique.java) | 简单 | set集合、Map映射 | 数组 |
+|01.02| 判定是否互为字符重排 | [CheckPermutation](src/com/interview/L0102/CheckPermutation.java) | 简单 | Map映射 | 字符串、哈希表、排序 |
+|01.03| URL化 | [StringURL](src/com/interview/L0103/StringURL.java) | 简单 | 模拟 | 字符串 |
 |02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
