@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**653**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**658**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -183,6 +183,7 @@
 |451| 根据字符出现频率排序 | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java) | 中等 | 哈希表 | 字符串、哈希表、桶排序、计数、排序、堆 |
 |482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
 |500| 键盘行 | [KeyboardRow](src/com/leetcode/L401_500/L0500/KeyboardRow.java) | 简单 | map映射 | 字符串、数组、哈希表 |
+|520| 检测大写字母 | [DetectCapital](src/com/leetcode/L501_600/L0520/DetectCapital.java) | 简单 | 模拟 | 字符串 |
 |524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L501_600/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
@@ -536,6 +537,12 @@
 |01.01| 判定字符是否唯一 | [IsUnique](src/com/interview/L0101/IsUnique.java) | 简单 | set集合、Map映射 | 数组 |
 |01.02| 判定是否互为字符重排 | [CheckPermutation](src/com/interview/L0102/CheckPermutation.java) | 简单 | Map映射 | 字符串、哈希表、排序 |
 |01.03| URL化 | [StringURL](src/com/interview/L0103/StringURL.java) | 简单 | 模拟 | 字符串 |
+|01.04| 回文排列 | [PalindromePermutation](src/com/interview/L0104/PalindromePermutation.java) | 简单 | set集合 | 字符串、哈希表、位运算 |
+|01.05| 一次编辑 | [OneAway](src/com/interview/L0105/OneAway.java) | 中等 | 双指针 | 字符串、双指针 |
+|01.06| 字符串压缩 | [CompressString](src/com/interview/L0106/CompressString.java) | 简单 | 双指针 | 字符串、双指针 |？
+|01.07| 旋转矩阵 | [RotateMatrix](src/com/interview/L0107/RotateMatrix.java) | 简单 | 数学 | 数组、矩阵、数学 |？
+|01.08| 零矩阵 | [ZeroMatrix](src/com/interview/L0108/ZeroMatrix.java) | 中等 | 模拟 | 数组、矩阵、哈希表 |
+|01.09| 字符串轮转 | [StringRotation](src/com/interview/L0109/StringRotation.java) | 简单 | 模拟 | 字符串、字符串匹配 |
 |02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
@@ -624,7 +631,7 @@
 |68-I| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/offer/L0681/LowestCommonAncestorBST.java) | 简单 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |68-II| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/offer/L0682/LowestCommonAncestorBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
 
-## 16. **_剑指offerII_**
+## 16. **_剑指offerII_**（共计119题）
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |001| 整数除法 | [DivideTwoIntegers](src/com/offerII/L001/DivideTwoIntegers.java) | 中等 | 数学 | 数学、位运算 |
