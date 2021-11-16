@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**666**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**670**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -435,6 +435,7 @@
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
+|391| 完美矩形 | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java) | 困难 | 数学 | 数组、扫描线 |
 |372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
@@ -549,11 +550,14 @@
 |02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
 |02.03| 删除中间节点 | [DeleteMiddleNode](src/com/interview/L0203/DeleteMiddleNode.java) | 简单 | 模拟 | 链表 |
 |02.04| 分割链表 | [PartitionList](src/com/interview/L0204/PartitionList.java) | 中等 | 双指针 | 链表、双指针 |
+|02.05| 链表求和 | [SumLists](src/com/interview/L0205/SumLists.java) | 简单 | 双指针 | 链表、递归、数学 |
 |02.06| 回文链表 | [PalindromeLinkedList](src/com/interview/L0206/PalindromeLinkedList.java) | 简单 | 栈 | 链表、栈、双指针、递归 |
 |02.07| 链表相交 | [IntersectionTwoLinkedLists](src/com/interview/L0207/IntersectionTwoLinkedLists.java) | 简单 | set集合、双指针 | 链表、哈希表、双指针 |
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
+|03.01| 三合一 | [TripleInOne](src/com/interview/L0301/TripleInOne.java) | 简单 | 数组 | 栈、数组、设计 |
 |03.02| 栈的最小值 | [MinStack](src/com/interview/L0302/MinStack.java) | 简单 | 栈 | 栈、设计 |
 |03.04| 化栈为队 | [MyQueue](src/com/interview/L0304/MyQueue.java) | 简单 | 栈 | 栈、队列、设计 |
+|03.05| 栈排序 | [SortedStack](src/com/interview/L0305/SortedStack.java) | 简单 | 堆 | 栈、单调栈、设计 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
