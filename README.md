@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**670**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**678**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -95,6 +95,7 @@
 |969| 煎饼排序 | [PancakeSorting](src/com/leetcode/L901_1000/L0969/PancakeSorting.java) | 中等 | 递归 | 数组、双指针、排序、贪心算法 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L901_1000/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L901_1000/L0977/SquaresSortedArray.java) | 简单 | 模拟 | 数组、双指针 |
+|994| 腐烂的橘子 | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |？
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1001_1100/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
 |1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |？
@@ -228,6 +229,7 @@
 |105| 从前序与中序遍历序列构造二叉树 | [PerOrderAndInOrder](src/com/leetcode/L101_200/L0105/PerOrderAndInOrder.java) | 中等 | 递归 | 树 |
 |106| 从中序与后序遍历序列构造二叉树 | [InOrderAndLastOrder](src/com/leetcode/L101_200/L0106/InOrderAndLastOrder.java) | 中等 | 递归 | 树 |
 |107| [二叉树的层次遍历 II](src/com/leetcode/L101_200/L0107/LevelOrderII.md) | [LevelOrderII](src/com/leetcode/L101_200/L0107/LevelOrderII.java) | 简单 | 广度优先搜索 | 树、广度优先搜索 |
+|108| 将有序数组转换为二叉搜索树 | [ConvertSortedArrayBinarySearchTree](src/com/leetcode/L101_200/L0108/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜索树、分治 |
 |110| 平衡二叉树 | [AVL](src/com/leetcode/L101_200/L0110/AVL.java) | 简单 | 递归 | 树、深度优先搜索 |
 |111| 二叉树的最小深度 | [MinimumDepthBinaryTree](src/com/leetcode/L101_200/L0111/MinimumDepthBinaryTree.java) | 简单 | 广度优先搜索 | 树、深度优先搜索、广度优先搜索 |
 |112| 路径总和 | [PathSum](src/com/leetcode/L101_200/L0112/PathSum.java) | 简单 | 递归、深度优先搜索 | 树、深度优先搜索 |
@@ -251,7 +253,8 @@
 |515| 在每个树行中找最大值 | [FindLargestValueEachTreeRow](src/com/leetcode/L501_600/L0515/FindLargestValueEachTreeRow.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |530| 二叉搜索树的最小绝对差 | [BSTMin](src/com/leetcode/L501_600/L0530/BSTMin.java) | 简单 | 递归、迭代 | 树 |
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L501_600/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
-|543| 二叉树的直径 | [DiameterBinaryTree](src/com/leetcode/L501_600/L0543/DiameterBinaryTree.java) | 简单 | 递归 | 树、深度优先搜索、二叉树 |
+|543| 二叉树的直径 | [DiameterBinaryTree](src/com/leetcode/L501_600/L0543/DiameterBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+|563| 二叉树的坡度 | [BinaryTreeTilt](src/com/leetcode/L501_600/L0563/BinaryTreeTilt.java) | 简单 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L601_700/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L601_700/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
 |653| 两数之和 IV - 输入 BST | [TwoSumIV](src/com/leetcode/L601_700/L0653/TwoSumIV.java) | 简单 | 双指针、set集合 | 树、二叉树、二叉搜索树、哈希表、广度优先搜索、深度优先搜索、双指针 |
@@ -268,6 +271,7 @@
 |993| 二叉树的堂兄弟节点 | [CousinsBinaryTree](src/com/leetcode/L901_1000/L0993/CousinsBinaryTree.java) | 简单 | 深度优先搜索、广度优先搜索 | 树、广度优先搜索 |
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1001_1100/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 |1104| 二叉树寻路 | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java) | 中等 | 数学 | 树、二叉树、数学 |
+|1382| 将二叉搜索树变平衡 | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索 |
 
 ## 5. **_图系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -556,8 +560,12 @@
 |02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
 |03.01| 三合一 | [TripleInOne](src/com/interview/L0301/TripleInOne.java) | 简单 | 数组 | 栈、数组、设计 |
 |03.02| 栈的最小值 | [MinStack](src/com/interview/L0302/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|03.03| 堆盘子 | [StackOfPlates](src/com/interview/L0303/StackOfPlates.java) | 中等 | list集合| 栈、链表、设计 |
 |03.04| 化栈为队 | [MyQueue](src/com/interview/L0304/MyQueue.java) | 简单 | 栈 | 栈、队列、设计 |
 |03.05| 栈排序 | [SortedStack](src/com/interview/L0305/SortedStack.java) | 简单 | 堆 | 栈、单调栈、设计 |
+|03.06| 动物收容所 | [AnimalShelf](src/com/interview/L0306/AnimalShelf.java) | 简单 | 队列 | 队列、设计 |
+|04.01| 节点间通路 | [RouteBetweenNodes](src/com/interview/L0401/RouteBetweenNodes.java) | 中等 | 广度优先搜索 | 图、广度优先搜索、深度优先搜索 |
+|04.02| 最小高度树 | [ConvertSortedArrayBinarySearchTree](src/com/interview/L0402/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜素树、分治 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
@@ -675,6 +683,7 @@
 |026| 重排链表 | [ReorderList](src/com/offerII/L026/ReorderList.java) | 中等 | 双指针 | 链表、栈、递归、双指针 |
 |027| 回文链表 | [PalindromeLinkedList](src/com/offerII/L027/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |
 |028| 展平多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/offerII/L028/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
+|029| 排序的循环链表 | [SortedCircularList](src/com/offerII/L029/SortedCircularList.java) | 中等 | 模拟 | 链表 |
 |030| 插入、删除和随机访问都是 O(1) 的容器 | [RandomizedSet](src/com/offerII/L030/RandomizedSet.java) | 中等 | list集合 | 数组、哈希表、数学、设计、随机化 |
 |031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |032| 有效的变位词 | [ValidConjugation](src/com/offerII/L032/ValidConjugation.java) | 简单 | 排序 | 字符串、哈希表、排序 |
