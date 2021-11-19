@@ -20,7 +20,7 @@ import java.util.*;
  */
 public class Combination {
     /**
-     * 回溯法（深度优先遍历 + 剪枝）
+     * 方法：回溯算法（深度优先遍历 + 剪枝）
      * @param n 从1~n个数
      * @param k 每K个数为一组
      * @return  所有的可能性

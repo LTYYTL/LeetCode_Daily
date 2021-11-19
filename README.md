@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**678**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**680**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -385,6 +385,7 @@
 |301| 删除无效的括号 | [RemoveInvalidParentheses](src/com/leetcode/L301_400/L0301/RemoveInvalidParentheses.java) | 困难 | 回溯算法 | 字符串、回溯算法、广度优先搜索 |
 |488| 祖玛游戏 | [ZumaGame](src/com/leetcode/L401_500/L0488/ZumaGame.java) | 困难 | 回溯算法 | 字符串、回溯算法 |
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
+|784| 字母大小写全排列 | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java) | 中等 | 回溯算法 | 字符串、位运算、回溯算法 |
 |869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
 |1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1601_1700/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
@@ -439,8 +440,9 @@
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
-|391| 完美矩形 | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java) | 困难 | 数学 | 数组、扫描线 |
 |372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
+|391| 完美矩形 | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java) | 困难 | 数学 | 数组、扫描线 |
+|397| 整数替换 | [IntegerReplacement](src/com/leetcode/L301_400/L0397/IntegerReplacement.java) | 中等 | 暴力法、map映射、位运算| 贪心算法、位运算、记忆化搜索、动态规划 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L401_500/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
