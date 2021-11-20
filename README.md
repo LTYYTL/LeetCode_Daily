@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**680**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**683**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -36,6 +36,7 @@
 |215| 数组中的第K个最大元素 | [KthLargestElementArray](src/com/leetcode/L201_300/L0215/KthLargestElementArray.java) | 中等  | 排序、堆、快速排序 | 数组、堆、排序、快速排序、分治 |
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L201_300/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |218| 天际线问题 | [TheSkylineProblem](src/com/leetcode/L201_300/L0218/TheSkylineProblem.java) | 困难 | 扫描线 | 数组、分治、堆、扫描线、线段树 |
+|219| 存在重复元素 II | [ContainsDuplicateII](src/com/leetcode/L201_300/L0219/ContainsDuplicateII.java) | 简单 | set集合 | 数组、哈希表、滑动窗口 |
 |220| 存在重复元素 III | [ContainsDuplicateIII](src/com/leetcode/L201_300/L0220/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口 |？
 |229| 求众数 II | [MajorityElementII](src/com/leetcode/L201_300/L0229/MajorityElementII.java) | 中等 | map映射、摩尔投票 | 数组、哈希、排序、计数 |
 |240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L201_300/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
@@ -69,6 +70,7 @@
 |560| 和为 K 的子数组 | [SubarraySumEqualsK](src/com/leetcode/L501_600/L0560/SubarraySumEqualsK.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
 |575| 分糖果 | [DistributeCandies](src/com/leetcode/L501_600/L0575/DistributeCandies.java) | 简单 | set集合 | 数组、哈希表 |
 |581| 最短无序连续子数组 | [ShortestUnsortedContinuousSubarray](src/com/leetcode/L501_600/L0581/ShortestUnsortedContinuousSubarray.java) | 中等 | 排序 | 数组、栈、贪心算法、排序、单调栈、双指针 |
+|594| 最长和谐子序列 | [LongestHarmoniousSubsequence](src/com/leetcode/L501_600/L0594/LongestHarmoniousSubsequence.java) | 简单 | map映射| 数组、哈希表、排序 |
 |611| 有效三角形的个数 | [ValidTriangleNumber](src/com/leetcode/L601_700/L0611/ValidTriangleNumber.java) | 中等 | 二分查找、双指针 | 数组、二分查找、双指针、排序、贪心算法 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L601_700/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L601_700/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
@@ -404,6 +406,7 @@
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L701_800/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L801_900/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L801_900/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
+|1005| K 次取反后最大化的数组和 | [MaximizeSumArrayKNegations](src/com/leetcode/L1001_1100/L1005/MaximizeSumArrayKNegations.java) | 简单 | 贪心算法 | 数组、贪心算法、排序 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1601_1700/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 |1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1801_1900/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
 
