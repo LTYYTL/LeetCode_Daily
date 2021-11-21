@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**683**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**686**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -155,6 +155,7 @@
 ## 3. **_字符串系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|5| 最长回文子串 | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java) | 中等 | 模拟 | 字符串、动态规划 |？
 |8| 字符串转换整数 (atoi) | [StringToInteger](src/com/leetcode/L1_100/L0008/StringToInteger.java) | 中等 | 模拟 | 字符串 |
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
@@ -256,6 +257,7 @@
 |530| 二叉搜索树的最小绝对差 | [BSTMin](src/com/leetcode/L501_600/L0530/BSTMin.java) | 简单 | 递归、迭代 | 树 |
 |538| 把二叉搜索树转换为累加树 | [ConvertBSTToGreaterTree](src/com/leetcode/L501_600/L0538/ConvertBSTToGreaterTree.java) | 简单 | 递归、迭代 | 树 |
 |543| 二叉树的直径 | [DiameterBinaryTree](src/com/leetcode/L501_600/L0543/DiameterBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+|559| N 叉树的最大深度 | [MaxDepthNTree](src/com/leetcode/L501_600/L0559/MaxDepthNTree.java) | 简单 | 广度优先搜索、深度优先搜索 | 树、广度优先搜索、深度优先搜索 |
 |563| 二叉树的坡度 | [BinaryTreeTilt](src/com/leetcode/L501_600/L0563/BinaryTreeTilt.java) | 简单 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L601_700/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L601_700/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
@@ -571,6 +573,8 @@
 |03.06| 动物收容所 | [AnimalShelf](src/com/interview/L0306/AnimalShelf.java) | 简单 | 队列 | 队列、设计 |
 |04.01| 节点间通路 | [RouteBetweenNodes](src/com/interview/L0401/RouteBetweenNodes.java) | 中等 | 广度优先搜索 | 图、广度优先搜索、深度优先搜索 |
 |04.02| 最小高度树 | [ConvertSortedArrayBinarySearchTree](src/com/interview/L0402/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜素树、分治 |
+|04.03| 特定深度节点链表 | [ListDepth](src/com/interview/L0403/ListDepth.java) | 中等 | 广度优先搜索 | 链表、树、二叉树、广度优先搜索 |
+|04.04| 检查平衡性 | [CheckBalance](src/com/interview/L0404/CheckBalance.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
