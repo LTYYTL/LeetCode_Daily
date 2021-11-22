@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**686**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**690**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -52,6 +52,7 @@
 |363| 矩形区域不超过 K 的最大数值和 | [MaxSumRectangleNoLargerThanK](src/com/leetcode/L301_400/L0363/MaxSumRectangleNoLargerThanK.java) | 困难 | 暴力法、二分查找 | 队列、二分查找、动态规划 |
 |373| 查找和最小的K对数字 | [FindKPairsSmallestSums](src/com/leetcode/L301_400/L0373/FindKPairsSmallestSums.java) | 中等 | 堆 | 数组、堆 |
 |374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L301_400/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
+|384| 打乱数组 | [Solution](src/com/leetcode/L301_400/L0384/Solution.java) | 中等 | 洗牌算法 | 数组、数学、随进化 |
 |407| 接雨水 II | [TrappingRainWaterII](src/com/leetcode/L401_500/L0407/TrappingRainWaterII.java) | 困难 | 堆 | 数组、堆、矩阵、广度优先搜索 |
 |414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 |数组、排序 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
@@ -430,6 +431,7 @@
 |168| Excel表列名称 | [ExcelSheetColumnTitle](src/com/leetcode/L101_200/L0168/ExcelSheetColumnTitle.java) | 简单 | 数学 | 字符串、数学 |
 |171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L101_200/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
 |189| 轮转数组 | [RotateArray](src/com/leetcode/L101_200/L0189/RotateArray.java) | 中等 | 数学 | 数组、数学、双指针 |？
+|190| 颠倒二进制位 | [ReverseBits](src/com/leetcode/L101_200/L0190/ReverseBits.java) | 简单 | 位运算 | 位运算、分治算法 |？
 |191| 位1的个数 | [NumberOneBits](src/com/leetcode/L101_200/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L201_300/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |223| 矩形面积 | [RectangleArea](src/com/leetcode/L201_300/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
@@ -575,6 +577,9 @@
 |04.02| 最小高度树 | [ConvertSortedArrayBinarySearchTree](src/com/interview/L0402/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜素树、分治 |
 |04.03| 特定深度节点链表 | [ListDepth](src/com/interview/L0403/ListDepth.java) | 中等 | 广度优先搜索 | 链表、树、二叉树、广度优先搜索 |
 |04.04| 检查平衡性 | [CheckBalance](src/com/interview/L0404/CheckBalance.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+|04.05| 合法二叉搜索树 | [LegalBST](src/com/interview/L0405/LegalBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、深度优先搜索 |
+|04.06| 后继者 | [Successor](src/com/interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
+|04.08| 首个共同祖先 | [FirstCommonAncestor](src/com/interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
