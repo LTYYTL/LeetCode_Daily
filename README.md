@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**690**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**693**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -206,6 +206,7 @@
 |820| 单词的压缩编码 | [ShortEncodingWords](src/com/leetcode/L801_900/L0820/ShortEncodingWords.java) | 中等 | Set集合、字典树 | 数组、字符串、哈希表、字典树 |？
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
+|859| 亲密字符串 | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java) | 简单 | 模拟 | 字符串、哈希表 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
 |953| 验证外星语词典 | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
@@ -580,6 +581,8 @@
 |04.05| 合法二叉搜索树 | [LegalBST](src/com/interview/L0405/LegalBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |04.06| 后继者 | [Successor](src/com/interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |04.08| 首个共同祖先 | [FirstCommonAncestor](src/com/interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
+|05.01| 插入 | [InsertIntoBits](src/com/interview/L0501/InsertIntoBits.java) | 简单 | 位运算 | 位运算 |
+|05.06| 整数转换 | [ConvertInteger](src/com/interview/L0506/ConvertInteger.java) | 简单 | 位运算 | 位运算 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
