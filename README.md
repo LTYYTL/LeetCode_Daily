@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**696**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**705**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -459,6 +459,7 @@
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L401_500/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
 |405| 数字转换为十六进制数 | [ConvertNumberHexadecimal](src/com/leetcode/L401_500/L0405/ConvertNumberHexadecimal.java) | 简单 | 数学 | 数学、位运算 |
 |453| 最小操作次数使数组元素相等 | [MinimumMovesEqualElements](src/com/leetcode/L401_500/L0453/MinimumMovesEqualElements.java) | 简单 | 数学 | 数组、数学 |
+|458| 可怜的小猪 | [PoorPigs](src/com/leetcode/L401_500/L0458/PoorPigs.java) | 困难 | 数学 | 数学、动态规划、组合数学 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
@@ -526,6 +527,7 @@
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
+|519| 随机翻转矩阵 | [Solution](src/com/leetcode/L601_700/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
 |676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |703| 数据流中的第 K 大元素 | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |？
@@ -585,9 +587,17 @@
 |04.06| 后继者 | [Successor](src/com/interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |04.08| 首个共同祖先 | [FirstCommonAncestor](src/com/interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
 |05.01| 插入 | [InsertIntoBits](src/com/interview/L0501/InsertIntoBits.java) | 简单 | 位运算 | 位运算 |
+|05.02| 二进制数转字符串 | [BianryNumberString](src/com/interview/L0502/BianryNumberString.java) | 中等 | 模拟 | 字符串、数学、位运算 |
 |05.04| 下一个数 | [ClosedNumber](src/com/interview/L0504/ClosedNumber.java) | 中等 | 暴力法 | 位运算 |
 |05.06| 整数转换 | [ConvertInteger](src/com/interview/L0506/ConvertInteger.java) | 简单 | 位运算 | 位运算 |
-|05.07| 配对交换 | [Exchange](src/com/interview/L0506/Exchange.java) | 简单 | 位运算 | 位运算 |
+|05.07| 配对交换 | [Exchange](src/com/interview/L0507/Exchange.java) | 简单 | 位运算 | 位运算 |
+|05.08| 绘制直线 | [DrawLine](src/com/interview/L0508/DrawLine.java) | 中等 | 位运算 | 数组、数学、位运算 |
+|08.01| 三步问题 | [ThreeStepsProblem](src/com/interview/L0801/ThreeStepsProblem.java) | 简单 | 动态规划 | 数学、记忆化搜索、动态规划 |
+|08.04| 幂集 | [PowerSet](src/com/interview/L0804/PowerSet.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |？
+|08.05| 递归乘法 | [RecursiveMulitply](src/com/interview/L0805/RecursiveMulitply.java) | 中等 | 递归 | 数学、位运算、递归 |
+|08.09| 括号 | [Bracket](src/com/interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
+|08.10| 颜色填充 | [ColorFill](src/com/interview/L0810/ColorFill.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
+|08.13| 堆箱子 | [PileBox](src/com/interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |

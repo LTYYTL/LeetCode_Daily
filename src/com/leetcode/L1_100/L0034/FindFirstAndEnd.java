@@ -27,44 +27,52 @@ package com.leetcode.L1_100.L0034;
  * -109 <= target <= 109
  */
 public class FindFirstAndEnd {
+    /**
+     * 方法：二分查找
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] searchRange(int[] nums, int target) {
-        //开始位置
-        int begin = -1;
-        //结束位置
-        int end = -1;
+        return new int[]{left_bound(nums,target),right_bound(nums,target)};
+    }
 
-        //二分查找
-        int low = 0;
-        int high = nums.length - 1;
-        int mid = 0;
-        //用于标识是否找到目标值
-        boolean flag = false;
-        while (low <= high){
-            mid = (high + low)/2;
-            int temp = nums[mid];
-            if (temp > target)
-                high = mid - 1;
-            else if (temp < target)
-                low = mid + 1;
-            else if (target == temp){
-                flag = true;
-                break;
+    private int left_bound(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        // 搜索区间为 [left, right]
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) {
+                // 搜索区间变为 [mid+1, right]
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                // 搜索区间变为 [left, mid-1]
+                right = mid - 1;
+            } else if (nums[mid] == target) {
+                // 收缩右侧边界
+                right = mid - 1;
             }
         }
-        //找到目标值，以当前目标值的索引为中心，向左右两边寻找开始索引位置和结束索引位置
-        if (flag){
-            begin = mid;
-            end = mid;
-            //向左找开始索引位置
-            while (begin - 1 >=0 && nums[begin - 1] == target)
-                begin--;
-            //向右找结束索引位置
-            while (end + 1 <= nums.length -1 && nums[end + 1] == target)
-                end++;
-            return new int[]{begin,end};
-        }else {
-            return new int[]{-1,-1};
-        }
+        // 检查出界情况
+        if (left >= nums.length || nums[left] != target)
+            return -1;
+        return left;
+    }
+    private int right_bound(int[] nums, int target) {
+        if (nums.length == 0) return -1;
+        int left = 0, right = nums.length;
 
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                left = mid + 1; // 注意
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid;
+            }
+        }
+        if (left == 0) return -1;
+        return nums[left - 1] == target ? (left - 1) : -1;
     }
 }
