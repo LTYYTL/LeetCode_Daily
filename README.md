@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**705**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**708**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -85,6 +85,7 @@
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |773| 滑动谜题 | [SlidingPuzzle](src/com/leetcode/L701_800/L0773/SlidingPuzzle.java) | 困难 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
+|786| 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java) | 困难 | 堆 | 数组、二分查找、优先队列 |
 |815| 公交路线 | [BusRoutes](src/com/leetcode/L801_900/L0815/BusRoutes.java) | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L801_900/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
 |852| 山脉数组的峰顶索引 | [PeakIndexMountainArray](src/com/leetcode/L801_900/L0852/PeakIndexMountainArray.java) | 简单 | 二分查找 | 二分查找 |
@@ -586,8 +587,10 @@
 |04.05| 合法二叉搜索树 | [LegalBST](src/com/interview/L0405/LegalBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |04.06| 后继者 | [Successor](src/com/interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
 |04.08| 首个共同祖先 | [FirstCommonAncestor](src/com/interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
+|04.10| 检查子树 | [CheckSubTree](src/com/interview/L0410/CheckSubTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索、字符串匹配、哈希函数 |
 |05.01| 插入 | [InsertIntoBits](src/com/interview/L0501/InsertIntoBits.java) | 简单 | 位运算 | 位运算 |
 |05.02| 二进制数转字符串 | [BianryNumberString](src/com/interview/L0502/BianryNumberString.java) | 中等 | 模拟 | 字符串、数学、位运算 |
+|05.03| 翻转数位 | [ReverseBits](src/com/interview/L0503/ReverseBits.java) | 简单 | 滑动窗口 | 位运算、动态规划 |
 |05.04| 下一个数 | [ClosedNumber](src/com/interview/L0504/ClosedNumber.java) | 中等 | 暴力法 | 位运算 |
 |05.06| 整数转换 | [ConvertInteger](src/com/interview/L0506/ConvertInteger.java) | 简单 | 位运算 | 位运算 |
 |05.07| 配对交换 | [Exchange](src/com/interview/L0507/Exchange.java) | 简单 | 位运算 | 位运算 |
