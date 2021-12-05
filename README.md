@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**708**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**720**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -10,6 +10,7 @@
 |18| 四数之和 | [Sum4](src/com/leetcode/L1_100/L0018/Sum4.java) | 中等 | 双指针 | 数组、双指针、排序 |
 |26| 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L1_100/L0026/RemoveDuplicatesSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |27| 移除元素 | [RemoveElement](src/com/leetcode/L1_100/L0027/RemoveElement.java) | 简单 | 双指针 | 数组、双指针 |
+|33| 搜索旋转排序数组 | [SearchRotatedSortedArray](src/com/leetcode/L1_100/L0033/SearchRotatedSortedArray.java) | 简单 | 暴力法、二分查找 | 数组、二分查找 |？
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L1_100/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
 |35| 搜索插入位置 | [SearchInsertPosition](src/com/leetcode/L1_100/L0035/SearchInsertPosition.java) | 简单 | 二分查找 | 数组、二分查找 |？
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L1_100/L0036/ValidSudoku.java) | 中等 | 模拟 | 哈希表 |
@@ -65,6 +66,7 @@
 |496| 下一个更大元素 I | [NextGreaterElementI](src/com/leetcode/L401_500/L0496/NextGreaterElementI.java) | 简单 | 单调栈 | 数组、栈、哈希表、单调栈 |
 |502| IPO | [PIO](src/com/leetcode/L501_600/L0502/PIO.java) | 困难 | 堆 | 数组、优先队列、贪心算法、排序 |
 |503| 下一个更大元素 II | [NextGreaterElementII](src/com/leetcode/L501_600/L0503/NextGreaterElementII.java) | 中等 | 栈 | 单调栈 |
+|506| 相对名次 | [RelativeRanks](src/com/leetcode/L501_600/L0506/RelativeRanks.java) | 简单 | 堆 | 数组、堆、排序 |
 |523| 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L501_600/L0523/ContinuousSubarraySum.java) | 中等 | 暴力法 | 数学、动态规划 |
 |525| 连续数组 | [ContiguousArray](src/com/leetcode/L501_600/L0525/ContiguousArray.java) | 中等 | Map映射 | 哈希表 |
 |540| 有序数组中的单一元素 | [SingleElementSortedArray](src/com/leetcode/L501_600/L0540/SingleElementSortedArray.java) | 中等 | 暴力法、二分查找 | 数组、二分查找 |
@@ -181,6 +183,7 @@
 |316| 去除重复字母 | [RemoveDuplicateLetters](src/com/leetcode/L301_400/L0316/RemoveDuplicateLetters.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |318| 最大单词长度乘积 | [MaximumProductWordLengths](src/com/leetcode/L301_400/L0318/MaximumProductWordLengths.java) | 中等 | 位运算 | 数组、字符串、位运算 |
 |345| 反转字符串中的元音字母 | [ReverseVowelsString](src/com/leetcode/L301_400/L0345/ReverseVowelsString.java) | 简单 | 双指针 | 字符串、双指针 |
+|383| 赎金信 | [RansomNote](src/com/leetcode/L301_400/L0383/RansomNote.java) | 简单 | Map映射 | 字符串、哈希表、计数 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
@@ -217,6 +220,7 @@
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1436| 旅行终点站 | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java) | 简单 | set集合 | 字符串、哈希表 |
+|1446| 连续字符 | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java) | 简单 | 双指针 | 字符串 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1801_1900/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1801_1900/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
@@ -528,7 +532,7 @@
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
-|519| 随机翻转矩阵 | [Solution](src/com/leetcode/L601_700/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
+|519| 随机翻转矩阵 | [Solution](src/com/leetcode/L501_600/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
 |676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
 |703| 数据流中的第 K 大元素 | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |？
@@ -596,12 +600,22 @@
 |05.07| 配对交换 | [Exchange](src/com/interview/L0507/Exchange.java) | 简单 | 位运算 | 位运算 |
 |05.08| 绘制直线 | [DrawLine](src/com/interview/L0508/DrawLine.java) | 中等 | 位运算 | 数组、数学、位运算 |
 |08.01| 三步问题 | [ThreeStepsProblem](src/com/interview/L0801/ThreeStepsProblem.java) | 简单 | 动态规划 | 数学、记忆化搜索、动态规划 |
+|08.03| 魔术索引 | [MagicIndex](src/com/interview/L0803/MagicIndex.java) | 简单 | 模拟 | 数组、二分查找 |
 |08.04| 幂集 | [PowerSet](src/com/interview/L0804/PowerSet.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |？
 |08.05| 递归乘法 | [RecursiveMulitply](src/com/interview/L0805/RecursiveMulitply.java) | 中等 | 递归 | 数学、位运算、递归 |
+|08.07| 无重复字符串的排列组合 | [Permutation](src/com/interview/L0807/Permutation.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
+|08.08| 有重复字符串的排列组合 | [PermutationII](src/com/interview/L0808/PermutationII.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |08.09| 括号 | [Bracket](src/com/interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
 |08.10| 颜色填充 | [ColorFill](src/com/interview/L0810/ColorFill.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
+|08.11| 硬币 | [Coin](src/com/interview/L0811/Coin.java) | 中等 | 动态规划 | 数组、数学、动态规划 |？
 |08.13| 堆箱子 | [PileBox](src/com/interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
+|10.05| 稀疏数组搜索 | [SparseArraySearch](src/com/interview/L1005/SparseArraySearch.java) | 简单 | 二分查找 | 数组、字符串、二分查找 |
+|16.01| 交换数字 | [SwapNumbers](src/com/interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
+|16.02| 单词频率 | [WordsFrequency](src/com/interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
+|16.04| 井字游戏 | [TicTacToe](src/com/interview/L1604/TicTacToe.java) | 中等 | 模拟 | 数组、矩阵、计数 |
+|16.06| 最小差 | [SmallestDifference](src/com/interview/L1606/SmallestDifference.java) | 中等 | 排序+双指针 | 数组、双指针、排序、二分查找 |
+|16.07| 最大数值 | [Maximum](src/com/interview/L1607/Maximum.java) | 中等 | 数学 | 数学、位运算、脑筋急转弯 |
 |16.15| 珠玑妙算 | [MasterMindLCCI](src/com/interview/L1615/MasterMindLCCI.java) | 简单 | Map映射 | 数组 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
