@@ -1,5 +1,7 @@
 package com.leetcode.L1101_1200.L1109;
 
+import com.util.Difference;
+
 /**
  * 1109. 航班预订统计
  * 这里有 n 个航班，它们分别从 1 到 n 进行编号。
@@ -59,29 +61,23 @@ public class CorporateFlightBookings {
     }
 
     /**
-     * 方法二：前缀和
-     * 解题思路：
-     * 1、换一种思路理解题意，将问题转换为：某公交车共有 n 站，第 i 条记录 bookings[i] = [i, j, k] 表示在 i 站上车 k 人，乘坐到 j 站，在 j+1 站下车，需要按照车站顺序返回每一站车上的人数
-     * 2、根据 1 的思路，定义 counter[] 数组记录每站的人数变化，counter[i] 表示第 i+1 站。
-     *    遍历 bookings[]：bookings[i] = [i, j, k] 表示在 i 站增加 k 人即 counters[i-1] += k，在 j+1 站减少 k 人即 counters[j] -= k
-     * 3、遍历（整理）counter[] 数组，得到每站总人数： 每站的人数为前一站人数加上当前人数变化 counters[i] += counters[i - 1]
-     * 作者：LuoRong1994
-     * 链接：https://leetcode-cn.com/problems/corporate-flight-bookings/solution/5118_hang-ban-yu-ding-tong-ji-by-user9081a/
+     * 方法二：差分数组
      * @param bookings
      * @param n
      * @return
      */
-    public int[] corpFlightBookings_prefix(int[][] bookings, int n) {
-        int[] res = new int[n];
+    public int[] corpFlightBookings_diff(int[][] bookings, int n) {
+        int[] arr = new int[n];
+        Difference difference = new Difference(arr);
         for (int[] booking : bookings) {
-            res[booking[0]-1] += booking[2];
-            if (booking[1] < n)
-                res[booking[1]] -= booking[2];
+            //开始位置
+            int i = booking[0] - 1;
+            //结束位置
+            int j = booking[1] - 1;
+            //数量
+            int val = booking[2];
+            difference.increment(i,j,val);
         }
-
-        for (int i = 1; i < n; i++) {
-            res[i] += res[i-1];
-        }
-        return res;
+        return difference.result();
     }
 }

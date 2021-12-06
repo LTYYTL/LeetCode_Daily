@@ -27,11 +27,15 @@ package com.leetcode.L301_400.L0303;
  * 最多调用 104 次 sumRange 方法
  */
 public class NumArray {
+    /**
+     * 方法：前缀和
+     */
     //sum[i]存储前i个元素和,sum[i]存储nums[0，。。。i-1]的和
     private int[] sum;
+
     public NumArray(int[] nums) {
         sum = new int[nums.length+1];
-        sum[0] = 0;
+        //计算nums的前缀和
         for(int i = 1; i < sum.length; ++i){
             sum[i] = sum[i - 1] + nums[i - 1];
         }

@@ -19,7 +19,7 @@ public class CorporateFlightBookingsTest {
          * 因此，answer = [10,55,45,25,25]
          */
         System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings(new int[][]{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}},5)));
-        System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings_prefix(new int[][]{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}},5)));
+        System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings_diff(new int[][]{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}},5)));
         /**
          * 示例 2：
          * 输入：bookings = [[1,2,10],[2,2,15]], n = 2
@@ -32,6 +32,6 @@ public class CorporateFlightBookingsTest {
          * 因此，answer = [10,25]
          */
         System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings(new int[][]{{1, 2, 10}, {2, 2, 15}},2)));
-        System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings_prefix(new int[][]{{1, 2, 10}, {2, 2, 15}},2)));
+        System.out.println(Arrays.toString(corporateFlightBookings.corpFlightBookings_diff(new int[][]{{1, 2, 10}, {2, 2, 15}},2)));
     }
 }
