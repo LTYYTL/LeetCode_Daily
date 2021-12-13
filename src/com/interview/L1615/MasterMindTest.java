@@ -2,9 +2,9 @@ package com.interview.L1615;
 
 import java.util.Arrays;
 
-public class MasterMindLCCITest {
+public class MasterMindTest {
     public static void main(String[] args) {
-        MasterMindLCCI masterMindLCCI = new MasterMindLCCI();
+        MasterMind masterMindLCCI = new MasterMind();
         /**
          * 示例：
          * 输入： solution="RGBY",guess="GGRR"

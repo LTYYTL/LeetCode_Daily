@@ -19,7 +19,7 @@ import java.util.HashMap;
  * len(solution) = len(guess) = 4
  * solution和guess仅包含"R","G","B","Y"这4种字符
  */
-public class MasterMindLCCI {
+public class MasterMind {
     /**
      * 方法：Map映射
      * @param solution
