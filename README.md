@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**733**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**738**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -77,6 +77,7 @@
 |594| 最长和谐子序列 | [LongestHarmoniousSubsequence](src/com/leetcode/L501_600/L0594/LongestHarmoniousSubsequence.java) | 简单 | map映射| 数组、哈希表、排序 |
 |611| 有效三角形的个数 | [ValidTriangleNumber](src/com/leetcode/L601_700/L0611/ValidTriangleNumber.java) | 中等 | 二分查找、双指针 | 数组、二分查找、双指针、排序、贪心算法 |
 |628| 三个数的最大乘积 | [MaxProductThreeNumbers](src/com/leetcode/L601_700/L0628/MaxProductThreeNumbers.java) | 简单 | 排序 | 数组、数学 |
+|630| 课程表 III | [CourseScheduleIII](src/com/leetcode/L601_700/L0630/CourseScheduleIII.java) | 困难 | 堆 | 数组、堆、贪心算法 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L601_700/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |645| 错误的集合 | [SetMismatch](src/com/leetcode/L601_700/L0645/SetMismatch.java) | 简单 | set集合 | 数组、哈希表、排序、位运算 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
@@ -613,6 +614,7 @@
 |08.03| 魔术索引 | [MagicIndex](src/com/interview/L0803/MagicIndex.java) | 简单 | 模拟 | 数组、二分查找 |
 |08.04| 幂集 | [PowerSet](src/com/interview/L0804/PowerSet.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |？
 |08.05| 递归乘法 | [RecursiveMulitply](src/com/interview/L0805/RecursiveMulitply.java) | 中等 | 递归 | 数学、位运算、递归 |
+|08.06| 汉诺塔问题 | [Hanota](src/com/interview/L0806/Hanota.java) | 简单 | 递归 | 数组、递归 |
 |08.07| 无重复字符串的排列组合 | [Permutation](src/com/interview/L0807/Permutation.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |08.08| 有重复字符串的排列组合 | [PermutationII](src/com/interview/L0808/PermutationII.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |08.09| 括号 | [Bracket](src/com/interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
@@ -624,6 +626,7 @@
 |16.01| 交换数字 | [SwapNumbers](src/com/interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
 |16.02| 单词频率 | [WordsFrequency](src/com/interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
 |16.04| 井字游戏 | [TicTacToe](src/com/interview/L1604/TicTacToe.java) | 中等 | 模拟 | 数组、矩阵、计数 |
+|16.05| 阶乘尾数 | [FactorialZeros](src/com/interview/L1605/FactorialZeros.java) | 简单 | 数学 | 数学 |
 |16.06| 最小差 | [SmallestDifference](src/com/interview/L1606/SmallestDifference.java) | 中等 | 排序+双指针 | 数组、双指针、排序、二分查找 |
 |16.07| 最大数值 | [Maximum](src/com/interview/L1607/Maximum.java) | 中等 | 数学 | 数学、位运算、脑筋急转弯 |
 |16.10| 生存人数 | [LivingPeople](src/com/interview/L1610/LivingPeople.java) | 中等 | 差分数组 | 数组、计数 |
@@ -631,9 +634,11 @@
 |16.15| 珠玑妙算 | [MasterMind](src/com/interview/L1615/MasterMind.java) | 简单 | Map映射 | 数组 |
 |16.17| 连续数列 | [ContiguousSeq](src/com/interview/L1617/ContiguousSeq.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
+|16.26| 计算器 | [Calculator](src/com/interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
 |17.01| 不用加号的加法 | [AddWithoutPlus](src/com/interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
 |17.04| 消失的数字 | [MissingNumber](src/com/interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
+|17.12| BiNode | [BiNode](src/com/interview/L1712/BiNode.java) | 简单 | 递归 | 树、二叉树、二叉搜索树、链表、栈、深度优先搜索 |
 |17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
