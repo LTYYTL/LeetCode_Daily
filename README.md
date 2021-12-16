@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**738**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**744**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -307,6 +307,7 @@
 |797| 所有可能的路径 | [AllPathsFromSourceTarget](src/com/leetcode/L701_800/L0797/AllPathsFromSourceTarget.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L801_900/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
+|851| 喧闹和富有 | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java) | 中等 | 拓扑排序 | 图、数组、深度优先搜索、拓扑排序 |
 |1135| 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java) | 中等 | Kruskal算法 | 图、并查集、最小生成树 |*
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
 |1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法 | 数组、并查集、最小生成树 |？
@@ -522,6 +523,7 @@
 |930| 和相同的二元子数组 | [BinarySubarraysWithSum](src/com/leetcode/L901_1000/L0930/BinarySubarraysWithSum.java) | 中等 | 滑动窗口、Map映射 | 数组、哈希表、前缀和、滑动窗口 |
 |1052| 爱生气的书店老板 | [GrumpyBookstoreOwner](src/com/leetcode/L1001_1100/L1052/GrumpyBookstoreOwner.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
 |1438| 绝对差不超过限制的最长连续子数组 | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1401_1500/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
+|1610| 可见点的最大数目 | [MaxVisiblePoint](src/com/leetcode/L1601_1700/L1610/MaxVisiblePoint.java) | 困难 | 数学+滑动窗口 | 数组、数学、几何、排序、滑动窗口 |
 |1838| 最高频元素的频数 | [FrequencyMostFrequentElement](src/com/leetcode/L1801_1900/L1838/FrequencyMostFrequentElement.java) | 中等 | 滑动窗口 | 滑动窗口 |
 
 ## 12. **_设计系列_**
@@ -623,6 +625,7 @@
 |08.13| 堆箱子 | [PileBox](src/com/interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |10.05| 稀疏数组搜索 | [SparseArraySearch](src/com/interview/L1005/SparseArraySearch.java) | 简单 | 二分查找 | 数组、字符串、二分查找 |
+|10.11| 峰与谷 | [PeaksValleys](src/com/interview/L1011/PeaksValleys.java) | 中等 | 贪心算法 | 数组、排序、贪心算法 |
 |16.01| 交换数字 | [SwapNumbers](src/com/interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
 |16.02| 单词频率 | [WordsFrequency](src/com/interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
 |16.04| 井字游戏 | [TicTacToe](src/com/interview/L1604/TicTacToe.java) | 中等 | 模拟 | 数组、矩阵、计数 |
@@ -633,11 +636,14 @@
 |16.11| 跳水板 | [DivingBoard](src/com/interview/L1611/DivingBoard.java) | 简单 | 数学 | 数组、数学 |？
 |16.15| 珠玑妙算 | [MasterMind](src/com/interview/L1615/MasterMind.java) | 简单 | Map映射 | 数组 |
 |16.17| 连续数列 | [ContiguousSeq](src/com/interview/L1617/ContiguousSeq.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|16.19| 水域大小 | [PondSizes](src/com/interview/L1619/PondSizes.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
+|16.20| T9键盘 | [T9](src/com/interview/L1620/T9.java) | 中等 | 模拟 | 数组、字符串、哈希表 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |16.26| 计算器 | [Calculator](src/com/interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
 |17.01| 不用加号的加法 | [AddWithoutPlus](src/com/interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
 |17.04| 消失的数字 | [MissingNumber](src/com/interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
+|17.11| 单词距离 | [FindClosest](src/com/interview/L1711/FindClosest.java) | 中等 | 暴力法 | 数组、字符串 |
 |17.12| BiNode | [BiNode](src/com/interview/L1712/BiNode.java) | 简单 | 递归 | 树、二叉树、二叉搜索树、链表、栈、深度优先搜索 |
 |17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
