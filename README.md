@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**744**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**750**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -496,6 +496,7 @@
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
+|1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1501_1600/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1501_1600/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
@@ -622,9 +623,11 @@
 |08.09| 括号 | [Bracket](src/com/interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
 |08.10| 颜色填充 | [ColorFill](src/com/interview/L0810/ColorFill.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
 |08.11| 硬币 | [Coin](src/com/interview/L0811/Coin.java) | 中等 | 动态规划 | 数组、数学、动态规划 |？
+|08.12| 八皇后 | [EightQueens](src/com/interview/L0812/EightQueens.java) | 困难 | 回溯算法 | 数组、回溯算法 |
 |08.13| 堆箱子 | [PileBox](src/com/interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
 |10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
 |10.05| 稀疏数组搜索 | [SparseArraySearch](src/com/interview/L1005/SparseArraySearch.java) | 简单 | 二分查找 | 数组、字符串、二分查找 |
+|10.10| 数字流的秩 | [StreamRank](src/com/interview/L1010/StreamRank.java) | 中等 | 模拟 | 树状数组、二分查找、数据流、设计 |
 |10.11| 峰与谷 | [PeaksValleys](src/com/interview/L1011/PeaksValleys.java) | 中等 | 贪心算法 | 数组、排序、贪心算法 |
 |16.01| 交换数字 | [SwapNumbers](src/com/interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
 |16.02| 单词频率 | [WordsFrequency](src/com/interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
@@ -642,10 +645,13 @@
 |16.26| 计算器 | [Calculator](src/com/interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
 |17.01| 不用加号的加法 | [AddWithoutPlus](src/com/interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
 |17.04| 消失的数字 | [MissingNumber](src/com/interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
+|17.09| 第 k 个数 | [GetKMagicNum](src/com/interview/L1709/GetKMagicNum.java) | 中等 | 动态规划 | 堆、哈希表、动态规划、数学 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
 |17.11| 单词距离 | [FindClosest](src/com/interview/L1711/FindClosest.java) | 中等 | 暴力法 | 数组、字符串 |
 |17.12| BiNode | [BiNode](src/com/interview/L1712/BiNode.java) | 简单 | 递归 | 树、二叉树、二叉搜索树、链表、栈、深度优先搜索 |
 |17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
+|17.19| 消失的两个数字 | [MissingTwo](src/com/interview/L1719/MissingTwo.java) | 困难 | 位运算 | 数组、哈希表、位运算 |
+|17.20| 连续中值 | [MedianFinder](src/com/interview/L1720/MedianFinder.java) | 困难 | 堆 | 堆、数据流、双指针、排序、设计 |
 |17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
 
 ## 15. **_剑指offer_**（共计75题）
