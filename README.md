@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**750**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**757**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -25,7 +25,7 @@
 |84| 柱状图中最大的矩形 | [LargestRectangleHistogram](src/com/leetcode/L1_100/L0084/LargestRectangleHistogram.java) | 困难 | 单调栈 | 数组、栈、单调栈 |
 |85| 最大矩形 | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |？
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L1_100/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
-|118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L101_200/L0118/PascalTriangle.java) | 简单  | 双循环 | 数组 |
+|118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L101_200/L0118/PascalTriangle.java) | 简单  | 模拟 | 数组 |
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L101_200/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
 |137| 只出现一次的数字II | [SingleNumberII](src/com/leetcode/L101_200/L0137/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |？
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L101_200/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
@@ -46,6 +46,7 @@
 |275| H 指数II | [HIndexII](src/com/leetcode/L201_300/L0275/HIndexII.java) | 中等 | 遍历、二分查找 | 数组、二分查找|
 |278| 第一个错误的版本 | [FirstBadVersion](src/com/leetcode/L201_300/L0278/FirstBadVersion.java) | 简单 | 二分查找 | 二分查找 |
 |283| 移动零 | [MoveZeroes](src/com/leetcode/L201_300/L0283/MoveZeroes.java) | 简单 | 双指针 | 数组、双指针 |
+|287| 寻找重复数 | [FindDuplicateNum](src/com/leetcode/L201_300/L0287/FindDuplicateNum.java) | 中等 | sey集合、双指针 | 数组、双指针、二分查找、位运算 |
 |344| 字符串反转 | [ReverseString](src/com/leetcode/L301_400/L0344/ReverseString.java) | 简单 | 双指针 | 数组、双指针 |
 |347| 前 K 个高频元素 | [KHighElement](src/com/leetcode/L301_400/L0347/KHighElement.java) | 中等 | 最小根堆 | 堆、哈希表 |
 |349| 两个数组的交集 | [IntersectionArray](src/com/leetcode/L301_400/L0349/IntersectionArray.java) | 简单 | Set集合、双指针 | 哈希表、双指针、二分查找 |
@@ -56,7 +57,8 @@
 |374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L301_400/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
 |384| 打乱数组 | [Solution](src/com/leetcode/L301_400/L0384/Solution.java) | 中等 | 洗牌算法 | 数组、数学、随进化 |
 |407| 接雨水 II | [TrappingRainWaterII](src/com/leetcode/L401_500/L0407/TrappingRainWaterII.java) | 困难 | 堆 | 数组、堆、矩阵、广度优先搜索 |
-|414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 |数组、排序 |
+|414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 | 数组、排序 |
+|419| 甲板上的战舰 | [BattleshipsBoard](src/com/leetcode/L401_500/L0419/BattleshipsBoard.java) | 中等 | 模拟 | 数组、矩阵、深度优先搜索 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |441| 排列硬币 | [ArrangingCoins](src/com/leetcode/L401_500/L0441/ArrangingCoins.java) | 简单 | 二分查找 | 数学、二分查找 |
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L401_500/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
@@ -240,6 +242,8 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |94| 二叉树的中序遍历 | [InOrder](src/com/leetcode/L1_100/L0094/InOrder.java) | 中等 | 递归、迭代 | 栈、树、哈希表 |
+|95| 不同的二叉搜索树II | [UniqueBSTII](src/com/leetcode/L1_100/L0095/UniqueBSTII.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、回溯算法、动态规划 |
+|96| 不同的二叉搜索树 | [UniqueBST](src/com/leetcode/L1_100/L0096/UniqueBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、数学、动态规划 |
 |98| 验证二叉搜索树 | [ValidateBinarySearchTree](src/com/leetcode/L1_100/L0098/ValidateBinarySearchTree.java) | 中等 | 递归 | 栈、树、哈希表 |
 |101| 对称的二叉树 | [SymmetricBinaryTree](src/com/leetcode/L101_200/L0101/SymmetricBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |102| [二叉树的层序遍历](src/com/leetcode/L101_200/L0102/LevelOrder.md) | [LevelOrder](src/com/leetcode/L101_200/L0102/LevelOrder.java) | 中等 | 递归、广度优先搜索 | 树、广度优先搜索 |
@@ -308,6 +312,7 @@
 |802| 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L801_900/L0802/FindEventualSafeStates.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |851| 喧闹和富有 | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java) | 中等 | 拓扑排序 | 图、数组、深度优先搜索、拓扑排序 |
+|997| 找到小镇的法官 | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java) | 简单 | 图 | 图、数组、哈希表 |
 |1135| 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java) | 中等 | Kruskal算法 | 图、并查集、最小生成树 |*
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
 |1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法 | 数组、并查集、最小生成树 |？
@@ -641,10 +646,12 @@
 |16.17| 连续数列 | [ContiguousSeq](src/com/interview/L1617/ContiguousSeq.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
 |16.19| 水域大小 | [PondSizes](src/com/interview/L1619/PondSizes.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
 |16.20| T9键盘 | [T9](src/com/interview/L1620/T9.java) | 中等 | 模拟 | 数组、字符串、哈希表 |
+|16.22| 兰顿蚂蚁 | [LangtonsAnt](src/com/interview/L1622/LangtonsAnt.java) | 中等 | 模拟 | 数组、字符串、哈希表、矩阵、模拟 |
 |16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |16.26| 计算器 | [Calculator](src/com/interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
 |17.01| 不用加号的加法 | [AddWithoutPlus](src/com/interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
 |17.04| 消失的数字 | [MissingNumber](src/com/interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
+|17.07| 婴儿名字 | [BabyNames](src/com/interview/L1707/BabyNames.java) | 中等 | 并查集 | 数组、哈希表、字符串、并查集、深度优先搜索、广度优先搜索、计数 |
 |17.09| 第 k 个数 | [GetKMagicNum](src/com/interview/L1709/GetKMagicNum.java) | 中等 | 动态规划 | 堆、哈希表、动态规划、数学 |
 |17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
 |17.11| 单词距离 | [FindClosest](src/com/interview/L1711/FindClosest.java) | 中等 | 暴力法 | 数组、字符串 |

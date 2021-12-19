@@ -21,7 +21,7 @@ import java.util.List;
  */
 public class PascalTriangle {
     /**
-     * 方法：双循环
+     * 方法：模拟
      * @param numRows
      * @return
      */

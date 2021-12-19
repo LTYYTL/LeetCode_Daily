@@ -50,7 +50,7 @@ public class UF {
      * @param x
      * @return
      */
-    private int find(int x) {
+    public int find(int x) {
         while (parent[x] != x){
             //路径压缩
             parent[x] = parent[parent[x]];
