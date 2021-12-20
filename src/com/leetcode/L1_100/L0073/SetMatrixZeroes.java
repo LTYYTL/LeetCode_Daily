@@ -24,10 +24,16 @@ package com.leetcode.L1_100.L0073;
  * -231 <= matrix[i][j] <= 231 - 1
  */
 public class SetMatrixZeroes {
+    /**
+     * 方法：模拟
+     * @param matrix
+     */
     public void setZeroes(int[][] matrix) {
+        //长度
         int m = matrix.length, n = matrix[0].length;
         boolean[] row = new boolean[m];
         boolean[] col = new boolean[n];
+        //标记要变成0的行和列
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == 0) {
@@ -35,6 +41,7 @@ public class SetMatrixZeroes {
                 }
             }
         }
+        //根据标记改变
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (row[i] || col[j]) {

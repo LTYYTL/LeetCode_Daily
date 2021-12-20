@@ -25,29 +25,33 @@ package com.leetcode.L701_800.L0714;
  */
 public class StockWithFee {
     /**
-     * 方法：贪心算法
-     * 1、如果当前的股票价格 prices[i] 加上手续费 fee 小于buy，那么与其使用 buy 的价格购买股票，我们不如以 prices[i]+fee 的价格购买股票，因此我们将 buy 更新为 prices[i]+fee；
-     * 2、如果当前的股票价格 prices[i] 大于 buy，那么我们直接卖出股票并且获得prices[i]−buy 的收益。
-     *  但实际上，我们此时卖出股票可能并不是全局最优的（例如下一天股票价格继续上升），因此我们可以提供一个反悔操作，
-     *  看成当前手上拥有一支买入价格为 prices[i] 的股票，将 buy 更新为 \prices[i]。这样一来，如果下一天股票价格继续上升，我们会获得 prices[i+1]−prices[i] 的收益，
-     *  加上这一天 prices[i]−buy 的收益，恰好就等于在这一天不进行任何操作，而在下一天卖出股票的收益；
-     * 3、对于其余的情况，prices[i] 落在区间 [buy−fee,buy] 内，它的价格没有低到我们放弃手上的股票去选择它，也没有高到我们可以通过卖出获得收益，因此我们不进行任何操作。
+     * 方法：动态规划
      * @param prices
      * @param fee
      * @return
      */
     public int maxProfit(int[] prices, int fee) {
-        int buy = prices[0] + fee;
-        int res = 0;
-        for (int i = 1; i < prices.length; ++i){
-            int temp = prices[i] ;
-            if (temp + fee < buy){
-                buy = temp + fee;
-            }else if (temp > buy){
-                res += temp - buy;
-                buy = temp;
+        //长度
+        int n = prices.length;
+        //dp[i][0]:表示第i天不持有股票
+        //dp[i][1]:表示第i天持有股票
+        int[][] dp = new int[n][2];
+        //遍历
+        for (int i = 0; i < n; i++) {
+            //i == 0的情况
+            if (i - 1 == -1){
+                //不持有
+                dp[i][0] = 0;
+                //第0天买进
+                dp[i][1] = -prices[i] - fee;
+                continue;
             }
+            //第i天没有持有：（1）前一天就没持有 （2）前一天持有，这天卖掉
+            dp[i][0] = Math.max(dp[i-1][0],dp[i-1][1] + prices[i]);
+            //第i天持有：（1）前一天就持有 （2）前一天没持有，这天买入
+            dp[i][1] = Math.max(dp[i-1][1],dp[i-1][0] - prices[i] - fee);
         }
-        return res;
+        //最后一天没持有
+        return dp[n-1][0];
     }
 }

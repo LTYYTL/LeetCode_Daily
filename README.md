@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**757**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**763**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -170,6 +170,7 @@
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
 |28| 实现strStr() | [ImplementstrStr](src/com/leetcode/L1_100/L0028/ImplementstrStr.java) | 简单 | Sunday算法、KMP算法 | 字符串、双指针 |
+|32| 最长有效括号 | [LongestValidParentheses](src/com/leetcode/L1_100/L0032/LongestValidParentheses.java) | 困难 | 栈 | 字符串、栈、动态规划 |
 |38| 外观数列 | [CountSay](src/com/leetcode/L1_100/L0038/CountSay.java) | 中等 | 枚举 | 字符串 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L1_100/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L1_100/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
@@ -221,6 +222,8 @@
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |859| 亲密字符串 | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java) | 简单 | 模拟 | 字符串、哈希表 |
+|917| 仅仅反转字母 | [ReverseOnlyLetters](src/com/leetcode/L901_1000/L0917/ReverseOnlyLetters.java) | 简单 | 双指针 | 字符串、双指针 |
+|921| 使括号有效的最少添加 | [MinParenthesesValid](src/com/leetcode/L901_1000/L0921/MinParenthesesValid.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
 |953| 验证外星语词典 | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
@@ -230,6 +233,7 @@
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1436| 旅行终点站 | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java) | 简单 | set集合 | 字符串、哈希表 |
 |1446| 连续字符 | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java) | 简单 | 双指针 | 字符串 |
+|1541| 平衡括号字符串的最少插入次数 | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1816| 截断句子 | [TruncateSentence](src/com/leetcode/L1801_1900/L1816/TruncateSentence.java) | 简单 | 模拟 | 数组、字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1801_1900/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
@@ -344,11 +348,14 @@
 |115| 不同的子序列 | [DistinctSubsequences](src/com/leetcode/L101_200/L0115/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |？
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L101_200/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |121| 买卖股票的最佳时机 | [BestTimeBuyAndSellStock](src/com/leetcode/L101_200/L0121/BestTimeBuyAndSellStock.java) | 简单  | 模拟、动态规划 | 数组、动态规划 |
+|123| 买卖股票的最佳时机III | [StockIII](src/com/leetcode/L101_200/L0123/StockIII.java) | 困难 | 动态规划 | 数组、动态规划 |？
 |132| 分割回文串 II | [PalindromePartitioningII](src/com/leetcode/L101_200/L0132/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |？
+|188| 买卖股票的最佳时机IV | [StockIV](src/com/leetcode/L101_200/L0188/StockIV.java) | 困难 | 动态规划 | 数组、动态规划 |？
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L101_200/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L201_300/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
 |264| 丑数 II | [UglyNumberII](src/com/leetcode/L201_300/L0264/UglyNumberII.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
 |300| 最长递增子序列 | [LongestAscSequence](src/com/leetcode/L201_300/L0300/LongestAscSequence.java) | 中等 | 动态规划 | 动态规划、二分查找 |
+|309| 最佳买卖股票时机含冷冻期 | [StockWithCool](src/com/leetcode/L301_400/L0309/StockWithCool.java) | 中等 | 动态规划 | 数组、动态规划 |
 |312| 戳气球 | [BurstBalloons](src/com/leetcode/L301_400/L0312/BurstBalloons.java) | 困难 | 动态规划 | 动态规划 |
 |313| 超级丑数 | [SuperUglyNumber](src/com/leetcode/L301_400/L0313/SuperUglyNumber.java) | 中等 | 堆、动态规划 | 数组、哈希表、堆、动态规划、数学 |
 |322| 零钱兑换 | [CoinChange](src/com/leetcode/L301_400/L0322/CoinChange.java) | 中等 | 动态规划 | 动态规划 |
@@ -375,6 +382,7 @@
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L601_700/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L601_700/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L601_700/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
+|714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L701_800/L0714/StockWithFee.java) | 中等 | 动态规划 | 数组、贪心算法、动态规划 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L701_800/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L701_800/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
 |873| 最长的斐波那契子序列的长度 | [LengthLongestFibonacciSubsequence](src/com/leetcode/L801_900/L0873/LengthLongestFibonacciSubsequence.java) | 中等 | 动态规划、set集合 | 数组、哈希表、动态规划 |
@@ -425,7 +433,6 @@
 |330| 按要求补齐数组 | [PatchingArray](src/com/leetcode/L301_400/L0330/PatchingArray.java) | 困难 | 贪心算法 | 贪心算法 |
 |455| 分发饼干 | [AssignCookies](src/com/leetcode/L401_500/L0455/AssignCookies.java) | 简单 | 贪心算法 | 贪心算法 |
 |517| 超级洗衣机 | [SuperWashingMachines](src/com/leetcode/L501_600/L0517/SuperWashingMachines.java) | 困难 | 贪心算法 | 数组、贪心算法 |
-|714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L701_800/L0714/StockWithFee.java) | 中等 | 贪心算法 | 数组、贪心算法、动态规划 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L701_800/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L701_800/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L701_800/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
@@ -481,6 +488,7 @@
 |458| 可怜的小猪 | [PoorPigs](src/com/leetcode/L401_500/L0458/PoorPigs.java) | 困难 | 数学 | 数学、动态规划、组合数学 |
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
+|475| 供暖器 | [Heaters](src/com/leetcode/L401_500/L0475/Heaters.java) | 中等 | 二分查找 | 数组、双指针、二分查找、排序 |
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |492| 构造矩形 | [ConstructRectangle](src/com/leetcode/L401_500/L0492/ConstructRectangle.java) | 简单 | 数学 | 数学 |

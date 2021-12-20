@@ -31,7 +31,11 @@ import java.util.Stack;
  * 输出: true
  */
 public class ValidParentheses {
-
+    /**
+     * 方法：栈
+     * @param s
+     * @return
+     */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for(int i = 0 ; i< s.length() ; i++){

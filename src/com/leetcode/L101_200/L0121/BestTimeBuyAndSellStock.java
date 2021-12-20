@@ -52,17 +52,27 @@ public class BestTimeBuyAndSellStock {
      * @return
      */
     public int maxProfit_dp(int[] prices){
+        //长度
         int n = prices.length;
-        int[] dp = new int[n];
-        //记录最小值
-        int min = prices[0];
+        //dp[i][0]:表示第i天不持有股票
+        //dp[i][1]:表示第i天持有股票
+        int[][] dp = new int[n][2];
         //遍历
-        for (int i = 1; i < prices.length; i++) {
-            //是否为最小值
-            min = Math.min(min,prices[i]);
-            //计算最大收益
-            dp[i] = Math.max(dp[i-1],prices[i]-min);
+        for (int i = 0; i < n; i++) {
+            //i == 0的情况
+            if (i - 1 == -1){
+                //不持有
+                dp[i][0] = 0;
+                //第0天买进
+                dp[i][1] = -prices[i];
+                continue;
+            }
+            //第i天没有持有：（1）前一天就没持有 （2）前一天持有，这天卖掉
+            dp[i][0] = Math.max(dp[i-1][0],dp[i-1][1] + prices[i]);
+            //第i天持有：（1）前一天就持有 （2）前一天没持有，这天买入
+            dp[i][1] = Math.max(dp[i-1][1],-prices[i]);
         }
-        return dp[n-1];
+        //最后一天没持有
+        return dp[n-1][0];
     }
 }
