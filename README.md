@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**775**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**780**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -118,6 +118,8 @@
 |1480| 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java) | 简单 | 模拟 | 数组、前缀和 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1501_1600/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
 |1646| 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java) | 简单 | 模拟 | 数组、模拟、动态规划 |
+|1672| 最富有客户的资产总量 | [RichCustomerWealth](src/com/leetcode/L1601_1700/L1672/RichCustomerWealth.java) | 简单 | 模拟 | 数组、矩阵 |
+|1705| 吃苹果的最大数目 | [MaxEatenApples](src/com/leetcode/L1701_1800/L1705/MaxEatenApples.java) | 中等 | 堆 | 数组、堆、贪心算法 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1701_1800/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
 |1713| 得到子序列的最少操作次数 | [MinimumOperationsMakeSubsequence](src/com/leetcode/L1701_1800/L1713/MinimumOperationsMakeSubsequence.java) | 困难 | 二分查找 | 数组、哈希表、贪心算法、二分查找 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1701_1800/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
@@ -135,7 +137,8 @@
 |1894| 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1801_1900/L1894/FindStudentWillReplaceChalk.java) | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟 |
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
-|2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | -- |
+|2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
+|2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -307,6 +310,7 @@
 |1038| 从二叉搜索树到更大和树 | [BSTToGST](src/com/leetcode/L1001_1100/L1038/BSTToGST.java) | 中等 | 递归、迭代 | 树 |
 |1104| 二叉树寻路 | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java) | 中等 | 数学 | 树、二叉树、数学 |
 |1382| 将二叉搜索树变平衡 | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索 |
+|1609| 奇偶树 | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
 
 ## 5. **_图系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -504,6 +508,7 @@
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |492| 构造矩形 | [ConstructRectangle](src/com/leetcode/L401_500/L0492/ConstructRectangle.java) | 简单 | 数学 | 数学 |
 |504| 七进制数 | [Base7](src/com/leetcode/L501_600/L0504/Base7.java) | 简单 | 数学 | 数学 |
+|507| 完美数 | [PerfectNumber](src/com/leetcode/L501_600/L0507/PerfectNumber.java) | 简单 | 数学 | 数学 |
 |509| 斐波那契数 | [FibonacciNumber](src/com/leetcode/L501_600/L0509/FibonacciNumber.java) | 简单 | 递归，迭代 | 数学 |
 |528| 按权重随机选择 | [RandomPickWithWeight](src/com/leetcode/L501_600/L0528/RandomPickWithWeight.java) | 中等 | 前缀和+二分查找  | 数学、前缀和、二分查找、随机化 |
 |566| 重塑矩阵 | [ReshapeMatrix](src/com/leetcode/L501_600/L0566/ReshapeMatrix.java) | 简单 | 数学 | 数组 |
