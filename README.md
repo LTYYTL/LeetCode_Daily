@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**780**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**785**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -114,8 +114,10 @@
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、二分查找、矩阵、排列、堆 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1301_1400/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1401_1500/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
+|1431| 拥有最多糖果的孩子 | [KidsWithMaxCandies](src/com/leetcode/L1401_1500/L1431/KidsWithMaxCandies.java) | 简单 | 模拟 | 数组 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1401_1500/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
 |1480| 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java) | 简单 | 模拟 | 数组、前缀和 |
+|1512| 好数对的数目 | [NumberGoodPairs](src/com/leetcode/L1501_1600/L1512/NumberGoodPairs.java) | 简单 | map映射 | 数组、哈希表、数学、计数 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1501_1600/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
 |1646| 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java) | 简单 | 模拟 | 数组、模拟、动态规划 |
 |1672| 最富有客户的资产总量 | [RichCustomerWealth](src/com/leetcode/L1601_1700/L1672/RichCustomerWealth.java) | 简单 | 模拟 | 数组、矩阵 |
@@ -137,8 +139,10 @@
 |1894| 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1801_1900/L1894/FindStudentWillReplaceChalk.java) | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟 |
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
+|2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
+|2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -236,6 +240,7 @@
 |953| 验证外星语词典 | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1001_1100/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
+|1078| Bigram 分词 | [OccurrencesBigram](src/com/leetcode/L1001_1100/L1078/OccurrencesBigram.java) | 简单 | 模拟 | 字符串 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
