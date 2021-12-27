@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**785**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**793**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -93,6 +93,7 @@
 |773| 滑动谜题 | [SlidingPuzzle](src/com/leetcode/L701_800/L0773/SlidingPuzzle.java) | 困难 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |786| 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java) | 困难 | 堆 | 数组、二分查找、优先队列 |
 |815| 公交路线 | [BusRoutes](src/com/leetcode/L801_900/L0815/BusRoutes.java) | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
+|825| 适龄的朋友 | [FriendsAppropriateAges](src/com/leetcode/L801_900/L0825/FriendsAppropriateAges.java) | 中等 | 双指针 | 数组、排序、双指针、二分查找 |
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L801_900/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
 |852| 山脉数组的峰顶索引 | [PeakIndexMountainArray](src/com/leetcode/L801_900/L0852/PeakIndexMountainArray.java) | 简单 | 二分查找 | 二分查找 |
 |867| 转置矩阵 | [TransposeMatrix](src/com/leetcode/L801_900/L0867/TransposeMatrix.java) | 简单 | 模拟 | 数组 |
@@ -111,11 +112,14 @@
 |1094| 拼车 | [CarPooling](src/com/leetcode/L1001_1100/L1094/CarPooling.java) | 中等 | 差分数组 | 数组、堆、前缀和、排序、模拟 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
 |1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |？
+|1295| 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java) | 简单 | 模拟 | 数组 |
+|1313| 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java) | 简单 | 模拟 | 数组 |
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、二分查找、矩阵、排列、堆 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1301_1400/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1401_1500/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1431| 拥有最多糖果的孩子 | [KidsWithMaxCandies](src/com/leetcode/L1401_1500/L1431/KidsWithMaxCandies.java) | 简单 | 模拟 | 数组 |
 |1442| 形成两个异或相等数组的三元组数目 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1401_1500/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java) | 中等 | 双指针 | 数组、位运算、数学 |
+|1470| 重新排列数组 | [ShuffleArray](src/com/leetcode/L1401_1500/L1470/ShuffleArray.java) | 简单 | 模拟 | 数组 |
 |1480| 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java) | 简单 | 模拟 | 数组、前缀和 |
 |1512| 好数对的数目 | [NumberGoodPairs](src/com/leetcode/L1501_1600/L1512/NumberGoodPairs.java) | 简单 | map映射 | 数组、哈希表、数学、计数 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1501_1600/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
@@ -137,6 +141,7 @@
 |1886| 判断矩阵经轮转后是否一致 | [DetermineWhetherMatrixRotation](src/com/leetcode/L1801_1900/L1886/DetermineWhetherMatrixRotation.java) | 简单 | 模拟 | 数组、矩阵 |
 |1887| 使数组元素相等的减少操作次数 | [ReductionOperationsArrayEqual](src/com/leetcode/L1801_1900/L1887/ReductionOperationsArrayEqual.java) | 中等 | 排序 | 数组、排序 |
 |1894| 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1801_1900/L1894/FindStudentWillReplaceChalk.java) | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟 |
+|1913| 两个数对之间的最大乘积差 | [MaxDiffTwoPairs](src/com/leetcode/L1901_2000/L1913/MaxDiffTwoPairs.java) | 简单 | 排序 | 数组、排序 |
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
 |2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
@@ -241,6 +246,7 @@
 |1046| 最后一块石头的重量 | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java) | 简单 | 最大堆 | 堆、贪心算法 |
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1001_1100/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1078| Bigram 分词 | [OccurrencesBigram](src/com/leetcode/L1001_1100/L1078/OccurrencesBigram.java) | 简单 | 模拟 | 字符串 |
+|1108| IP 地址无效化 | [DefangingIP](src/com/leetcode/L1101_1200/L1108/DefangingIP.java) | 简单 | 模拟 | 字符串 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
@@ -248,6 +254,7 @@
 |1446| 连续字符 | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java) | 简单 | 双指针 | 字符串 |
 |1541| 平衡括号字符串的最少插入次数 | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
+|1773| 统计匹配检索规则的物品数量 | [CountMatchRule](src/com/leetcode/L1701_1800/L1773/CountMatchRule.java) | 简单 | 模拟 | 数组、字符串 |
 |1816| 截断句子 | [TruncateSentence](src/com/leetcode/L1801_1900/L1816/TruncateSentence.java) | 简单 | 模拟 | 数组、字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1801_1900/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1801_1900/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
@@ -529,6 +536,7 @@
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1154| 一年中的第几天 | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java) | 简单 | 数学 | 字符串、数学 |
+|1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1154/SubProAndSum.java) | 简单 | 数学 | 数学 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
