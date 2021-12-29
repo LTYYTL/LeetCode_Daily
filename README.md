@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**793**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**795**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -64,6 +64,7 @@
 |448| 找到所有数组中消失的数字 | [FindAllNumbersDisappearedArray](src/com/leetcode/L401_500/L0448/FindAllNumbersDisappearedArray.java) | 简单 | 哈希表 | 数组 |
 |456| 132模式 | [Pattern132](src/com/leetcode/L401_500/L0456/Pattern132.java) | 中等 | 栈 | 数组、栈 |
 |457| 环形数组是否存在循环 | [CircularArrayLoop](src/com/leetcode/L401_500/L0457/CircularArrayLoop.java) | 中等 | 快慢指针 | 数组、双指针、哈希表 |
+|472| 连接词 | [ConcatenatedWords](src/com/leetcode/L401_500/L0472/ConcatenatedWords.java) | 困难 | 字典树+深度优先搜索 | 数组、字符串、字典树、深度优先搜索、动态规划 |
 |485| 最大连续1的个数 | [MaxConsecutiveOnes](src/com/leetcode/L401_500/L0485/MaxConsecutiveOnes.java) | 简单 | 一次遍历 | 数组 |
 |495| 提莫攻击 | [TeemoAttacking](src/com/leetcode/L401_500/L0495/TeemoAttacking.java) | 简单 | 模拟 | 数组、模拟 |
 |496| 下一个更大元素 I | [NextGreaterElementI](src/com/leetcode/L401_500/L0496/NextGreaterElementI.java) | 简单 | 单调栈 | 数组、栈、哈希表、单调栈 |
@@ -144,6 +145,7 @@
 |1913| 两个数对之间的最大乘积差 | [MaxDiffTwoPairs](src/com/leetcode/L1901_2000/L1913/MaxDiffTwoPairs.java) | 简单 | 排序 | 数组、排序 |
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
+|1995| 统计特殊四元组 | [CountSpecialQuadruplets](src/com/leetcode/L1901_2000/L1995/CountSpecialQuadruplets.java) | 简单 | 暴力法、map映射 | 数组、数学 |
 |2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
