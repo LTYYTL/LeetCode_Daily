@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**795**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**799**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -255,6 +255,7 @@
 |1436| 旅行终点站 | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java) | 简单 | set集合 | 字符串、哈希表 |
 |1446| 连续字符 | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java) | 简单 | 双指针 | 字符串 |
 |1541| 平衡括号字符串的最少插入次数 | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
+|1684| 统计一致字符串的数目 | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java) | 中等 | set集合 | 数组、字符串、哈希表、位运算 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1773| 统计匹配检索规则的物品数量 | [CountMatchRule](src/com/leetcode/L1701_1800/L1773/CountMatchRule.java) | 简单 | 模拟 | 数组、字符串 |
 |1816| 截断句子 | [TruncateSentence](src/com/leetcode/L1801_1900/L1816/TruncateSentence.java) | 简单 | 模拟 | 数组、字符串 |
@@ -262,7 +263,8 @@
 |1839| 所有元音按顺序排布的最长子字符串 | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1801_1900/L1839/LongestSubstringOfAllVowelsOrder.java) | 中等 | 双指针 | 字符串、双指针 |
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1801_1900/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1801_1900/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
-|2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java) | 简单 | 模拟 | -- |
+|2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java) | 简单 | 模拟 | 字符串、双指针 |
+|2114| 句子中的最多单词数 | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java) | 简单 | 模拟 | 数组、字符串 |
 
 ## 4. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -465,9 +467,11 @@
 |763| 划分字母区间 | [PartitionLabels](src/com/leetcode/L701_800/L0763/PartitionLabels.java) | 中等 | 贪心算法 | 字符串 |
 |767| 重构字符串 | [ReorganizeString](src/com/leetcode/L701_800/L0767/ReorganizeString.java) | 中等 | 贪心算法 | 字符串、堆、贪心算法、排序 |
 |807| 保持城市天际线 | [MaxKeepCitySkyline](src/com/leetcode/L801_900/L0807/MaxKeepCitySkyline.java) | 中等 | 贪心算法 | 数组、矩阵、贪心算法 |
+|846| 一手顺子 | [HandStraights](src/com/leetcode/L801_900/L0846/HandStraights.java) | 中等 | 贪心算法 | 数组、哈希表、排序、贪心算法 |
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L801_900/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L801_900/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |1005| K 次取反后最大化的数组和 | [MaximizeSumArrayKNegations](src/com/leetcode/L1001_1100/L1005/MaximizeSumArrayKNegations.java) | 简单 | 贪心算法 | 数组、贪心算法、排序 |
+|1296| 划分数组为连续数字的集合 | [DivideArrKConsecutive](src/com/leetcode/L1201_1300/L1296/DivideArrKConsecutive.java) | 中等 | 贪心算法 | 数组、哈希表、排序、贪心算法 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1601_1700/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 |1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1801_1900/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
 
@@ -538,7 +542,7 @@
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1154| 一年中的第几天 | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java) | 简单 | 数学 | 字符串、数学 |
-|1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1154/SubProAndSum.java) | 简单 | 数学 | 数学 |
+|1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1281/SubProAndSum.java) | 简单 | 数学 | 数学 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
