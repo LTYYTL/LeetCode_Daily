@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**799**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**802**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -149,6 +149,7 @@
 |2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
+|2022| 将一维数组转变成二维数组 | [Convert1DInto2D](src/com/leetcode/L2001_2100/L2022/Convert1DInto2D.java) | 简单 | 模拟 | 数组、矩阵、模拟 |
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
 
 ## 2. **_链表系列_**
@@ -542,8 +543,10 @@
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1154| 一年中的第几天 | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java) | 简单 | 数学 | 字符串、数学 |
+|1185| 一周中的第几天 | [DayWeek](src/com/leetcode/L1101_1200/L1185/DayWeek.java) | 简单 | 数学 | 数学 |
 |1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1281/SubProAndSum.java) | 简单 | 数学 | 数学 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
+|1342| 将数字变成 0 的操作次数 | [StepsReduceZero](src/com/leetcode/L1301_1400/L1342/StepsReduceZero.java) | 简单 | 数学 | 数学、位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
