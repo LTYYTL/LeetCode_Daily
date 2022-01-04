@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**802**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**804**道，持续更新中...）
 
 ## 1. **_Leetcode题目_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -419,6 +419,7 @@
 |873| 最长的斐波那契子序列的长度 | [LengthLongestFibonacciSubsequence](src/com/leetcode/L801_900/L0873/LengthLongestFibonacciSubsequence.java) | 中等 | 动态规划、set集合 | 数组、哈希表、动态规划 |
 |877| 石子游戏 | [StoneGame](src/com/leetcode/L801_900/L0877/StoneGame.java) | 中等 | 动态规划 | 极小化极大、数学、动态规划 |
 |887| 鸡蛋掉落 | [SuperEggDrop](src/com/leetcode/L801_900/L0887/SuperEggDrop.java) | 简单 | 动态规划 | 数组、动态规划 |
+|913| 猫和老鼠 | [CatAndMouse](src/com/leetcode/L901_1000/L0913/CatAndMouse.java) | 困难 | 动态规划 | 图、动态规划、博弈、数学、广度优先搜索、记忆化搜索 |
 |926| 将字符串翻转到单调递增 | [FlipStringMonotoneIncreasing](src/com/leetcode/L901_1000/L0926/FlipStringMonotoneIncreasing.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |1035| 不相交的线 | [UncrossedLines](src/com/leetcode/L1001_1100/L1035/UncrossedLines.java) | 中等 | 动态规划 | 数组 |
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1001_1100/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
@@ -512,6 +513,7 @@
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
+|390| 消除游戏 | [EliminationGame](src/com/leetcode/L301_400/L0390/EliminationGame.java) | 中等 | 数学 | 数学 |
 |391| 完美矩形 | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java) | 困难 | 数学 | 数组、扫描线 |
 |397| 整数替换 | [IntegerReplacement](src/com/leetcode/L301_400/L0397/IntegerReplacement.java) | 中等 | 暴力法、map映射、位运算| 贪心算法、位运算、记忆化搜索、动态规划 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
