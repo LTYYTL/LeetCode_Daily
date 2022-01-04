@@ -10,11 +10,11 @@ public class MaxDepthNTreeTest {
          * 输入：root = [1,null,3,2,4,null,5,6]
          * 输出：3
          */
-        Node n3 = new Node(3,new ArrayList<>(){{
+        Node n3 = new Node(3,new ArrayList<Node>(){{
             add(new Node(5));
             add(new Node(6));
         }});
-        Node n1 = new Node(1,new ArrayList<>(){{
+        Node n1 = new Node(1,new ArrayList<Node>(){{
             add(n3);
             add(new Node(2));
             add(new Node(4));

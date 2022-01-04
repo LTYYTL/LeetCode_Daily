@@ -1,4 +1,4 @@
-package com.LSP.L0002;
+package com.LCS.L0002;
 
 public class CompleteHalfProblemTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.LSP.L0001;
+package com.LCS.L0001;
 
 public class DownloadPluginTest {
     public static void main(String[] args) {

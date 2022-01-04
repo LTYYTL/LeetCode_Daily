@@ -56,7 +56,8 @@ public class RepeatedMatch {
         //表示最初a重复的次数
         int count = b.length()/a.length();
         //将count个a加入
-        StringBuilder sb = new StringBuilder(a.repeat(count));
+        //StringBuilder sb = new StringBuilder(a.repeat(count));
+        StringBuilder sb = new StringBuilder();
         //遍历
         for (int i = 0; i <= 2 ; i++) {
             //看是否出现了b

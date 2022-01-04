@@ -1,7 +1,7 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**804**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**854**道，持续更新中...）
 
-## 1. **_Leetcode题目_**
+## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |1| [两数之和](src/com/leetcode/L1_100/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L1_100/L0001/TwoNumSum.java) | 简单 | 双指针、Map映射 | 数组、哈希表 |
@@ -10,24 +10,22 @@
 |18| 四数之和 | [Sum4](src/com/leetcode/L1_100/L0018/Sum4.java) | 中等 | 双指针 | 数组、双指针、排序 |
 |26| 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L1_100/L0026/RemoveDuplicatesSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |27| 移除元素 | [RemoveElement](src/com/leetcode/L1_100/L0027/RemoveElement.java) | 简单 | 双指针 | 数组、双指针 |
-|33| 搜索旋转排序数组 | [SearchRotatedSortedArray](src/com/leetcode/L1_100/L0033/SearchRotatedSortedArray.java) | 简单 | 暴力法、二分查找 | 数组、二分查找 |？
+|33| 搜索旋转排序数组 | [SearchRotatedSortedArray](src/com/leetcode/L1_100/L0033/SearchRotatedSortedArray.java) | 简单 | 暴力法、二分查找 | 数组、二分查找 |
 |34| 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L1_100/L0034/FindFirstAndEnd.java) | 简单 | 二分查找 | 数组、二分查找 |
-|35| 搜索插入位置 | [SearchInsertPosition](src/com/leetcode/L1_100/L0035/SearchInsertPosition.java) | 简单 | 二分查找 | 数组、二分查找 |？
+|35| 搜索插入位置 | [SearchInsertPosition](src/com/leetcode/L1_100/L0035/SearchInsertPosition.java) | 简单 | 二分查找 | 数组、二分查找 |
 |36| 有效的数独 | [ValidSudoku](src/com/leetcode/L1_100/L0036/ValidSudoku.java) | 中等 | 模拟 | 哈希表 |
 |41| 缺失的第一个正数 | [FirstMissingPositive](src/com/leetcode/L1_100/L0041/FirstMissingPositive.java) | 困难 | 哈希表、排序 | 数组 |
-|42| 接雨水 | [TrappingRainWater](src/com/leetcode/L1_100/L0042/TrappingRainWater.java) | 困难 | 单调栈、双指针 | 数组、栈、单调栈、双指针、动态规划 |？
+|42| 接雨水 | [TrappingRainWater](src/com/leetcode/L1_100/L0042/TrappingRainWater.java) | 困难 | 单调栈、双指针 | 数组、栈、单调栈、双指针、动态规划 |
 |54| 螺旋矩阵 | [SpiralMatrix](src/com/leetcode/L1_100/L0054/SpiralMatrix.java) | 中等 | 模拟 | 数组 |
-|56| 合并区间 | [MergeIntervals](src/com/leetcode/L1_100/L0056/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |？
+|56| 合并区间 | [MergeIntervals](src/com/leetcode/L1_100/L0056/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |
 |73| 矩阵置零 | [SetMatrixZeroes](src/com/leetcode/L1_100/L0073/SetMatrixZeroes.java) | 中等 | 数组 | 数组 |
 |74| 搜索二维矩阵 | [Search2DMatrix](src/com/leetcode/L1_100/L0074/Search2DMatrix.java) | 中等 | 二分法 | 数组、二分查找 |
 |80| 删除有序数组中的重复项 II | [RemoveDuplicatesSortedArrayII](src/com/leetcode/L1_100/L0080/RemoveDuplicatesSortedArrayII.java) | 中等 | 双指针 | 数组、双指针 |
 |81| 搜索旋转排序数组 II | [SearchRotatedSortedArrayII](src/com/leetcode/L1_100/L0081/SearchRotatedSortedArrayII.java) | 中等 | 二分法 | 数组、二分查找 |
 |84| 柱状图中最大的矩形 | [LargestRectangleHistogram](src/com/leetcode/L1_100/L0084/LargestRectangleHistogram.java) | 困难 | 单调栈 | 数组、栈、单调栈 |
-|85| 最大矩形 | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |？
+|85| 最大矩形 | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |
 |88| 合并两个有序数组 | [MergeSortedArray](src/com/leetcode/L1_100/L0088/MergeSortedArray.java) | 简单 | 双指针 | 数组、双指针 |
 |118| 杨辉三角 | [PascalTriangle](src/com/leetcode/L101_200/L0118/PascalTriangle.java) | 简单  | 模拟 | 数组 |
-|136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L101_200/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
-|137| 只出现一次的数字II | [SingleNumberII](src/com/leetcode/L101_200/L0137/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |？
 |153| 寻找旋转排序数组中的最小值 | [FindMinimumRotatedSortedArray](src/com/leetcode/L101_200/L0153/FindMinimumRotatedSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
 |154| 寻找旋转排序数组中的最小值II | [FindMinimumRotatedSortedArrayII](src/com/leetcode/L101_200/L0154/FindMinimumRotatedSortedArrayII.java) | 困难 | 二分查找 | 数组、二分查找 |
 |162| 寻找峰值 | [FindPeakElement](src/com/leetcode/L101_200/L0162/FindPeakElement.java) | 中等 | 二分查找 | 数组、二分查找 |
@@ -38,7 +36,7 @@
 |217| 存在重复元素 | [ContainsDuplicate](src/com/leetcode/L201_300/L0217/ContainsDuplicate.java) | 简单 | 排序、set集合 | 数组、哈希表 |
 |218| 天际线问题 | [TheSkylineProblem](src/com/leetcode/L201_300/L0218/TheSkylineProblem.java) | 困难 | 扫描线 | 数组、分治、堆、扫描线、线段树 |
 |219| 存在重复元素 II | [ContainsDuplicateII](src/com/leetcode/L201_300/L0219/ContainsDuplicateII.java) | 简单 | set集合 | 数组、哈希表、滑动窗口 |
-|220| 存在重复元素 III | [ContainsDuplicateIII](src/com/leetcode/L201_300/L0220/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口 |？
+|220| 存在重复元素 III | [ContainsDuplicateIII](src/com/leetcode/L201_300/L0220/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口 |
 |229| 求众数 II | [MajorityElementII](src/com/leetcode/L201_300/L0229/MajorityElementII.java) | 中等 | map映射、摩尔投票 | 数组、哈希、排序、计数 |
 |240| 搜索二维矩阵 II | [FindToArray](src/com/leetcode/L201_300/L0240/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
 |268| 丢失的数字 | [MissingNumber](src/com/leetcode/L201_300/L0268/MissingNumber.java) | 简单 | 排序、set集合、位运算、数学 | 数组、哈希表、排序、数学、位运算 |
@@ -86,7 +84,7 @@
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L601_700/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L701_800/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
-|733| 图像渲染 | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java) | 简单 | 广度优先搜索 | 数组、矩阵、深度优先搜索、广度优先搜索 |？
+|733| 图像渲染 | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java) | 简单 | 广度优先搜索 | 数组、矩阵、深度优先搜索、广度优先搜索 |
 |735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
@@ -107,12 +105,12 @@
 |969| 煎饼排序 | [PancakeSorting](src/com/leetcode/L901_1000/L0969/PancakeSorting.java) | 中等 | 递归 | 数组、双指针、排序、贪心算法 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L901_1000/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L901_1000/L0977/SquaresSortedArray.java) | 简单 | 模拟 | 数组、双指针 |
-|994| 腐烂的橘子 | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |？
+|994| 腐烂的橘子 | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1001_1100/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1034| 边界着色 | [ColoringBorder](src/com/leetcode/L1001_1100/L1034/ColoringBorder.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
 |1094| 拼车 | [CarPooling](src/com/leetcode/L1001_1100/L1094/CarPooling.java) | 中等 | 差分数组 | 数组、堆、前缀和、排序、模拟 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
-|1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |？
+|1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
 |1295| 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java) | 简单 | 模拟 | 数组 |
 |1313| 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java) | 简单 | 模拟 | 数组 |
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、二分查找、矩阵、排列、堆 |
@@ -166,23 +164,23 @@
 |138| 复制带随机指针的链表  | [CopyListRandomPointer](src/com/leetcode/L101_200/L0138/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L101_200/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
 |142| 环形链表II  | [LinkedListCycleII](src/com/leetcode/L101_200/L0142/LinkedListCycleII.java) | 中等 | 双指针、set集合 | 链表、双指针 |
-|143| 重排链表  | [ReorderList](src/com/leetcode/L101_200/L0143/ReorderList.java) | 中等 | 双指针 | 链表、栈、双指针、递归 |？
-|148| 排序链表  | [SortList](src/com/leetcode/L101_200/L0148/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |？
+|143| 重排链表  | [ReorderList](src/com/leetcode/L101_200/L0143/ReorderList.java) | 中等 | 双指针 | 链表、栈、双指针、递归 |
+|148| 排序链表  | [SortList](src/com/leetcode/L101_200/L0148/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |
 |160| 相交链表  | [IntersectionTwoLinkedLists](src/com/leetcode/L101_200/L0160/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
 |203| 移除链表元素 | [RemoveLinkedListElements](src/com/leetcode/L201_300/L0203/RemoveLinkedListElements.java) | 简单 | 递归、迭代 | 链表 |
 |206| 反转链表 | [ReverseLinkedList](src/com/leetcode/L201_300/L0206/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
-|234| 回文链表 | [PalindromeLinkedList](src/com/leetcode/L201_300/L0234/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |？
+|234| 回文链表 | [PalindromeLinkedList](src/com/leetcode/L201_300/L0234/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |
 |237| 删除链表中的节点 | [DeleteNodeLinkedList](src/com/leetcode/L201_300/L0237/DeleteNodeLinkedList.java) | 简单 | 模拟 | 链表 |
 |328| 奇偶链表 | [OddEvenLinkedList](src/com/leetcode/L301_400/L0328/OddEvenLinkedList.java) | 中等 | 双指针 | 链表 |
 |430| 扁平化多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/leetcode/L401_500/L0430/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
-|445| 两数相加 II | [AddTwoNumbersII](src/com/leetcode/L401_500/L0445/AddTwoNumbersII.java) | 中等 | 栈 | 链表、栈、数学 |？
+|445| 两数相加 II | [AddTwoNumbersII](src/com/leetcode/L401_500/L0445/AddTwoNumbersII.java) | 中等 | 栈 | 链表、栈、数学 |
 |725| 分隔链表 | [SplitLinkedListParts](src/com/leetcode/L701_800/L0725/SplitLinkedListParts.java) | 中等 | 模拟 | 链表 |
 |876| 链表的中间结点 | [MiddleTheLinkedList](src/com/leetcode/L801_900/L0876/MiddleTheLinkedList.java) | 简单 | 双指针、数组 | 链表、双指针 |
 
 ## 3. **_字符串系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|5| 最长回文子串 | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java) | 中等 | 模拟 | 字符串、动态规划 |？
+|5| 最长回文子串 | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java) | 中等 | 模拟 | 字符串、动态规划 |
 |8| 字符串转换整数 (atoi) | [StringToInteger](src/com/leetcode/L1_100/L0008/StringToInteger.java) | 中等 | 模拟 | 字符串 |
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
@@ -192,7 +190,7 @@
 |43| 字符串相乘 | [MultiplyStrings](src/com/leetcode/L1_100/L0043/MultiplyStrings.java) | 中等 | 双指针 | 字符串、模拟、数学 |
 |49| 字母异位词分组 | [GroupAnagrams](src/com/leetcode/L1_100/L0049/GroupAnagrams.java) | 中等 | 排序 | 字符串、哈希表 |
 |58| 最后一个单词的长度 | [LastWordLength](src/com/leetcode/L1_100/L0058/LastWordLength.java) | 简单 | 暴力法 | 字符串 |
-|67| 二进制加法 | [AddBinary](src/com/leetcode/L1_100/L0067/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |？
+|67| 二进制加法 | [AddBinary](src/com/leetcode/L1_100/L0067/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |
 |68| 文本左右对齐 | [TextJustification](src/com/leetcode/L1_100/L0068/TextJustification.java) | 困难 | 模拟 | 字符串、模拟 |
 |71| 简化路径 | [SimplifyPath](src/com/leetcode/L1_100/L0071/SimplifyPath.java) | 中等 | 栈 | 字符串、栈 |
 |125| 验证回文串 | [ValidPalindrome](src/com/leetcode/L101_200/L0125/ValidPalindrome.java) | 简单  | 双指针 | 字符串、双指针 |
@@ -210,7 +208,6 @@
 |345| 反转字符串中的元音字母 | [ReverseVowelsString](src/com/leetcode/L301_400/L0345/ReverseVowelsString.java) | 简单 | 双指针 | 字符串、双指针 |
 |383| 赎金信 | [RansomNote](src/com/leetcode/L301_400/L0383/RansomNote.java) | 简单 | Map映射 | 字符串、哈希表、计数 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
-|389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
 |392| 判断子序列 | [IsSub](src/com/leetcode/L301_400/L0392/IsSub.java) | 简单 | 双指针、二分查找 | 字符串、双指针、动态规划 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
 |412| Fizz Buzz | [FizzBuzz](src/com/leetcode/L401_500/L0412/FizzBuzz.java) | 简单 | 模拟 | 字符串、数学、模拟 |
@@ -225,7 +222,7 @@
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
-|557| 反转字符串中的单词 III | [ReverseWordsIII](src/com/leetcode/L501_600/L0557/ReverseWordsIII.java) | 简单 | 双指针 | 字符串、双指针 |？
+|557| 反转字符串中的单词 III | [ReverseWordsIII](src/com/leetcode/L501_600/L0557/ReverseWordsIII.java) | 简单 | 双指针 | 字符串、双指针 |
 |648| 单词替换 | [ReplaceWords](src/com/leetcode/L601_700/L0648/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
@@ -238,7 +235,7 @@
 |794| 有效的井字游戏 | [ValidTicState](src/com/leetcode/L701_800/L0794/ValidTicState.java) | 中等 | 模拟 | 数组、字符串 |
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
-|820| 单词的压缩编码 | [ShortEncodingWords](src/com/leetcode/L801_900/L0820/ShortEncodingWords.java) | 中等 | Set集合、字典树 | 数组、字符串、哈希表、字典树 |？
+|820| 单词的压缩编码 | [ShortEncodingWords](src/com/leetcode/L801_900/L0820/ShortEncodingWords.java) | 中等 | Set集合、字典树 | 数组、字符串、哈希表、字典树 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |859| 亲密字符串 | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java) | 简单 | 模拟 | 字符串、哈希表 |
@@ -288,10 +285,10 @@
 |113| 路径总和II | [PathSumII](src/com/leetcode/L101_200/L0113/PathSumII.java) | 中等 | 深度优先搜索 | 树、深度优先搜索 |
 |116| 填充每个节点的下一个右侧节点指针 | [PopulatingNextRightPointersEachNode](src/com/leetcode/L101_200/L0116/PopulatingNextRightPointersEachNode.java) | 中等 | 广度优先搜索 | 树、广度优先搜索 |
 |124| 二叉树中的最大路径和 | [BinaryTreeMaximumPathSum](src/com/leetcode/L101_200/L0124/BinaryTreeMaximumPathSum.java) | 困难 | 递归 | 树、二叉树、深度优先搜索、动态规划 |
-|129| 求根节点到叶节点数字之和 | [SumRootLeafNumbers](src/com/leetcode/L101_200/L0129/SumRootLeafNumbers.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |？
+|129| 求根节点到叶节点数字之和 | [SumRootLeafNumbers](src/com/leetcode/L101_200/L0129/SumRootLeafNumbers.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |145| 二叉树的前序遍历 | [PerOrder](src/com/leetcode/L101_200/L0144/PerOrder.java) | 中等 | 递归、迭代 | 树 |
 |145| 二叉树的后序遍历 | [PostOrder](src/com/leetcode/L101_200/L0145/PostOrder.java) | 中等 | 递归、迭代 | 树 |]
-|199| 二叉树的右视图 | [BinaryTreeRightSideView](src/com/leetcode/L101_200/L0199/BinaryTreeRightSideView.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |？
+|199| 二叉树的右视图 | [BinaryTreeRightSideView](src/com/leetcode/L101_200/L0199/BinaryTreeRightSideView.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |222| 完全二叉树的节点个数 | [CountCompleteTreeNodes](src/com/leetcode/L201_300/L0222/CountCompleteTreeNodes.java) | 中等 | 递归 | 树、二分查找 |
 |226| 翻转二叉树 | [InvertBinaryTree](src/com/leetcode/L201_300/L0226/InvertBinaryTree.java) | 简单 | 递归 | 树 |
 |230| 二叉搜索树中第K小的元素 | [KthSmallestElementBST](src/com/leetcode/L201_300/L0230/KthSmallestElementBST.java) | 中等 | 递归、迭代 | 树 |
@@ -332,11 +329,11 @@
 ## 5. **_图系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|127| 单词接龙 | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java) | 中等 | 广度优先搜索 | 字符串、哈希表、广度优先搜索 |？
-|207| 课程表 | [CourseSchedule](src/com/leetcode/L201_300/L0207/CourseSchedule.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |？
-|210| 课程表 II | [CourseScheduleII](src/com/leetcode/L201_300/L0210/CourseScheduleII.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |？
-|542| 01 矩阵 | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、动态规划 |？
-|695| 岛屿的最大面积 | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |？
+|127| 单词接龙 | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java) | 中等 | 广度优先搜索 | 字符串、哈希表、广度优先搜索 |
+|207| 课程表 | [CourseSchedule](src/com/leetcode/L201_300/L0207/CourseSchedule.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+|210| 课程表 II | [CourseScheduleII](src/com/leetcode/L201_300/L0210/CourseScheduleII.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+|542| 01 矩阵 | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、动态规划 |
+|695| 岛屿的最大面积 | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L701_800/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 |785| 判断二分图 | [IsGraphBipartite](src/com/leetcode/L701_800/L0785/IsGraphBipartite.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、并查集 |
 |787| K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java) | 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
@@ -347,18 +344,18 @@
 |997| 找到小镇的法官 | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java) | 简单 | 图 | 图、数组、哈希表 |
 |1135| 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java) | 中等 | Kruskal算法 | 图、并查集、最小生成树 |*
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
-|1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法 | 数组、并查集、最小生成树 |？
+|1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法 | 数组、并查集、最小生成树 |
 |1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
 
 ## 6. **_并查集系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|128| 最长连续序列 | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java) | 中等 | 并查集 | 数组、并查集、哈希表 |？
+|128| 最长连续序列 | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java) | 中等 | 并查集 | 数组、并查集、哈希表 |
 |130| 被围绕的区域 | [SurroundedRegions](src/com/leetcode/L101_200/L0130/SurroundedRegions.java) | 中等 | 并查集 | 数组、并查集、矩阵、深度优先搜索、广度优先搜索 |
-|399| 除法求值 | [EvaluateDivision](src/com/leetcode/L301_400/L0399/EvaluateDivision.java) | 中等 | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |？
-|547| 省份数量 | [NumberProvinces](src/com/leetcode/L501_600/L0547/NumberProvinces.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |？
-|684| 冗余连接 | [RedundantConnection](src/com/leetcode/L601_700/L0684/RedundantConnection.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |？
-|839| 相似字符串组 | [SimilarStringGroups](src/com/leetcode/L801_900/L0839/SimilarStringGroups.java) | 困难 | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索 |？
+|399| 除法求值 | [EvaluateDivision](src/com/leetcode/L301_400/L0399/EvaluateDivision.java) | 中等 | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |
+|547| 省份数量 | [NumberProvinces](src/com/leetcode/L501_600/L0547/NumberProvinces.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
+|684| 冗余连接 | [RedundantConnection](src/com/leetcode/L601_700/L0684/RedundantConnection.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
+|839| 相似字符串组 | [SimilarStringGroups](src/com/leetcode/L801_900/L0839/SimilarStringGroups.java) | 困难 | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索 |
 |990| 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L901_1000/L0990/SatisfiabilityEqualityEquations.java) | 困难 | 并查集 | 并查集、图 |
 
 ## 7. **_动态规划系列_**
@@ -373,14 +370,14 @@
 |87| 扰乱字符串 | [ScrambleString](src/com/leetcode/L1_100/L0087/ScrambleString.java) | 困难 | 暴力法、动态规划 | 字符串、动态规划 |
 |91| 解码方法 | [DecodeWays](src/com/leetcode/L1_100/L0091/DecodeWays.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |97| 交错字符串 | [InterleavingString](src/com/leetcode/L1_100/L0097/InterleavingString.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|115| 不同的子序列 | [DistinctSubsequences](src/com/leetcode/L101_200/L0115/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |？
+|115| 不同的子序列 | [DistinctSubsequences](src/com/leetcode/L101_200/L0115/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |120| 三角形最小路径和 | [TriangleMinPathSum](src/com/leetcode/L101_200/L0120/TriangleMinPathSum.java) | 中等  | 动态规划 | 数组、动态规划 |
 |121| 买卖股票的最佳时机 | [BestTimeBuyAndSellStock](src/com/leetcode/L101_200/L0121/BestTimeBuyAndSellStock.java) | 简单  | 模拟、动态规划 | 数组、动态规划 |
-|123| 买卖股票的最佳时机III | [StockIII](src/com/leetcode/L101_200/L0123/StockIII.java) | 困难 | 动态规划 | 数组、动态规划 |？
-|132| 分割回文串 II | [PalindromePartitioningII](src/com/leetcode/L101_200/L0132/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |？
+|123| 买卖股票的最佳时机III | [StockIII](src/com/leetcode/L101_200/L0123/StockIII.java) | 困难 | 动态规划 | 数组、动态规划 |
+|132| 分割回文串 II | [PalindromePartitioningII](src/com/leetcode/L101_200/L0132/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |
 |139| 单词拆分 | [WordBreak](src/com/leetcode/L101_200/L0139/WordBreak.java) | 中等 | 动态规划 | 字符串、哈希表、字典树、记忆化搜索、动态规划 |
 |152| 乘积最大子数组 | [MaxProductSub](src/com/leetcode/L101_200/L0152/MaxProductSub.java) | 中等 | 动态规划 | 数组、动态规划 |
-|188| 买卖股票的最佳时机IV | [StockIV](src/com/leetcode/L101_200/L0188/StockIV.java) | 困难 | 动态规划 | 数组、动态规划 |？
+|188| 买卖股票的最佳时机IV | [StockIV](src/com/leetcode/L101_200/L0188/StockIV.java) | 困难 | 动态规划 | 数组、动态规划 |
 |198| 打家劫舍 | [HouseRobber](src/com/leetcode/L101_200/L0198/HouseRobber.java) | 简单 | 动态规划 | 动态规划 |
 |213| 打家劫舍II | [HouseRobberII](src/com/leetcode/L201_300/L0213/HouseRobberII.java) | 中等 | 动态规划 | 动态规划 |
 |221| 最大正方形 | [MaxSquare](src/com/leetcode/L201_300/L0221/MaxSquare.java) | 中等 | 动态规划 | 数组、矩阵、动态规划 /
@@ -399,7 +396,7 @@
 |416| 分割等和子集 | [PartitionStringSum](src/com/leetcode/L401_500/L0416/PartitionStringSum.java) | 中等 | 动态规划 | 动态规划 |
 |446| 等差数列划分 II - 子序列 | [ArithmeticSlicesII_Subsequence](src/com/leetcode/L401_500/L0446/ArithmeticSlicesII_Subsequence.java) | 困难 | 动态规划 | 数组、动态规划 |
 |474| 一和零 | [OnesAndZeroes](src/com/leetcode/L401_500/L0474/OnesAndZeroes.java) | 中等 | 动态规划 | 动态规划 |
-|494| 目标和 | [TargetSum](src/com/leetcode/L401_500/L0494/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |？
+|494| 目标和 | [TargetSum](src/com/leetcode/L401_500/L0494/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |
 |516| 最长回文子序列 | [LongestPalindromicSubsequence](src/com/leetcode/L501_600/L0516/LongestPalindromicSubsequence.java) | 中等 | 动态规划 | 动态规划 |
 |518| 零钱兑换 II | [CoinChange2](src/com/leetcode/L501_600/L0518/CoinChange2.java) | 中等 | 动态规划 | 动态规划 |
 |552| 学生出勤记录 II | [CoinChange2](src/com/leetcode/L501_600/L0552/StudentAttendanceRecordII.java) | 困难 | 动态规划 | 动态规划 |
@@ -409,7 +406,7 @@
 |629| K个逆序对数组 | [KInversePairsArray](src/com/leetcode/L601_700/L0629/KInversePairsArray.java) | 困难 | 动态规划 | 动态规划 |
 |638| 大礼包 | [ShoppingOffers](src/com/leetcode/L601_700/L0638/ShoppingOffers.java) | 中等 | 深度优先搜索、动态规划 | 数组、位运算、状态压缩、动态规划、记忆化搜索、回溯 |
 |639| 解码方法 II | [DecodeWaysII](src/com/leetcode/L601_700/L0639/DecodeWaysII.java) | 困难 | 动态规划 | 字符串、动态规划 |
-|647| 回文子串 | [PalindromicSubstrings](src/com/leetcode/L601_700/L0647/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |？
+|647| 回文子串 | [PalindromicSubstrings](src/com/leetcode/L601_700/L0647/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L601_700/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L601_700/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L601_700/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
@@ -445,7 +442,7 @@
 |79| 单词搜索 | [WordSearch](src/com/leetcode/L1_100/L0079/WordSearch.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |90| 子集II | [SubsetsII](src/com/leetcode/L1_100/L0090/SubsetsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |93| 复原 IP 地址 | [RestoreIPAddresses](src/com/leetcode/L1_100/L0093/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
-|131| 分割回文串 | [PalindromePartitioning](src/com/leetcode/L101_200/L0131/PalindromePartitioning.java) | 中等  | 回溯算法 | 字符串、回溯算法、动态规划 |？
+|131| 分割回文串 | [PalindromePartitioning](src/com/leetcode/L101_200/L0131/PalindromePartitioning.java) | 中等  | 回溯算法 | 字符串、回溯算法、动态规划 |
 |212| 单词搜索 II | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java) | 困难  | 字典树+回溯算法 | 数组、字符串、字典树、回溯算法、矩阵 |
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |282| 给表达式添加运算符 | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java) | 困难 | 回溯算法 | 字符串、数学、回溯算法 |
@@ -485,7 +482,7 @@
 |9| 回文数 | [PalindromeNumber](src/com/leetcode/L1_100/L0009/PalindromeNumber.java) | 简单 | 双指针 | 数学 |
 |12| 整数转罗马数字 | [IntegerRoman](src/com/leetcode/L1_100/L0012/IntegerRoman.java) | 中等 | 数学 | 数学、字符串 |
 |13| 罗马数字转整数 | [RomanInteger](src/com/leetcode/L1_100/L0013/RomanInteger.java) | 简单 | 数学 | 数学、字符串 |
-|29| 两数相除 | [DivideTwoIntegers](src/com/leetcode/L1_100/L0029/DivideTwoIntegers.java) | 中等 | 数学 | 数学、位运算 |？
+|29| 两数相除 | [DivideTwoIntegers](src/com/leetcode/L1_100/L0029/DivideTwoIntegers.java) | 中等 | 数学 | 数学、位运算 |
 |50| Pow(x, n) | [Pow](src/com/leetcode/L1_100/L0050/Pow.java) | 中等 | 数学 | 数学、二分查找 |
 |60| 第k个排序 | [KthPermutation](src/com/leetcode/L1_100/L0060/KthPermutation.java) | 中等 | 数学 | 数学、回溯算法 |
 |66| 加一 | [AddOne](src/com/leetcode/L1_100/L0066/AddOne.java) | 简单 | 数学 | 数组 |
@@ -494,28 +491,22 @@
 |166| 分数到小数 | [FractionRecurringDecimal](src/com/leetcode/L101_200/L0166/FractionRecurringDecimal.java) | 中等 | 数学 | 字符串、哈希表、数学 |
 |168| Excel表列名称 | [ExcelSheetColumnTitle](src/com/leetcode/L101_200/L0168/ExcelSheetColumnTitle.java) | 简单 | 数学 | 字符串、数学 |
 |171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L101_200/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
-|189| 轮转数组 | [RotateArray](src/com/leetcode/L101_200/L0189/RotateArray.java) | 中等 | 数学 | 数组、数学、双指针 |？
-|190| 颠倒二进制位 | [ReverseBits](src/com/leetcode/L101_200/L0190/ReverseBits.java) | 简单 | 位运算 | 位运算、分治算法 |？
-|191| 位1的个数 | [NumberOneBits](src/com/leetcode/L101_200/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
+|189| 轮转数组 | [RotateArray](src/com/leetcode/L101_200/L0189/RotateArray.java) | 中等 | 数学 | 数组、数学、双指针 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L201_300/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |223| 矩形面积 | [RectangleArea](src/com/leetcode/L201_300/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
 |231| 2 的幂 | [PowerTwo](src/com/leetcode/L201_300/L0231/PowerTwo.java) | 简单 | 数学 | 数学、位运算 |
 |258| 各位相加 | [AddDigits](src/com/leetcode/L201_300/L0258/AddDigits.java) | 简单 | 数学 | 数学、数论、模拟 |
-|260| 只出现一次的数字 III | [SingleNumberIII](src/com/leetcode/L201_300/L0260/SingleNumberIII.java) | 中等 | 位运算 | 数组、位运算 |
 |263| 丑数 | [UglyNumber](src/com/leetcode/L201_300/L0263/UglyNumber.java) | 简单 | 数学 | 数学 |
 |264| 丑数II | [UglyNumberII](src/com/leetcode/L201_300/L0264/UglyNumberII.java) | 中等 | 堆 | 哈希表、堆、数学、动态规划 |
 |292| Nim 游戏 | [NimGame](src/com/leetcode/L201_300/L0292/NimGame.java) | 简单 | 数学-博弈论 | 数学、博弈、脑筋急转弯 |
 |319| 灯泡开关 | [BulbSwitcher](src/com/leetcode/L301_400/L0319/BulbSwitcher.java) | 简单 | 数学 | 数学、脑筋急转弯 |
 |326| 3的幂 | [PowerThree](src/com/leetcode/L301_400/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
 |335| 路径交叉 | [SelfCrossing](src/com/leetcode/L301_400/L0335/SelfCrossing.java) | 困难 | 数学 | 数组、数学、几何 |
-|342| 4的幂 | [PowerFour](src/com/leetcode/L301_400/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
-|371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
 |390| 消除游戏 | [EliminationGame](src/com/leetcode/L301_400/L0390/EliminationGame.java) | 中等 | 数学 | 数学 |
 |391| 完美矩形 | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java) | 困难 | 数学 | 数组、扫描线 |
-|397| 整数替换 | [IntegerReplacement](src/com/leetcode/L301_400/L0397/IntegerReplacement.java) | 中等 | 暴力法、map映射、位运算| 贪心算法、位运算、记忆化搜索、动态规划 |
 |400| 第 N 位数字 | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
 |447| 回旋镖的数量 | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java) | 中等 | 数学 | 数组、哈希表、数学 |
 |401| 二进制手表 | [BinaryWatch](src/com/leetcode/L401_500/L0401/BinaryWatch.java) | 简单 | 数学 | 位运算、回溯算法 |
@@ -525,8 +516,6 @@
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
 |475| 供暖器 | [Heaters](src/com/leetcode/L401_500/L0475/Heaters.java) | 中等 | 二分查找 | 数组、双指针、二分查找、排序 |
-|476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
-|477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |492| 构造矩形 | [ConstructRectangle](src/com/leetcode/L401_500/L0492/ConstructRectangle.java) | 简单 | 数学 | 数学 |
 |504| 七进制数 | [Base7](src/com/leetcode/L501_600/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |507| 完美数 | [PerfectNumber](src/com/leetcode/L501_600/L0507/PerfectNumber.java) | 简单 | 数学 | 数学 |
@@ -542,20 +531,16 @@
 |976| 三角形的最大周长 | [LargestPerimeterTriangle](src/com/leetcode/L901_1000/L0976/LargestPerimeterTriangle.java) | 简单 | 数学 | 排序、数学 |
 |989| 数组形式的整数加法 | [AddArrayFormInteger](src/com/leetcode/L901_1000/L0989/AddArrayFormInteger.java) | 简单 | 数学 | 数组 |
 |1006| 笨阶乘 | [ClumsyFactorial](src/com/leetcode/L1001_1100/L1006/ClumsyFactorial.java) | 中等 | 栈 | 数学 |
-|1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1128| 等价多米诺骨牌对的数量 | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java) | 简单 | 数学 | 数组 |
 |1154| 一年中的第几天 | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java) | 简单 | 数学 | 字符串、数学 |
 |1185| 一周中的第几天 | [DayWeek](src/com/leetcode/L1101_1200/L1185/DayWeek.java) | 简单 | 数学 | 数学 |
 |1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1281/SubProAndSum.java) | 简单 | 数学 | 数学 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1342| 将数字变成 0 的操作次数 | [StepsReduceZero](src/com/leetcode/L1301_1400/L1342/StepsReduceZero.java) | 简单 | 数学 | 数学、位运算 |
-|1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1501_1600/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1501_1600/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
-|1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1701_1800/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
-|1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1701_1800/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
 |1744| 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | [EatFavoriteCandyOnFavoriteDay](src/com/leetcode/L1701_1800/L1744/EatFavoriteCandyOnFavoriteDay.java) | 中等 | 数学 | 数学 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1801_1900/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1801_1900/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
@@ -564,7 +549,26 @@
 |1893| 检查是否区域内所有整数都被覆盖 | [CheckAllIntegersRangeAreCovered](src/com/leetcode/L1801_1900/L1893/CheckAllIntegersRangeAreCovered.java) | 简单 | set集合、映射 | 数组、哈希表、前缀和 |
 |2001| 可互换矩形的组数 | [NumberPairsInterchangeableRectangles](src/com/leetcode/L2001_2100/L2001/NumberPairsInterchangeableRectangles.java) | 中等 | 数学 | -- |
 
-## 11. **_滑动窗口系列_**
+## 11. **_位运算方法系列_**
+|  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L101_200/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
+|137| 只出现一次的数字II | [SingleNumberII](src/com/leetcode/L101_200/L0137/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |
+|190| 颠倒二进制位 | [ReverseBits](src/com/leetcode/L101_200/L0190/ReverseBits.java) | 简单 | 位运算 | 位运算、分治算法 |
+|191| 位1的个数 | [NumberOneBits](src/com/leetcode/L101_200/L0191/NumberOneBits.java) | 简单 | 位运算 | 数学 |
+|260| 只出现一次的数字 III | [SingleNumberIII](src/com/leetcode/L201_300/L0260/SingleNumberIII.java) | 中等 | 位运算 | 数组、位运算 |
+|342| 4的幂 | [PowerFour](src/com/leetcode/L301_400/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
+|389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
+|397| 整数替换 | [IntegerReplacement](src/com/leetcode/L301_400/L0397/IntegerReplacement.java) | 中等 | 暴力法、map映射、位运算| 贪心算法、位运算、记忆化搜索、动态规划 |
+|371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
+|476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
+|477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
+|1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
+|1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
+|1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1701_1800/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
+|1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1701_1800/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
+
+## 12. **_滑动窗口系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |3| 无重复字符的最长子串 | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java) | 中等 | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口 |
@@ -581,12 +585,12 @@
 |1610| 可见点的最大数目 | [MaxVisiblePoint](src/com/leetcode/L1601_1700/L1610/MaxVisiblePoint.java) | 困难 | 数学+滑动窗口 | 数组、数学、几何、排序、滑动窗口 |
 |1838| 最高频元素的频数 | [FrequencyMostFrequentElement](src/com/leetcode/L1801_1900/L1838/FrequencyMostFrequentElement.java) | 中等 | 滑动窗口 | 滑动窗口 |
 
-## 12. **_设计系列_**
+## 13. **_设计系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |146| LRU 缓存机制 | [LRUCache](src/com/leetcode/L101_200/L0146/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
 |155| 最小栈 | [MinStack](src/com/leetcode/L101_200/L0155/MinStack.java) | 简单 | 栈 | 栈、设计 |
-|173| 二叉搜索树迭代器 | [BSTIterator](src/com/leetcode/L101_200/L0173/BSTIterator.java) | 中等 | 递归 | 栈、树、二叉树、二叉搜索树、迭代器、设计 |？
+|173| 二叉搜索树迭代器 | [BSTIterator](src/com/leetcode/L101_200/L0173/BSTIterator.java) | 中等 | 递归 | 栈、树、二叉树、二叉搜索树、迭代器、设计 |
 |208| 实现 Trie (前缀树) | [Trie](src/com/leetcode/L201_300/L0208/Trie.java) | 中等 | 前缀树 | 字典树、设计 |
 |211| 添加与搜索单词 - 数据结构设计 | [WordDictionary](src/com/leetcode/L201_300/L0211/WordDictionary.java) | 中等 | 前缀树 | 字典树、设计、回溯算法 |
 |232| 用栈实现队列| [MyQueue](src/com/leetcode/L201_300/L0232/MyQueue.java) | 简单 | 栈 | 栈、设计 |
@@ -594,7 +598,7 @@
 |295| 数据流的中位数 | [MedianFinder](src/com/leetcode/L201_300/L0295/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L201_300/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L301_400/L0303/NumArray.java) | 简单 | 前缀和 | 数组、前缀和、设计 |
-|304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |？
+|304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
@@ -602,7 +606,7 @@
 |519| 随机翻转矩阵 | [Solution](src/com/leetcode/L501_600/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
 |676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
 |677| 键值映射 | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java) | 中等 | 前缀树 | 字典树、设计 |
-|703| 数据流中的第 K 大元素 | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |？
+|703| 数据流中的第 K 大元素 | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |
 |729| 我的日程安排表 I | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java) | 中等 | 线段树 | 线段树、有序集合、设计 |
 |911| 在线选举 | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java) | 中等 | map映射+二分查找 | 数组、哈希表、二分查找、设计 |
 |919| 完全二叉树插入器 | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
@@ -612,7 +616,7 @@
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
 |1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
 
-## 13. **_力扣杯竞赛题列表_**
+## 14. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |LCP01| 猜数字 | [GuessNumber](src/com/LCP/L0001/GuessNumber.java) | 简单 | 模拟 | 数组 |
@@ -626,319 +630,20 @@
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 |LCP39| 无人机方阵 | [UAVPhalanx](src/com/LCP/L0039/UAVPhalanx.java) | 简单 | map映射 | -- |
 
-## 14. **_程序员面试金典_**
-|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
-| ---- | ------------- | ------- | ----- | ------ | --------- |
-|01.01| 判定字符是否唯一 | [IsUnique](src/com/interview/L0101/IsUnique.java) | 简单 | set集合、Map映射 | 数组 |
-|01.02| 判定是否互为字符重排 | [CheckPermutation](src/com/interview/L0102/CheckPermutation.java) | 简单 | Map映射 | 字符串、哈希表、排序 |
-|01.03| URL化 | [StringURL](src/com/interview/L0103/StringURL.java) | 简单 | 模拟 | 字符串 |
-|01.04| 回文排列 | [PalindromePermutation](src/com/interview/L0104/PalindromePermutation.java) | 简单 | set集合 | 字符串、哈希表、位运算 |
-|01.05| 一次编辑 | [OneAway](src/com/interview/L0105/OneAway.java) | 中等 | 双指针 | 字符串、双指针 |
-|01.06| 字符串压缩 | [CompressString](src/com/interview/L0106/CompressString.java) | 简单 | 双指针 | 字符串、双指针 |？
-|01.07| 旋转矩阵 | [RotateMatrix](src/com/interview/L0107/RotateMatrix.java) | 简单 | 数学 | 数组、矩阵、数学 |？
-|01.08| 零矩阵 | [ZeroMatrix](src/com/interview/L0108/ZeroMatrix.java) | 中等 | 模拟 | 数组、矩阵、哈希表 |
-|01.09| 字符串轮转 | [StringRotation](src/com/interview/L0109/StringRotation.java) | 简单 | 模拟 | 字符串、字符串匹配 |
-|02.01| 移除重复节点 | [RemoveDuplicateNode](src/com/interview/L0201/RemoveDuplicateNode.java) | 简单 | 双指针 | 链表、哈希表、双指针 |
-|02.02| 返回倒数第 k 个节点 | [DeleteNode](src/com/interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
-|02.03| 删除中间节点 | [DeleteMiddleNode](src/com/interview/L0203/DeleteMiddleNode.java) | 简单 | 模拟 | 链表 |
-|02.04| 分割链表 | [PartitionList](src/com/interview/L0204/PartitionList.java) | 中等 | 双指针 | 链表、双指针 |
-|02.05| 链表求和 | [SumLists](src/com/interview/L0205/SumLists.java) | 简单 | 双指针 | 链表、递归、数学 |
-|02.06| 回文链表 | [PalindromeLinkedList](src/com/interview/L0206/PalindromeLinkedList.java) | 简单 | 栈 | 链表、栈、双指针、递归 |
-|02.07| 链表相交 | [IntersectionTwoLinkedLists](src/com/interview/L0207/IntersectionTwoLinkedLists.java) | 简单 | set集合、双指针 | 链表、哈希表、双指针 |
-|02.08| 环路检测 | [LinkedListCycleII](src/com/interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
-|03.01| 三合一 | [TripleInOne](src/com/interview/L0301/TripleInOne.java) | 简单 | 数组 | 栈、数组、设计 |
-|03.02| 栈的最小值 | [MinStack](src/com/interview/L0302/MinStack.java) | 简单 | 栈 | 栈、设计 |
-|03.03| 堆盘子 | [StackOfPlates](src/com/interview/L0303/StackOfPlates.java) | 中等 | list集合| 栈、链表、设计 |
-|03.04| 化栈为队 | [MyQueue](src/com/interview/L0304/MyQueue.java) | 简单 | 栈 | 栈、队列、设计 |
-|03.05| 栈排序 | [SortedStack](src/com/interview/L0305/SortedStack.java) | 简单 | 堆 | 栈、单调栈、设计 |
-|03.06| 动物收容所 | [AnimalShelf](src/com/interview/L0306/AnimalShelf.java) | 简单 | 队列 | 队列、设计 |
-|04.01| 节点间通路 | [RouteBetweenNodes](src/com/interview/L0401/RouteBetweenNodes.java) | 中等 | 广度优先搜索 | 图、广度优先搜索、深度优先搜索 |
-|04.02| 最小高度树 | [ConvertSortedArrayBinarySearchTree](src/com/interview/L0402/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜素树、分治 |
-|04.03| 特定深度节点链表 | [ListDepth](src/com/interview/L0403/ListDepth.java) | 中等 | 广度优先搜索 | 链表、树、二叉树、广度优先搜索 |
-|04.04| 检查平衡性 | [CheckBalance](src/com/interview/L0404/CheckBalance.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
-|04.05| 合法二叉搜索树 | [LegalBST](src/com/interview/L0405/LegalBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、深度优先搜索 |
-|04.06| 后继者 | [Successor](src/com/interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
-|04.08| 首个共同祖先 | [FirstCommonAncestor](src/com/interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
-|04.10| 检查子树 | [CheckSubTree](src/com/interview/L0410/CheckSubTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索、字符串匹配、哈希函数 |
-|05.01| 插入 | [InsertIntoBits](src/com/interview/L0501/InsertIntoBits.java) | 简单 | 位运算 | 位运算 |
-|05.02| 二进制数转字符串 | [BianryNumberString](src/com/interview/L0502/BianryNumberString.java) | 中等 | 模拟 | 字符串、数学、位运算 |
-|05.03| 翻转数位 | [ReverseBits](src/com/interview/L0503/ReverseBits.java) | 简单 | 滑动窗口 | 位运算、动态规划 |
-|05.04| 下一个数 | [ClosedNumber](src/com/interview/L0504/ClosedNumber.java) | 中等 | 暴力法 | 位运算 |
-|05.06| 整数转换 | [ConvertInteger](src/com/interview/L0506/ConvertInteger.java) | 简单 | 位运算 | 位运算 |
-|05.07| 配对交换 | [Exchange](src/com/interview/L0507/Exchange.java) | 简单 | 位运算 | 位运算 |
-|05.08| 绘制直线 | [DrawLine](src/com/interview/L0508/DrawLine.java) | 中等 | 位运算 | 数组、数学、位运算 |
-|08.01| 三步问题 | [ThreeStepsProblem](src/com/interview/L0801/ThreeStepsProblem.java) | 简单 | 动态规划 | 数学、记忆化搜索、动态规划 |
-|08.03| 魔术索引 | [MagicIndex](src/com/interview/L0803/MagicIndex.java) | 简单 | 模拟 | 数组、二分查找 |
-|08.04| 幂集 | [PowerSet](src/com/interview/L0804/PowerSet.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |？
-|08.05| 递归乘法 | [RecursiveMulitply](src/com/interview/L0805/RecursiveMulitply.java) | 中等 | 递归 | 数学、位运算、递归 |
-|08.06| 汉诺塔问题 | [Hanota](src/com/interview/L0806/Hanota.java) | 简单 | 递归 | 数组、递归 |
-|08.07| 无重复字符串的排列组合 | [Permutation](src/com/interview/L0807/Permutation.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
-|08.08| 有重复字符串的排列组合 | [PermutationII](src/com/interview/L0808/PermutationII.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
-|08.09| 括号 | [Bracket](src/com/interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
-|08.10| 颜色填充 | [ColorFill](src/com/interview/L0810/ColorFill.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
-|08.11| 硬币 | [Coin](src/com/interview/L0811/Coin.java) | 中等 | 动态规划 | 数组、数学、动态规划 |？
-|08.12| 八皇后 | [EightQueens](src/com/interview/L0812/EightQueens.java) | 困难 | 回溯算法 | 数组、回溯算法 |
-|08.13| 堆箱子 | [PileBox](src/com/interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
-|10.02| 变位词组 | [GroupAnagrams](src/com/interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
-|10.05| 稀疏数组搜索 | [SparseArraySearch](src/com/interview/L1005/SparseArraySearch.java) | 简单 | 二分查找 | 数组、字符串、二分查找 |
-|10.10| 数字流的秩 | [StreamRank](src/com/interview/L1010/StreamRank.java) | 中等 | 模拟 | 树状数组、二分查找、数据流、设计 |
-|10.11| 峰与谷 | [PeaksValleys](src/com/interview/L1011/PeaksValleys.java) | 中等 | 贪心算法 | 数组、排序、贪心算法 |
-|16.01| 交换数字 | [SwapNumbers](src/com/interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
-|16.02| 单词频率 | [WordsFrequency](src/com/interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
-|16.04| 井字游戏 | [TicTacToe](src/com/interview/L1604/TicTacToe.java) | 中等 | 模拟 | 数组、矩阵、计数 |
-|16.05| 阶乘尾数 | [FactorialZeros](src/com/interview/L1605/FactorialZeros.java) | 简单 | 数学 | 数学 |
-|16.06| 最小差 | [SmallestDifference](src/com/interview/L1606/SmallestDifference.java) | 中等 | 排序+双指针 | 数组、双指针、排序、二分查找 |
-|16.07| 最大数值 | [Maximum](src/com/interview/L1607/Maximum.java) | 中等 | 数学 | 数学、位运算、脑筋急转弯 |
-|16.10| 生存人数 | [LivingPeople](src/com/interview/L1610/LivingPeople.java) | 中等 | 差分数组 | 数组、计数 |
-|16.11| 跳水板 | [DivingBoard](src/com/interview/L1611/DivingBoard.java) | 简单 | 数学 | 数组、数学 |？
-|16.15| 珠玑妙算 | [MasterMind](src/com/interview/L1615/MasterMind.java) | 简单 | Map映射 | 数组 |
-|16.17| 连续数列 | [ContiguousSeq](src/com/interview/L1617/ContiguousSeq.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
-|16.19| 水域大小 | [PondSizes](src/com/interview/L1619/PondSizes.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
-|16.20| T9键盘 | [T9](src/com/interview/L1620/T9.java) | 中等 | 模拟 | 数组、字符串、哈希表 |
-|16.22| 兰顿蚂蚁 | [LangtonsAnt](src/com/interview/L1622/LangtonsAnt.java) | 中等 | 模拟 | 数组、字符串、哈希表、矩阵、模拟 |
-|16.25| LRU 缓存机制 | [LRUCache](src/com/interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
-|16.26| 计算器 | [Calculator](src/com/interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
-|17.01| 不用加号的加法 | [AddWithoutPlus](src/com/interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
-|17.04| 消失的数字 | [MissingNumber](src/com/interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
-|17.07| 婴儿名字 | [BabyNames](src/com/interview/L1707/BabyNames.java) | 中等 | 并查集 | 数组、哈希表、字符串、并查集、深度优先搜索、广度优先搜索、计数 |
-|17.09| 第 k 个数 | [GetKMagicNum](src/com/interview/L1709/GetKMagicNum.java) | 中等 | 动态规划 | 堆、哈希表、动态规划、数学 |
-|17.10| 主要元素 | [FindMajorityElement](src/com/interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
-|17.11| 单词距离 | [FindClosest](src/com/interview/L1711/FindClosest.java) | 中等 | 暴力法 | 数组、字符串 |
-|17.12| BiNode | [BiNode](src/com/interview/L1712/BiNode.java) | 简单 | 递归 | 树、二叉树、二叉搜索树、链表、栈、深度优先搜索 |
-|17.14| 最小K个数 | [SmallestK](src/com/interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
-|17.19| 消失的两个数字 | [MissingTwo](src/com/interview/L1719/MissingTwo.java) | 困难 | 位运算 | 数组、哈希表、位运算 |
-|17.20| 连续中值 | [MedianFinder](src/com/interview/L1720/MedianFinder.java) | 困难 | 堆 | 堆、数据流、双指针、排序、设计 |
-|17.21| 直方图的水量 | [VolumeHistogramLCCI](src/com/interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |
+## [15. **_程序员面试金典_**（共计80/109题）](src/com/readme/interview.md)
 
-## 15. **_剑指offer_**（共计75题）
-|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
-| ---- | ------------- | ------- | ----- | ------ | --------- |
-|03| 数组中重复的数字 | [RepeatedNumbersArray](src/com/offer/L0003/RepeatedNumbersArray.java) | 简单 | set集合、排序 | 数组、哈希表 |
-|04| 二维数组中的查找 | [FindToArray](src/com/offer/L0004/FindToArray.java) | 中等 | 暴力法、数学 | 数组、双指针 |
-|05| 替换空格 | [ReplaceSpaces](src/com/offer/L0005/ReplaceSpaces.java) | 简单 | 遍历 | 字符串 |
-|06| 从尾到头打印链表 | [PrintingLinkedFromEndToHead](src/com/offer/L0006/PrintingLinkedFromEndToHead.java) | 简单 | 栈、递归 | 链表 |
-|07| 重建二叉树 | [RebuildBinaryTree](src/com/offer/L0007/RebuildBinaryTree.java) | 中等 | 递归 | 树、数组、二叉树、哈希表、分治 |
-|09| 用两个栈实现队列 | [CQueue](src/com/offer/L0009/CQueue.java) | 简单 | 栈 | 栈、设计 |
-|11| 旋转数组的最小数字 | [RotateSmallestNumberArray](src/com/offer/L0110/RotateSmallestNumberArray.java) | 简单 | 二分查找 | 数组、二分查找 |
-|12| 矩阵中的路径 | [PathMatrix](src/com/offer/L0120/PathMatrix.java) | 中等 | 深度优先搜索 | 数组、回溯算法、矩阵 |
-|13| 机器人的运动范围 | [RobotRangeMotion](src/com/offer/L0130/RobotRangeMotion.java) | 中等 | 广度优先搜索 | 广度优先搜索、深度优先搜索、动态规划 |
-|16| Pow(x, n) | [Pow](src/com/offer/L0160/Pow.java) | 中等 | 数学 | 数学、二分查找 |
-|10-I| 斐波那契数列 | [FibonacciSequence](src/com/offer/L0101/FibonacciSequence.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
-|10-II| 青蛙跳台阶问题 | [FrogJumpingProblem](src/com/offer/L0102/FrogJumpingProblem.java) | 简单 | 动态规划 | 数学、动态规划、记忆化搜索 |
-|14-I| 剪绳子 | [CutRope](src/com/offer/L0141/CutRope.java) | 中等 | 数学 | 数学、动态规划 |
-|14-II| 剪绳子-II | [CutRopeII](src/com/offer/L0142/CutRopeII.java) | 中等 | 贪心算法  | 数学、动态规划 |
-|15| 二进制中1的个数 | [NumberOneBits](src/com/offer/L0150/NumberOneBits.java) | 简单 | 位运算 | 位运算 |
-|17| 打印从1到最大的n位数 | [PrintLargestNDigits](src/com/offer/L0170/PrintLargestNDigits.java) | 简单 | 数学 | 数组、数学 |
-|18| 删除链表的节点 | [DeleteNodeList](src/com/offer/L0180/DeleteNodeList.java) | 简单 | 双指针 | 链表 |
-|19| 正则表达式匹配 | [RegularExpressionMatching](src/com/offer/L0190/RegularExpressionMatching.java) | 困难 | 动态规划 | 字符串、动态规划、递归 |
-|20| 表示数值的字符串 | [StringRepresentingValue](src/com/offer/L0200/StringRepresentingValue.java) | 中等 | 有限状态机 | 字符串 |
-|21| 调整数组顺序使奇数位于偶数前面 | [AdjustOrderArray](src/com/offer/L0210/AdjustOrderArray.java) | 简单 | 双指针 | 数组、双指针、排序 |
-|22| 链表中倒数第k个节点 | [DeleteNode](src/com/offer/L0220/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
-|24| 反转链表 | [ReverseLinkedList](src/com/offer/L0240/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
-|25| 合并两个排序的链表 | [MergeTwoSortedLists](src/com/offer/L0250/MergeTwoSortedLists.java) | 简单 | 双指针 | 链表、递归
-|26| 树的子结构 | [TreeSubstructure](src/com/offer/L0260/TreeSubstructure.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
-|27| 二叉树的镜像 | [MirrorBinaryTree](src/com/offer/L0270/MirrorBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|28| 对称的二叉树 | [SymmetricBinaryTree](src/com/offer/L0280/SymmetricBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|29| 顺时针打印矩阵 | [SpiralMatrix](src/com/offer/L0290/SpiralMatrix.java) | 简单 | 模拟 | 数组、矩阵、模拟 |
-|30| 包含min函数的栈 | [MinStack](src/com/offer/L0300/MinStack.java) | 简单 | 栈 | 栈、设计 |
-|31| 栈的压入、弹出序列 | [ValidateStackSequences](src/com/offer/L0310/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
-|32-I| 从上到下打印二叉树 | [PrintBinaryTree](src/com/offer/L0321/PrintBinaryTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
-|32-II| 从上到下打印二叉树II | [PrintBinaryTreeII](src/com/offer/L0322/PrintBinaryTreeII.java) | 简单 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
-|32-III| 从上到下打印二叉树III | [PrintBinaryTreeIII](src/com/offer/L0323/PrintBinaryTreeIII.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
-|33| 二叉搜索树的后序遍历序列 | [BSTPostOrder](src/com/offer/L0330/BSTPostOrder.java) | 中等 | 递归、单调栈 | 树、二叉树、二叉搜索树、栈、单调栈、递归 |
-|34| 二叉树中和为某一值的路径 | [PathSum](src/com/offer/L0340/PathSum.java) | 中等 | 深度优先搜索 | 树、二叉树、回溯算法、深度优先搜索 |
-|35| 复杂链表的复制  | [CopyListRandomPointer](src/com/offer/L0350/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
-|36| 二叉搜索树与双向链表 | [BinarySearchTreeLinkedList](src/com/offer/L0360/BinarySearchTreeLinkedList.java) | 中等 | 递归 | 栈、树、二叉搜索树、二叉树、链表、双向链表、深度优先搜索 |
-|37| 序列化二叉树 | [Codec](src/com/offer/L0370/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
-|38| 字符串的排列 | [StringArrangement](src/com/offer/L0380/StringArrangement.java) | 中等 | 回溯算法 | 回溯算法 |
-|39| 数组中出现次数超过一半的数字 | [MajorityElement](src/com/offer/L0390/MajorityElement.java) | 简单 | map映射、排序、摩尔投票法 | 数组、哈希表、排序、分治、计数 |
-|40| 最小的k个数 | [TheSmallestNumberK](src/com/offer/L0400/TheSmallestNumberK.java) | 简单 | 快速排序 | 数组、分治、快速选择、排序、堆 |
-|41| 数据流中的中位数 | [MedianFinder](src/com/offer/L0410/MedianFinder.java) | 困难 | 堆 | 设计、双指针、数据流、排序、堆 |
-|42| 连续子数组的最大和 | [MaxSequenceSum](src/com/offer/L0420/MaxSequenceSum.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
-|43| 1～n 整数中 1 出现的次数 | [NumberDigitOne](src/com/offer/L0430/NumberDigitOne.java) | 困难 | 数学 | 数学、递归、动态规划 |
-|44| 数字序列中某一位的数字 | [DigitSequenceNumbers](src/com/offer/L0440/DigitSequenceNumbers.java) | 中等 | 数学 | 数学、二分查找 |
-|45| 把数组排成最小的数 | [ArrangeArraySmallestNumber](src/com/offer/L0450/ArrangeArraySmallestNumber.java) | 中等 | 排序 | 字符串、贪心算法、排序 |
-|46| 把数字翻译成字符串 | [TranslateNumbersIntoStrings](src/com/offer/L0460/TranslateNumbersIntoStrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|47| 礼物的最大价值 | [MaximumValueGifts](src/com/offer/L0470/MaximumValueGifts.java) | 中等 | 动态规划 | 数组、动态规划、矩阵 |
-|48| 最长不含重复字符的子字符串 | [TheLongestSubstringRepeatedCharacters](src/com/offer/L0480/TheLongestSubstringRepeatedCharacters.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
-|49| 丑数 | [UglyNumber](src/com/offer/L0490/UglyNumber.java) | 中等 | 小根堆、动态规划 | 堆、数学、动态规划 |
-|50| 第一个只出现一次的字符 | [TheFirstCharacterOnlyOnce](src/com/offer/L0500/TheFirstCharacterOnlyOnce.java) | 简单 | map映射 | 字符串、队列、哈希表、计数 |
-|51| 数组中的逆序对 | [ReversedPairsArray](src/com/offer/L0510/ReversedPairsArray.java) | 困难 | 归并排序 | 数组、线段树、树状数组、有序集合、二分查找、分治、归并排序 |
-|52| 两个链表的第一个公共节点 | [IntersectionTwoLinkedLists](src/com/offer/L0520/IntersectionTwoLinkedLists.java) | 简单 | 双指针、set集合 | 链表 |
-|53-I| 在排序数组中查找数字 I | [FindNumberSortedArray](src/com/offer/L0531/FindNumberSortedArrayI.java) | 简单 | 二分查找 | 数组、二分查找 |
-|53-II| 0～n-1中缺失的数字 | [NumbersMissing](src/com/offer/L0532/NumbersMissing.java) | 简单 | 二分查找 | 数组、哈希表、二分查找、数学、位运算 |
-|54| 二叉搜索树的第k大节点 | [TheKNodeBinarySearchTree](src/com/offer/L0540/TheKNodeBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|55-I| 二叉树的深度 | [DepthBinaryTree](src/com/offer/L0551/DepthBinaryTree.java) | 简单 | 递归、广度优先搜索、深度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|55-II| 平衡二叉树 | [BalancedBinaryTree](src/com/offer/L0552/BalancedBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
-|56-I| 数组中数字出现的次数 | [NumberArray](src/com/offer/L0561/NumberArray.java) | 中等 | 位运算 | 数组、位运算 |
-|56-II| 数组中数字出现的次数II | [NumberArrayII](src/com/offer/L0562/NumberArrayII.java) | 中等 | 位运算 | 数组、位运算 |
-|57-I| 和为s的两个数字 | [TwoNumbersWithS](src/com/offer/L0571/TwoNumbersWithS.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
-|57-II| 和为s的连续正数序列 | [SequenceNumbersWithS](src/com/offer/L0572/SequenceNumbersWithS.java) | 简单 | 滑动窗口 | 双指针、数学、枚举 |
-|58-I| 翻转字符串里的单词 | [ReverseWordsString](src/com/offer/L0581/ReverseWordsString.java) | 简单 | 模拟 | 字符串、双指针 |
-|58-II| 左旋转字符串 | [RotateStringLeft](src/com/offer/L0582/RotateStringLeft.java) | 简单 | 模拟 | 字符串、双指针、数学 |
-|59-I| 滑动窗口的最大值 | [SlidingWindowMax](src/com/offer/L0591/SlidingWindowMax.java) | 困难 | 单调队列 | 队列、单调队列、堆、滑动窗口 |
-|59-II| 队列的最大值 | [MaxQueue](src/com/offer/L0592/MaxQueue.java) | 中等 | 设计 | 队列、单调队列、设计 |
-|60| n个骰子的点数 | [NDicePoints](src/com/offer/L0600/NDicePoints.java) | 中等 | 动态规划 | 数学、动态规划、概率与统计 |
-|61| 扑克牌中的顺子 | [StraightPlayingCards](src/com/offer/L0610/StraightPlayingCards.java) | 简单 | 数学、排序 | 数组、排序 |
-|62| 圆圈中最后剩下的数字 | [RemainingNumberCircle](src/com/offer/L0620/RemainingNumberCircle.java) | 简单 | 数学 | 数学、递归 |
-|63| 股票的最大利润 | [MaximumProfitStock](src/com/offer/L0630/MaximumProfitStock.java) | 中等 | 动态规划 | 数组、动态规划 |
-|64| 求1+2+…+n | [SumN](src/com/offer/L0640/SumN.java) | 中等 | 递归 | 位运算、递归、脑筋急转弯 |
-|65| 不用加减乘除做加法 | [Add](src/com/offer/L0650/Add.java) | 简单 | 位运算 | 位运算、数学 |
-|66| 构建乘积数组 | [BuildArrayProducts](src/com/offer/L0660/BuildArrayProducts.java) | 中等 | 数学 | 数组、前缀和 |
-|67| 把字符串转换成整数 | [StringToInteger](src/com/offer/L0670/StringToInteger.java) | 中等 | 模拟 | 字符串 |
-|68-I| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/offer/L0681/LowestCommonAncestorBST.java) | 简单 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
-|68-II| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/offer/L0682/LowestCommonAncestorBinaryTree.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+## [16. **_剑指offer_**（共计75/75题）](src/com/readme/Offer.md)
 
-## 16. **_剑指offerII_**（共计119题）
-|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
-| ---- | ------------- | ------- | ----- | ------ | --------- |
-|001| 整数除法 | [DivideTwoIntegers](src/com/offerII/L001/DivideTwoIntegers.java) | 中等 | 数学 | 数学、位运算 |
-|002| 二进制加法 | [AddBinary](src/com/offerII/L002/AddBinary.java) | 简单 | 模拟 | 字符串、模拟、数学、位运算 |
-|003| 前 n 个数字二进制中 1 的个数 | [CountingBits](src/com/offerII/L003/CountingBits.java) | 简单 | 数学 | 位运算、动态规划 |
-|004| 只出现一次的数字 | [SingleNumberII](src/com/offerII/L004/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |
-|005| 单词长度最大乘积 | [MaximumProductWordLengths](src/com/offerII/L005/MaximumProductWordLengths.java) | 中等 | 位运算 | 数组、字符串、位运算 |
-|006| 排序数组中两个数字之和 | [TwoSumII](src/com/offerII/L006/TwoSumII.java) | 简单 | 双指针 | 数组、双指针、二分查找 |
-|007| 数组中和为 0 的三个数 | [Sum3](src/com/offerII/L007/Sum3.java) | 中等 | 双指针 | 数组、双指针、排序 |
-|008| 长度最小的子数组 | [MinimumSizeSubarraySum](src/com/offerII/L008/MinimumSizeSubarraySum.java) | 中等 | 滑动窗口 | 数组、二分查找、前缀和、滑动窗口 |
-|009| 乘积小于K的子数组 | [SubarrayProductLessThanK](src/com/offerII/L009/SubarrayProductLessThanK.java) | 中等 | 滑动窗口 | 数组、滑动窗口 |
-|010| 和为 K 的子数组 | [SubarraySumEqualsK](src/com/offerII/L010/SubarraySumEqualsK.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
-|011| 0 和 1 个数相同的子数组 | [ContiguousArray](src/com/offerII/L011/ContiguousArray.java) | 中等 | 前缀和 | 数组、哈希表、前缀和 |
-|012| 左右两边子数组的和相等 | [FindPivotIndex](src/com/offerII/L012/FindPivotIndex.java) | 简单 | 数学 | 数组、前缀和 |
-|013| 二维子矩阵的和 | [NumMatrix](src/com/offerII/L013/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |
-|014| 字符串中的变位词 | [PermutationString](src/com/offerII/L014/PermutationString.java) | 中等 | 滑动窗口 | 字符串、哈希表、双指针、滑动窗口 |
-|015| 字符串中的所有变位词 | [FindAllAnagramsString](src/com/offerII/L015/FindAllAnagramsString.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
-|016| 不含重复字符的最长子字符串 | [NoRepeatLongestStr](src/com/offerII/L016/NoRepeatLongestStr.java) | 中等 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
-|017| 含有所有字符的最短字符串 | [MinimumWindowSubstring](src/com/offerII/L017/MinimumWindowSubstring.java) | 困难 | 滑动窗口 | 字符串、哈希表、滑动窗口 |
-|018| 有效的回文 | [ValidPalindrome](src/com/offerII/L018/ValidPalindrome.java) | 简单 | 双指针 | 字符串、双指针 |
-|019| 最多删除一个字符得到回文 | [ValidPalindromeII](src/com/offerII/L019/ValidPalindromeII.java) | 简单 | 双指针 | 字符串、贪心算法、双指针 |
-|020| 回文子字符串的个数 | [PalindromicSubstrings](src/com/offerII/L020/PalindromicSubstrings.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|021| 删除链表的倒数第 n 个结点 | [DeleteNode](src/com/offerII/L021/DeleteNode.java) | 中等 | 双指针 | 链表、双指针 |
-|022| 链表中环的入口节点 | [LinkedListCycleII](src/com/offerII/L022/LinkedListCycleII.java) | 中等 | 双指针 | 链表、哈希表、双指针 |
-|023| 两个链表的第一个重合节点 | [IntersectionTwoLinkedLists](src/com/offerII/L023/IntersectionTwoLinkedLists.java) | 简单 | set集合、双指针 | 链表、哈希表、双指针 |
-|024| 反转链表 | [ReverseLinkedList](src/com/offerII/L024/ReverseLinkedList.java) | 简单 | 栈、递归、迭代 | 链表、递归 |
-|025| 链表中的两数相加 | [AddTwoNumbersII](src/com/offerII/L025/AddTwoNumbersII.java) | 中等 | 栈 | 链表、栈、数学 |
-|026| 重排链表 | [ReorderList](src/com/offerII/L026/ReorderList.java) | 中等 | 双指针 | 链表、栈、递归、双指针 |
-|027| 回文链表 | [PalindromeLinkedList](src/com/offerII/L027/PalindromeLinkedList.java) | 中等 | 栈 | 链表、栈、递归、双指针 |
-|028| 展平多级双向链表 | [FlattenMultilevelDoublyLinkedList](src/com/offerII/L028/FlattenMultilevelDoublyLinkedList.java) | 中等 | 深度优先搜索 | 链表、双向链表、深度优先搜索 |
-|029| 排序的循环链表 | [SortedCircularList](src/com/offerII/L029/SortedCircularList.java) | 中等 | 模拟 | 链表 |
-|030| 插入、删除和随机访问都是 O(1) 的容器 | [RandomizedSet](src/com/offerII/L030/RandomizedSet.java) | 中等 | list集合 | 数组、哈希表、数学、设计、随机化 |
-|031| 最近最少使用缓存 | [LRUCache](src/com/offerII/L031/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
-|032| 有效的变位词 | [ValidConjugation](src/com/offerII/L032/ValidConjugation.java) | 简单 | 排序 | 字符串、哈希表、排序 |
-|033| 变位词组 | [GroupAnagrams](src/com/offerII/L033/GroupAnagrams.java) | 简单 | map映射 | 字符串、哈希表、排序 |
-|034| 外星语言是否排序 | [VerifyingAlienDictionary](src/com/offerII/L034/VerifyingAlienDictionary.java) | 简单 | map映射 | 字符串、哈希表、数组 |
-|035| 最小时间差 | [MinimumTimeDifference](src/com/offerII/L035/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、数学、排序 |
-|036| 后缀表达式 | [EvaluateReversePolishNotation](src/com/offerII/L036/EvaluateReversePolishNotation.java) | 中等 | 排序 | 数组、数学、栈 |
-|037| 小行星碰撞 | [AsteroidCollision](src/com/offerII/L037/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
-|038| 每日温度 | [DailyTemperatures](src/com/offerII/L038/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
-|039| 直方图最大矩形面积 | [LargestRectangleHistogram](src/com/offerII/L039/LargestRectangleHistogram.java) | 困难 | 单调栈 | 数组、栈、单调栈 |
-|040| 矩阵中最大的矩形 | [MaximalRectangle](src/com/offerII/L040/MaximalRectangle.java) | 困难 | 单调栈 | 数组、栈、单调栈、矩阵、动态规划 |
-|041| 滑动窗口的平均值 | [MovingAverage](src/com/offerII/L041/MovingAverage.java) | 简单 | 队列 | 数组、队列、数据流、设计 |
-|042| 最近的请求次数 | [RecentCounter](src/com/offerII/L042/RecentCounter.java) | 简单 | 队列 | 队列、数据流、设计 |
-|043| 往完全二叉树添加节点 | [CBTInserter](src/com/offerII/L043/CBTInserter.java) | 中等 | 队列 | 树、二叉树、广度优先搜索、设计 |
-|044| 二叉树每层的最大值 | [FindLargestValueEachTreeRow](src/com/offerII/L044/FindLargestValueEachTreeRow.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|045| 二叉树最底层最左边的值 | [FindBottomLeftTreeValue](src/com/offerII/L045/FindBottomLeftTreeValue.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|046| 二叉树的右侧视图 | [BinaryTreeRightSideView](src/com/offerII/L046/BinaryTreeRightSideView.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索、深度优先搜索 |
-|047| 二叉树剪枝 | [BinaryTreePruning](src/com/offerII/L047/BinaryTreePruning.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
-|048| 序列化与反序列化二叉树 | [Codec](src/com/offerII/L048/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、二叉树、字符串、深度优先搜索、广度优先搜索、设计 |
-|049| 从根节点到叶节点的路径数字之和 | [SumRootLeafNumbers](src/com/offerII/L049/SumRootLeafNumbers.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
-|050| 向下的路径节点之和 | [PathSumIII](src/com/offerII/L050/PathSumIII.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
-|051| 节点之和最大的路径 | [BinaryTreeMaximumPathSum](src/com/offerII/L051/BinaryTreeMaximumPathSum.java) | 困难 | 递归 | 树、二叉树、深度优先搜索、动态规划 |
-|052| 展平二叉搜索树 | [IncreasingOrderSearchTree](src/com/offerII/L052/IncreasingOrderSearchTree.java) | 中等 | 递归、迭代 | 树、二叉树、二叉搜索树、栈、深度优先搜索 |
-|053| 二叉搜索树中的中序后继 | [InOrderBST](src/com/offerII/L053/InOrderBST.java) | 中等 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
-|054| 所有大于等于节点的值之和 | [ConvertBSTToGreaterTree](src/com/offerII/L054/ConvertBSTToGreaterTree.java) | 中等 | 递归、迭代 | 树、二叉树、二叉搜索树、深度优先搜索 |
-|055| 二叉搜索树迭代器 | [BSTIterator](src/com/offerII/L055/BSTIterator.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、栈、迭代器、设计 |
-|056| 二叉搜索树中两个节点之和 | [TwoSumIV](src/com/offerII/L056/TwoSumIV.java) | 简单 | 双指针、set集合 | 树、二叉树、二叉搜索树、哈希表、广度优先搜索、深度优先搜索、双指针 |
-|057| 存在重复元素 III | [ContainsDuplicateIII](src/com/offerII/L057/ContainsDuplicateIII.java) | 中等 | 滑动窗口、桶 | 数组、有序集合、桶排序、排序、滑动窗口  |
-|058| 日程表 | [MyCalendar](src/com/offerII/L058/MyCalendar.java) | 中等 | 线段树 | 线段树、有序集合、设计 |
-|059| 数据流中的第 K 大元素 | [KthLargest](src/com/offerII/L059/KthLargest.java) | 简单 | 堆 |  树、二叉树、二叉搜索树、堆、数据流、设计 |
-|060| 出现频率最高的 k 个数字 | [KHighElement](src/com/offerII/L060/KHighElement.java) | 中等 | 堆 |  数组、哈希表、堆、分治、计数、桶排序、快速选择、排序 |
-|061| 查找和最小的K对数字 | [FindKPairsSmallestSums](src/com/offerII/L061/FindKPairsSmallestSums.java) | 中等 | 堆 | 数组、堆 |
-|062| 实现前缀树 | [Trie](src/com/offerII/L062/Trie.java) | 中等 | 字典树 | 字符串、哈希表、字典树、设计 |
-|063| 替换单词 | [ReplaceWords](src/com/offerII/L063/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
-|064| 神奇字典 | [MagicDictionary](src/com/offerII/L064/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
-|065| 最短的单词编码 | [ShortEncodingWords](src/com/offerII/L065/ShortEncodingWords.java) | 中等 | set集合、字典树 | 字符串、哈希表、字典树、数组 |
-|066| 单词之和 | [MapSum](src/com/offerII/L066/MapSum.java) | 中等 | 字典树 | 字符串、哈希表、字典树、设计 |
-|067| 最大的异或 | [MaximumXORTwoNumbersArray](src/com/offerII/L067/MaximumXORTwoNumbersArray.java) | 中等 | 字典树 | 数组、哈希表、字典树、位运算 |
-|068| 查找插入位置 | [SearchInsertPosition](src/com/offerII/L068/SearchInsertPosition.java) | 简单 | 二分查找 | 数组、二分查找 |
-|069| 山峰数组的顶部 | [LinkedListCycleII](src/com/offerII/L069/PeakIndexMountainArray.java) | 简单 | 二分查找 | 数组、二分查找 |
-|070| 排序数组中只出现一次的数字 | [SingleElementSortedArray](src/com/offerII/L070/SingleElementSortedArray.java) | 中等 | 二分查找 | 数组、二分查找 |
-|071| 按权重生成随机数 | [Solution](src/com/offerII/L071/Solution.java) | 中等 | 前缀和+二分查找 | 数学、二分查找、前缀和、随进化 |
-|072| 求平方根 | [Sqrt](src/com/offerII/L072/Sqrt.java) | 简单 | 二分查找 | 数学、二分查找 |
-|073| 狒狒吃香蕉 | [KokoEatingBananas](src/com/offerII/L073/KokoEatingBananas.java) | 中等 | 二分查找 | 数组、二分查找 |
-|074| 合并区间 | [MergeIntervals](src/com/offerII/L074/MergeIntervals.java) | 中等 | 排序 | 数组、排序 |
-|075| 数组相对排序 | [RelativeSortArray](src/com/offerII/L075/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
-|076| 数组中的第 k 大的数字 | [KthLargestElementArray](src/com/offerII/L076/KthLargestElementArray.java) | 中等 | 排序、堆、快速排序 | 数组、堆、排序、快速排序、分治 |
-|077| 链表排序 | [SortList](src/com/offerII/L077/SortList.java) | 中等 | 归并排序 | 链表、双指针、排序、归并排序、分治 |
-|078| 合并排序链表 | [MergeKSortedLists](src/com/offerII/L078/MergeKSortedLists.java) | 困难 | 最小堆、递归、分治算法 | 堆、链表、分治算法 |
-|079| 所有子集 | [Subsets](src/com/offerII/L079/Subsets.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
-|080| 含有 k 个元素的组合 | [Combination](src/com/offerII/L080/Combination.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|081| 允许重复选择元素的组合 | [CombinationSum](src/com/offerII/L081/CombinationSum.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|082| 含有重复元素集合的组合 | [CombinationSumII](src/com/offerII/L082/CombinationSumII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|083| 没有重复元素集合的全排列 | [Permutations](src/com/offerII/L083/Permutations.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|084| 含有重复元素集合的全排列 | [PermutationsII](src/com/offerII/L084/PermutationsII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|085| 生成匹配的括号 | [GenerateParentheses](src/com/offerII/L085/GenerateParentheses.java) | 中等 | 回溯算法 | 数组、回溯算法 |
-|086| 分割回文子字符串 | [PalindromePartitioning](src/com/offerII/L086/PalindromePartitioning.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
-|087| 复原 IP | [RestoreIPAddresses](src/com/offerII/L087/RestoreIPAddresses.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
-|088| 爬楼梯的最少成本 | [MinCostClimbingStairs](src/com/offerII/L088/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
-|089| 房屋偷盗 | [HouseRobber](src/com/offerII/L089/HouseRobber.java) | 中等 | 动态规划 | 数组、动态规划 |
-|090| 环形房屋偷盗 | [HouseRobberII](src/com/offerII/L090/HouseRobberII.java) | 中等 | 动态规划 | 数组、动态规划 |
-|091| 粉刷房子 | [PaintHouse](src/com/offerII/L091/PaintHouse.java) | 中等 | 动态规划 | 数组、动态规划 |
-|092| 翻转字符 | [FlipStringMonotoneIncreasing](src/com/offerII/L092/FlipStringMonotoneIncreasing.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|093| 最长斐波那契数列 | [LengthLongestFibonacciSubsequence](src/com/offerII/L093/LengthLongestFibonacciSubsequence.java) | 中等 | 动态规划 | 数组、哈希表、动态规划 |
-|094| 最少回文分割 | [PalindromePartitioningII](src/com/offerII/L094/PalindromePartitioningII.java) | 困难 | 动态规划 | 字符串、动态规划 |
-|095| 最长公共子序列 | [LongestCommonSubsequence](src/com/offerII/L095/LongestCommonSubsequence.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|096| 字符串交织 | [InterleavingString](src/com/offerII/L096/InterleavingString.java) | 中等 | 动态规划 | 字符串、动态规划 |
-|097| 子序列的数目 | [DistinctSubsequences](src/com/offerII/L097/DistinctSubsequences.java) | 困难 | 动态规划 | 字符串、动态规划 |
-|098| 路径的数目 | [UniquePaths](src/com/offerII/L098/UniquePaths.java) | 中等 | 动态规划 | 动态规划、数学、组合数学 |
-|099| 最小路径之和 | [MinPathSum](src/com/offerII/L099/MinPathSum.java) | 中等 | 动态规划 | 数组、矩阵、动态规划 |
-|100| 三角形中最小路径之和 | [TriangleMinPathSum](src/com/offerII/L100/TriangleMinPathSum.java) | 中等 | 动态规划 | 数组、动态规划 |
-|101| 分割等和子集 | [PartitionStringSum](src/com/offerII/L101/PartitionStringSum.java) | 中等 | 动态规划 | 字符串、模拟、数学 |
-|102| 加减的目标值 | [TargetSum](src/com/offerII/L102/TargetSum.java) | 中等 | 回溯算法、动态规划 | 数组、回溯算法、动态规划 |
-|103| 最少的硬币数目 | [CoinChange](src/com/offerII/L103/CoinChange.java) | 中等 | 动态规划 | 数组、广度优先搜索、动态规划 |
-|104| 排列的数目 | [CombinationSumIV](src/com/offerII/L104/CombinationSumIV.java) | 中等 | 动态规划 | 数组、动态规划 |
-|105| 岛屿的最大面积 | [MaxAreaIsland](src/com/offerII/L105/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
-|106| 二分图 | [IsGraphBipartite](src/com/offerII/L106/IsGraphBipartite.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、并查集、深度优先搜索、广度优先搜索 |
-|107| 矩阵中的距离 | [Matrix01](src/com/offerII/L107/Matrix01.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、动态规划 |
-|108| 单词演变 | [WordLadder](src/com/offerII/L108/WordLadder.java) | 中等 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
-|109| 开密码锁 | [OpenTheLock](src/com/offerII/L109/OpenTheLock.java) | 中等 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
-|110| 所有路径 | [AllPathsFromSourceTarget](src/com/offerII/L110/AllPathsFromSourceTarget.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
-|111| 除法求值 | [EvaluateDivision](src/com/offerII/L111/EvaluateDivision.java) | 中等 | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |
-|112| 最长递增路径 | [LongestIncreasingPathMatrix](src/com/offerII/L112/LongestIncreasingPathMatrix.java) | 困难 | 动态规划 | 图、深度优先搜索、广度优先搜索、拓扑排序、记忆化搜索、动态规划 |
-|113| 课程顺序 | [CourseScheduleII](src/com/offerII/L113/CourseScheduleII.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
-|114| 外星文字典 | [AlienDictionary](src/com/offerII/L114/AlienDictionary.java) | 困难 | 拓扑排序 | 数组、字符串、图、深度优先搜索、广度优先搜索、拓扑排序 |
-|115| 重建序列 | [ReconstructionSequence](src/com/offerII/L115/ReconstructionSequence.java) | 中等 | 拓扑排序 | 数组、图、拓扑排序 |
-|116| 省份数量 | [NumberProvinces](src/com/offerII/L116/NumberProvinces.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
-|117| 相似的字符串 | [SimilarStringGroups](src/com/offerII/L117/SimilarStringGroups.java) | 困难 | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索 |
-|118| 冗余连接 | [RedundantConnection](src/com/offerII/L118/RedundantConnection.java) | 中等 | 并查集 | 图、并查集、深度优先搜索、广度优先搜索 |
-|119| 最长连续序列 | [LongestConsecutiveSeq](src/com/offerII/L119/LongestConsecutiveSeq.java) | 中等 | 并查集 | 数组、并查集、哈希表 |
+## [17. **_剑指offerII_**（共计119/119题）](src/com/readme/OfferII.md)
 
-## 17. **_微软题_**
-|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
-| ---- | ------------- | ------- | ----- | ------ | --------- |
-|LSP01| 下载插件 | [DownloadPlugin](src/com/LSP/L0001/DownloadPlugin.java) | 简单 | 数学 | -- |
-|LSP02| 完成一半题目 | [CompleteHalfProblem](src/com/LSP/L0002/CompleteHalfProblem.java) | 简单 | map映射+排序 | -- |
+## [18. **_微软题_**（共计2/3题）](src/com/readme/LCS.md)
 
-## 18. **_美团题（未计总数）_**
-|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
-| ---- | ------------- | ------- | ----- | ------ | --------- |
-|L001| 小美的用户名 | [XiaomeiUsername](src/com/meituan/L001/XiaomeiUsername.java) | 简单 | 模拟 | -- |
-|L002| 小美的仓库整理 | [XiaomeiWarehouseConsolidation](src/com/meituan/L002/XiaomeiWarehouseConsolidation.java) | 中等 | 前缀和 | -- |
-|L003| 小美的跑腿代购 | [XiaomeiErrandShopping](src/com/meituan/L003/XiaomeiErrandShopping.java) | 简单 | 堆 | -- |
-|L004| 小团的复制粘贴 | [XiaoTuanCopyPast](src/com/meituan/L004/XiaoTuanCopyPast.java) | 困难 | 模拟 | -- |
-|L005| 小美的区域会议 | [XiaomeiRegionalConference](src/com/meituan/L005/XiaomeiRegionalConference.java) | 困难 | 深度优先搜索 | -- |
-|L006| 小团的神秘暗号 | [XiaoTuanMysteryCode](src/com/meituan/L006/XiaoTuanMysteryCode.java) | 简单 | 双指针 | -- |
-|L007| 小团的选调计划 | [XiaoTuanSelectionPlan](src/com/meituan/L007/XiaoTuanSelectionPlan.java) | 简单 | 模拟 | -- |
-|L008| 小团无路可逃 | [XiaoTuanNoWayEscape](src/com/meituan/L008/XiaoTuanNoWayEscape.java) | 中等 | 广度优先搜索 | -- |
-|L009| 小团的装饰物 | [XiaoTuanDecoration](src/com/meituan/L009/XiaoTuanDecoration.java) | 中等 | 动态规划 | -- |
-|L010| 小团的默契游戏 | [XiaoTuanTacitGame](src/com/meituan/L010/XiaoTuanTacitGame.java) | 简单 | 二分查找 | -- |
-|L011| 搭配出售 | [SoldWith](src/com/meituan/L011/SoldWith.java) | 中等 | 贪心算法 | -- |
-|L012| 小美的书架 | [XiaomeiBookshelf](src/com/meituan/L012/XiaomeiBookshelf.java) | 中等 | 模拟 | -- |
-|L013| 偏爱字母 | [PreferenceLetter](src/com/meituan/L013/PreferenceLetter.java) | 中等 | 动态规划 | -- |
+## [19. **_美团题_**（未计总数）](src/com/readme/meituan.md)
 
-## 19. **_数据库_**
+## 20. **_数据库_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
-|L0175| 组合两个表 | [CombineTwoTables](src/com/sql/L0175/CombineTwoTables.sql) | 简单 | -- | -- |？
+|L0175| 组合两个表 | [CombineTwoTables](src/com/sql/L0175/CombineTwoTables.sql) | 简单 | -- | -- |
 |L0176| 第二高的薪水 | [SecondHighestSalary](src/com/sql/L0176/SecondHighestSalary.sql) | 中等 | -- | -- |
 |L0182| 查找重复的电子邮箱 | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql) | 简单 | -- | -- |
 |L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |

@@ -12,10 +12,10 @@ public class CountMatchRuleTest {
          * 输出：1
          * 解释：只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"] 。
          */
-        List<List<String>> items = new ArrayList<>(){{
-            add(new ArrayList<>(){{add("phone");add("blue");add("pixel");}});
-            add(new ArrayList<>(){{add("computer");add("silver");add("lenovo");}});
-            add(new ArrayList<>(){{add("phone");add("gold");add("iphone");}});
+        List<List<String>> items = new ArrayList<List<String>>(){{
+            add(new ArrayList<String>(){{add("phone");add("blue");add("pixel");}});
+            add(new ArrayList<String>(){{add("computer");add("silver");add("lenovo");}});
+            add(new ArrayList<String>(){{add("phone");add("gold");add("iphone");}});
         }};
         System.out.println(countMatchRule.countMatches(items, "color", "silver"));
         /**
@@ -25,10 +25,10 @@ public class CountMatchRuleTest {
          * 解释：只有两件物品匹配检索规则，这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"] 。注意，["computer","silver","phone"] 未匹配检索规则。
          */
         items.clear();
-        items = new ArrayList<>(){{
-            add(new ArrayList<>(){{add("phone");add("blue");add("pixel");}});
-            add(new ArrayList<>(){{add("computer");add("silver");add("lenovo");}});
-            add(new ArrayList<>(){{add("phone");add("gold");add("iphone");}});
+        items = new ArrayList<List<String>>(){{
+            add(new ArrayList<String>(){{add("phone");add("blue");add("pixel");}});
+            add(new ArrayList<String>(){{add("computer");add("silver");add("lenovo");}});
+            add(new ArrayList<String>(){{add("phone");add("gold");add("iphone");}});
         }};
         System.out.println(countMatchRule.countMatches(items, "type", "phone"));
     }

@@ -70,23 +70,23 @@ public class StringRepresentingValue {
         //‘ ’为空格、‘d’为数字、‘s’为符号、‘.’为小数点、‘e’为幂号
         Map[] state = {
                 //0:
-                new HashMap<>(){{put(' ',0);put('d',2);put('s',1);put('.',4);}},
+                new HashMap<Character,Integer>(){{put(' ',0);put('d',2);put('s',1);put('.',4);}},
                 //1:
-                new HashMap<>(){{put('d',2);put('.',4);}},
+                new HashMap<Character,Integer>(){{put('d',2);put('.',4);}},
                 //2:
-                new HashMap<>(){{put(' ',8);put('d',2);put('.',3);put('e',5);}},
+                new HashMap<Character,Integer>(){{put(' ',8);put('d',2);put('.',3);put('e',5);}},
                 //3:
-                new HashMap<>(){{put(' ',8);put('d',3);put('e',5);}},
+                new HashMap<Character,Integer>(){{put(' ',8);put('d',3);put('e',5);}},
                 //4:
-                new HashMap<>(){{put('d',3);}},
+                new HashMap<Character,Integer>(){{put('d',3);}},
                 //5:
-                new HashMap<>(){{put('d',7);put('s',6);}},
+                new HashMap<Character,Integer>(){{put('d',7);put('s',6);}},
                 //6:
-                new HashMap<>(){{put('d',7);}},
+                new HashMap<Character,Integer>(){{put('d',7);}},
                 //7:
-                new HashMap<>(){{put(' ',8);put('d',7);}},
+                new HashMap<Character,Integer>(){{put(' ',8);put('d',7);}},
                 //8:
-                new HashMap<>(){{put(' ',8);}},
+                new HashMap<Character,Integer>(){{put(' ',8);}},
         };
         //初始状态
         int p = 0;

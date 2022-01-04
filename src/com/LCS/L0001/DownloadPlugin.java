@@ -1,4 +1,4 @@
-package com.LSP.L0001;
+package com.LCS.L0001;
 
 /**
  * LCS 01. 下载插件

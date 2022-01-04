@@ -1,0 +1,83 @@
+# **_程序员面试金典_**（共计80/109题）
+|  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
+| ---- | ------------- | ------- | ----- | ------ | --------- |
+|01.01| 判定字符是否唯一 | [IsUnique](../interview/L0101/IsUnique.java) | 简单 | set集合、Map映射 | 数组 |
+|01.02| 判定是否互为字符重排 | [CheckPermutation](../interview/L0102/CheckPermutation.java) | 简单 | Map映射 | 字符串、哈希表、排序 |
+|01.03| URL化 | [StringURL](../interview/L0103/StringURL.java) | 简单 | 模拟 | 字符串 |
+|01.04| 回文排列 | [PalindromePermutation](../interview/L0104/PalindromePermutation.java) | 简单 | set集合 | 字符串、哈希表、位运算 |
+|01.05| 一次编辑 | [OneAway](../interview/L0105/OneAway.java) | 中等 | 双指针 | 字符串、双指针 |
+|01.06| 字符串压缩 | [CompressString](../interview/L0106/CompressString.java) | 简单 | 双指针 | 字符串、双指针 |
+|01.07| 旋转矩阵 | [RotateMatrix](../interview/L0107/RotateMatrix.java) | 简单 | 数学 | 数组、矩阵、数学 |
+|01.08| 零矩阵 | [ZeroMatrix](../interview/L0108/ZeroMatrix.java) | 中等 | 模拟 | 数组、矩阵、哈希表 |
+|01.09| 字符串轮转 | [StringRotation](../interview/L0109/StringRotation.java) | 简单 | 模拟 | 字符串、字符串匹配 |
+|02.01| 移除重复节点 | [RemoveDuplicateNode](../interview/L0201/RemoveDuplicateNode.java) | 简单 | 双指针 | 链表、哈希表、双指针 |
+|02.02| 返回倒数第 k 个节点 | [DeleteNode](../interview/L0202/DeleteNode.java) | 简单 | 双指针 | 链表、双指针 |
+|02.03| 删除中间节点 | [DeleteMiddleNode](../interview/L0203/DeleteMiddleNode.java) | 简单 | 模拟 | 链表 |
+|02.04| 分割链表 | [PartitionList](../interview/L0204/PartitionList.java) | 中等 | 双指针 | 链表、双指针 |
+|02.05| 链表求和 | [SumLists](../interview/L0205/SumLists.java) | 简单 | 双指针 | 链表、递归、数学 |
+|02.06| 回文链表 | [PalindromeLinkedList](../interview/L0206/PalindromeLinkedList.java) | 简单 | 栈 | 链表、栈、双指针、递归 |
+|02.07| 链表相交 | [IntersectionTwoLinkedLists](../interview/L0207/IntersectionTwoLinkedLists.java) | 简单 | set集合、双指针 | 链表、哈希表、双指针 |
+|02.08| 环路检测 | [LinkedListCycleII](../interview/L0208/LinkedListCycleII.java) | 简单 | set集合、双指针 | 链表、双指针 |
+|03.01| 三合一 | [TripleInOne](../interview/L0301/TripleInOne.java) | 简单 | 数组 | 栈、数组、设计 |
+|03.02| 栈的最小值 | [MinStack](../interview/L0302/MinStack.java) | 简单 | 栈 | 栈、设计 |
+|03.03| 堆盘子 | [StackOfPlates](../interview/L0303/StackOfPlates.java) | 中等 | list集合| 栈、链表、设计 |
+|03.04| 化栈为队 | [MyQueue](../interview/L0304/MyQueue.java) | 简单 | 栈 | 栈、队列、设计 |
+|03.05| 栈排序 | [SortedStack](../interview/L0305/SortedStack.java) | 简单 | 堆 | 栈、单调栈、设计 |
+|03.06| 动物收容所 | [AnimalShelf](../interview/L0306/AnimalShelf.java) | 简单 | 队列 | 队列、设计 |
+|04.01| 节点间通路 | [RouteBetweenNodes](../interview/L0401/RouteBetweenNodes.java) | 中等 | 广度优先搜索 | 图、广度优先搜索、深度优先搜索 |
+|04.02| 最小高度树 | [ConvertSortedArrayBinarySearchTree](../interview/L0402/ConvertSortedArrayBinarySearchTree.java) | 简单 | 递归 | 数组、树、二叉树、二叉搜素树、分治 |
+|04.03| 特定深度节点链表 | [ListDepth](../interview/L0403/ListDepth.java) | 中等 | 广度优先搜索 | 链表、树、二叉树、广度优先搜索 |
+|04.04| 检查平衡性 | [CheckBalance](../interview/L0404/CheckBalance.java) | 简单 | 递归 | 树、二叉树、深度优先搜索 |
+|04.05| 合法二叉搜索树 | [LegalBST](../interview/L0405/LegalBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、深度优先搜索 |
+|04.06| 后继者 | [Successor](../interview/L0406/Successor.java) | 中等 | 中序遍历 | 树、二叉树、二叉搜索树、深度优先搜索 |
+|04.08| 首个共同祖先 | [FirstCommonAncestor](../interview/L0408/FirstCommonAncestor.java) | 中等 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
+|04.10| 检查子树 | [CheckSubTree](../interview/L0410/CheckSubTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索、字符串匹配、哈希函数 |
+|05.01| 插入 | [InsertIntoBits](../interview/L0501/InsertIntoBits.java) | 简单 | 位运算 | 位运算 |
+|05.02| 二进制数转字符串 | [BianryNumberString](../interview/L0502/BianryNumberString.java) | 中等 | 模拟 | 字符串、数学、位运算 |
+|05.03| 翻转数位 | [ReverseBits](../interview/L0503/ReverseBits.java) | 简单 | 滑动窗口 | 位运算、动态规划 |
+|05.04| 下一个数 | [ClosedNumber](../interview/L0504/ClosedNumber.java) | 中等 | 暴力法 | 位运算 |
+|05.06| 整数转换 | [ConvertInteger](../interview/L0506/ConvertInteger.java) | 简单 | 位运算 | 位运算 |
+|05.07| 配对交换 | [Exchange](../interview/L0507/Exchange.java) | 简单 | 位运算 | 位运算 |
+|05.08| 绘制直线 | [DrawLine](../interview/L0508/DrawLine.java) | 中等 | 位运算 | 数组、数学、位运算 |
+|08.01| 三步问题 | [ThreeStepsProblem](../interview/L0801/ThreeStepsProblem.java) | 简单 | 动态规划 | 数学、记忆化搜索、动态规划 |
+|08.03| 魔术索引 | [MagicIndex](../interview/L0803/MagicIndex.java) | 简单 | 模拟 | 数组、二分查找 |
+|08.04| 幂集 | [PowerSet](../interview/L0804/PowerSet.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
+|08.05| 递归乘法 | [RecursiveMulitply](../interview/L0805/RecursiveMulitply.java) | 中等 | 递归 | 数学、位运算、递归 |
+|08.06| 汉诺塔问题 | [Hanota](../interview/L0806/Hanota.java) | 简单 | 递归 | 数组、递归 |
+|08.07| 无重复字符串的排列组合 | [Permutation](../interview/L0807/Permutation.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
+|08.08| 有重复字符串的排列组合 | [PermutationII](../interview/L0808/PermutationII.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
+|08.09| 括号 | [Bracket](../interview/L0809/Bracket.java) | 中等 | 回溯算法 | 字符串、回溯算法、动态规划 |
+|08.10| 颜色填充 | [ColorFill](../interview/L0810/ColorFill.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
+|08.11| 硬币 | [Coin](../interview/L0811/Coin.java) | 中等 | 动态规划 | 数组、数学、动态规划 |
+|08.12| 八皇后 | [EightQueens](../interview/L0812/EightQueens.java) | 困难 | 回溯算法 | 数组、回溯算法 |
+|08.13| 堆箱子 | [PileBox](../interview/L0813/PileBox.java) | 困难 | 动态规划 | 数组、排序、动态规划 |
+|10.02| 变位词组 | [GroupAnagrams](../interview/L1002/GroupAnagrams.java) | 中等 | Map映射 | 字符串、排序、哈希表 |
+|10.05| 稀疏数组搜索 | [SparseArraySearch](../interview/L1005/SparseArraySearch.java) | 简单 | 二分查找 | 数组、字符串、二分查找 |
+|10.10| 数字流的秩 | [StreamRank](../interview/L1010/StreamRank.java) | 中等 | 模拟 | 树状数组、二分查找、数据流、设计 |
+|10.11| 峰与谷 | [PeaksValleys](../interview/L1011/PeaksValleys.java) | 中等 | 贪心算法 | 数组、排序、贪心算法 |
+|16.01| 交换数字 | [SwapNumbers](../interview/L1601/SwapNumbers.java) | 中等 | 数学 | 数学、位运算 |
+|16.02| 单词频率 | [WordsFrequency](../interview/L1602/WordsFrequency.java) | 中等 | 字典树 | 数组、字符串、哈希表、字典树、设计 |
+|16.04| 井字游戏 | [TicTacToe](../interview/L1604/TicTacToe.java) | 中等 | 模拟 | 数组、矩阵、计数 |
+|16.05| 阶乘尾数 | [FactorialZeros](../interview/L1605/FactorialZeros.java) | 简单 | 数学 | 数学 |
+|16.06| 最小差 | [SmallestDifference](../interview/L1606/SmallestDifference.java) | 中等 | 排序+双指针 | 数组、双指针、排序、二分查找 |
+|16.07| 最大数值 | [Maximum](../interview/L1607/Maximum.java) | 中等 | 数学 | 数学、位运算、脑筋急转弯 |
+|16.10| 生存人数 | [LivingPeople](../interview/L1610/LivingPeople.java) | 中等 | 差分数组 | 数组、计数 |
+|16.11| 跳水板 | [DivingBoard](../interview/L1611/DivingBoard.java) | 简单 | 数学 | 数组、数学 |
+|16.15| 珠玑妙算 | [MasterMind](../interview/L1615/MasterMind.java) | 简单 | Map映射 | 数组 |
+|16.17| 连续数列 | [ContiguousSeq](../interview/L1617/ContiguousSeq.java) | 简单 | 动态规划 | 数组、动态规划、分治算法 |
+|16.19| 水域大小 | [PondSizes](../interview/L1619/PondSizes.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
+|16.20| T9键盘 | [T9](../interview/L1620/T9.java) | 中等 | 模拟 | 数组、字符串、哈希表 |
+|16.22| 兰顿蚂蚁 | [LangtonsAnt](../interview/L1622/LangtonsAnt.java) | 中等 | 模拟 | 数组、字符串、哈希表、矩阵、模拟 |
+|16.25| LRU 缓存机制 | [LRUCache](../interview/L1625/LRUCache.java) | 中等 | 双向链表+哈希表 | 链表、双向链表、哈希表、设计 |
+|16.26| 计算器 | [Calculator](../interview/L1626/Calculator.java) | 中等 | 栈 | 字符串、栈、数学 |
+|17.01| 不用加号的加法 | [AddWithoutPlus](../interview/L1701/AddWithoutPlus.java) | 简单 | 位运算 | 数学、位运算 |
+|17.04| 消失的数字 | [MissingNumber](../interview/L1704/MissingNumber.java) | 简单 | 位运算 | 数组、哈希表、排序、数学、位运算 |
+|17.07| 婴儿名字 | [BabyNames](../interview/L1707/BabyNames.java) | 中等 | 并查集 | 数组、哈希表、字符串、并查集、深度优先搜索、广度优先搜索、计数 |
+|17.09| 第 k 个数 | [GetKMagicNum](../interview/L1709/GetKMagicNum.java) | 中等 | 动态规划 | 堆、哈希表、动态规划、数学 |
+|17.10| 主要元素 | [FindMajorityElement](../interview/L1710/FindMajorityElement.java) | 简单 | 摩尔投票 | 数组、计数 |
+|17.11| 单词距离 | [FindClosest](../interview/L1711/FindClosest.java) | 中等 | 暴力法 | 数组、字符串 |
+|17.12| BiNode | [BiNode](../interview/L1712/BiNode.java) | 简单 | 递归 | 树、二叉树、二叉搜索树、链表、栈、深度优先搜索 |
+|17.14| 最小K个数 | [SmallestK](../interview/L1714/SmallestK.java) | 中等 | 排序、堆、快速排序 | 数组、分治、快速选择、排序、堆 |
+|17.19| 消失的两个数字 | [MissingTwo](../interview/L1719/MissingTwo.java) | 困难 | 位运算 | 数组、哈希表、位运算 |
+|17.20| 连续中值 | [MedianFinder](../interview/L1720/MedianFinder.java) | 困难 | 堆 | 堆、数据流、双指针、排序、设计 |
+|17.21| 直方图的水量 | [VolumeHistogramLCCI](../interview/L1721/VolumeHistogramLCCI.java) | 困难 | 双指针 | 栈、数组、双指针 |

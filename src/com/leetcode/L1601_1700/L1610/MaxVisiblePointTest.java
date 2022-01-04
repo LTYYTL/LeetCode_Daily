@@ -12,12 +12,12 @@ public class MaxVisiblePointTest {
          * 输出：3
          * 解释：阴影区域代表你的视野。在你的视野中，所有的点都清晰可见，尽管 [2,2] 和 [3,3]在同一条直线上，你仍然可以看到 [3,3] 。
          */
-        List<List<Integer>> points = new ArrayList<>(){{
-            add(new ArrayList<>(){{add(2);add(1);}});
-            add(new ArrayList<>(){{add(2);add(2);}});
-            add(new ArrayList<>(){{add(3);add(3);}});
+        List<List<Integer>> points = new ArrayList<List<Integer>>(){{
+            add(new ArrayList<Integer>(){{add(2);add(1);}});
+            add(new ArrayList<Integer>(){{add(2);add(2);}});
+            add(new ArrayList<Integer>(){{add(3);add(3);}});
         }};
-        System.out.println(maxVisiblePoint.visiblePoints(points, 90, new ArrayList<>() {{
+        System.out.println(maxVisiblePoint.visiblePoints(points, 90, new ArrayList<Integer>() {{
             add(1);
             add(1);
         }}));
@@ -28,13 +28,13 @@ public class MaxVisiblePointTest {
          * 解释：在你的视野中，所有的点都清晰可见，包括你所在位置的那个点。
          */
         points.clear();
-        points = new ArrayList<>(){{
-            add(new ArrayList<>(){{add(2);add(1);}});
-            add(new ArrayList<>(){{add(2);add(2);}});
-            add(new ArrayList<>(){{add(3);add(4);}});
-            add(new ArrayList<>(){{add(1);add(1);}});
+        points = new ArrayList<List<Integer>>(){{
+            add(new ArrayList<Integer>(){{add(2);add(1);}});
+            add(new ArrayList<Integer>(){{add(2);add(2);}});
+            add(new ArrayList<Integer>(){{add(3);add(4);}});
+            add(new ArrayList<Integer>(){{add(1);add(1);}});
         }};
-        System.out.println(maxVisiblePoint.visiblePoints(points, 90, new ArrayList<>() {{
+        System.out.println(maxVisiblePoint.visiblePoints(points, 90, new ArrayList<Integer>() {{
             add(1);
             add(1);
         }}));
@@ -45,11 +45,11 @@ public class MaxVisiblePointTest {
          * 解释：如图所示，你只能看到两点之一。
          */
         points.clear();
-        points = new ArrayList<>(){{
-            add(new ArrayList<>(){{add(1);add(0);}});
-            add(new ArrayList<>(){{add(2);add(1);}});
+        points = new ArrayList<List<Integer>>(){{
+            add(new ArrayList<Integer>(){{add(1);add(0);}});
+            add(new ArrayList<Integer>(){{add(2);add(1);}});
         }};
-        System.out.println(maxVisiblePoint.visiblePoints(points, 13, new ArrayList<>() {{
+        System.out.println(maxVisiblePoint.visiblePoints(points, 13, new ArrayList<Integer>() {{
             add(1);
             add(1);
         }}));
