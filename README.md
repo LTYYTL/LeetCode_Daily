@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**856**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**857**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -554,6 +554,7 @@
 ## 11. **_位运算方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|89| 格雷编码 | [GrayCode](src/com/leetcode/L1_100/L0089/GrayCode.java) | 中等 | 位运算 | 位运算、数学、回溯算法 |
 |136| 只出现一次的数字 | [SingleNumber](src/com/leetcode/L101_200/L0136/SingleNumber.java) | 简单  | Map映射、位运算 | 位运算、哈希表 |
 |137| 只出现一次的数字II | [SingleNumberII](src/com/leetcode/L101_200/L0137/SingleNumberII.java) | 中等 | Map映射、位运算 | 数组、位运算 |
 |190| 颠倒二进制位 | [ReverseBits](src/com/leetcode/L101_200/L0190/ReverseBits.java) | 简单 | 位运算 | 位运算、分治算法 |
