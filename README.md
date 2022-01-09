@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**857**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**858**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -255,6 +255,7 @@
 |1541| 平衡括号字符串的最少插入次数 | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
 |1576| 替换所有的问号 | [ReplaceAvoidConsecutive](src/com/leetcode/L1501_1600/L1576/ReplaceAvoidConsecutive.java) | 中等 | 模拟 | 字符串 |
 |1614| 括号的最大嵌套深度 | [MaxDepthParentheses](src/com/leetcode/L1601_1700/L1614/MaxDepthParentheses.java) | 简单 | 栈 | 字符串、栈 |
+|1629| 按键持续时间最长的键 | [SlowestKey](src/com/leetcode/L1601_1700/L1629/SlowestKey.java) | 简单 | 模拟 | 数组、字符串 |
 |1684| 统计一致字符串的数目 | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java) | 中等 | set集合 | 数组、字符串、哈希表、位运算 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
 |1773| 统计匹配检索规则的物品数量 | [CountMatchRule](src/com/leetcode/L1701_1800/L1773/CountMatchRule.java) | 简单 | 模拟 | 数组、字符串 |
