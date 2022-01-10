@@ -53,13 +53,13 @@ public class SimplifyPath {
         //栈
         Stack<String> stack = new Stack<String>();
 
-        String[] strArr = path.split("/");//用/分割，多个/也视为/
+        String[] strArr = path.split("/");//用‘/’分割，‘//’会被分割成空
         for(String str: strArr){//遍历
-            //如果等于空或者等于.，那就没有影响
+            //如果等于空或者等于‘.’，没有意义不用切换目录
             if(str.equals("") || str.equals(".")){
                 continue;
             }
-            //如果等于..，那就要返回上一级目录，因此栈中弹出当前目录
+            //如果等于‘..’，那就要返回上一级目录，因此栈中弹出当前目录
             //此时可能栈是空
             if(str.equals("..")){
                 if(!stack.isEmpty()){
@@ -77,8 +77,7 @@ public class SimplifyPath {
         Collections.reverse(stack);
         //将栈内元素添加到字符串中
         while(!stack.isEmpty()){
-            String tmp = stack.pop();
-            res.append("/").append(tmp);
+            res.append("/").append(stack.pop());
         }
 
         return res.toString();

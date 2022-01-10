@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**858**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**859**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -450,6 +450,7 @@
 |216| 组合总和III | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java) | 中等 | 回溯算法 | 数组、回溯算法 |
 |282| 给表达式添加运算符 | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java) | 困难 | 回溯算法 | 字符串、数学、回溯算法 |
 |301| 删除无效的括号 | [RemoveInvalidParentheses](src/com/leetcode/L301_400/L0301/RemoveInvalidParentheses.java) | 困难 | 回溯算法 | 字符串、回溯算法、广度优先搜索 |
+|306| 累加数 | [AdditiveNumber](src/com/leetcode/L301_400/L0306/AdditiveNumber.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |488| 祖玛游戏 | [ZumaGame](src/com/leetcode/L401_500/L0488/ZumaGame.java) | 困难 | 回溯算法 | 字符串、回溯算法 |
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
 |784| 字母大小写全排列 | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java) | 中等 | 回溯算法 | 字符串、位运算、回溯算法 |
