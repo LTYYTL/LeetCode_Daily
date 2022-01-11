@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**859**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**860**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -108,6 +108,7 @@
 |994| 腐烂的橘子 | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |1011| 在 D 天内送达包裹的能力 | [CapacityToShipPackagesWithinDDays](src/com/leetcode/L1001_1100/L1011/CapacityToShipPackagesWithinDDays.java) | 中等 | 二分查找 | 数组、二分查找 |
 |1034| 边界着色 | [ColoringBorder](src/com/leetcode/L1001_1100/L1034/ColoringBorder.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
+|1036| 逃离大迷宫 | [EscapeLargeMaze](src/com/leetcode/L1001_1100/L1036/EscapeLargeMaze.java) | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索、深度优先搜索 |
 |1094| 拼车 | [CarPooling](src/com/leetcode/L1001_1100/L1094/CarPooling.java) | 中等 | 差分数组 | 数组、堆、前缀和、排序、模拟 |
 |1109| 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java) | 中等 | 模拟、前缀和 | 数组、前缀和 |
 |1122| 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java) | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
