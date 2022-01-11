@@ -346,9 +346,9 @@
 |847| 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 |851| 喧闹和富有 | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java) | 中等 | 拓扑排序 | 图、数组、深度优先搜索、拓扑排序 |
 |997| 找到小镇的法官 | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java) | 简单 | 图 | 图、数组、哈希表 |
-|1135| 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java) | 中等 | Kruskal算法 | 图、并查集、最小生成树 |*
+|1135| 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java) | 中等 | Kruskal算法、Prim算法 | 图、并查集、最小生成树 |*
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
-|1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法 | 数组、并查集、最小生成树 |
+|1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 |1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
 
 ## 6. **_并查集系列_**

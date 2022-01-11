@@ -1,5 +1,6 @@
 package com.leetcode.L1501_1600.L1584;
 
+import com.util.Prim;
 import com.util.UF;
 
 import java.util.ArrayList;
@@ -84,4 +85,36 @@ public class MinCostConnectPoints {
         return mst;
 
     }
+
+    /**
+     * 方法：Prim算法
+     * @param points
+     * @return
+     */
+    public int minCostConnectPoints_prim(int[][] points) {
+        int n = points.length;
+        List<int[]>[] grep = createGrep(n,points);
+        Prim prim = new Prim(grep);
+        return prim.getWeightSum();
+    }
+
+    private List<int[]>[] createGrep(int n, int[][] points) {
+        List<int[]>[] grep = new List[n];
+        for (int i = 0; i < n; i++) {
+            grep[i] = new ArrayList<>();
+        }
+        //遍历，计算每两个点之间的权值
+        for (int i = 0; i < n; i++) {
+            for (int j = i+1; j < n; j++) {
+                int xi = points[i][0], yi = points[i][1];
+                int xj = points[j][0], yj = points[j][1];
+                int weight = Math.abs(xi-xj) + Math.abs(yi-yj);
+                grep[i].add(new int[]{i,j,weight});
+                grep[j].add(new int[]{j,i,weight});
+            }
+        }
+        return grep;
+    }
+
+
 }
