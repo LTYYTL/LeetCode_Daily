@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**860**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**862**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -87,6 +87,7 @@
 |733| 图像渲染 | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java) | 简单 | 广度优先搜索 | 数组、矩阵、深度优先搜索、广度优先搜索 |
 |735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
+|747| 至少是其他数字两倍的最大数 | [NumberTwiceOthers](src/com/leetcode/L701_800/L0747/NumberTwiceOthers.java) | 简单 | 模拟 | 数组、排序 |？
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |773| 滑动谜题 | [SlidingPuzzle](src/com/leetcode/L701_800/L0773/SlidingPuzzle.java) | 困难 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
@@ -465,6 +466,7 @@
 |122| 买卖股票的最佳时机II | [StockII](src/com/leetcode/L101_200/L0122/StockII.java) | 简单  | 贪心算法 | 数组、贪心算法 |
 |321| 拼接最大数 | [CreateMaximumNumber](src/com/leetcode/L301_400/L0321/CreateMaximumNumber.java) | 困难  | 贪心算法 | 数组、贪心算法、动态规划 |
 |330| 按要求补齐数组 | [PatchingArray](src/com/leetcode/L301_400/L0330/PatchingArray.java) | 困难 | 贪心算法 | 贪心算法 |
+|334| 递增的三元子序列 | [IncreasingTripletSub](src/com/leetcode/L301_400/L0334/IncreasingTripletSub.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |455| 分发饼干 | [AssignCookies](src/com/leetcode/L401_500/L0455/AssignCookies.java) | 简单 | 贪心算法 | 贪心算法 |
 |517| 超级洗衣机 | [SuperWashingMachines](src/com/leetcode/L501_600/L0517/SuperWashingMachines.java) | 困难 | 贪心算法 | 数组、贪心算法 |
 |738| 单调递增的数字 | [MonotoneIncreasingDigits](src/com/leetcode/L701_800/L0738/MonotoneIncreasingDigits.java) | 中等 | 贪心算法 | 贪心算法 |
@@ -546,6 +548,7 @@
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1501_1600/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1501_1600/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
+|1716| 计算力扣银行的钱 | [CalculateMoney](src/com/leetcode/L1701_1800/L1716/CalculateMoney.java) | 简单 | 数学 | 数学 |
 |1744| 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | [EatFavoriteCandyOnFavoriteDay](src/com/leetcode/L1701_1800/L1744/EatFavoriteCandyOnFavoriteDay.java) | 中等 | 数学 | 数学 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1801_1900/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
 |1837| K 进制表示下的各位数字总和 | [SumDigitsBaseK](src/com/leetcode/L1801_1900/L1837/SumDigitsBaseK.java) | 简单 | 数学 | 数学、位运算 |
