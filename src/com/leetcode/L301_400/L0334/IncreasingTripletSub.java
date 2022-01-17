@@ -36,11 +36,9 @@ public class IncreasingTripletSub {
         //小于3个数不满足于条件
         if (nums.length < 3)
             return false;
-        //获取前两个数
-        int small = nums[0] > nums[1] ? nums[1] : nums[0];
-        int middle = nums[0] > nums[1] ? nums[0] : nums[1];
+        int small = Integer.MAX_VALUE, middle = Integer.MAX_VALUE;
         //遍历
-        for (int i = 2; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             //当前数
             int num = nums[i];
             //比小的还要小

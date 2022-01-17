@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**862**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**865**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -427,6 +427,7 @@
 |1074| 元素和为目标值的子矩阵数量 | [NumberSubmatricesThatSumTarget](src/com/leetcode/L1001_1100/L1074/NumberSubmatricesThatSumTarget.java) | 困难 | 动态规划 | 数组、动态规划、滑动窗口 |
 |1137| 第 N 个泰波那契数 | [NTribonacciNumber](src/com/leetcode/L1101_1200/L1137/NTribonacciNumber.java) | 简单 | 动态规划 | 动态规划、数学、记忆化搜索 |
 |1143| 最长公共子序列 | [LongestCommonSubsequence](src/com/leetcode/L1101_1200/L1143/LongestCommonSubsequence.java) | 中等 | 动态规划 | 动态规划 |
+|1220| 统计元音字母序列的数目 | [CountVowelsPermutation](src/com/leetcode/L1201_1300/L1220/CountVowelsPermutation.java) | 困难 | 动态规划 | 动态规划 |
 |1218| 最长定差子序列 | [LongestSubsequenceDifference](src/com/leetcode/L1201_1300/L1218/LongestSubsequenceDifference.java) | 中等 | 动态规划 | 数组、哈希表、动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1201_1300/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 |1312| 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1301_1400/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难 | 动态规划 | 动态规划 |
@@ -611,6 +612,8 @@
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
+|382| 链表随机节点 | [Solution](src/com/leetcode/L301_400/L0382/Solution.java) | 中等 | 设计 | 链表、数学、水塘抽样、随机化 |
+|398| 随机数索引 | [Solution](src/com/leetcode/L301_400/L0398/Solution.java) | 中等 | 设计 | 哈希表、数学、水塘抽样、随机化 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |519| 随机翻转矩阵 | [Solution](src/com/leetcode/L501_600/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
 |676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
