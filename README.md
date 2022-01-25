@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**865**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**870**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -116,6 +116,7 @@
 |1295| 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java) | 简单 | 模拟 | 数组 |
 |1313| 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java) | 简单 | 模拟 | 数组 |
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、二分查找、矩阵、排列、堆 |
+|1345| 跳跃游戏 IV | [JumpGameIV](src/com/leetcode/L1301_1400/L1345/JumpGameIV.java) | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
 |1365| 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1301_1400/L1365/ManyNumMin.java) | 简单 | 暴力法、Map映射 | 数组、哈希表 |
 |1418| 点菜展示表 | [DisplayTableFoodOrdersRestaurant](src/com/leetcode/L1401_1500/L1418/DisplayTableFoodOrdersRestaurant.java) | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 |1431| 拥有最多糖果的孩子 | [KidsWithMaxCandies](src/com/leetcode/L1401_1500/L1431/KidsWithMaxCandies.java) | 简单 | 模拟 | 数组 |
@@ -150,6 +151,7 @@
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
 |2022| 将一维数组转变成二维数组 | [Convert1DInto2D](src/com/leetcode/L2001_2100/L2022/Convert1DInto2D.java) | 简单 | 模拟 | 数组、矩阵、模拟 |
+|2029| 石子游戏 IX | [StoneGameIX](src/com/leetcode/L2001_2100/L2029/StoneGameIX.java) | 中等 | 博弈论 | 数组、数学、计数、贪心算法、博弈论 |
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
 
 ## 2. **_链表系列_**
@@ -251,6 +253,7 @@
 |1108| IP 地址无效化 | [DefangingIP](src/com/leetcode/L1101_1200/L1108/DefangingIP.java) | 简单 | 模拟 | 字符串 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
+|1332| 删除回文子序列 | [RemovePalindromicSub](src/com/leetcode/L1301_1400/L1332/RemovePalindromicSub.java) | 简单 | 模拟 | 字符串、双指针 |
 |1370| 上升下降字符串 | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java) | 简单 | 桶计数 | 字符串、排序 |
 |1436| 旅行终点站 | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java) | 简单 | set集合 | 字符串、哈希表 |
 |1446| 连续字符 | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java) | 简单 | 双指针 | 字符串 |
@@ -351,6 +354,7 @@
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
 |1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 |1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
+|2045| 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、最短路 |
 
 ## 6. **_并查集系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -458,7 +462,6 @@
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
 |784| 字母大小写全排列 | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java) | 中等 | 回溯算法 | 字符串、位运算、回溯算法 |
 |869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
-|1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1601_1700/L1688/CountMatchesTournament.java) | 简单 | 回溯算法 | 回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
 
 ## 9. **_贪心算法系列_**
@@ -549,6 +552,7 @@
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1501_1600/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1501_1600/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
+|1688| 比赛中的配对次数 | [CountMatchesTournament](src/com/leetcode/L1601_1700/L1688/CountMatchesTournament.java) | 简单 | 数学 | 数学、模拟 |
 |1716| 计算力扣银行的钱 | [CalculateMoney](src/com/leetcode/L1701_1800/L1716/CalculateMoney.java) | 简单 | 数学 | 数学 |
 |1744| 你能在你最喜欢的那天吃到你最喜欢的糖果吗？ | [EatFavoriteCandyOnFavoriteDay](src/com/leetcode/L1701_1800/L1744/EatFavoriteCandyOnFavoriteDay.java) | 中等 | 数学 | 数学 |
 |1822| 数组元素积的符号 | [SignProductArray](src/com/leetcode/L1801_1900/L1822/SignProductArray.java) | 简单 | 数学 | 数学 |
@@ -627,6 +631,7 @@
 |1600| 皇位继承顺序 | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等 | 树 | 树、设计 |
 |1603| 设计停车系统 | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java) | 简单 | 数组 | 设计 |
 |1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
+|2034| 股票价格波动 | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java) | 中等 | 哈希表 | 设计、哈希表、堆、有序集合、数据流 |
 
 ## 14. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |

@@ -31,7 +31,7 @@ package com.leetcode.L1601_1700.L1688;
  */
 public class CountMatchesTournament {
     /**
-     * 方法：回溯算法
+     * 方法：数学
      * @param n
      * @return
      */
