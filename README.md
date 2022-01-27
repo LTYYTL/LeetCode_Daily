@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**871**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**872**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -270,6 +270,7 @@
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1801_1900/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1801_1900/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 |2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java) | 简单 | 模拟 | 字符串、双指针 |
+|2047| 句子中的有效单词数 | [NumValidWords](src/com/leetcode/L1901_2000/L2047/NumValidWords.java) | 简单 | 模拟 | 字符串 |
 |2114| 句子中的最多单词数 | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java) | 简单 | 模拟 | 数组、字符串 |
 
 ## 4. **_二叉树系列_**
