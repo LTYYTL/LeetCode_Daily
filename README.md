@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**872**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**873**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -147,6 +147,7 @@
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
 |1995| 统计特殊四元组 | [CountSpecialQuadruplets](src/com/leetcode/L1901_2000/L1995/CountSpecialQuadruplets.java) | 简单 | 暴力法、map映射 | 数组、数学 |
+|1996| 游戏中弱角色的数量 | [NumWeakCharacters](src/com/leetcode/L1901_2000/L1996/NumWeakCharacters.java) | 中等 | 排序 | 数组、栈、单调栈、排序、贪心算法 |
 |2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
@@ -270,7 +271,7 @@
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1801_1900/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1801_1900/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 |2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java) | 简单 | 模拟 | 字符串、双指针 |
-|2047| 句子中的有效单词数 | [NumValidWords](src/com/leetcode/L1901_2000/L2047/NumValidWords.java) | 简单 | 模拟 | 字符串 |
+|2047| 句子中的有效单词数 | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java) | 简单 | 模拟 | 字符串 |
 |2114| 句子中的最多单词数 | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java) | 简单 | 模拟 | 数组、字符串 |
 
 ## 4. **_二叉树系列_**
