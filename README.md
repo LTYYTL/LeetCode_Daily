@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**873**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**874**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -244,6 +244,7 @@
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |859| 亲密字符串 | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java) | 简单 | 模拟 | 字符串、哈希表 |
+|884| 两句话中的不常见单词 | [UncommonWordsSentences](src/com/leetcode/L801_900/L0884/UncommonWordsSentences.java) | 简单 | map映射 | 字符串、哈希表 |
 |917| 仅仅反转字母 | [ReverseOnlyLetters](src/com/leetcode/L901_1000/L0917/ReverseOnlyLetters.java) | 简单 | 双指针 | 字符串、双指针 |
 |921| 使括号有效的最少添加 | [MinParenthesesValid](src/com/leetcode/L901_1000/L0921/MinParenthesesValid.java) | 中等 | 模拟 | 字符串、栈、贪心算法 |
 |925| 长按键入 | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java) | 简单 | 双指针 | 字符串 |
