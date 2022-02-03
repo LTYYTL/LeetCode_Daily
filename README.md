@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**874**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**880**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -130,8 +130,10 @@
 |1705| 吃苹果的最大数目 | [MaxEatenApples](src/com/leetcode/L1701_1800/L1705/MaxEatenApples.java) | 中等 | 堆 | 数组、堆、贪心算法 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1701_1800/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
 |1713| 得到子序列的最少操作次数 | [MinimumOperationsMakeSubsequence](src/com/leetcode/L1701_1800/L1713/MinimumOperationsMakeSubsequence.java) | 困难 | 二分查找 | 数组、哈希表、贪心算法、二分查找 |
+|1725| 可以形成最大正方形的矩形数目 | [CountGoodRectangles](src/com/leetcode/L1701_1800/L1725/CountGoodRectangles.java) | 简单 | 模拟 | 数组 |
 |1738| 找出第 K 大的异或坐标值 | [FindKthLargestXORCoordinateValue](src/com/leetcode/L1701_1800/L1738/FindKthLargestXORCoordinateValue.java) | 中等 | 前缀和 | 数组 |
-|1743| 从相邻元素对还原数组 | [RestoreArrayFromAdjacentPairs](src/com/leetcode/L1701_1800/L1743/RestoreArrayFromAdjacentPairs.java) | 中等 |Map映射 | 数组、哈希表 |
+|1743| 从相邻元素对还原数组 | [RestoreArrayFromAdjacentPairs](src/com/leetcode/L1701_1800/L1743/RestoreArrayFromAdjacentPairs.java) | 中等 | Map映射 | 数组、哈希表 |
+|1765| 地图中的最高点 | [MapHighestPeak](src/com/leetcode/L1701_1800/L1765/MapHighestPeak.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |1800| 最大升序子数组和 | [MaximumAscendingSubarraySum](src/com/leetcode/L1701_1800/L1800/MaximumAscendingSubarraySum.java) | 简单 | 双指针 | 数组、双指针 |
 |1801| 积压订单中的订单总数 | [NumberOrdersBacklog](src/com/leetcode/L1801_1900/L1801/NumberOrdersBacklog.java) | 中等 | 堆 | 堆、贪心算法 |
 |1818| 绝对差值和 | [MinimumAbsoluteSumDifference](src/com/leetcode/L1801_1900/L1818/MinimumAbsoluteSumDifference.java) | 中等 | 二分查找 | 数组、贪心算法、二分查找、有序集合 |
@@ -154,6 +156,8 @@
 |2022| 将一维数组转变成二维数组 | [Convert1DInto2D](src/com/leetcode/L2001_2100/L2022/Convert1DInto2D.java) | 简单 | 模拟 | 数组、矩阵、模拟 |
 |2029| 石子游戏 IX | [StoneGameIX](src/com/leetcode/L2001_2100/L2029/StoneGameIX.java) | 中等 | 博弈论 | 数组、数学、计数、贪心算法、博弈论 |
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
+|2154| 将找到的值乘以 2 | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java) | 简单 | set集合 | 数组、哈希表、排序、模拟 |
+|2155| 分组得分最高的所有下标 | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java) | 中等 | 前缀和 | 数组 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -265,6 +269,7 @@
 |1629| 按键持续时间最长的键 | [SlowestKey](src/com/leetcode/L1601_1700/L1629/SlowestKey.java) | 简单 | 模拟 | 数组、字符串 |
 |1684| 统计一致字符串的数目 | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java) | 中等 | set集合 | 数组、字符串、哈希表、位运算 |
 |1736| 替换隐藏数字得到的最晚时间 | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java) | 简单 | 模拟 | 字符串 |
+|1763| 最长的美好子字符串 | [LongNiceSub](src/com/leetcode/L1701_1800/L1763/LongNiceSub.java) | 简单 | 模拟 | 字符串、哈希表、位运算、滑动窗口 |
 |1773| 统计匹配检索规则的物品数量 | [CountMatchRule](src/com/leetcode/L1701_1800/L1773/CountMatchRule.java) | 简单 | 模拟 | 数组、字符串 |
 |1816| 截断句子 | [TruncateSentence](src/com/leetcode/L1801_1900/L1816/TruncateSentence.java) | 简单 | 模拟 | 数组、字符串 |
 |1832| 判断句子是否为全字母句 | [CheckSentenceIsPangram](src/com/leetcode/L1801_1900/L1832/CheckSentenceIsPangram.java) | 简单 | Set集合 | 字符串 |
@@ -484,7 +489,7 @@
 |860| 柠檬水找零 | [LemonadeChange](src/com/leetcode/L801_900/L0860/LemonadeChange.java) | 简单 | 贪心算法 | 数组、贪心算法 |
 |861| 翻转矩阵后的得分 | [ScoreAfterFlippingMatrix](src/com/leetcode/L801_900/L0861/ScoreAfterFlippingMatrix.java) | 中等 | 贪心算法 | 数组、贪心算法 |
 |1005| K 次取反后最大化的数组和 | [MaximizeSumArrayKNegations](src/com/leetcode/L1001_1100/L1005/MaximizeSumArrayKNegations.java) | 简单 | 贪心算法 | 数组、贪心算法、排序 |
-|1296| 划分数组为连续数字的集合 | [DivideArrKConsecutive](src/com/leetcode/L1201_1300/L1296/DivideArrKConsecutive.java) | 中等 | 贪心算法 | 数组、哈希表、排序、贪心算法 |
+|1414| 和为 K 的最少斐波那契数字数目 | [FindMinFibSumK](src/com/leetcode/L1401_1500/L1414/FindMinFibSumK.java) | 中等 | 贪心算法 | 贪心算法 |
 |1689| 十-二进制数的最少数目 | [Ten_TwoMin](src/com/leetcode/L1601_1700/L1689/Ten_TwoMin.java) | 中等 | 贪心算法 | 字符串、贪心算法 |
 |1881| 插入后的最大值 | [MaximumValueInsertion](src/com/leetcode/L1801_1900/L1881/MaximumValueInsertion.java) | 中等 | 贪心算法 | 贪心算法 |
 
