@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**884**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**885**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -560,7 +560,8 @@
 |1281| 整数的各位积和之差 | [SubProAndSum](src/com/leetcode/L1201_1300/L1281/SubProAndSum.java) | 简单 | 数学 | 数学 |
 |1310| 子数组异或查询 | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java) | 中等 | 暴力法、前缀和 | 位运算 |
 |1342| 将数字变成 0 的操作次数 | [StepsReduceZero](src/com/leetcode/L1301_1400/L1342/StepsReduceZero.java) | 简单 | 数学 | 数学、位运算 |
-|1518| 换酒问题| [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
+|1447| 最简分数 | [SimplifiedFractions](src/com/leetcode/L1401_1500/L1447/SimplifiedFractions.java) | 中等 | 数学 | 字符串、数学、数论 |
+|1518| 换酒问题 | [WaterBottles](src/com/leetcode/L1501_1600/L1518/WaterBottles.java) | 简单 | 数学 | 数学、模拟 |
 |1572| [矩阵对角线元素的和](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.md) | [MatrixDiagonalSum](src/com/leetcode/L1501_1600/L1572/MatrixDiagonalSum.java) | 简单 | 数学 | 数组 |
 |1573| 分割字符串的方案数 | [SplitStringNum](src/com/leetcode/L1501_1600/L1573/SplitStringNum.java) | 中等 | 数学 | 字符串 |
 |1588| 所有奇数长度子数组的和 | [SumAllOddLengthSubarrays](src/com/leetcode/L1501_1600/L1588/SumAllOddLengthSubarrays.java) | 简单 | 数学、前缀和 | 数组、前缀和 |
