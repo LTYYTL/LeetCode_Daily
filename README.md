@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**885**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**886**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -150,6 +150,7 @@
 |1913| 两个数对之间的最大乘积差 | [MaxDiffTwoPairs](src/com/leetcode/L1901_2000/L1913/MaxDiffTwoPairs.java) | 简单 | 排序 | 数组、排序 |
 |1920| 基于排列构建数组 | [BuildArrayPermutation](src/com/leetcode/L1901_2000/L1920/BuildArrayPermutation.java) | 简单 | 模拟 | 数组、模拟 |
 |1929| 数组串联 | [ConcatenationArray](src/com/leetcode/L1901_2000/L1929/ConcatenationArray.java) | 简单 | 模拟 | 数组 |
+|1984| 学生分数的最小差值 | [MinKScores](src/com/leetcode/L1901_2000/L1984/MinKScores.java) | 简单 | 排序 | 数组、排序、滑动窗口 |
 |1995| 统计特殊四元组 | [CountSpecialQuadruplets](src/com/leetcode/L1901_2000/L1995/CountSpecialQuadruplets.java) | 简单 | 暴力法、map映射 | 数组、数学 |
 |1996| 游戏中弱角色的数量 | [NumWeakCharacters](src/com/leetcode/L1901_2000/L1996/NumWeakCharacters.java) | 中等 | 排序 | 数组、栈、单调栈、排序、贪心算法 |
 |2006| 差的绝对值为 K 的数对数目 | [CountAbsDiffK](src/com/leetcode/L2001_2100/L2006/CountAbsDiffK.java) | 简单 | 暴力法、map映射 | 数组 |
