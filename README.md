@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**889**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**896**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -148,6 +148,8 @@
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
 |2154| 将找到的值乘以 2 | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java) | 简单 | set集合 | 数组、哈希表、排序、模拟 |
 |2155| 分组得分最高的所有下标 | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java) | 中等 | 前缀和 | 数组 |
+|2170| 使数组变成交替数组的最少操作数 | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java) | 中等 | map映射 | 数组、哈希表、计数、贪心算法 |
+|2171| 拿出最少数目的魔法豆 | [RemoveMinBeans](src/com/leetcode/L2101_2200/L2171/RemoveMinBeans.java) | 中等 | 排序 | 数组、前缀和、排序 |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -247,6 +249,7 @@
 |1047| 删除字符串中的所有相邻重复项 | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1001_1100/L1047/RemoveAllAdjacentDuplicatesString.java) | 简单 | 栈 | 栈 |
 |1078| Bigram 分词 | [OccurrencesBigram](src/com/leetcode/L1001_1100/L1078/OccurrencesBigram.java) | 简单 | 模拟 | 字符串 |
 |1108| IP 地址无效化 | [DefangingIP](src/com/leetcode/L1101_1200/L1108/DefangingIP.java) | 简单 | 模拟 | 字符串 |
+|1189| “气球” 的最大数量 | [MaxNumberBalloons](src/com/leetcode/L1101_1200/L1189/MaxNumberBalloons.java) | 简单 | map映射 | 字符串、哈希表、计数 |
 |1190| 反转每对括号间的子串 | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |1221| 分割平衡字符串 | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java) | 简单 | 计数 | 字符串、贪心算法、计数 |
 |1332| 删除回文子序列 | [RemovePalindromicSub](src/com/leetcode/L1301_1400/L1332/RemovePalindromicSub.java) | 简单 | 模拟 | 字符串、双指针 |
@@ -351,6 +354,7 @@
 |1034| 边界着色 | [ColoringBorder](src/com/leetcode/L1001_1100/L1034/ColoringBorder.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、深度优先搜索 |
 |1254| 统计封闭岛屿的数目 | [NumberClosedIslands](src/com/leetcode/L1201_1300/L1254/NumberClosedIslands.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、广度优先搜索、深度优先搜索 |
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、矩阵、堆、二分查找、排列 |
+|1380| 矩阵中的幸运数 | [LuckyNumbersMatrix](src/com/leetcode/L1301_1400/L1380/LuckyNumbersMatrix.java) | 简单 | 模拟 | 数组、矩阵 |
 |1672| 最富有客户的资产总量 | [RichCustomerWealth](src/com/leetcode/L1601_1700/L1672/RichCustomerWealth.java) | 简单 | 模拟 | 数组、矩阵 |
 |1765| 地图中的最高点 | [MapHighestPeak](src/com/leetcode/L1701_1800/L1765/MapHighestPeak.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |1886| 判断矩阵经轮转后是否一致 | [DetermineWhetherMatrixRotation](src/com/leetcode/L1801_1900/L1886/DetermineWhetherMatrixRotation.java) | 简单 | 模拟 | 数组、矩阵 |
@@ -375,6 +379,7 @@
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
 |1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 |1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
+|1791| 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java) | 简单 | 图 |
 |2045| 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、最短路 |
 
 ## 7. **_并查集系列_**
@@ -440,6 +445,7 @@
 |650| 只有两个键的键盘 | [KeysKeyboard](src/com/leetcode/L601_700/L0650/KeysKeyboard.java) | 中等 | 动态规划 | 动态规划、数学 |
 |664| 奇怪的打印机 | [StrangePrinter](src/com/leetcode/L601_700/L0664/StrangePrinter.java) | 困难 | 动态规划 | 动态规划、深度优先搜索 |
 |673| 最长递增子序列的个数 | [NumberLongestIncreasingSubsequence](src/com/leetcode/L601_700/L0673/NumberLongestIncreasingSubsequence.java) | 中等 | 动态规划 | 数组、树状数组、线段树、动态规划 |
+|688| 骑士在棋盘上的概率 | [KProbabilityChessboard](src/com/leetcode/L601_700/L0688/KProbabilityChessboard.java) | 中等 | 动态规划 | 动态规划 |
 |714| 买卖股票的最佳时机含手续费 | [StockWithFee](src/com/leetcode/L701_800/L0714/StockWithFee.java) | 中等 | 动态规划 | 数组、贪心算法、动态规划 |
 |740| 删除并获得点数 | [DeleteAndEarn](src/com/leetcode/L701_800/L0740/DeleteAndEarn.java) | 中等 | 动态规划 | 动态规划 |
 |746| 使用最小花费爬楼梯 | [MinCostClimbingStairs](src/com/leetcode/L701_800/L0746/MinCostClimbingStairs.java) | 简单 | 动态规划 | 数组、动态规划 |
@@ -584,7 +590,8 @@
 |1860| 增长的内存泄露 | [IncrementalMemoryLeak](src/com/leetcode/L1801_1900/L1860/IncrementalMemoryLeak.java) | 中等 | 数学 | 数学 |
 |1880| 检查某单词是否等于两单词之和 | [CheckWordEqualsSummationTwoWords](src/com/leetcode/L1801_1900/L1880/CheckWordEqualsSummationTwoWords.java) | 简单 | 数学 | 字符串 |
 |1893| 检查是否区域内所有整数都被覆盖 | [CheckAllIntegersRangeAreCovered](src/com/leetcode/L1801_1900/L1893/CheckAllIntegersRangeAreCovered.java) | 简单 | set集合、映射 | 数组、哈希表、前缀和 |
-|2001| 可互换矩形的组数 | [NumberPairsInterchangeableRectangles](src/com/leetcode/L2001_2100/L2001/NumberPairsInterchangeableRectangles.java) | 中等 | 数学 | -- |
+|2001| 可互换矩形的组数 | [NumberPairsInterchangeableRectangles](src/com/leetcode/L2001_2100/L2001/NumberPairsInterchangeableRectangles.java) | 中等 | 数学 | 数组、哈希表、数学、计数、数论 |
+|2169| 得到 0 的操作数 | [CountOperationsZero](src/com/leetcode/L2101_2200/L2169/CountOperationsZero.java) | 简单 | 数学 | 数学、模拟 |
 
 ## 12. **_位运算方法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
