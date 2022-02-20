@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**896**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**897**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -81,6 +81,7 @@
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L601_700/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L701_800/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
+|717| 1比特与2比特字符 | [BitCharacters](src/com/leetcode/L701_800/L0717/BitCharacters.java) | 简单 | 模拟 | 数组 |
 |735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
 |747| 至少是其他数字两倍的最大数 | [NumberTwiceOthers](src/com/leetcode/L701_800/L0747/NumberTwiceOthers.java) | 简单 | 模拟 | 数组、排序 |？
