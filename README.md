@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**897**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**900**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -238,6 +238,7 @@
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |820| 单词的压缩编码 | [ShortEncodingWords](src/com/leetcode/L801_900/L0820/ShortEncodingWords.java) | 中等 | Set集合、字典树 | 数组、字符串、哈希表、字典树 |
+|838| 推多米诺 | [PushDominoes](src/com/leetcode/L801_900/L0838/PushDominoes.java) | 中等 | 双指针 | 字符串、双指针、动态规划 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
 |859| 亲密字符串 | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java) | 简单 | 模拟 | 字符串、哈希表 |
@@ -281,6 +282,7 @@
 |95| 不同的二叉搜索树II | [UniqueBSTII](src/com/leetcode/L1_100/L0095/UniqueBSTII.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、回溯算法、动态规划 |
 |96| 不同的二叉搜索树 | [UniqueBST](src/com/leetcode/L1_100/L0096/UniqueBST.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、数学、动态规划 |
 |98| 验证二叉搜索树 | [ValidateBinarySearchTree](src/com/leetcode/L1_100/L0098/ValidateBinarySearchTree.java) | 中等 | 递归 | 栈、树、哈希表 |
+|100| 相同的树 | [SameTree](src/com/leetcode/L1_100/L0100/SameTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |101| 对称的二叉树 | [SymmetricBinaryTree](src/com/leetcode/L101_200/L0101/SymmetricBinaryTree.java) | 简单 | 递归 | 树、二叉树、广度优先搜索、深度优先搜索 |
 |102| [二叉树的层序遍历](src/com/leetcode/L101_200/L0102/LevelOrder.md) | [LevelOrder](src/com/leetcode/L101_200/L0102/LevelOrder.java) | 中等 | 递归、广度优先搜索 | 树、广度优先搜索 |
 |103| 二叉树的锯齿形层序遍历 | [BTreeZigzagLevelOrderTraversal](src/com/leetcode/L101_200/L0103/BTreeZigzagLevelOrderTraversal.java) | 中等 | 递归、广度优先搜索 | 树、广度优先搜索 |
@@ -335,7 +337,6 @@
 |1104| 二叉树寻路 | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java) | 中等 | 数学 | 树、二叉树、数学 |
 |1382| 将二叉搜索树变平衡 | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索 |
 |1609| 奇偶树 | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
-
 
 ## 5. **_矩阵系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -488,6 +489,7 @@
 |306| 累加数 | [AdditiveNumber](src/com/leetcode/L301_400/L0306/AdditiveNumber.java) | 中等 | 回溯算法 | 字符串、回溯算法 |
 |488| 祖玛游戏 | [ZumaGame](src/com/leetcode/L401_500/L0488/ZumaGame.java) | 困难 | 回溯算法 | 字符串、回溯算法 |
 |526| 优美的排列 | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java) | 中等 | 回溯算法、动态规划 | 数组、位运算、回溯算法、动态规划、状态压缩 |
+|698| 划分为k个相等的子集 | [PartitionKEqualSum](src/com/leetcode/L601_700/L0698/PartitionKEqualSum.java) | 中等 | 回溯算法 | 数组、位运算、回溯算法、动态规划、状态压缩、记忆化搜索 |
 |784| 字母大小写全排列 | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java) | 中等 | 回溯算法 | 字符串、位运算、回溯算法 |
 |869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
 |1219| 黄金矿工 | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java) | 中等 | 回溯算法 | 数组、矩阵、回溯算法 |
