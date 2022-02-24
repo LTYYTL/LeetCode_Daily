@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**900**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**901**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -358,6 +358,7 @@
 |1337| 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java) | 简单 | 堆+二分查找 | 数组、矩阵、堆、二分查找、排列 |
 |1380| 矩阵中的幸运数 | [LuckyNumbersMatrix](src/com/leetcode/L1301_1400/L1380/LuckyNumbersMatrix.java) | 简单 | 模拟 | 数组、矩阵 |
 |1672| 最富有客户的资产总量 | [RichCustomerWealth](src/com/leetcode/L1601_1700/L1672/RichCustomerWealth.java) | 简单 | 模拟 | 数组、矩阵 |
+|1706| 球会落何处 | [WhereWillBallFall](src/com/leetcode/L1701_1800/L1706/WhereWillBallFall.java) | 中等 | 深度优先搜索 | 数组、矩阵、深度优先搜索、模拟、动态规划 | 
 |1765| 地图中的最高点 | [MapHighestPeak](src/com/leetcode/L1701_1800/L1765/MapHighestPeak.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索 |
 |1886| 判断矩阵经轮转后是否一致 | [DetermineWhetherMatrixRotation](src/com/leetcode/L1801_1900/L1886/DetermineWhetherMatrixRotation.java) | 简单 | 模拟 | 数组、矩阵 |
 |1905| 统计子岛屿 | [CountSubIslands](src/com/leetcode/L1901_2000/L1905/CountSubIslands.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、广度优先搜索、深度优先搜索 |
@@ -682,15 +683,15 @@
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 |LCP39| 无人机方阵 | [UAVPhalanx](src/com/LCP/L0039/UAVPhalanx.java) | 简单 | map映射 | -- |
 
-## [16. **_程序员面试金典_**（共计80/109题）](src/com/readme/interview.md)
+## [16. **_程序员面试金典_**（共计80/109题）](src/com/interview/interview.md)
 
-## [17. **_剑指offer_**（共计75/75题）](src/com/readme/Offer.md)
+## [17. **_剑指offer_**（共计75/75题）](src/com/offer/Offer.md)
 
-## [18. **_剑指offerII_**（共计119/119题）](src/com/readme/OfferII.md)
+## [18. **_剑指offerII_**（共计119/119题）](src/com/offerII/OfferII.md)
 
-## [19. **_微软题_**（共计2/3题）](src/com/readme/LCS.md)
+## [19. **_微软题_**（共计2/3题）](src/com/LCS/LCS.md)
 
-## [20. **_美团题_**（未计总数）](src/com/readme/meituan.md)
+## [20. **_美团题_**（未计总数）](src/com/meituan/meituan.md)
 
 ## 21. **_数据库_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
