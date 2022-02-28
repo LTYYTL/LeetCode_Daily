@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**903**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**904**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -616,6 +616,7 @@
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
+|1601| 最多可达成的换楼请求数目 | [MaxAchievableRequests](src/com/leetcode/L1601_1700/L1601/MaxAchievableRequests.java) |困难 | 位运算 | 数组、位运算、回溯算法、枚举 |
 |1720| 解码异或后的数组 | [DecodeXORedArray](src/com/leetcode/L1701_1800/L1720/DecodeXORedArray.java) | 简单 | 位运算 | 位运算 |
 |1734| 解码异或后的排列 | [DecodeXORedPermutation](src/com/leetcode/L1701_1800/L1734/DecodeXORedPermutation.java) | 简单 | 位运算 | 位运算 |
 
