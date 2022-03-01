@@ -183,6 +183,7 @@
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
 |5| 最长回文子串 | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java) | 中等 | 模拟 | 字符串、动态规划 |
+|6| Z 字形变换 | [ZigZagConversion](src/com/leetcode/L1_100/L0006/ZigZagConversion.java) | 中等 | 模拟 | 字符串 |？
 |8| 字符串转换整数 (atoi) | [StringToInteger](src/com/leetcode/L1_100/L0008/StringToInteger.java) | 中等 | 模拟 | 字符串 |
 |14| 最长公共前缀 | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java) | 简单 | 分治法 | 字符串 |
 |20| 有效的括号 | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java) | 简单 | 栈 | 栈、字符串 |
