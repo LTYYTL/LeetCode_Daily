@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**904**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**905**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -226,6 +226,7 @@
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
 |551| 学生出勤记录 I | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java) | 简单 | 模拟 | 字符串 |
 |557| 反转字符串中的单词 III | [ReverseWordsIII](src/com/leetcode/L501_600/L0557/ReverseWordsIII.java) | 简单 | 双指针 | 字符串、双指针 |
+|564| 寻找最近的回文数 | [FindClosestPalindrome](src/com/leetcode/L501_600/L0564/FindClosestPalindrome.java) | 困难 | 模拟 | 字符串、数学 |
 |648| 单词替换 | [ReplaceWords](src/com/leetcode/L601_700/L0648/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
 |649| Dota2 参议院 | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java) | 中等 | 队列 | 字符串、队列、贪心算法 |
 |678| 有效的括号字符串 | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java) | 中等 | 栈 | 字符串、栈、贪心算法、动态规划 |
