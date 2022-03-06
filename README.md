@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**905**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**908**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -147,6 +147,7 @@
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
 |2029| 石子游戏 IX | [StoneGameIX](src/com/leetcode/L2001_2100/L2029/StoneGameIX.java) | 中等 | 博弈论 | 数组、数学、计数、贪心算法、博弈论 |
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
+|2104| 子数组范围和 | [SumSubRanges](src/com/leetcode/L2101_2200/L2104/SumSubRanges.java) | 中等 | 双指针 | 数组、栈、单调栈 |
 |2154| 将找到的值乘以 2 | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java) | 简单 | set集合 | 数组、哈希表、排序、模拟 |
 |2155| 分组得分最高的所有下标 | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java) | 中等 | 前缀和 | 数组 |
 |2170| 使数组变成交替数组的最少操作数 | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java) | 中等 | map映射 | 数组、哈希表、计数、贪心算法 |
@@ -221,6 +222,7 @@
 |482| 密钥格式化 | [LicenseKeyFormatting](src/com/leetcode/L401_500/L0482/LicenseKeyFormatting.java) | 简单 | 模拟 | 字符串 |
 |500| 键盘行 | [KeyboardRow](src/com/leetcode/L401_500/L0500/KeyboardRow.java) | 简单 | map映射 | 字符串、数组、哈希表 |
 |520| 检测大写字母 | [DetectCapital](src/com/leetcode/L501_600/L0520/DetectCapital.java) | 简单 | 模拟 | 字符串 |
+|521| 最长特殊序列 Ⅰ | [LongestUncommonSubI](src/com/leetcode/L501_600/L0521/LongestUncommonSubI.java) | 简单 | 模拟 | 字符串 |
 |524| 通过删除字母匹配到字典里最长单词 | [LongestWordDictionaryDeleting](src/com/leetcode/L501_600/L0524/LongestWordDictionaryDeleting.java) | 中等 | 双指针 | 数组、字符串、双指针、排序 |
 |539| 最小时间差 | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java) | 中等 | 排序 | 字符串、数组、排序、数学 |
 |541| 反转字符串 II | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java) | 简单 | 模拟 | 双指针、字符串 |
@@ -467,6 +469,7 @@
 |1218| 最长定差子序列 | [LongestSubsequenceDifference](src/com/leetcode/L1201_1300/L1218/LongestSubsequenceDifference.java) | 中等 | 动态规划 | 数组、哈希表、动态规划 |
 |1269| 停在原地的方案数 | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1201_1300/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java) | 困难 | 动态规划 | 动态规划 |
 |1312| 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1301_1400/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难 | 动态规划 | 动态规划 |
+|2100| 适合打劫银行的日子 | [GoodDaysRob](src/com/leetcode/L2001_2100/L2100/GoodDaysRob.java) | 中等 | 动态规划 | 数组、动态规划、前缀和 |
 
 ## 9. **_回溯算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
