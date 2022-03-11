@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**908**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**911**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -88,6 +88,7 @@
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |786| 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java) | 困难 | 堆 | 数组、二分查找、优先队列 |
+|798| 得分最高的最小轮调 | [SmallestRotationScore](src/com/leetcode/L701_800/L0798/SmallestRotationScore.java) | 困难 | 前缀和 | 数组、前缀和 |
 |815| 公交路线 | [BusRoutes](src/com/leetcode/L801_900/L0815/BusRoutes.java) | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
 |825| 适龄的朋友 | [FriendsAppropriateAges](src/com/leetcode/L801_900/L0825/FriendsAppropriateAges.java) | 中等 | 双指针 | 数组、排序、双指针、二分查找 |
 |830| 较大分组的位置 | [PositionsLargeGroups](src/com/leetcode/L801_900/L0830/PositionsLargeGroups.java) | 简单 | 双指针 | 数组 |
@@ -146,6 +147,7 @@
 |2011| 执行操作后的变量值 | [FinalValueOpe](src/com/leetcode/L2001_2100/L2011/FinalValueOpe.java) | 简单 | 模拟 | 数组、字符串、模拟 |
 |2016| 增量元素之间的最大差值 | [MaxDifferenceElements](src/com/leetcode/L2001_2100/L2016/MaxDifferenceElements.java) | 简单 | 双指针 | 数组 |
 |2029| 石子游戏 IX | [StoneGameIX](src/com/leetcode/L2001_2100/L2029/StoneGameIX.java) | 中等 | 博弈论 | 数组、数学、计数、贪心算法、博弈论 |
+|2055| 蜡烛之间的盘子 | [PlatesBetweenCandles](src/com/leetcode/L2001_2100/L2055/PlatesBetweenCandles.java) | 中等 | 前缀和 | 数组、字符串、前缀和、二分查找 |
 |2089| 找出数组排序后的目标下标 | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java) | 简单 | 二分查找 | 数组、二分查找、排序 |
 |2104| 子数组范围和 | [SumSubRanges](src/com/leetcode/L2101_2200/L2104/SumSubRanges.java) | 中等 | 双指针 | 数组、栈、单调栈 |
 |2154| 将找到的值乘以 2 | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java) | 简单 | set集合 | 数组、哈希表、排序、模拟 |
@@ -341,6 +343,7 @@
 |1104| 二叉树寻路 | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java) | 中等 | 数学 | 树、二叉树、数学 |
 |1382| 将二叉搜索树变平衡 | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java) | 中等 | 递归 | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索 |
 |1609| 奇偶树 | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java) | 中等 | 广度优先搜索 | 树、二叉树、广度优先搜索 |
+|2049| 统计最高分的节点数目 | [CountNodesHighestScore](src/com/leetcode/L2001_2100/L2049/CountNodesHighestScore.java) | 中等 | 深度优先搜索 | 数组、树、二叉树、深度优先搜索 |
 
 ## 5. **_矩阵系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
