@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**911**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**912**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -618,6 +618,7 @@
 |260| 只出现一次的数字 III | [SingleNumberIII](src/com/leetcode/L201_300/L0260/SingleNumberIII.java) | 中等 | 位运算 | 数组、位运算 |
 |342| 4的幂 | [PowerFour](src/com/leetcode/L301_400/L0342/PowerFour.java) | 简单 | 数学、位运算 | 位运算 |
 |389| 找不同 | [FindTheDifference](src/com/leetcode/L301_400/L0389/FindTheDifference.java) | 简单 | 哈希表、求和、位运算 | 位运算、哈希表 |
+|393| UTF-8 编码验证 | [UTF8Validation](src/com/leetcode/L301_400/L0393/UTF8Validation.java) | 中等 | 位运算 | 数组、位运算 |
 |397| 整数替换 | [IntegerReplacement](src/com/leetcode/L301_400/L0397/IntegerReplacement.java) | 中等 | 暴力法、map映射、位运算| 贪心算法、位运算、记忆化搜索、动态规划 |
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
