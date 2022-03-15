@@ -504,6 +504,7 @@
 |869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
 |1219| 黄金矿工 | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java) | 中等 | 回溯算法 | 数组、矩阵、回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
+|2044| 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L1863/CountMaxOR.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 
 ## 10. **_贪心算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
