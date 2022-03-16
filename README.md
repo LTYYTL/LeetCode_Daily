@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**913**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**915**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -504,7 +504,7 @@
 |869| 重新排序得到 2 的幂 | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java) | 中等 | 回溯算法、set集合 | 数学、计数、排序、枚举 |
 |1219| 黄金矿工 | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java) | 中等 | 回溯算法 | 数组、矩阵、回溯算法 |
 |1863| 找出所有子集的异或总和再求和 | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java) | 简单 | 回溯算法 | 回溯算法 |
-|2044| 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L1863/CountMaxOR.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
+|2044| 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L2044/CountMaxOR.java) | 中等 | 回溯算法 | 数组、回溯算法、位运算 |
 
 ## 10. **_贪心算法系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -667,6 +667,7 @@
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
 |382| 链表随机节点 | [Solution](src/com/leetcode/L301_400/L0382/Solution.java) | 中等 | 设计 | 链表、数学、水塘抽样、随机化 |
 |398| 随机数索引 | [Solution](src/com/leetcode/L301_400/L0398/Solution.java) | 中等 | 设计 | 哈希表、数学、水塘抽样、随机化 |
+|432| 全 O(1) 的数据结构 | [AllOne](src/com/leetcode/L401_500/L0432/AllOne.java) | 困难 | 双向链表 | 链表、双向链表、哈希表、设计 |
 |460| LFU 缓存 | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java) | 困难 | 哈希表 | 链表、双向链表、哈希表、设计 |
 |519| 随机翻转矩阵 | [Solution](src/com/leetcode/L501_600/L0519/Solution.java) | 中等 | map映射| 哈希表、数学、随机化、水塘抽样 |
 |676| 实现一个魔法字典 | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java) | 中等 | map映射| 字符串、哈希表、字典树、设计 |
