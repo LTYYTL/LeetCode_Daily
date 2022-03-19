@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**916**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**917**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -324,6 +324,7 @@
 |563| 二叉树的坡度 | [BinaryTreeTilt](src/com/leetcode/L501_600/L0563/BinaryTreeTilt.java) | 简单 | 深度优先搜索 | 树、二叉树、深度优先搜索 |
 |589| N 叉树的前序遍历 | [NTreePreTraversal](src/com/leetcode/L501_600/L0589/NTreePreTraversal.java) | 简单 | 递归 | 树、栈、深度优先搜索 |
 |590| N 叉树的后序遍历 | [NTreePostTraversal](src/com/leetcode/L501_600/L0590/NTreePostTraversal.java) | 简单 | 递归 | 树、栈、深度优先搜索 |
+|606| 根据二叉树创建字符串 | [ConstructStringBST](src/com/leetcode/L601_700/L0606/ConstructStringBST.java) | 简单 | 递归 | 树、二叉树、字符串、深度优先搜索 |
 |617| 合并二叉树 | [MergeTwoBinaryTrees](src/com/leetcode/L601_700/L0617/MergeTwoBinaryTrees.java) | 简单 | 递归 | 树 |
 |637| 二叉树的层平均值 | [BinaryTreeLevelAverage](src/com/leetcode/L601_700/L0637/BinaryTreeLevelAverage.java) | 简单 | 广度优先搜索 | 树 |
 |653| 两数之和 IV - 输入 BST | [TwoSumIV](src/com/leetcode/L601_700/L0653/TwoSumIV.java) | 简单 | 双指针、set集合 | 树、二叉树、二叉搜索树、哈希表、广度优先搜索、深度优先搜索、双指针 |
