@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**917**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**919**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -397,7 +397,8 @@
 |1514| 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java) | 中等 | Dijkstra算法 | 图、最短路、堆 |
 |1584| 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java) | 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 |1631| 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java) | 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
-|1791| 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java) | 简单 | 图 |
+|1791| 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java) | 简单 | 图 | 图 |
+|2039| 网络空闲的时刻 | [TimeNetworkIdle](src/com/leetcode/L2001_2100/L2039/TimeNetworkIdle.java) | 中等 | Dijkstra算法 | 图、数组、广度优先搜索 |
 |2045| 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java) | 困难 | 广度优先搜索 | 图、广度优先搜索、最短路 |
 
 ## 8. **_并查集系列_**
