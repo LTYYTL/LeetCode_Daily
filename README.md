@@ -690,6 +690,7 @@
 |1865| 找出和为指定值的下标对 | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java) | 中等 | 哈希表 | 设计、哈希表 |
 |2013| 检测正方形 | [DetectSquares](src/com/leetcode/L2001_2100/L2013/DetectSquares.java) | 中等 | 哈希表 | 设计、哈希表、数组、计数 |
 |2034| 股票价格波动 | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java) | 中等 | 哈希表 | 设计、哈希表、堆、有序集合、数据流 |
+|2043| 简易银行系统 | [Bank](src/com/leetcode/L2001_2100/L2043/Bank.java) | 中等 | 哈希表 | 设计、数组、哈希表、模拟 |
 
 ## 16. **_力扣杯竞赛题列表_**
 |  #   |      题目      |   类名   |   难度 |  方法   |    备注   |
