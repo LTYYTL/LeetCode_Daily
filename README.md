@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**919**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**922**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -154,6 +154,7 @@
 |2155| 分组得分最高的所有下标 | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java) | 中等 | 前缀和 | 数组 |
 |2170| 使数组变成交替数组的最少操作数 | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java) | 中等 | map映射 | 数组、哈希表、计数、贪心算法 |
 |2171| 拿出最少数目的魔法豆 | [RemoveMinBeans](src/com/leetcode/L2101_2200/L2171/RemoveMinBeans.java) | 中等 | 排序 | 数组、前缀和、排序 |
+|2210| 统计数组中峰和谷的数量 | [CountHillsAndValleys](src/com/leetcode/L2201_2300/L2210/CountHillsAndValleys.java) | 简单 | 双指针 | -- |
 
 ## 2. **_链表系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -277,8 +278,10 @@
 |1859| 将句子排序 | [SortingSentence](src/com/leetcode/L1801_1900/L1859/SortingSentence.java) | 简单 | 排序、Map映射、数组 | 字符串、排序 |
 |1876| 长度为三且各字符不同的子字符串 | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1801_1900/L1876/SubstringsSizeThreeDistinctCharacters.java) | 简单 | 双指针 | 字符串 |
 |2000| 反转单词前缀 | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java) | 简单 | 模拟 | 字符串、双指针 |
+|2038| 如果相邻两个颜色均相同则删除当前颜色 | [RemoveColored](src/com/leetcode/L2001_2100/L2038/RemoveColored.java) | 中等 | 双指针 | 字符串、贪心算法、数学、博弈论 |
 |2047| 句子中的有效单词数 | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java) | 简单 | 模拟 | 字符串 |
 |2114| 句子中的最多单词数 | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java) | 简单 | 模拟 | 数组、字符串 |
+|2211| 统计道路上的碰撞次数 | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java) | 中等 | 模拟 | -- |
 
 ## 4. **_二叉树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
