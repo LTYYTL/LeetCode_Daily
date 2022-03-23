@@ -16,19 +16,32 @@ import com.util.ListNode;
  */
 public class RemoveDuplicatesSortedList {
     /**
-     * 方法：迭代
+     * 方法：双指针
      * @param head
      * @return
      */
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode cur = head;
-        while (cur != null && cur.next != null){
-            if (cur.val == cur.next.val){
-                cur.next = cur.next.next;
-            }else {
-                cur = cur.next;
+        //空链表
+        if (head == null)
+            return null;
+
+        //双指针
+        ListNode slow = head;
+        ListNode fast = head;
+        //遍历
+        while (fast != null){
+            //当两个指针的值不等时候
+            if (fast.val != slow.val){
+                //改变链表的指针
+                slow.next = fast;
+                slow = slow.next;
             }
+            //指针后移
+            fast = fast.next;
         }
+        //末尾指向空
+        slow.next = null;
+
         return head;
     }
 }

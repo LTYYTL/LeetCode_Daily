@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**922**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**923**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -165,7 +165,7 @@
 |24| 两两交换链表中的节点 | [SwapNodesInPairs](src/com/leetcode/L1_100/L0024/SwapNodesInPairs.java) | 中等 | 递归、迭代 | 链表 |
 |25| K 个一组翻转链表 | [ReverseNodesKGroup](src/com/leetcode/L1_100/L0025/ReverseNodesKGroup.java) | 困难 | 迭代 | 链表、递归 |
 |82| 删除排序链表中的重复元素 II | [RemoveDuplicatesSortedListII](src/com/leetcode/L1_100/L0082/RemoveDuplicatesSortedListII.java) | 中等 | 迭代 | 链表 |
-|83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L1_100/L0083/RemoveDuplicatesSortedList.java) | 简单 | 迭代 | 链表 |
+|83| 删除排序链表中的重复元素  | [RemoveDuplicatesSortedList](src/com/leetcode/L1_100/L0083/RemoveDuplicatesSortedList.java) | 简单 | 双指针 | 链表 |
 |92| 反转链表 II  | [ReverseLinkedList](src/com/leetcode/L1_100/L0092/ReverseLinkedList.java) | 中等 | 头节点 | 链表 |
 |138| 复制带随机指针的链表  | [CopyListRandomPointer](src/com/leetcode/L101_200/L0138/CopyListRandomPointer.java) | 中等 | map映射 | 链表、哈希表 |
 |141| 环形链表  | [LinkedListCycle](src/com/leetcode/L101_200/L0141/LinkedListCycle.java) | 简单 | 双指针、set集合 | 链表、双指针 |
@@ -351,6 +351,7 @@
 ## 5. **_字典树系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
 | ---- | ------------- | ------- | ----- | ------ | --------- |
+|440| 字典序的第K小数字 | [KSmallestOrder](src/com/leetcode/L401_500/L0440/KSmallestOrder.java) | 简单 | 模拟 | 字典树 |
 |472| 连接词 | [ConcatenatedWords](src/com/leetcode/L401_500/L0472/ConcatenatedWords.java) | 困难 | 字典树+深度优先搜索 | 数组、字符串、字典树、深度优先搜索、动态规划 |
 |648| 单词替换 | [ReplaceWords](src/com/leetcode/L601_700/L0648/ReplaceWords.java) | 中等 | 字典树 | 字符串、哈希表、字典树、数组 |
 |720| 词典中最长的单词 | [LongestWordDictionary](src/com/leetcode/L701_800/L0720/LongestWordDictionary.java) | 简单 | 字典树 | 字符串、哈希表、字典树、数组、排序 |

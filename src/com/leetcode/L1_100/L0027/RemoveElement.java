@@ -29,18 +29,22 @@ public class RemoveElement {
      * @return
      */
     public int removeElement(int[] nums, int val) {
-        int j = nums.length - 1;
-        for (int i = 0; i <= j; i++) {
-            if (nums[i] == val) {
-                swap(nums, i--, j--);
+        //双指针
+        int fast = 0;
+        int slow = 0;
+        //遍历
+        while (fast < nums.length){
+            //不等于给定值
+            if (nums[fast] != val){
+                //放在前面
+                nums[slow] = nums[fast];
+                //指针后移
+                slow++;
             }
+            //指针后移
+            fast++;
         }
-        return j + 1;
-    }
-    private void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
+        return slow;
     }
 
 }
