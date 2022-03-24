@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**923**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**924**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -365,6 +365,7 @@
 |407| 接雨水 II | [TrappingRainWaterII](src/com/leetcode/L401_500/L0407/TrappingRainWaterII.java) | 困难 | 堆 | 数组、堆、矩阵、广度优先搜索 |
 |419| 甲板上的战舰 | [BattleshipsBoard](src/com/leetcode/L401_500/L0419/BattleshipsBoard.java) | 中等 | 模拟 | 数组、矩阵、深度优先搜索 |
 |542| 01 矩阵 | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java) | 中等 | 广度优先搜索 | 数组、矩阵、广度优先搜索、动态规划 |
+|661| 图片平滑器 | [ImageSmoother](src/com/leetcode/L601_700/L0661/ImageSmoother.java) | 简单 | 模拟 | 数组、矩阵 |
 |694| 不同的岛屿数量 | [NumberDistinctIslands](src/com/leetcode/L601_700/L0694/NumberDistinctIslands.java) | 中等 | 深度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |*
 |695| 岛屿的最大面积 | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java) | 中等 | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索 |
 |733| 图像渲染 | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java) | 简单 | 广度优先搜索 | 数组、矩阵、深度优先搜索、广度优先搜索 |
