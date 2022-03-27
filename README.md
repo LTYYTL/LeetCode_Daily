@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**924**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**927**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -77,6 +77,7 @@
 |630| 课程表 III | [CourseScheduleIII](src/com/leetcode/L601_700/L0630/CourseScheduleIII.java) | 困难 | 堆 | 数组、堆、贪心算法 |
 |643| 子数组最大平均数I | [MaximumAverageSubarrayI](src/com/leetcode/L601_700/L0643/MaximumAverageSubarrayI.java) | 简单 | 双指针 | 数组 |
 |645| 错误的集合 | [SetMismatch](src/com/leetcode/L601_700/L0645/SetMismatch.java) | 简单 | set集合 | 数组、哈希表、排序、位运算 |
+|682| 棒球比赛 | [BaseballGame](src/com/leetcode/L601_700/L0682/BaseballGame.java) | 简单 | 栈 | 数组、栈、模拟 |
 |690| 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java) | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 |692| 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L601_700/L0692/TopKFrequentWords.java) | 中等 | 最小堆 | 堆、哈希表、字典树 |
 |704| 二分查找 | [BinarySearch](src/com/leetcode/L701_800/L0704/BinarySearch.java) | 简单 | 二分查找 | 数组、二分查找 |
@@ -558,6 +559,7 @@
 |166| 分数到小数 | [FractionRecurringDecimal](src/com/leetcode/L101_200/L0166/FractionRecurringDecimal.java) | 中等 | 数学 | 字符串、哈希表、数学 |
 |168| Excel表列名称 | [ExcelSheetColumnTitle](src/com/leetcode/L101_200/L0168/ExcelSheetColumnTitle.java) | 简单 | 数学 | 字符串、数学 |
 |171| Excel表列序号 | [ExcelSheetColumnNumber](src/com/leetcode/L101_200/L0171/ExcelSheetColumnNumber.java) | 简单 | 数学 | 字符串、数学 |
+|172| 阶乘后的零 | [FactorialTrailingZeroes](src/com/leetcode/L101_200/L0171/FactorialTrailingZeroes.java) | 中等 | 数学 | 数学 |
 |189| 轮转数组 | [RotateArray](src/com/leetcode/L101_200/L0189/RotateArray.java) | 中等 | 数学 | 数组、数学、双指针 |
 |204| 计数质数 | [CountPrimes](src/com/leetcode/L201_300/L0204/CountPrimes.java) | 简单 | 数学 | 数学 |
 |223| 矩形面积 | [RectangleArea](src/com/leetcode/L201_300/L0223/RectangleArea.java) | 中等 | 数学 | 数学、几何 |
@@ -620,6 +622,7 @@
 |1880| 检查某单词是否等于两单词之和 | [CheckWordEqualsSummationTwoWords](src/com/leetcode/L1801_1900/L1880/CheckWordEqualsSummationTwoWords.java) | 简单 | 数学 | 字符串 |
 |1893| 检查是否区域内所有整数都被覆盖 | [CheckAllIntegersRangeAreCovered](src/com/leetcode/L1801_1900/L1893/CheckAllIntegersRangeAreCovered.java) | 简单 | set集合、映射 | 数组、哈希表、前缀和 |
 |2001| 可互换矩形的组数 | [NumberPairsInterchangeableRectangles](src/com/leetcode/L2001_2100/L2001/NumberPairsInterchangeableRectangles.java) | 中等 | 数学 | 数组、哈希表、数学、计数、数论 |
+|2028| 找出缺失的观测数据 | [FindMissingObservations](src/com/leetcode/L2001_2100/L2028/FindMissingObservations.java) | 中等 | 数学 | 数组、数学、模拟 |
 |2169| 得到 0 的操作数 | [CountOperationsZero](src/com/leetcode/L2101_2200/L2169/CountOperationsZero.java) | 简单 | 数学 | 数学、模拟 |
 
 ## 13. **_位运算方法系列_**
