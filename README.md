@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**927**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**928*道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -641,6 +641,7 @@
 |371| 两整数之和 | [SumTwoIntegers](src/com/leetcode/L301_400/L0371/SumTwoIntegers.java) | 中等 | 位运算 | 数学、位运算 |
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
+|693| 交替位二进制数 | [BinaryNumberAlternating](src/com/leetcode/L601_700/L0693/BinaryNumberAlternating.java) | 简单 | 位运算 | 位运算 |
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1601| 最多可达成的换楼请求数目 | [MaxAchievableRequests](src/com/leetcode/L1601_1700/L1601/MaxAchievableRequests.java) |困难 | 位运算 | 数组、位运算、回溯算法、枚举 |
