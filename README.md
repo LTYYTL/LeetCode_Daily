@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**932**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**935**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -120,6 +120,7 @@
 |1480| 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java) | 简单 | 模拟 | 数组、前缀和 |
 |1512| 好数对的数目 | [NumberGoodPairs](src/com/leetcode/L1501_1600/L1512/NumberGoodPairs.java) | 简单 | map映射 | 数组、哈希表、数学、计数 |
 |1583| 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1501_1600/L1583/CountUnhappyFriends.java) | 中等 | 模拟 | 数组、模拟 |
+|1606| 找到处理最多请求的服务器 | [FindServersMostRequests](src/com/leetcode/L1601_1700/L1606/FindServersMostRequests.java) | 中等 | 优先队列+有序集合 | 数组、优先队列、有序集合、贪心算法 |
 |1646| 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java) | 简单 | 模拟 | 数组、模拟、动态规划 |
 |1705| 吃苹果的最大数目 | [MaxEatenApples](src/com/leetcode/L1701_1800/L1705/MaxEatenApples.java) | 中等 | 堆 | 数组、堆、贪心算法 |
 |1711| 大餐计数 | [CountGoodMeals](src/com/leetcode/L1701_1800/L1711/CountGoodMeals.java) | 中等 | map映射 | 数组、哈希表 |
@@ -734,9 +735,11 @@
 |L0176| 第二高的薪水 | [SecondHighestSalary](src/com/sql/L0176/SecondHighestSalary.sql) | 中等 | -- | -- |
 |L0182| 查找重复的电子邮箱 | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql) | 简单 | -- | -- |
 |L0183| 从不订购的客户 | [CustomersNeverOrder](src/com/sql/L0183/CustomersNeverOrder.sql) | 简单 | -- | -- |
+|L0196| 删除重复的电子邮箱 | [DeleteDuplicateEmails](src/com/sql/L0196/DeleteDuplicateEmails.sql) | 简单 | -- | -- |
 |L0584| 寻找用户推荐人 | [FindCustomerReferee](src/com/sql/L0584/FindCustomerReferee.sql) | 简单 | -- | -- |
 |L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |
 |L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
 |L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
 |L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
 |L1757| 可回收且低脂的产品 | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql) | 简单 | -- | -- |
+|L1873| 计算特殊奖金 | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql) | 简单 | -- | -- |
