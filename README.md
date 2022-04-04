@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**935**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**943**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -84,6 +84,7 @@
 |717| 1比特与2比特字符 | [BitCharacters](src/com/leetcode/L701_800/L0717/BitCharacters.java) | 简单 | 模拟 | 数组 |
 |735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
+|744| 寻找比目标字母大的最小字母 | [FindSmallestLetterTarget](src/com/leetcode/L701_800/L0744/FindSmallestLetterTarget.java) | 简单 | 二分查找 | 数组、二分查找 |
 |747| 至少是其他数字两倍的最大数 | [NumberTwiceOthers](src/com/leetcode/L701_800/L0747/NumberTwiceOthers.java) | 简单 | 模拟 | 数组、排序 |？
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
@@ -100,6 +101,7 @@
 |912| 排序数组 | [SortArray](src/com/leetcode/L901_1000/L0912/SortArray.java) | 简单 | 快速排序 | 数组、排序、基数排序、堆、桶排序、分治、计数排序 |？
 |922| 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L901_1000/L0922/SortArrayByParityII.java) | 简单 | 暴力法 | 数组、排序 |
 |946| 验证栈序列 | [ValidateStackSequences](src/com/leetcode/L901_1000/L0946/ValidateStackSequences.java) | 中等 | 模拟 | 数组、栈、模拟 |
+|954| 二倍数对数组 | [ArrayDoubledPairs](src/com/leetcode/L901_1000/L0954/ArrayDoubledPairs.java) | 中等 | map映射 | 数组、哈希表、贪心算法、排序 |
 |969| 煎饼排序 | [PancakeSorting](src/com/leetcode/L901_1000/L0969/PancakeSorting.java) | 中等 | 递归 | 数组、双指针、排序、贪心算法 |
 |973| 最接近原点的 K 个点 | [KClosestPointsOrigin](src/com/leetcode/L901_1000/L0973/KClosestPointsOrigin.java) | 中等 | 最大堆 | 堆、排序、分治算法 |
 |977| 有序数组的平方 | [SquaresSortedArray](src/com/leetcode/L901_1000/L0977/SquaresSortedArray.java) | 简单 | 模拟 | 数组、双指针 |
@@ -597,6 +599,7 @@
 |598| 范围求和 II | [RangeAdditionII](src/com/leetcode/L501_600/L0598/RangeAdditionII.java) | 简单 | 数学 | 数组、数学 |
 |633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
+|728| 自除数 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java) | 简单 | 数学 | 数学 |
 |789| 逃脱阻碍者 | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java) | 中等 | 数学 | 数组、数学 |
 |810| 黑板异或游戏 | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java) | 困难 | 数学 | 数学 |
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |
@@ -681,6 +684,7 @@
 |297| 二叉树的序列化与反序列化 | [Codec](src/com/leetcode/L201_300/L0297/Codec.java) | 困难 | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
 |303| 区域和检索 - 数组不可变 | [NumArray](src/com/leetcode/L301_400/L0303/NumArray.java) | 简单 | 前缀和 | 数组、前缀和、设计 |
 |304| 二维区域和检索 - 矩阵不可变 | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java) | 中等 | 前缀和 | 数组、矩阵、前缀和、设计 |
+|307| 区域和检索 - 数组可修改 | [NumArray](src/com/leetcode/L301_400/L0307/NumArray.java) | 中等 | 线段树 | 数组、线段树、树状数组、设计 |
 |341| 扁平化嵌套列表迭代器 | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java) | 中等 | 递归| 树、栈、队列、设计、深度优先搜索、迭代器 |
 |352| 将数据流变为多个不相交区间 | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java) | 困难 | 并查集 | 有序集合、二分查找、设计 |
 |380| O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java) | 中等 | list集合| 数组、哈希表、数学、设计、随机化 |
@@ -741,5 +745,9 @@
 |L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
 |L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
 |L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
+|L1484| 按日期分组销售产品 | [GroupProduct](src/com/sql/L1484/GroupProduct.sql) | 简单 | -- | -- |
+|L1527| 患某种疾病的患者 | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql) | 简单 | -- | -- |
+|L1667| 修复表中的名字 | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql) | 简单 | -- | -- |
 |L1757| 可回收且低脂的产品 | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql) | 简单 | -- | -- |
 |L1873| 计算特殊奖金 | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql) | 简单 | -- | -- |
+|L1965| 丢失信息的雇员 | [EmployeesMissingInfo](src/com/sql/L1965/EmployeesMissingInfo.sql) | 简单 | -- | -- |
