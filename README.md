@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**943**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**948**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -646,6 +646,7 @@
 |476| 数字的补数 | [NumberComplement](src/com/leetcode/L401_500/L0476/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |477| 汉明距离总和 | [TotalHammingDistance](src/com/leetcode/L401_500/L0477/TotalHammingDistance.java) | 中等 | 双指针、位运算 | 位运算 |
 |693| 交替位二进制数 | [BinaryNumberAlternating](src/com/leetcode/L601_700/L0693/BinaryNumberAlternating.java) | 简单 | 位运算 | 位运算 |
+|762| 二进制表示中质数个计算置位 | [PrimeNumberBits](src/com/leetcode/L701_800/L0762/PrimeNumberBits.java) | 简单 | 位运算 | 位运算、数学 |
 |1009| 十进制整数的反码 | [NumberComplement](src/com/leetcode/L1001_1100/L1009/NumberComplement.java) | 简单 | 位运算 | 位运算 |
 |1486| 数组异或操作 | [XOROperationArray](src/com/leetcode/L1401_1500/L1486/XOROperationArray.java) | 简单 | 位运算 | 数组、位运算 |
 |1601| 最多可达成的换楼请求数目 | [MaxAchievableRequests](src/com/leetcode/L1601_1700/L1601/MaxAchievableRequests.java) |困难 | 位运算 | 数组、位运算、回溯算法、枚举 |
@@ -743,11 +744,15 @@
 |L0584| 寻找用户推荐人 | [FindCustomerReferee](src/com/sql/L0584/FindCustomerReferee.sql) | 简单 | -- | -- |
 |L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |
 |L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
+|L0608| 树节点 | [TreeNode](src/com/sql/L0608/TreeNode.sql) | 中等 | -- | -- |
 |L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
 |L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
+|L1148| 文章浏览 I | [ArticleViewsI](src/com/sql/L1148/ArticleViewsI.sql) | 简单 | -- | -- |
 |L1484| 按日期分组销售产品 | [GroupProduct](src/com/sql/L1484/GroupProduct.sql) | 简单 | -- | -- |
 |L1527| 患某种疾病的患者 | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql) | 简单 | -- | -- |
+|L1581| 进店却未进行过交易的顾客 | [CustomerVisitedTransactions](src/com/sql/L1581/CustomerVisitedTransactions.sql) | 简单 | -- | -- |
 |L1667| 修复表中的名字 | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql) | 简单 | -- | -- |
 |L1757| 可回收且低脂的产品 | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql) | 简单 | -- | -- |
+|L1795| 每个产品在不同商店的价格 | [RearrangeProducts](src/com/sql/L1795/RearrangeProducts.sql) | 简单 | -- | -- |
 |L1873| 计算特殊奖金 | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql) | 简单 | -- | -- |
 |L1965| 丢失信息的雇员 | [EmployeesMissingInfo](src/com/sql/L1965/EmployeesMissingInfo.sql) | 简单 | -- | -- |
