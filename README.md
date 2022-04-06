@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**948**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**958**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -394,6 +394,7 @@
 |127| 单词接龙 | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java) | 中等 | 广度优先搜索 | 字符串、哈希表、广度优先搜索 |
 |207| 课程表 | [CourseSchedule](src/com/leetcode/L201_300/L0207/CourseSchedule.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |210| 课程表 II | [CourseScheduleII](src/com/leetcode/L201_300/L0210/CourseScheduleII.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+|310| 最小高度树 | [MinHeightTrees](src/com/leetcode/L301_400/L0310/MinHeightTrees.java) | 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
 |743| 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L701_800/L0743/NetworkDelayTime.java) | 中等 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 |785| 判断二分图 | [IsGraphBipartite](src/com/leetcode/L701_800/L0785/IsGraphBipartite.java) | 中等 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、并查集 |
 |787| K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java) | 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
@@ -741,18 +742,27 @@
 |L0182| 查找重复的电子邮箱 | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql) | 简单 | -- | -- |
 |L0183| 从不订购的客户 | [CustomersNeverOrder](src/com/sql/L0183/CustomersNeverOrder.sql) | 简单 | -- | -- |
 |L0196| 删除重复的电子邮箱 | [DeleteDuplicateEmails](src/com/sql/L0196/DeleteDuplicateEmails.sql) | 简单 | -- | -- |
+|L0197| 上升的温度 | [RisingTemperature](src/com/sql/L0197/RisingTemperature.sql) | 简单 | -- | -- |
+|L0511| 游戏玩法分析 I | [GamePlayAnalysisI](src/com/sql/L0511/GamePlayAnalysisI.sql) | 简单 | -- | -- |
 |L0584| 寻找用户推荐人 | [FindCustomerReferee](src/com/sql/L0584/FindCustomerReferee.sql) | 简单 | -- | -- |
+|L0586| 订单最多的客户 | [CustomerLargestOrders](src/com/sql/L0586/CustomerLargestOrders.sql) | 简单 | -- | -- |
 |L0595| 大的国家 | [BigCountries](src/com/sql/L0595/BigCountries.sql) | 简单 | -- | -- |
 |L0596| 超过5名学生的课 | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql) | 简单 | -- | -- |
+|L0607| 销售员 | [SalesPerson](src/com/sql/L0607/SalesPerson.sql) | 简单 | -- | -- |
 |L0608| 树节点 | [TreeNode](src/com/sql/L0608/TreeNode.sql) | 中等 | -- | -- |
 |L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
 |L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
+|L1141| 查询近30天活跃用户数 | [UserActivityPastDaysI](src/com/sql/L1148/UserActivityPastDaysI.sql) | 简单 | -- | -- |
 |L1148| 文章浏览 I | [ArticleViewsI](src/com/sql/L1148/ArticleViewsI.sql) | 简单 | -- | -- |
 |L1484| 按日期分组销售产品 | [GroupProduct](src/com/sql/L1484/GroupProduct.sql) | 简单 | -- | -- |
 |L1527| 患某种疾病的患者 | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql) | 简单 | -- | -- |
 |L1581| 进店却未进行过交易的顾客 | [CustomerVisitedTransactions](src/com/sql/L1581/CustomerVisitedTransactions.sql) | 简单 | -- | -- |
 |L1667| 修复表中的名字 | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql) | 简单 | -- | -- |
+|L1693| 每天的领导和合伙人 | [DailyLeadsPartners](src/com/sql/L1693/DailyLeadsPartners.sql) | 简单 | -- | -- |
+|L1729| 求关注者的数量 | [FindFollowersCount](src/com/sql/L1729/FindFollowersCount.sql) | 简单 | -- | -- |
+|L1741| 查找每个员工花费的总时间 | [FindTotalTimeEmployee](src/com/sql/L1741/FindTotalTimeEmployee.sql) | 简单 | -- | -- |
 |L1757| 可回收且低脂的产品 | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql) | 简单 | -- | -- |
 |L1795| 每个产品在不同商店的价格 | [RearrangeProducts](src/com/sql/L1795/RearrangeProducts.sql) | 简单 | -- | -- |
 |L1873| 计算特殊奖金 | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql) | 简单 | -- | -- |
+|L1890| 2020年最后一次登录 | [LatestLogin](src/com/sql/L1890/LatestLogin.sql) | 简单 | -- | -- |
 |L1965| 丢失信息的雇员 | [EmployeesMissingInfo](src/com/sql/L1965/EmployeesMissingInfo.sql) | 简单 | -- | -- |
