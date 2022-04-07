@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**958**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**964**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -752,11 +752,17 @@
 |L0608| 树节点 | [TreeNode](src/com/sql/L0608/TreeNode.sql) | 中等 | -- | -- |
 |L0620| 有趣的电影 | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql) | 简单 | -- | -- |
 |L0627| 变更性别 | [SwapSalary](src/com/sql/L0627/SwapSalary.sql) | 简单 | -- | -- |
-|L1141| 查询近30天活跃用户数 | [UserActivityPastDaysI](src/com/sql/L1148/UserActivityPastDaysI.sql) | 简单 | -- | -- |
+|L1050| 合作过至少三次的演员和导演 | [CooperatedThreeTimes](src/com/sql/L1050/CooperatedThreeTimes.sql) | 简单 | -- | -- |
+|L1084| 销售分析III | [SalesAnalysisIII](src/com/sql/L1084/SalesAnalysisIII.sql) | 简单 | -- | -- |
+|L1141| 查询近30天活跃用户数 | [UserActivityPastDaysI](src/com/sql/L1141/UserActivityPastDaysI.sql) | 简单 | -- | -- |
 |L1148| 文章浏览 I | [ArticleViewsI](src/com/sql/L1148/ArticleViewsI.sql) | 简单 | -- | -- |
+|L1158| 市场分析 I | [MarketAnalysisI](src/com/sql/L1158/MarketAnalysisI.sql) | 中等 | -- | -- |
+|L1393| 股票的资本损益 | [CapitalGainLoss](src/com/sql/L1393/CapitalGainLoss.sql) | 中等 | -- | -- |
+|L1407| 排名靠前的旅行者 | [TopTravellers](src/com/sql/L1407/TopTravellers.sql) | 简单 | -- | -- |
 |L1484| 按日期分组销售产品 | [GroupProduct](src/com/sql/L1484/GroupProduct.sql) | 简单 | -- | -- |
 |L1527| 患某种疾病的患者 | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql) | 简单 | -- | -- |
 |L1581| 进店却未进行过交易的顾客 | [CustomerVisitedTransactions](src/com/sql/L1581/CustomerVisitedTransactions.sql) | 简单 | -- | -- |
+|L1587| 银行账户概要 II | [BankAccountSumII](src/com/sql/L1587/BankAccountSumII.sql) | 简单 | -- | -- |
 |L1667| 修复表中的名字 | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql) | 简单 | -- | -- |
 |L1693| 每天的领导和合伙人 | [DailyLeadsPartners](src/com/sql/L1693/DailyLeadsPartners.sql) | 简单 | -- | -- |
 |L1729| 求关注者的数量 | [FindFollowersCount](src/com/sql/L1729/FindFollowersCount.sql) | 简单 | -- | -- |
