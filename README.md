@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**964**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**966**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -319,6 +319,7 @@
 |235| 二叉搜索树的最近公共祖先 | [LowestCommonAncestorBST](src/com/leetcode/L201_300/L0235/LowestCommonAncestorBST.java) | 简单 | 递归 | 树、二叉树、二叉搜素树、深度优先搜索 |
 |236| 二叉树的最近公共祖先 | [LowestCommonAncestorBinaryTree](src/com/leetcode/L201_300/L0236/LowestCommonAncestorBinaryTree.java) | 中等 | 递归 | 树、二叉树、深度优先搜索 |
 |404| [左叶子之和](src/com/leetcode/L401_500/L0404/LeftLeavesSum.md) | [LeftLeavesSum](src/com/leetcode/L401_500/L0404/LeftLeavesSum.java) | 简单 | 递归 | 树 |
+|429| N 叉树的层序遍历 | [NTreeLevelTraversal](src/com/leetcode/L401_500/L0429/NTreeLevelTraversal.java) | 中等 | 层序遍历 | 树、广度优先搜索 |
 |437| 路径总和III | [PathSumIII](src/com/leetcode/L401_500/L0437/PathSumIII.java) | 中等 | 递归、前缀和 | 树、二叉树、深度优先搜索 |
 |450| 删除二叉搜索树中的节点 | [DeleteNodeTToBST](src/com/leetcode/L401_500/L0450/DeleteNodeTToBST.java) | 中等 | 递归 | 树 |
 |501| 二叉搜索树中的众数 | [BSTMode](src/com/leetcode/L501_600/L0501/BSTMode.java) | 简单 | 递归、迭代 | 树 |
@@ -601,6 +602,7 @@
 |633| 平方数之和 | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java) | 中等 | 双指针、数学 | 数学 |
 |724| 寻找数组的中心索引 | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java) | 简单 | 数学 | 数学 |
 |728| 自除数 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java) | 简单 | 数学 | 数学 |
+|780| 到达终点 | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java) | 困难 | 数学 | 数学 |
 |789| 逃脱阻碍者 | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java) | 中等 | 数学 | 数组、数学 |
 |810| 黑板异或游戏 | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java) | 困难 | 数学 | 数学 |
 |832| 翻转图像 | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java) | 简单 | 数学 | 数组 |

@@ -1,6 +1,7 @@
 package com.leetcode.L801_900.L0804;
 
-import java.util.TreeSet;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 804. 唯一摩尔斯密码词
@@ -28,7 +29,7 @@ import java.util.TreeSet;
  */
 public class MorseCode {
     /**
-     * Set集合法
+     * 方法：Set集合
      * @param words String[]数组
      * @return 摩斯密码的种类
      */
@@ -39,7 +40,7 @@ public class MorseCode {
                 "---",".--.","--.-",".-.","...","-","..-",
                 "...-",".--","-..-","-.--","--.."};
         //借助set无重复性质，去除相同的摩斯密码
-        TreeSet<String> set = new TreeSet<>();
+        Set<String> set = new HashSet<>();
         //遍历每一个单词获得对应的摩斯密码
         for (String word:words){
             //存储每个单词对应的摩斯密码
