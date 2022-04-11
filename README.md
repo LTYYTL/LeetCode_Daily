@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**966**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**968**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -85,7 +85,7 @@
 |735| 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java) | 中等 | 栈 | 数组、栈 |
 |739| 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java) | 中等 | 单调栈 | 数组、栈、单调栈 |
 |744| 寻找比目标字母大的最小字母 | [FindSmallestLetterTarget](src/com/leetcode/L701_800/L0744/FindSmallestLetterTarget.java) | 简单 | 二分查找 | 数组、二分查找 |
-|747| 至少是其他数字两倍的最大数 | [NumberTwiceOthers](src/com/leetcode/L701_800/L0747/NumberTwiceOthers.java) | 简单 | 模拟 | 数组、排序 |？
+|747| 至少是其他数字两倍的最大数 | [NumberTwiceOthers](src/com/leetcode/L701_800/L0747/NumberTwiceOthers.java) | 简单 | 模拟 | 数组、排序 |
 |752| 打开转盘锁 | [OpenTheLock](src/com/leetcode/L701_800/L0752/OpenTheLock.java) | 中等 | 广度优先搜索 | 广度优先搜索 |
 |766| 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java) | 简单 | 遍历 | 数组 |
 |786| 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java) | 困难 | 堆 | 数组、二分查找、优先队列 |
@@ -577,6 +577,7 @@
 |326| 3的幂 | [PowerThree](src/com/leetcode/L301_400/L0326/PowerThree.java) | 简单 | 数学 | 数学、递归 |
 |335| 路径交叉 | [SelfCrossing](src/com/leetcode/L301_400/L0335/SelfCrossing.java) | 困难 | 数学 | 数组、数学、几何 |
 |343| 整数拆分 | [IntegerBreak](src/com/leetcode/L301_400/L0343/IntegerBreak.java) | 中等 | 数学 | 数学、动态规划 |
+|357| 统计各位数字都不同的数字个数 | [CountUniqueDigits](src/com/leetcode/L301_400/L0357/CountUniqueDigits.java) | 中等 | 数学 | 数学、动态规划、回溯算法 |
 |367| 有效的完全平方数 | [ValidPerfectSquare](src/com/leetcode/L301_400/L0367/ValidPerfectSquare.java) | 简单 | 二分部查找 | 数学、二分查找 |
 |372| 超级次方 | [SuperPow](src/com/leetcode/L301_400/L0372/SuperPow.java) | 中等 | 数学 | 数学、分治算法 |
 |390| 消除游戏 | [EliminationGame](src/com/leetcode/L301_400/L0390/EliminationGame.java) | 中等 | 数学 | 数学 |
