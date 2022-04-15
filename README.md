@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**969**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**970**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -218,6 +218,7 @@
 |318| 最大单词长度乘积 | [MaximumProductWordLengths](src/com/leetcode/L301_400/L0318/MaximumProductWordLengths.java) | 中等 | 位运算 | 数组、字符串、位运算 |
 |345| 反转字符串中的元音字母 | [ReverseVowelsString](src/com/leetcode/L301_400/L0345/ReverseVowelsString.java) | 简单 | 双指针 | 字符串、双指针 |
 |383| 赎金信 | [RansomNote](src/com/leetcode/L301_400/L0383/RansomNote.java) | 简单 | Map映射 | 字符串、哈希表、计数 |
+|385| 迷你语法分析器 | [MiniParser](src/com/leetcode/L301_400/L0385/MiniParser.java) | 中等 | 栈 | 字符串、栈、深度优先搜索 |
 |387| 字符串中的第一个唯一字符 | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java) | 简单 | Map映射 | 字符串、哈希表 |
 |392| 判断子序列 | [IsSub](src/com/leetcode/L301_400/L0392/IsSub.java) | 简单 | 双指针、二分查找 | 字符串、双指针、动态规划 |
 |402| 移掉K位数字 | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java) | 中等 | 栈 | 字符串、栈、贪心算法 |
