@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**970**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**972**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -250,6 +250,7 @@
 |796| 旋转字符串 | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java) | 简单 | 暴力法、KMP算法 | 字符串 |
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |806| 写字符串需要的行数 | [LinesWriteString](src/com/leetcode/L801_900/L0806/LinesWriteString.java) | 简单 | 模拟 | 数组、字符串 |
+|819| 最常见的单词 | [MostCommonWord](src/com/leetcode/L801_900/L0819/MostCommonWord.java) | 简单 | map映射 | 字符串、哈希表、计数 |
 |838| 推多米诺 | [PushDominoes](src/com/leetcode/L801_900/L0838/PushDominoes.java) | 中等 | 双指针 | 字符串、双指针、动态规划 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
@@ -593,6 +594,7 @@
 |461| 汉明距离 | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java) | 简单 | 数学 | 位运算 |
 |470| 用 Rand7() 实现 Rand10() | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java) | 中等 | 数学 | 数学、拒绝采样、概率与统计、随机化 |
 |475| 供暖器 | [Heaters](src/com/leetcode/L401_500/L0475/Heaters.java) | 中等 | 二分查找 | 数组、双指针、二分查找、排序 |
+|479| 最大回文数乘积 | [LargestPalindromeProduct](src/com/leetcode/L401_500/L0479/LargestPalindromeProduct.java) | 困难 | 数学 | 数学 |
 |492| 构造矩形 | [ConstructRectangle](src/com/leetcode/L401_500/L0492/ConstructRectangle.java) | 简单 | 数学 | 数学 |
 |504| 七进制数 | [Base7](src/com/leetcode/L501_600/L0504/Base7.java) | 简单 | 数学 | 数学 |
 |507| 完美数 | [PerfectNumber](src/com/leetcode/L501_600/L0507/PerfectNumber.java) | 简单 | 数学 | 数学 |
