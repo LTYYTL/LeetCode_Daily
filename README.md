@@ -1,5 +1,5 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**972**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**976**道，持续更新中...）
 
 ## 1. **_数组系列_**
 |  #   |      题目      |   类名   |  难度  |  方法   |    标签   |
@@ -53,6 +53,7 @@
 |373| 查找和最小的K对数字 | [FindKPairsSmallestSums](src/com/leetcode/L301_400/L0373/FindKPairsSmallestSums.java) | 中等 | 堆 | 数组、堆 |
 |374| 猜数字大小 | [GuessNumberHigherLower](src/com/leetcode/L301_400/L0374/GuessNumberHigherLower.java) | 简单 | 二分查找 | 二分查找 |
 |384| 打乱数组 | [Solution](src/com/leetcode/L301_400/L0384/Solution.java) | 中等 | 洗牌算法 | 数组、数学、随进化 |
+|386| 字典序排数 | [LexicographicalNumbers](src/com/leetcode/L301_400/L0386/LexicographicalNumbers.java) | 中等 | 深度优先搜索 | 字典树、深度优先搜索 |
 |414| 第三大的数 | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java) | 简单 | 排序、set集合 | 数组、排序 |
 |421| 数组中两个数的最大异或值 | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java) | 中等 | 暴力法、前缀树 | 位运算、前缀树 |
 |441| 排列硬币 | [ArrangingCoins](src/com/leetcode/L401_500/L0441/ArrangingCoins.java) | 简单 | 二分查找 | 数学、二分查找 |
@@ -251,6 +252,7 @@
 |804| 唯一摩尔斯密码词 | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java) | 简单 | Set集合 | 字符串 |
 |806| 写字符串需要的行数 | [LinesWriteString](src/com/leetcode/L801_900/L0806/LinesWriteString.java) | 简单 | 模拟 | 数组、字符串 |
 |819| 最常见的单词 | [MostCommonWord](src/com/leetcode/L801_900/L0819/MostCommonWord.java) | 简单 | map映射 | 字符串、哈希表、计数 |
+|821| 字符的最短距离 | [ShortestDistanceCharacter](src/com/leetcode/L801_900/L0821/ShortestDistanceCharacter.java) | 简单 | 双指针 | 字符串、数组、双指针 |
 |838| 推多米诺 | [PushDominoes](src/com/leetcode/L801_900/L0838/PushDominoes.java) | 中等 | 双指针 | 字符串、双指针、动态规划 |
 |844| 比较含退格的字符串 | [BackspaceStringCompare](src/com/leetcode/L801_900/L0844/BackspaceStringCompare.java) | 简单 | Set集合 | 字符串 |
 |856| 括号的分数 | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java) | 中等 | 栈 | 字符串、栈 |
@@ -730,6 +732,8 @@
 |LCP29| 乐团站位 | [OrchestraPosition](src/com/LCP/L0029/OrchestraPosition.java) | 简单 | 数学 | 数学 |
 |LCP30| 魔塔游戏 | [MagicTowerGame](src/com/LCP/L0030/MagicTowerGame.java) | 中等 | 小根堆 | -- |
 |LCP39| 无人机方阵 | [UAVPhalanx](src/com/LCP/L0039/UAVPhalanx.java) | 简单 | map映射 | -- |
+|LCP50| 宝石补给 | [GemSupply](src/com/LCP/L0050/GemSupply.java) | 简单 | 模拟 | -- |
+|LCP51| 烹饪料理 | [Cooking](src/com/LCP/L0051/Cooking.java) | 简单 | 回溯算法 | -- |
 
 ## [17. **_程序员面试金典_**（共计80/109题）](src/com/interview/interview.md)
 
