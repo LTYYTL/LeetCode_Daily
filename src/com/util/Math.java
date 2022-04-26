@@ -122,10 +122,4 @@ public class Math {
             y[0] -= x[0] *(a/b);
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(exgcd(30, 42)));
-        //System.out.println(factor(12));
-    }
-
 }

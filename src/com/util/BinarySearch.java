@@ -22,22 +22,23 @@ package com.util;
 public class BinarySearch {
     /**
      * 基本二分查找
+     *
      * @param nums
      * @param target
      * @return
      */
-    public int binary_search(int[] nums, int target) {
+    public static int binary_search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
         //搜索范围：[left,right]
-        while (left <= right){
+        while (left <= right) {
             //防止溢出
-            int mid = left + (right - left)/2;
-            if (nums[mid] == target){
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
                 return mid;
-            }else if (nums[mid] > target){
+            } else if (nums[mid] > target) {
                 right = mid - 1;
-            }else if (nums[mid] < target){
+            } else if (nums[mid] < target) {
                 left = mid + 1;
             }
         }
@@ -46,21 +47,22 @@ public class BinarySearch {
 
     /**
      * 寻找左边界的二分查找
+     *
      * @param nums
      * @param target
      * @return
      */
-    public int left_bound(int[] nums,int target){
+    public static int left_bound(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-        while (left <= right){
-            int mid = left + (right - left)/2;
-            if (nums[mid] == target){
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
                 //收缩右边界，锁定左边界
-                right = mid -1;
-            }else if (nums[mid] > target){
                 right = mid - 1;
-            }else if (nums[mid] < target){
+            } else if (nums[mid] > target) {
+                right = mid - 1;
+            } else if (nums[mid] < target) {
                 left = mid + 1;
             }
         }
@@ -72,21 +74,22 @@ public class BinarySearch {
 
     /**
      * 寻找右边界的二分查找
+     *
      * @param nums
      * @param target
      * @return
      */
-    public int right_bound(int[] nums,int target){
+    public static int right_bound(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-        while (left <= right){
-            int mid = left + (right - left)/2;
-            if (nums[mid] == target){
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
                 //收缩左边界，锁定右边界
                 left = mid + 1;
-            }else if (nums[mid] > target){
+            } else if (nums[mid] > target) {
                 right = mid - 1;
-            }else if (nums[mid] < target){
+            } else if (nums[mid] < target) {
                 left = mid + 1;
             }
         }

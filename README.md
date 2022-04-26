@@ -1,7 +1,9 @@
 # LeetCode_Daily
-记录自己LeetCode每日刷题之旅（现有**981**道，持续更新中...）
+
+记录自己LeetCode每日刷题之旅（现有**985**道，持续更新中...）
 
 ## 1. **_数组系列_**
+
 | #    | 题目                                                 | 类名                                                                                                                            | 难度  | 方法              | 标签                       |
 |------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----|-----------------|--------------------------|
 | 1    | [两数之和](src/com/leetcode/L1_100/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L1_100/L0001/TwoNumSum.java)                                                                     | 简单  | 双指针、Map映射       | 数组、哈希表                   |
@@ -159,9 +161,12 @@
 | 2155 | 分组得分最高的所有下标                                        | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java)                                                 | 中等  | 前缀和             | 数组                       |
 | 2170 | 使数组变成交替数组的最少操作数                                    | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java)                                         | 中等  | map映射           | 数组、哈希表、计数、贪心算法           |
 | 2171 | 拿出最少数目的魔法豆                                         | [RemoveMinBeans](src/com/leetcode/L2101_2200/L2171/RemoveMinBeans.java)                                                       | 中等  | 排序              | 数组、前缀和、排序                |
-| 2210 | 统计数组中峰和谷的数量                                        | [CountHillsAndValleys](src/com/leetcode/L2201_2300/L2210/CountHillsAndValleys.java)                                           | 简单  | 双指针             | --                       |
+| 2210 | 统计数组中峰和谷的数量                                        | [CountHillsAndValleys](src/com/leetcode/L2201_2300/L2210/CountHillsAndValleys.java)                                           | 简单  | 双指针             | 数组                       |
+| 2248 | 多个数组求交集                                            | [IntersectionMultipleArrays](src/com/leetcode/L2201_2300/L2248/IntersectionMultipleArrays.java)                               | 简单  | map映射           | --                       |
+| 2250 | 统计包含每个点的矩形数目                                       | [CountContainingPoint](src/com/leetcode/L2201_2300/L2250/CountContainingPoint.java)                                           | 中等  | 二分查找            | --                       |
 
 ## 2. **_链表系列_**
+
 | #   | 题目              | 类名                                                                                                          | 难度  | 方法          | 标签                |
 |-----|-----------------|-------------------------------------------------------------------------------------------------------------|-----|-------------|-------------------|
 | 19  | 删除链表的倒数第N个节点    | [DeleteNode](src/com/leetcode/L1_100/L0019/DeleteNode.java)                                                 | 中等  | 双指针         | 链表、双指针            |
@@ -189,6 +194,7 @@
 | 876 | 链表的中间结点         | [MiddleTheLinkedList](src/com/leetcode/L801_900/L0876/MiddleTheLinkedList.java)                             | 简单  | 双指针、数组      | 链表、双指针            |
 
 ## 3. **_字符串系列_**
+
 | #    | 题目                 | 类名                                                                                                                                | 难度  | 方法             | 标签                         |
 |------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----|----------------|----------------------------|
 | 5    | 最长回文子串             | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java)                                     | 中等  | 模拟             | 字符串、动态规划                   |
@@ -295,6 +301,7 @@
 | 2211 | 统计道路上的碰撞次数         | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等  | 模拟             | --                         |
 
 ## 4. **_二叉树系列_**
+
 | #    | 题目                                                             | 类名                                                                                                              | 难度  | 方法               | 标签                                |
 |------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-----|------------------|-----------------------------------|
 | 94   | 二叉树的中序遍历                                                       | [InOrder](src/com/leetcode/L1_100/L0094/InOrder.java)                                                           | 中等  | 递归、迭代            | 栈、树、哈希表                           |
@@ -361,6 +368,7 @@
 | 2049 | 统计最高分的节点数目                                                     | [CountNodesHighestScore](src/com/leetcode/L2001_2100/L2049/CountNodesHighestScore.java)                         | 中等  | 深度优先搜索           | 数组、树、二叉树、深度优先搜索                   |
 
 ## 5. **_字典树系列_**
+
 | #   | 题目        | 类名                                                                                  | 难度  | 方法         | 标签                     |
 |-----|-----------|-------------------------------------------------------------------------------------|-----|------------|------------------------|
 | 440 | 字典序的第K小数字 | [KSmallestOrder](src/com/leetcode/L401_500/L0440/KSmallestOrder.java)               | 简单  | 模拟         | 字典树                    |
@@ -370,6 +378,7 @@
 | 820 | 单词的压缩编码   | [ShortEncodingWords](src/com/leetcode/L801_900/L0820/ShortEncodingWords.java)       | 中等  | Set集合、字典树  | 数组、字符串、哈希表、字典树         |
 
 ## 6. **_矩阵系列_**
+
 | #    | 题目            | 类名                                                                                                      | 难度  | 方法            | 标签                      |
 |------|---------------|---------------------------------------------------------------------------------------------------------|-----|---------------|-------------------------|
 | 85   | 最大矩形          | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java)                                 | 困难  | 单调栈           | 数组、栈、单调栈、矩阵、动态规划        |
@@ -397,6 +406,7 @@
 | 2022 | 将一维数组转变成二维数组  | [Convert1DInto2D](src/com/leetcode/L2001_2100/L2022/Convert1DInto2D.java)                               | 简单  | 模拟            | 数组、矩阵、模拟                |
 
 ## 7. **_图系列_**
+
 | #    | 题目           | 类名                                                                                                | 难度  | 方法                        | 标签                             |
 |------|--------------|---------------------------------------------------------------------------------------------------|-----|---------------------------|--------------------------------|
 | 127  | 单词接龙         | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java)                                     | 中等  | 广度优先搜索                    | 字符串、哈希表、广度优先搜索                 |
@@ -420,6 +430,7 @@
 | 2045 | 到达目的地的第二短时间  | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java)       | 困难  | 广度优先搜索                    | 图、广度优先搜索、最短路                   |
 
 ## 8. **_并查集系列_**
+
 | #   | 题目        | 类名                                                                                                       | 难度  | 方法  | 标签                         |
 |-----|-----------|----------------------------------------------------------------------------------------------------------|-----|-----|----------------------------|
 | 128 | 最长连续序列    | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java)                      | 中等  | 并查集 | 数组、并查集、哈希表                 |
@@ -431,6 +442,7 @@
 | 990 | 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L901_1000/L0990/SatisfiabilityEqualityEquations.java) | 困难  | 并查集 | 并查集、图                      |
 
 ## 9. **_动态规划系列_**
+
 | #    | 题目               | 类名                                                                                                                            | 难度  | 方法          | 标签                              |
 |------|------------------|-------------------------------------------------------------------------------------------------------------------------------|-----|-------------|---------------------------------|
 | 10   | 正则表达式匹配          | [RegularExpressionMatching](src/com/leetcode/L1_100/L0010/RegularExpressionMatching.java)                                     | 困难  | 动态规划        | 字符串、动态规划、回溯算法                   |
@@ -502,6 +514,7 @@
 | 2100 | 适合打劫银行的日子        | [GoodDaysRob](src/com/leetcode/L2001_2100/L2100/GoodDaysRob.java)                                                             | 中等  | 动态规划        | 数组、动态规划、前缀和                     |
 
 ## 10. **_回溯算法系列_**
+
 | #    | 题目               | 类名                                                                                        | 难度  | 方法         | 标签                          |
 |------|------------------|-------------------------------------------------------------------------------------------|-----|------------|-----------------------------|
 | 22   | 括号生成             | [GenerateParentheses](src/com/leetcode/L1_100/L0022/GenerateParentheses.java)             | 中等  | 回溯算法       | 字符串、回溯算法、动态规划               |
@@ -533,6 +546,7 @@
 | 2044 | 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L2044/CountMaxOR.java)                           | 中等  | 回溯算法       | 数组、回溯算法、位运算                 |
 
 ## 11. **_贪心算法系列_**
+
 | #    | 题目               | 类名                                                                                              | 难度  | 方法   | 标签             |
 |------|------------------|-------------------------------------------------------------------------------------------------|-----|------|----------------|
 | 122  | 买卖股票的最佳时机II      | [StockII](src/com/leetcode/L101_200/L0122/StockII.java)                                         | 简单  | 贪心算法 | 数组、贪心算法        |
@@ -555,6 +569,7 @@
 | 1881 | 插入后的最大值          | [MaximumValueInsertion](src/com/leetcode/L1801_1900/L1881/MaximumValueInsertion.java)           | 中等  | 贪心算法 | 贪心算法           |
 
 ## 12. **_数学方法系列_**
+
 | #    | 题目                                                                  | 类名                                                                                                                  | 难度  | 方法       | 标签                |
 |------|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-----|----------|-------------------|
 | 2    | 两数相加                                                                | [TwoNumAdd](src/com/leetcode/L1_100/L0002/TwoNumAdd.java)                                                           | 中等  | 数学       | 链表、数学             |
@@ -617,6 +632,7 @@
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学             |
 | 810  | 黑板异或游戏                                                              | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java)                                         | 困难  | 数学       | 数学                |
 | 832  | 翻转图像                                                                | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java)                                                 | 简单  | 数学       | 数组                |
+| 883  | 三维形体投影面积                                                            | [Area3DShapes](src/com/leetcode/L801_900/L0883/Area3DShapes.java)                                                   | 简单  | 数学       | 数组、矩阵、数学、几        |
 | 976  | 三角形的最大周长                                                            | [LargestPerimeterTriangle](src/com/leetcode/L901_1000/L0976/LargestPerimeterTriangle.java)                          | 简单  | 数学       | 排序、数学             |
 | 989  | 数组形式的整数加法                                                           | [AddArrayFormInteger](src/com/leetcode/L901_1000/L0989/AddArrayFormInteger.java)                                    | 简单  | 数学       | 数组                |
 | 1006 | 笨阶乘                                                                 | [ClumsyFactorial](src/com/leetcode/L1001_1100/L1006/ClumsyFactorial.java)                                           | 中等  | 栈        | 数学                |
@@ -644,6 +660,7 @@
 | 2169 | 得到 0 的操作数                                                           | [CountOperationsZero](src/com/leetcode/L2101_2200/L2169/CountOperationsZero.java)                                   | 简单  | 数学       | 数学、模拟             |
 
 ## 13. **_位运算方法系列_**
+
 | #    | 题目            | 类名                                                                                      | 难度  | 方法            | 标签                  |
 |------|---------------|-----------------------------------------------------------------------------------------|-----|---------------|---------------------|
 | 89   | 格雷编码          | [GrayCode](src/com/leetcode/L1_100/L0089/GrayCode.java)                                 | 中等  | 位运算           | 位运算、数学、回溯算法         |
@@ -669,6 +686,7 @@
 | 1734 | 解码异或后的排列      | [DecodeXORedPermutation](src/com/leetcode/L1701_1800/L1734/DecodeXORedPermutation.java) | 简单  | 位运算           | 位运算                 |
 
 ## 14. **_滑动窗口系列_**
+
 | #    | 题目               | 类名                                                                                                                                                        | 难度  | 方法               | 标签                |
 |------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----|------------------|-------------------|
 | 3    | 无重复字符的最长子串       | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java)                                                                               | 中等  | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口  |
@@ -687,6 +705,7 @@
 | 2024 | 考试的最大困扰度         | [MaximizeConfusionExam](src/com/leetcode/L2001_2100/L2024/MaximizeConfusionExam.java)                                                                     | 中等  | 滑动窗口             | 字符串、滑动窗口、前缀和、二分查找 |
 
 ## 15. **_设计系列_**
+
 | #    | 题目                  | 类名                                                                            | 难度  | 方法             | 标签                         |
 |------|---------------------|-------------------------------------------------------------------------------|-----|----------------|----------------------------|
 | 146  | LRU 缓存机制            | [LRUCache](src/com/leetcode/L101_200/L0146/LRUCache.java)                     | 中等  | 双向链表+哈希表       | 链表、双向链表、哈希表、设计             |
@@ -712,6 +731,7 @@
 | 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计             |
 | 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                     |
 | 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计       |
+| 710  | 黑名单中的随机数            | [Solution](src/com/leetcode/L701_800/L0710/Solution.java)                     | 困难  | map映射          | 哈希表、数学、随机化、二分查找、排序         |
 | 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                |
 | 911  | 在线选举                | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java)  | 中等  | map映射+二分查找     | 数组、哈希表、二分查找、设计             |
 | 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等  | 队列             | 树、二叉树、广度优先搜索、设计            |
@@ -725,6 +745,7 @@
 | 2043 | 简易银行系统              | [Bank](src/com/leetcode/L2001_2100/L2043/Bank.java)                           | 中等  | 哈希表            | 设计、数组、哈希表、模拟               |
 
 ## 16. **_力扣杯竞赛题列表_**
+
 | #     | 题目    | 类名                                                                      | 难度  | 方法       | 备注                   |
 |-------|-------|-------------------------------------------------------------------------|-----|----------|----------------------|
 | LCP01 | 猜数字   | [GuessNumber](src/com/LCP/L0001/GuessNumber.java)                       | 简单  | 模拟       | 数组                   |
@@ -751,40 +772,41 @@
 ## [21. **_美团题_**（未计总数）](src/com/meituan/meituan.md)
 
 ## 22. **_数据库_**
-| #     | 题目             | 类名                                                                               | 难度  | 方法  | 备注  |
-|-------|:---------------|----------------------------------------------------------------------------------|-----|-----|-----|
-| L0175 | 组合两个表          | [CombineTwoTables](src/com/sql/L0175/CombineTwoTables.sql)                       | 简单  | --  | --  |
-| L0176 | 第二高的薪水         | [SecondHighestSalary](src/com/sql/L0176/SecondHighestSalary.sql)                 | 中等  | --  | --  |
-| L0182 | 查找重复的电子邮箱      | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql)                         | 简单  | --  | --  |
-| L0183 | 从不订购的客户        | [CustomersNeverOrder](src/com/sql/L0183/CustomersNeverOrder.sql)                 | 简单  | --  | --  |
-| L0196 | 删除重复的电子邮箱      | [DeleteDuplicateEmails](src/com/sql/L0196/DeleteDuplicateEmails.sql)             | 简单  | --  | --  |
-| L0197 | 上升的温度          | [RisingTemperature](src/com/sql/L0197/RisingTemperature.sql)                     | 简单  | --  | --  |
-| L0511 | 游戏玩法分析 I       | [GamePlayAnalysisI](src/com/sql/L0511/GamePlayAnalysisI.sql)                     | 简单  | --  | --  |
-| L0584 | 寻找用户推荐人        | [FindCustomerReferee](src/com/sql/L0584/FindCustomerReferee.sql)                 | 简单  | --  | --  |
-| L0586 | 订单最多的客户        | [CustomerLargestOrders](src/com/sql/L0586/CustomerLargestOrders.sql)             | 简单  | --  | --  |
-| L0595 | 大的国家           | [BigCountries](src/com/sql/L0595/BigCountries.sql)                               | 简单  | --  | --  |
-| L0596 | 超过5名学生的课       | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql)       | 简单  | --  | --  |
-| L0607 | 销售员            | [SalesPerson](src/com/sql/L0607/SalesPerson.sql)                                 | 简单  | --  | --  |
-| L0608 | 树节点            | [TreeNode](src/com/sql/L0608/TreeNode.sql)                                       | 中等  | --  | --  |
-| L0620 | 有趣的电影          | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql)                         | 简单  | --  | --  |
-| L0627 | 变更性别           | [SwapSalary](src/com/sql/L0627/SwapSalary.sql)                                   | 简单  | --  | --  |
-| L1050 | 合作过至少三次的演员和导演  | [CooperatedThreeTimes](src/com/sql/L1050/CooperatedThreeTimes.sql)               | 简单  | --  | --  |
-| L1084 | 销售分析III        | [SalesAnalysisIII](src/com/sql/L1084/SalesAnalysisIII.sql)                       | 简单  | --  | --  |
-| L1141 | 查询近30天活跃用户数    | [UserActivityPastDaysI](src/com/sql/L1141/UserActivityPastDaysI.sql)             | 简单  | --  | --  |
-| L1148 | 文章浏览 I         | [ArticleViewsI](src/com/sql/L1148/ArticleViewsI.sql)                             | 简单  | --  | --  |
-| L1158 | 市场分析 I         | [MarketAnalysisI](src/com/sql/L1158/MarketAnalysisI.sql)                         | 中等  | --  | --  |
-| L1393 | 股票的资本损益        | [CapitalGainLoss](src/com/sql/L1393/CapitalGainLoss.sql)                         | 中等  | --  | --  |
-| L1407 | 排名靠前的旅行者       | [TopTravellers](src/com/sql/L1407/TopTravellers.sql)                             | 简单  | --  | --  |
-| L1484 | 按日期分组销售产品      | [GroupProduct](src/com/sql/L1484/GroupProduct.sql)                               | 简单  | --  | --  |
-| L1527 | 患某种疾病的患者       | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql)                     | 简单  | --  | --  |
-| L1581 | 进店却未进行过交易的顾客   | [CustomerVisitedTransactions](src/com/sql/L1581/CustomerVisitedTransactions.sql) | 简单  | --  | --  |
-| L1587 | 银行账户概要 II      | [BankAccountSumII](src/com/sql/L1587/BankAccountSumII.sql)                       | 简单  | --  | --  |
-| L1667 | 修复表中的名字        | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql)                             | 简单  | --  | --  |
-| L1693 | 每天的领导和合伙人      | [DailyLeadsPartners](src/com/sql/L1693/DailyLeadsPartners.sql)                   | 简单  | --  | --  |
-| L1729 | 求关注者的数量        | [FindFollowersCount](src/com/sql/L1729/FindFollowersCount.sql)                   | 简单  | --  | --  |
-| L1741 | 查找每个员工花费的总时间   | [FindTotalTimeEmployee](src/com/sql/L1741/FindTotalTimeEmployee.sql)             | 简单  | --  | --  |
-| L1757 | 可回收且低脂的产品      | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql)                 | 简单  | --  | --  |
-| L1795 | 每个产品在不同商店的价格   | [RearrangeProducts](src/com/sql/L1795/RearrangeProducts.sql)                     | 简单  | --  | --  |
-| L1873 | 计算特殊奖金         | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql)             | 简单  | --  | --  |
-| L1890 | 2020年最后一次登录    | [LatestLogin](src/com/sql/L1890/LatestLogin.sql)                                 | 简单  | --  | --  |
-| L1965 | 丢失信息的雇员        | [EmployeesMissingInfo](src/com/sql/L1965/EmployeesMissingInfo.sql)               | 简单  | --  | --  |
+
+| #     | 题目            | 类名                                                                               | 难度  | 方法  | 备注  |
+|-------|---------------|----------------------------------------------------------------------------------|-----|-----|-----|
+| L0175 | 组合两个表         | [CombineTwoTables](src/com/sql/L0175/CombineTwoTables.sql)                       | 简单  | --  | --  |
+| L0176 | 第二高的薪水        | [SecondHighestSalary](src/com/sql/L0176/SecondHighestSalary.sql)                 | 中等  | --  | --  |
+| L0182 | 查找重复的电子邮箱     | [DuplicateEmails](src/com/sql/L0182/DuplicateEmails.sql)                         | 简单  | --  | --  |
+| L0183 | 从不订购的客户       | [CustomersNeverOrder](src/com/sql/L0183/CustomersNeverOrder.sql)                 | 简单  | --  | --  |
+| L0196 | 删除重复的电子邮箱     | [DeleteDuplicateEmails](src/com/sql/L0196/DeleteDuplicateEmails.sql)             | 简单  | --  | --  |
+| L0197 | 上升的温度         | [RisingTemperature](src/com/sql/L0197/RisingTemperature.sql)                     | 简单  | --  | --  |
+| L0511 | 游戏玩法分析 I      | [GamePlayAnalysisI](src/com/sql/L0511/GamePlayAnalysisI.sql)                     | 简单  | --  | --  |
+| L0584 | 寻找用户推荐人       | [FindCustomerReferee](src/com/sql/L0584/FindCustomerReferee.sql)                 | 简单  | --  | --  |
+| L0586 | 订单最多的客户       | [CustomerLargestOrders](src/com/sql/L0586/CustomerLargestOrders.sql)             | 简单  | --  | --  |
+| L0595 | 大的国家          | [BigCountries](src/com/sql/L0595/BigCountries.sql)                               | 简单  | --  | --  |
+| L0596 | 超过5名学生的课      | [ClassesMoreThan5Students](src/com/sql/L0596/ClassesMoreThan5Students.sql)       | 简单  | --  | --  |
+| L0607 | 销售员           | [SalesPerson](src/com/sql/L0607/SalesPerson.sql)                                 | 简单  | --  | --  |
+| L0608 | 树节点           | [TreeNode](src/com/sql/L0608/TreeNode.sql)                                       | 中等  | --  | --  |
+| L0620 | 有趣的电影         | [NotBoringMovies](src/com/sql/L0620/NotBoringMovies.sql)                         | 简单  | --  | --  |
+| L0627 | 变更性别          | [SwapSalary](src/com/sql/L0627/SwapSalary.sql)                                   | 简单  | --  | --  |
+| L1050 | 合作过至少三次的演员和导演 | [CooperatedThreeTimes](src/com/sql/L1050/CooperatedThreeTimes.sql)               | 简单  | --  | --  |
+| L1084 | 销售分析III       | [SalesAnalysisIII](src/com/sql/L1084/SalesAnalysisIII.sql)                       | 简单  | --  | --  |
+| L1141 | 查询近30天活跃用户数   | [UserActivityPastDaysI](src/com/sql/L1141/UserActivityPastDaysI.sql)             | 简单  | --  | --  |
+| L1148 | 文章浏览 I        | [ArticleViewsI](src/com/sql/L1148/ArticleViewsI.sql)                             | 简单  | --  | --  |
+| L1158 | 市场分析 I        | [MarketAnalysisI](src/com/sql/L1158/MarketAnalysisI.sql)                         | 中等  | --  | --  |
+| L1393 | 股票的资本损益       | [CapitalGainLoss](src/com/sql/L1393/CapitalGainLoss.sql)                         | 中等  | --  | --  |
+| L1407 | 排名靠前的旅行者      | [TopTravellers](src/com/sql/L1407/TopTravellers.sql)                             | 简单  | --  | --  |
+| L1484 | 按日期分组销售产品     | [GroupProduct](src/com/sql/L1484/GroupProduct.sql)                               | 简单  | --  | --  |
+| L1527 | 患某种疾病的患者      | [PatientsCondition](src/com/sql/L1527/PatientsCondition.sql)                     | 简单  | --  | --  |
+| L1581 | 进店却未进行过交易的顾客  | [CustomerVisitedTransactions](src/com/sql/L1581/CustomerVisitedTransactions.sql) | 简单  | --  | --  |
+| L1587 | 银行账户概要 II     | [BankAccountSumII](src/com/sql/L1587/BankAccountSumII.sql)                       | 简单  | --  | --  |
+| L1667 | 修复表中的名字       | [FixNamesTable](src/com/sql/L1667/FixNamesTable.sql)                             | 简单  | --  | --  |
+| L1693 | 每天的领导和合伙人     | [DailyLeadsPartners](src/com/sql/L1693/DailyLeadsPartners.sql)                   | 简单  | --  | --  |
+| L1729 | 求关注者的数量       | [FindFollowersCount](src/com/sql/L1729/FindFollowersCount.sql)                   | 简单  | --  | --  |
+| L1741 | 查找每个员工花费的总时间  | [FindTotalTimeEmployee](src/com/sql/L1741/FindTotalTimeEmployee.sql)             | 简单  | --  | --  |
+| L1757 | 可回收且低脂的产品     | [RecyclableAndLowFat](src/com/sql/L1757/RecyclableAndLowFat.sql)                 | 简单  | --  | --  |
+| L1795 | 每个产品在不同商店的价格  | [RearrangeProducts](src/com/sql/L1795/RearrangeProducts.sql)                     | 简单  | --  | --  |
+| L1873 | 计算特殊奖金        | [CalculateSpecialBonus](src/com/sql/L1873/CalculateSpecialBonus.sql)             | 简单  | --  | --  |
+| L1890 | 2020年最后一次登录   | [LatestLogin](src/com/sql/L1890/LatestLogin.sql)                                 | 简单  | --  | --  |
+| L1965 | 丢失信息的雇员       | [EmployeesMissingInfo](src/com/sql/L1965/EmployeesMissingInfo.sql)               | 简单  | --  | --  |

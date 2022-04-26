@@ -69,7 +69,8 @@ public class RandomPickWithWeight {
     }
 
     /**
-     * 二分查找，查看索引
+     * 二分查找，寻找大于等于target的最小索引
+     *
      * @param x
      * @return
      */
