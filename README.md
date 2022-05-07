@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**994**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**995**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -233,6 +233,7 @@
 | 402  | 移掉K位数字             | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java)                                                               | 中等  | 栈              | 字符串、栈、贪心算法                 |
 | 412  | Fizz Buzz          | [FizzBuzz](src/com/leetcode/L401_500/L0412/FizzBuzz.java)                                                                         | 简单  | 模拟             | 字符串、数学、模拟                  |
 | 423  | 从英文中重建数字           | [ReconstructDigitsEnglish](src/com/leetcode/L401_500/L0423/ReconstructDigitsEnglish.java)                                         | 中等  | 模拟             | 字符串、哈希表、数学                 |
+| 433  | 最小基因变化             | [MinGeneticMutation](src/com/leetcode/L401_500/L0433/MinGeneticMutation.java)                                                     | 中等  | 广度优先搜索         | 字符串、哈希表、广度优先搜索             |
 | 434  | 字符串中的单词数           | [NumberSegmentsString](src/com/leetcode/L401_500/L0434/NumberSegmentsString.java)                                                 | 简单  | 模拟             | 字符串                        |
 | 443  | 压缩字符串              | [StringCompression](src/com/leetcode/L401_500/L0443/StringCompression.java)                                                       | 简单  | 双指针            | 字符串、双指针                    |
 | 451  | 根据字符出现频率排序         | [SortCharactersByFrequency](src/com/leetcode/L401_500/L0451/SortCharactersByFrequency.java)                                       | 中等  | 哈希表            | 字符串、哈希表、桶排序、计数、排序、堆        |
