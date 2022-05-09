@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**995**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**997**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -59,6 +59,7 @@
 | 414  | 第三大的数                                              | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java)                                                 | 简单  | 排序、set集合        | 数组、排序                    |
 | 421  | 数组中两个数的最大异或值                                       | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java)                                   | 中等  | 暴力法、前缀树         | 位运算、前缀树                  |
 | 441  | 排列硬币                                               | [ArrangingCoins](src/com/leetcode/L401_500/L0441/ArrangingCoins.java)                                                         | 简单  | 二分查找            | 数学、二分查找                  |
+| 442  | 数组中重复的数据                                           | [FindDuplicatesArray](src/com/leetcode/L401_500/L0442/FindDuplicatesArray.java)                                               | 中等  | 数组              | 数学、哈希表                   |
 | 448  | 找到所有数组中消失的数字                                       | [FindAllNumbersDisappearedArray](src/com/leetcode/L401_500/L0448/FindAllNumbersDisappearedArray.java)                         | 简单  | 哈希表             | 数组                       |
 | 456  | 132模式                                              | [Pattern132](src/com/leetcode/L401_500/L0456/Pattern132.java)                                                                 | 中等  | 栈               | 数组、栈                     |
 | 457  | 环形数组是否存在循环                                         | [CircularArrayLoop](src/com/leetcode/L401_500/L0457/CircularArrayLoop.java)                                                   | 中等  | 快慢指针            | 数组、双指针、哈希表               |
@@ -103,6 +104,7 @@
 | 905  | 按奇偶排序数组                                            | [SortArrayByParityII](src/com/leetcode/L901_1000/L0922/SortArrayByParityII.java)                                              | 简单  | 双指针             | 数组                       |
 | 912  | 排序数组                                               | [SortArray](src/com/leetcode/L901_1000/L0912/SortArray.java)                                                                  | 简单  | 快速排序            | 数组、排序、基数排序、堆、桶排序、分治、计数排序 |？
 | 922  | 按奇偶排序数组 II                                         | [SortArrayByParityII](src/com/leetcode/L901_1000/L0922/SortArrayByParityII.java)                                              | 简单  | 暴力法             | 数组、排序                    |
+| 942  | 增减字符串匹配                                            | [DIStringMatch](src/com/leetcode/L901_1000/L0942/DIStringMatch.java)                                                          | 简单  | 数学              | 数组、字符串、数学、双指针、贪心算法       |
 | 946  | 验证栈序列                                              | [ValidateStackSequences](src/com/leetcode/L901_1000/L0946/ValidateStackSequences.java)                                        | 中等  | 模拟              | 数组、栈、模拟                  |
 | 954  | 二倍数对数组                                             | [ArrayDoubledPairs](src/com/leetcode/L901_1000/L0954/ArrayDoubledPairs.java)                                                  | 中等  | map映射           | 数组、哈希表、贪心算法、排序           |
 | 969  | 煎饼排序                                               | [PancakeSorting](src/com/leetcode/L901_1000/L0969/PancakeSorting.java)                                                        | 中等  | 递归              | 数组、双指针、排序、贪心算法           |
