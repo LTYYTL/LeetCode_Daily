@@ -28,9 +28,7 @@ import java.util.Arrays;
  * 输入：graph = [[1,3],[0],[3],[0,2]]
  * 输出：1
  *
- *
  * 提示：
- *
  * 3 <= graph.length <= 50
  * 1 <= graph[i].length < graph.length
  * 0 <= graph[i][j] < graph.length
@@ -39,65 +37,84 @@ import java.util.Arrays;
  * 猫和老鼠在游戏中总是移动
  */
 public class CatAndMouse {
-    static final int MOUSE_WIN = 1;
-    static final int CAT_WIN = 2;
-    static final int DRAW = 0;
-    int n;
-    int[][] graph;
-    int[][][] dp;
+    //平局
+    private static final int DRAW = 0;
+    //老鼠赢
+    private static final int MOUSE_WIN = 1;
+    //猫赢
+    private static final int CAT_WIN = 2;
 
     /**
-     * 方法：动态规划
+     * 方法：深度优先搜索
+     *
      * @param graph
      * @return
      */
     public int catMouseGame(int[][] graph) {
-        this.n = graph.length;
-        this.graph = graph;
-        this.dp = new int[n][n][n * 2];
+        //长度
+        int n = graph.length;
+        //记录每种状态
+        int[][][] dp = new int[n][n][2 * n];
+        //初始化
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 Arrays.fill(dp[i][j], -1);
             }
         }
-        return getResult(1, 2, 0);
+        //深度优先搜索
+        return dfs(graph, n, dp, 2, 1, 0);
     }
 
-    public int getResult(int mouse, int cat, int turns) {
-        if (turns == n * 2) {
-            return DRAW;
-        }
-        if (dp[mouse][cat][turns] < 0) {
-            if (mouse == 0) {
-                dp[mouse][cat][turns] = MOUSE_WIN;
-            } else if (cat == mouse) {
-                dp[mouse][cat][turns] = CAT_WIN;
-            } else {
-                getNextResult(mouse, cat, turns);
-            }
-        }
-        return dp[mouse][cat][turns];
-    }
+    private int dfs(int[][] graph, int n, int[][][] dp, int cat, int mouse, int turns) {
+        //超过节点数2倍，可以确定为平局
+        if (turns >= 2 * n * (n - 1))
+            return 0;
+        //已经存在直接返回
+        if (dp[cat][mouse][turns] != -1)
+            return dp[cat][mouse][turns];
 
-    public void getNextResult(int mouse, int cat, int turns) {
-        int curMove = turns % 2 == 0 ? mouse : cat;
-        int defaultResult = curMove == mouse ? CAT_WIN : MOUSE_WIN;
-        int result = defaultResult;
-        int[] nextNodes = graph[curMove];
-        for (int next : nextNodes) {
-            if (curMove == cat && next == 0) {
-                continue;
+        //老鼠赢
+        if (mouse == 0)
+            return dp[cat][mouse][turns] = MOUSE_WIN;
+
+        //猫咪赢
+        if (cat == mouse)
+            return dp[cat][mouse][turns] = CAT_WIN;
+
+        // turns 为偶数是轮到老鼠走，为奇数是轮到猫走
+        if (turns % 2 == 0) {
+            //老鼠最坏情况是猫赢
+            int ans = CAT_WIN;
+            //尝试走到下一个节点
+            for (int next : graph[mouse]) {
+                int nextAns = dfs(graph, n, dp, cat, next, turns + 1);
+                // 如果老鼠可以赢，直接返回
+                if (nextAns == MOUSE_WIN)
+                    return dp[cat][mouse][turns] = MOUSE_WIN;
+                // 有平局，先记录为平局，后面如果有老鼠可以赢的场景，通过上述语句可以返回
+                if (nextAns == DRAW)
+                    ans = DRAW;
             }
-            int nextMouse = curMove == mouse ? next : mouse;
-            int nextCat = curMove == cat ? next : cat;
-            int nextResult = getResult(nextMouse, nextCat, turns + 1);
-            if (nextResult != defaultResult) {
-                result = nextResult;
-                if (result != DRAW) {
-                    break;
+            // 返回老鼠走的结果
+            return dp[cat][mouse][turns] = ans;
+        } else {
+            // 猫最坏情况是老鼠赢
+            int ans = MOUSE_WIN;
+            for (int next : graph[cat]) {
+                // 注意猫不能走到0号节点
+                if (next != 0) {
+                    // 尝试进入下一个节点
+                    int nextAns = dfs(graph, n, dp, next, mouse, turns + 1);
+                    // 如果猫可以赢，直接返回
+                    if (nextAns == CAT_WIN)
+                        return dp[next][mouse][turns] = CAT_WIN;
+                    // 有平局，先记录为平局，后面如果有猫可以赢的场景，通过上述语句可以返回
+                    if (nextAns == DRAW)
+                        ans = DRAW;
                 }
             }
+            // 返回猫走的结果
+            return dp[cat][mouse][turns] = ans;
         }
-        dp[mouse][cat][turns] = result;
     }
 }

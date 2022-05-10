@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**997**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**998**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -416,27 +416,48 @@
 
 ## 7. **_图系列_**
 
-| #    | 题目           | 类名                                                                                                | 难度  | 方法                        | 标签                             |
-|------|--------------|---------------------------------------------------------------------------------------------------|-----|---------------------------|--------------------------------|
-| 127  | 单词接龙         | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java)                                     | 中等  | 广度优先搜索                    | 字符串、哈希表、广度优先搜索                 |
-| 207  | 课程表          | [CourseSchedule](src/com/leetcode/L201_300/L0207/CourseSchedule.java)                             | 中等  | 拓扑排序                      | 图、深度优先搜索、广度优先搜索、拓扑排序           |
-| 210  | 课程表 II       | [CourseScheduleII](src/com/leetcode/L201_300/L0210/CourseScheduleII.java)                         | 中等  | 拓扑排序                      | 图、深度优先搜索、广度优先搜索、拓扑排序           |
-| 310  | 最小高度树        | [MinHeightTrees](src/com/leetcode/L301_400/L0310/MinHeightTrees.java)                             | 中等  | 拓扑排序                      | 图、深度优先搜索、广度优先搜索、拓扑排序           |
-| 743  | 网络延迟时间       | [NetworkDelayTime](src/com/leetcode/L701_800/L0743/NetworkDelayTime.java)                         | 中等  | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆          |
-| 785  | 判断二分图        | [IsGraphBipartite](src/com/leetcode/L701_800/L0785/IsGraphBipartite.java)                         | 中等  | 深度优先搜索、广度优先搜索             | 图、深度优先搜索、广度优先搜索、并查集            |
-| 787  | K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java)   | 中等  | Dijkstra算法                | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划     |
-| 797  | 所有可能的路径      | [AllPathsFromSourceTarget](src/com/leetcode/L701_800/L0797/AllPathsFromSourceTarget.java)         | 中等  | 深度优先搜索、广度优先搜索             | 图、深度优先搜索、广度优先搜索、回溯算法           |
-| 802  | 找到最终的安全状态    | [FindEventualSafeStates](src/com/leetcode/L801_900/L0802/FindEventualSafeStates.java)             | 中等  | 拓扑排序                      | 图、深度优先搜索、广度优先搜索、拓扑排序           |
-| 847  | 访问所有节点的最短路径  | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java) | 困难  | 广度优先搜索                    | 图、广度优先搜索、位运算、动态规划、状态压缩         |
-| 851  | 喧闹和富有        | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java)                                         | 中等  | 拓扑排序                      | 图、数组、深度优先搜索、拓扑排序               |
-| 997  | 找到小镇的法官      | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java)                              | 简单  | 图                         | 图、数组、哈希表                       |
-| 1135 | 最低成本连通城市     | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java)         | 中等  | Kruskal算法、Prim算法          | 图、并查集、最小生成树、堆                  |
-| 1514 | 概率最大的路径      | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java)           | 中等  | Dijkstra算法                | 图、最短路、堆                        |
-| 1584 | 连接所有点的最小费用   | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java)               | 中等  | Kruskal算法、Prim算法          | 数组、并查集、最小生成树                   |
-| 1631 | 最小体力消耗路径     | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java)             | 中等  | Dijkstra算法                | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
-| 1791 | 找出星型图的中心节点   | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java)                             | 简单  | 图                         | 图                              |
-| 2039 | 网络空闲的时刻      | [TimeNetworkIdle](src/com/leetcode/L2001_2100/L2039/TimeNetworkIdle.java)                         | 中等  | Dijkstra算法                | 图、数组、广度优先搜索                    |
-| 2045 | 到达目的地的第二短时间  | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java)       | 困难  | 广度优先搜索                    | 图、广度优先搜索、最短路                   |
+| # | 题目 | 类名 | 难度 | 方法 | 标签 |
+|------|--------------|---------------------------------------------------------------------------------------------------|--|---------------------------|--------------------------------|
+| 127 | 单词接龙 | [WordLadder](src/com/leetcode/L101_200/L0127/WordLadder.java)                                     | 中等 |
+广度优先搜索 | 字符串、哈希表、广度优先搜索 |
+| 207 | 课程表 | [CourseSchedule](src/com/leetcode/L201_300/L0207/CourseSchedule.java)                             | 中等 |
+拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+| 210 | 课程表 II | [CourseScheduleII](src/com/leetcode/L201_300/L0210/CourseScheduleII.java)                         | 中等
+| 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+| 310 | 最小高度树 | [MinHeightTrees](src/com/leetcode/L301_400/L0310/MinHeightTrees.java)                             | 中等 |
+拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+| 743 | 网络延迟时间 | [NetworkDelayTime](src/com/leetcode/L701_800/L0743/NetworkDelayTime.java)                         | 中等
+| Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
+| 785 | 判断二分图 | [IsGraphBipartite](src/com/leetcode/L701_800/L0785/IsGraphBipartite.java)                         | 中等 |
+深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、并查集 |
+| 787 | K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java)
+| 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
+| 797 | 所有可能的路径 | [AllPathsFromSourceTarget](src/com/leetcode/L701_800/L0797/AllPathsFromSourceTarget.java)         | 中等
+| 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
+| 802 | 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L801_900/L0802/FindEventualSafeStates.java)             |
+中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
+| 847 | 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java)
+| 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
+| 851 | 喧闹和富有 | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java)                                         | 中等 |
+拓扑排序 | 图、数组、深度优先搜索、拓扑排序 |
+| 997 | 找到小镇的法官 | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java)                              | 简单
+| 图 | 图、数组、哈希表 |
+| 1135 | 最低成本连通城市 | [ConnectCitiesLowestCost](src/com/leetcode/L1101_1200/L1135/ConnectCitiesLowestCost.java)         |
+中等 | Kruskal算法、Prim算法 | 图、并查集、最小生成树、堆 |
+| 1514 | 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java)           |
+中等 | Dijkstra算法 | 图、最短路、堆 |
+| 1584 | 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java)
+| 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
+| 1631 | 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java)             |
+中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
+| 1728 | 猫和老鼠 II | [CatAndMouseII](src/com/leetcode/L1701_1800/L1728/CatAndMouseII.java)                             |
+困难 | 图 | 图、广度优先搜索、数学、动态规划、记忆化搜索、博弈论 |
+| 1791 | 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java)
+| 简单 | 图 | 图 |
+| 2039 | 网络空闲的时刻 | [TimeNetworkIdle](src/com/leetcode/L2001_2100/L2039/TimeNetworkIdle.java)                         |
+中等 | Dijkstra算法 | 图、数组、广度优先搜索 |
+| 2045 | 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java)
+| 困难 | 广度优先搜索 | 图、广度优先搜索、最短路 |
 
 ## 8. **_并查集系列_**
 
