@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**998**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1000**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -275,6 +275,7 @@
 | 921  | 使括号有效的最少添加         | [MinParenthesesValid](src/com/leetcode/L901_1000/L0921/MinParenthesesValid.java)                                                  | 中等  | 模拟             | 字符串、栈、贪心算法                 |
 | 925  | 长按键入               | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java)                                                          | 简单  | 双指针            | 字符串                        |
 | 937  | 重新排列日志文件           | [ReorderDataLogFiles](src/com/leetcode/L901_1000/L0937/ReorderDataLogFiles.java)                                                  | 简单  | 排序             | 字符串、数组、排序                  |
+| 944  | 删列造序               | [DeleteColumnsSorted](src/com/leetcode/L901_1000/L0944/DeleteColumnsSorted.java)                                                  | 简单  | 模拟             | 字符串、数组                     |
 | 953  | 验证外星语词典            | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java)                                        | 简单  | map映射          | 字符串、数组、哈希表                 |
 | 1046 | 最后一块石头的重量          | [LastStoneWeight](src/com/leetcode/L1001_1100/L1046/LastStoneWeight.java)                                                         | 简单  | 最大堆            | 堆、贪心算法                     |
 | 1047 | 删除字符串中的所有相邻重复项     | [RemoveAllAdjacentDuplicatesString](src/com/leetcode/L1001_1100/L1047/RemoveAllAdjacentDuplicatesString.java)                     | 简单  | 栈              | 栈                          |
@@ -737,43 +738,44 @@
 
 ## 15. **_设计系列_**
 
-| #    | 题目                  | 类名                                                                            | 难度  | 方法             | 标签                         |
-|------|---------------------|-------------------------------------------------------------------------------|-----|----------------|----------------------------|
-| 146  | LRU 缓存机制            | [LRUCache](src/com/leetcode/L101_200/L0146/LRUCache.java)                     | 中等  | 双向链表+哈希表       | 链表、双向链表、哈希表、设计             |
-| 155  | 最小栈                 | [MinStack](src/com/leetcode/L101_200/L0155/MinStack.java)                     | 简单  | 栈              | 栈、设计                       |
-| 173  | 二叉搜索树迭代器            | [BSTIterator](src/com/leetcode/L101_200/L0173/BSTIterator.java)               | 中等  | 递归             | 栈、树、二叉树、二叉搜索树、迭代器、设计       |
-| 208  | 实现 Trie (前缀树)       | [Trie](src/com/leetcode/L201_300/L0208/Trie.java)                             | 中等  | 前缀树            | 字典树、设计                     |
-| 211  | 添加与搜索单词 - 数据结构设计    | [WordDictionary](src/com/leetcode/L201_300/L0211/WordDictionary.java)         | 中等  | 前缀树            | 字典树、设计、回溯算法                |
-| 232  | 用栈实现队列              | [MyQueue](src/com/leetcode/L201_300/L0232/MyQueue.java)                       | 简单  | 栈              | 栈、设计                       |
-| 284  | 窥探迭代器               | [PeekingIterator](src/com/leetcode/L201_300/L0284/PeekingIterator.java)       | 中等  | 迭代器            | 数组、迭代器、设计                  |
-| 295  | 数据流的中位数             | [MedianFinder](src/com/leetcode/L201_300/L0295/MedianFinder.java)             | 困难  | 堆              | 设计、双指针、数据流、排序、堆            |
-| 297  | 二叉树的序列化与反序列化        | [Codec](src/com/leetcode/L201_300/L0297/Codec.java)                           | 困难  | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 |
-| 303  | 区域和检索 - 数组不可变       | [NumArray](src/com/leetcode/L301_400/L0303/NumArray.java)                     | 简单  | 前缀和            | 数组、前缀和、设计                  |
-| 304  | 二维区域和检索 - 矩阵不可变     | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java)                   | 中等  | 前缀和            | 数组、矩阵、前缀和、设计               |
-| 307  | 区域和检索 - 数组可修改       | [NumArray](src/com/leetcode/L301_400/L0307/NumArray.java)                     | 中等  | 线段树            | 数组、线段树、树状数组、设计             |
-| 341  | 扁平化嵌套列表迭代器          | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java)         | 中等  | 递归             | 树、栈、队列、设计、深度优先搜索、迭代器       |
-| 352  | 将数据流变为多个不相交区间       | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java)           | 困难  | 并查集            | 有序集合、二分查找、设计               |
-| 380  | O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java)           | 中等  | list集合         | 数组、哈希表、数学、设计、随机化           |
-| 382  | 链表随机节点              | [Solution](src/com/leetcode/L301_400/L0382/Solution.java)                     | 中等  | 设计             | 链表、数学、水塘抽样、随机化             |
-| 398  | 随机数索引               | [Solution](src/com/leetcode/L301_400/L0398/Solution.java)                     | 中等  | 设计             | 哈希表、数学、水塘抽样、随机化            |
-| 432  | 全 O(1) 的数据结构        | [AllOne](src/com/leetcode/L401_500/L0432/AllOne.java)                         | 困难  | 双向链表           | 链表、双向链表、哈希表、设计             |
-| 460  | LFU 缓存              | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java)                     | 困难  | 哈希表            | 链表、双向链表、哈希表、设计             |
-| 519  | 随机翻转矩阵              | [Solution](src/com/leetcode/L501_600/L0519/Solution.java)                     | 中等  | map映射          | 哈希表、数学、随机化、水塘抽样            |
-| 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计             |
-| 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                     |
-| 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计       |
-| 710  | 黑名单中的随机数            | [Solution](src/com/leetcode/L701_800/L0710/Solution.java)                     | 困难  | map映射          | 哈希表、数学、随机化、二分查找、排序         |
-| 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                |
-| 911  | 在线选举                | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java)  | 中等  | map映射+二分查找     | 数组、哈希表、二分查找、设计             |
-| 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等  | 队列             | 树、二叉树、广度优先搜索、设计            |
-| 933  | 最近的请求次数             | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java)          | 简单  | 队列             | 队列、数据流、设计                  |
-| 981  | 基于时间的键值存储           | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java)                      | 中等  | Map映射+二分查找     | 字符串、哈希表、二分查找、设计            |
-| 1600 | 皇位继承顺序              | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等  | 树              | 树、设计                       |
-| 1603 | 设计停车系统              | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java)         | 简单  | 数组             | 设计                         |
-| 1865 | 找出和为指定值的下标对         | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java)           | 中等  | 哈希表            | 设计、哈希表                     |
-| 2013 | 检测正方形               | [DetectSquares](src/com/leetcode/L2001_2100/L2013/DetectSquares.java)         | 中等  | 哈希表            | 设计、哈希表、数组、计数               |
-| 2034 | 股票价格波动              | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java)               | 中等  | 哈希表            | 设计、哈希表、堆、有序集合、数据流          |
-| 2043 | 简易银行系统              | [Bank](src/com/leetcode/L2001_2100/L2043/Bank.java)                           | 中等  | 哈希表            | 设计、数组、哈希表、模拟               |
+| #    | 题目                  | 类名                                                                            | 难度  | 方法             | 标签                               |
+|------|---------------------|-------------------------------------------------------------------------------|-----|----------------|----------------------------------|
+| 146  | LRU 缓存机制            | [LRUCache](src/com/leetcode/L101_200/L0146/LRUCache.java)                     | 中等  | 双向链表+哈希表       | 链表、双向链表、哈希表、设计                   |
+| 155  | 最小栈                 | [MinStack](src/com/leetcode/L101_200/L0155/MinStack.java)                     | 简单  | 栈              | 栈、设计                             |
+| 173  | 二叉搜索树迭代器            | [BSTIterator](src/com/leetcode/L101_200/L0173/BSTIterator.java)               | 中等  | 递归             | 栈、树、二叉树、二叉搜索树、迭代器、设计             |
+| 208  | 实现 Trie (前缀树)       | [Trie](src/com/leetcode/L201_300/L0208/Trie.java)                             | 中等  | 前缀树            | 字典树、设计                           |
+| 211  | 添加与搜索单词 - 数据结构设计    | [WordDictionary](src/com/leetcode/L201_300/L0211/WordDictionary.java)         | 中等  | 前缀树            | 字典树、设计、回溯算法                      |
+| 232  | 用栈实现队列              | [MyQueue](src/com/leetcode/L201_300/L0232/MyQueue.java)                       | 简单  | 栈              | 栈、设计                             |
+| 284  | 窥探迭代器               | [PeekingIterator](src/com/leetcode/L201_300/L0284/PeekingIterator.java)       | 中等  | 迭代器            | 数组、迭代器、设计                        |
+| 295  | 数据流的中位数             | [MedianFinder](src/com/leetcode/L201_300/L0295/MedianFinder.java)             | 困难  | 堆              | 设计、双指针、数据流、排序、堆                  |
+| 297  | 二叉树的序列化与反序列化        | [Codec](src/com/leetcode/L201_300/L0297/Codec.java)                           | 困难  | 前序遍历、后序遍历、层序遍历 | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树       |
+| 303  | 区域和检索 - 数组不可变       | [NumArray](src/com/leetcode/L301_400/L0303/NumArray.java)                     | 简单  | 前缀和            | 数组、前缀和、设计                        |
+| 304  | 二维区域和检索 - 矩阵不可变     | [NumMatrix](src/com/leetcode/L301_400/L0304/NumMatrix.java)                   | 中等  | 前缀和            | 数组、矩阵、前缀和、设计                     |
+| 307  | 区域和检索 - 数组可修改       | [NumArray](src/com/leetcode/L301_400/L0307/NumArray.java)                     | 中等  | 线段树            | 数组、线段树、树状数组、设计                   |
+| 341  | 扁平化嵌套列表迭代器          | [NestedIterator](src/com/leetcode/L301_400/L0341/NestedIterator.java)         | 中等  | 递归             | 树、栈、队列、设计、深度优先搜索、迭代器             |
+| 352  | 将数据流变为多个不相交区间       | [SummaryRanges](src/com/leetcode/L301_400/L0352/SummaryRanges.java)           | 困难  | 并查集            | 有序集合、二分查找、设计                     |
+| 380  | O(1) 时间插入、删除和获取随机元素 | [RandomizedSet](src/com/leetcode/L301_400/L0380/RandomizedSet.java)           | 中等  | list集合         | 数组、哈希表、数学、设计、随机化                 |
+| 382  | 链表随机节点              | [Solution](src/com/leetcode/L301_400/L0382/Solution.java)                     | 中等  | 设计             | 链表、数学、水塘抽样、随机化                   |
+| 398  | 随机数索引               | [Solution](src/com/leetcode/L301_400/L0398/Solution.java)                     | 中等  | 设计             | 哈希表、数学、水塘抽样、随机化                  |
+| 432  | 全 O(1) 的数据结构        | [AllOne](src/com/leetcode/L401_500/L0432/AllOne.java)                         | 困难  | 双向链表           | 链表、双向链表、哈希表、设计                   |
+| 449  | 序列化和反序列化二叉搜索树       | [Codec](src/com/leetcode/L401_500/L0449/Codec.java)                           | 中等  | 后序遍历           | 字符串、树、二叉树、二叉搜索树、深度优先搜索、广度优先搜索、设计 |
+| 460  | LFU 缓存              | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java)                     | 困难  | 哈希表            | 链表、双向链表、哈希表、设计                   |
+| 519  | 随机翻转矩阵              | [Solution](src/com/leetcode/L501_600/L0519/Solution.java)                     | 中等  | map映射          | 哈希表、数学、随机化、水塘抽样                  |
+| 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计                   |
+| 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                           |
+| 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计             |
+| 710  | 黑名单中的随机数            | [Solution](src/com/leetcode/L701_800/L0710/Solution.java)                     | 困难  | map映射          | 哈希表、数学、随机化、二分查找、排序               |
+| 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                      |
+| 911  | 在线选举                | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java)  | 中等  | map映射+二分查找     | 数组、哈希表、二分查找、设计                   |
+| 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等  | 队列             | 树、二叉树、广度优先搜索、设计                  |
+| 933  | 最近的请求次数             | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java)          | 简单  | 队列             | 队列、数据流、设计                        |
+| 981  | 基于时间的键值存储           | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java)                      | 中等  | Map映射+二分查找     | 字符串、哈希表、二分查找、设计                  |
+| 1600 | 皇位继承顺序              | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等  | 树              | 树、设计                             |
+| 1603 | 设计停车系统              | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java)         | 简单  | 数组             | 设计                               |
+| 1865 | 找出和为指定值的下标对         | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java)           | 中等  | 哈希表            | 设计、哈希表                           |
+| 2013 | 检测正方形               | [DetectSquares](src/com/leetcode/L2001_2100/L2013/DetectSquares.java)         | 中等  | 哈希表            | 设计、哈希表、数组、计数                     |
+| 2034 | 股票价格波动              | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java)               | 中等  | 哈希表            | 设计、哈希表、堆、有序集合、数据流                |
+| 2043 | 简易银行系统              | [Bank](src/com/leetcode/L2001_2100/L2043/Bank.java)                           | 中等  | 哈希表            | 设计、数组、哈希表、模拟                     |
 
 ## 16. **_力扣杯竞赛题列表_**
 
