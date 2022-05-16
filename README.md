@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1000**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1002**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -390,7 +390,7 @@
 | #    | 题目            | 类名                                                                                                      | 难度  | 方法            | 标签                         |
 |------|---------------|---------------------------------------------------------------------------------------------------------|-----|---------------|----------------------------|
 | 85   | 最大矩形          | [MaximalRectangle](src/com/leetcode/L1_100/L0085/MaximalRectangle.java)                                 | 困难  | 单调栈           | 数组、栈、单调栈、矩阵、动态规划           |
-| 200  | 岛屿数量          | [NumberIslands](src/com/leetcode/L101_200/L0200/NumberIslands.java)                                     | 中等  | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |？
+| 200  | 岛屿数量          | [NumberIslands](src/com/leetcode/L101_200/L0200/NumberIslands.java)                                     | 中等  | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |
 | 407  | 接雨水 II        | [TrappingRainWaterII](src/com/leetcode/L401_500/L0407/TrappingRainWaterII.java)                         | 困难  | 堆             | 数组、堆、矩阵、广度优先搜索             |
 | 417  | 太平洋大西洋水流问题    | [WaterFlow](src/com/leetcode/L401_500/L0417/WaterFlow.java)                                             | 中等  | 深度优先搜索        | 数组、矩阵、深度优先搜索、广度优先搜索        |
 | 419  | 甲板上的战舰        | [BattleshipsBoard](src/com/leetcode/L401_500/L0419/BattleshipsBoard.java)                               | 中等  | 模拟            | 数组、矩阵、深度优先搜索               |
@@ -662,6 +662,7 @@
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                |
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学             |
 | 810  | 黑板异或游戏                                                              | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java)                                         | 困难  | 数学       | 数学                |
+| 812  | 最大三角形面积                                                             | [LargestTriangleArea](src/com/leetcode/L801_900/L0812/LargestTriangleArea.java)                                     | 简单  | 数学       | 数组、数学、几何          |
 | 832  | 翻转图像                                                                | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java)                                                 | 简单  | 数学       | 数组                |
 | 883  | 三维形体投影面积                                                            | [Area3DShapes](src/com/leetcode/L801_900/L0883/Area3DShapes.java)                                                   | 简单  | 数学       | 数组、矩阵、数学、几何       |
 | 908  | 最小差值 I                                                              | [SmallestRangeI](src/com/leetcode/L901_1000/L0908/SmallestRangeI.java)                                              | 简单  | 数学       | 数组、数学             |
