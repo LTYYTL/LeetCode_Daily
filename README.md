@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1002**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1004**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -201,7 +201,7 @@
 | #    | 题目                 | 类名                                                                                                                                | 难度  | 方法             | 标签                         |
 |------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----|----------------|----------------------------|
 | 5    | 最长回文子串             | [LongestPalindromicSubstring](src/com/leetcode/L1_100/L0005/LongestPalindromicSubstring.java)                                     | 中等  | 模拟             | 字符串、动态规划                   |
-| 6    | Z 字形变换             | [ZigZagConversion](src/com/leetcode/L1_100/L0006/ZigZagConversion.java)                                                           | 中等  | 模拟             | 字符串                        |？
+| 6    | Z 字形变换             | [ZigZagConversion](src/com/leetcode/L1_100/L0006/ZigZagConversion.java)                                                           | 中等  | 模拟             | 字符串                        |
 | 8    | 字符串转换整数 (atoi)     | [StringToInteger](src/com/leetcode/L1_100/L0008/StringToInteger.java)                                                             | 中等  | 模拟             | 字符串                        |
 | 14   | 最长公共前缀             | [LongestCommonPrefix](src/com/leetcode/L1_100/L0014/LongestCommonPrefix.java)                                                     | 简单  | 分治法            | 字符串                        |
 | 20   | 有效的括号              | [ValidParentheses](src/com/leetcode/L1_100/L0020/ValidParentheses.java)                                                           | 简单  | 栈              | 栈、字符串                      |
@@ -431,14 +431,14 @@
 | Dijkstra算法、SPFA算法、Floyd算法 | 图、深度优先搜索、广度优先搜索、最短路、堆 |
 | 785 | 判断二分图 | [IsGraphBipartite](src/com/leetcode/L701_800/L0785/IsGraphBipartite.java)                         | 中等 |
 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、并查集 |
-| 787 | K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java)
-| 中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
+| 787 | K 站中转内最便宜的航班 | [CheapestFlightsWithinKStops](src/com/leetcode/L701_800/L0787/CheapestFlightsWithinKStops.java)|
+中等 | Dijkstra算法 | 图、深度优先搜索、广度优先搜索、最短路、堆、动态规划 |
 | 797 | 所有可能的路径 | [AllPathsFromSourceTarget](src/com/leetcode/L701_800/L0797/AllPathsFromSourceTarget.java)         | 中等
 | 深度优先搜索、广度优先搜索 | 图、深度优先搜索、广度优先搜索、回溯算法 |
 | 802 | 找到最终的安全状态 | [FindEventualSafeStates](src/com/leetcode/L801_900/L0802/FindEventualSafeStates.java)             |
 中等 | 拓扑排序 | 图、深度优先搜索、广度优先搜索、拓扑排序 |
-| 847 | 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java)
-| 困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
+| 847 | 访问所有节点的最短路径 | [ShortestPathVisitingAllNodes](src/com/leetcode/L801_900/L0847/ShortestPathVisitingAllNodes.java)|
+困难 | 广度优先搜索 | 图、广度优先搜索、位运算、动态规划、状态压缩 |
 | 851 | 喧闹和富有 | [LoudRich](src/com/leetcode/L801_900/L0851/LoudRich.java)                                         | 中等 |
 拓扑排序 | 图、数组、深度优先搜索、拓扑排序 |
 | 997 | 找到小镇的法官 | [FindTownJudge](src/com/leetcode/L901_1000/L0997/FindTownJudge.java)                              | 简单
@@ -447,18 +447,17 @@
 中等 | Kruskal算法、Prim算法 | 图、并查集、最小生成树、堆 |
 | 1514 | 概率最大的路径 | [PathMaximumProbability](src/com/leetcode/L1501_1600/L1514/PathMaximumProbability.java)           |
 中等 | Dijkstra算法 | 图、最短路、堆 |
-| 1584 | 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java)
-| 中等 | Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
+| 1584 | 连接所有点的最小费用 | [MinCostConnectPoints](src/com/leetcode/L1501_1600/L1584/MinCostConnectPoints.java)| 中等 |
+Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 1631 | 最小体力消耗路径 | [PathWithMinimumEffort](src/com/leetcode/L1601_1700/L1631/PathWithMinimumEffort.java)             |
 中等 | Dijkstra算法 | 数组、并查集、矩阵、堆、深度优先搜索、广度优先搜索、二分查找 |
 | 1728 | 猫和老鼠 II | [CatAndMouseII](src/com/leetcode/L1701_1800/L1728/CatAndMouseII.java)                             |
 困难 | 图 | 图、广度优先搜索、数学、动态规划、记忆化搜索、博弈论 |
-| 1791 | 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java)
-| 简单 | 图 | 图 |
+| 1791 | 找出星型图的中心节点 | [FindStarGraph](src/com/leetcode/L1701_1800/L1791/FindStarGraph.java)| 简单 | 图 | 图 |
 | 2039 | 网络空闲的时刻 | [TimeNetworkIdle](src/com/leetcode/L2001_2100/L2039/TimeNetworkIdle.java)                         |
 中等 | Dijkstra算法 | 图、数组、广度优先搜索 |
-| 2045 | 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java)
-| 困难 | 广度优先搜索 | 图、广度优先搜索、最短路 |
+| 2045 | 到达目的地的第二短时间 | [SecondMinTimeDestination](src/com/leetcode/L2001_2100/L2045/SecondMinTimeDestination.java)| 困难 |
+广度优先搜索 | 图、广度优先搜索、最短路 |
 
 ## 8. **_并查集系列_**
 
@@ -637,12 +636,13 @@
 | 391  | 完美矩形                                                                | [PerfectRectangle](src/com/leetcode/L301_400/L0391/PerfectRectangle.java)                                           | 困难  | 数学       | 数组、扫描线            |
 | 396  | 旋转函数                                                                | [RotateFunction](src/com/leetcode/L301_400/L0396/RotateFunction.java)                                               | 中等  | 数学       | 数组、数学、动态规划        |
 | 400  | 第 N 位数字                                                             | [DigitSequenceNumbers](src/com/leetcode/L301_400/L0400/DigitSequenceNumbers.java)                                   | 中等  | 数学       | 数学、二分查找           |
-| 447  | 回旋镖的数量                                                              | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java)                                           | 中等  | 数学       | 数组、哈希表、数学         |
 | 401  | 二进制手表                                                               | [BinaryWatch](src/com/leetcode/L401_500/L0401/BinaryWatch.java)                                                     | 简单  | 数学       | 位运算、回溯算法          |
 | 405  | 数字转换为十六进制数                                                          | [ConvertNumberHexadecimal](src/com/leetcode/L401_500/L0405/ConvertNumberHexadecimal.java)                           | 简单  | 数学       | 数学、位运算            |
+| 447  | 回旋镖的数量                                                              | [NumberBoomerangs](src/com/leetcode/L401_500/L0447/NumberBoomerangs.java)                                           | 中等  | 数学       | 数组、哈希表、数学         |
 | 453  | 最小操作次数使数组元素相等                                                       | [MinimumMovesEqualElements](src/com/leetcode/L401_500/L0453/MinimumMovesEqualElements.java)                         | 简单  | 数学       | 数组、数学             |
 | 458  | 可怜的小猪                                                               | [PoorPigs](src/com/leetcode/L401_500/L0458/PoorPigs.java)                                                           | 困难  | 数学       | 数学、动态规划、组合数学      |
 | 461  | 汉明距离                                                                | [HammingDistance](src/com/leetcode/L401_500/L0461/HammingDistance.java)                                             | 简单  | 数学       | 位运算               |
+| 462  | 最少移动次数使数组元素相等 II                                                    | [MinMovesElementsII](src/com/leetcode/L401_500/L0462/MinMovesElementsII.java)                                       | 中等  | 数学       | 数组、数学、排序          |
 | 470  | 用 Rand7() 实现 Rand10()                                               | [ImplementRand10UsingRand7](src/com/leetcode/L401_500/L0470/ImplementRand10UsingRand7.java)                         | 中等  | 数学       | 数学、拒绝采样、概率与统计、随机化 |
 | 475  | 供暖器                                                                 | [Heaters](src/com/leetcode/L401_500/L0475/Heaters.java)                                                             | 中等  | 二分查找     | 数组、双指针、二分查找、排序    |
 | 479  | 最大回文数乘积                                                             | [LargestPalindromeProduct](src/com/leetcode/L401_500/L0479/LargestPalindromeProduct.java)                           | 困难  | 数学       | 数学                |
