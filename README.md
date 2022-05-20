@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1004**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1005**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -58,6 +58,7 @@
 | 386  | 字典序排数                                              | [LexicographicalNumbers](src/com/leetcode/L301_400/L0386/LexicographicalNumbers.java)                                         | 中等  | 深度优先搜索          | 字典树、深度优先搜索               |
 | 414  | 第三大的数                                              | [ThirdMaximumNumber](src/com/leetcode/L401_500/L0414/ThirdMaximumNumber.java)                                                 | 简单  | 排序、set集合        | 数组、排序                    |
 | 421  | 数组中两个数的最大异或值                                       | [MaximumXORTwoNumbersArray](src/com/leetcode/L401_500/L0421/MaximumXORTwoNumbersArray.java)                                   | 中等  | 暴力法、前缀树         | 位运算、前缀树                  |
+| 436  | 寻找右区间                                              | [FindRightInterval](src/com/leetcode/L401_500/L0436/FindRightInterval.java)                                                   | 中等  | 二分查找            | 数组、二分查找、排序               |
 | 441  | 排列硬币                                               | [ArrangingCoins](src/com/leetcode/L401_500/L0441/ArrangingCoins.java)                                                         | 简单  | 二分查找            | 数学、二分查找                  |
 | 442  | 数组中重复的数据                                           | [FindDuplicatesArray](src/com/leetcode/L401_500/L0442/FindDuplicatesArray.java)                                               | 中等  | 数组              | 数学、哈希表                   |
 | 448  | 找到所有数组中消失的数字                                       | [FindAllNumbersDisappearedArray](src/com/leetcode/L401_500/L0448/FindAllNumbersDisappearedArray.java)                         | 简单  | 哈希表             | 数组                       |
