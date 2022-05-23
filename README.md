@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1006**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1008**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -207,7 +207,7 @@
 | 905 | 按奇偶排序数组 | [SortArrayByParityII](src/com/leetcode/L901_1000/L0922/SortArrayByParityII.java)
 | 简单 | 双指针 | 数组 |
 | 912 | 排序数组 | [SortArray](src/com/leetcode/L901_1000/L0912/SortArray.java)
-| 简单 | 快速排序 | 数组、排序、基数排序、堆、桶排序、分治、计数排序 |？
+| 简单 | 快速排序 | 数组、排序、基数排序、堆、桶排序、分治、计数排序 |
 | 922 | 按奇偶排序数组 II | [SortArrayByParityII](src/com/leetcode/L901_1000/L0922/SortArrayByParityII.java)
 | 简单 | 暴力法 | 数组、排序 |
 | 942 | 增减字符串匹配 | [DIStringMatch](src/com/leetcode/L901_1000/L0942/DIStringMatch.java)
@@ -578,6 +578,7 @@
 | 427  | 建立四叉树         | [ConstructQuadTree](src/com/leetcode/L401_500/L0427/ConstructQuadTree.java)                             | 中等  | 深度优先搜索        | 数组、矩阵、树、分治                 |
 | 542  | 01 矩阵         | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java)                                               | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索、动态规划          |
 | 661  | 图片平滑器         | [ImageSmoother](src/com/leetcode/L601_700/L0661/ImageSmoother.java)                                     | 简单  | 模拟            | 数组、矩阵                      |
+| 675  | 为高尔夫比赛砍树      | [CutTreesGolf](src/com/leetcode/L601_700/L0675/CutTreesGolf.java)                                       | 困难  | 广度优先搜索        | 数组、矩阵、广度优先搜索、堆             |
 | 694  | 不同的岛屿数量       | [NumberDistinctIslands](src/com/leetcode/L601_700/L0694/NumberDistinctIslands.java)                     | 中等  | 深度优先搜索        | 哈希表、并查集、深度优先搜索、广度优先搜索、哈希函数 |
 | 695  | 岛屿的最大面积       | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java)                                     | 中等  | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |
 | 733  | 图像渲染          | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java)                                             | 简单  | 广度优先搜索        | 数组、矩阵、深度优先搜索、广度优先搜索        |
