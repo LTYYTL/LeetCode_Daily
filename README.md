@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1016**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1018**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -852,6 +852,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学             |
 | 810  | 黑板异或游戏                                                              | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java)                                         | 困难  | 数学       | 数学                |
 | 812  | 最大三角形面积                                                             | [LargestTriangleArea](src/com/leetcode/L801_900/L0812/LargestTriangleArea.java)                                     | 简单  | 数学       | 数组、数学、几何          |
+| 829  | 连续整数求和                                                             | [ConsecutiveNumbersSum](src/com/leetcode/L801_900/L0829/ConsecutiveNumbersSum.java)                                 | 困难  | 数学       | 数学、枚举             |
 | 832  | 翻转图像                                                                | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java)                                                 | 简单  | 数学       | 数组                |
 | 883  | 三维形体投影面积                                                            | [Area3DShapes](src/com/leetcode/L801_900/L0883/Area3DShapes.java)                                                   | 简单  | 数学       | 数组、矩阵、数学、几何       |
 | 908  | 最小差值 I                                                              | [SmallestRangeI](src/com/leetcode/L901_1000/L0908/SmallestRangeI.java)                                              | 简单  | 数学       | 数组、数学             |
@@ -957,6 +958,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计             |
 | 710  | 黑名单中的随机数            | [Solution](src/com/leetcode/L701_800/L0710/Solution.java)                     | 困难  | map映射          | 哈希表、数学、随机化、二分查找、排序               |
 | 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                      |
+| 732  | 我的日程安排表 III         | [MyCalendarThree](src/com/leetcode/L701_800/L0732/MyCalendarThree.java)       | 困难  | 差分数组           | 线段树、有序集合、设计                      |
 | 911  | 在线选举                | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java)  | 中等  | map映射+二分查找     | 数组、哈希表、二分查找、设计                   |
 | 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等  | 队列             | 树、二叉树、广度优先搜索、设计                  |
 | 933  | 最近的请求次数             | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java)          | 简单  | 队列             | 队列、数据流、设计                        |
