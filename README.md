@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1018**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1019**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -170,6 +170,8 @@
 | 简单 | 深度优先遍历、广度优先遍历 | 数组 |
 | 692 | 前K个高频单词 | [TopKFrequentWords](src/com/leetcode/L601_700/L0692/TopKFrequentWords.java)
 | 中等 | 最小堆 | 堆、哈希表、字典树 |
+| 699 | 掉落的方块 | [FallingSquares](src/com/leetcode/L601_700/L0699/FallingSquares.java)
+| 困难 | 暴力法 | 数组、线段树、有序集合 |
 | 704 | 二分查找 | [BinarySearch](src/com/leetcode/L701_800/L0704/BinarySearch.java)
 | 简单 | 二分查找 | 数组、二分查找 |
 | 717 | 1比特与2比特字符 | [BitCharacters](src/com/leetcode/L701_800/L0717/BitCharacters.java)
@@ -852,7 +854,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学             |
 | 810  | 黑板异或游戏                                                              | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java)                                         | 困难  | 数学       | 数学                |
 | 812  | 最大三角形面积                                                             | [LargestTriangleArea](src/com/leetcode/L801_900/L0812/LargestTriangleArea.java)                                     | 简单  | 数学       | 数组、数学、几何          |
-| 829  | 连续整数求和                                                             | [ConsecutiveNumbersSum](src/com/leetcode/L801_900/L0829/ConsecutiveNumbersSum.java)                                 | 困难  | 数学       | 数学、枚举             |
+| 829  | 连续整数求和                                                              | [ConsecutiveNumbersSum](src/com/leetcode/L801_900/L0829/ConsecutiveNumbersSum.java)                                 | 困难  | 数学       | 数学、枚举             |
 | 832  | 翻转图像                                                                | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java)                                                 | 简单  | 数学       | 数组                |
 | 883  | 三维形体投影面积                                                            | [Area3DShapes](src/com/leetcode/L801_900/L0883/Area3DShapes.java)                                                   | 简单  | 数学       | 数组、矩阵、数学、几何       |
 | 908  | 最小差值 I                                                              | [SmallestRangeI](src/com/leetcode/L901_1000/L0908/SmallestRangeI.java)                                              | 简单  | 数学       | 数组、数学             |
