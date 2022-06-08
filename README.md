@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1019**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1020**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -861,6 +861,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 976  | 三角形的最大周长                                                            | [LargestPerimeterTriangle](src/com/leetcode/L901_1000/L0976/LargestPerimeterTriangle.java)                          | 简单  | 数学       | 排序、数学             |
 | 989  | 数组形式的整数加法                                                           | [AddArrayFormInteger](src/com/leetcode/L901_1000/L0989/AddArrayFormInteger.java)                                    | 简单  | 数学       | 数组                |
 | 1006 | 笨阶乘                                                                 | [ClumsyFactorial](src/com/leetcode/L1001_1100/L1006/ClumsyFactorial.java)                                           | 中等  | 栈        | 数学                |
+| 1037 | 有效的回旋镖                                                              | [ValidBoomerang](src/com/leetcode/L1001_1100/L1037/ValidBoomerang.java)                                             | 简单  | 数学       | 数组、数学、几何          |
 | 1128 | 等价多米诺骨牌对的数量                                                         | [NumberEquivalentDominoPairs](src/com/leetcode/L1101_1200/L1128/NumberEquivalentDominoPairs.java)                   | 简单  | 数学       | 数组                |
 | 1154 | 一年中的第几天                                                             | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java)                                                       | 简单  | 数学       | 字符串、数学            |
 | 1185 | 一周中的第几天                                                             | [DayWeek](src/com/leetcode/L1101_1200/L1185/DayWeek.java)                                                           | 简单  | 数学       | 数学                |
