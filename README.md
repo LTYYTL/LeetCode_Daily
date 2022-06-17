@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1020**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1025**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -143,6 +143,8 @@
 | 中等 | 暴力法 | 数学、动态规划 |
 | 525 | 连续数组 | [ContiguousArray](src/com/leetcode/L501_600/L0525/ContiguousArray.java)
 | 中等 | Map映射 | 哈希表 |
+| 532 | 数组中的 k-diff 数对 | [KdiffPairsArray](src/com/leetcode/L501_600/L0532/KdiffPairsArray.java)
+| 中等 | Set集合 | 数组、哈希表、双指针、二分查找、排序 |
 | 540 | 有序数组中的单一元素 | [SingleElementSortedArray](src/com/leetcode/L501_600/L0540/SingleElementSortedArray.java)
 | 中等 | 暴力法、二分查找 | 数组、二分查找 |
 | 560 | 和为 K 的子数组 | [SubarraySumEqualsK](src/com/leetcode/L501_600/L0560/SubarraySumEqualsK.java)
@@ -176,6 +178,8 @@
 | 简单 | 二分查找 | 数组、二分查找 |
 | 717 | 1比特与2比特字符 | [BitCharacters](src/com/leetcode/L701_800/L0717/BitCharacters.java)
 | 简单 | 模拟 | 数组 |
+| 719 | 找出第 K 小的数对距离 | [FindKSmallestPairDistance](src/com/leetcode/L701_800/L0719/FindKSmallestPairDistance.java)
+| 困难 | 二分查找 | 数组、双指针、排序、二分查找 |
 | 735 | 行星碰撞 | [AsteroidCollision](src/com/leetcode/L701_800/L0735/AsteroidCollision.java)
 | 中等 | 栈 | 数组、栈 |
 | 739 | 每日温度 | [DailyTemperatures](src/com/leetcode/L701_800/L0739/DailyTemperatures.java)
@@ -233,6 +237,10 @@
 | 中等 | 二分查找 | 数组、二分查找 |
 | 1036 | 逃离大迷宫 | [EscapeLargeMaze](src/com/leetcode/L1001_1100/L1036/EscapeLargeMaze.java)
 | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索、深度优先搜索 |
+| 1051 | 高度检查器 | [HeightChecker](src/com/leetcode/L1001_1100/L1051/HeightChecker.java)
+| 简单 | 排序 | 数组、排序、计数排序 |
+| 1089 | 复写零 | [DuplicateZeros](src/com/leetcode/L1001_1100/L1089/DuplicateZeros.java)
+| 简单 | 栈 | 数组、双指针 |
 | 1094 | 拼车 | [CarPooling](src/com/leetcode/L1001_1100/L1094/CarPooling.java)
 | 中等 | 差分数组 | 数组、堆、前缀和、排序、模拟 |
 | 1109 | 航班预订统计 | [CorporateFlightBookings](src/com/leetcode/L1101_1200/L1109/CorporateFlightBookings.java)
@@ -455,6 +463,7 @@
 | 856  | 括号的分数              | [ScoreParentheses](src/com/leetcode/L801_900/L0856/ScoreParentheses.java)                                                         | 中等  | 栈              | 字符串、栈                      |
 | 859  | 亲密字符串              | [BuddyStrings](src/com/leetcode/L801_900/L0859/BuddyStrings.java)                                                                 | 简单  | 模拟             | 字符串、哈希表                    |
 | 884  | 两句话中的不常见单词         | [UncommonWordsSentences](src/com/leetcode/L801_900/L0884/UncommonWordsSentences.java)                                             | 简单  | map映射          | 字符串、哈希表                    |
+| 890  | 查找和替换模式            | [FindReplacePattern](src/com/leetcode/L801_900/L0890/FindReplacePattern.java)                                                     | 中等  | map映射          | 数组、字符串、哈希表                 |
 | 917  | 仅仅反转字母             | [ReverseOnlyLetters](src/com/leetcode/L901_1000/L0917/ReverseOnlyLetters.java)                                                    | 简单  | 双指针            | 字符串、双指针                    |
 | 921  | 使括号有效的最少添加         | [MinParenthesesValid](src/com/leetcode/L901_1000/L0921/MinParenthesesValid.java)                                                  | 中等  | 模拟             | 字符串、栈、贪心算法                 |
 | 925  | 长按键入               | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java)                                                          | 简单  | 双指针            | 字符串                        |
@@ -583,6 +592,7 @@
 | 417  | 太平洋大西洋水流问题    | [WaterFlow](src/com/leetcode/L401_500/L0417/WaterFlow.java)                                             | 中等  | 深度优先搜索        | 数组、矩阵、深度优先搜索、广度优先搜索        |
 | 419  | 甲板上的战舰        | [BattleshipsBoard](src/com/leetcode/L401_500/L0419/BattleshipsBoard.java)                               | 中等  | 模拟            | 数组、矩阵、深度优先搜索               |
 | 427  | 建立四叉树         | [ConstructQuadTree](src/com/leetcode/L401_500/L0427/ConstructQuadTree.java)                             | 中等  | 深度优先搜索        | 数组、矩阵、树、分治                 |
+| 498  | 对角线遍历         | [DiagonalTraverse](src/com/leetcode/L401_500/L0498/DiagonalTraverse.java)                               | 中等  | 模拟            | 数组、矩阵、模拟                   |？
 | 542  | 01 矩阵         | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java)                                               | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索、动态规划          |
 | 661  | 图片平滑器         | [ImageSmoother](src/com/leetcode/L601_700/L0661/ImageSmoother.java)                                     | 简单  | 模拟            | 数组、矩阵                      |
 | 675  | 为高尔夫比赛砍树      | [CutTreesGolf](src/com/leetcode/L601_700/L0675/CutTreesGolf.java)                                       | 困难  | 广度优先搜索        | 数组、矩阵、广度优先搜索、堆             |
