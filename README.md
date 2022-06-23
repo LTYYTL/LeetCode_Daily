@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1025**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1027**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -539,6 +539,7 @@
 | 437  | 路径总和III                                                        | [PathSumIII](src/com/leetcode/L401_500/L0437/PathSumIII.java)                                                   | 中等  | 递归、前缀和           | 树、二叉树、深度优先搜索                      |
 | 450  | 删除二叉搜索树中的节点                                                    | [DeleteNodeTToBST](src/com/leetcode/L401_500/L0450/DeleteNodeTToBST.java)                                       | 中等  | 递归               | 树                                 |
 | 501  | 二叉搜索树中的众数                                                      | [BSTMode](src/com/leetcode/L501_600/L0501/BSTMode.java)                                                         | 简单  | 递归、迭代            | 树                                 |
+| 508  | 出现次数最多的子树元素和                                                   | [MostFrequentSubtreeSum](src/com/leetcode/L501_600/L0508/MostFrequentSubtreeSum.java)                           | 中等  | 深度优先搜索           | 树、二叉树、哈希表、深度优先搜索                  |
 | 513  | 找树左下角的值                                                        | [FindBottomLeftTreeValue](src/com/leetcode/L501_600/L0513/FindBottomLeftTreeValue.java)                         | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
 | 515  | 在每个树行中找最大值                                                     | [FindLargestValueEachTreeRow](src/com/leetcode/L501_600/L0515/FindLargestValueEachTreeRow.java)                 | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
 | 530  | 二叉搜索树的最小绝对差                                                    | [BSTMin](src/com/leetcode/L501_600/L0530/BSTMin.java)                                                           | 简单  | 递归、迭代            | 树                                 |
@@ -926,6 +927,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | #    | 题目               | 类名                                                                                                                                                        | 难度  | 方法               | 标签                |
 |------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----|------------------|-------------------|
 | 3    | 无重复字符的最长子串       | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java)                                                                               | 中等  | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口  |
+| 50   | 串联所有单词的子串        | [SubstringAllWords](src/com/leetcode/L1_100/L0050/SubstringAllWords.java)                                                                                 | 困难  | 滑动窗口             | 字符串、哈希表、滑动窗口      |
 | 76   | 最小覆盖子串           | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难  | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
 | 209  | 长度最小的子数组         | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等  | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
 | 239  | 滑动窗口最大值          | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难  | 滑动窗口             | 堆、滑动窗口            |
