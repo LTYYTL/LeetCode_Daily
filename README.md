@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1027**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1029**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -11,6 +11,8 @@
 | 11 | 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L1_100/L0011/ContainerWithMostWater.java)
 | 中等 | 双指针 | 数组、双指针 |
 | 15 | 三数之和 | [Sum3](src/com/leetcode/L1_100/L0015/Sum3.java)
+| 中等 | 双指针 | 数组、双指针、排序 |
+| 16 | 最接近的三数之和 | [ThreeSumClosest](src/com/leetcode/L1_100/L0016/ThreeSumClosest.java)
 | 中等 | 双指针 | 数组、双指针、排序 |
 | 18 | 四数之和 | [Sum4](src/com/leetcode/L1_100/L0018/Sum4.java)
 | 中等 | 双指针 | 数组、双指针、排序 |
@@ -746,36 +748,37 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 
 ## 10. **_回溯算法系列_**
 
-| #    | 题目               | 类名                                                                                        | 难度  | 方法         | 标签                          |
-|------|------------------|-------------------------------------------------------------------------------------------|-----|------------|-----------------------------|
-| 22   | 括号生成             | [GenerateParentheses](src/com/leetcode/L1_100/L0022/GenerateParentheses.java)             | 中等  | 回溯算法       | 字符串、回溯算法、动态规划               |
-| 37   | 解数独              | [Sudoku](src/com/leetcode/L1_100/L0037/Sudoku.java)                                       | 困难  | 回溯算法       | 哈希表、回溯算法                    |
-| 39   | 组合总和             | [CombinationSum](src/com/leetcode/L1_100/L0039/CombinationSum.java)                       | 中等  | 回溯算法       | 数组、回溯算法                     |
-| 40   | 组合总和II           | [CombinationSumII](src/com/leetcode/L1_100/L0040/CombinationSumII.java)                   | 中等  | 回溯算法       | 数组、回溯算法                     |
-| 46   | 全排列              | [Permutations](src/com/leetcode/L1_100/L0046/Permutations.java)                           | 中等  | 回溯算法       | 回溯算法                        |
-| 47   | 全排列II            | [PermutationsII](src/com/leetcode/L1_100/L0047/PermutationsII.java)                       | 中等  | 回溯算法       | 回溯算法                        |
-| 51   | N皇后              | [NQueens](src/com/leetcode/L1_100/L0051/NQueens.java)                                     | 困难  | 回溯算法       | 回溯算法                        |
-| 52   | N皇后II            | [NQueensII](src/com/leetcode/L1_100/L0052/NQueensII.java)                                 | 困难  | 回溯算法       | 回溯算法                        |
-| 77   | 组合               | [Combination](src/com/leetcode/L1_100/L0077/Combination.java)                             | 中等  | 回溯算法       | 回溯算法                        |
-| 78   | 子集               | [Subsets](src/com/leetcode/L1_100/L0078/Subsets.java)                                     | 中等  | 回溯算法       | 数组、回溯算法、位运算                 |
-| 79   | 单词搜索             | [WordSearch](src/com/leetcode/L1_100/L0079/WordSearch.java)                               | 中等  | 回溯算法       | 数组、回溯算法                     |
-| 90   | 子集II             | [SubsetsII](src/com/leetcode/L1_100/L0090/SubsetsII.java)                                 | 中等  | 回溯算法       | 数组、回溯算法                     |
-| 93   | 复原 IP 地址         | [RestoreIPAddresses](src/com/leetcode/L1_100/L0093/RestoreIPAddresses.java)               | 中等  | 回溯算法       | 字符串、回溯算法                    |
-| 131  | 分割回文串            | [PalindromePartitioning](src/com/leetcode/L101_200/L0131/PalindromePartitioning.java)     | 中等  | 回溯算法       | 字符串、回溯算法、动态规划               |
-| 212  | 单词搜索 II          | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java)                         | 困难  | 字典树+回溯算法   | 数组、字符串、字典树、回溯算法、矩阵          |
-| 216  | 组合总和III          | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java)               | 中等  | 回溯算法       | 数组、回溯算法                     |
-| 282  | 给表达式添加运算符        | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java)     | 困难  | 回溯算法       | 字符串、数学、回溯算法                 |
-| 301  | 删除无效的括号          | [RemoveInvalidParentheses](src/com/leetcode/L301_400/L0301/RemoveInvalidParentheses.java) | 困难  | 回溯算法       | 字符串、回溯算法、广度优先搜索             |
-| 306  | 累加数              | [AdditiveNumber](src/com/leetcode/L301_400/L0306/AdditiveNumber.java)                     | 中等  | 回溯算法       | 字符串、回溯算法                    |
-| 473  | 火柴拼正方形           | [MatchsticksSquare](src/com/leetcode/L401_500/L0473/MatchsticksSquare.java)               | 中等  | 回溯算法       | 数组、回溯算法、动态规划、位运算、状态压缩       |
-| 488  | 祖玛游戏             | [ZumaGame](src/com/leetcode/L401_500/L0488/ZumaGame.java)                                 | 困难  | 回溯算法       | 字符串、回溯算法                    |
-| 526  | 优美的排列            | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java)         | 中等  | 回溯算法、动态规划  | 数组、位运算、回溯算法、动态规划、状态压缩       |
-| 698  | 划分为k个相等的子集       | [PartitionKEqualSum](src/com/leetcode/L601_700/L0698/PartitionKEqualSum.java)             | 中等  | 回溯算法       | 数组、位运算、回溯算法、动态规划、状态压缩、记忆化搜索 |
-| 784  | 字母大小写全排列         | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java)       | 中等  | 回溯算法       | 字符串、位运算、回溯算法                |
-| 869  | 重新排序得到 2 的幂      | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java)                   | 中等  | 回溯算法、set集合 | 数学、计数、排序、枚举                 |
-| 1219 | 黄金矿工             | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java)                         | 中等  | 回溯算法       | 数组、矩阵、回溯算法                  |
-| 1863 | 找出所有子集的异或总和再求和   | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java)     | 简单  | 回溯算法       | 回溯算法                        |
-| 2044 | 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L2044/CountMaxOR.java)                           | 中等  | 回溯算法       | 数组、回溯算法、位运算                 |
+| #    | 题目               | 类名                                                                                                | 难度  | 方法         | 标签                          |
+|------|------------------|---------------------------------------------------------------------------------------------------|-----|------------|-----------------------------|
+| 17   | 电话号码的字母组合        | [LetterCombinationsPhoneNumber](src/com/leetcode/L1_100/L0017/LetterCombinationsPhoneNumber.java) | 中等  | 回溯算法       | 字符串、哈希表、回溯算法                |
+| 22   | 括号生成             | [GenerateParentheses](src/com/leetcode/L1_100/L0022/GenerateParentheses.java)                     | 中等  | 回溯算法       | 字符串、回溯算法、动态规划               |
+| 37   | 解数独              | [Sudoku](src/com/leetcode/L1_100/L0037/Sudoku.java)                                               | 困难  | 回溯算法       | 哈希表、回溯算法                    |
+| 39   | 组合总和             | [CombinationSum](src/com/leetcode/L1_100/L0039/CombinationSum.java)                               | 中等  | 回溯算法       | 数组、回溯算法                     |
+| 40   | 组合总和II           | [CombinationSumII](src/com/leetcode/L1_100/L0040/CombinationSumII.java)                           | 中等  | 回溯算法       | 数组、回溯算法                     |
+| 46   | 全排列              | [Permutations](src/com/leetcode/L1_100/L0046/Permutations.java)                                   | 中等  | 回溯算法       | 回溯算法                        |
+| 47   | 全排列II            | [PermutationsII](src/com/leetcode/L1_100/L0047/PermutationsII.java)                               | 中等  | 回溯算法       | 回溯算法                        |
+| 51   | N皇后              | [NQueens](src/com/leetcode/L1_100/L0051/NQueens.java)                                             | 困难  | 回溯算法       | 回溯算法                        |
+| 52   | N皇后II            | [NQueensII](src/com/leetcode/L1_100/L0052/NQueensII.java)                                         | 困难  | 回溯算法       | 回溯算法                        |
+| 77   | 组合               | [Combination](src/com/leetcode/L1_100/L0077/Combination.java)                                     | 中等  | 回溯算法       | 回溯算法                        |
+| 78   | 子集               | [Subsets](src/com/leetcode/L1_100/L0078/Subsets.java)                                             | 中等  | 回溯算法       | 数组、回溯算法、位运算                 |
+| 79   | 单词搜索             | [WordSearch](src/com/leetcode/L1_100/L0079/WordSearch.java)                                       | 中等  | 回溯算法       | 数组、回溯算法                     |
+| 90   | 子集II             | [SubsetsII](src/com/leetcode/L1_100/L0090/SubsetsII.java)                                         | 中等  | 回溯算法       | 数组、回溯算法                     |
+| 93   | 复原 IP 地址         | [RestoreIPAddresses](src/com/leetcode/L1_100/L0093/RestoreIPAddresses.java)                       | 中等  | 回溯算法       | 字符串、回溯算法                    |
+| 131  | 分割回文串            | [PalindromePartitioning](src/com/leetcode/L101_200/L0131/PalindromePartitioning.java)             | 中等  | 回溯算法       | 字符串、回溯算法、动态规划               |
+| 212  | 单词搜索 II          | [WordSearchII](src/com/leetcode/L201_300/L0212/WordSearchII.java)                                 | 困难  | 字典树+回溯算法   | 数组、字符串、字典树、回溯算法、矩阵          |
+| 216  | 组合总和III          | [CombinationSumIII](src/com/leetcode/L201_300/L0216/CombinationSumIII.java)                       | 中等  | 回溯算法       | 数组、回溯算法                     |
+| 282  | 给表达式添加运算符        | [ExpressionAddOperators](src/com/leetcode/L201_300/L0282/ExpressionAddOperators.java)             | 困难  | 回溯算法       | 字符串、数学、回溯算法                 |
+| 301  | 删除无效的括号          | [RemoveInvalidParentheses](src/com/leetcode/L301_400/L0301/RemoveInvalidParentheses.java)         | 困难  | 回溯算法       | 字符串、回溯算法、广度优先搜索             |
+| 306  | 累加数              | [AdditiveNumber](src/com/leetcode/L301_400/L0306/AdditiveNumber.java)                             | 中等  | 回溯算法       | 字符串、回溯算法                    |
+| 473  | 火柴拼正方形           | [MatchsticksSquare](src/com/leetcode/L401_500/L0473/MatchsticksSquare.java)                       | 中等  | 回溯算法       | 数组、回溯算法、动态规划、位运算、状态压缩       |
+| 488  | 祖玛游戏             | [ZumaGame](src/com/leetcode/L401_500/L0488/ZumaGame.java)                                         | 困难  | 回溯算法       | 字符串、回溯算法                    |
+| 526  | 优美的排列            | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java)                 | 中等  | 回溯算法、动态规划  | 数组、位运算、回溯算法、动态规划、状态压缩       |
+| 698  | 划分为k个相等的子集       | [PartitionKEqualSum](src/com/leetcode/L601_700/L0698/PartitionKEqualSum.java)                     | 中等  | 回溯算法       | 数组、位运算、回溯算法、动态规划、状态压缩、记忆化搜索 |
+| 784  | 字母大小写全排列         | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java)               | 中等  | 回溯算法       | 字符串、位运算、回溯算法                |
+| 869  | 重新排序得到 2 的幂      | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java)                           | 中等  | 回溯算法、set集合 | 数学、计数、排序、枚举                 |
+| 1219 | 黄金矿工             | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java)                                 | 中等  | 回溯算法       | 数组、矩阵、回溯算法                  |
+| 1863 | 找出所有子集的异或总和再求和   | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java)             | 简单  | 回溯算法       | 回溯算法                        |
+| 2044 | 统计按位或能得到最大值的子集数目 | [CountMaxOR](src/com/leetcode/L2001_2100/L2044/CountMaxOR.java)                                   | 中等  | 回溯算法       | 数组、回溯算法、位运算                 |
 
 ## 11. **_贪心算法系列_**
 
