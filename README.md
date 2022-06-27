@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1029**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1030**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -141,6 +141,8 @@
 | 中等 | 栈 | 单调栈 |
 | 506 | 相对名次 | [RelativeRanks](src/com/leetcode/L501_600/L0506/RelativeRanks.java)
 | 简单 | 堆 | 数组、堆、排序 |
+| 522 | 最长特殊序列 II | [LongUncommonSubII](src/com/leetcode/L501_600/L0522/LongUncommonSubII.java)
+| 中等 | 双指针 | 数组、字符串、哈希表、双指针、排序 |
 | 523 | 连续的子数组和 | [ContinuousSubarraySum](src/com/leetcode/L501_600/L0523/ContinuousSubarraySum.java)
 | 中等 | 暴力法 | 数学、动态规划 |
 | 525 | 连续数组 | [ContiguousArray](src/com/leetcode/L501_600/L0525/ContiguousArray.java)

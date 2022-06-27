@@ -20,6 +20,6 @@ public class LetterCombinationsPhoneNumberTest {
          * 输入：digits = "2"
          * 输出：["a","b","c"]
          */
-        System.out.println(letterCombinationsPhoneNumber.letterCombinations("22"));
+        System.out.println(letterCombinationsPhoneNumber.letterCombinations("2"));
     }
 }
