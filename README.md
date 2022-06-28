@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1030**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1031**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -91,6 +91,8 @@
 | 简单 | 双指针 | 数组、双指针 |
 | 287 | 寻找重复数 | [FindDuplicateNum](src/com/leetcode/L201_300/L0287/FindDuplicateNum.java)
 | 中等 | sey集合、双指针 | 数组、双指针、二分查找、位运算 |
+| 324 | 摆动排序 II | [WiggleSortII](src/com/leetcode/L301_400/L0324/WiggleSortII.java)
+| 中等 | 双指针 | 数组、排序、分治、快速选择 |
 | 344 | 字符串反转 | [ReverseString](src/com/leetcode/L301_400/L0344/ReverseString.java)
 | 简单 | 双指针 | 数组、双指针 |
 | 347 | 前 K 个高频元素 | [KHighElement](src/com/leetcode/L301_400/L0347/KHighElement.java)
