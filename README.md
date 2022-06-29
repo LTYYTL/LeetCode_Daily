@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1031**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1032**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -975,6 +975,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 460  | LFU 缓存              | [LFUCache](src/com/leetcode/L401_500/L0460/LFUCache.java)                     | 困难  | 哈希表            | 链表、双向链表、哈希表、设计                   |
 | 478  | 在圆内随机生成点            | [Solution](src/com/leetcode/L401_500/L0478/Solution.java)                     | 中等  | 数学             | 数学、几何、拒绝采样、随进化                   |
 | 519  | 随机翻转矩阵              | [Solution](src/com/leetcode/L501_600/L0519/Solution.java)                     | 中等  | map映射          | 哈希表、数学、随机化、水塘抽样                  |
+| 535  | TinyURL 的加密与解密      | [Codec](src/com/leetcode/L501_600/L0535/Codec.java)                           | 中等  | 模拟             | 字符串、哈希表、哈希函数、设计                  |
 | 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计                   |
 | 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                           |
 | 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计             |
