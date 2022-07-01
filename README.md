@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1033**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1034**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -417,6 +417,7 @@
 | 151  | 翻转字符串里的单词          | [ReverseWordsString](src/com/leetcode/L101_200/L0151/ReverseWordsString.java)                                                     | 简单  | 模拟             | 字符串、双指针                    |
 | 187  | 重复的DNA序列           | [RepeatedDNASequences](src/com/leetcode/L101_200/L0187/RepeatedDNASequences.java)                                                 | 中等  | 模拟             | 字符串、哈希表、滑动窗口、位运算、哈希函数、滚动哈希 |
 | 224  | 基本计算器              | [BasicCalculator](src/com/leetcode/L201_300/L0224/BasicCalculator.java)                                                           | 困难  | 模拟             | 栈、数学                       |
+| 241  | 为运算表达式设计优先级        | [DiffWaysAddParentheses](src/com/leetcode/L201_300/L0241/DiffWaysAddParentheses.java)                                             | 中等  | 分治算法           | 字符串、数学、动态规划、记忆化搜索、递归       |
 | 242  | 有效的字母异位词           | [ValidAnagram](src/com/leetcode/L201_300/L0242/ValidAnagram.java)                                                                 | 简单  | 排序             | 哈希表、排序                     |
 | 273  | 整数转换英文表示           | [IntegerEnglishWords](src/com/leetcode/L201_300/L0273/IntegerEnglishWords.java)                                                   | 困难  | 模拟             | 字符串、递归、数学                  |
 | 290  | 单词规律               | [WordPattern](src/com/leetcode/L201_300/L0290/WordPattern.java)                                                                   | 简单  | 哈希表            | 哈希表                        |
