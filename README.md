@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1034**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1039**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -20,6 +20,8 @@
 | 简单 | 双指针 | 数组、双指针 |
 | 27 | 移除元素 | [RemoveElement](src/com/leetcode/L1_100/L0027/RemoveElement.java)
 | 简单 | 双指针 | 数组、双指针 |
+| 31 | 下一个排列 | [NextPermutation](src/com/leetcode/L1_100/L0031/NextPermutation.java)
+| 中等 | 双指针 | 数组、双指针 |
 | 33 | 搜索旋转排序数组 | [SearchRotatedSortedArray](src/com/leetcode/L1_100/L0033/SearchRotatedSortedArray.java)
 | 简单 | 暴力法、二分查找 | 数组、二分查找 |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | [FindFirstAndEnd](src/com/leetcode/L1_100/L0034/FindFirstAndEnd.java)
@@ -253,6 +255,8 @@
 | 中等 | 模拟、前缀和 | 数组、前缀和 |
 | 1122 | 数组的相对排序 | [RelativeSortArray](src/com/leetcode/L1101_1200/L1122/RelativeSortArray.java)
 | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
+| 1200 | 最小绝对差 | [MinAbsoluteDiff](src/com/leetcode/L1101_1200/L1200/MinAbsoluteDiff.java)
+| 简单 | 排序 | 数组、排序 |
 | 1295 | 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java)
 | 简单 | 模拟 | 数组 |
 | 1313 | 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java)
@@ -431,6 +435,7 @@
 | 388  | 文件的最长绝对路径          | [LongAbsoluteFilePath](src/com/leetcode/L301_400/L0388/LongAbsoluteFilePath.java)                                                 | 中等  | 栈              | 字符串、栈、深度优先搜索               |
 | 392  | 判断子序列              | [IsSub](src/com/leetcode/L301_400/L0392/IsSub.java)                                                                               | 简单  | 双指针、二分查找       | 字符串、双指针、动态规划               |
 | 402  | 移掉K位数字             | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java)                                                               | 中等  | 栈              | 字符串、栈、贪心算法                 |
+| 409  | 最长回文串              | [LongestPalindrome](src/com/leetcode/L401_500/L0409/LongestPalindrome.java)                                                       | 中等  | 模拟             | 字符串、哈希表、贪心算法               |
 | 412  | Fizz Buzz          | [FizzBuzz](src/com/leetcode/L401_500/L0412/FizzBuzz.java)                                                                         | 简单  | 模拟             | 字符串、数学、模拟                  |
 | 423  | 从英文中重建数字           | [ReconstructDigitsEnglish](src/com/leetcode/L401_500/L0423/ReconstructDigitsEnglish.java)                                         | 中等  | 模拟             | 字符串、哈希表、数学                 |
 | 433  | 最小基因变化             | [MinGeneticMutation](src/com/leetcode/L401_500/L0433/MinGeneticMutation.java)                                                     | 中等  | 广度优先搜索         | 字符串、哈希表、广度优先搜索             |
@@ -446,6 +451,7 @@
 | 539  | 最小时间差              | [MinimumTimeDifference](src/com/leetcode/L501_600/L0539/MinimumTimeDifference.java)                                               | 中等  | 排序             | 字符串、数组、排序、数学               |
 | 541  | 反转字符串 II           | [ReverseStringII](src/com/leetcode/L501_600/L0541/ReverseStringII.java)                                                           | 简单  | 模拟             | 双指针、字符串                    |
 | 551  | 学生出勤记录 I           | [StudentAttendanceRecordI](src/com/leetcode/L501_600/L0551/StudentAttendanceRecordI.java)                                         | 简单  | 模拟             | 字符串                        |
+| 556  | 下一个更大元素 III        | [NextGreaterElementIII](src/com/leetcode/L501_600/L0556/NextGreaterElementIII.java)                                               | 中等  | 双指针            | 字符串、双指针、数学                 |
 | 557  | 反转字符串中的单词 III      | [ReverseWordsIII](src/com/leetcode/L501_600/L0557/ReverseWordsIII.java)                                                           | 简单  | 双指针            | 字符串、双指针                    |
 | 564  | 寻找最近的回文数           | [FindClosestPalindrome](src/com/leetcode/L501_600/L0564/FindClosestPalindrome.java)                                               | 困难  | 模拟             | 字符串、数学                     |
 | 591  | 标签验证器              | [TagValidator](src/com/leetcode/L501_600/L0591/TagValidator.java)                                                                 | 困难  | 栈              | 字符串、栈                      |
@@ -802,6 +808,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 846  | 一手顺子             | [HandStraights](src/com/leetcode/L801_900/L0846/HandStraights.java)                             | 中等  | 贪心算法 | 数组、哈希表、排序、贪心算法 |
 | 860  | 柠檬水找零            | [LemonadeChange](src/com/leetcode/L801_900/L0860/LemonadeChange.java)                           | 简单  | 贪心算法 | 数组、贪心算法        |
 | 861  | 翻转矩阵后的得分         | [ScoreAfterFlippingMatrix](src/com/leetcode/L801_900/L0861/ScoreAfterFlippingMatrix.java)       | 中等  | 贪心算法 | 数组、贪心算法        |
+| 871  | 最低加油次数           | [MinNumberStops](src/com/leetcode/L801_900/L0871/MinNumberStops.java)                           | 困难  | 贪心算法 | 数组、堆、贪心算法、动态规划 |
 | 1005 | K 次取反后最大化的数组和    | [MaximizeSumArrayKNegations](src/com/leetcode/L1001_1100/L1005/MaximizeSumArrayKNegations.java) | 简单  | 贪心算法 | 数组、贪心算法、排序     |
 | 1405 | 最长快乐字符串          | [LongestHappyString](src/com/leetcode/L1401_1500/L1405/LongestHappyString.java)                 | 中等  | 贪心算法 | 字符春、堆、贪心算法     |
 | 1414 | 和为 K 的最少斐波那契数字数目 | [FindMinFibSumK](src/com/leetcode/L1401_1500/L1414/FindMinFibSumK.java)                         | 中等  | 贪心算法 | 贪心算法           |
