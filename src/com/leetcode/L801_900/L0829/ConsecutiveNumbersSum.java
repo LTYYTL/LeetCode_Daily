@@ -1,4 +1,4 @@
-package com.leetcode.L701_800.L0829;
+package com.leetcode.L801_900.L0829;
 
 /**
  * 829. 连续整数求和

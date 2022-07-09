@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1039**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1040**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -892,6 +892,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 1154 | 一年中的第几天                                                             | [DayOfYear](src/com/leetcode/L1101_1200/L1154/DayOfYear.java)                                                       | 简单  | 数学       | 字符串、数学            |
 | 1175 | 质数排列                                                                | [PrimeArrangements](src/com/leetcode/L1101_1200/L1175/PrimeArrangements.java)                                       | 简单  | 数学       | 数学                |
 | 1185 | 一周中的第几天                                                             | [DayWeek](src/com/leetcode/L1101_1200/L1185/DayWeek.java)                                                           | 简单  | 数学       | 数学                |
+| 1217 | 玩筹码                                                                 | [MinCostMove](src/com/leetcode/L1201_1300/L1217/MinCostMove.java)                                                   | 简单  | 数学       | 数组、数学、贪心算法        |
 | 1281 | 整数的各位积和之差                                                           | [SubProAndSum](src/com/leetcode/L1201_1300/L1281/SubProAndSum.java)                                                 | 简单  | 数学       | 数学                |
 | 1310 | 子数组异或查询                                                             | [XORQueriesSubarray](src/com/leetcode/L1301_1400/L1310/XORQueriesSubarray.java)                                     | 中等  | 暴力法、前缀和  | 位运算               |
 | 1342 | 将数字变成 0 的操作次数                                                       | [StepsReduceZero](src/com/leetcode/L1301_1400/L1342/StepsReduceZero.java)                                           | 简单  | 数学       | 数学、位运算            |
@@ -943,7 +944,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | #    | 题目               | 类名                                                                                                                                                        | 难度  | 方法               | 标签                |
 |------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----|------------------|-------------------|
 | 3    | 无重复字符的最长子串       | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java)                                                                               | 中等  | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口  |
-| 50   | 串联所有单词的子串        | [SubstringAllWords](src/com/leetcode/L1_100/L0050/SubstringAllWords.java)                                                                                 | 困难  | 滑动窗口             | 字符串、哈希表、滑动窗口      |
+| 30   | 串联所有单词的子串        | [SubstringAllWords](src/com/leetcode/L1_100/L0030/SubstringAllWords.java)                                                                                 | 困难  | 滑动窗口             | 字符串、哈希表、滑动窗口      |
 | 76   | 最小覆盖子串           | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难  | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
 | 209  | 长度最小的子数组         | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等  | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
 | 239  | 滑动窗口最大值          | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难  | 滑动窗口             | 堆、滑动窗口            |
