@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1040**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1042**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -257,6 +257,8 @@
 | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
 | 1200 | 最小绝对差 | [MinAbsoluteDiff](src/com/leetcode/L1101_1200/L1200/MinAbsoluteDiff.java)
 | 简单 | 排序 | 数组、排序 |
+| 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1101_1200/L1252/CellsValuesMatrix.java)
+| 简单 | 模拟 | 数组、数学、模拟 |
 | 1295 | 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java)
 | 简单 | 模拟 | 数组 |
 | 1313 | 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java)
@@ -606,7 +608,7 @@
 | 417  | 太平洋大西洋水流问题    | [WaterFlow](src/com/leetcode/L401_500/L0417/WaterFlow.java)                                             | 中等  | 深度优先搜索        | 数组、矩阵、深度优先搜索、广度优先搜索        |
 | 419  | 甲板上的战舰        | [BattleshipsBoard](src/com/leetcode/L401_500/L0419/BattleshipsBoard.java)                               | 中等  | 模拟            | 数组、矩阵、深度优先搜索               |
 | 427  | 建立四叉树         | [ConstructQuadTree](src/com/leetcode/L401_500/L0427/ConstructQuadTree.java)                             | 中等  | 深度优先搜索        | 数组、矩阵、树、分治                 |
-| 498  | 对角线遍历         | [DiagonalTraverse](src/com/leetcode/L401_500/L0498/DiagonalTraverse.java)                               | 中等  | 模拟            | 数组、矩阵、模拟                   |？
+| 498  | 对角线遍历         | [DiagonalTraverse](src/com/leetcode/L401_500/L0498/DiagonalTraverse.java)                               | 中等  | 模拟            | 数组、矩阵、模拟                   |
 | 542  | 01 矩阵         | [Matrix01](src/com/leetcode/L501_600/L0542/Matrix01.java)                                               | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索、动态规划          |
 | 661  | 图片平滑器         | [ImageSmoother](src/com/leetcode/L601_700/L0661/ImageSmoother.java)                                     | 简单  | 模拟            | 数组、矩阵                      |
 | 675  | 为高尔夫比赛砍树      | [CutTreesGolf](src/com/leetcode/L601_700/L0675/CutTreesGolf.java)                                       | 困难  | 广度优先搜索        | 数组、矩阵、广度优先搜索、堆             |
