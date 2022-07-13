@@ -257,7 +257,7 @@
 | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
 | 1200 | 最小绝对差 | [MinAbsoluteDiff](src/com/leetcode/L1101_1200/L1200/MinAbsoluteDiff.java)
 | 简单 | 排序 | 数组、排序 |
-| 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1101_1200/L1252/CellsValuesMatrix.java)
+| 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1201_1300/L1252/CellsValuesMatrix.java)
 | 简单 | 模拟 | 数组、数学、模拟 |
 | 1295 | 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java)
 | 简单 | 模拟 | 数组 |
@@ -950,6 +950,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 76   | 最小覆盖子串           | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难  | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
 | 209  | 长度最小的子数组         | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等  | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
 | 239  | 滑动窗口最大值          | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难  | 滑动窗口             | 堆、滑动窗口            |
+| 424  | 替换后的最长重复字符       | [LongestRepeatingCharacter](src/com/leetcode/L401_500/L0424/LongestRepeatingCharacter.java)                                                               | 中等  | 滑动窗口             | 字符串、哈希表、滑动窗口      |？
 | 438  | 找到字符串中所有字母异位词    | [FindAllAnagramsString](src/com/leetcode/L401_500/L0438/FindAllAnagramsString.java)                                                                       | 中等  | 滑动窗口             | 哈希表、滑动窗口          |
 | 567  | 字符串的排列           | [PermutationInString](src/com/leetcode/L501_600/L0567/PermutationInString.java)                                                                           | 中等  | 滑动窗口             | 双指针、滑动窗口          |
 | 689  | 三个无重叠子数组的最大和     | [MaxSum3NonOverSub](src/com/leetcode/L601_700/L0689/MaxSum3NonOverSub.java)                                                                               | 困难  | 滑动窗口             | 数组、动态规划           |
