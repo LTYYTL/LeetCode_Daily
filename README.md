@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1042**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1045**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -157,6 +157,8 @@
 | 中等 | 暴力法、二分查找 | 数组、二分查找 |
 | 560 | 和为 K 的子数组 | [SubarraySumEqualsK](src/com/leetcode/L501_600/L0560/SubarraySumEqualsK.java)
 | 中等 | 前缀和 | 数组、哈希表、前缀和 |
+| 565 | 数组嵌套 | [ArrayNesting](src/com/leetcode/L501_600/L0565/ArrayNesting.java)
+| 中等 | 模拟 | 数组、深度优先搜索 |
 | 575 | 分糖果 | [DistributeCandies](src/com/leetcode/L501_600/L0575/DistributeCandies.java)
 | 简单 | set集合 | 数组、哈希表 |
 | 581 | 最短无序连续子数组
@@ -436,6 +438,7 @@
 | 387  | 字符串中的第一个唯一字符       | [FirstUniqueChar](src/com/leetcode/L301_400/L0387/FirstUniqueChar.java)                                                           | 简单  | Map映射          | 字符串、哈希表                    |
 | 388  | 文件的最长绝对路径          | [LongAbsoluteFilePath](src/com/leetcode/L301_400/L0388/LongAbsoluteFilePath.java)                                                 | 中等  | 栈              | 字符串、栈、深度优先搜索               |
 | 392  | 判断子序列              | [IsSub](src/com/leetcode/L301_400/L0392/IsSub.java)                                                                               | 简单  | 双指针、二分查找       | 字符串、双指针、动态规划               |
+| 394  | 字符串解码              | [DecodeString](src/com/leetcode/L301_400/L0394/DecodeString.java)                                                                 | 中等  | 栈              | 字符串、栈、递归                   |
 | 402  | 移掉K位数字             | [RemoveKDigits](src/com/leetcode/L401_500/L0402/RemoveKDigits.java)                                                               | 中等  | 栈              | 字符串、栈、贪心算法                 |
 | 409  | 最长回文串              | [LongestPalindrome](src/com/leetcode/L401_500/L0409/LongestPalindrome.java)                                                       | 中等  | 模拟             | 字符串、哈希表、贪心算法               |
 | 412  | Fizz Buzz          | [FizzBuzz](src/com/leetcode/L401_500/L0412/FizzBuzz.java)                                                                         | 简单  | 模拟             | 字符串、数学、模拟                  |
@@ -950,7 +953,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 76   | 最小覆盖子串           | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难  | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
 | 209  | 长度最小的子数组         | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等  | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
 | 239  | 滑动窗口最大值          | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难  | 滑动窗口             | 堆、滑动窗口            |
-| 424  | 替换后的最长重复字符       | [LongestRepeatingCharacter](src/com/leetcode/L401_500/L0424/LongestRepeatingCharacter.java)                                                               | 中等  | 滑动窗口             | 字符串、哈希表、滑动窗口      |？
+| 424  | 替换后的最长重复字符       | [LongestRepeatingCharacter](src/com/leetcode/L401_500/L0424/LongestRepeatingCharacter.java)                                                               | 中等  | 滑动窗口             | 字符串、哈希表、滑动窗口      |
 | 438  | 找到字符串中所有字母异位词    | [FindAllAnagramsString](src/com/leetcode/L401_500/L0438/FindAllAnagramsString.java)                                                                       | 中等  | 滑动窗口             | 哈希表、滑动窗口          |
 | 567  | 字符串的排列           | [PermutationInString](src/com/leetcode/L501_600/L0567/PermutationInString.java)                                                                           | 中等  | 滑动窗口             | 双指针、滑动窗口          |
 | 689  | 三个无重叠子数组的最大和     | [MaxSum3NonOverSub](src/com/leetcode/L601_700/L0689/MaxSum3NonOverSub.java)                                                                               | 困难  | 滑动窗口             | 数组、动态规划           |
