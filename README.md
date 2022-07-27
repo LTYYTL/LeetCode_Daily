@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1049**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1050**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -880,6 +880,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 553  | 最优除法                                                                | [OptimalDivision](src/com/leetcode/L501_600/L0553/OptimalDivision.java)                                             | 中等  | 数学       | 数组、数学、动态规划        |
 | 566  | 重塑矩阵                                                                | [ReshapeMatrix](src/com/leetcode/L501_600/L0566/ReshapeMatrix.java)                                                 | 简单  | 数学       | 数组                |
 | 587  | 安装栅栏                                                                | [ErectFence](src/com/leetcode/L501_600/L0587/ErectFence.java)                                                       | 困难  | 数学       | 数组、数学、几何          |
+| 592  | 分数加减运算                                                              | [FractionAdditionSub](src/com/leetcode/L501_600/L0592/FractionAdditionSub.java)                                     | 中等  | 数学       | 字符串、数学、模拟         |
 | 598  | 范围求和 II                                                             | [RangeAdditionII](src/com/leetcode/L501_600/L0598/RangeAdditionII.java)                                             | 简单  | 数学       | 数组、数学             |
 | 633  | 平方数之和                                                               | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java)                                           | 中等  | 双指针、数学   | 数学                |
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                |
