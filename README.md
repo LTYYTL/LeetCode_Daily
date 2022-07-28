@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1050**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1051**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -267,6 +267,8 @@
 | 简单 | 模拟 | 数组 |
 | 1313 | 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java)
 | 简单 | 模拟 | 数组 |
+| 1331 | 数组序号转换 | [RankTransformArray](src/com/leetcode/L1301_1400/L1331/RankTransformArray.java)
+| 简单 | 排序 | 数组、哈希表、排序 |
 | 1345 | 跳跃游戏 IV | [JumpGameIV](src/com/leetcode/L1301_1400/L1345/JumpGameIV.java)
 | 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索 |
 | 1365 | 有多少小于当前数字的数字 | [ManyNumMin](src/com/leetcode/L1301_1400/L1365/ManyNumMin.java)
