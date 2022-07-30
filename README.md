@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1051**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1053**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -684,15 +684,16 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 
 ## 8. **_并查集系列_**
 
-| #   | 题目        | 类名                                                                                                       | 难度  | 方法  | 标签                         |
-|-----|-----------|----------------------------------------------------------------------------------------------------------|-----|-----|----------------------------|
-| 128 | 最长连续序列    | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java)                      | 中等  | 并查集 | 数组、并查集、哈希表                 |
-| 130 | 被围绕的区域    | [SurroundedRegions](src/com/leetcode/L101_200/L0130/SurroundedRegions.java)                              | 中等  | 并查集 | 数组、并查集、矩阵、深度优先搜索、广度优先搜索    |
-| 399 | 除法求值      | [EvaluateDivision](src/com/leetcode/L301_400/L0399/EvaluateDivision.java)                                | 中等  | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |
-| 547 | 省份数量      | [NumberProvinces](src/com/leetcode/L501_600/L0547/NumberProvinces.java)                                  | 中等  | 并查集 | 图、并查集、深度优先搜索、广度优先搜索        |
-| 684 | 冗余连接      | [RedundantConnection](src/com/leetcode/L601_700/L0684/RedundantConnection.java)                          | 中等  | 并查集 | 图、并查集、深度优先搜索、广度优先搜索        |
-| 839 | 相似字符串组    | [SimilarStringGroups](src/com/leetcode/L801_900/L0839/SimilarStringGroups.java)                          | 困难  | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索      |
-| 990 | 等式方程的可满足性 | [SatisfiabilityEqualityEquations](src/com/leetcode/L901_1000/L0990/SatisfiabilityEqualityEquations.java) | 困难  | 并查集 | 并查集、图                      |
+| #   | 题目           | 类名                                                                                                       | 难度  | 方法  | 标签                         |
+|-----|--------------|----------------------------------------------------------------------------------------------------------|-----|-----|----------------------------|
+| 128 | 最长连续序列       | [LongestConsecutiveSeq](src/com/leetcode/L101_200/L0128/LongestConsecutiveSeq.java)                      | 中等  | 并查集 | 数组、并查集、哈希表                 |
+| 130 | 被围绕的区域       | [SurroundedRegions](src/com/leetcode/L101_200/L0130/SurroundedRegions.java)                              | 中等  | 并查集 | 数组、并查集、矩阵、深度优先搜索、广度优先搜索    |
+| 399 | 除法求值         | [EvaluateDivision](src/com/leetcode/L301_400/L0399/EvaluateDivision.java)                                | 中等  | 并查集 | 数组、并查集、图、深度优先搜索、广度优先搜索、最短路 |
+| 547 | 省份数量         | [NumberProvinces](src/com/leetcode/L501_600/L0547/NumberProvinces.java)                                  | 中等  | 并查集 | 图、并查集、深度优先搜索、广度优先搜索        |
+| 684 | 冗余连接         | [RedundantConnection](src/com/leetcode/L601_700/L0684/RedundantConnection.java)                          | 中等  | 并查集 | 图、并查集、深度优先搜索、广度优先搜索        |
+| 839 | 相似字符串组       | [SimilarStringGroups](src/com/leetcode/L801_900/L0839/SimilarStringGroups.java)                          | 困难  | 并查集 | 字符串、并查集、深度优先搜索、广度优先搜索      |
+| 952 | 按公因数计算最大组件大小 | [LargestComponentSize](src/com/leetcode/L901_1000/L0952/LargestComponentSize.java)                       | 困难  | 并查集 | 数组、并查集、数学                  |
+| 990 | 等式方程的可满足性    | [SatisfiabilityEqualityEquations](src/com/leetcode/L901_1000/L0990/SatisfiabilityEqualityEquations.java) | 困难  | 并查集 | 并查集、图                      |
 
 ## 9. **_动态规划系列_**
 
@@ -883,6 +884,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 566  | 重塑矩阵                                                                | [ReshapeMatrix](src/com/leetcode/L501_600/L0566/ReshapeMatrix.java)                                                 | 简单  | 数学       | 数组                |
 | 587  | 安装栅栏                                                                | [ErectFence](src/com/leetcode/L501_600/L0587/ErectFence.java)                                                       | 困难  | 数学       | 数组、数学、几何          |
 | 592  | 分数加减运算                                                              | [FractionAdditionSub](src/com/leetcode/L501_600/L0592/FractionAdditionSub.java)                                     | 中等  | 数学       | 字符串、数学、模拟         |
+| 593  | 有效的正方形                                                              | [ValidSquare](src/com/leetcode/L501_600/L0593/ValidSquare.java)                                                     | 中等  | 数学       | 数学、几何             |
 | 598  | 范围求和 II                                                             | [RangeAdditionII](src/com/leetcode/L501_600/L0598/RangeAdditionII.java)                                             | 简单  | 数学       | 数组、数学             |
 | 633  | 平方数之和                                                               | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java)                                           | 中等  | 双指针、数学   | 数学                |
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                |
