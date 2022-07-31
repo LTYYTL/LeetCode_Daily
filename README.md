@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1053**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1054**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -586,11 +586,12 @@
 | 897  | 递增顺序搜索树                                                        | [IncreasingOrderSearchTree](src/com/leetcode/L801_900/L0897/IncreasingOrderSearchTree.java)                     | 简单  | 递归、迭代            | 树、递归、深度优先搜索                       |
 | 938  | 二叉搜索树的范围和                                                      | [RangeSumBST](src/com/leetcode/L901_1000/L0938/RangeSumBST.java)                                                | 简单  | 递归、迭代            | 树、递归、深度优先搜索                       |
 | 965  | 单值二叉树                                                          | [UnivaluedBinaryTree](src/com/leetcode/L901_1000/L0965/UnivaluedBinaryTree.java)                                | 简单  | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
-| 987  | 二叉树的垂序遍历                                                       | [VerticalOrderTraversalBinaryTree](src/com/leetcode/L901_1000/L0987/VerticalOrderTraversalBinaryTree.java)      | 困难  | 深度优先搜索           | 树、深度优先搜索、广度优先搜索、二叉树、哈希表           |
+| 987  | 二叉树的垂序遍历                                                       | [VerticalOrderTraversalBinaryTree](src/com/leetcode/L901_1000/L0987/VerticalOrderTraversalBinaryTree.java)      | 困难  | 深度优先搜索           | 树、二叉树、哈希表、深度优先搜索、广度优先搜索           |
 | 993  | 二叉树的堂兄弟节点                                                      | [CousinsBinaryTree](src/com/leetcode/L901_1000/L0993/CousinsBinaryTree.java)                                    | 简单  | 深度优先搜索、广度优先搜索    | 树、广度优先搜索                          |
 | 1022 | 从根到叶的二进制数之和                                                    | [SumRootBinaryNumbers](src/com/leetcode/L1001_1100/L1022/SumRootBinaryNumbers.java)                             | 简单  | 递归               | 树、二叉树、深度优先搜索                      |
 | 1038 | 从二叉搜索树到更大和树                                                    | [BSTToGST](src/com/leetcode/L1001_1100/L1038/BSTToGST.java)                                                     | 中等  | 递归、迭代            | 树                                 |
 | 1104 | 二叉树寻路                                                          | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java)         | 中等  | 数学               | 树、二叉树、数学                          |
+| 1161 | 最大层内元素和                                                        | [MaxLevelSumTree](src/com/leetcode/L1101_1200/L1161/MaxLevelSumTree.java)                                       | 中等  | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
 | 1305 | 两棵二叉搜索树中的所有元素                                                  | [AllElementsBST](src/com/leetcode/L1301_1400/L1305/AllElementsBST.java)                                         | 中等  | 递归               | 树、二叉树、二叉搜索树、深度优先搜索、排序             |
 | 1382 | 将二叉搜索树变平衡                                                      | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java)                       | 中等  | 递归               | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索          |
 | 1609 | 奇偶树                                                            | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java)                                               | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索                      |
