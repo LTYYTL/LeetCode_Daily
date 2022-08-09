@@ -28,7 +28,6 @@ import java.util.Arrays;
 public class OrderlyQueue {
     /**
      * 方法：模拟
-     *
      * @param s
      * @param k
      * @return
@@ -38,7 +37,7 @@ public class OrderlyQueue {
         if (k == 1) {
             StringBuilder str = new StringBuilder(s);
             for (int i = 1; i < s.length(); i++) {
-                str.append(s.charAt(0)).deleteCharAt(0);
+                str.append(str.charAt(0)).deleteCharAt(0);
                 if (str.toString().compareTo(s) < 0)
                     s = str.toString();
             }
