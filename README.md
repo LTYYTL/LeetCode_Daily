@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1063**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1064**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -452,7 +452,7 @@
 | 564  | 寻找最近的回文数           | [FindClosestPalindrome](src/com/leetcode/L501_600/L0564/FindClosestPalindrome.java)                                               | 困难  | 模拟             | 字符串、数学                     |
 | 591  | 标签验证器              | [TagValidator](src/com/leetcode/L501_600/L0591/TagValidator.java)                                                                 | 困难  | 栈              | 字符串、栈                      |
 | 599  | 两个列表的最小索引总和        | [MinIndexSum](src/com/leetcode/L501_600/L0599/MinIndexSum.java)                                                                   | 简单  | 哈希表            | 数组、字符串、哈希表                 |
-| 640  | 求解方程          | [SolveEquation](src/com/leetcode/L601_700/L0640/SolveEquation.java)                                                               | 中等  | 模拟            | 字符串、模拟、数学                  |
+| 640  | 求解方程               | [SolveEquation](src/com/leetcode/L601_700/L0640/SolveEquation.java)                                                               | 中等  | 模拟             | 字符串、模拟、数学                  |
 | 649  | Dota2 参议院          | [Dota2Senate](src/com/leetcode/L601_700/L0649/Dota2Senate.java)                                                                   | 中等  | 队列             | 字符串、队列、贪心算法                |
 | 678  | 有效的括号字符串           | [ValidParenthesisString](src/com/leetcode/L601_700/L0678/ValidParenthesisString.java)                                             | 中等  | 栈              | 字符串、栈、贪心算法、动态规划            |
 | 680  | 验证回文字符串 Ⅱ          | [ValidPalindromeII](src/com/leetcode/L601_700/L0680/ValidPalindromeII.java)                                                       | 简单  | 双指针            | 字符串、贪心算法、双指针               |
@@ -494,6 +494,7 @@
 | 1370 | 上升下降字符串            | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java)                                   | 简单  | 桶计数            | 字符串、排序                     |
 | 1374 | 生成每种字符都是奇数个的字符串    | [GenerateStringOdd](src/com/leetcode/L1301_1400/L1374/GenerateStringOdd.java)                                                     | 简单  | 字符串            | 字符串                        |
 | 1408 | 数组中的字符串匹配          | [StringMatchingArray](src/com/leetcode/L1401_1500/L1408/StringMatchingArray.java)                                                 | 简单  | 排序             | 字符串、 字符串匹配                 |
+| 1417 | 重新格式化字符串           | [ReformatString](src/com/leetcode/L1401_1500/L1417/ReformatString.java)                                                           | 简单  | 模拟             | 字符串                        |
 | 1436 | 旅行终点站              | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java)                                                         | 简单  | set集合          | 字符串、哈希表                    |
 | 1446 | 连续字符               | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java)                                             | 简单  | 双指针            | 字符串                        |
 | 1541 | 平衡括号字符串的最少插入次数     | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java)                                                             | 中等  | 模拟             | 字符串、栈、贪心算法                 |
