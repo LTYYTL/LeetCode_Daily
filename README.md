@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1064**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1067**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -202,6 +202,8 @@
 | 中等 | 广度优先搜索 | 广度优先搜索 |
 | 766 | 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java)
 | 简单 | 遍历 | 数组 |
+| 768 | 最多能完成排序的块 II | [MaxChunksSortedII](src/com/leetcode/L701_800/L0768/MaxChunksSortedII.java)
+| 困难 | 栈 | 数组、栈、单调栈、贪心算法、排序 |
 | 786 | 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java)
 | 困难 | 堆 | 数组、二分查找、优先队列 |
 | 815 | 公交路线 | [BusRoutes](src/com/leetcode/L801_900/L0815/BusRoutes.java)
@@ -257,6 +259,8 @@
 | 简单 | 排序 | 数组、排序 |
 | 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1201_1300/L1252/CellsValuesMatrix.java)
 | 简单 | 模拟 | 数组、数学、模拟 |
+| 1282 | 用户分组 | [GroupPeople](src/com/leetcode/L1201_1300/L1282/GroupPeople.java)
+| 简单 | map映射 | 数组、哈希表 |
 | 1295 | 统计位数为偶数的数字 | [FindEvenNumDigits](src/com/leetcode/L1201_1300/L1295/FindEvenNumDigits.java)
 | 简单 | 模拟 | 数组 |
 | 1313 | 解压缩编码列表 | [DecompressEncodedList](src/com/leetcode/L1301_1400/L1313/DecompressEncodedList.java)
@@ -495,6 +499,7 @@
 | 1374 | 生成每种字符都是奇数个的字符串    | [GenerateStringOdd](src/com/leetcode/L1301_1400/L1374/GenerateStringOdd.java)                                                     | 简单  | 字符串            | 字符串                        |
 | 1408 | 数组中的字符串匹配          | [StringMatchingArray](src/com/leetcode/L1401_1500/L1408/StringMatchingArray.java)                                                 | 简单  | 排序             | 字符串、 字符串匹配                 |
 | 1417 | 重新格式化字符串           | [ReformatString](src/com/leetcode/L1401_1500/L1417/ReformatString.java)                                                           | 简单  | 模拟             | 字符串                        |
+| 1422 | 分割字符串的最大得分         | [MaxScoreString](src/com/leetcode/L1401_1500/L1422/MaxScoreString.java)                                                           | 简单  | 模拟             | 字符串                        |
 | 1436 | 旅行终点站              | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java)                                                         | 简单  | set集合          | 字符串、哈希表                    |
 | 1446 | 连续字符               | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java)                                             | 简单  | 双指针            | 字符串                        |
 | 1541 | 平衡括号字符串的最少插入次数     | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java)                                                             | 中等  | 模拟             | 字符串、栈、贪心算法                 |
