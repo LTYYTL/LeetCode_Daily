@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1067**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1070**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -590,6 +590,7 @@
 | 1038 | 从二叉搜索树到更大和树                                                    | [BSTToGST](src/com/leetcode/L1001_1100/L1038/BSTToGST.java)                                                     | 中等  | 递归、迭代            | 树                                 |
 | 1104 | 二叉树寻路                                                          | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java)         | 中等  | 数学               | 树、二叉树、数学                          |
 | 1161 | 最大层内元素和                                                        | [MaxLevelSumTree](src/com/leetcode/L1101_1200/L1161/MaxLevelSumTree.java)                                       | 中等  | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
+| 1302 | 层数最深叶子节点的和                                                     | [DeepestLeavesSum](src/com/leetcode/L1301_1400/L1302/DeepestLeavesSum.java)                                     | 中等  | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
 | 1305 | 两棵二叉搜索树中的所有元素                                                  | [AllElementsBST](src/com/leetcode/L1301_1400/L1305/AllElementsBST.java)                                         | 中等  | 递归               | 树、二叉树、二叉搜索树、深度优先搜索、排序             |
 | 1382 | 将二叉搜索树变平衡                                                      | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java)                       | 中等  | 递归               | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索          |
 | 1609 | 奇偶树                                                            | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java)                                               | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索                      |
@@ -998,6 +999,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 519  | 随机翻转矩阵              | [Solution](src/com/leetcode/L501_600/L0519/Solution.java)                     | 中等  | map映射          | 哈希表、数学、随机化、水塘抽样                  |
 | 535  | TinyURL 的加密与解密      | [Codec](src/com/leetcode/L501_600/L0535/Codec.java)                           | 中等  | 模拟             | 字符串、哈希表、哈希函数、设计                  |
 | 622  | 设计循环队列              | [MyCircularQueue](src/com/leetcode/L601_700/L0622/MyCircularQueue.java)       | 中等  | 数组             | 数组、链表、队列、设计                      |
+| 641  | 设计循环双端队列            | [MyCircularDeque](src/com/leetcode/L601_700/L0641/MyCircularDeque.java)       | 中等  | 数组             | 数组、链表、队列、设计                      |
 | 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计                   |
 | 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                           |
 | 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计             |
@@ -1011,6 +1013,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 981  | 基于时间的键值存储           | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java)                      | 中等  | Map映射+二分查找     | 字符串、哈希表、二分查找、设计                  |
 | 1600 | 皇位继承顺序              | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等  | 树              | 树、设计                             |
 | 1603 | 设计停车系统              | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java)         | 简单  | 数组             | 设计                               |
+| 1656 | 设计有序流               | [OrderedStream](src/com/leetcode/L1601_1700/L1656/OrderedStream.java)         | 简单  | 数组             | 数组、哈希表、数据流、设计                    |
 | 1865 | 找出和为指定值的下标对         | [FindSumPairs](src/com/leetcode/L1801_1900/L1865/FindSumPairs.java)           | 中等  | 哈希表            | 设计、哈希表                           |
 | 2013 | 检测正方形               | [DetectSquares](src/com/leetcode/L2001_2100/L2013/DetectSquares.java)         | 中等  | 哈希表            | 设计、哈希表、数组、计数                     |
 | 2034 | 股票价格波动              | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java)               | 中等  | 哈希表            | 设计、哈希表、堆、有序集合、数据流                |
