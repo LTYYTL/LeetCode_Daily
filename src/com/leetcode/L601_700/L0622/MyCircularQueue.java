@@ -38,13 +38,13 @@ public class MyCircularQueue {
      * 方法：数组
      */
     //使用数组模拟队列
-    private int[] queue;
+    private final int[] queue;
     // 队头
     private int head;
     // 队尾
     private int tail;
     //长度
-    private int n;
+    private final int n;
 
     //初始化
     public MyCircularQueue(int k) {

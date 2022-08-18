@@ -42,7 +42,7 @@ public class PathMaxGold {
     private int m;
     private int n;
     //四个方向
-    private int[][] dis = {{1,0},{-1,0},{0,1},{0,-1}};
+    private final int[][] dis = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
     /**
      * 方法：回溯算法

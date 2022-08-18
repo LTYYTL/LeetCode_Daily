@@ -35,7 +35,7 @@ public class MyCalendarThree {
     /**
      * 方法：差分数组
      */
-    private TreeMap<Integer, Integer> map;
+    private final TreeMap<Integer, Integer> map;
 
     public MyCalendarThree() {
         map = new TreeMap<>();

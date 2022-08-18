@@ -18,7 +18,7 @@ public class RangeSumBSTTest {
 
         TreeNode<Integer> root = new TreeNode<>(10,l,r);
 
-        System.out.println(root.toString());
+        System.out.println(root);
         System.out.println(rangeSumBST.rangeSumBST(root, 7, 15));
         /**
          * 示例 2：
@@ -39,7 +39,7 @@ public class RangeSumBSTTest {
 
         TreeNode<Integer> root1 = new TreeNode<>(10,l1,r1);
 
-        System.out.println(root1.toString());
+        System.out.println(root1);
         System.out.println(rangeSumBST.rangeSumBST_it(root1, 6, 10));
     }
 }

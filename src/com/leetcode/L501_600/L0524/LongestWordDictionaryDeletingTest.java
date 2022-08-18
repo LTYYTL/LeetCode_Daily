@@ -11,14 +11,14 @@ public class LongestWordDictionaryDeletingTest {
          * 输入：s = "abpcplea", dictionary = ["ale","apple","monkey","plea"]
          * 输出："apple"
          */
-        List<String> dictionary = Arrays.asList(new String[]{"ale","apple","monkey","plea"});
+        List<String> dictionary = Arrays.asList("ale", "apple", "monkey", "plea");
         System.out.println(longestWordDictionaryDeleting.findLongestWord("abpcplea", dictionary));
         /**
          * 示例 2：
          * 输入：s = "abpcplea", dictionary = ["a","b","c"]
          * 输出："a
          */
-        List<String> dictionary1 = Arrays.asList(new String[]{"a","b","c"});
+        List<String> dictionary1 = Arrays.asList("a", "b", "c");
         System.out.println(longestWordDictionaryDeleting.findLongestWord("abpcplea", dictionary1));
     }
 }

@@ -38,7 +38,7 @@ public class MapSum {
         }
     }
 
-    private Node root;
+    private final Node root;
     /** Initialize your data structure here. */
     public MapSum() {
         root = new Node();

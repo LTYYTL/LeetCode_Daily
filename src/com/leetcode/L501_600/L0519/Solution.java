@@ -38,14 +38,14 @@ import java.util.Random;
  */
 public class Solution {
     //随机数
-    private Random random;
+    private final Random random;
     //长度
-    private int m;
-    private int n;
+    private final int m;
+    private final int n;
     //总个数
     private int total;
     //索引映射的位置
-    private Map<Integer,Integer> map;
+    private final Map<Integer, Integer> map;
 
     //初始化
     public Solution(int m, int n) {

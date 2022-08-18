@@ -97,8 +97,6 @@ public class RemoveColored {
                 Bob += temp;
         }
         //当前Alice的操作比Bob多的时候才会获胜
-        if (Alice > Bob)
-            return true;
-        return false;
+        return Alice > Bob;
     }
 }

@@ -34,7 +34,7 @@ public class ImageSmoother {
     private int m;
     private int n;
     //方向
-    private int[][] dis = {{-1,-1},{-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}};
+    private final int[][] dis = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
     /**
      * 方法：模拟

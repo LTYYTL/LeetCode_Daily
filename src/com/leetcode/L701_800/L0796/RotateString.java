@@ -71,9 +71,7 @@ public class RotateString {
         //调用kmp算法，返回成功匹配的起始索引位置
         int index = kmp(A,B);
         //没有匹配成功证明没有存在
-        if (index == -1)
-            return false;
-        return true;
+        return index != -1;
     }
 
     /**

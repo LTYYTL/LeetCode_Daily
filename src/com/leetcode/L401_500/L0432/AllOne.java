@@ -1,6 +1,7 @@
 package com.leetcode.L401_500.L0432;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 432. 全 O(1) 的数据结构
@@ -42,7 +43,7 @@ public class AllOne {
      * 方法：双向链表
      */
     //存储对应键和信息
-    private Map<String,Node> map;
+    private final Map<String, Node> map;
     //按照次数从小到大排序
     Node head;
     Node tail;

@@ -74,7 +74,7 @@ public class Codec {
         //转换成数字
         TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(first));
         root.left = deserialize_pre(nodes);
-        root.right = deserialize_pre(nodes);;
+        root.right = deserialize_pre(nodes);
         return root;
     }
 
@@ -118,7 +118,7 @@ public class Codec {
         TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(last));
         //先构造右子树，在构造左子树
         root.right = deserialize_last(nodes);
-        root.left = deserialize_last(nodes);;
+        root.left = deserialize_last(nodes);
         return root;
     }
 

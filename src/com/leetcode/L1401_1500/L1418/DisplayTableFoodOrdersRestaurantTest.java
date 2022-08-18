@@ -22,12 +22,12 @@ public class DisplayTableFoodOrdersRestaurantTest {
          * 餐桌 10：Corina 点了 "Beef Burrito"
          */
         List<List<String>> orders = new ArrayList<>();
-        orders.add(Arrays.asList(new String[]{"David","3","Ceviche"}));
-        orders.add(Arrays.asList(new String[]{"Corina","10","Beef Burrito"}));
-        orders.add(Arrays.asList(new String[]{"David","3","Fried Chicken"}));
-        orders.add(Arrays.asList(new String[]{"Carla","5","Water"}));
-        orders.add(Arrays.asList(new String[]{"Carla","5","Ceviche"}));
-        orders.add(Arrays.asList(new String[]{"Rous","3","Ceviche"}));
+        orders.add(Arrays.asList("David", "3", "Ceviche"));
+        orders.add(Arrays.asList("Corina", "10", "Beef Burrito"));
+        orders.add(Arrays.asList("David", "3", "Fried Chicken"));
+        orders.add(Arrays.asList("Carla", "5", "Water"));
+        orders.add(Arrays.asList("Carla", "5", "Ceviche"));
+        orders.add(Arrays.asList("Rous", "3", "Ceviche"));
 
         for (List<String> order : orders) {
             System.out.println(order.toString());

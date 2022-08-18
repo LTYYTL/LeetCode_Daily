@@ -32,7 +32,7 @@ public class Codec {
      * 方法：模拟
      */
     //存储网站映射
-    private Map<Integer, String> map = new HashMap<>();
+    private final Map<Integer, String> map = new HashMap<>();
     //自增id
     private int id = 0;
 

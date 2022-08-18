@@ -28,7 +28,7 @@ import java.util.List;
  */
 public class ConcatenatedWords {
     //字典树
-    Tire root = new Tire();;
+    Tire root = new Tire();
 
     /**
      * 方法：字典树+深度优先搜索

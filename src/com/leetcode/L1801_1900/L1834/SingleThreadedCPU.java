@@ -1,6 +1,9 @@
 package com.leetcode.L1801_1900.L1834;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * 1834. 单线程 CPU
@@ -91,7 +94,7 @@ public class SingleThreadedCPU {
             //当堆中没有任务，即当前cpu空闲
             if(queue.isEmpty()){
                 //当前时间置为任务队列taskList中入队时间最小的时间
-                now = (long)taskList.get(i).enqueueTime;
+                now = taskList.get(i).enqueueTime;
                 while(i<n && taskList.get(i).enqueueTime<=now){
                     queue.offer(taskList.get(i));
                     i++;

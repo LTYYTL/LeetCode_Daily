@@ -31,7 +31,7 @@ public class NumArray {
      * 方法：前缀和
      */
     //sum[i]存储前i个元素和,sum[i]存储nums[0，。。。i-1]的和
-    private int[] sum;
+    private final int[] sum;
 
     public NumArray(int[] nums) {
         sum = new int[nums.length+1];

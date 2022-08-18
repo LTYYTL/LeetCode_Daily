@@ -35,7 +35,7 @@ public class MyCalendarTwo {
     /**
      * 方法：差分数组
      */
-    private TreeMap<Integer, Integer> treeMap;
+    private final TreeMap<Integer, Integer> treeMap;
 
     //初始化
     public MyCalendarTwo() {

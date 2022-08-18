@@ -35,7 +35,7 @@ public class MapSum {
     /**
      * 方法：字典树
      */
-    private Node root;
+    private final Node root;
     public MapSum() {
         root = new Node();
     }

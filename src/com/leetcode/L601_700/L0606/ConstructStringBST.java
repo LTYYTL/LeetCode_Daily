@@ -42,7 +42,7 @@ public class ConstructStringBST {
         //前序遍历
         pre(root,str);
         //对结果进行修饰
-        return str.toString().substring(1,str.length()-1);
+        return str.substring(1, str.length() - 1);
     }
 
     /**

@@ -41,11 +41,11 @@ import java.util.Map;
  */
 public class TopVotedCandidate {
     //记录各时段的领先者
-    private List<Integer> tops;
+    private final List<Integer> tops;
     //记录每个人的票数
-    private Map<Integer,Integer> voteCounts;
+    private final Map<Integer, Integer> voteCounts;
     //时间段
-    private int[] times;
+    private final int[] times;
 
     public TopVotedCandidate(int[] persons, int[] times) {
         //初始化

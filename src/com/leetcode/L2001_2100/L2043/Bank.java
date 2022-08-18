@@ -44,9 +44,9 @@ public class Bank {
      * 方法：模拟
      */
     //每个用户的初始金额
-    private long[] balance;
+    private final long[] balance;
     //长度
-    private long n;
+    private final long n;
 
     //初始化
     public Bank(long[] balance) {

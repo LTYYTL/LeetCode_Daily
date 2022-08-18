@@ -28,7 +28,7 @@ public class SortedStack {
     /**
      * 方法：堆
      */
-    private PriorityQueue<Integer> queue;
+    private final PriorityQueue<Integer> queue;
     public SortedStack() {
         queue = new PriorityQueue<>();
     }

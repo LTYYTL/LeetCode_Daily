@@ -39,7 +39,7 @@ public class SymmetricBinaryTree {
      * @return
      */
     public boolean isSymmetric(TreeNode root) {
-        return root == null ? true : recure(root.left,root.right);
+        return root == null || recure(root.left, root.right);
     }
 
     private boolean recure(TreeNode A, TreeNode B) {

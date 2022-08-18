@@ -2,7 +2,7 @@ package com.leetcode.L901_1000.L0990;
 
 public class SatisfiabilityEqualityEquationsTest {
     public static void main(String[] args) {
-        SatisfiabilityEqualityEquations satisfiabilityEqualityEquations = new SatisfiabilityEqualityEquations();;
+        SatisfiabilityEqualityEquations satisfiabilityEqualityEquations = new SatisfiabilityEqualityEquations();
         /**
          * 示例 1：
          * 输入：["a==b","b!=a"]

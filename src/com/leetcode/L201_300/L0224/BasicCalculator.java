@@ -99,9 +99,6 @@ public class BasicCalculator {
      * @return
      */
     private boolean isSign(char c){
-        if (c >= '0' && c <= '9'){
-            return true;
-        }
-        return false;
+        return c >= '0' && c <= '9';
     }
 }

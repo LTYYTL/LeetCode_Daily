@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class StreamRank {
     //存储数据
-    private List<Integer> list;
+    private final List<Integer> list;
     //初始化
     public StreamRank() {
         list = new ArrayList<>();

@@ -50,10 +50,7 @@ public class EatFavoriteCandyOnFavoriteDay {
             int type = queries[i][0];
             long day = queries[i][1];
             long number = queries[i][2];
-            if((candy[type] + candiesCount[type] <= day) || ((day + 1) * number <= candy[type]))
-                answer[i] = false;
-            else
-                answer[i] = true;
+            answer[i] = (candy[type] + candiesCount[type] > day) && ((day + 1) * number > candy[type]);
         }
         return answer;
     }

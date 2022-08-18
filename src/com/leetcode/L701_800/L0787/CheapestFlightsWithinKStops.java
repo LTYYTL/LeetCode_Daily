@@ -58,17 +58,17 @@ public class CheapestFlightsWithinKStops {
             path[form][to] = price;
         }
         //最小堆
-        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> o1[0]-o2[0]);
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> o1[0] - o2[0]);
         //{金额，点，可换站数}
-        queue.offer(new int[]{0,src,k});
+        queue.offer(new int[]{0, src, k});
 
         // costs[i]: min cost from src to vertex i
         // stops[i]: number of stops of the corresponding cheapest cost for vertex i
-        int costs[] = new int[n];//记录从起点到点i的最小金额
-        int stops[] = new int[n];//记录顶点 i 对应的最便宜成本的停靠点数
+        int[] costs = new int[n];//记录从起点到点i的最小金额
+        int[] stops = new int[n];//记录顶点 i 对应的最便宜成本的停靠点数
         Arrays.fill(costs, Integer.MAX_VALUE);
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             //堆顶元素
             int[] cur = queue.poll();
             //金额

@@ -94,9 +94,7 @@ public class PerfectRectangle {
         if (!set.contains("("+res_x1+res_y1+")")) return false;
         if (!set.contains("("+res_x1+res_y2+")")) return false;
         if (!set.contains("("+res_x2+res_y1+")")) return false;
-        if (!set.contains("("+res_x2+res_y2+")")) return false;
-
-        return true;
+        return set.contains("(" + res_x2 + res_y2 + ")");
     }
 
 

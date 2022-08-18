@@ -27,7 +27,7 @@ public class SmallestK {
         Arrays.sort(arr);
         int[] res = new int[k];
         for(int i = 0; i < k; i++){
-            res[i] = arr[i];;
+            res[i] = arr[i];
         }
         return res;
     }

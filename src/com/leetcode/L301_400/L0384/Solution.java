@@ -33,12 +33,13 @@ public class Solution {
     /**
      * 方法：洗牌算法
      */
-    private int[] origin; // 初始数组
-    private int[] nums;//随机数组
-    private Random random;//随机数
+    private final int[] origin; // 初始数组
+    private final int[] nums;//随机数组
+    private final Random random;//随机数
 
     /**
      * 初始化
+     *
      * @param nums
      */
     public Solution(int[] nums) {

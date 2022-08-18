@@ -77,7 +77,7 @@ public class RobotRangeMotion {
      */
     private int op(int i, int j){
         //坐标转换成字符串拼接
-        String s = String.valueOf(i) + String.valueOf(j);
+        String s = String.valueOf(i) + j;
         //和
         int res = 0;
         for (int k = 0; k < s.length(); k++) {

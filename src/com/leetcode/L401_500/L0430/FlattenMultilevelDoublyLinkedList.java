@@ -109,5 +109,5 @@ public class FlattenMultilevelDoublyLinkedList {
         public Node prev;
         public Node next;
         public Node child;
-    };
+    }
 }

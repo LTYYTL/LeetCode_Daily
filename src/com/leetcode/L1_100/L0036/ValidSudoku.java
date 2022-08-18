@@ -92,9 +92,6 @@ public class ValidSudoku {
                 count++;
         }
         //出现超过3次，即无效
-        if (count>3){
-            return false;
-        }
-        return true;
+        return count <= 3;
     }
 }

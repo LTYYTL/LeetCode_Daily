@@ -52,7 +52,7 @@ public class Trie {
         }
     }
 
-    private Node root;
+    private final Node root;
 
     /** Initialize your data structure here. */
     public Trie() {

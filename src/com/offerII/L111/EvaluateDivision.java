@@ -104,9 +104,9 @@ public class EvaluateDivision {
      */
     class UF{
         //根节点
-        private int[] parent;
+        private final int[] parent;
         //权重
-        private double[] weight;
+        private final double[] weight;
 
         //初始化
         public UF(int n) {

@@ -28,7 +28,7 @@ public class VerticalOrderTraversalBinaryTreeTest {
         root.left = rl;
         root.right = rr;
 
-        System.out.println(root.toString());
+        System.out.println(root);
 
         for (List<Integer> list : verticalOrderTraversalBinaryTree.verticalTraversal(root)) {
             System.out.println(list.toString());

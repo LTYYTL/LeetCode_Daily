@@ -40,9 +40,9 @@ package com.leetcode.L601_700.L0641;
  */
 public class MyCircularDeque {
 
-    private int capacity;
+    private final int capacity;
     private int size;
-    private int[] arr;
+    private final int[] arr;
     private int front, last;
 
 

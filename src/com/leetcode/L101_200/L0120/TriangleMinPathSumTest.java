@@ -41,7 +41,7 @@ public class TriangleMinPathSumTest {
         res.add(list3);
         res.add(list4);
         //查看是否为想要的数据
-        System.out.println(res.toString());
+        System.out.println(res);
         //方法一：动态规划
         System.out.println(triangleMinPathSum.minimumTotal(res));
         //方法二：动态规划 + 空间优化（一维数组）

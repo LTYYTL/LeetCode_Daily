@@ -74,5 +74,5 @@ public class BinarySearchTreeLinkedList {
             left = _left;
             right = _right;
         }
-    };
+    }
 }

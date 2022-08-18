@@ -5,7 +5,7 @@ package com.util;
  */
 public class Difference {
     //差分数组
-    private int[] diff;
+    private final int[] diff;
 
     /**
      * 构造差分数组

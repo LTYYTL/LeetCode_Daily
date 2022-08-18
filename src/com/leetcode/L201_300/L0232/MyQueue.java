@@ -39,23 +39,30 @@ import java.util.Stack;
  * 假设所有操作都是有效的 （例如，一个空的队列不会调用 pop 或者 peek 操作）
  */
 public class MyQueue {
-    private Stack<Integer> stark1;
-    private Stack<Integer> stark2;
-    /** Initialize your data structure here. */
+    private final Stack<Integer> stark1;
+    private final Stack<Integer> stark2;
+
+    /**
+     * Initialize your data structure here.
+     */
     public MyQueue() {
         stark1 = new Stack<>();
         stark2 = new Stack<>();
     }
 
-    /** Push element x to the back of queue. */
+    /**
+     * Push element x to the back of queue.
+     */
     public void push(int x) {
         stark1.push(x);
     }
 
-    /** Removes the element from in front of queue and returns that element. */
+    /**
+     * Removes the element from in front of queue and returns that element.
+     */
     public int pop() {
-        if (stark2.isEmpty()){
-            while (!stark1.isEmpty()){
+        if (stark2.isEmpty()) {
+            while (!stark1.isEmpty()) {
                 stark2.push(stark1.pop());
             }
         }
@@ -74,8 +81,6 @@ public class MyQueue {
 
     /** Returns whether the queue is empty. */
     public boolean empty() {
-        if (stark1.isEmpty()&& stark2.isEmpty())
-            return true;
-        return false;
+        return stark1.isEmpty() && stark2.isEmpty();
     }
 }

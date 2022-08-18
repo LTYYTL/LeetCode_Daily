@@ -40,7 +40,7 @@ public class OrderedStream {
     /**
      * 方法：数组
      */
-    private String[] stream;
+    private final String[] stream;
     private int ptr;
 
     public OrderedStream(int n) {

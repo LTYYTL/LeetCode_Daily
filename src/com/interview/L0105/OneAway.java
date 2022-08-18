@@ -42,9 +42,7 @@ public class OneAway {
                     count++;
             }
             //不同字符超过1个，不符合条件
-            if (count > 1)
-                return false;
-            return true;
+            return count <= 1;
         }
         //长度相差1，用替换或删除
 

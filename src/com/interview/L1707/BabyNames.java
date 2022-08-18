@@ -31,7 +31,7 @@ public class BabyNames {
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         // 并查集
         class UnionFind1 {
-            private Map<String, String> map = new HashMap<>();
+            private final Map<String, String> map = new HashMap<>();
 
             public UnionFind1(String[] names) {
                 for (String name : names) {

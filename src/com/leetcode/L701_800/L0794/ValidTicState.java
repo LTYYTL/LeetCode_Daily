@@ -57,10 +57,7 @@ public class ValidTicState {
         if (x != o +1 && win(board,'X') )
             return false;
         // 2号玩家赢，则xcount==ocount
-        if (x != o  && win(board,'O') )
-            return false;
-
-        return true;
+        return x == o || !win(board, 'O');
     }
 
     private boolean win(String[] board, char c){
@@ -76,9 +73,6 @@ public class ValidTicState {
         if (c == board[0].charAt(0) && c == board[1].charAt(1) && c == board[2].charAt(2))
             return true;
         //右对角线
-        if (c == board[2].charAt(0) && c == board[1].charAt(1) && c == board[0].charAt(2))
-            return true;
-
-        return false;
+        return c == board[2].charAt(0) && c == board[1].charAt(1) && c == board[0].charAt(2);
     }
 }

@@ -17,9 +17,9 @@ public class ShoppingOffersTest {
          * 需要购买 3 个 A 和 2 个 B ， 所以付 ¥10 购买 1A 和 2B（大礼包 2），以及 ¥4 购买 2A 。
          */
         List<List<Integer>> special = new ArrayList<>();
-        special.add(Arrays.asList(new Integer[]{3,0,5}));
-        special.add(Arrays.asList(new Integer[]{1,2,10}));
-        System.out.println(shoppingOffers.shoppingOffers(Arrays.asList(new Integer[]{2, 5}), special, Arrays.asList(new Integer[]{3, 2})));
+        special.add(Arrays.asList(3, 0, 5));
+        special.add(Arrays.asList(1, 2, 10));
+        System.out.println(shoppingOffers.shoppingOffers(Arrays.asList(2, 5), special, Arrays.asList(3, 2)));
         /**
          * 示例 2：
          * 输入：price = [2,3,4], special = [[1,1,0,4],[2,2,1,9]], needs = [1,2,1]

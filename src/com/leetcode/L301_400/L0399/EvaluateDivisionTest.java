@@ -17,15 +17,15 @@ public class EvaluateDivisionTest {
          * 结果：[6.0, 0.5, -1.0, 1.0, -1.0 ]
          */
         List<List<String>> equations = new ArrayList<>();
-        equations.add(Arrays.asList(new String[]{"a","b"}));
-        equations.add(Arrays.asList(new String[]{"b","c"}));
+        equations.add(Arrays.asList("a", "b"));
+        equations.add(Arrays.asList("b", "c"));
 
         List<List<String>> queries = new ArrayList<>();
-        queries.add(Arrays.asList(new String[]{"a","c"}));
-        queries.add(Arrays.asList(new String[]{"b","a"}));
-        queries.add(Arrays.asList(new String[]{"a","e"}));
-        queries.add(Arrays.asList(new String[]{"a","a"}));
-        queries.add(Arrays.asList(new String[]{"x","x"}));
+        queries.add(Arrays.asList("a", "c"));
+        queries.add(Arrays.asList("b", "a"));
+        queries.add(Arrays.asList("a", "e"));
+        queries.add(Arrays.asList("a", "a"));
+        queries.add(Arrays.asList("x", "x"));
 
         System.out.println(Arrays.toString(evaluateDivision.calcEquation(equations, new double[]{2.0, 3.0}, queries)));
         /**

@@ -59,7 +59,7 @@ public class SearchBST {
                 return root;
             } else if (root.val > val) {
                 //比当前节点值小，去左子树搜索
-                root = root.left;;
+                root = root.left;
             } else  {
                 //比当前节点值大，去右子树搜索
                 root = root.right;

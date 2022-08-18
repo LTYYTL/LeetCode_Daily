@@ -38,7 +38,7 @@ public class OptimalDivision {
         }
         //两个数的情况
         if (n == 2) {
-            return String.valueOf(nums[0]) + "/" + String.valueOf(nums[1]);
+            return nums[0] + "/" + nums[1];
         }
         StringBuffer res = new StringBuffer();
         res.append(nums[0]);

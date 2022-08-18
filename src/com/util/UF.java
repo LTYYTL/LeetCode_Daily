@@ -4,9 +4,9 @@ public class UF {
     //连通性
     private int count;
     //记录每个节点的根节点
-    private int[] parent;
+    private final int[] parent;
     //每个节点的重量（包含节点的数）
-    private int[] size;
+    private final int[] size;
 
     public UF(int n){
         this.count = n;

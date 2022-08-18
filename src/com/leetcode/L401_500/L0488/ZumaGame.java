@@ -1,8 +1,5 @@
 package com.leetcode.L401_500.L0488;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 488. 祖玛游戏
  * 你正在参与祖玛游戏的一个变种。
@@ -58,9 +55,9 @@ public class ZumaGame {
     //结果
     private int res = Integer.MAX_VALUE;
     //记录颜色个数
-    private int[] map = new int[26];
+    private final int[] map = new int[26];
     //颜色
-    private char[] colors = {'R','Y','B','G','W'};
+    private final char[] colors = {'R', 'Y', 'B', 'G', 'W'};
 
     /**
      * 方法：回溯算法

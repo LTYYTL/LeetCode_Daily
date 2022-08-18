@@ -50,9 +50,7 @@ public class BalancedBinaryTree {
         //右子树深度
         int rightHigh = depth(root.right) + 1;
         //深度差不在-1~1之间
-        if (Math.abs(leftHigh-rightHigh)>1)
-            return false;
-        return true;
+        return Math.abs(leftHigh - rightHigh) <= 1;
     }
 
     /**

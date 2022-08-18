@@ -35,7 +35,7 @@ public class AllNodesDistanceKBinaryTreeTest {
         rlr.left = rlrl;
         rlr.right = rlrr;
 
-        rr.left = rrl;;
+        rr.left = rrl;
         rr.right = rrr;
 
         System.out.println(allNodesDistanceKBinaryTree.distanceK(root, rl, 2).toString());

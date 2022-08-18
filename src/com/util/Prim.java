@@ -8,13 +8,13 @@ import java.util.PriorityQueue;
  */
 public class Prim {
     //存放边
-    private PriorityQueue<int[]> queue;
+    private final PriorityQueue<int[]> queue;
     //记录某个点是否已经是最小生成树的一部分
-    private boolean[] isMST;
+    private final boolean[] isMST;
     //最小生成树的权值和
     private int weightSum = 0;
     //图
-    private List<int[]>[] grep;
+    private final List<int[]>[] grep;
 
     public Prim(List<int[]>[] grep) {
         //初始化

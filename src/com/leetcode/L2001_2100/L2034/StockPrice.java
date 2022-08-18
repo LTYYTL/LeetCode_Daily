@@ -48,9 +48,9 @@ import java.util.TreeMap;
  */
 public class StockPrice {
     //key为时间戳，value为价格
-    private Map<Integer,Integer> map;
+    private final Map<Integer, Integer> map;
     //key为价格，value为出现的次数，按照价格从小到大排列
-    private TreeMap<Integer,Integer> treeMap;
+    private final TreeMap<Integer, Integer> treeMap;
     //最晚的时间戳
     private int cur;
 

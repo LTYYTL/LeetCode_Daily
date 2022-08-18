@@ -35,11 +35,11 @@ public class AnimalShelf {
      * 方法：队列
      */
     //存储所有动物
-    private Queue<Integer> queue;
+    private final Queue<Integer> queue;
     //存储狗
-    private Queue<Integer> dog;
+    private final Queue<Integer> dog;
     //存储猫
-    private Queue<Integer> cat;
+    private final Queue<Integer> cat;
 
     //初始化
     public AnimalShelf() {

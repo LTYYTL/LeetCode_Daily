@@ -33,7 +33,7 @@ public class RecentCounter {
     /**
      * 方法：队列
      */
-    private Queue<Integer> queue;
+    private final Queue<Integer> queue;
 
     public RecentCounter() {
         queue = new LinkedList<>();

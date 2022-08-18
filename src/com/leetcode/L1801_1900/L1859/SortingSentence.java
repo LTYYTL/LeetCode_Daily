@@ -43,7 +43,7 @@ public class SortingSentence {
         StringBuilder res = new StringBuilder();
         //遍历字符串数组
         for (String string : strings) {
-            res.append(string.substring(0,string.length()-1));
+            res.append(string, 0, string.length() - 1);
             //添加空格
             res.append(" ");
         }

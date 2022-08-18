@@ -33,9 +33,9 @@ package com.leetcode.L301_400.L0307;
  */
 public class NumArray {
     //线段树
-    private int[] segmentTree;
+    private final int[] segmentTree;
     //长度
-    private int n;
+    private final int n;
 
 
     public NumArray(int[] nums) {

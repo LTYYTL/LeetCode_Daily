@@ -42,17 +42,17 @@ import java.util.Map;
  * 最多调用 add 和 count 函数各 1000 次
  */
 public class FindSumPairs {
-    private int[] nums1;
-    private int[] nums2;
+    private final int[] nums1;
+    private final int[] nums2;
     //用于存储nums2中数字出现的次数
-    Map<Integer,Integer> map = new HashMap<>();
+    Map<Integer, Integer> map = new HashMap<>();
 
     public FindSumPairs(int[] nums1, int[] nums2) {
         this.nums1 = nums1;
         this.nums2 = nums2;
         //记录nums2中数字出现的次数
         for (int i : nums2) {
-            map.put(i,map.getOrDefault(i,0)+1);
+            map.put(i, map.getOrDefault(i, 0) + 1);
         }
     }
 

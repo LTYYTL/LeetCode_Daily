@@ -40,9 +40,9 @@ import java.util.*;
 public class SummaryRanges {
 
     // 存储右边界
-    private int[] father = new int[10001];
+    private final int[] father = new int[10001];
     // 使用有序的set存储左边界
-    private Set<Integer> set = new TreeSet<>();
+    private final Set<Integer> set = new TreeSet<>();
 
     public SummaryRanges() {
         // 元素值的范围为 0~10000，所以，初始化为-1

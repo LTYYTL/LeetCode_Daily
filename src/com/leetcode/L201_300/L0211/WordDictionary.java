@@ -53,7 +53,7 @@ public class WordDictionary {
         }
     }
 
-    private Node root;
+    private final Node root;
 
     /** Initialize your data structure here. */
     public WordDictionary() {

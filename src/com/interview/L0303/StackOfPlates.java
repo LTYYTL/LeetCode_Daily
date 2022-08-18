@@ -31,8 +31,8 @@ public class StackOfPlates {
     /**
      * 方法：list集合
      */
-    private List<Stack<Integer>> list;
-    private int size;
+    private final List<Stack<Integer>> list;
+    private final int size;
 
     //初始化
     public StackOfPlates(int cap) {

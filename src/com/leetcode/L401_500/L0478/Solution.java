@@ -31,10 +31,11 @@ public class Solution {
      * 方法：数学
      */
     //随机数
-    private Random random;
+    private final Random random;
     //坐标
-    private double xc, yc, r;
-    ;
+    private final double xc;
+    private final double yc;
+    private final double r;
 
     //初始化
     public Solution(double radius, double x_center, double y_center) {

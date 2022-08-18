@@ -21,8 +21,8 @@ public class MinStack {
     /**
      * 方法：栈
      */
-    private Stack<Integer> stack;
-    private Stack<Integer> min;
+    private final Stack<Integer> stack;
+    private final Stack<Integer> min;
 
     public MinStack() {
         stack = new Stack<>();

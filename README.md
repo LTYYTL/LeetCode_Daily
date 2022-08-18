@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1070**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1071**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -257,6 +257,8 @@
 | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
 | 1200 | 最小绝对差 | [MinAbsoluteDiff](src/com/leetcode/L1101_1200/L1200/MinAbsoluteDiff.java)
 | 简单 | 排序 | 数组、排序 |
+| 1224 | 最大相等频率 | [MaxEqualFrequency](src/com/leetcode/L1101_1200/L1224/MaxEqualFrequency.java)
+| 困难 | map映射 | 数组、哈希表 |
 | 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1201_1300/L1252/CellsValuesMatrix.java)
 | 简单 | 模拟 | 数组、数学、模拟 |
 | 1282 | 用户分组 | [GroupPeople](src/com/leetcode/L1201_1300/L1282/GroupPeople.java)

@@ -29,7 +29,7 @@ package com.leetcode.L1601_1700.L1603;
  */
 public class ParkingSystem {
 
-    private int[] array;
+    private final int[] array;
 
     public ParkingSystem(int big, int medium, int small) {
         array = new int[4];

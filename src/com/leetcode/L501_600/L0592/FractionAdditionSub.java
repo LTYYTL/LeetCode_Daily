@@ -64,7 +64,7 @@ public class FractionAdditionSub {
             return "0/1";
         }
         long g = gcd(Math.abs(denominator), numerator); // 获取最大公约数
-        return Long.toString(denominator / g) + "/" + Long.toString(numerator / g);
+        return denominator / g + "/" + numerator / g;
     }
 
     public long gcd(long a, long b) {
