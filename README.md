@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1071**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1072**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -257,7 +257,7 @@
 | 简单 | 排序 | 数组、哈希表、排序、计数排序 |
 | 1200 | 最小绝对差 | [MinAbsoluteDiff](src/com/leetcode/L1101_1200/L1200/MinAbsoluteDiff.java)
 | 简单 | 排序 | 数组、排序 |
-| 1224 | 最大相等频率 | [MaxEqualFrequency](src/com/leetcode/L1101_1200/L1224/MaxEqualFrequency.java)
+| 1224 | 最大相等频率 | [MaxEqualFrequency](src/com/leetcode/L1201_1300/L1224/MaxEqualFrequency.java)
 | 困难 | map映射 | 数组、哈希表 |
 | 1252 | 奇数值单元格的数目 | [CellsValuesMatrix](src/com/leetcode/L1201_1300/L1252/CellsValuesMatrix.java)
 | 简单 | 模拟 | 数组、数学、模拟 |
@@ -281,7 +281,10 @@
 | 中等 | Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 1431 | 拥有最多糖果的孩子 | [KidsWithMaxCandies](src/com/leetcode/L1401_1500/L1431/KidsWithMaxCandies.java)
 | 简单 | 模拟 | 数组 |
-| 1442 | 形成两个异或相等数组的三元组数目
+| 1442 | 在既定时间做作业的学生人数
+| [NumberStudentsGivenTime](src/com/leetcode/L1401_1500/L1450/NumberStudentsGivenTime.java)
+| 简单 | 模拟 | 数组 |
+| 1450 | 形成两个异或相等数组的三元组数目
 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1401_1500/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java)
 | 中等 | 双指针 | 数组、位运算、数学 |
 | 1470 | 重新排列数组 | [ShuffleArray](src/com/leetcode/L1401_1500/L1470/ShuffleArray.java)
