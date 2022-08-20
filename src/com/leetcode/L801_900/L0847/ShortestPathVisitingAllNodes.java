@@ -30,7 +30,7 @@ import java.util.Queue;
 public class ShortestPathVisitingAllNodes {
     public int shortestPathLength(int[][] graph) {
         int n = graph.length;
-        Queue<int[]> queue = new LinkedList<int[]>();
+        Queue<int[]> queue = new LinkedList<>();
         boolean[][] seen = new boolean[n][1 << n];
         for (int i = 0; i < n; ++i) {
             queue.offer(new int[]{i, 1 << i, 0});

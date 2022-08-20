@@ -19,7 +19,7 @@ package com.offerII.L020;
  * 1 <= s.length <= 1000
  * s 由小写英文字母组成
  *
- * 注意：本题与主站 647 题相同：https://leetcode-cn.com/problems/palindromic-substrings/
+ * 注意：本题与主站 647 题相同：<a href="https://leetcode-cn.com/problems/palindromic-substrings/">https://leetcode-cn.com/problems/palindromic-substrings/</a>
  */
 public class PalindromicSubstrings {
     /**

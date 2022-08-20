@@ -25,7 +25,7 @@ import java.util.List;
  * -105 <= nums[i] <= 105
  *
  *
- * 注意：本题与主站 15 题相同：https://leetcode-cn.com/problems/3sum/
+ * 注意：本题与主站 15 题相同：<a href="https://leetcode-cn.com/problems/3sum/">https://leetcode-cn.com/problems/3sum/</a>
  */
 public class Sum3 {
     /**

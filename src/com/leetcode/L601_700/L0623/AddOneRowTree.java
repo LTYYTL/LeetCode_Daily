@@ -35,10 +35,6 @@ public class AddOneRowTree {
     /**
      * 方法：广度优先搜索
      *
-     * @param root
-     * @param val
-     * @param depth
-     * @return
      */
     public TreeNode addOneRow(TreeNode root, int val, int depth) {
         //空值情况

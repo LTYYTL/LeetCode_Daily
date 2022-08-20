@@ -5,15 +5,15 @@ import com.util.TreeNode;
 public class CountCompleteTreeNodesTest {
     public static void main(String[] args) {
         CountCompleteTreeNodes countCompleteTreeNodes = new CountCompleteTreeNodes();
-        /**
-         * 示例:
-         * 输入:
-         *     1
-         *    / \
-         *   2   3
-         *  / \  /
-         * 4  5 6
-         * 输出: 6
+        /*
+          示例:
+          输入:
+              1
+             / \
+            2   3
+           / \  /
+          4  5 6
+          输出: 6
          */
         TreeNode root = new TreeNode(1);
         TreeNode rl = new TreeNode(2);

@@ -1,6 +1,7 @@
 package com.leetcode.L401_500.L0436;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 436. 寻找右区间
@@ -52,7 +53,7 @@ public class FindRightInterval {
         }
 
         //排序
-        Arrays.sort(start, (o1, o2) -> o1[0] - o2[0]);
+        Arrays.sort(start, Comparator.comparingInt(o -> o[0]));
 
         //结果
         int[] ans = new int[n];

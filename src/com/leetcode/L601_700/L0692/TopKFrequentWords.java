@@ -53,7 +53,7 @@ public class TopKFrequentWords {
                 queue.poll();
         }
         // 4.依次弹出堆中的 K 个元素，放入结果集合中。
-        List<String> res = new ArrayList<String>(k);
+        List<String> res = new ArrayList<>(k);
         while (queue.size() > 0) {
             res.add(queue.poll());
         }

@@ -4,21 +4,21 @@ public class MinPathSumTest {
 
     public static void main(String[] args) {
         MinPathSum minPathSum = new MinPathSum();
-        /**
-         * 示例:
-         * 输入:
-         * [
-         *   [1,3,1],
-         *   [1,5,1],
-         *   [4,2,1]
-         * ]
-         * 输出: 7
-         * 解释: 因为路径 1→3→1→1→1 的总和最小。
+        /*
+          示例:
+          输入:
+          [
+            [1,3,1],
+            [1,5,1],
+            [4,2,1]
+          ]
+          输出: 7
+          解释: 因为路径 1→3→1→1→1 的总和最小。
          */
         int[][] grid = {
-                {1,3,1},
-                {1,5,1},
-                {4,2,1}
+                {1, 3, 1},
+                {1, 5, 1},
+                {4, 2, 1}
         };
         //方法一：动态规划
         System.out.println(minPathSum.minPathSum(grid));

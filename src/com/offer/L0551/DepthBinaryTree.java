@@ -22,7 +22,7 @@ import java.util.Stack;
  * 提示：
  *
  * 节点总数 <= 10000
- * 注意：本题与主站 104 题相同：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+ * 注意：本题与主站 104 题相同：<a href="https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/">https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/</a>
  */
 public class DepthBinaryTree {
     /**

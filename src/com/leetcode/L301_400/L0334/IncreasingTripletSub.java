@@ -38,13 +38,12 @@ public class IncreasingTripletSub {
             return false;
         int small = Integer.MAX_VALUE, middle = Integer.MAX_VALUE;
         //遍历
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
             //当前数
-            int num = nums[i];
             //比小的还要小
             if (num <= small)
                 small = num;
-            //比小值大，比中间值小
+                //比小值大，比中间值小
             else if (num <= middle)
                 middle = num;
             else//遇到比中间值大的，证明满足条件

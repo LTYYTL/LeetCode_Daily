@@ -29,13 +29,11 @@ import com.util.TreeNode;
  * 二叉树的节点个数的范围是 [1,200]
  * 二叉树节点的值只会是 0 或 1
  *
- * 注意：本题与主站 814 题相同：https://leetcode-cn.com/problems/binary-tree-pruning/
+ * 注意：本题与主站 814 题相同：<a href="https://leetcode-cn.com/problems/binary-tree-pruning/">https://leetcode-cn.com/problems/binary-tree-pruning/</a>
  */
 public class BinaryTreePruning {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public TreeNode pruneTree(TreeNode root) {
         return del(root);
@@ -43,8 +41,6 @@ public class BinaryTreePruning {
 
     /**
      * 删除函数
-     * @param root
-     * @return
      */
     private TreeNode del(TreeNode<Integer> root) {
         //空值情况

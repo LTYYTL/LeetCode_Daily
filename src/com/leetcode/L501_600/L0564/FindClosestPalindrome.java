@@ -31,7 +31,7 @@ public class FindClosestPalindrome {
      */
     public String nearestPalindromic(String n) {
         //当前数
-        long selfNum = Long.valueOf(n);
+        long selfNum = Long.parseLong(n);
         //存储可能回文的数
         List<Long> candidates = getCandidates(n);
         //结果
@@ -69,17 +69,16 @@ public class FindClosestPalindrome {
         long prev = Long.parseLong(n.substring(0,(len+1)/2));
         //范围：前一半数-1~前一半数+1
         //如：123的前一半为12,范围[11,12,13]
-        for (long i = prev - 1; i <= prev + 1; ++i){
+        for (long i = prev - 1; i <= prev + 1; ++i) {
             //当前字符串
-            StringBuilder sb = new StringBuilder();
             //加入前一半
-            sb.append(i);
-            //获取后一半
             StringBuilder last = new StringBuilder().append(i).reverse();
-            //获取len一半长度的字符串，做为后一半
-            sb.append(last.substring(len&1));
+            String sb = i +
+                    //获取后一半
+                    //获取len一半长度的字符串，做为后一半
+                    last.substring(len & 1);
             //加入集合
-            candidates.add(Long.valueOf(sb.toString()));
+            candidates.add(Long.valueOf(sb));
         }
 
         return candidates;

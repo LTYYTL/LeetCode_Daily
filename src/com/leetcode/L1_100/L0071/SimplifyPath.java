@@ -51,7 +51,7 @@ public class SimplifyPath {
         //结果集
         StringBuilder res = new StringBuilder();
         //栈
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
 
         String[] strArr = path.split("/");//用‘/’分割，‘//’会被分割成空
         for(String str: strArr){//遍历

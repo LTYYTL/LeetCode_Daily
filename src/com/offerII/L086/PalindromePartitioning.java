@@ -25,7 +25,7 @@ import java.util.Stack;
  * 1 <= s.length <= 16
  * s 仅由小写英文字母组成
  *
- * 注意：本题与主站 131 题相同： https://leetcode-cn.com/problems/palindrome-partitioning/
+ * 注意：本题与主站 131 题相同： <a href="https://leetcode-cn.com/problems/palindrome-partitioning/">https://leetcode-cn.com/problems/palindrome-partitioning/</a>
  */
 public class PalindromePartitioning {
     /**

@@ -6,11 +6,11 @@ import java.util.List;
 public class CutTreesGolfTest {
     public static void main(String[] args) {
         CutTreesGolf cutTreesGolf = new CutTreesGolf();
-        /**
-         * 示例 1：
-         * 输入：forest = [[1,2,3],[0,0,4],[7,6,5]]
-         * 输出：6
-         * 解释：沿着上面的路径，你可以用 6 步，按从最矮到最高的顺序砍掉这些树。
+        /*
+          示例 1：
+          输入：forest = [[1,2,3],[0,0,4],[7,6,5]]
+          输出：6
+          解释：沿着上面的路径，你可以用 6 步，按从最矮到最高的顺序砍掉这些树。
          */
         List<List<Integer>> list = new ArrayList<>() {{
             add(
@@ -36,11 +36,11 @@ public class CutTreesGolfTest {
             );
         }};
         System.out.println(cutTreesGolf.cutOffTree(list));
-        /**
-         * 示例 2：
-         * 输入：forest = [[1,2,3],[0,0,0],[7,6,5]]
-         * 输出：-1
-         * 解释：由于中间一行被障碍阻塞，无法访问最下面一行中的树。
+        /*
+          示例 2：
+          输入：forest = [[1,2,3],[0,0,0],[7,6,5]]
+          输出：-1
+          解释：由于中间一行被障碍阻塞，无法访问最下面一行中的树。
          */
         list.clear();
         list = new ArrayList<>() {{
@@ -67,12 +67,12 @@ public class CutTreesGolfTest {
             );
         }};
         System.out.println(cutTreesGolf.cutOffTree(list));
-        /**
-         * 示例 3：
-         * 输入：forest = [[2,3,4],[0,0,5],[8,7,6]]
-         * 输出：6
-         * 解释：可以按与示例 1 相同的路径来砍掉所有的树。
-         * (0,0) 位置的树，可以直接砍去，不用算步数。
+        /*
+          示例 3：
+          输入：forest = [[2,3,4],[0,0,5],[8,7,6]]
+          输出：6
+          解释：可以按与示例 1 相同的路径来砍掉所有的树。
+          (0,0) 位置的树，可以直接砍去，不用算步数。
          */
         list.clear();
         list = new ArrayList<>() {{

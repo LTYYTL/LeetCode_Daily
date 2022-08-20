@@ -123,9 +123,7 @@ public class RotateString {
             next[i] = j;
         }
         //匹配表
-        for(int i = next.length-1; i > 0; i--){
-            next[i] = next[i-1];
-        }
+        if (next.length - 1 >= 0) System.arraycopy(next, 0, next, 1, next.length - 1);
         next[0] = -1;
         return next;
     }

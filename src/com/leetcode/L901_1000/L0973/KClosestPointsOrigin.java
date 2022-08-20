@@ -1,6 +1,9 @@
 package com.leetcode.L901_1000.L0973;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 /**
  * 973. 最接近原点的 K 个点
@@ -46,12 +49,7 @@ public class KClosestPointsOrigin {
         //System.out.println(map);
 
         //定制排序
-        Comparator comparator = new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                return (int) (map.get(o2) - map.get(o1));
-            }
-        };
+        Comparator comparator = (o1, o2) -> (int) (map.get(o2) - map.get(o1));
         //建立最大堆
         //1、如果堆的元素个数小于 k，就可以直接插入堆中。
         //2、如果堆的元素个数等于 k，则检查堆顶与当前距离的大小。

@@ -44,7 +44,7 @@ import java.util.Set;
  * target 不在 deadends 之中
  * target 和 deadends[i] 仅由若干位数字组成
  *
- * 注意：本题与主站 752 题相同： https://leetcode-cn.com/problems/open-the-lock/
+ * 注意：本题与主站 752 题相同： <a href="https://leetcode-cn.com/problems/open-the-lock/">https://leetcode-cn.com/problems/open-the-lock/</a>
  */
 public class OpenTheLock {
     /**

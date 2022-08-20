@@ -4,7 +4,7 @@ import com.util.Prim;
 import com.util.UF;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -63,7 +63,7 @@ public class MinCostConnectPoints {
         //并查集
         UF uf = new UF(n);
         //按权值从小到大
-        Collections.sort(edges,(a,b) ->(a[2] - b[2]));
+        edges.sort(Comparator.comparingInt(a -> a[2]));
         //最小值
         int mst = 0;
         //遍历边

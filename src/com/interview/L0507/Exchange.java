@@ -31,8 +31,7 @@ public class Exchange {
         //提起奇数位
         int even = num & hex_even;
         //偶数位右移动，奇数位左移
-        int ans = (odd >> 1) + (even << 1);
 
-        return ans;
+        return (odd >> 1) + (even << 1);
     }
 }

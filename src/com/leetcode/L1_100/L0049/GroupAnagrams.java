@@ -42,7 +42,7 @@ public class GroupAnagrams {
             //将排序好char数组作为key
             String temp = new String(chars);
             //将由相同字母的字符串放到统一个集合
-            List list = map.getOrDefault(temp,new ArrayList<>());
+            List<String> list = map.getOrDefault(temp, new ArrayList<>());
             list.add(s);
             map.put(temp,list);
         }

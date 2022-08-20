@@ -19,7 +19,7 @@ package com.leetcode.L401_500.L0476;
  * 提示：
  * 1 <= num < 231
  *
- * 注意：本题与 1009 https://leetcode-cn.com/problems/complement-of-base-10-integer/ 相同
+ * 注意：本题与 1009 <a href="https://leetcode-cn.com/problems/complement-of-base-10-integer/">https://leetcode-cn.com/problems/complement-of-base-10-integer/</a> 相同
  */
 public class NumberComplement {
     /**

@@ -53,7 +53,7 @@ public class MaximumXORTwoNumbersArray {
     /**
      * 方法二：前缀树
      */
-    class Trie {
+    static class Trie {
         // 左子树指向表示 0 的子节点
         Trie left = null;
         // 右子树指向表示 1 的子节点

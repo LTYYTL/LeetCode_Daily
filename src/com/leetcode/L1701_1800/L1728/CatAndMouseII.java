@@ -95,7 +95,7 @@ public class CatAndMouseII {
         int total = rows * cols;
         degrees = new int[total][total][2];
         results = new int[total][total][2][2];
-        Queue<int[]> queue = new ArrayDeque<int[]>();
+        Queue<int[]> queue = new ArrayDeque<>();
         // 计算每个状态的度
         for (int mouse = 0; mouse < total; mouse++) {
             int mouseRow = mouse / cols, mouseCol = mouse % cols;
@@ -191,7 +191,7 @@ public class CatAndMouseII {
     }
 
     public List<int[]> getPrevStates(int mouse, int cat, int turn) {
-        List<int[]> prevStates = new ArrayList<int[]>();
+        List<int[]> prevStates = new ArrayList<>();
         int mouseRow = mouse / cols, mouseCol = mouse % cols;
         int catRow = cat / cols, catCol = cat % cols;
         int prevTurn = turn == MOUSE_TURN ? CAT_TURN : MOUSE_TURN;

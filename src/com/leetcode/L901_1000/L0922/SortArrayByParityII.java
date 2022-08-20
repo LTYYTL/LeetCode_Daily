@@ -29,15 +29,15 @@ public class SortArrayByParityII {
         //偶数
         int even = 0;
         //遍历数组
-        for (int i = 0; i < A.length; ++i){
+        for (int j : A) {
             //偶数情况
-            if (A[i] % 2 == 0){
+            if (j % 2 == 0) {
                 //偶数存在偶数索引位
-                res[even] = A[i];
+                res[even] = j;
                 even += 2;
-            }else {//奇数情况
+            } else {//奇数情况
                 //奇数存在奇数索引位
-                res[odd] = A[i];
+                res[odd] = j;
                 odd += 2;
             }
         }

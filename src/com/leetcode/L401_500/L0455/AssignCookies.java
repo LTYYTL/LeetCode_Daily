@@ -32,9 +32,6 @@ import java.util.Arrays;
 public class AssignCookies {
     /**
      * 方法：贪心算法
-     * @param g
-     * @param s
-     * @return
      */
     public int findContentChildren(int[] g, int[] s) {
 

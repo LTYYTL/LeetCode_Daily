@@ -13,7 +13,7 @@ package com.offer.L0420;
  * 提示：
  * 1 <= arr.length <= 10^5
  * -100 <= arr[i] <= 100
- * 注意：本题与主站 53 题相同：https://leetcode-cn.com/problems/maximum-subarray/
+ * 注意：本题与主站 53 题相同：<a href="https://leetcode-cn.com/problems/maximum-subarray/">https://leetcode-cn.com/problems/maximum-subarray/</a>
  *
  *
  */

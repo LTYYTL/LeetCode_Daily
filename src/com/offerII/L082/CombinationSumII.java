@@ -33,7 +33,7 @@ import java.util.Stack;
  * 1 <= candidates[i] <= 50
  * 1 <= target <= 30
  *
- * 注意：本题与主站 40 题相同： https://leetcode-cn.com/problems/combination-sum-ii/
+ * 注意：本题与主站 40 题相同： <a href="https://leetcode-cn.com/problems/combination-sum-ii/">https://leetcode-cn.com/problems/combination-sum-ii/</a>
  */
 public class CombinationSumII {
     /**

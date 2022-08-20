@@ -21,7 +21,7 @@ import java.util.Map;
  * -1000 <= nums[i] <= 1000
  * -107 <= k <= 107
  *
- * 注意：本题与主站 560 题相同： https://leetcode-cn.com/problems/subarray-sum-equals-k/
+ * 注意：本题与主站 560 题相同： <a href="https://leetcode-cn.com/problems/subarray-sum-equals-k/">https://leetcode-cn.com/problems/subarray-sum-equals-k/</a>
  */
 public class SubarraySumEqualsK {
     /**

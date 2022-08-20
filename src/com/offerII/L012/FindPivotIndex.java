@@ -35,7 +35,7 @@ import java.util.Arrays;
  * 1 <= nums.length <= 104
  * -1000 <= nums[i] <= 1000
  *
- * 注意：本题与主站 724 题相同： https://leetcode-cn.com/problems/find-pivot-index/
+ * 注意：本题与主站 724 题相同： <a href="https://leetcode-cn.com/problems/find-pivot-index/">https://leetcode-cn.com/problems/find-pivot-index/</a>
  */
 public class FindPivotIndex {
     /**

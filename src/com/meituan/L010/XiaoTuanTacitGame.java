@@ -33,7 +33,8 @@ public class XiaoTuanTacitGame {
      * 方法：二分查找
      * 题解：
      * 作者：detachmliu
-     * 链接：https://leetcode-cn.com/problems/yqj8Su/solution/yue-du-li-jie-hou-jiu-shi-yi-ge-po-shi-w-8dnc/
+     * 链接：<a href="https://leetcode-cn.com/problems/yqj8Su/solution/yue-du-li-jie-hou-jiu-shi-yi-ge-po-shi-w-8dnc/">https://leetcode-cn.com/problems/yqj8Su/solution/yue-du-li-jie-hou-jiu-shi-yi-ge-po-shi-w-8dnc/</a>
+     *
      * @param args
      * @throws IOException
      */

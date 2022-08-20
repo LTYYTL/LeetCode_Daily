@@ -21,7 +21,7 @@ import java.util.Map;
  * 1 <= nums.length <= 105
  * nums[i] 不是 0 就是 1
  *
- * 注意：本题与主站 525 题相同： https://leetcode-cn.com/problems/contiguous-array/
+ * 注意：本题与主站 525 题相同： <a href="https://leetcode-cn.com/problems/contiguous-array/">https://leetcode-cn.com/problems/contiguous-array/</a>
  */
 public class ContiguousArray {
     /**

@@ -62,7 +62,7 @@ public class DecodeString {
             } else if (c == ']') {
                 StringBuilder tmp = new StringBuilder();
                 int cur_multi = stack_multi.removeLast();
-                for (int i = 0; i < cur_multi; i++) tmp.append(res);
+                tmp.append(String.valueOf(res).repeat(Math.max(0, cur_multi)));
                 res = new StringBuilder(stack_res.removeLast() + tmp);
             } else if (c >= '0' && c <= '9') multi = multi * 10 + Integer.parseInt(c + "");
             else res.append(c);

@@ -23,7 +23,7 @@ package com.offerII.L089;
  * 1 <= nums.length <= 100
  * 0 <= nums[i] <= 400
  *
- * 注意：本题与主站 198 题相同： https://leetcode-cn.com/problems/house-robber/
+ * 注意：本题与主站 198 题相同： <a href="https://leetcode-cn.com/problems/house-robber/">https://leetcode-cn.com/problems/house-robber/</a>
  */
 public class HouseRobber {
     /**

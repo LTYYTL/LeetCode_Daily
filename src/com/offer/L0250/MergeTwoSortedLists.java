@@ -13,7 +13,7 @@ import com.util.ListNode;
  * 限制：
  * 0 <= 链表长度 <= 1000
  *
- * 注意：本题与主站 21 题相同：https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ * 注意：本题与主站 21 题相同：<a href="https://leetcode-cn.com/problems/merge-two-sorted-lists/">https://leetcode-cn.com/problems/merge-two-sorted-lists/</a>
  */
 public class MergeTwoSortedLists {
     /**

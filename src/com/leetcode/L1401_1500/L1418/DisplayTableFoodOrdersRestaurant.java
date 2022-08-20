@@ -62,7 +62,7 @@ public class DisplayTableFoodOrdersRestaurant {
             //获取菜名
             String foot = order.get(2);
             //当前桌号不存在时，创建新对象
-            Map<String,Integer> tempMap = map.getOrDefault(id,new HashMap<String,Integer>());
+            Map<String, Integer> tempMap = map.getOrDefault(id, new HashMap<>());
             //当前菜名不存在时，创建新对象
             tempMap.put(foot,tempMap.getOrDefault(foot,0)+1);
             //将映射存入

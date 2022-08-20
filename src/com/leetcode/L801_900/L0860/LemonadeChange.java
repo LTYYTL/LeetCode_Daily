@@ -51,27 +51,26 @@ public class LemonadeChange {
         //存储零钱数量
         int[] count = new int[3];
         //遍历账单
-        for (int i = 0; i < bills.length; ++i){
+        for (int temp : bills) {
             //当前支付的钱
-            int temp = bills[i];
             //支付正好是5元
-            if (temp == 5){
+            if (temp == 5) {
                 count[0]++;
-            }else if (temp == 10){//支付10元时，只有当有5元时才可以
-                if (count[0] <= 0){
+            } else if (temp == 10) {//支付10元时，只有当有5元时才可以
+                if (count[0] <= 0) {
                     return false;
                 }
                 count[0]--;
                 count[1]++;
-            }else if (temp == 20){//支付20元时
-                if(count[1] > 0 && count[0] > 0){//有1个10元，1个5元就可以
-                    count[0] --;
+            } else if (temp == 20) {//支付20元时
+                if (count[1] > 0 && count[0] > 0) {//有1个10元，1个5元就可以
+                    count[0]--;
                     count[1]--;
                     count[2]++;
-                }else if (count[1] <= 0 && count[0] >= 3){//没有10元，3个5元就可以
+                } else if (count[1] <= 0 && count[0] >= 3) {//没有10元，3个5元就可以
                     count[0] = count[0] - 3;
                     count[2]++;
-                }else {
+                } else {
                     return false;
                 }
             }

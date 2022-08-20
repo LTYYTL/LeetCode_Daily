@@ -27,8 +27,6 @@ import com.util.TreeNode;
 public class BinaryTreePruning {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public TreeNode pruneTree(TreeNode root) {
         return del(root);
@@ -36,8 +34,6 @@ public class BinaryTreePruning {
 
     /**
      * 删除函数
-     * @param root
-     * @return
      */
     private TreeNode del(TreeNode<Integer> root) {
         //空值情况

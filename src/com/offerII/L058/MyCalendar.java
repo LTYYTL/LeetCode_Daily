@@ -26,7 +26,7 @@ import java.util.TreeMap;
  * 每个测试用例，调用 MyCalendar.book 函数最多不超过 1000次。
  * 0 <= start < end <= 109
  *
- * 注意：本题与主站 729 题相同： https://leetcode-cn.com/problems/my-calendar-i/
+ * 注意：本题与主站 729 题相同： <a href="https://leetcode-cn.com/problems/my-calendar-i/">https://leetcode-cn.com/problems/my-calendar-i/</a>
  */
 public class MyCalendar {
     /**

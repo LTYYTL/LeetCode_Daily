@@ -21,8 +21,6 @@ package com.leetcode.L401_500.L0441;
 public class ArrangingCoins {
     /**
      * 方法：二分查找
-     * @param n
-     * @return
      */
     public int arrangeCoins(int n) {
         int left = 1, right = n;

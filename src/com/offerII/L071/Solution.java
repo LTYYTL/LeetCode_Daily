@@ -47,7 +47,7 @@ import java.util.Arrays;
  * 1 <= w[i] <= 10^5
  * pickIndex 将被调用不超过 10000 次
  *
- * 注意：本题与主站 528 题相同： https://leetcode-cn.com/problems/random-pick-with-weight/
+ * 注意：本题与主站 528 题相同： <a href="https://leetcode-cn.com/problems/random-pick-with-weight/">https://leetcode-cn.com/problems/random-pick-with-weight/</a>
  */
 public class Solution {
     /**

@@ -62,8 +62,8 @@ public class ShortEncodingWords {
     /**
      * 方法二：字典树
      */
-    class Tire{
-        TreeMap<Character,Tire> next;
+    static class Tire {
+        TreeMap<Character, Tire> next;
 
         public Tire() {
             next = new TreeMap<>();

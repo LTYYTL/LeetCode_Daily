@@ -69,10 +69,10 @@ public class ImageSmoother {
         //个数
         int count = 1;
         //遍历方向
-        for (int k = 0; k < dis.length; k++) {
+        for (int[] di : dis) {
             //新坐标
-            int x = i + dis[k][0];
-            int y = j + dis[k][1];
+            int x = i + di[0];
+            int y = j + di[1];
             //越界
             if (x < 0 || x >= m || y < 0 || y >= n)
                 continue;

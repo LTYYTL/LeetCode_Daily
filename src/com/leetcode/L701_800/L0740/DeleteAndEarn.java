@@ -40,19 +40,19 @@ public class DeleteAndEarn {
         int len = nums.length;
         int max = nums[0];
 
-        for (int i = 0; i < len; i++) {
-            max = Math.max(max, nums[i]);
+        for (int num : nums) {
+            max = Math.max(max, num);
         }
 
         //构造一个新的数组all
         int[] all = new int[max + 1];
         for (int item : nums) {
-            all[item] ++;
+            all[item]++;
         }
 
-        int[] dp = new int[max+1];
-        dp[1] = all[1]*1;
-        dp[2] = Math.max(dp[1],all[2]*2);
+        int[] dp = new int[max + 1];
+        dp[1] = all[1];
+        dp[2] = Math.max(dp[1], all[2] * 2);
 
         //动态规划求解
         for (int i = 2; i <= max; ++i) {

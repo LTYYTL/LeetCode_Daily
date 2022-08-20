@@ -31,7 +31,7 @@ package com.offerII.L067;
  *
  * 进阶：你可以在 O(n) 的时间解决这个问题吗？
  *
- * 注意：本题与主站 421 题相同： https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/
+ * 注意：本题与主站 421 题相同： <a href="https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/">https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/</a>
  */
 public class MaximumXORTwoNumbersArray {
     /**
@@ -54,7 +54,7 @@ public class MaximumXORTwoNumbersArray {
     /**
      * 方法二：前缀树
      */
-    class Trie {
+    static class Trie {
         // 左子树指向表示 0 的子节点
         Trie left = null;
         // 右子树指向表示 1 的子节点

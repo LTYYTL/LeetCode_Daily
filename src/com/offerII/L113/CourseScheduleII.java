@@ -36,7 +36,7 @@ import java.util.Queue;
  * ai != bi
  * prerequisites 中不存在重复元素
  *
- * 注意：本题与主站 210 题相同：https://leetcode-cn.com/problems/course-schedule-ii/
+ * 注意：本题与主站 210 题相同：<a href="https://leetcode-cn.com/problems/course-schedule-ii/">https://leetcode-cn.com/problems/course-schedule-ii/</a>
  */
 public class CourseScheduleII {
     /**

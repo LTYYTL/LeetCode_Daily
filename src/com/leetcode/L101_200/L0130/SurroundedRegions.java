@@ -77,7 +77,7 @@ public class SurroundedRegions {
         }
     }
 
-    class UF{
+    static class UF {
         //连通性
         private int count;
         //记录每个节点的根节点
@@ -85,7 +85,7 @@ public class SurroundedRegions {
         //每个节点的重量（包含节点的数）
         private final int[] size;
 
-        public UF(int n){
+        public UF(int n) {
             this.count = n;
             parent = new int[n];
             size = new int[n];

@@ -55,9 +55,9 @@ public class CellsValuesMatrix {
         //结果
         int res = 0;
         //遍历数组记录奇数的个数
-        for (int i = 0; i < arr.length; i++) {
+        for (int[] ints : arr) {
             for (int j = 0; j < arr[0].length; j++) {
-                if (arr[i][j] % 2 != 0)
+                if (ints[j] % 2 != 0)
                     res++;
             }
         }

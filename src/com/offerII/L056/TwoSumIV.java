@@ -24,7 +24,7 @@ import java.util.*;
  * root 为二叉搜索树
  * -105 <= k <= 105
  *
- * 注意：本题与主站 653 题相同： https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/
+ * 注意：本题与主站 653 题相同： <a href="https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/">https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/</a>
  */
 public class TwoSumIV {
     /**

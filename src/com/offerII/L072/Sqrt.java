@@ -18,7 +18,7 @@ package com.offerII.L072;
  * 提示:
  * 0 <= x <= 231 - 1
  *
- * 注意：本题与主站 69 题相同： https://leetcode-cn.com/problems/sqrtx/
+ * 注意：本题与主站 69 题相同： <a href="https://leetcode-cn.com/problems/sqrtx/">https://leetcode-cn.com/problems/sqrtx/</a>
  */
 public class Sqrt {
     /**

@@ -27,11 +27,9 @@ public class BattleshipsBoard {
     /**
      * 方法：模拟
      * 解题思路：因为，每一艘战舰要么是竖着的，要么是横着的，而且两艘不同的战舰之间至少包含一个空格，
-     *         也就是说每艘战舰的起点的上方和左方都不会是 'X'，所以，我们只需要统计起点即可。
+     * 也就是说每艘战舰的起点的上方和左方都不会是 'X'，所以，我们只需要统计起点即可。
      * 作者：tong-zhu
-     * 链接：https://leetcode-cn.com/problems/battleships-in-a-board/solution/tong-ge-lai-shua-ti-la-zhi-tong-ji-qi-di-3vnf/
-     * @param board
-     * @return
+     * 链接：<a href="https://leetcode-cn.com/problems/battleships-in-a-board/solution/tong-ge-lai-shua-ti-la-zhi-tong-ji-qi-di-3vnf/">https://leetcode-cn.com/problems/battleships-in-a-board/solution/tong-ge-lai-shua-ti-la-zhi-tong-ji-qi-di-3vnf/</a>
      */
     public int countBattleships(char[][] board) {
         //长度

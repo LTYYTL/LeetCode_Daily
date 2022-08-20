@@ -46,7 +46,7 @@ public class SlidingPuzzle {
      */
     public int slidingPuzzle(int[][] board) {
         //将初始化的顺序存储
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 2; ++i) {
             for (int j = 0; j < 3; ++j) {
                 sb.append(board[i][j]);
@@ -62,12 +62,12 @@ public class SlidingPuzzle {
         //步数
         int step = 0;
         //广度优先的队列
-        Queue<String> queue = new LinkedList<String>();
+        Queue<String> queue = new LinkedList<>();
         //存储初值
         queue.offer(initial);
 
         //记录出现过的顺序
-        Set<String> seen = new HashSet<String>();
+        Set<String> seen = new HashSet<>();
         seen.add(initial);
 
         //遍历队列
@@ -101,7 +101,7 @@ public class SlidingPuzzle {
 
     // 枚举 status 通过一次交换操作得到的状态
     public List<String> get(String status) {
-        List<String> ret = new ArrayList<String>();
+        List<String> ret = new ArrayList<>();
         char[] array = status.toCharArray();
         //记录0的位置
         int x = status.indexOf('0');

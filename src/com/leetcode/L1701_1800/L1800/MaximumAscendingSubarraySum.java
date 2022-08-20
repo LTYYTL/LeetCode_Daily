@@ -42,7 +42,7 @@ public class MaximumAscendingSubarraySum {
             return nums[0];
         }
         //双指针
-        int i = 0;
+        int i;
         int j = 1;
         //最大值
         int max = 0;

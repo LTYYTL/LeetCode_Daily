@@ -30,7 +30,7 @@ public class FibonacciSequence {
     public int fib(int n) {
         int a = 0;
         int b = 1;
-        int res = 0;
+        int res;
         for (int i = 0; i < n; i++) {
             res = (a+b)%MOD;
             a = b;

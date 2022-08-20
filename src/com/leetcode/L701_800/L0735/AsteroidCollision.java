@@ -36,8 +36,6 @@ import java.util.Stack;
 public class AsteroidCollision {
     /**
      * 方法：栈
-     * @param asteroids
-     * @return
      */
     public int[] asteroidCollision(int[] asteroids) {
         //存放行星

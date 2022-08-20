@@ -42,24 +42,22 @@ import java.util.Map;
 public class TopVotedCandidate {
     //记录各时段的领先者
     private final List<Integer> tops;
-    //记录每个人的票数
-    private final Map<Integer, Integer> voteCounts;
     //时间段
     private final int[] times;
 
     public TopVotedCandidate(int[] persons, int[] times) {
         //初始化
         tops = new ArrayList<>();
-        voteCounts = new HashMap<>();
-        voteCounts.put(-1,-1);
+        //记录每个人的票数
+        Map<Integer, Integer> voteCounts = new HashMap<>();
+        voteCounts.put(-1, -1);
         //默认情况，存储最多票数的人的编号
         int top = -1;
         //遍历
-        for (int i = 0; i < persons.length; i++) {
+        for (int cur : persons) {
             //被投票人编号
-            int cur = persons[i];
             //票数+1
-            voteCounts.put(cur,voteCounts.getOrDefault(cur,0)+1);
+            voteCounts.put(cur, voteCounts.getOrDefault(cur, 0) + 1);
             //当前人的票数比最多人还多
             if (voteCounts.get(cur) >= voteCounts.get(top))
                 //当前人做作为票数最多的人

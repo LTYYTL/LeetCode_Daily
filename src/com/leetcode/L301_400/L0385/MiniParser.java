@@ -40,7 +40,7 @@ public class MiniParser {
     public NestedInteger deserialize(String s) {
         //只有一个数的情况
         if (s.charAt(0) != '[')
-            return new NestedInteger(Integer.valueOf(s));
+            return new NestedInteger(Integer.parseInt(s));
         //栈
         Deque<NestedInteger> stack = new LinkedList<>();
 

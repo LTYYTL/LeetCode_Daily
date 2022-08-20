@@ -1,7 +1,6 @@
 package com.leetcode.L501_600.L0524;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -54,12 +53,7 @@ public class LongestWordDictionaryDeleting {
         if (list.isEmpty())
             return "";
         //排序，长度从大到小，长度相等，按照字典序
-        list.sort(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.length() != o2.length() ? o2.length()-o1.length():o1.compareTo(o2);
-            }
-        });
+        list.sort((o1, o2) -> o1.length() != o2.length() ? o2.length() - o1.length() : o1.compareTo(o2));
         //返回第一个
         return list.get(0);
     }

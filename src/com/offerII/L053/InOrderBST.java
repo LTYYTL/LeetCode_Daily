@@ -25,7 +25,7 @@ import java.util.List;
  * -105 <= Node.val <= 105
  * 树中各节点的值均保证唯一。
  *
- * 注意：本题与主站 285 题相同： https://leetcode-cn.com/problems/inorder-successor-in-bst/
+ * 注意：本题与主站 285 题相同： <a href="https://leetcode-cn.com/problems/inorder-successor-in-bst/">https://leetcode-cn.com/problems/inorder-successor-in-bst/</a>
  */
 public class InOrderBST {
     /**

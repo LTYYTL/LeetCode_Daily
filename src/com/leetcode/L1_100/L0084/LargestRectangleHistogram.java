@@ -32,9 +32,7 @@ public class LargestRectangleHistogram {
         Deque<Integer> stack = new LinkedList<>();
         int[] newHeight = new int[heights.length + 2];
         //加上哨兵
-        for (int i = 1; i < heights.length+1; i++) {
-            newHeight[i] = heights[i-1];
-        }
+        System.arraycopy(heights, 0, newHeight, 1, heights.length + 1 - 1);
 
         for (int i = 0; i < newHeight.length; i++) {
             while (!stack.isEmpty() && newHeight[stack.peek()] > newHeight[i]){

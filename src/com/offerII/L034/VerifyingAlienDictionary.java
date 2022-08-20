@@ -26,7 +26,7 @@ package com.offerII.L034;
  * order.length == 26
  * 在 words[i] 和 order 中的所有字符都是英文小写字母。
  *
- * 注意：本题与主站 953 题相同： https://leetcode-cn.com/problems/verifying-an-alien-dictionary/
+ * 注意：本题与主站 953 题相同： <a href="https://leetcode-cn.com/problems/verifying-an-alien-dictionary/">https://leetcode-cn.com/problems/verifying-an-alien-dictionary/</a>
  */
 public class VerifyingAlienDictionary {
     /**

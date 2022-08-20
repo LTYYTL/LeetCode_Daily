@@ -104,7 +104,7 @@ public class FlattenMultilevelDoublyLinkedList {
         }
     }
 
-    class Node {
+    static class Node {
         public int val;
         public Node prev;
         public Node next;

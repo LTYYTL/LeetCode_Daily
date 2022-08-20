@@ -34,7 +34,7 @@ import java.util.Set;
  *
  * 进阶：是否可以使用 O(1) 空间解决此题？
  *
- * 注意：本题与主站 142 题相同： https://leetcode-cn.com/problems/linked-list-cycle-ii/
+ * 注意：本题与主站 142 题相同： <a href="https://leetcode-cn.com/problems/linked-list-cycle-ii/">https://leetcode-cn.com/problems/linked-list-cycle-ii/</a>
  */
 public class LinkedListCycleII {
     /**
@@ -44,7 +44,7 @@ public class LinkedListCycleII {
      */
     public ListNode detectCycle_set(ListNode head) {
         ListNode pos = head;
-        Set<ListNode> visited = new HashSet<ListNode>();
+        Set<ListNode> visited = new HashSet<>();
         while (pos != null) {
             //判断当前节点是否在set中
             if (visited.contains(pos)) {

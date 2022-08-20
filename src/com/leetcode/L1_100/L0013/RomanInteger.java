@@ -60,7 +60,7 @@ public class RomanInteger {
      * @return
      */
     public int romanToInt(String s) {
-        Map<Character,Integer> map = new HashMap<Character,Integer>(){{
+        Map<Character, Integer> map = new HashMap<>() {{
             put('I', 1);
             put('V', 5);
             put('X', 10);

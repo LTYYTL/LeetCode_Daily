@@ -20,7 +20,7 @@ package com.offerII.L088;
  * 2 <= cost.length <= 1000
  * 0 <= cost[i] <= 999
  *
- * 注意：本题与主站 746 题相同： https://leetcode-cn.com/problems/min-cost-climbing-stairs/
+ * 注意：本题与主站 746 题相同： <a href="https://leetcode-cn.com/problems/min-cost-climbing-stairs/">https://leetcode-cn.com/problems/min-cost-climbing-stairs/</a>
  */
 public class MinCostClimbingStairs {
     /**

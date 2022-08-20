@@ -23,9 +23,6 @@ public class BinarySearch {
     /**
      * 基本二分查找
      *
-     * @param nums
-     * @param target
-     * @return
      */
     public static int binary_search(int[] nums, int target) {
         int left = 0;
@@ -48,9 +45,6 @@ public class BinarySearch {
     /**
      * 寻找左边界的二分查找
      *
-     * @param nums
-     * @param target
-     * @return
      */
     public static int left_bound(int[] nums, int target) {
         int left = 0;
@@ -75,9 +69,6 @@ public class BinarySearch {
     /**
      * 寻找右边界的二分查找
      *
-     * @param nums
-     * @param target
-     * @return
      */
     public static int right_bound(int[] nums, int target) {
         int left = 0;

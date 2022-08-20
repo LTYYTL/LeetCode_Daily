@@ -27,7 +27,7 @@ import java.util.Set;
  * 提示：
  * 3 <= arr.length <= 1000
  * 1 <= arr[i] < arr[i + 1] <= 10^9
- * 注意：本题与主站 873题相同：https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/
+ * 注意：本题与主站 873题相同：<a href="https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/">https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/</a>
  *
  */
 public class LengthLongestFibonacciSubsequence {

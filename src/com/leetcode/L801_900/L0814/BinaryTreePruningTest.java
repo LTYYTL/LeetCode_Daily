@@ -6,9 +6,9 @@ import com.util.TreeNode;
 public class BinaryTreePruningTest {
     public static void main(String[] args) {
         BinaryTreePruning binaryTreePruning = new BinaryTreePruning();
-        /** * 示例1:
-         * 输入: [1,null,0,0,1]
-         * 输出: [1,null,0,null,1]
+        /* * 示例1:
+          输入: [1,null,0,0,1]
+          输出: [1,null,0,null,1]
          */
         TreeNode root1 = new TreeNode(1);
         TreeNode rr1 = new TreeNode(0);

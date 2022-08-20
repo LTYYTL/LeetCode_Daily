@@ -54,7 +54,7 @@ public class BreakfastCombo {
         int res = 0;
         //空值情况
         if (staple.length == 0 || drinks.length == 0 || x == 0)
-            return (int)(1L*res%mod);
+            return (int) ((long) res % mod);
         //数组排序
         Arrays.sort(staple);
         Arrays.sort(drinks);
@@ -91,23 +91,23 @@ public class BreakfastCombo {
         int res = 0;
         //空值情况
         if (staple.length == 0 || drinks.length == 0 || x == 0)
-            return (int)(1L*res%mod);
+            return (int) ((long) res % mod);
         //数组排序
         Arrays.sort(staple);
         Arrays.sort(drinks);
         //遍历staple[]数组，找寻与staple[i]最合适的drinks[]的最大值
         //因为都是升序排列，所以drinks[]的最大值位置，即staple[i]与drink[]的值组合的方案数
-        for (int i = 0; i < staple.length; i++){
+        for (int j : staple) {
             //在x中除去staple[i]之后能花多少钱
-            int diff = x - staple[i];
+            int diff = x - j;
             //当差值小于等于0，证明staple[i]及以上的都不能满足条件，直接跳出循环
-            if (diff<=0){
+            if (diff <= 0) {
                 break;
             }
             //调用二分查找，在drinks[]中找寻与差值最接近的数的位置，即从前到此位置的所有数都能满足条件
-            int temp = binarySearch(drinks,diff);
+            int temp = binarySearch(drinks, diff);
             //当两部分的和等于0了，证明其后的其他值都不能在满足条件，直接跳出循环
-            if (temp==0){
+            if (temp == 0) {
                 break;
             }
             res = (res + temp) % mod;

@@ -15,7 +15,7 @@ package com.offer.L0440;
  *
  * 限制：
  * 0 <= n < 2^31
- * 注意：本题与主站 400 题相同：https://leetcode-cn.com/problems/nth-digit/
+ * 注意：本题与主站 400 题相同：<a href="https://leetcode-cn.com/problems/nth-digit/">https://leetcode-cn.com/problems/nth-digit/</a>
  */
 public class DigitSequenceNumbers {
     /**

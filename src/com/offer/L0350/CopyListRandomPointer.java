@@ -31,7 +31,7 @@ import java.util.Map;
  * Node.random 为空（null）或指向链表中的节点。
  * 节点数目不超过 1000 。
  *
- * 注意：本题与主站 138 题相同：https://leetcode-cn.com/problems/copy-list-with-random-pointer/
+ * 注意：本题与主站 138 题相同：<a href="https://leetcode-cn.com/problems/copy-list-with-random-pointer/">https://leetcode-cn.com/problems/copy-list-with-random-pointer/</a>
  */
 public class CopyListRandomPointer {
     /**

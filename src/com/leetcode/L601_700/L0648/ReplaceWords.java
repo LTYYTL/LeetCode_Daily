@@ -77,7 +77,7 @@ public class ReplaceWords {
             char c = s.charAt(i);
             //不存在
             if (cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+                cur.next.put(c, new Node());
             cur = cur.next.get(c);
         }
         //词根结束
@@ -104,16 +104,16 @@ public class ReplaceWords {
         return s;
     }
 
-    private class Node{
+    private static class Node {
         public boolean isWord;
         public TreeMap<Character, Node> next;
 
-        public Node(boolean isWord){
+        public Node(boolean isWord) {
             this.isWord = isWord;
             next = new TreeMap<>();
         }
 
-        public Node(){
+        public Node() {
             this(false);
         }
     }

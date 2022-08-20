@@ -38,13 +38,13 @@ public class SignProductArray {
         //结果
         int result = 1;
         //遍历数组
-        for (int i = 0; i < nums.length; ++i){
+        for (int num : nums) {
             //>0,乘以1
-            if (nums[i] > 0)
+            if (num > 0)
                 result *= 1;
-            else if (nums[i] < 0){//<0,乘以-1
+            else if (num < 0) {//<0,乘以-1
                 result *= -1;
-            }else {//=0,乘以0
+            } else {//=0,乘以0
                 result *= 0;
             }
         }

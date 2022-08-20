@@ -32,7 +32,7 @@ import java.util.*;
  * 1 <= segs[i].length <= 105
  * seqs[i][j] 是 32 位有符号整数
  *
- * 注意：本题与主站 444 题相同：https://leetcode-cn.com/problems/sequence-reconstruction/
+ * 注意：本题与主站 444 题相同：<a href="https://leetcode-cn.com/problems/sequence-reconstruction/">https://leetcode-cn.com/problems/sequence-reconstruction/</a>
  */
 public class ReconstructionSequence {
     /**

@@ -30,7 +30,7 @@ import com.util.TreeNode;
  * 限制：
  * 0 <= 节点个数 <= 1000
  *
- * 注意：本题与主站 101 题相同：https://leetcode-cn.com/problems/symmetric-tree/
+ * 注意：本题与主站 101 题相同：<a href="https://leetcode-cn.com/problems/symmetric-tree/">https://leetcode-cn.com/problems/symmetric-tree/</a>
  */
 public class SymmetricBinaryTree {
     /**

@@ -41,7 +41,7 @@ public class WordSearchII {
             trie.insert(word);
         }
         //去重
-        Set<String> ans = new HashSet<String>();
+        Set<String> ans = new HashSet<>();
         //遍历单词
         for (int i = 0; i < board.length; ++i) {
             for (int j = 0; j < board[0].length; ++j) {
@@ -49,7 +49,7 @@ public class WordSearchII {
             }
         }
 
-        return new ArrayList<String>(ans);
+        return new ArrayList<>(ans);
     }
 
     /**
@@ -100,7 +100,7 @@ class Trie {
 
     public Trie() {
         this.word = "";
-        this.children = new HashMap<Character, Trie>();
+        this.children = new HashMap<>();
     }
 
     public void insert(String word) {

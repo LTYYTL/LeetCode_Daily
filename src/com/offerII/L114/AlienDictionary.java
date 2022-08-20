@@ -30,13 +30,11 @@ import java.util.*;
  * 1 <= words[i].length <= 100
  * words[i] 仅由小写英文字母组成
  *
- * 注意：本题与主站 269 题相同： https://leetcode-cn.com/problems/alien-dictionary/
+ * 注意：本题与主站 269 题相同： <a href="https://leetcode-cn.com/problems/alien-dictionary/">https://leetcode-cn.com/problems/alien-dictionary/</a>
  */
 public class AlienDictionary {
     /**
      * 方法：拓扑排序
-     * @param words
-     * @return
      */
     public String alienOrder(String[] words) {
         //构造有向图
@@ -51,8 +49,6 @@ public class AlienDictionary {
 
     /**
      * 构建有向图
-     * @param words
-     * @return
      */
     private Map<Character, Set<Character>> creatGraph(String[] words) {
         //有向图
@@ -91,8 +87,6 @@ public class AlienDictionary {
 
     /**
      * 拓扑排序
-     * @param graph
-     * @return
      */
     private String topologicalSort(Map<Character, Set<Character>> graph) {
         //获取字母入度
@@ -129,8 +123,6 @@ public class AlienDictionary {
 
     /**
      * 构建每个字母的入度
-     * @param graph
-     * @return
      */
     private Map<Character,Integer> getIndegree(Map<Character, Set<Character>> graph) {
         //记录字母入度

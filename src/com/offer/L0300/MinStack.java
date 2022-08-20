@@ -20,15 +20,15 @@ import java.util.LinkedList;
  * 提示：
  * 各函数的调用总次数不超过 20000 次
  *
- * 注意：本题与主站 155 题相同：https://leetcode-cn.com/problems/min-stack/
+ * 注意：本题与主站 155 题相同：<a href="https://leetcode-cn.com/problems/min-stack/">https://leetcode-cn.com/problems/min-stack/</a>
  */
 public class MinStack {
     Deque<Integer> xStack;
     Deque<Integer> minStack;
 
     public MinStack() {
-        xStack = new LinkedList<Integer>();
-        minStack = new LinkedList<Integer>();
+        xStack = new LinkedList<>();
+        minStack = new LinkedList<>();
         minStack.push(Integer.MAX_VALUE);
     }
 

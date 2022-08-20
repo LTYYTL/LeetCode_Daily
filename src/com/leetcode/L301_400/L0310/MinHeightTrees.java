@@ -1,6 +1,9 @@
 package com.leetcode.L301_400.L0310;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 310. 最小高度树
@@ -95,7 +98,7 @@ public class MinHeightTrees {
         List<Integer>[] greps = new List[n];
         //初始化
         for (int i = 0; i < greps.length; i++) {
-            greps[i] = new ArrayList<Integer>();
+            greps[i] = new ArrayList<>();
         }
 
         //遍历

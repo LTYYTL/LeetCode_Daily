@@ -49,7 +49,7 @@ public class RandomizedSet {
 
     public boolean insert(int val) {
         //list中不存在
-       if (list.indexOf(val) != -1)
+       if (list.contains(val))
            return false;
        list.add(val);
        size++;

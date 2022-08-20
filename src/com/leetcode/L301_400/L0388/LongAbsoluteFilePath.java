@@ -61,7 +61,7 @@ public class LongAbsoluteFilePath {
         int n = input.length();
         int pos = 0;
         int ans = 0;
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
 
         while (pos < n) {
             /* 检测当前文件的深度 */

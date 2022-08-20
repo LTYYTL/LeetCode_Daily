@@ -60,9 +60,9 @@ public class MaximumGap {
         int min = Integer.MAX_VALUE;
         int max = 0;
         // 找出数组中的最大值和最小值
-        for (int i = 0; i < length; i++) {
-            min = Math.min(min, num[i]);
-            max = Math.max(max, num[i]);
+        for (int k : num) {
+            min = Math.min(min, k);
+            max = Math.max(max, k);
         }
         // 计算最小间隔，往上取整（比如2.1，往上取整就是3）
         int minGap = (int) Math.ceil((double) (max - min) / (length - 1));
@@ -78,10 +78,10 @@ public class MaximumGap {
             buckets[i][0] = Integer.MAX_VALUE;
         }
         // 遍历数组中的所有元素，然后根据大小放到对应的桶里（每个桶里只能存储两个元素，一个是最大值一个是最小值）
-        for (int i = 0; i < length; i++) {
-            int index = (num[i] - min) / minGap;
-            buckets[index][0] = Math.min(num[i], buckets[index][0]);
-            buckets[index][1] = Math.max(num[i], buckets[index][1]);
+        for (int j : num) {
+            int index = (j - min) / minGap;
+            buckets[index][0] = Math.min(j, buckets[index][0]);
+            buckets[index][1] = Math.max(j, buckets[index][1]);
         }
         // 初始化桶的大小的时候，就已经默认桶里的两个元素的差值是不可能大于minGap的，所以就更不可能大于最大间隔值,
         // 这里就不需要计算每个桶里的间隔值了，只需要计算前一个桶里的最大值和当前桶里的最小值的差值即可。

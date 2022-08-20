@@ -27,7 +27,7 @@ public class RemoveAllAdjacentDuplicatesString {
     public String removeDuplicates(String S) {
         Stack<Character> stack = new Stack<>();
         //结果集
-        StringBuffer res = new StringBuffer();
+        StringBuilder res = new StringBuilder();
         //字符串长度
         int len = S.length();
         /*//将第一个元素压入栈

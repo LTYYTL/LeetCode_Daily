@@ -27,7 +27,7 @@ public class IsUnique {
      * @return
      */
     public boolean isUnique(String astr) {
-        Set<Character> set = new HashSet<Character>();
+        Set<Character> set = new HashSet<>();
         for (int i = 0; i < astr.length(); ++i){
             char c = astr.charAt(i);
             //判断字符是否存在于set中

@@ -21,7 +21,7 @@ import java.util.Map;
  * 限制：
  * 0 <= 节点个数 <= 5000
  *
- * 注意：本题与主站 105 题重复：https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+ * 注意：本题与主站 105 题重复：<a href="https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/</a>
  */
 public class RebuildBinaryTree {
     Map<Integer,Integer> map = new HashMap<>();

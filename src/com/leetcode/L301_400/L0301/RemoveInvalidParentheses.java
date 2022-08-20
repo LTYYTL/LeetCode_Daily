@@ -1,6 +1,9 @@
 package com.leetcode.L301_400.L0301;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * 301. 删除无效的括号
@@ -48,7 +51,7 @@ public class RemoveInvalidParentheses {
         }
         //没有多余直接返回
         if (left == 0 && right == 0)
-            return Arrays.asList(s);
+            return List.of(s);
 
         //去重
         Set<String> res = new HashSet<>();

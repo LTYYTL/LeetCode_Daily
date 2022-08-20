@@ -30,7 +30,8 @@ public class PushDominoes {
     /**
      * 方法：双指针
      * 作者：tong-zhu
-     * 链接：https://leetcode-cn.com/problems/push-dominoes/solution/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-s-xlda/
+     * 链接：<a href="https://leetcode-cn.com/problems/push-dominoes/solution/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-s-xlda/">https://leetcode-cn.com/problems/push-dominoes/solution/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-s-xlda/</a>
+     *
      * @param dominoes
      * @return
      */

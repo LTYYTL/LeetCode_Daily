@@ -19,7 +19,7 @@ package com.offerII.L018;
  * 1 <= s.length <= 2 * 105
  * 字符串 s 由 ASCII 字符组成
  *
- * 注意：本题与主站 125 题相同： https://leetcode-cn.com/problems/valid-palindrome/
+ * 注意：本题与主站 125 题相同： <a href="https://leetcode-cn.com/problems/valid-palindrome/">https://leetcode-cn.com/problems/valid-palindrome/</a>
  */
 public class ValidPalindrome {
     /**
@@ -29,7 +29,7 @@ public class ValidPalindrome {
      */
     public boolean isPalindrome(String s) {
         //将字符串s的大写变小写，用正则表达式去除字符串s中无关字符
-        s = s.toLowerCase().replaceAll("[^0-9a-z]","");
+        s = s.toLowerCase().replaceAll("[^\\da-z]", "");
         //头尾指针
         int left = 0;
         int right = s.length() - 1;

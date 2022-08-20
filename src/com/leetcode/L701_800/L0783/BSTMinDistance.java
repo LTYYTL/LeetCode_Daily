@@ -25,7 +25,7 @@ import java.util.Stack;
  * 注意：
  * 二叉树的大小范围在 2 到 100。
  * 二叉树总是有效的，每个节点的值都是整数，且不重复。
- * 本题与 530：https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/ 相同
+ * 本题与 530：<a href="https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/">https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/</a> 相同
  */
 public class BSTMinDistance {
     public int minDiffInBST(TreeNode<Integer> root) {

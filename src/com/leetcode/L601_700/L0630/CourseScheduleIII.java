@@ -1,6 +1,7 @@
 package com.leetcode.L601_700.L0630;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -40,7 +41,7 @@ public class CourseScheduleIII {
      */
     public int scheduleCourse(int[][] courses) {
         //按照课程截止时间排序
-        Arrays.sort(courses,(a,b) -> (a[1] - b[1]));
+        Arrays.sort(courses, Comparator.comparingInt(a -> a[1]));
         //学习时间长的在队首
         PriorityQueue<int[]> queue = new PriorityQueue<>((a,b) -> b[0]-a[0]);
         //总学习时长

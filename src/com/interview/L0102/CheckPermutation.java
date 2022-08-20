@@ -22,16 +22,17 @@ import java.util.Map;
 public class CheckPermutation {
     /**
      * 方法：Map映射
+     *
      * @param s1
      * @param s2
      * @return
      */
-    public boolean CheckPermutation(String s1, String s2) {
+    public boolean checkPermutation(String s1, String s2) {
         //记录字母出现的次数
-        Map<Character,Integer> map = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<>();
         //记录s1中出现的字母
         for (char c : s1.toCharArray()) {
-            map.put(c,map.getOrDefault(c,0) + 1);
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
         //遍历s2
         for (char c : s2.toCharArray()) {

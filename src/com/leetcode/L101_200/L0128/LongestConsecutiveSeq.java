@@ -61,7 +61,7 @@ public class LongestConsecutiveSeq {
         return res + 1;
     }
 
-    class UF{
+    static class UF {
         int[] parent;
 
         public UF(int n) {
@@ -71,7 +71,7 @@ public class LongestConsecutiveSeq {
             }
         }
 
-        public void union(int p,int q){
+        public void union(int p, int q) {
             int rootP = find(p);
             int rootQ = find(q);
 

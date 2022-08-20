@@ -72,8 +72,8 @@ public class LuckyNumbersMatrix {
             //最大值
             int max = Integer.MIN_VALUE;
             //遍历行
-            for (int j = 0; j < matrix.length; j++) {
-                max = Math.max(max,matrix[j][i]);
+            for (int[] ints : matrix) {
+                max = Math.max(max, ints[i]);
             }
             //当前列的最大值
             res[i] = max;

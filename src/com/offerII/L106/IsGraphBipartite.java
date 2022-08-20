@@ -36,7 +36,7 @@ import java.util.Stack;
  * graph[u] 的所有值 互不相同
  * 如果 graph[u] 包含 v，那么 graph[v] 也会包含 u
  *
- * 注意：本题与主站 785 题相同： https://leetcode-cn.com/problems/is-graph-bipartite/
+ * 注意：本题与主站 785 题相同： <a href="https://leetcode-cn.com/problems/is-graph-bipartite/">https://leetcode-cn.com/problems/is-graph-bipartite/</a>
  */
 public class IsGraphBipartite {
     /**

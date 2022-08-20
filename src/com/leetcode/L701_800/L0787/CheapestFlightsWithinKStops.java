@@ -1,6 +1,7 @@
 package com.leetcode.L701_800.L0787;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -58,7 +59,7 @@ public class CheapestFlightsWithinKStops {
             path[form][to] = price;
         }
         //最小堆
-        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> o1[0] - o2[0]);
+        PriorityQueue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o[0]));
         //{金额，点，可换站数}
         queue.offer(new int[]{0, src, k});
 

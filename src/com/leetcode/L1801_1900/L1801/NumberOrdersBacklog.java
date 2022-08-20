@@ -1,5 +1,6 @@
 package com.leetcode.L1801_1900.L1801;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -49,7 +50,7 @@ import java.util.Queue;
 public class NumberOrdersBacklog {
         public int getNumberOfBacklogOrders(int[][] orders) {
             Queue<long[]> buy = new PriorityQueue<>((x, y) -> Long.compare(y[0], x[0])); // 大根堆
-            Queue<long[]> sell = new PriorityQueue<>((x, y) -> Long.compare(x[0], y[0])); // 小根堆
+            Queue<long[]> sell = new PriorityQueue<>(Comparator.comparingLong(x -> x[0])); // 小根堆
 
             for (int[] order : orders) {
                 long price = order[0], amount = order[1], type = order[2];

@@ -45,13 +45,13 @@ public class Candy {
      * 空间复杂度 O(N) ： 需要借用left，right的线性额外空间。
      *
      * 作者：jyd
-     * 链接：https://leetcode-cn.com/problems/candy/solution/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/
+     * 链接：<a href="https://leetcode-cn.com/problems/candy/solution/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/">https://leetcode-cn.com/problems/candy/solution/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/</a>
      * @param ratings
      * @return
      */
     public int candy(int[] ratings) {
         //结果变量
-        int sum = 0;
+        int sum;
         //左规则
         int[] left = new int[ratings.length];
         //右规则

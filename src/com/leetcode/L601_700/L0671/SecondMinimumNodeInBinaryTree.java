@@ -57,8 +57,7 @@ public class SecondMinimumNodeInBinaryTree {
         if (set.size() < 2)
             return -1;
         //返回第二小的值
-        int res = set.higher(root.val);
-        return res;
+        return set.higher(root.val);
     }
 
     private void dfs(TreeNode<Integer> root){

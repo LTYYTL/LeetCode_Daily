@@ -69,8 +69,8 @@ public class MagicDictionary {
         }
         return false;
     }
-    /**
-     * 方法：字典树
+    /*
+      方法：字典树
      *//*
     public Node root;
 
@@ -86,9 +86,9 @@ public class MagicDictionary {
         }
     }
 
-    *//**
-     * 暴力法搜索
-     * @param searchWord
+    *//*
+      暴力法搜索
+      @param searchWord
      * @return
      *//*
     public boolean search(String searchWord) {
@@ -111,9 +111,9 @@ public class MagicDictionary {
         return false;
     }
 
-    *//**
-     * 字符串添加
-     * @param s
+    *//*
+      字符串添加
+      @param s
      *//*
     private void insert(String s) {
         Node cur = root;
@@ -130,9 +130,9 @@ public class MagicDictionary {
         cur.isWord = true;
     }
 
-    *//**
-     * 单词判断
-     * @param searchWord
+    *//*
+      单词判断
+      @param searchWord
      * @return
      *//*
     public boolean search_tire(String searchWord) {

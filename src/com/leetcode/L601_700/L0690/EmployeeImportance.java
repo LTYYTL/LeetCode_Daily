@@ -52,12 +52,12 @@ public class EmployeeImportance {
      * @return
      */
     public int getImportance_bfs(List<Employee> employees, int id) {
-        Map<Integer, Employee> map = new HashMap<Integer, Employee>();
+        Map<Integer, Employee> map = new HashMap<>();
         for (Employee employee : employees) {
             map.put(employee.id, employee);
         }
         int total = 0;
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Queue<Integer> queue = new LinkedList<>();
         queue.offer(id);
         while (!queue.isEmpty()) {
             int curId = queue.poll();

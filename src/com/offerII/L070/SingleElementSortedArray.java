@@ -18,7 +18,7 @@ package com.offerII.L070;
  *
  * 进阶: 采用的方案可以在 O(log n) 时间复杂度和 O(1) 空间复杂度中运行吗？
  *
- * 注意：本题与主站 540 题相同：https://leetcode-cn.com/problems/single-element-in-a-sorted-array/
+ * 注意：本题与主站 540 题相同：<a href="https://leetcode-cn.com/problems/single-element-in-a-sorted-array/">https://leetcode-cn.com/problems/single-element-in-a-sorted-array/</a>
  */
 public class SingleElementSortedArray {
     /**

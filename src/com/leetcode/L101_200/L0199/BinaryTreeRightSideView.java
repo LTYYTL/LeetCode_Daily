@@ -30,8 +30,6 @@ import java.util.Queue;
 public class BinaryTreeRightSideView {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();

@@ -1,8 +1,6 @@
 package com.leetcode.L901_1000.L0937;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -60,18 +58,15 @@ public class ReorderDataLogFiles {
         }
 
         //排序
-        Collections.sort(strList, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                //将字符串分成标识符和内容
-                String[] s1 = o1.split(" ", 2);
-                String[] s2 = o2.split(" ", 2);
-                //内容相等
-                if (s1[1].compareTo(s2[1]) == 0)
-                    //按照标识符排序
-                    return s1[0].compareTo(s2[0]);
-                return s1[1].compareTo(s2[1]);
-            }
+        strList.sort((o1, o2) -> {
+            //将字符串分成标识符和内容
+            String[] s1 = o1.split(" ", 2);
+            String[] s2 = o2.split(" ", 2);
+            //内容相等
+            if (s1[1].compareTo(s2[1]) == 0)
+                //按照标识符排序
+                return s1[0].compareTo(s2[0]);
+            return s1[1].compareTo(s2[1]);
         });
 
         //结果集

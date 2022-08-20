@@ -27,7 +27,7 @@ import java.util.Stack;
  *
  * 提示：
  * 节点总数 <= 10000
- * 注意：本题与主站 113 题相同：https://leetcode-cn.com/problems/path-sum-ii/
+ * 注意：本题与主站 113 题相同：<a href="https://leetcode-cn.com/problems/path-sum-ii/">https://leetcode-cn.com/problems/path-sum-ii/</a>
  */
 public class PathSum {
     //结果List

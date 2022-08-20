@@ -28,7 +28,7 @@ public class GroupAnagrams {
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         //结果集
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        Map<String, List<String>> map = new HashMap<>();
         //遍历字符串数组
         for (String str : strs) {
             //转换成字符数组
@@ -38,12 +38,12 @@ public class GroupAnagrams {
             //排序后的数组作为key
             String key = new String(array);
             //当前key对应的值存在就取出，不存在新建
-            List<String> list = map.getOrDefault(key, new ArrayList<String>());
+            List<String> list = map.getOrDefault(key, new ArrayList<>());
             //将值存入list
             list.add(str);
             //放入map中
             map.put(key, list);
         }
-        return new ArrayList<List<String>>(map.values());
+        return new ArrayList<>(map.values());
     }
 }

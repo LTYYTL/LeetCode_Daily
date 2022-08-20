@@ -1,6 +1,5 @@
 package com.leetcode.L1301_1400.L1337;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -61,13 +60,10 @@ public class TheKWeakestRowsMatrix {
      */
     public int[] kWeakestRows(int[][] mat, int k) {
         //创建堆
-        PriorityQueue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if (o1[0] == o2[0])//当"1"的个数相等时
-                    return o1[1] - o2[1];
-                return o1[0] - o2[0];
-            }
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> {
+            if (o1[0] == o2[0])//当"1"的个数相等时
+                return o1[1] - o2[1];
+            return o1[0] - o2[0];
         });
         //计算每行"1"的个数
         for (int i = 0; i < mat.length; i++) {
@@ -77,7 +73,7 @@ public class TheKWeakestRowsMatrix {
                     count++;
             }
             //将{个数，索引}存入堆中
-            queue.offer(new int[]{count,i});
+            queue.offer(new int[]{count, i});
         }
 
         //取前k个元素
@@ -96,30 +92,27 @@ public class TheKWeakestRowsMatrix {
      */
     public int[] kWeakestRows_brinary(int[][] mat, int k) {
         //创建堆
-        PriorityQueue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if (o1[0] == o2[0])//当"1"的个数相等时
-                    return o1[1] - o2[1];
-                return o1[0] - o2[0];
-            }
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> {
+            if (o1[0] == o2[0])//当"1"的个数相等时
+                return o1[1] - o2[1];
+            return o1[0] - o2[0];
         });
         //计算每行"1"的个数
         for (int i = 0; i < mat.length; i++) {
             int left = 0;
-            int right = mat[i].length -1 ;
+            int right = mat[i].length - 1;
             int pos = -1;//最后一个"1"的索引
-            while (left <= right){
-                int mid = (right - left)/2 +left;
+            while (left <= right) {
+                int mid = (right - left) / 2 + left;
                 if (mat[i][mid] == 0)
-                    right = mid -1;
+                    right = mid - 1;
                 else {
                     pos = mid;
                     left = mid + 1;
                 }
             }
             //将{个数，索引}存入堆中
-            queue.offer(new int[]{pos+1,i});
+            queue.offer(new int[]{pos + 1, i});
         }
 
         //取前k个元素

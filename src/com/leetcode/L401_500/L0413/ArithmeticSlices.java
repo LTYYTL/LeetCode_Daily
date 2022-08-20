@@ -24,8 +24,6 @@ package com.leetcode.L401_500.L0413;
 public class ArithmeticSlices {
     /**
      * 方法一：动态规划
-     * @param nums
-     * @return
      */
     public int numberOfArithmeticSlices(int[] nums) {
         int n = nums.length;

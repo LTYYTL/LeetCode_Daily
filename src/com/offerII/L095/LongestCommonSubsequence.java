@@ -27,7 +27,7 @@ package com.offerII.L095;
  * text1 和 text2 仅由小写英文字符组成。
  *
  *
- * 注意：本题与主站 1143 题相同： https://leetcode-cn.com/problems/longest-common-subsequence/
+ * 注意：本题与主站 1143 题相同： <a href="https://leetcode-cn.com/problems/longest-common-subsequence/">https://leetcode-cn.com/problems/longest-common-subsequence/</a>
  */
 public class LongestCommonSubsequence {
     /**

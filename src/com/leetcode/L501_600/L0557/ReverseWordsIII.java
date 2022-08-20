@@ -23,9 +23,9 @@ public class ReverseWordsIII {
         //按照空格分单词
         String[] strs = s.split(" ");
         //遍历
-        for (int i = 0; i < strs.length; i++) {
+        for (String str : strs) {
             //进行转换
-            res.append(reverseString(strs[i].toCharArray()));
+            res.append(reverseString(str.toCharArray()));
             //添加空格
             res.append(" ");
         }

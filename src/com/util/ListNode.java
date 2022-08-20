@@ -21,9 +21,8 @@ public class ListNode {
      */
     public ListNode add(int[] nums,ListNode head){
         ListNode res = head;
-        for (int i = 0; i<nums.length;i++) {
-            ListNode node = new ListNode(nums[i]);
-            res.next = node;
+        for (int num : nums) {
+            res.next = new ListNode(num);
             res = res.next;
         }
         return head.next;

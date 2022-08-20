@@ -78,25 +78,17 @@ public class XiaomeiBookshelf {
             String[] s = reader.readLine().split(" ");
             //操作编号
             int opt = Integer.parseInt(s[0]);
-            switch (opt){
-                case 1:
-                    put(Integer.parseInt(s[1]),Integer.parseInt(s[2]));
-                    break;
-                case 2:
-                    addLock(Integer.parseInt(s[1]));
-                    break;
-                case 3:
-                    delLock(Integer.parseInt(s[1]));
-                    break;
-                case 4:
-                    writer.write(" "+ borrow(Integer.parseInt(s[1])));
+            switch (opt) {
+                case 1 -> put(Integer.parseInt(s[1]), Integer.parseInt(s[2]));
+                case 2 -> addLock(Integer.parseInt(s[1]));
+                case 3 -> delLock(Integer.parseInt(s[1]));
+                case 4 -> {
+                    writer.write(" " + borrow(Integer.parseInt(s[1])));
                     writer.newLine();
-                    break;
-                case 5:
-                    get(Integer.parseInt(s[1]));
-                    break;
-                default:
-                    break;
+                }
+                case 5 -> get(Integer.parseInt(s[1]));
+                default -> {
+                }
             }
         }
 
@@ -105,18 +97,18 @@ public class XiaomeiBookshelf {
         writer.close();
     }
 
-    private static void put(int x, int y){
-        /**
-         * （1）若该书本在小团手上则放置无效，
-         * （2）若原来该书在书架上且原行上锁则放置无效，
-         * （3）若该书被放置到一个锁了的行上则放置无效。
+    private static void put(int x, int y) {
+        /*
+          （1）若该书本在小团手上则放置无效，
+          （2）若原来该书在书架上且原行上锁则放置无效，
+          （3）若该书被放置到一个锁了的行上则放置无效。
          */
         if (!tuan[x] && !lock[y] && mei[x] == 0)
             mei[x] = y;
     }
 
     //y 是书架的行编号，代表小美将行编号为 y 的书架加锁，对已经上锁的书架行该操作无效。
-    private static void addLock(int y){
+    private static void addLock(int y) {
         lock[y] = true;
     }
 

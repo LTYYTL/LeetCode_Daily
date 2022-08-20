@@ -1,7 +1,7 @@
 package com.leetcode.L1801_1900.L1834;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -48,27 +48,15 @@ import java.util.PriorityQueue;
  * 1 <= enqueueTimei, processingTimei <= 109
  */
 public class SingleThreadedCPU {
-    //任务类
-    class Task{
-        int id;
-        int enqueueTime;
-        int processingTime;
-
-        public Task(int id, int enqueueTime, int processingTime) {
-            this.id = id;
-            this.enqueueTime = enqueueTime;
-            this.processingTime = processingTime;
-        }
-    }
     public int[] getOrder(int[][] tasks) {
         int n = tasks.length;
         List<Task> taskList = new ArrayList<>();
         for (int i = 0; i < n; ++i){
-            taskList.add(new Task(i,tasks[i][0],tasks[i][1]));
+            taskList.add(new Task(i, tasks[i][0], tasks[i][1]));
         }
 
         //按入队时间排序
-        Collections.sort(taskList, (t1,t2) -> t1.enqueueTime - t2.enqueueTime);
+        taskList.sort(Comparator.comparingInt(t -> t.enqueueTime));
 
 
         PriorityQueue<Task> queue = new PriorityQueue<>((t1,t2)->{
@@ -106,10 +94,23 @@ public class SingleThreadedCPU {
             now += task.processingTime;
         }
         //当任务列表taskList中的全部任务已经入堆
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             //按顺序取出任务执行即可
             res[p++] = queue.poll().id;
         }
         return res;
+    }
+
+    //任务类
+    static class Task {
+        int id;
+        int enqueueTime;
+        int processingTime;
+
+        public Task(int id, int enqueueTime, int processingTime) {
+            this.id = id;
+            this.enqueueTime = enqueueTime;
+            this.processingTime = processingTime;
+        }
     }
 }

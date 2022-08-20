@@ -32,27 +32,25 @@ public class Area3DShapes {
     /**
      * 方法：数学
      *
-     * @param grid
-     * @return
      */
     public int projectionArea(int[][] grid) {
         int area = 0;
         //顶部
-        for (int i = 0; i < grid.length; i++) {
+        for (int[] item : grid) {
             for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] != 0)
+                if (item[j] != 0)
                     area++;
             }
         }
         //前面
-        for (int i = 0; i < grid.length; i++) {
-            area += Arrays.stream(grid[i]).max().getAsInt();
+        for (int[] value : grid) {
+            area += Arrays.stream(value).max().getAsInt();
         }
         //侧面
         for (int i = 0; i < grid[0].length; i++) {
             int max = 0;
-            for (int j = 0; j < grid.length; j++) {
-                max = Math.max(grid[j][i], max);
+            for (int[] ints : grid) {
+                max = Math.max(ints[i], max);
             }
             area += max;
         }

@@ -29,8 +29,6 @@ public class BasicCalculator {
 
     /**
      * 方法：模拟
-     * @param s
-     * @return
      */
     public int calculate(String s) {
         Stack<Integer> stack = new Stack<>();
@@ -53,19 +51,11 @@ public class BasicCalculator {
             //不会数字，空格跳过
             if ((!isSign(c) && c != ' ')|| index == s.length()){
                 //判断符号
-                switch (sign){
-                    case '+':
-                        stack.push(num);//加入正数
-                        break;
-                    case '-':
-                        stack.push(-num);//加入负数
-                        break;
-                    case '*':
-                        stack.push(stack.pop() * num);
-                        break;
-                    case '/':
-                        stack.push(stack.pop() / num);
-                        break;
+                switch (sign) {
+                    case '+' -> stack.push(num);//加入正数
+                    case '-' -> stack.push(-num);//加入负数
+                    case '*' -> stack.push(stack.pop() * num);
+                    case '/' -> stack.push(stack.pop() / num);
                 }
                 //变符号
                 sign = c;
@@ -82,8 +72,6 @@ public class BasicCalculator {
 
     /**
      * 计算和
-     * @param stack
-     * @return
      */
     private int sum(Stack<Integer> stack) {
         int res = 0;
@@ -95,8 +83,6 @@ public class BasicCalculator {
 
     /**
      * 判断是否为数字
-     * @param c
-     * @return
      */
     private boolean isSign(char c){
         return c >= '0' && c <= '9';

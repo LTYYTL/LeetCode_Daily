@@ -22,9 +22,6 @@ package com.leetcode.L1_100.L0067;
 public class AddBinary {
     /**
      * 方法：模拟
-     * @param a
-     * @param b
-     * @return
      */
     public String addBinary(String a, String b) {
         //双指针
@@ -54,9 +51,6 @@ public class AddBinary {
 
     /**
      * 方法二：内置函数
-     * @param a
-     * @param b
-     * @return
      */
     public String addBinary_fun(String a, String b) {
         return Integer.toBinaryString(Integer.parseInt(a,2) + Integer.parseInt(b,2));

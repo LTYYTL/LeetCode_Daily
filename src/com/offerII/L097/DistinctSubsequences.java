@@ -30,7 +30,7 @@ package com.offerII.L097;
  * 0 <= s.length, t.length <= 1000
  * s 和 t 由英文字母组成
  *
- * 注意：本题与主站 115 题相同： https://leetcode-cn.com/problems/distinct-subsequences/
+ * 注意：本题与主站 115 题相同： <a href="https://leetcode-cn.com/problems/distinct-subsequences/">https://leetcode-cn.com/problems/distinct-subsequences/</a>
  */
 public class DistinctSubsequences {
     /**

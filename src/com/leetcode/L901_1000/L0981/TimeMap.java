@@ -1,6 +1,9 @@
 package com.leetcode.L901_1000.L0981;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 981. 基于时间的键值存储
@@ -34,19 +37,6 @@ import java.util.*;
  * TimeMap.set 和 TimeMap.get 函数在每个测试用例中将（组合）调用总计 120000 次。
  */
 public class TimeMap {
-    /**
-     * 方法：Map映射+二分查找
-     */
-    class Pair{
-        String value;
-        int timestamp; //时间戳
-
-        public Pair(String value, int timestamp) {
-            this.value = value;
-            this.timestamp = timestamp;
-        }
-    }
-
     //存储数据
     Map<String, List<Pair>> map;
 
@@ -58,9 +48,22 @@ public class TimeMap {
         //查看当前key是否存在，存在直接取value，不存在创建
         List<Pair> list = map.getOrDefault(key, new ArrayList<>());
         //向list中添加Pari对象
-        list.add(new Pair(value,timestamp));
+        list.add(new Pair(value, timestamp));
         //放入map中
-        map.put(key,list);
+        map.put(key, list);
+    }
+
+    /**
+     * 方法：Map映射+二分查找
+     */
+    static class Pair {
+        String value;
+        int timestamp; //时间戳
+
+        public Pair(String value, int timestamp) {
+            this.value = value;
+            this.timestamp = timestamp;
+        }
     }
 
     public String get(String key, int timestamp) {

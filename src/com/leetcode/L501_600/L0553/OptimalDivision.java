@@ -40,7 +40,7 @@ public class OptimalDivision {
         if (n == 2) {
             return nums[0] + "/" + nums[1];
         }
-        StringBuffer res = new StringBuffer();
+        StringBuilder res = new StringBuilder();
         res.append(nums[0]);
         res.append("/(");
         res.append(nums[1]);

@@ -60,6 +60,7 @@ package com.leetcode.L401_500.L0427;
  * n == grid.length == grid[i].length
  * n == 2^x 其中 0 <= x <= 6
  */
+@SuppressWarnings("UnnecessaryLocalVariable")
 public class ConstructQuadTree {
     /**
      * 方法：深度优先搜索

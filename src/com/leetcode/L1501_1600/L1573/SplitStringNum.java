@@ -76,7 +76,7 @@ public class SplitStringNum {
         }
         //字符串没有‘1’的情况
         if(count == 0){
-            return (int) (1L * (n-1)*(n-2)/2 % mod);
+            return (int) ((long) (n - 1) * (n - 2) / 2 % mod);
         }
         //字符串‘1’的个数不够三等分情况
         if(count % 3 != 0){
@@ -93,7 +93,7 @@ public class SplitStringNum {
         //尾字符串第一次出现‘1’的位置
         int r2 = indexList.get(2*count);
 
-        return (int) (1L * (l2 - l1) * (r2 - r1) % mod);
+        return (int) ((long) (l2 - l1) * (r2 - r1) % mod);
     }
 
 

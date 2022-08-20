@@ -24,7 +24,7 @@ import java.util.Queue;
  * mat[i][j] is either 0 or 1.
  * mat 中至少有一个 0
  *
- * 注意：本题与主站 542 题相同：https://leetcode-cn.com/problems/01-matrix/
+ * 注意：本题与主站 542 题相同：<a href="https://leetcode-cn.com/problems/01-matrix/">https://leetcode-cn.com/problems/01-matrix/</a>
  */
 public class Matrix01 {
     //四个方向

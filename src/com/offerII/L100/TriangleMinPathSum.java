@@ -31,7 +31,7 @@ import java.util.List;
  * 进阶：
  * 你可以只使用 O(n) 的额外空间（n 为三角形的总行数）来解决这个问题吗？
  *
- * 注意：本题与主站 120 题相同： https://leetcode-cn.com/problems/triangle/
+ * 注意：本题与主站 120 题相同： <a href="https://leetcode-cn.com/problems/triangle/">https://leetcode-cn.com/problems/triangle/</a>
  */
 public class TriangleMinPathSum {
     /**

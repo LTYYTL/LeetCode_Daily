@@ -5,6 +5,7 @@ import com.util.UF;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -43,7 +44,7 @@ public class ConnectCitiesLowestCost {
         //创建并查集
         UF uf = new UF(n+1);
         //按照权值从小到大排列
-        Arrays.sort(connections,(a,b)->(a[2] - b[2]));
+        Arrays.sort(connections, Comparator.comparingInt(a -> a[2]));
         //最小权值
         int mst = 0;
         //遍历边

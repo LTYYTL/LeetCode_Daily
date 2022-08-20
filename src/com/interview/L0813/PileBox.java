@@ -1,6 +1,7 @@
 package com.interview.L0813;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 面试题 08.13. 堆箱子
@@ -33,7 +34,7 @@ public class PileBox {
         if (len == 0)
             return 0;
         //按照宽度排序
-        Arrays.sort(box,(a,b)->(a[0]-b[0]));
+        Arrays.sort(box, Comparator.comparingInt(a -> a[0]));
         //dp[i]：表示i为底可堆的高度
         int[] dp = new int[len];
         //初始化

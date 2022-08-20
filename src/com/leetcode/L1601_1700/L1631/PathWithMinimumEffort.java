@@ -55,10 +55,10 @@ public class PathWithMinimumEffort {
 
         // 优先级队列，effortFromStart 较小的排在前面
         PriorityQueue<State> queue = new PriorityQueue<>(
-                (o1,o2)-> o1.effortFromStart - o2.effortFromStart
+                Comparator.comparingInt(o -> o.effortFromStart)
         );
         // 从起点 (0, 0) 开始进行 BFS
-        queue.offer(new State(0,0,0));
+        queue.offer(new State(0, 0, 0));
 
         while (!queue.isEmpty()){
             State cur = queue.poll();
@@ -85,7 +85,7 @@ public class PathWithMinimumEffort {
                 );
                 if (effortToNextNode < effortTo[nextX][nextY]){
                     effortTo[nextX][nextY] = effortToNextNode;
-                    queue.offer(new State(nextX,nextY,effortToNextNode));
+                    queue.offer(new State(nextX, nextY, effortToNextNode));
                 }
             }
         }
@@ -110,7 +110,7 @@ public class PathWithMinimumEffort {
         return neighbors;
     }
 
-    class State{
+    static class State {
         // 矩阵中的一个位置
         int x, y;
         // 从起点 (0, 0) 到当前位置的最小体力消耗（距离）

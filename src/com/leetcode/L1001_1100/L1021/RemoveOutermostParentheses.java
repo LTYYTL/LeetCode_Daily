@@ -46,9 +46,9 @@ public class RemoveOutermostParentheses {
      */
     public String removeOuterParentheses(String s) {
         //结果
-        StringBuffer res = new StringBuffer();
+        StringBuilder res = new StringBuilder();
         //栈
-        Deque<Character> stack = new ArrayDeque<Character>();
+        Deque<Character> stack = new ArrayDeque<>();
         //遍历
         for (int i = 0; i < s.length(); i++) {
             //当前字符

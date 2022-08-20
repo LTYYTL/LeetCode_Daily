@@ -20,48 +20,40 @@ import java.util.TreeMap;
  * 保证所有输入均为非空字符串。
  */
 public class Trie {
-    private class Node{
-        public boolean isWord;
-        public TreeMap<Character, Node> next;
-
-        public Node(boolean isWord){
-            this.isWord = isWord;
-            next = new TreeMap<>();
-        }
-
-        public Node(){
-            this(false);
-        }
-    }
-
     private final Node root;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public Trie() {
         root = new Node();
     }
 
-    /** Inserts a word into the trie. */
+    /**
+     * Inserts a word into the trie.
+     */
     public void insert(String word) {
         Node cur = root;
-        for(int i = 0; i < word.length(); i++){
+        for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            if(cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+            if (cur.next.get(c) == null)
+                cur.next.put(c, new Node());
             cur = cur.next.get(c);
         }
 
-        if(!cur.isWord){
+        if (!cur.isWord) {
             cur.isWord = true;
         }
     }
 
-    /** Returns if the word is in the trie. */
+    /**
+     * Returns if the word is in the trie.
+     */
     public boolean search(String word) {
         Node cur = root;
-        for(int i = 0; i < word.length(); i++){
+        for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            if(cur.next.get(c) == null)
+            if (cur.next.get(c) == null)
                 return false;
             cur = cur.next.get(c);
         }
@@ -69,12 +61,28 @@ public class Trie {
         return cur.isWord;
     }
 
-    /** Returns if there is any word in the trie that starts with the given prefix. */
+    private static class Node {
+        public boolean isWord;
+        public TreeMap<Character, Node> next;
+
+        public Node(boolean isWord) {
+            this.isWord = isWord;
+            next = new TreeMap<>();
+        }
+
+        public Node() {
+            this(false);
+        }
+    }
+
+    /**
+     * Returns if there is any word in the trie that starts with the given prefix.
+     */
     public boolean startsWith(String prefix) {
         Node cur = root;
-        for(int i = 0; i < prefix.length(); i++){
+        for (int i = 0; i < prefix.length(); i++) {
             char c = prefix.charAt(i);
-            if(cur.next.get(c) == null)
+            if (cur.next.get(c) == null)
                 return false;
             cur = cur.next.get(c);
         }

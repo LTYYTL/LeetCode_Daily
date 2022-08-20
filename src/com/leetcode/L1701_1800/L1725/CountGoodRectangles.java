@@ -37,7 +37,7 @@ public class CountGoodRectangles {
         //遍历
         for (int[] rectangle : rectangles) {
             //获取当前能分割的最大长度
-            int cur = rectangle[0] > rectangle[1] ? rectangle[1] : rectangle[0];
+            int cur = Math.min(rectangle[0], rectangle[1]);
             //比最大长度长
             if (maxLen < cur) {
                 //改变数值

@@ -24,8 +24,6 @@ import java.util.Arrays;
 public class ArrangeArraySmallestNumber {
     /**
      * 方法：排序
-     * @param nums
-     * @return
      */
     public String minNumber(int[] nums) {
         //转换数字为字符串
@@ -46,9 +44,6 @@ public class ArrangeArraySmallestNumber {
 
     /**
      * 快速排序
-     * @param strs
-     * @param l
-     * @param r
      */
     private void quickSort(String[] strs, int l, int r) {
         if (l >= r)
@@ -72,8 +67,6 @@ public class ArrangeArraySmallestNumber {
 
     /**
      * 方法：排序
-     * @param nums
-     * @return
      */
     public String minNumber_sort(int[] nums) {
         //转换数字为字符串

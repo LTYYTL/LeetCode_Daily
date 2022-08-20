@@ -31,8 +31,6 @@ import com.util.TreeNode;
 public class AVL {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public boolean isBalanced(TreeNode root) {
         //空值情况
@@ -51,8 +49,6 @@ public class AVL {
 
     /**
      * 计算深度
-     * @param root
-     * @return
      */
     private int depth(TreeNode root) {
         if (root == null)

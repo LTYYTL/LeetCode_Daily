@@ -33,25 +33,23 @@ public class IntersectionArrayII {
         //记录每个数出现的次数
         Map<Integer,Integer> map = new HashMap<>();
         //记录nums1中每个数的次数
-        for (int i = 0; i < nums1.length ; i++){
-            int key = nums1[i];
+        for (int key : nums1) {
             //判断num1[i]是否已经存在map中，
             //没存在：将其加入
             //存在：在原来的基础上次数+1
-            if (map.containsKey(key)){
-                map.put(key,map.get(key)+1);
-            }else {
-                map.put(key,1);
+            if (map.containsKey(key)) {
+                map.put(key, map.get(key) + 1);
+            } else {
+                map.put(key, 1);
             }
         }
         //用于存储两个数组的交集
         List<Integer> list = new ArrayList<>();
         //遍历nums2获得交集
-        for (int i = 0 ; i<nums2.length ; i++){
-            int key = nums2[i];
+        for (int key : nums2) {
             //当前值存在于map中，并且次数大于0，存入list中，将其的次数-1
-            if (map.containsKey(key) && map.get(key) > 0){
-                map.put(key,map.get(key)-1);
+            if (map.containsKey(key) && map.get(key) > 0) {
+                map.put(key, map.get(key) - 1);
                 list.add(key);
             }
         }

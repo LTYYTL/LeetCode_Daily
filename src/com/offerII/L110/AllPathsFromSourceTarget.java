@@ -35,7 +35,7 @@ import java.util.*;
  * graph[i][j] != i
  * 保证输入为有向无环图 (GAD)
  *
- * 注意：本题与主站 797 题相同：https://leetcode-cn.com/problems/all-paths-from-source-to-target/
+ * 注意：本题与主站 797 题相同：<a href="https://leetcode-cn.com/problems/all-paths-from-source-to-target/">https://leetcode-cn.com/problems/all-paths-from-source-to-target/</a>
  */
 public class AllPathsFromSourceTarget {
     //结果集
@@ -43,8 +43,6 @@ public class AllPathsFromSourceTarget {
 
     /**
      * 方法一：深度优先搜索
-     * @param graph
-     * @return
      */
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         res = new ArrayList<>();
@@ -87,8 +85,6 @@ public class AllPathsFromSourceTarget {
 
     /**
      * 方法二：广度优先搜索
-     * @param graph
-     * @return
      */
     public List<List<Integer>> allPathsSourceTarget_bfs(int[][] graph) {
         //长度

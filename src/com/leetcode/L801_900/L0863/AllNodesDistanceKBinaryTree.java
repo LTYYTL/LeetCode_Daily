@@ -48,7 +48,6 @@ public class AllNodesDistanceKBinaryTree {
 
     /**
      * 记录每个节点的父节点
-     * @param root
      */
     private void findParents(TreeNode<Integer> root) {
         if (root.left != null){
@@ -64,10 +63,7 @@ public class AllNodesDistanceKBinaryTree {
 
     /**
      * 深度优先搜索
-     * @param node
      * @param from  往上走时，记录那个节点走过
-     * @param depth
-     * @param k
      */
     private void findAns(TreeNode<Integer> node, TreeNode<Integer> from, int depth, int k) {
         if (node == null) {

@@ -20,7 +20,7 @@ package com.offerII.L099;
  * 1 <= m, n <= 200
  * 0 <= grid[i][j] <= 100
  *
- * 注意：本题与主站 64 题相同： https://leetcode-cn.com/problems/minimum-path-sum/
+ * 注意：本题与主站 64 题相同： <a href="https://leetcode-cn.com/problems/minimum-path-sum/">https://leetcode-cn.com/problems/minimum-path-sum/</a>
  */
 public class MinPathSum {
 

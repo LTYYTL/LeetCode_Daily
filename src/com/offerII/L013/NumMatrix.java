@@ -30,7 +30,7 @@ package com.offerII.L013;
  * 0 <= col1 <= col2 < n
  * 最多调用 104 次 sumRegion 方法
  *
- * 注意：本题与主站 304 题相同： https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
+ * 注意：本题与主站 304 题相同： <a href="https://leetcode-cn.com/problems/range-sum-query-2d-immutable/">https://leetcode-cn.com/problems/range-sum-query-2d-immutable/</a>
  */
 public class NumMatrix {
     //记录和

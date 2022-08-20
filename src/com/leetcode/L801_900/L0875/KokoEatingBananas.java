@@ -25,7 +25,7 @@ package com.leetcode.L801_900.L0875;
  * piles.length <= H <= 10^9
  * 1 <= piles[i] <= 10^9
  *
- * 注意：本题与主站 875 题相同： https://leetcode-cn.com/problems/koko-eating-bananas/
+ * 注意：本题与主站 875 题相同： <a href="https://leetcode-cn.com/problems/koko-eating-bananas/">https://leetcode-cn.com/problems/koko-eating-bananas/</a>
  */
 public class KokoEatingBananas {
     /**

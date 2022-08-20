@@ -68,12 +68,12 @@ public class ZigZagConversion {
             col += flag ? 1 : -1;
         }
         //遍历结果
-        String ans = "";
+        StringBuilder ans = new StringBuilder();
         for (String re : res) {
-            ans += re;
+            ans.append(re);
         }
 
 
-        return ans;
+        return ans.toString();
     }
 }

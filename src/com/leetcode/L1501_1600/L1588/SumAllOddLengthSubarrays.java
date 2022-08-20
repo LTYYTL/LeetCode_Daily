@@ -75,7 +75,7 @@ public class SumAllOddLengthSubarrays {
      * 计算：1(左边奇数个为1) * 1(右边奇数个为1) + 2(左边偶数个为2) * 2(右边偶数个为2，包含0) = 5种情况
      *
      * 作者：codeppx
-     * 链接：https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/solution/kan-zhe-pian-ba-duo-fang-fa-tou-xi-1588-cgdzf/
+     * 链接：<a href="https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/solution/kan-zhe-pian-ba-duo-fang-fa-tou-xi-1588-cgdzf/">https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/solution/kan-zhe-pian-ba-duo-fang-fa-tou-xi-1588-cgdzf/</a>
      * @param arr
      * @return
      */
@@ -83,9 +83,9 @@ public class SumAllOddLengthSubarrays {
         int len = arr.length;
 
         int res = 0;
-        int left = 0,right = len - 1;
-        int leftOdd = 0,rightOdd = 0;
-        int leftEven = 0,rightEven = 0;
+        int left, right;
+        int leftOdd, rightOdd;
+        int leftEven, rightEven;
 
         for (int i = 0; i < len; i++) {
             left = i + 1;//左边元素个数

@@ -27,7 +27,7 @@ import com.util.TreeNode;
  * 限制：
  * 0 <= 节点个数 <= 1000
  *
- * 注意：本题与主站 226 题相同：https://leetcode-cn.com/problems/invert-binary-tree/
+ * 注意：本题与主站 226 题相同：<a href="https://leetcode-cn.com/problems/invert-binary-tree/">https://leetcode-cn.com/problems/invert-binary-tree/</a>
  */
 public class MirrorBinaryTree {
     /**

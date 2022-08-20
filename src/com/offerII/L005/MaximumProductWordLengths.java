@@ -25,7 +25,7 @@ package com.offerII.L005;
  * 1 <= words[i].length <= 1000
  * words[i] 仅包含小写字母
  *
- * 注意：本题与主站 318 题相同：https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
+ * 注意：本题与主站 318 题相同：<a href="https://leetcode-cn.com/problems/maximum-product-of-word-lengths/">https://leetcode-cn.com/problems/maximum-product-of-word-lengths/</a>
  */
 public class MaximumProductWordLengths {
     /**

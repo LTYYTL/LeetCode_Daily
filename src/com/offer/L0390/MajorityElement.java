@@ -16,7 +16,7 @@ import java.util.Map;
  *
  * 限制：
  * 1 <= 数组长度 <= 50000
- * 注意：本题与主站 169 题相同：https://leetcode-cn.com/problems/majority-element/
+ * 注意：本题与主站 169 题相同：<a href="https://leetcode-cn.com/problems/majority-element/">https://leetcode-cn.com/problems/majority-element/</a>
  */
 public class MajorityElement {
     /**

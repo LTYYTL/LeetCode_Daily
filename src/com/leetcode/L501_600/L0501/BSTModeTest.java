@@ -7,16 +7,16 @@ import java.util.Arrays;
 public class BSTModeTest {
     public static void main(String[] args) {
         BSTMode bstMode = new BSTMode();
-        /**
-         * 例如：
-         * 给定 BST [1,null,2,2],
-         *
-         *    1
-         *     \
-         *      2
-         *     /
-         *    2
-         * 返回[2].
+        /*
+          例如：
+          给定 BST [1,null,2,2],
+
+             1
+              \
+               2
+              /
+             2
+          返回[2].
          */
         TreeNode root = new TreeNode(1);
         TreeNode rr = new TreeNode(2);

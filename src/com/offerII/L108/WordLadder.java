@@ -30,7 +30,7 @@ import java.util.*;
  * beginWord != endWord
  * wordList 中的所有字符串 互不相同
  *
- * 注意：本题与主站 127 题相同： https://leetcode-cn.com/problems/word-ladder/
+ * 注意：本题与主站 127 题相同： <a href="https://leetcode-cn.com/problems/word-ladder/">https://leetcode-cn.com/problems/word-ladder/</a>
  */
 public class WordLadder {
     /**

@@ -27,7 +27,7 @@ package com.offerII.L096;
  * 0 <= s3.length <= 200
  * s1、s2、和 s3 都由小写英文字母组成
  *
- * 注意：本题与主站 97 题相同： https://leetcode-cn.com/problems/interleaving-string/
+ * 注意：本题与主站 97 题相同： <a href="https://leetcode-cn.com/problems/interleaving-string/">https://leetcode-cn.com/problems/interleaving-string/</a>
  */
 public class InterleavingString {
     /**

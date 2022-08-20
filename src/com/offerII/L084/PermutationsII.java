@@ -24,7 +24,7 @@ import java.util.Stack;
  * 1 <= nums.length <= 8
  * -10 <= nums[i] <= 10
  *
- * 注意：本题与主站 47 题相同： https://leetcode-cn.com/problems/permutations-ii/
+ * 注意：本题与主站 47 题相同： <a href="https://leetcode-cn.com/problems/permutations-ii/">https://leetcode-cn.com/problems/permutations-ii/</a>
  */
 public class PermutationsII {
     /**

@@ -42,7 +42,7 @@ package com.offer.L0670;
  *      因此返回 INT_MIN (−231) 。
  *
  *
- * 注意：本题与主站 8 题相同：https://leetcode-cn.com/problems/string-to-integer-atoi/
+ * 注意：本题与主站 8 题相同：<a href="https://leetcode-cn.com/problems/string-to-integer-atoi/">https://leetcode-cn.com/problems/string-to-integer-atoi/</a>
  */
 public class StringToInteger {
     /**

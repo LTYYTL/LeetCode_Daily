@@ -26,9 +26,6 @@ import java.util.Map;
 public class BinarySubarraysWithSum {
     /**
      * 方法一：滑动窗口
-     * @param nums
-     * @param goal
-     * @return
      */
     public int numSubarraysWithSum(int[] nums, int goal) {
         //left1和left2之间有多个0

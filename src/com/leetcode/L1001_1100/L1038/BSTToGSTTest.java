@@ -5,17 +5,17 @@ import com.util.TreeNode;
 public class BSTToGSTTest {
     public static void main(String[] args) {
         BSTToGST bstToGST = new BSTToGST();
-        /**
-         * 示例：
-         *                4
-         *             /    \
-         *           1      6
-         *         /   \  /   \
-         *        0    2 5    7
-         *              \      \
-         *              3       8
-         * 输入：[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
-         * 输出：[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
+        /*
+          示例：
+                         4
+                      /    \
+                    1      6
+                  /   \  /   \
+                 0    2 5    7
+                       \      \
+                       3       8
+          输入：[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
+          输出：[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
          */
         TreeNode<Integer> root = new TreeNode<>(4);
         TreeNode<Integer> rl = new TreeNode<>(1);

@@ -33,7 +33,8 @@ public class PoorPigs {
     /**
      * 方法：数学
      * 作者：guanpengchn
-     * 链接：https://leetcode-cn.com/problems/poor-pigs/solution/hua-jie-suan-fa-458-ke-lian-de-xiao-zhu-by-guanpen/
+     * 链接：<a href="https://leetcode-cn.com/problems/poor-pigs/solution/hua-jie-suan-fa-458-ke-lian-de-xiao-zhu-by-guanpen/">https://leetcode-cn.com/problems/poor-pigs/solution/hua-jie-suan-fa-458-ke-lian-de-xiao-zhu-by-guanpen/</a>
+     *
      * @param buckets
      * @param minutesToDie
      * @param minutesToTest
@@ -47,7 +48,6 @@ public class PoorPigs {
         //这么多毒药可以用，进制的多少位表示
         double temp = Math.log(buckets) / Math.log(base);
         //向上取整
-        int ans = (int) Math.ceil(temp);
-        return ans;
+        return (int) Math.ceil(temp);
     }
 }

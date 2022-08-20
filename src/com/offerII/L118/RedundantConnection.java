@@ -27,7 +27,7 @@ import com.util.UF;
  * edges 中无重复元素
  * 给定的图是连通的
  *
- * 注意：本题与主站 684 题相同： https://leetcode-cn.com/problems/redundant-connection/
+ * 注意：本题与主站 684 题相同： <a href="https://leetcode-cn.com/problems/redundant-connection/">https://leetcode-cn.com/problems/redundant-connection/</a>
  */
 public class RedundantConnection {
     /**

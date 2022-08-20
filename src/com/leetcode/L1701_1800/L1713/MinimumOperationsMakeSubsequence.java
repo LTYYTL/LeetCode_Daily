@@ -43,9 +43,9 @@ public class MinimumOperationsMakeSubsequence {
         int index = 0;
         int[] indexArray = new int[arr.length];
         Arrays.fill(indexArray, -1); // 初始填充-1
-        for (int i = 0; i < arr.length; i++) {
-            if (hashMap.containsKey(arr[i])) {
-                indexArray[index++] = hashMap.get(arr[i]);
+        for (int j : arr) {
+            if (hashMap.containsKey(j)) {
+                indexArray[index++] = hashMap.get(j);
             }
         }
         // 如果都为-1，代码arr中没有target中的整数，返回target长度

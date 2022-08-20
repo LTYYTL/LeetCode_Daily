@@ -104,9 +104,9 @@ public class TimeNetworkIdle {
         //到自己本身是0
         disTo[start] = 0;
         //按照最短距离排序
-        Queue<State> queue = new PriorityQueue<>((a,b) -> a.disFromStart - b.disFromStart);
+        Queue<State> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a.disFromStart));
         //入队
-        queue.offer(new State(start,0));
+        queue.offer(new State(start, 0));
         //遍历
         while (!queue.isEmpty()){
             //获取队首元素
@@ -125,7 +125,7 @@ public class TimeNetworkIdle {
                 //当前距离大
                 if (disTo[next] > disFromState){
                     disTo[next] = disFromState;
-                    queue.offer(new State(next,disFromState));
+                    queue.offer(new State(next, disFromState));
                 }
             }
         }
@@ -159,7 +159,7 @@ public class TimeNetworkIdle {
         return greps;
     }
 
-    class State{
+    static class State {
         public int id;
         public int disFromStart;
 

@@ -42,16 +42,16 @@ public class MaximizeSumArrayKNegations {
         //排序，负数最小的变成正数最大的
         Arrays.sort(nums);
         //遍历
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
             //当前值
-            int temp = nums[i];
+            int temp = num;
             //如果小于0，改变符号
-            if (temp < 0 && k > 0){
+            if (temp < 0 && k > 0) {
                 temp = -temp;
                 k--;
             }
             //存储最小值
-            min = Math.min(temp,min);
+            min = Math.min(temp, min);
             //计算和
             sum += temp;
         }

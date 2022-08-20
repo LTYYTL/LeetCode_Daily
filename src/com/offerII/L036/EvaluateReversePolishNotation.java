@@ -50,7 +50,7 @@ import java.util.Stack;
  * 去掉括号后表达式无歧义，上式即便写成 1 2 + 3 4 + * 也可以依据次序计算出正确结果。
  * 适合用栈操作运算：遇到数字则入栈；遇到算符则取出栈顶两个数字进行计算，并将结果压入栈中。
  *
- * 注意：本题与主站 150 题相同： https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
+ * 注意：本题与主站 150 题相同： <a href="https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/">https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/</a>
  */
 public class EvaluateReversePolishNotation {
     /**
@@ -60,39 +60,35 @@ public class EvaluateReversePolishNotation {
      */
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
-        int a = 0;
-        int b = 0;
+        int a;
+        int b;
         for (String token : tokens) {
             //根据符号做运算
-            switch (token){
-                case "+":
+            switch (token) {
+                case "+" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(a+b);
-                    break;
-
-                case "-":
+                    stack.push(a + b);
+                }
+                case "-" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(b-a);
-                    break;
-
-                case "*":
+                    stack.push(b - a);
+                }
+                case "*" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(a*b);
-                    break;
-
-                case "/":
+                    stack.push(a * b);
+                }
+                case "/" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(b/a);
-                    break;
-
-                default:
-                    int num = Integer.valueOf(token);
+                    stack.push(b / a);
+                }
+                default -> {
+                    int num = Integer.parseInt(token);
                     stack.push(num);
-                    break;
+                }
             }
         }
         return stack.pop();

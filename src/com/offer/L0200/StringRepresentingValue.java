@@ -54,37 +54,64 @@ public class StringRepresentingValue {
      * @return
      */
     public boolean isNumber(String s) {
-        /**
-         * 按照字符串从左到右的顺序，定义以下 9 种状态。
-         *
-         * 0、开始的空格
-         * 1、幂符号前的正负号
-         * 2、小数点前的数字
-         * 3、小数点、小数点后的数字
-         * 4、当小数点前为空格时，小数点、小数点后的数字
-         * 5、幂符号
-         * 6、幂符号后的正负号
-         * 7、幂符号后的数字
-         * 8、结尾的空格
+        /*
+          按照字符串从左到右的顺序，定义以下 9 种状态。
+
+          0、开始的空格
+          1、幂符号前的正负号
+          2、小数点前的数字
+          3、小数点、小数点后的数字
+          4、当小数点前为空格时，小数点、小数点后的数字
+          5、幂符号
+          6、幂符号后的正负号
+          7、幂符号后的数字
+          8、结尾的空格
          */
         //‘ ’为空格、‘d’为数字、‘s’为符号、‘.’为小数点、‘e’为幂号
         Map[] state = {
                 //0:
-                new HashMap<Character,Integer>(){{put(' ',0);put('d',2);put('s',1);put('.',4);}},
+                new HashMap<Character, Integer>() {{
+                    put(' ', 0);
+                    put('d', 2);
+                    put('s', 1);
+                    put('.', 4);
+                }},
                 //1:
-                new HashMap<Character,Integer>(){{put('d',2);put('.',4);}},
+                new HashMap<Character, Integer>() {{
+                    put('d', 2);
+                    put('.', 4);
+                }},
                 //2:
-                new HashMap<Character,Integer>(){{put(' ',8);put('d',2);put('.',3);put('e',5);}},
+                new HashMap<Character, Integer>() {{
+                    put(' ', 8);
+                    put('d', 2);
+                    put('.', 3);
+                    put('e', 5);
+                }},
                 //3:
-                new HashMap<Character,Integer>(){{put(' ',8);put('d',3);put('e',5);}},
+                new HashMap<Character, Integer>() {{
+                    put(' ', 8);
+                    put('d', 3);
+                    put('e', 5);
+                }},
                 //4:
-                new HashMap<Character,Integer>(){{put('d',3);}},
+                new HashMap<Character, Integer>() {{
+                    put('d', 3);
+                }},
                 //5:
-                new HashMap<Character,Integer>(){{put('d',7);put('s',6);}},
+                new HashMap<Character, Integer>() {{
+                    put('d', 7);
+                    put('s', 6);
+                }},
                 //6:
-                new HashMap<Character,Integer>(){{put('d',7);}},
+                new HashMap<Character, Integer>() {{
+                    put('d', 7);
+                }},
                 //7:
-                new HashMap<Character,Integer>(){{put(' ',8);put('d',7);}},
+                new HashMap<Character, Integer>() {{
+                    put(' ', 8);
+                    put('d', 7);
+                }},
                 //8:
                 new HashMap<Character,Integer>(){{put(' ',8);}},
         };
@@ -113,11 +140,11 @@ public class StringRepresentingValue {
             //改变状态
             p = (int) state[p].get(t);
         }
-        /**
-         * 以p==2结尾：整数
-         * 以p==3结尾：小数
-         * 以p==7结尾：有幂的数
-         * 以p==8结尾：空格结尾
+        /*
+          以p==2结尾：整数
+          以p==3结尾：小数
+          以p==7结尾：有幂的数
+          以p==8结尾：空格结尾
          */
         return p == 2 || p == 3 || p == 7 || p == 8;
     }

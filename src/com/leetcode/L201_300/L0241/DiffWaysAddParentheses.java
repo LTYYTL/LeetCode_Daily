@@ -47,13 +47,13 @@ public class DiffWaysAddParentheses {
             char c = input.charAt(i);
             // 扫描算式 input 中的运算符
             if (c == '-' || c == '*' || c == '+') {
-                /******分******/
+                /***分******/
                 // 以运算符为中心，分割成两个字符串，分别递归计算
                 List<Integer>
                         left = diffWaysToCompute(input.substring(0, i));
                 List<Integer>
                         right = diffWaysToCompute(input.substring(i + 1));
-                /******治******/
+                /***治******/
                 // 通过子问题的结果，合成原问题的结果
                 for (int a : left)
                     for (int b : right)

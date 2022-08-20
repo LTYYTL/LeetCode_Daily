@@ -1,6 +1,7 @@
 package com.leetcode.L501_600.L0594;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 594. 最长和谐子序列
@@ -35,11 +36,11 @@ public class LongestHarmoniousSubsequence {
      */
     public int findLHS(int[] nums) {
         //存储每个数出现的次数
-        Map<Integer,Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
 
         //遍历数组，记录次数
-        for (int i = 0; i < nums.length; ++i){
-            map.put(nums[i],map.getOrDefault(nums[i],0)+1);
+        for (int j : nums) {
+            map.put(j, map.getOrDefault(j, 0) + 1);
         }
         //最大长度
         int max = 0;
@@ -47,11 +48,11 @@ public class LongestHarmoniousSubsequence {
         //遍历数组
         for (int num : nums) {
             //x+1存在时
-            if (map.containsKey(num+1)){
+            if (map.containsKey(num + 1)) {
                 //长度为x的次数 + x+1的次数
-                int len = map.get(num) + map.get(num+1);
+                int len = map.get(num) + map.get(num + 1);
                 //取最大值
-                max = Math.max(len,max);
+                max = Math.max(len, max);
             }
         }
 

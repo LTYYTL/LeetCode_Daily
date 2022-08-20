@@ -56,9 +56,7 @@ public class Convert1DInto2D {
         int[][] res = new int[m][n];
         //遍历
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                res[i][j] = original[i*n+j];
-            }
+            System.arraycopy(original, i * n, res[i], 0, n);
         }
         return res;
     }

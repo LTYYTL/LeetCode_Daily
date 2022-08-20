@@ -16,7 +16,7 @@ import java.util.Queue;
  * 输入：root = [1,2,3,null,null,4,5]
  * 输出：[1,2,3,null,null,4,5]
  *
- * 注意：本题与主站 297 题相同：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+ * 注意：本题与主站 297 题相同：<a href="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/">https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/</a>
  */
 public class Codec {
     // Encodes a tree to a single string.
@@ -38,7 +38,7 @@ public class Codec {
             //当前节点不为空，将左右节点放入队列
             //当前节点为空，直接存入null
             if (cur != null){
-                res.append(cur.val + ",");
+                res.append(cur.val).append(",");
                 queue.add(cur.left);
                 queue.add(cur.right);
             }else{

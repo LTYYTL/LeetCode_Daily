@@ -32,7 +32,7 @@ public class Permutation {
         //模拟栈
         StringBuilder path = new StringBuilder();
         //深度优先搜索
-        dfs(S,path,new HashSet<Character>(),res);
+        dfs(S, path, new HashSet<>(), res);
         //转换成数组
         String[] arr = new String[res.size()];
         return res.toArray(arr);

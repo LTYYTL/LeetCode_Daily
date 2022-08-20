@@ -30,7 +30,7 @@ package com.offerII.L001;
  * -231 <= a, b <= 231 - 1
  * b != 0
  *
- * 注意：本题与主站 29 题相同：https://leetcode-cn.com/problems/divide-two-integers/
+ * 注意：本题与主站 29 题相同：<a href="https://leetcode-cn.com/problems/divide-two-integers/">https://leetcode-cn.com/problems/divide-two-integers/</a>
  *
  */
 public class DivideTwoIntegers {

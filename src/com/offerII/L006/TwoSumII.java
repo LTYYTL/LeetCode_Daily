@@ -26,7 +26,7 @@ package com.offerII.L006;
  * -1000 <= target <= 1000
  * 仅存在一个有效答案
  *
- * 注意：本题与主站 167 题相似（下标起点不同）：https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
+ * 注意：本题与主站 167 题相似（下标起点不同）：<a href="https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/">https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/</a>
  */
 public class TwoSumII {
     /**

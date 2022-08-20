@@ -28,19 +28,19 @@ public class MaxProductSub {
         //当前最小值
         int imin = 1;
         //遍历
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
             //是负数需要反转最小与最大值
-            if (nums[i] < 0){
+            if (num < 0) {
                 int temp = imax;
                 imax = imin;
                 imin = temp;
             }
             //当前的最大值
-            imax = Math.max(imax * nums[i],nums[i]);
+            imax = Math.max(imax * num, num);
             //当前最小值
-            imin = Math.min(imin * nums[i],nums[i]);
+            imin = Math.min(imin * num, num);
             //获取最大值
-            max = Math.max(max,imax);
+            max = Math.max(max, imax);
         }
 
         return max;

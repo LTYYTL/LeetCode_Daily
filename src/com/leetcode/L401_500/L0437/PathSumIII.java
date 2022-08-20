@@ -79,7 +79,7 @@ public class PathSumIII {
         if (root == null){
             return 0;
         }
-        int ret = 0;
+        int ret;
         curr += root.val;
 
         ret = prefix.getOrDefault(curr-targetSum,0);

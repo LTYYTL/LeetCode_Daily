@@ -18,7 +18,7 @@ package com.offer.L0630;
  * 限制：
  * 0 <= 数组长度 <= 10^5
  *
- * 注意：本题与主站 121 题相同：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+ * 注意：本题与主站 121 题相同：<a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/">https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/</a>
  */
 public class MaximumProfitStock {
     /**

@@ -48,7 +48,7 @@ import java.util.Set;
  *
  * 进阶：能否设计一个时间复杂度 O(n) 、仅用 O(1) 内存的解决方案？
  *
- * 注意：本题与主站 160 题相同：https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+ * 注意：本题与主站 160 题相同：<a href="https://leetcode-cn.com/problems/intersection-of-two-linked-lists/">https://leetcode-cn.com/problems/intersection-of-two-linked-lists/</a>
  */
 public class IntersectionTwoLinkedLists {
     /**

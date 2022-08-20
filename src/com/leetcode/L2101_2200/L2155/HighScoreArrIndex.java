@@ -68,7 +68,7 @@ public class HighScoreArrIndex {
         }
 
         //结果集
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         //最大值
         int max = 0;
         //遍历

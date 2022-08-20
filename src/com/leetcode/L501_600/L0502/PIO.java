@@ -1,6 +1,7 @@
 package com.leetcode.L501_600.L0502;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -58,7 +59,7 @@ public class PIO {
             arr[i][1] = profits[i];
         }
         //按照资本从小到大排序
-        Arrays.sort(arr,(a,b) -> a[0]-b[0]);
+        Arrays.sort(arr, Comparator.comparingInt(a -> a[0]));
         //存入利润，从大到小
         PriorityQueue<Integer> queue = new PriorityQueue<>((a,b) -> b-a);
         //遍历k次

@@ -65,7 +65,7 @@ public class WordsFrequency {
             char c = s.charAt(i);
             //不存在创建
             if (cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+                cur.next.put(c, new Node());
             //指针向后移动
             cur = cur.next.get(c);
         }
@@ -75,12 +75,12 @@ public class WordsFrequency {
         cur.count++;
     }
 
-    class Node{
+    static class Node {
         boolean isWord;
-        TreeMap<Character,Node> next;
+        TreeMap<Character, Node> next;
         int count;
 
-        public Node(boolean isWord){
+        public Node(boolean isWord) {
             this.isWord = isWord;
             next = new TreeMap<>();
             this.count = 0;

@@ -30,8 +30,8 @@ public class NumberArrayII {
         for (int i = 0; i < 32; i++) {
             //统计第i位中1的个数
             int oneCount = 0;
-            for (int j = 0; j < nums.length; j++) {
-                oneCount += (nums[j] >>> i) & 1;
+            for (int num : nums) {
+                oneCount += (num >>> i) & 1;
             }
             //如果1的个数不是3的倍数，说明那个只出现一次的数字
             //的二进制位中在这一位是1

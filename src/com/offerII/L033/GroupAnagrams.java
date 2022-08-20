@@ -24,7 +24,7 @@ import java.util.*;
  * 0 <= strs[i].length <= 100
  * strs[i] 仅包含小写字母
  *
- * 注意：本题与主站 49 题相同： https://leetcode-cn.com/problems/group-anagrams/
+ * 注意：本题与主站 49 题相同： <a href="https://leetcode-cn.com/problems/group-anagrams/">https://leetcode-cn.com/problems/group-anagrams/</a>
  */
 public class GroupAnagrams {
     /**
@@ -49,7 +49,7 @@ public class GroupAnagrams {
             //将排序好char数组作为key
             String temp = new String(chars);
             //将由相同字母的字符串放到统一个集合
-            List list = map.getOrDefault(temp,new ArrayList<>());
+            List<String> list = map.getOrDefault(temp, new ArrayList<>());
             list.add(s);
             map.put(temp,list);
         }

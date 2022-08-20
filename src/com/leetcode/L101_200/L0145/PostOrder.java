@@ -28,7 +28,7 @@ public class PostOrder {
      */
     public List<Integer> postorderTraversal(TreeNode root) {
         //结果list
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if(root == null){
             return res;
         }
@@ -60,7 +60,7 @@ public class PostOrder {
      */
     public List<Integer> postorderTraversal_Iteration(TreeNode<Integer> root){
         List<Integer> result = new ArrayList<>();
-        LinkedList<TreeNode> stack = new LinkedList<TreeNode>();
+        LinkedList<TreeNode> stack = new LinkedList<>();
         TreeNode last = null;
         while (root != null || ! stack.isEmpty()) {
             if (root != null) {

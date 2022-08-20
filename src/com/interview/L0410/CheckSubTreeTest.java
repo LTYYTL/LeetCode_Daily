@@ -5,10 +5,10 @@ import com.util.TreeNode;
 public class CheckSubTreeTest {
     public static void main(String[] args) {
         CheckSubTree checkSubTree = new CheckSubTree();
-        /**
-         * 示例1:
-         *  输入：t1 = [1, 2, 3], t2 = [2]
-         *  输出：true
+        /*
+          示例1:
+           输入：t1 = [1, 2, 3], t2 = [2]
+           输出：true
          */
         TreeNode rl = new TreeNode(2);
         TreeNode rr = new TreeNode(3);

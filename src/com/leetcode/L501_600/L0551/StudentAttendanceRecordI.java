@@ -39,9 +39,8 @@ public class StudentAttendanceRecordI {
         //记录连续迟到次数
         int L_sum = 0;
         //遍历
-        for (int i = 0; i < chars.length; i++) {
+        for (char c : chars) {
             //类型
-            char c = chars[i];
             //缺勤情况
             if (c == 'A') {
                 //缺勤次数增加
@@ -51,13 +50,13 @@ public class StudentAttendanceRecordI {
                     return false;
             }
             //迟到次数
-            if (c == 'L'){
+            if (c == 'L') {
                 //连续迟到次数增加
                 L_sum++;
                 //连续迟到3次
                 if (L_sum >= 3)
                     return false;
-            }else//不是连续迟到清0
+            } else//不是连续迟到清0
                 L_sum = 0;
         }
         return true;
@@ -70,6 +69,6 @@ public class StudentAttendanceRecordI {
      * @return
      */
     public boolean checkRecord_method(String s) {
-        return s.indexOf("LLL") < 0 && s.split("A", -1).length <= 2;
+        return !s.contains("LLL") && s.split("A", -1).length <= 2;
     }
 }

@@ -23,7 +23,7 @@ import com.util.ListNode;
  * 链表的长度范围为 [1, 5 * 104]
  * 1 <= node.val <= 1000
  *
- * 注意：本题与主站 143 题相同：https://leetcode-cn.com/problems/reorder-list/
+ * 注意：本题与主站 143 题相同：<a href="https://leetcode-cn.com/problems/reorder-list/">https://leetcode-cn.com/problems/reorder-list/</a>
  */
 public class ReorderList {
     /**
@@ -34,19 +34,19 @@ public class ReorderList {
 
         if (head == null || head.next == null || head.next.next == null)
             return;
-        /**
-         * 1、找中点
+        /*
+          1、找中点
          */
         ListNode slow = head;
         ListNode fast = head;
 
-        while (fast.next != null && fast.next.next != null){
+        while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        /**
-         * 2、反转后半链表
+        /*
+          2、反转后半链表
          */
         ListNode newHead = slow.next;
         //将两个链表分割
@@ -55,10 +55,10 @@ public class ReorderList {
         //第二个链表倒置
         newHead = reverseList(newHead);
 
-        /**
-         * 拼接
+        /*
+          拼接
          */
-        while (newHead != null){
+        while (newHead != null) {
             //1 -> 2 ->3
             //
             //5   4

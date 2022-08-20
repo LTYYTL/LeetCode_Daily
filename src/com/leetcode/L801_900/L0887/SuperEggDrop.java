@@ -39,15 +39,15 @@ public class SuperEggDrop {
     public int superEggDrop(int K, int N) {
         int[][] dp = new int[N + 1][K + 1];
         int INF = 0x3f3f3f3f;
-        /**
-         * 只有一个鸡蛋时
+        /*
+          只有一个鸡蛋时
          */
-        for(int i = 0; i <= N; i++)  dp[i][1] = i;
-        for(int i = 1; i <= N; i++){
-            for(int k = 2; k <= K; k++){
+        for (int i = 0; i <= N; i++) dp[i][1] = i;
+        for (int i = 1; i <= N; i++) {
+            for (int k = 2; k <= K; k++) {
                 dp[i][k] = INF;
-                for(int j = 1; j <= i; j++){
-                    dp[i][k] = Math.min( dp[i][k],
+                for (int j = 1; j <= i; j++) {
+                    dp[i][k] = Math.min(dp[i][k],
                             Math.max(dp[j - 1][k - 1], dp[i - j][k]) + 1);
                 }
             }

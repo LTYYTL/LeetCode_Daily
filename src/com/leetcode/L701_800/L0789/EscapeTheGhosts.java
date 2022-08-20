@@ -52,12 +52,12 @@ public class EscapeTheGhosts {
      */
     public boolean escapeGhosts(int[][] ghosts, int[] target) {
         //源点
-        int[] source = {0,0};
+        int[] source = {0, 0};
         //源点到目的点距离
-        int distance  = manhattanDistance(source,target);
+        int distance = manhattanDistance(source, target);
         //计算障碍者到目的点距离
-        for (int i = 0; i < ghosts.length; i++) {
-            int ghostDistance = manhattanDistance(ghosts[i],target);
+        for (int[] ghost : ghosts) {
+            int ghostDistance = manhattanDistance(ghost, target);
             //源点到目的点距离比阻拦者到目的节点远就说明不能到达
             if (ghostDistance <= distance)
                 return false;

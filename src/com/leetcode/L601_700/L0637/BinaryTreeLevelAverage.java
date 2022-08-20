@@ -2,7 +2,10 @@ package com.leetcode.L601_700.L0637;
 
 import com.util.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 637. 二叉树的层平均值
@@ -25,8 +28,6 @@ import java.util.*;
 public class BinaryTreeLevelAverage {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<>();

@@ -21,7 +21,7 @@ package com.offerII.L019;
  * 1 <= s.length <= 105
  * s 由小写英文字母组成
  *
- * 注意：本题与主站 680 题相同： https://leetcode-cn.com/problems/valid-palindrome-ii/
+ * 注意：本题与主站 680 题相同： <a href="https://leetcode-cn.com/problems/valid-palindrome-ii/">https://leetcode-cn.com/problems/valid-palindrome-ii/</a>
  */
 public class ValidPalindromeII {
     /**

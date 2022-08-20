@@ -23,13 +23,13 @@ public class HIndex {
      * @return
      */
     public int hIndex(int[] citations) {
-        int n =  citations.length;
-        int[] res = new int[n+1];
-        for (int i = 0; i < n; i++) {
-            if (citations[i] >= n)
+        int n = citations.length;
+        int[] res = new int[n + 1];
+        for (int citation : citations) {
+            if (citation >= n)
                 res[n]++;
             else
-                res[citations[i]]++;
+                res[citation]++;
         }
 
         int top = 0;

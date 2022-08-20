@@ -1,5 +1,6 @@
 package com.util;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -19,7 +20,7 @@ public class Prim {
     public Prim(List<int[]>[] grep) {
         //初始化
         this.grep = grep;
-        this.queue = new PriorityQueue<>((a,b) -> a[2]-b[2]);
+        this.queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[2]));
         this.isMST = new boolean[grep.length];
         //随机从一个点开始，从0开始
         isMST[0] = true;
@@ -63,8 +64,8 @@ public class Prim {
 
     //判断最小生成树是否包含图的所有点
     public boolean allConnected() {
-        for (int i = 0; i < isMST.length; i++) {
-            if (!isMST[i])
+        for (boolean b : isMST) {
+            if (!b)
                 return false;
         }
         return true;

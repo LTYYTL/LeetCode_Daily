@@ -29,7 +29,7 @@ import java.util.TreeMap;
  * 1 <= val <= 1000
  * 最多调用 50 次 insert 和 sum
  *
- * 注意：本题与主站 677 题相同： https://leetcode-cn.com/problems/map-sum-pairs/
+ * 注意：本题与主站 677 题相同： <a href="https://leetcode-cn.com/problems/map-sum-pairs/">https://leetcode-cn.com/problems/map-sum-pairs/</a>
  */
 public class MapSum {
     /**
@@ -45,7 +45,7 @@ public class MapSum {
         for (int i = 0; i < key.length(); i++) {
             char c = key.charAt(i);
             if (cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+                cur.next.put(c, new Node());
             cur = cur.next.get(c);
         }
         cur.value = val;
@@ -69,8 +69,8 @@ public class MapSum {
         return res;
     }
 
-    private class Node{
-        TreeMap<Character,Node> next;
+    private static class Node {
+        TreeMap<Character, Node> next;
         int value;
 
         public Node() {

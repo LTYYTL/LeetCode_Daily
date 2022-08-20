@@ -30,8 +30,7 @@ public class ReversedPairsArray {
         // 合并阶段
         int i = l, j = m + 1;
         //暂存l~r之间的数
-        for (int k = l; k <= r; k++)
-            tmp[k] = nums[k];
+        if (r + 1 - l >= 0) System.arraycopy(nums, l, tmp, l, r + 1 - l);
         for (int k = l; k <= r; k++) {
             if (i == m + 1)
                 nums[k] = tmp[j++];

@@ -1,6 +1,7 @@
 package com.leetcode.L301_400.L0373;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -42,7 +43,7 @@ public class FindKPairsSmallestSums {
      * @return
      */
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-        PriorityQueue<Node> queue = new PriorityQueue<>((o1, o2) -> o1.sum - o2.sum);
+        PriorityQueue<Node> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o.sum));
         List<List<Integer>> res = new ArrayList<>();
 
         //数组1取前k个数 （长度n小于k则取n个，数组2也相同）,组成 k*k 个数对
@@ -52,7 +53,7 @@ public class FindKPairsSmallestSums {
         for(int i = 0; i < len1; i++){
             for(int j = 0; j < len2; j++){
                 int sum = nums1[i] + nums2[j];
-                queue.add(new Node(nums1[i],nums2[j],sum));
+                queue.add(new Node(nums1[i], nums2[j], sum));
             }
         }
         //取前k个元素
@@ -66,7 +67,8 @@ public class FindKPairsSmallestSums {
 
         return res;
     }
-    class Node{
+
+    static class Node {
         int u1;
         int u2;
         int sum;

@@ -31,8 +31,6 @@ import java.util.List;
 public class BeautifulArrangement {
     /**
      * 方法一：回溯算法
-     * @param n
-     * @return
      */
     List<Integer>[] match;
     boolean[] vis;
@@ -72,8 +70,6 @@ public class BeautifulArrangement {
 
     /**
      * 方法：动态规划
-     * @param n
-     * @return
      */
     public int countArrangement_dp(int n){
         int mask = 1 << n;

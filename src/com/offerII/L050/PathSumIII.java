@@ -22,7 +22,7 @@ import com.util.TreeNode;
  * -1000 <= targetSum <= 1000
  *
  *
- * 注意：本题与主站 437 题相同：https://leetcode-cn.com/problems/path-sum-iii/
+ * 注意：本题与主站 437 题相同：<a href="https://leetcode-cn.com/problems/path-sum-iii/">https://leetcode-cn.com/problems/path-sum-iii/</a>
  */
 public class PathSumIII {
     /**

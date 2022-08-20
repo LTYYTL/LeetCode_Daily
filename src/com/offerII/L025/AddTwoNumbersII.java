@@ -29,18 +29,15 @@ import java.util.LinkedList;
  *
  * 进阶：如果输入链表不能修改该如何处理？换句话说，不能对列表中的节点进行翻转。
  *
- * 注意：本题与主站 445 题相同：https://leetcode-cn.com/problems/add-two-numbers-ii/
+ * 注意：本题与主站 445 题相同：<a href="https://leetcode-cn.com/problems/add-two-numbers-ii/">https://leetcode-cn.com/problems/add-two-numbers-ii/</a>
  */
 public class AddTwoNumbersII {
     /**
      * 方法：栈
-     * @param l1
-     * @param l2
-     * @return
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        Deque<Integer> stack1 = new LinkedList<Integer>();
-        Deque<Integer> stack2 = new LinkedList<Integer>();
+        Deque<Integer> stack1 = new LinkedList<>();
+        Deque<Integer> stack2 = new LinkedList<>();
         //链表内各节点的值
         while (l1 != null) {
             stack1.push(l1.val);

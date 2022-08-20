@@ -33,7 +33,7 @@ import java.util.Arrays;
  * 1 <= m, n <= 100
  * 题目数据保证答案小于等于 2 * 109
  *
- * 注意：本题与主站 62 题相同： https://leetcode-cn.com/problems/unique-paths/
+ * 注意：本题与主站 62 题相同： <a href="https://leetcode-cn.com/problems/unique-paths/">https://leetcode-cn.com/problems/unique-paths/</a>
  */
 public class UniquePaths {
     /**

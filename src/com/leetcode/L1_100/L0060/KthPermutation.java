@@ -45,7 +45,7 @@ public class KthPermutation {
      * 在第三组中每个小组的排列个数是 2!=2个，所以第 k 个排列在第1个小组，所以可以确定它的第二位数字是1。
      *
      * 作者：acw_weian
-     * 链接：https://leetcode-cn.com/problems/permutation-sequence/solution/di-kge-pai-lie-shu-xue-gui-na-on2-by-acw_weian/
+     * 链接：<a href="https://leetcode-cn.com/problems/permutation-sequence/solution/di-kge-pai-lie-shu-xue-gui-na-on2-by-acw_weian/">https://leetcode-cn.com/problems/permutation-sequence/solution/di-kge-pai-lie-shu-xue-gui-na-on2-by-acw_weian/</a>
      * @param n
      * @param k
      * @return
@@ -55,7 +55,7 @@ public class KthPermutation {
         if (n == 0 || k==0)
             return "";
         //结果字符串
-        StringBuffer res = new StringBuffer();
+        StringBuilder res = new StringBuilder();
         //计算n!,fact[i] = i!
         //n! = n * (n-1)!
         int[] fact = new int[n+1];

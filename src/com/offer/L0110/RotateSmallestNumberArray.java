@@ -12,7 +12,7 @@ package com.offer.L0110;
  * 示例 2：
  * 输入：[2,2,2,0,1]
  * 输出：0
- * 注意：本题与主站 154 题相同：https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
+ * 注意：本题与主站 154 题相同：<a href="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/">https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/</a>
  */
 public class RotateSmallestNumberArray {
     /**

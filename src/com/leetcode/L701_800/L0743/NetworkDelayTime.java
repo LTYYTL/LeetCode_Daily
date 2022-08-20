@@ -54,7 +54,7 @@ public class NetworkDelayTime {
         dis[k] = 0;
         dis[0] = 0;
 
-        PriorityQueue<Integer> queue = new PriorityQueue<>((o1,o2) -> dis[o1] - dis[o2]);
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Comparator.comparingInt(o -> dis[o]));
         queue.offer(k);
 
         while (!queue.isEmpty()){
@@ -229,10 +229,10 @@ public class NetworkDelayTime {
 
         // 优先级队列，distFromStart 较小的排在前面
         PriorityQueue<State> queue = new PriorityQueue<>(
-                (o1,o2)-> o1.distFromStart -o2.distFromStart
+                Comparator.comparingInt(o -> o.distFromStart)
         );
         // 从起点 start 开始进行 BFS
-        queue.offer(new State(start,0));
+        queue.offer(new State(start, 0));
         
         while (!queue.isEmpty()){
             State cur = queue.poll();
@@ -247,7 +247,7 @@ public class NetworkDelayTime {
                 int distToNextNode  = distTo[curId] + neighbor[1];
                 if (distToNextNode < distTo[nextNodeId]){
                     distTo[nextNodeId] = distToNextNode;
-                    queue.offer(new State(nextNodeId,distToNextNode));
+                    queue.offer(new State(nextNodeId, distToNextNode));
                 }
             }
         }
@@ -255,7 +255,7 @@ public class NetworkDelayTime {
 
     }
 
-    class State{
+    static class State {
         // 图节点的 id
         int id;
         // 从 start 节点到当前节点的距离

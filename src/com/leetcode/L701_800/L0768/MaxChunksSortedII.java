@@ -30,7 +30,7 @@ public class MaxChunksSortedII {
     /**
      * 方法：栈
      * 作者：jyd
-     * 链接：https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/solution/zui-duo-neng-wan-cheng-pai-xu-de-kuai-ii-deng-jie-/
+     * 链接：<a href="https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/solution/zui-duo-neng-wan-cheng-pai-xu-de-kuai-ii-deng-jie-/">https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/solution/zui-duo-neng-wan-cheng-pai-xu-de-kuai-ii-deng-jie-/</a>
      */
     public int maxChunksToSorted(int[] arr) {
         //栈

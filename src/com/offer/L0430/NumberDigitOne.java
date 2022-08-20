@@ -15,7 +15,7 @@ package com.offer.L0430;
  *
  * 限制：
  * 1 <= n < 2^31
- * 注意：本题与主站 233 题相同：https://leetcode-cn.com/problems/number-of-digit-one/
+ * 注意：本题与主站 233 题相同：<a href="https://leetcode-cn.com/problems/number-of-digit-one/">https://leetcode-cn.com/problems/number-of-digit-one/</a>
  */
 public class NumberDigitOne {
     /**

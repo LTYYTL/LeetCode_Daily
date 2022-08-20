@@ -18,7 +18,7 @@ package com.offerII.L101;
  * 1 <= nums.length <= 200
  * 1 <= nums[i] <= 100
  *
- * 注意：本题与主站 416 题相同： https://leetcode-cn.com/problems/partition-equal-subset-sum/
+ * 注意：本题与主站 416 题相同： <a href="https://leetcode-cn.com/problems/partition-equal-subset-sum/">https://leetcode-cn.com/problems/partition-equal-subset-sum/</a>
  */
 public class PartitionStringSum {
     /**

@@ -50,11 +50,11 @@ public class LongestPalindrome {
         //记录奇数字母的个数
         int odd = 0;
         //遍历
-        for (int i = 0; i < arr.length; i++) {
+        for (int j : arr) {
             //奇数记录
-            if (arr[i] % 2 == 1)
+            if (j % 2 == 1)
                 odd++;
-            res += arr[i];
+            res += j;
         }
         //分情况
         return odd == 0 ? res : res - odd + 1;

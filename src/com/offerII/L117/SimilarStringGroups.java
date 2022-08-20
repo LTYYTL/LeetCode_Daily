@@ -25,7 +25,7 @@ import com.util.UF;
  * strs[i] 只包含小写字母。
  * strs 中的所有单词都具有相同的长度，且是彼此的字母异位词。
  *
- * 注意：本题与主站 839 题相同：https://leetcode-cn.com/problems/similar-string-groups/
+ * 注意：本题与主站 839 题相同：<a href="https://leetcode-cn.com/problems/similar-string-groups/">https://leetcode-cn.com/problems/similar-string-groups/</a>
  */
 public class SimilarStringGroups {
     /**

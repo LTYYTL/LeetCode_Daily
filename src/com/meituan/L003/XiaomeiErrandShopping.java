@@ -1,7 +1,6 @@
 package com.meituan.L003;
 
 import java.io.*;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -50,22 +49,19 @@ public class XiaomeiErrandShopping {
         int n = Integer.parseInt(data[0]), m = Integer.parseInt(data[1]);
 
         //优先队列，按照总金额从小到大排序，当金额相等时，按照编号排序
-        PriorityQueue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if (o1[0] == o2[0])
-                    return o1[1]-o2[1];
-                return o2[0] - o1[0];
-            }
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> {
+            if (o1[0] == o2[0])
+                return o1[1] - o2[1];
+            return o2[0] - o1[0];
         });
 
         //输入订单金额和重量
         for (int i = 1; i <= n; i++) {
             String[] row = reader.readLine().split(" ");
             //金额
-            int v = Integer.valueOf(row[0]);
+            int v = Integer.parseInt(row[0]);
             //重量
-            int w = Integer.valueOf(row[1]);
+            int w = Integer.parseInt(row[1]);
             //总金额
             int price = v + w * 2;
             //加入队列

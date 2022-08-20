@@ -1,5 +1,6 @@
 package com.leetcode.L201_300.L0295;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -33,7 +34,7 @@ public class MedianFinder {
         // 左边要大顶堆 （中间的数最大）
         maxHeap = new PriorityQueue<>((a,b) -> b - a);
         // 右边要小顶堆 （中间的数最小）
-        minHeap = new PriorityQueue<>((a, b) -> a - b);
+        minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a));
     }
 
     public void addNum(int num) {

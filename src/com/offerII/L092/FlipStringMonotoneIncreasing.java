@@ -25,7 +25,7 @@ package com.offerII.L092;
  * 1 <= s.length <= 20000
  * s 中只包含字符 '0' 和 '1'
  *
- * 注意：本题与主站 926 题相同： https://leetcode-cn.com/problems/flip-string-to-monotone-increasing/
+ * 注意：本题与主站 926 题相同： <a href="https://leetcode-cn.com/problems/flip-string-to-monotone-increasing/">https://leetcode-cn.com/problems/flip-string-to-monotone-increasing/</a>
  */
 public class FlipStringMonotoneIncreasing {
     /**

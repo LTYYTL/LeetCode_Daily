@@ -72,7 +72,7 @@ public class FindServersMostRequests {
         }
 
         //按照结束时间进行排序
-        PriorityQueue<int[]> queue = new PriorityQueue<>((a,b) -> a[0]-b[0]);
+        PriorityQueue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
         //记录请求次数
         int[] request = new int[k];
 

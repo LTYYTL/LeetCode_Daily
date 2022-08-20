@@ -54,8 +54,8 @@ public class Codec {
         String[] roots = data.split(", ");
         //存储
         Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < roots.length; i++) {
-            stack.push(Integer.valueOf(roots[i]));
+        for (String root : roots) {
+            stack.push(Integer.valueOf(root));
         }
         //递归
         return construct(Integer.MIN_VALUE, Integer.MAX_VALUE, stack);
@@ -69,7 +69,7 @@ public class Codec {
         //栈顶
         int val = stack.pop();
         //构建树
-        TreeNode root = new TreeNode<>(val);
+        TreeNode<Integer> root = new TreeNode<>(val);
         root.right = construct(val, high, stack);
         root.left = construct(lower, val, stack);
         return root;

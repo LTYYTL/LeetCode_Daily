@@ -1,6 +1,9 @@
 package com.leetcode.L301_400.L0347;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 /**
  * 347. 前 K 个高频元素
@@ -39,12 +42,7 @@ public class KHighElement {
             }
         }
         //定制排序
-        Comparator comparator = new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                return map.get(o1) - map.get(o2);
-            }
-        };
+        Comparator comparator = Comparator.comparingInt(map::get);
         //建立最小堆
         //1、如果堆的元素个数小于 k，就可以直接插入堆中。
         //2、如果堆的元素个数等于 k，则检查堆顶与当前出现次数的大小。

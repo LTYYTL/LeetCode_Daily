@@ -1,5 +1,6 @@
 package com.offer.L0410;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -29,7 +30,7 @@ import java.util.PriorityQueue;
  *
  * 限制：
  * 最多会对 addNum、findMedian 进行 50000 次调用。
- * 注意：本题与主站 295 题相同：https://leetcode-cn.com/problems/find-median-from-data-stream/
+ * 注意：本题与主站 295 题相同：<a href="https://leetcode-cn.com/problems/find-median-from-data-stream/">https://leetcode-cn.com/problems/find-median-from-data-stream/</a>
  */
 public class MedianFinder {
     //小根堆
@@ -38,8 +39,8 @@ public class MedianFinder {
     PriorityQueue<Integer> maxHeap;
 
     public MedianFinder() {
-        minHeap = new PriorityQueue<>((a,b) -> a-b);
-        maxHeap = new PriorityQueue<>((a,b) -> b-a);
+        minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a));
+        maxHeap = new PriorityQueue<>((a, b) -> b - a);
     }
 
     public void addNum(int num) {

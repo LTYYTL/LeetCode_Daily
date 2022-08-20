@@ -63,7 +63,7 @@ public class EscapeLargeMaze {
      */
     private boolean dfs(int[][] blocked, int[] source, int[] target) {
         //存储上是否访问
-        Set<Integer> visited = new HashSet<Integer>();
+        Set<Integer> visited = new HashSet<>();
         //将阻碍点变成已访问
         for (int[] block : blocked) {
             visited.add(block[0]*1000000 + block[1]);
@@ -71,7 +71,7 @@ public class EscapeLargeMaze {
         //源点已访问
         visited.add(source[0]*1000000 + source[1]);
 
-        Queue<int[]> queue = new LinkedList<int[]>();
+        Queue<int[]> queue = new LinkedList<>();
         queue.add(source);
         //遍历
         while (!queue.isEmpty()){
@@ -85,19 +85,19 @@ public class EscapeLargeMaze {
                 //队首元素
                 int[] cur = queue.poll();
                 //遍历四个方向
-                for (int k = 0; k < DIRECTIONS.length; k++) {
+                for (int[] direction : DIRECTIONS) {
                     //新坐标
-                    int x = cur[0] + DIRECTIONS[k][0];
-                    int y = cur[1] + DIRECTIONS[k][1];
+                    int x = cur[0] + direction[0];
+                    int y = cur[1] + direction[1];
                     //越界
-                    if (x< 0 || x >= 1000000 || y < 0 || y >= 1000000)
+                    if (x < 0 || x >= 1000000 || y < 0 || y >= 1000000)
                         continue;
                     //到达目的点
                     if (x == target[0] && y == target[1])
                         return true;
                     //没有访问加入队列
-                    if (visited.add(x*1000000+y))
-                        queue.add(new int[]{x,y});
+                    if (visited.add(x * 1000000 + y))
+                        queue.add(new int[]{x, y});
                 }
             }
         }

@@ -32,7 +32,7 @@ import java.util.PriorityQueue;
  * 最多调用 add 方法 104 次
  * 题目数据保证，在查找第 k 大元素时，数组中至少有 k 个元素
  *
- * 注意：本题与主站 703 题相同： https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
+ * 注意：本题与主站 703 题相同： <a href="https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/">https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/</a>
  */
 public class KthLargest {
     /**

@@ -33,7 +33,7 @@ import java.util.List;
  * 0 <= s.length <= 3000
  * s 仅由数字组成
  *
- * 注意：本题与主站 93 题相同：https://leetcode-cn.com/problems/restore-ip-addresses/
+ * 注意：本题与主站 93 题相同：<a href="https://leetcode-cn.com/problems/restore-ip-addresses/">https://leetcode-cn.com/problems/restore-ip-addresses/</a>
  */
 public class RestoreIPAddresses {
     /**

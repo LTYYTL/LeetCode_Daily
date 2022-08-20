@@ -31,7 +31,7 @@ public class LetterCasePermutation {
         //结果集
         List<String> res = new ArrayList<>();
         //空串
-        if (s == "")
+        if (s.equals(""))
             return res;
         //模拟栈
         StringBuilder path = new StringBuilder();

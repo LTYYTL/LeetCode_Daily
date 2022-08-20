@@ -26,12 +26,13 @@ public class ChalkboardXORGame {
      * 解题思路：
      * 1、假设此时偶数数组所有数的异或值为0，那么Alice就直接获胜。(规则2)
      * 2、如果此时偶数数组所有数的异或值不为0。得到结论：至少有 2 个以上的数使其数组的异或值不为0(记作aa, bb)。Alice会选这两个数中的一个，假设他选了aa。此时Bob有两种方式：
-     *  （1）选剩下的bb, 那么此时数组长度又回到了偶数。情况一：此时数组异或值为0，那么Alice获胜。情况二：数组异或值不为0，那么又回到了步骤2，这一步可以一直到数组的数被选完，然后轮到Alice选，空数组Alice获胜(规则三)。
-     *  （2）如果bob不选bb，那么轮到Alice选时，他也跳过b，因为 bb 有可能是此时唯一的数选完后数组的异或值为0。详细看图。
+     * （1）选剩下的bb, 那么此时数组长度又回到了偶数。情况一：此时数组异或值为0，那么Alice获胜。情况二：数组异或值不为0，那么又回到了步骤2，这一步可以一直到数组的数被选完，然后轮到Alice选，空数组Alice获胜(规则三)。
+     * （2）如果bob不选bb，那么轮到Alice选时，他也跳过b，因为 bb 有可能是此时唯一的数选完后数组的异或值为0。详细看图。
      * 3、我们知道偶数先选方是一定获胜的！那么对于Bob也是同理，如果Alice是奇数方，然后选去一个数字后数组变为偶数，那么Bob此时一定会获胜。那么此时Alice只有一种情况会赢，那就是在他第一次选的时候，黑板上所有数的异或值就已经为0了(规则二)。
-     *
+     * <p>
      * 作者：Xiaohu9527
-     * 链接：https://leetcode-cn.com/problems/chalkboard-xor-game/solution/jian-dan-de-bang-ni-li-jie-zhe-dao-ti-by-kaxa/
+     * 链接：<a href="https://leetcode-cn.com/problems/chalkboard-xor-game/solution/jian-dan-de-bang-ni-li-jie-zhe-dao-ti-by-kaxa/">https://leetcode-cn.com/problems/chalkboard-xor-game/solution/jian-dan-de-bang-ni-li-jie-zhe-dao-ti-by-kaxa/</a>
+     *
      * @param nums
      * @return
      */

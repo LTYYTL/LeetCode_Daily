@@ -35,7 +35,8 @@ public class RepeatedMatch {
      * （2）a 重复 x 次后无法包含 b，比如 a="ab", b="ababa"，a 需要重复 3次才可以，也就是 x+1 次；
      * （3）a 重复 x+1 次后也无法包含 b，比如 a="abc", b="cabcabca"，a 需要重复 4次才可以，也就是 x+2 次；
      * 作者：tong-zhu
-     * 链接：https://leetcode-cn.com/problems/repeated-string-match/solution/tong-ge-lai-shua-ti-la-jian-dan-si-lu-ju-lcit/
+     * 链接：<a href="https://leetcode-cn.com/problems/repeated-string-match/solution/tong-ge-lai-shua-ti-la-jian-dan-si-lu-ju-lcit/">https://leetcode-cn.com/problems/repeated-string-match/solution/tong-ge-lai-shua-ti-la-jian-dan-si-lu-ju-lcit/</a>
+     *
      * @param a
      * @param b
      * @return

@@ -21,7 +21,7 @@ import java.util.Map;
  * 1 <= s1.length, s2.length <= 104
  * s1 和 s2 仅包含小写字母
  *
- * 注意：本题与主站 567 题相同： https://leetcode-cn.com/problems/permutation-in-string/
+ * 注意：本题与主站 567 题相同： <a href="https://leetcode-cn.com/problems/permutation-in-string/">https://leetcode-cn.com/problems/permutation-in-string/</a>
  */
 public class PermutationString {
     /**

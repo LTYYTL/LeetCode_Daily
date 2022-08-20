@@ -2,7 +2,8 @@ package com.leetcode.L901_1000.L0987;
 
 import com.util.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 987. 二叉树的垂序遍历
@@ -52,23 +53,21 @@ public class VerticalOrderTraversalBinaryTree {
      */
     public List<List<Integer>> verticalTraversal(TreeNode<Integer> root) {
         //记录每个节点的行、列、值
-        List<int[]> nodes = new ArrayList<int[]>();
+        List<int[]> nodes = new ArrayList<>();
         //深度优先搜索
         dfs(root, 0, 0, nodes);
         //排序器
-        Collections.sort(nodes, new Comparator<int[]>() {
-            public int compare(int[] tuple1, int[] tuple2) {
-                if (tuple1[0] != tuple2[0]) { //行不等
-                    return tuple1[0] - tuple2[0];
-                } else if (tuple1[1] != tuple2[1]) { //行等，列不等
-                    return tuple1[1] - tuple2[1];
-                } else { //行列都相等，值不等
-                    return tuple1[2] - tuple2[2];
-                }
+        nodes.sort((tuple1, tuple2) -> {
+            if (tuple1[0] != tuple2[0]) { //行不等
+                return tuple1[0] - tuple2[0];
+            } else if (tuple1[1] != tuple2[1]) { //行等，列不等
+                return tuple1[1] - tuple2[1];
+            } else { //行列都相等，值不等
+                return tuple1[2] - tuple2[2];
             }
         });
         //结果集
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         int size = 0;
         //记录上一个节点的号
         int lastcol = Integer.MIN_VALUE;
@@ -76,7 +75,7 @@ public class VerticalOrderTraversalBinaryTree {
             int col = tuple[0], row = tuple[1], value = tuple[2];
             if (col != lastcol) {
                 lastcol = col;
-                ans.add(new ArrayList<Integer>());
+                ans.add(new ArrayList<>());
                 size++;
             }
             ans.get(size - 1).add(value);

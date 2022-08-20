@@ -23,7 +23,7 @@ package com.offer.L0160;
  * -104 <= xn <= 104
  *
  *
- * 注意：本题与主站 50 题相同：https://leetcode-cn.com/problems/powx-n/
+ * 注意：本题与主站 50 题相同：<a href="https://leetcode-cn.com/problems/powx-n/">https://leetcode-cn.com/problems/powx-n/</a>
  */
 public class Pow {
 

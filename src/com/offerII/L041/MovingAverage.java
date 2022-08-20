@@ -29,7 +29,7 @@ import java.util.Queue;
  * -105 <= val <= 105
  * 最多调用 next 方法 104 次
  *
- * 注意：本题与主站 346 题相同： https://leetcode-cn.com/problems/moving-average-from-data-stream/
+ * 注意：本题与主站 346 题相同： <a href="https://leetcode-cn.com/problems/moving-average-from-data-stream/">https://leetcode-cn.com/problems/moving-average-from-data-stream/</a>
  */
 public class MovingAverage {
     /**
@@ -48,17 +48,16 @@ public class MovingAverage {
 
     public double next(int val) {
         //不够窗口大小直接添加
-        if (queue.size() < size){
+        if (queue.size() < size) {
             queue.add(val);
-            sum += val;
-        }else {
+        } else {
             //移除队首
             Integer poll = queue.poll();
             queue.add(val);
             sum -= poll;
-            sum += val;
         }
+        sum += val;
         //求平均
-        return sum/queue.size();
+        return sum / queue.size();
     }
 }

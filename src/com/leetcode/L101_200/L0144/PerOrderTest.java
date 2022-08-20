@@ -5,15 +5,15 @@ import com.util.TreeNode;
 public class PerOrderTest {
     public static void main(String[] args) {
         PerOrder perOrder = new PerOrder();
-        /**
-         * 示例:
-         * 输入: [1,null,2,3]
-         *    1
-         *     \
-         *      2
-         *     /
-         *    3
-         * 输出: [1,2,3]
+        /*
+          示例:
+          输入: [1,null,2,3]
+             1
+              \
+               2
+              /
+             3
+          输出: [1,2,3]
          */
         TreeNode root = new TreeNode(1);
         TreeNode rr = new TreeNode(2);

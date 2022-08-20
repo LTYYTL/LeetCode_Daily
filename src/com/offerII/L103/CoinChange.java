@@ -33,7 +33,7 @@ import java.util.Arrays;
  * 1 <= coins[i] <= 231 - 1
  * 0 <= amount <= 104
  *
- * 注意：本题与主站 322 题相同： https://leetcode-cn.com/problems/coin-change/
+ * 注意：本题与主站 322 题相同： <a href="https://leetcode-cn.com/problems/coin-change/">https://leetcode-cn.com/problems/coin-change/</a>
  */
 public class CoinChange {
     /**

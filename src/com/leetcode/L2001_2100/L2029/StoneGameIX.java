@@ -41,7 +41,8 @@ public class StoneGameIX {
     /**
      * 方法：博弈论
      * 作者：tong-zhu
-     * 链接：https://leetcode-cn.com/problems/stone-game-ix/solution/tong-ge-lai-shua-ti-la-zhao-gui-lu-by-to-xb1w/
+     * 链接：<a href="https://leetcode-cn.com/problems/stone-game-ix/solution/tong-ge-lai-shua-ti-la-zhao-gui-lu-by-to-xb1w/">https://leetcode-cn.com/problems/stone-game-ix/solution/tong-ge-lai-shua-ti-la-zhao-gui-lu-by-to-xb1w/</a>
+     *
      * @param stones
      * @return
      */

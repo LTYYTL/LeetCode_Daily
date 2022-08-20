@@ -24,8 +24,6 @@ package com.leetcode.L101_200.L0121;
 public class BestTimeBuyAndSellStock {
     /**
      * 方法一：模拟
-     * @param prices
-     * @return
      */
     public int maxProfit(int[] prices) {
         //最大收益
@@ -48,8 +46,6 @@ public class BestTimeBuyAndSellStock {
 
     /**
      * 方法二：动态规划
-     * @param prices
-     * @return
      */
     public int maxProfit_dp(int[] prices){
         //长度

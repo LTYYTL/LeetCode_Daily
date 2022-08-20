@@ -61,6 +61,6 @@ public class ValidSquare {
      * @return
      */
     public long len(int[] x, int[] y) {
-        return 1L * (x[0] - y[0]) * (x[0] - y[0]) + 1L * (x[1] - y[1]) * (x[1] - y[1]);
+        return (long) (x[0] - y[0]) * (x[0] - y[0]) + (long) (x[1] - y[1]) * (x[1] - y[1]);
     }
 }

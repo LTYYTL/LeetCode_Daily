@@ -35,26 +35,26 @@ public class FourSumII {
         //结果个数
         int res = 0;
         //存储A+B的和
-        Map<Integer,Integer> countAB = new HashMap<>();
+        Map<Integer, Integer> countAB = new HashMap<>();
         //计算A+B的和
-        for (int i = 0; i < A.length; ++i){
-            for (int j = 0; j < B.length; ++j){
-                int sum = A[i] + B[j];
+        for (int value : A) {
+            for (int k : B) {
+                int sum = value + k;
                 //记录和出现次数
-                if (countAB.containsKey(sum)){
-                    countAB.put(sum,countAB.get(sum)+1);
-                }else {
+                if (countAB.containsKey(sum)) {
+                    countAB.put(sum, countAB.get(sum) + 1);
+                } else {
                     countAB.put(sum, 1);
                 }
             }
         }
         //计算C+D的和的相反数
-        for (int i = 0; i < C.length; ++i){
-            for (int j = 0; j < D.length; ++j){
-                int sum = -(C[i] + D[j]);
+        for (int j : C) {
+            for (int k : D) {
+                int sum = -(j + k);
                 //当C+D的和的相反数出现在map中，说明A+B+C+D的和为0，获得map中的次数即是总次数
                 if (countAB.containsKey(sum))
-                    res+=countAB.get(sum);
+                    res += countAB.get(sum);
             }
         }
         return res;

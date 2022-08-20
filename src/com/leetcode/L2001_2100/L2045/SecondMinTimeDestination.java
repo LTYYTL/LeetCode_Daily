@@ -115,7 +115,7 @@ public class SecondMinTimeDestination {
     private List<Integer>[] createGrep(int n,int[][] edges){
         List<Integer>[] grep = new List[n+1];
         for (int i = 0; i <= n; i++) {
-            grep[i] = new ArrayList<Integer>();
+            grep[i] = new ArrayList<>();
         }
 
         for (int[] edge : edges) {

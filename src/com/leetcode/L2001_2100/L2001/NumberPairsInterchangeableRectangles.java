@@ -48,7 +48,7 @@ public class NumberPairsInterchangeableRectangles {
             //计算最大公约数
             int gcd=gcd(arr[0],arr[1]);
             //widthi*10^5+heighti能保证这种类型的矩形唯一
-            long temp=arr[0]/gcd*100000+arr[1]/gcd;
+            long temp = arr[0] / gcd * 100000L + arr[1] / gcd;
             //存入次数
             map.put(temp,map.getOrDefault(temp,0L)+1);
         }

@@ -27,7 +27,7 @@ import java.util.Queue;
  *
  * 提示：
  * 节点总数 <= 1000
- * 注意：本题与主站 102 题相同：https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+ * 注意：本题与主站 102 题相同：<a href="https://leetcode-cn.com/problems/binary-tree-level-order-traversal/">https://leetcode-cn.com/problems/binary-tree-level-order-traversal/</a>
  */
 public class PrintBinaryTreeII {
     /**

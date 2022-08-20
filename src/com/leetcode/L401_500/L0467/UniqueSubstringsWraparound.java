@@ -49,8 +49,9 @@ public class UniqueSubstringsWraparound {
                 //回归初始化
                 k = 1;
             }
+            int index = p.charAt(i) - 'a';
             //记录最大的长度
-            dp[p.charAt(i) - 'a'] = Math.max(dp[p.charAt(i) - 'a'], k);
+            dp[index] = Math.max(dp[index], k);
         }
         //计算所有长度
         return Arrays.stream(dp).sum();

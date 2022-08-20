@@ -27,8 +27,6 @@ public class AdditiveNumber {
 
     /**
      * 方法：回溯算法
-     * @param num
-     * @return
      */
     public boolean isAdditiveNumber(String num) {
         //深度优先搜索
@@ -37,12 +35,6 @@ public class AdditiveNumber {
 
     /**
      * 深度优先搜索
-     * @param num
-     * @param index
-     * @param count
-     * @param prev
-     * @param prevprev
-     * @return
      */
     private boolean dfs(String num, int index, int count, long prev, long prevprev) {
         //当前索引超过最大长度

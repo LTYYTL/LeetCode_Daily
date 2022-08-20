@@ -25,8 +25,6 @@ public class BiNode {
 
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public TreeNode convertBiNode(TreeNode root) {
         //中序遍历

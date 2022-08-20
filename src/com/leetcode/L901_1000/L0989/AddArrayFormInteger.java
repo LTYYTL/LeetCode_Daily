@@ -38,12 +38,9 @@ import java.util.List;
 public class AddArrayFormInteger {
     /**
      * 方法：数学
-     * @param A
-     * @param K
-     * @return
      */
     public List<Integer> addToArrayForm(int[] A, int K) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         int n = A.length;
         for (int i = n - 1; i >= 0 || K > 0; --i, K /= 10) {
             if (i >= 0) {

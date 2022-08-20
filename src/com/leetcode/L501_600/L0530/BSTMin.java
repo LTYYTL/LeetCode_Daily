@@ -23,7 +23,7 @@ import java.util.Stack;
  *
  * 提示：
  * 树中至少有 2 个节点。
- * 本题与 783 https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/ 相同
+ * 本题与 783 <a href="https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/">https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/</a> 相同
  */
 public class BSTMin {
     //差值的最小值

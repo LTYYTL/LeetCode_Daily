@@ -1,6 +1,6 @@
 package com.leetcode.L701_800.L0710;
 
-import java.util.*;
+import java.util.HashMap;
 
 /**
  * 710. 黑名单中的随机数
@@ -41,7 +41,7 @@ public class Solution {
     /**
      * 方法：map映射
      */
-    int size = 0;
+    int size;
     //存放黑名单数字与之互换的数字，key:黑名单数字、value：与之互换的数字
     HashMap<Integer, Integer> map = new HashMap<>();
 

@@ -1,6 +1,9 @@
 package com.leetcode.L1501_1600.L1514;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * 1514. 概率最大的路径
@@ -69,12 +72,10 @@ public class PathMaximumProbability {
         probTo[start] = 1;
 
         // 优先级队列，probFromStart 较大的排在前面
-        PriorityQueue<State> queue = new PriorityQueue<>((a, b) -> {
-            return Double.compare(b.probFromStart, a.probFromStart);
-        });
-        queue.offer(new State(start,1));
+        PriorityQueue<State> queue = new PriorityQueue<>((a, b) -> Double.compare(b.probFromStart, a.probFromStart));
+        queue.offer(new State(start, 1));
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             State cur = queue.poll();
             int curId = cur.id;
             double curPro = cur.probFromStart;
@@ -92,7 +93,7 @@ public class PathMaximumProbability {
                 double nextPro = probTo[curId] * neighbor[1];
                 if (nextPro > probTo[nextId]){
                     probTo[nextId] = nextPro;
-                    queue.offer(new State(nextId,nextPro));
+                    queue.offer(new State(nextId, nextPro));
                 }
             }
         }
@@ -100,7 +101,7 @@ public class PathMaximumProbability {
         return 0.0;
     }
 
-    class State {
+    static class State {
         // 图节点的 id
         int id;
         // 从 start 节点到达当前节点的概率

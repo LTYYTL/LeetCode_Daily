@@ -45,9 +45,7 @@ public class LargestNumber {
         //给字符串数组排序
         //判断【3，30】顺序
         //比较330，303大小，最终确定【3，30】
-        Arrays.sort(numsToWord,(a,b) ->{
-            return (b+a).compareTo(a+b);
-        });
+        Arrays.sort(numsToWord, (a, b) -> (b + a).compareTo(a + b));
         StringBuilder stringBuilder = new StringBuilder();
         for (String s:numsToWord) {
             stringBuilder.append(s);

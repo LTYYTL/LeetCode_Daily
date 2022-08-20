@@ -27,7 +27,7 @@ package com.offerII.L008;
  * 进阶：
  * 如果你已经实现 O(n) 时间复杂度的解法, 请尝试设计一个 O(n log(n)) 时间复杂度的解法。
  *
- * 注意：本题与主站 209 题相同：https://leetcode-cn.com/problems/minimum-size-subarray-sum/
+ * 注意：本题与主站 209 题相同：<a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/">https://leetcode-cn.com/problems/minimum-size-subarray-sum/</a>
  */
 public class MinimumSizeSubarraySum {
     /**

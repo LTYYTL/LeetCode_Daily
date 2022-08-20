@@ -37,7 +37,8 @@ public class SmallestRotationScore {
     /**
      * 方法：前缀和
      * 作者：kyushu
-     * 链接：https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/solution/rustgojava-jian-duan-jie-100-by-kyushu-ieua/
+     * 链接：<a href="https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/solution/rustgojava-jian-duan-jie-100-by-kyushu-ieua/">https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/solution/rustgojava-jian-duan-jie-100-by-kyushu-ieua/</a>
+     *
      * @param nums
      * @return
      */

@@ -19,7 +19,7 @@ package com.offer.L0142;
  *
  * 提示：
  * 2 <= n <= 1000
- * 注意：本题与主站 343 题相同：https://leetcode-cn.com/problems/integer-break/
+ * 注意：本题与主站 343 题相同：<a href="https://leetcode-cn.com/problems/integer-break/">https://leetcode-cn.com/problems/integer-break/</a>
  */
 public class CutRopeII {
     /**

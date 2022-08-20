@@ -82,9 +82,10 @@ public class CatAndMouse {
             return dp[cat][mouse][turns] = CAT_WIN;
 
         // turns 为偶数是轮到老鼠走，为奇数是轮到猫走
+        int ans;
         if (turns % 2 == 0) {
             //老鼠最坏情况是猫赢
-            int ans = CAT_WIN;
+            ans = CAT_WIN;
             //尝试走到下一个节点
             for (int next : graph[mouse]) {
                 int nextAns = dfs(graph, n, dp, cat, next, turns + 1);
@@ -96,10 +97,9 @@ public class CatAndMouse {
                     ans = DRAW;
             }
             // 返回老鼠走的结果
-            return dp[cat][mouse][turns] = ans;
         } else {
             // 猫最坏情况是老鼠赢
-            int ans = MOUSE_WIN;
+            ans = MOUSE_WIN;
             for (int next : graph[cat]) {
                 // 注意猫不能走到0号节点
                 if (next != 0) {
@@ -114,7 +114,7 @@ public class CatAndMouse {
                 }
             }
             // 返回猫走的结果
-            return dp[cat][mouse][turns] = ans;
         }
+        return dp[cat][mouse][turns] = ans;
     }
 }

@@ -36,7 +36,7 @@ public class WiggleSubsequence {
      * 3、nums[i+1] == nums[i]，新的元素不能用于任何序列，保持不变
      *
      * 作者：lgh18
-     * 链接：https://leetcode-cn.com/problems/wiggle-subsequence/solution/tan-xin-si-lu-qing-xi-er-zheng-que-de-ti-jie-by-lg/
+     * 链接：<a href="https://leetcode-cn.com/problems/wiggle-subsequence/solution/tan-xin-si-lu-qing-xi-er-zheng-que-de-ti-jie-by-lg/">https://leetcode-cn.com/problems/wiggle-subsequence/solution/tan-xin-si-lu-qing-xi-er-zheng-que-de-ti-jie-by-lg/</a>
      * @param nums
      * @return
      */

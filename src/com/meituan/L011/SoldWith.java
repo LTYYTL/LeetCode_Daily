@@ -1,7 +1,6 @@
 package com.meituan.L011;
 
 import java.io.*;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -44,12 +43,7 @@ public class SoldWith {
         long g = Long.parseLong(data[6]);
 
         //将数量和价格绑定
-        PriorityQueue<long[]> queue = new PriorityQueue<>(new Comparator<long[]>() {
-            @Override
-            public int compare(long[] o1, long[] o2) {
-                return (int) (o2[0]-o1[0]);
-            }
-        });
+        PriorityQueue<long[]> queue = new PriorityQueue<>((o1, o2) -> (int) (o2[0] - o1[0]));
         queue.add(new long[]{e,a});
         queue.add(new long[]{f,b});
         queue.add(new long[]{g,c});

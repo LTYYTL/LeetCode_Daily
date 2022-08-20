@@ -31,7 +31,7 @@ package com.offerII.L068;
  * nums 为无重复元素的升序排列数组
  * -104 <= target <= 104
  *
- * 注意：本题与主站 35 题相同： https://leetcode-cn.com/problems/search-insert-position/
+ * 注意：本题与主站 35 题相同： <a href="https://leetcode-cn.com/problems/search-insert-position/">https://leetcode-cn.com/problems/search-insert-position/</a>
  */
 public class SearchInsertPosition {
     /**

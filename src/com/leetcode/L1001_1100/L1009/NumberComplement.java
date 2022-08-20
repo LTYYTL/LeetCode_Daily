@@ -25,7 +25,7 @@ package com.leetcode.L1001_1100.L1009;
  *
  * 提示：
  * 0 <= N < 10^9
- * 本题与 476：https://leetcode-cn.com/problems/number-complement/ 相同
+ * 本题与 476：<a href="https://leetcode-cn.com/problems/number-complement/">https://leetcode-cn.com/problems/number-complement/</a> 相同
  */
 public class NumberComplement {
     /**

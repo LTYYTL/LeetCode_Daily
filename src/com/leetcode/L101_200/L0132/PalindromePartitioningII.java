@@ -22,7 +22,7 @@ package com.leetcode.L101_200.L0132;
  * 1 <= s.length <= 2000
  * s 仅由小写英文字母组成
  *
- * 注意：本题与主站 132 题相同： https://leetcode-cn.com/problems/palindrome-partitioning-ii/
+ * 注意：本题与主站 132 题相同： <a href="https://leetcode-cn.com/problems/palindrome-partitioning-ii/">https://leetcode-cn.com/problems/palindrome-partitioning-ii/</a>
  */
 public class PalindromePartitioningII {
     /**

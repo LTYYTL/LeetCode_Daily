@@ -23,7 +23,7 @@ import java.util.Map;
  *
  * 进阶：可以设计并实现时间复杂度为 O(n) 的解决方案吗？
  *
- * 注意：本题与主站 128 题相同： https://leetcode-cn.com/problems/longest-consecutive-sequence/
+ * 注意：本题与主站 128 题相同： <a href="https://leetcode-cn.com/problems/longest-consecutive-sequence/">https://leetcode-cn.com/problems/longest-consecutive-sequence/</a>
  */
 public class LongestConsecutiveSeq {
     /**
@@ -64,7 +64,7 @@ public class LongestConsecutiveSeq {
         return res + 1;
     }
 
-    class UF{
+    static class UF {
         int[] parent;
 
         public UF(int n) {
@@ -74,7 +74,7 @@ public class LongestConsecutiveSeq {
             }
         }
 
-        public void union(int p,int q){
+        public void union(int p, int q) {
             int rootP = find(p);
             int rootQ = find(q);
 

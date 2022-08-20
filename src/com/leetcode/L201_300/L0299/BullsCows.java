@@ -70,6 +70,6 @@ public class BullsCows {
         for (int i = 0; i < 10; ++i) {
             B += Math.min(cntS[i], cntG[i]);
         }
-        return new StringBuilder().append(A).append("A").append(B).append("B").toString();
+        return A + "A" + B + "B";
     }
 }

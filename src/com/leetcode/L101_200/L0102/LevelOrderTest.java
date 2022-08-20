@@ -5,20 +5,20 @@ import com.util.TreeNode;
 public class LevelOrderTest {
     public static void main(String[] args) {
         LevelOrder levelOrder = new LevelOrder();
-        /**
-         * 示例：
-         * 二叉树：[3,9,20,null,null,15,7],
-         *     3
-         *    / \
-         *   9  20
-         *     /  \
-         *    15   7
-         * 返回其层次遍历结果：
-         * [
-         *   [3],
-         *   [9,20],
-         *   [15,7]
-         * ]
+        /*
+          示例：
+          二叉树：[3,9,20,null,null,15,7],
+              3
+             / \
+            9  20
+              /  \
+             15   7
+          返回其层次遍历结果：
+          [
+            [3],
+            [9,20],
+            [15,7]
+          ]
          */
         //构建二叉树
         TreeNode<Integer> root = new TreeNode<>(3);

@@ -5,10 +5,10 @@ import com.util.ListNode;
 public class DeleteNodeTest {
     public static void main(String[] args) {
         DeleteNode deleteNode = new DeleteNode();
-        /**
-         * 示例：
-         * 给定一个链表: 1->2->3->4->5, 和 k = 2.
-         * 返回链表 4->5.
+        /*
+          示例：
+          给定一个链表: 1->2->3->4->5, 和 k = 2.
+          返回链表 4->5.
          */
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);

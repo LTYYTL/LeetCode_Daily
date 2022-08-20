@@ -38,7 +38,7 @@ import java.util.PriorityQueue;
  * lists[i] 按 升序 排列
  * lists[i].length 的总和不超过 10^4
  *
- * 注意：本题与主站 23 题相同： https://leetcode-cn.com/problems/merge-k-sorted-lists/
+ * 注意：本题与主站 23 题相同： <a href="https://leetcode-cn.com/problems/merge-k-sorted-lists/">https://leetcode-cn.com/problems/merge-k-sorted-lists/</a>
  */
 public class MergeKSortedLists {
     /**
@@ -48,31 +48,25 @@ public class MergeKSortedLists {
      */
     public ListNode mergeKLists(ListNode[] lists) {
         //空值情况
-        if (lists.length == 0 || lists == null){
+        if (lists.length == 0 || lists == null) {
             return null;
         }
         //创建小根堆，并定义好排序
-        PriorityQueue<ListNode> queue = new PriorityQueue<>(new Comparator<ListNode>() {
-            @Override
-            public int compare(ListNode o1, ListNode o2) {
-                return o1.val - o2.val;
-            }
-        });
+        PriorityQueue<ListNode> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o.val));
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
         //将k个链表的第一个节点放入堆中
-        for (int i = 0; i < lists.length; i++){
-            ListNode head = lists[i];
-            if (head != null){
+        for (ListNode head : lists) {
+            if (head != null) {
                 queue.add(head);
             }
         }
         //从堆顶取出最小节点，并将该节点的下一个节点加入堆中
-        while (queue.size()>0){
+        while (queue.size() > 0) {
             ListNode node = queue.poll();
             cur.next = node;
             cur = cur.next;
-            if (node.next != null){
+            if (node.next != null) {
                 queue.add(node.next);
             }
         }

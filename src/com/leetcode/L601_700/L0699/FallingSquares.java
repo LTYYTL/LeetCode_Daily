@@ -52,13 +52,13 @@ public class FallingSquares {
         //最高
         int maxHigh = 0;
         //遍历
-        for (int i = 0; i < positions.length; i++) {
+        for (int[] position : positions) {
             //方块起始点
-            int start = positions[i][0];
+            int start = position[0];
             //方块终点
-            int end = positions[i][0] + positions[i][1];
+            int end = position[0] + position[1];
             //方块高度
-            int high = positions[i][1];
+            int high = position[1];
             //方块的实际高度
             int baseHigh = 0;
             //遍历
@@ -82,7 +82,7 @@ public class FallingSquares {
 
     }
 
-    class Node {
+    static class Node {
         int start;
         int end;
         int high;

@@ -56,37 +56,34 @@ public class EvaluateReversePolishNotation {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         int len = tokens.length;
-        int a = 0;
-        int b = 0;
-        for (int i = 0; i < len; ++i){
-            String c = tokens[i];
-            switch (c){
-                case "+":
-                  a = stack.pop();
-                  b = stack.pop();
-                  stack.push(a+b);
-                  break;
-
-                case "-":
+        int a;
+        int b;
+        for (String c : tokens) {
+            switch (c) {
+                case "+" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(b-a);
-                    break;
-
-                case "*":
+                    stack.push(a + b);
+                }
+                case "-" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(a*b);
-                    break;
-                case "/":
+                    stack.push(b - a);
+                }
+                case "*" -> {
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(b/a);
-                    break;
-                default:
-                    int num = Integer.valueOf(c);
+                    stack.push(a * b);
+                }
+                case "/" -> {
+                    a = stack.pop();
+                    b = stack.pop();
+                    stack.push(b / a);
+                }
+                default -> {
+                    int num = Integer.parseInt(c);
                     stack.push(num);
-                    break;
+                }
             }
         }
         return stack.pop();

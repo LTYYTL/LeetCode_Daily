@@ -43,8 +43,6 @@ public class AllPathsFromSourceTarget {
 
     /**
      * 方法一：深度优先搜索
-     * @param graph
-     * @return
      */
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         res = new ArrayList<>();
@@ -87,8 +85,6 @@ public class AllPathsFromSourceTarget {
 
     /**
      * 方法二：广度优先搜索
-     * @param graph
-     * @return
      */
     public List<List<Integer>> allPathsSourceTarget_bfs(int[][] graph) {
         //长度

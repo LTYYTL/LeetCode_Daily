@@ -16,8 +16,6 @@ package com.offer.L0210;
 public class AdjustOrderArray {
     /**
      * 方法：双指针
-     * @param nums
-     * @return
      */
     public int[] exchange(int[] nums) {
         //双指针

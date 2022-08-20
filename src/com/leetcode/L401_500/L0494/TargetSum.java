@@ -65,7 +65,8 @@ public class TargetSum {
     /**
      * 方法二：动态规划
      * 作者：cheungq-6
-     * 链接：https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-by-cheungq-6-h1dz/
+     * 链接：<a href="https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-by-cheungq-6-h1dz/">https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-by-cheungq-6-h1dz/</a>
+     *
      * @param nums
      * @param target
      * @return

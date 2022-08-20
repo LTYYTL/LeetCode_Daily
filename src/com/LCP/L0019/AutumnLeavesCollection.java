@@ -23,7 +23,7 @@ package com.LCP.L0019;
  */
 public class AutumnLeavesCollection {
     public int minimumOperations(String leaves) {
-        if (leaves == null || leaves == "") {   // 排除 不合法参数情况
+        if (leaves == null || leaves.equals("")) {   // 排除 不合法参数情况
             return 0;
         }
         int length = leaves.length();
@@ -47,7 +47,7 @@ public class AutumnLeavesCollection {
         state[0][0] = chars[0] == 'y' ? 1 : 0;
         state[0][1] = state[0][2] = state[1][2] = Integer.MAX_VALUE;
 
-        int isYellow = 0;   // 判断 当前遍历的叶子 是不是 黄色
+        int isYellow;   // 判断 当前遍历的叶子 是不是 黄色
 
         /*
             遍历 原叶集，生成状态数组

@@ -19,7 +19,7 @@ import java.util.Stack;
  *             /   \
  *           20     13
  *
- * 注意：本题和 1038: https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/ 相同
+ * 注意：本题和 1038: <a href="https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/">https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/</a> 相同
  */
 public class ConvertBSTToGreaterTree {
 
@@ -53,7 +53,7 @@ public class ConvertBSTToGreaterTree {
     public TreeNode convertBST_Iteration(TreeNode<Integer> root){
         //用于中序遍历的栈
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode res = root;
+        TreeNode<Integer> res = root;
         int pre = 0;
 
         while (!stack.isEmpty() || root!=null){

@@ -25,7 +25,7 @@ import com.util.UF;
  * isConnected[i][i] == 1
  * isConnected[i][j] == isConnected[j][i]
  *
- * 注意：本题与主站 547 题相同： https://leetcode-cn.com/problems/number-of-provinces/
+ * 注意：本题与主站 547 题相同： <a href="https://leetcode-cn.com/problems/number-of-provinces/">https://leetcode-cn.com/problems/number-of-provinces/</a>
  */
 public class NumberProvinces {
     /**

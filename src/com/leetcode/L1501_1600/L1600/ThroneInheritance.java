@@ -75,7 +75,7 @@ public class ThroneInheritance {
     //添加孩子
     public void birth(String parentName, String childName) {
         //查询父亲，获得孩子列表
-        List<String> children = relationship.getOrDefault(parentName, new ArrayList<String>());
+        List<String> children = relationship.getOrDefault(parentName, new ArrayList<>());
         //添加孩子
         children.add(childName);
         relationship.put(parentName,children);
@@ -104,7 +104,7 @@ public class ThroneInheritance {
             res.add(name);
         }
         //获取当前人的孩子
-        List<String> children = relationship.getOrDefault(name, new ArrayList<String>());
+        List<String> children = relationship.getOrDefault(name, new ArrayList<>());
         //遍历当前人的孩子
         for (String child : children) {
             preorder(res,child);

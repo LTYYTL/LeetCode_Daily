@@ -14,14 +14,15 @@ public class VolumeHistogramLCCI {
     /**
      * 方法：双指针
      * 作者：threesr
-     * 链接：https://leetcode-cn.com/problems/volume-of-histogram-lcci/solution/shuang-zhi-zhen-an-xing-qiu-jie-xiang-xi-d162/
+     * 链接：<a href="https://leetcode-cn.com/problems/volume-of-histogram-lcci/solution/shuang-zhi-zhen-an-xing-qiu-jie-xiang-xi-d162/">https://leetcode-cn.com/problems/volume-of-histogram-lcci/solution/shuang-zhi-zhen-an-xing-qiu-jie-xiang-xi-d162/</a>
+     *
      * @return
      */
     public int trap(int[] height) {
         //边界体积
         int sum = 0;
-        for (int i = 0; i < height.length; ++i){
-            sum += height[i];
+        for (int j : height) {
+            sum += j;
         }
         //总体积
         int volume = 0;

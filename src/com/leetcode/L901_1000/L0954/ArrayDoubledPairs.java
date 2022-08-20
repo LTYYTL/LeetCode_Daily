@@ -1,6 +1,5 @@
 package com.leetcode.L901_1000.L0954;
 
-import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -30,25 +29,20 @@ import java.util.TreeMap;
 public class ArrayDoubledPairs {
     /**
      * 方法：map映射
-     * @param arr
-     * @return
      */
     public boolean canReorderDoubled(int[] arr) {
         //存储每个数字出现的次数，按照绝对值大小排序，绝对值一样，按数大小排序
-        TreeMap<Integer,Integer> map = new TreeMap<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                int a = Math.abs(o1);
-                int b = Math.abs(o2);
-                if (a == b)
-                    return o1-o2;
-                return a - b;
-            }
+        TreeMap<Integer, Integer> map = new TreeMap<>((o1, o2) -> {
+            int a = Math.abs(o1);
+            int b = Math.abs(o2);
+            if (a == b)
+                return o1 - o2;
+            return a - b;
         });
 
         //加入map
-        for (int i = 0; i < arr.length; i++) {
-            map.put(arr[i],map.getOrDefault(arr[i],0)+1);
+        for (int j : arr) {
+            map.put(j, map.getOrDefault(j, 0) + 1);
         }
 
         //遍历
@@ -58,7 +52,7 @@ public class ArrayDoubledPairs {
             //获取key
             int key = entry.getKey();
             //判断2倍是否存在并且能完全用掉
-            if (!map.containsKey(key*2) || entry.getValue() > map.get(key*2))
+            if (!map.containsKey(key * 2) || entry.getValue() > map.get(key * 2))
                 return false;
             //剩余元素
             int diff = map.get(key*2) - entry.getValue();

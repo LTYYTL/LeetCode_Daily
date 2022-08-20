@@ -60,9 +60,7 @@ public class ReconstructDigitsEnglish {
         //遍历
         for (int i = 0; i < 10; i++) {
             //遍历数字次数
-            for (int j = 0; j < cnt[i]; j++) {
-                res.append(i);
-            }
+            res.append(String.valueOf(i).repeat(Math.max(0, cnt[i])));
         }
 
         return res.toString();

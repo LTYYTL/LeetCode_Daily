@@ -30,8 +30,8 @@ public class UniqueNumberOccurrences {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
         //记录每个元素出现的次数
-        for (int i = 0; i < arr.length; i++) {
-            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        for (int j : arr) {
+            map.put(j, map.getOrDefault(j, 0) + 1);
         }
         //set中不能有重复元素，当map长度与set长度不一样时就不是独一无二的
         return map.size() == new HashSet<>(map.values()).size();

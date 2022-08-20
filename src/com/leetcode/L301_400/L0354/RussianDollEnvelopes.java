@@ -1,7 +1,6 @@
 package com.leetcode.L301_400.L0354;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * 354. 俄罗斯套娃信封问题
@@ -34,12 +33,7 @@ public class RussianDollEnvelopes {
         int n = envelopes.length;
         //（1）w升序
         //（2）w相同时，h降序
-        Arrays.sort(envelopes, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] == o2[0] ? o2[1] -o1[1] : o1[0]-o2[0];
-            }
-        });
+        Arrays.sort(envelopes, (o1, o2) -> o1[0] == o2[0] ? o2[1] - o1[1] : o1[0] - o2[0]);
         //变成一维数组
         int[] height = new int[n];
         for (int i = 0; i < envelopes.length; i++) {

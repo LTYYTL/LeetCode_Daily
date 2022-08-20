@@ -36,7 +36,7 @@ package com.interview.L0107;
  *   [12, 6, 8, 9],
  *   [16, 7,10,11]
  * ]
- * 注意：本题与主站 48 题相同：https://leetcode-cn.com/problems/rotate-image/
+ * 注意：本题与主站 48 题相同：<a href="https://leetcode-cn.com/problems/rotate-image/">https://leetcode-cn.com/problems/rotate-image/</a>
  */
 public class RotateMatrix {
     /**

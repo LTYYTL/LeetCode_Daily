@@ -63,7 +63,7 @@ public class TextJustification {
      * @return
      */
     public List<String> fullJustify(String[] words, int maxWidth) {
-        List<String> ans = new ArrayList<String>();
+        List<String> ans = new ArrayList<>();
         int right = 0, n = words.length;
         while (true) {
             int left = right; // 当前行的第一个单词在 words 的位置
@@ -88,11 +88,11 @@ public class TextJustification {
             // 当前行只有一个单词：该单词左对齐，在行末填充剩余空格
             if (numWords == 1) {
                 //将单词变成字符串
-                StringBuffer sb = new StringBuffer(words[left]);
                 //在末尾添加空格
-                sb.append(blank(numSpaces));
                 //加入结果集
-                ans.add(sb.toString());
+                ans.add(words[left] + blank(numSpaces)
+                        //加入结果集
+                );
                 continue;
             }
 
@@ -101,23 +101,18 @@ public class TextJustification {
             int avgSpaces = numSpaces / (numWords - 1);
             //多余的空格
             int extraSpaces = numSpaces % (numWords - 1);
-            StringBuffer sb = new StringBuffer();
             //在头部添加多余的空格
-            sb.append(join(words, left, left + extraSpaces + 1, blank(avgSpaces + 1))); // 拼接额外加一个空格的单词
-            //添加应分的空格
-            sb.append(blank(avgSpaces));
-            sb.append(join(words, left + extraSpaces + 1, right, blank(avgSpaces))); // 拼接其余单词
-            ans.add(sb.toString());
+            String sb = join(words, left, left + extraSpaces + 1, blank(avgSpaces + 1)) + // 拼接额外加一个空格的单词
+                    //添加应分的空格
+                    blank(avgSpaces) +
+                    join(words, left + extraSpaces + 1, right, blank(avgSpaces)); // 拼接其余单词
+            ans.add(sb);
         }
     }
 
     // blank 返回长度为 n 的由空格组成的字符串
     public String blank(int n) {
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < n; ++i) {
-            sb.append(' ');
-        }
-        return sb.toString();
+        return " ".repeat(Math.max(0, n));
     }
 
     // join 返回用 sep 拼接 [left, right) 范围内的 words 组成的字符串

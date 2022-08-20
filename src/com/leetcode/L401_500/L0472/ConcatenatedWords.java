@@ -2,6 +2,7 @@ package com.leetcode.L401_500.L0472;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -39,7 +40,7 @@ public class ConcatenatedWords {
         //结果集
         List<String> res = new ArrayList<>();
         //按照字符串大小排序
-        Arrays.sort(words,(a,b) -> a.length() - b.length());
+        Arrays.sort(words, Comparator.comparingInt(String::length));
         //遍历
         for (String word : words) {
             //空串
@@ -99,16 +100,16 @@ public class ConcatenatedWords {
         cur.isWord = true;
     }
 
-    class Tire{
+    static class Tire {
         boolean isWord;
         Tire[] next;
 
-        public Tire(boolean isWord){
+        public Tire(boolean isWord) {
             this.isWord = isWord;
             this.next = new Tire[26];
         }
 
-        public Tire(){
+        public Tire() {
             this(false);
         }
     }

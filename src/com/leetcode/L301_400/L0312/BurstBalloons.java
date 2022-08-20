@@ -34,9 +34,7 @@ public class BurstBalloons {
         // 添加两侧的虚拟气球
         int[] points = new int[n + 2];
         points[0] = points[n + 1] = 1;
-        for (int i = 1; i <= n; i++) {
-            points[i] = nums[i - 1];
-        }
+        System.arraycopy(nums, 0, points, 1, n);
         // base case 已经都被初始化为 0
         int[][] dp = new int[n + 2][n + 2];
         // 开始状态转移

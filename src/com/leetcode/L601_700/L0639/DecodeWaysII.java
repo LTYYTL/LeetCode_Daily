@@ -44,6 +44,7 @@ package com.leetcode.L601_700.L0639;
  * 1 <= s.length <= 105
  * s[i] 是 0 - 9 中的一位数字或字符 '*'
  */
+@SuppressWarnings("DuplicateExpressions")
 public class DecodeWaysII {
     int mod = (int)1e9+7;
     public int numDecodings(String s) {

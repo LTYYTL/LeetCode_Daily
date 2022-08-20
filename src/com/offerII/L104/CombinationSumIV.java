@@ -34,7 +34,7 @@ package com.offerII.L104;
  *
  * 进阶：如果给定的数组中含有负数会发生什么？问题会产生何种变化？如果允许负数出现，需要向题目中添加哪些限制条件？
  *
- * 注意：本题与主站 377 题相同：https://leetcode-cn.com/problems/combination-sum-iv/
+ * 注意：本题与主站 377 题相同：<a href="https://leetcode-cn.com/problems/combination-sum-iv/">https://leetcode-cn.com/problems/combination-sum-iv/</a>
  */
 public class CombinationSumIV {
     /**

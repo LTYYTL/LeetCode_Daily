@@ -43,10 +43,10 @@ public class ValidTicState {
         int x = 0;
         int o = 0;
         //遍历
-        for (int i = 0; i < board.length; i++) {
-            for (char c : board[i].toCharArray()) {
-                x = (c == 'X') ? x+1 : x;
-                o = (c == 'O') ? o+1 : o;
+        for (String s : board) {
+            for (char c : s.toCharArray()) {
+                x = (c == 'X') ? x + 1 : x;
+                o = (c == 'O') ? o + 1 : o;
             }
         }
 
@@ -54,7 +54,7 @@ public class ValidTicState {
         if (x != o && x != o + 1)
             return false;
         // 1号玩家赢，则xcount>ocount
-        if (x != o +1 && win(board,'X') )
+        if (x != o + 1 && win(board, 'X'))
             return false;
         // 2号玩家赢，则xcount==ocount
         return x == o || !win(board, 'O');

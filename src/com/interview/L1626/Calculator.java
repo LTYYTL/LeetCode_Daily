@@ -53,18 +53,10 @@ public class Calculator {
             if (!Character.isDigit(c) || i == s.length()-1) {
                 //根据符号做操作
                 switch (flag) {
-                    case '+':
-                        stack.push(num);
-                        break;
-                    case '-':
-                        stack.push(-num);
-                        break;
-                    case '*':
-                        stack.push(stack.pop()*num);
-                        break;
-                    case '/':
-                        stack.push(stack.pop()/num);
-                        break;
+                    case '+' -> stack.push(num);
+                    case '-' -> stack.push(-num);
+                    case '*' -> stack.push(stack.pop() * num);
+                    case '/' -> stack.push(stack.pop() / num);
                 }
                 //记录符号
                 flag = c;

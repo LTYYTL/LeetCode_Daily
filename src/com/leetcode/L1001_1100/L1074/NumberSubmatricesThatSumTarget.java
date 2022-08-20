@@ -47,7 +47,7 @@ public class NumberSubmatricesThatSumTarget {
         int ans = 0;
         for (int top = 1; top <= n; top++) {
             for (int bot = top; bot <= n; bot++) {
-                int cur = 0;
+                int cur;
                 Map<Integer, Integer> map = new HashMap<>();
                 for (int r = 1; r <= m; r++) {
                     cur = sum[bot][r] - sum[top - 1][r];

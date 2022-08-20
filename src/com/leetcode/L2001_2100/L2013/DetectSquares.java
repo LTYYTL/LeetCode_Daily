@@ -47,13 +47,13 @@ public class DetectSquares {
     Map<Integer, Map<Integer, Integer>> map;
 
     public DetectSquares() {
-        map = new HashMap<Integer, Map<Integer, Integer>>();
+        map = new HashMap<>();
     }
 
     public void add(int[] point) {
         int x = point[0], y = point[1];
         //存入<x,<y,点(x,y)出现的次数>>
-        map.putIfAbsent(x, new HashMap<Integer, Integer>());
+        map.putIfAbsent(x, new HashMap<>());
         Map<Integer, Integer> ymap = map.get(x);
         ymap.put(y, ymap.getOrDefault(y, 0) + 1);
     }

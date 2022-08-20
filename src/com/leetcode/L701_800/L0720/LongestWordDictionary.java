@@ -74,7 +74,7 @@ public class LongestWordDictionary {
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+                cur.next.put(c, new Node());
             cur = cur.next.get(c);
         }
         cur.isEnd = true;
@@ -83,11 +83,11 @@ public class LongestWordDictionary {
     /**
      * 字典树
      */
-    class Node{
+    static class Node {
         boolean isEnd;
-        TreeMap<Character,Node> next;
+        TreeMap<Character, Node> next;
 
-        public Node(){
+        public Node() {
             next = new TreeMap<>();
             this.isEnd = false;
         }

@@ -43,7 +43,7 @@ public class LinkedListCycleII {
      */
     public ListNode detectCycle_set(ListNode head) {
         ListNode pos = head;
-        Set<ListNode> visited = new HashSet<ListNode>();
+        Set<ListNode> visited = new HashSet<>();
         while (pos != null) {
             //判断当前节点是否在set中
             if (visited.contains(pos)) {

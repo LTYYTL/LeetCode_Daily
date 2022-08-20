@@ -1,5 +1,6 @@
 package com.leetcode.L401_500.L0407;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -38,7 +39,7 @@ public class TrappingRainWaterII {
         //是否已经被访问
         boolean[][] vis = new boolean[m][n];
         //按照高度存入堆中
-        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> o1[2] - o2[2]);
+        PriorityQueue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(o -> o[2]));
 
         //存入最外圈，因为最外圈的不会注入水
         for (int i = 0; i < m; i++) {

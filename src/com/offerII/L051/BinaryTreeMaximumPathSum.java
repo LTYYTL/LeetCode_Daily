@@ -29,8 +29,6 @@ public class BinaryTreeMaximumPathSum {
 
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public int maxPathSum(TreeNode root) {
         dfs(root);
@@ -39,8 +37,6 @@ public class BinaryTreeMaximumPathSum {
 
     /**
      *  dfs 返回以该节点为端点的最大路径和
-     * @param root
-     * @return
      */
     private int dfs(TreeNode<Integer> root) {
         if (root == null)

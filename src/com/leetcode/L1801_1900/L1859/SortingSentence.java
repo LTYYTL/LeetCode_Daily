@@ -1,6 +1,7 @@
 package com.leetcode.L1801_1900.L1859;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,7 +39,7 @@ public class SortingSentence {
         //按照“ ”将字符串拆分
         String[] strings = s.split(" ");
         //按照数字排序
-        Arrays.sort(strings,(o1,o2)->o1.charAt(o1.length()-1)-o2.charAt(o2.length()-1));
+        Arrays.sort(strings, Comparator.comparingInt(o -> o.charAt(o.length() - 1)));
         //结果字符串
         StringBuilder res = new StringBuilder();
         //遍历字符串数组

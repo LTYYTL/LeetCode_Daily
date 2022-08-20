@@ -54,9 +54,7 @@ public class GoatLatin {
                 res.append("ma");
             }
             //加入a的个数，从1开始
-            for (int j = 0; j < i+1; j++) {
-                res.append("a");
-            }
+            res.append("a".repeat(i + 1));
             //加入集合
             ans.append(res);
             //不是最后一个需要加“ ”

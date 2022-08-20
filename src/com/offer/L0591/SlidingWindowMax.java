@@ -23,7 +23,7 @@ import java.util.List;
  *
  * 提示：
  * 你可以假设 k 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。
- * 注意：本题与主站 239 题相同：https://leetcode-cn.com/problems/sliding-window-maximum/
+ * 注意：本题与主站 239 题相同：<a href="https://leetcode-cn.com/problems/sliding-window-maximum/">https://leetcode-cn.com/problems/sliding-window-maximum/</a>
  */
 public class SlidingWindowMax {
     /**
@@ -56,20 +56,24 @@ public class SlidingWindowMax {
 
         return arr;
     }
-    class  MaxQueue{
+
+    static class MaxQueue {
         LinkedList<Integer> queue = new LinkedList<>();
+
         //在队尾添加元素
-        public void push(int x){
+        public void push(int x) {
             while (!queue.isEmpty() && queue.getLast() <= x)
                 queue.pollLast();
             queue.addLast(x);
         }
+
         //返回最大元素
-        public int max(){
+        public int max() {
             return queue.getFirst();
         }
+
         //删除队头元素
-        public void pop(int x){
+        public void pop(int x) {
             //判断队头元素是否为滑出元素
             if (x == queue.getFirst())
                 queue.pollFirst();

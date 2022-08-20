@@ -27,8 +27,9 @@ package com.offerII.L029;
  * -10^6 <= Node.val <= 10^6
  * -10^6 <= insertVal <= 10^6
  *
- * 注意：本题与主站 708 题相同： https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/
+ * 注意：本题与主站 708 题相同： <a href="https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/">https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/</a>
  */
+@SuppressWarnings("ConditionalBreakInInfiniteLoop")
 public class SortedCircularList {
     /**
      * 方法：模拟
@@ -39,15 +40,14 @@ public class SortedCircularList {
     public Node insert(Node head, int insertVal) {
         //空置情况
         if (head == null){
-            Node node = new Node(insertVal,null);
+            Node node = new Node(insertVal, null);
             node.next = node;
             return node;
         }
 
         //一个点
         if (head.next == head){
-            Node node = new Node(insertVal,head);
-            head.next = node;
+            head.next = new Node(insertVal, head);
             return head;
         }
 
@@ -59,8 +59,7 @@ public class SortedCircularList {
             //加入点在顺序两点之间
             //pre = 2   cur = 4  insertVal = 3
             if (pre.val <= insertVal && insertVal <= cur.val){
-                Node node = new Node(insertVal,cur);
-                pre.next = node;
+                pre.next = new Node(insertVal, cur);
                 return head;
             }
             //当前是逆序
@@ -68,11 +67,11 @@ public class SortedCircularList {
                 //当加入点在逆序的两点之间
                 //pre = 6   cur = 2  insertVal = 8
                 if (pre.val < insertVal && insertVal > cur.val){
-                    pre.next = new Node(insertVal,cur);
+                    pre.next = new Node(insertVal, cur);
                     return head;
                 //pre = 6   cur = 2  insertVal = 1
                 }else if (pre.val >= insertVal && insertVal <= cur.val){
-                    pre.next = new Node(insertVal,cur);
+                    pre.next = new Node(insertVal, cur);
                     return head;
                 }
             }
@@ -85,15 +84,16 @@ public class SortedCircularList {
                 break;
         }
 
-        pre.next = new Node(insertVal,cur);
+        pre.next = new Node(insertVal, cur);
         return head;
     }
 
-    class Node {
+    static class Node {
         public int val;
         public Node next;
 
-        public Node() {}
+        public Node() {
+        }
 
         public Node(int _val) {
             val = _val;

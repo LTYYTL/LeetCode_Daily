@@ -44,7 +44,7 @@ public class ValidateIPAddress {
      */
     public String validIPAddress(String queryIP) {
         //Ipv4情况
-        if (queryIP.indexOf(".") != -1) {
+        if (queryIP.contains(".")) {
             return isIPV4(queryIP) ? "IPv4" : "Neither";
         }
         //Ipv6情况
@@ -62,14 +62,13 @@ public class ValidateIPAddress {
      */
     private boolean isIPV6(String queryIP) {
         //分割
-        String[] strs = queryIP.split("\\:", -1);
+        String[] strs = queryIP.split(":", -1);
         //长度不符合
         if (strs.length != 8)
             return false;
         //遍历
-        for (int i = 0; i < strs.length; i++) {
+        for (String cur : strs) {
             //当前xi
-            String cur = strs[i];
             //每个xi 长度不在1-4之间
             if (cur.length() > 4 || cur.length() == 0) {
                 return false;
@@ -99,9 +98,8 @@ public class ValidateIPAddress {
         if (strs.length != 4)
             return false;
         //遍历
-        for (int i = 0; i < strs.length; i++) {
+        for (String cur : strs) {
             //当前xi
-            String cur = strs[i];
             //每个xi的长度不符合
             if (cur.length() > 3 || cur.length() == 0)
                 return false;

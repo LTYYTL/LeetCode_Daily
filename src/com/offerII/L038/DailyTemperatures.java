@@ -24,7 +24,7 @@ import java.util.LinkedList;
  * 1 <= temperatures.length <= 105
  * 30 <= temperatures[i] <= 100
  *
- * 注意：本题与主站 739 题相同： https://leetcode-cn.com/problems/daily-temperatures/
+ * 注意：本题与主站 739 题相同： <a href="https://leetcode-cn.com/problems/daily-temperatures/">https://leetcode-cn.com/problems/daily-temperatures/</a>
  */
 public class DailyTemperatures {
     /**

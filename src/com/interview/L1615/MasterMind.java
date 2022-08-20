@@ -27,7 +27,7 @@ public class MasterMind {
      * @return
      */
     public int[] masterMind(String solution, String guess) {
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map = new HashMap<>();
 
         //记录出现的次数
         for(char c : solution.toCharArray()){
@@ -48,9 +48,8 @@ public class MasterMind {
                 real++;
         }
         //伪猜中中包含了猜中的次数
-        int[] ans = {real, fake - real};
 
-        return ans;
+        return new int[]{real, fake - real};
 
     }
 }

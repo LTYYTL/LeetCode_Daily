@@ -32,7 +32,7 @@ import java.util.Map;
  * 1 <= k <= nums.length <= 105
  * 1 <= nums[i] <= 109
  *
- * 注意：此题目与 846 重复：https://leetcode-cn.com/problems/hand-of-straights/
+ * 注意：此题目与 846 重复：<a href="https://leetcode-cn.com/problems/hand-of-straights/">https://leetcode-cn.com/problems/hand-of-straights/</a>
  */
 public class DivideArrKConsecutive {
     /**

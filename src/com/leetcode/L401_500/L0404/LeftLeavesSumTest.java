@@ -5,14 +5,14 @@ import com.util.TreeNode;
 public class LeftLeavesSumTest {
     public static void main(String[] args) {
         LeftLeavesSum leftLeavesSum = new LeftLeavesSum();
-        /**
-         * 示例：
-         *     3
-         *    / \
-         *   9  20
-         *     /  \
-         *    15   7
-         * 在这个二叉树中，有两个左叶子，分别是 9 和 15，所以返回 24
+        /*
+          示例：
+              3
+             / \
+            9  20
+              /  \
+             15   7
+          在这个二叉树中，有两个左叶子，分别是 9 和 15，所以返回 24
          */
 
         //构建二叉树

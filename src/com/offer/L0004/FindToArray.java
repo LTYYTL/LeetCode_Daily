@@ -20,7 +20,7 @@ package com.offer.L0004;
  * 限制：
  * 0 <= n <= 1000
  * 0 <= m <= 1000
- * 注意：本题与主站 240 题相同：https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
+ * 注意：本题与主站 240 题相同：<a href="https://leetcode-cn.com/problems/search-a-2d-matrix-ii/">https://leetcode-cn.com/problems/search-a-2d-matrix-ii/</a>
  */
 public class FindToArray {
     /**
@@ -35,9 +35,9 @@ public class FindToArray {
             return false;
         }
 
-        for (int i = 0; i < matrix.length; i++) {
+        for (int[] ints : matrix) {
             for (int j = 0; j < matrix[0].length; j++) {
-                if (matrix[i][j] == target)
+                if (ints[j] == target)
                     return true;
             }
         }

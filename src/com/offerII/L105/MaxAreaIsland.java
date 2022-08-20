@@ -24,7 +24,7 @@ import java.util.Queue;
  * 1 <= m, n <= 50
  * grid[i][j] is either 0 or 1
  *
- * 注意：本题与主站 695 题相同： https://leetcode-cn.com/problems/max-area-of-island/
+ * 注意：本题与主站 695 题相同： <a href="https://leetcode-cn.com/problems/max-area-of-island/">https://leetcode-cn.com/problems/max-area-of-island/</a>
  */
 public class MaxAreaIsland {
     //四个方向

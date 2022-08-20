@@ -49,9 +49,9 @@ public class NumberEnclaves {
 
         // 遍历 grid，剩下的岛屿都是封闭岛屿
         int res = 0;
-        for (int i = 0; i < m; i++) {
+        for (int[] ints : grid) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1) {
+                if (ints[j] == 1) {
                     res++;
                 }
             }

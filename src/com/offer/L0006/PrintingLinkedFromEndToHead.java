@@ -43,10 +43,11 @@ public class PrintingLinkedFromEndToHead {
 
     /**
      * 方法二：递归
+     *
      * @param head
      * @return
      */
-    ArrayList<Integer> tmp = new ArrayList<Integer>();
+    ArrayList<Integer> tmp = new ArrayList<>();
     public int[] reversePrint_recursive(ListNode head) {
         recur(head);
         int[] res = new int[tmp.size()];

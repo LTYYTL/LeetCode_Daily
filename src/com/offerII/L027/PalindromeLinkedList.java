@@ -23,7 +23,7 @@ import java.util.Stack;
  *
  * 进阶：能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？
  *
- * 注意：本题与主站 234 题相同：https://leetcode-cn.com/problems/palindrome-linked-list/
+ * 注意：本题与主站 234 题相同：<a href="https://leetcode-cn.com/problems/palindrome-linked-list/">https://leetcode-cn.com/problems/palindrome-linked-list/</a>
  */
 public class PalindromeLinkedList {
     /**

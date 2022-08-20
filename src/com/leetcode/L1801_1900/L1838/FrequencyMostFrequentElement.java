@@ -42,7 +42,7 @@ public class FrequencyMostFrequentElement {
         long a = 0;
         for (int i = 1; i < nums.length; i++) {
             //计算区间内每个值，与区间内最后一个值相差的总和
-            a += (nums[i] - nums[i - 1]) * (i - j);
+            a += (long) (nums[i] - nums[i - 1]) * (i - j);
             //如果超过目标值
             while (a > k) {
                 //那么就减去区间内最左侧的值与最后一个值的差距。

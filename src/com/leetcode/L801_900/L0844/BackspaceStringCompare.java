@@ -39,9 +39,6 @@ import java.util.Stack;
 public class BackspaceStringCompare {
     /**
      * 方法一：暴力法
-     * @param S
-     * @param T
-     * @return
      */
     public boolean backspaceCompare(String S, String T) {
         //将字符串改变成无后退符的字符串
@@ -60,29 +57,24 @@ public class BackspaceStringCompare {
 
     /**
      * 字符串改造
-     * @param str
-     * @return
      */
     private String change(String str) {
         StringBuilder res = new StringBuilder();
         //字符串变成char数组
         char[] chars = str.toCharArray();
         //遍历每一个字符
-        for (int i = 0; i < chars.length; ++i){
+        for (char aChar : chars) {
             //当前位置为‘#’并且临时字符串不为空时，后退一个字符即删除最后一位
-            if(chars[i] == '#' && res.length()!=0)
-                res.deleteCharAt(res.length()-1);
-            else if (chars[i] != '#')//当前位置不为‘#’时，直接加入临时字符串
-                res.append(chars[i]);
+            if (aChar == '#' && res.length() != 0)
+                res.deleteCharAt(res.length() - 1);
+            else if (aChar != '#')//当前位置不为‘#’时，直接加入临时字符串
+                res.append(aChar);
         }
         return res.toString();
     }
 
     /**
      * 方法一：栈
-     * @param S
-     * @param T
-     * @return
      */
     public boolean backspaceCompare_stack(String S, String T) {
         //将字符串改变成无后退符的字符串
@@ -101,20 +93,18 @@ public class BackspaceStringCompare {
 
     /**
      * 利用栈改造字符串
-     * @param str
-     * @return
      */
     private String change_stack(String str) {
         Stack<Character> res = new Stack<>();
         //字符串变成char数组
         char[] chars = str.toCharArray();
         //遍历每一个字符
-        for (int i = 0; i < chars.length; ++i){
+        for (char aChar : chars) {
             //当前位置为‘#’并且栈不为空，弹出栈顶元素
-            if(chars[i] == '#' && res.size()!=0)
+            if (aChar == '#' && res.size() != 0)
                 res.pop();
-            else if (chars[i] != '#')//当前位置不为‘#’时，压入栈
-                res.push(chars[i]);
+            else if (aChar != '#')//当前位置不为‘#’时，压入栈
+                res.push(aChar);
         }
         //反转栈
         Collections.reverse(res);

@@ -15,9 +15,6 @@ package com.interview.L1701;
 public class AddWithoutPlus {
     /**
      * 方法：位运算
-     * @param a
-     * @param b
-     * @return
      */
     public int add(int a, int b) {
         while(b != 0) { // 当进位为 0 时跳出

@@ -39,9 +39,8 @@ public class DayOfYear {
         //转换成数字
         int year = Integer.parseInt(split[0]);
         int month = Integer.parseInt(split[1]);
-        int day = Integer.parseInt(split[2]);
         //结果,默认当月的天数
-        int res = day;
+        int res = Integer.parseInt(split[2]);
         //将本月前的所有月的天数相加
         for (int i = 0; i < month; i++) {
             res += month_day[i];

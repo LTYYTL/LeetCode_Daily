@@ -24,7 +24,7 @@ import java.util.Map;
  * 0 <= hand[i] <= 109
  * 1 <= groupSize <= hand.length
  *
- * 注意：此题目与 1296 重复：https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
+ * 注意：此题目与 1296 重复：<a href="https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/">https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/</a>
  */
 public class HandStraights {
     /**

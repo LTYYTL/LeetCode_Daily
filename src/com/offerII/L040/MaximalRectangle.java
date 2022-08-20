@@ -35,7 +35,7 @@ import java.util.LinkedList;
  * 0 <= row, cols <= 200
  * matrix[i][j] 为 '0' 或 '1'
  *
- * 注意：本题与主站 85 题相同（输入参数格式不同）： https://leetcode-cn.com/problems/maximal-rectangle/
+ * 注意：本题与主站 85 题相同（输入参数格式不同）： <a href="https://leetcode-cn.com/problems/maximal-rectangle/">https://leetcode-cn.com/problems/maximal-rectangle/</a>
  */
 public class MaximalRectangle {
     /**
@@ -50,14 +50,14 @@ public class MaximalRectangle {
         int area = 0;
         int[] height = new int[matrix[0].length()];
         //转换成直方图问题
-        for (int i = 0; i < matrix.length; i++) {
+        for (String s : matrix) {
             for (int j = 0; j < matrix[0].length(); j++) {
-                if (matrix[i].charAt(j) == '1')
-                    height[j]+=1;
+                if (s.charAt(j) == '1')
+                    height[j] += 1;
                 else
                     height[j] = 0;
             }
-            area = Math.max(area,largestRectangleArea(height));
+            area = Math.max(area, largestRectangleArea(height));
         }
 
         return area;
@@ -69,9 +69,7 @@ public class MaximalRectangle {
         Deque<Integer> stack = new LinkedList<>();
         int[] newHeight = new int[heights.length + 2];
         //加上哨兵
-        for (int i = 1; i < heights.length+1; i++) {
-            newHeight[i] = heights[i-1];
-        }
+        System.arraycopy(heights, 0, newHeight, 1, heights.length + 1 - 1);
 
         for (int i = 0; i < newHeight.length; i++) {
             while (!stack.isEmpty() && newHeight[stack.peek()] > newHeight[i]){

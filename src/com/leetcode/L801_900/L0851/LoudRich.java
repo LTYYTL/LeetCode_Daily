@@ -1,6 +1,9 @@
 package com.leetcode.L801_900.L0851;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 851. 喧闹和富有
@@ -65,7 +68,7 @@ public class LoudRich {
         int[] in = getIn(graph);
 
         //3、拓扑排序开始
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Queue<Integer> queue = new LinkedList<>();
         //将入度为0的入队
         for (int i = 0; i < in.length; i++) {
             if (in[i] == 0) {

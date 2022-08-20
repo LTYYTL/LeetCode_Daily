@@ -37,13 +37,14 @@ package com.leetcode.L2201_2300.L2211;
 public class CountCollisionsRoad {
     /**
      * 方法：模拟
-     *
+     * <p>
      * 分析题意：
      * 当两辆移动方向 相反 的车相撞时，碰撞次数加 2 。--> 两辆车被撞停，答案 + 2。
      * 当一辆移动的车和一辆静止的车相撞时，碰撞次数加 1 。--> 一辆车被撞停，答案 +1。
      * 显然，左侧的 ’L’ 和右侧的 ’R’ 不会被撞停；而中间的车辆都会最终停止，因此统计中间的、一开始没有停止的车辆数（即不是 ’S’ 的车辆数）即可。
      * 作者：newhar
-     * 链接：https://leetcode-cn.com/problems/count-collisions-on-a-road/solution/da-an-hui-bei-zhuang-ting-de-che-liang-s-yyfl/
+     * 链接：<a href="https://leetcode-cn.com/problems/count-collisions-on-a-road/solution/da-an-hui-bei-zhuang-ting-de-che-liang-s-yyfl/">https://leetcode-cn.com/problems/count-collisions-on-a-road/solution/da-an-hui-bei-zhuang-ting-de-che-liang-s-yyfl/</a>
+     *
      * @param directions
      * @return
      */

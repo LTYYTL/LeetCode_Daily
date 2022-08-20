@@ -19,7 +19,7 @@ package com.offerII.L009;
  * 1 <= nums[i] <= 1000
  * 0 <= k <= 106
  *
- * 注意：本题与主站 713 题相同：https://leetcode-cn.com/problems/subarray-product-less-than-k/
+ * 注意：本题与主站 713 题相同：<a href="https://leetcode-cn.com/problems/subarray-product-less-than-k/">https://leetcode-cn.com/problems/subarray-product-less-than-k/</a>
  */
 public class SubarrayProductLessThanK {
     /**

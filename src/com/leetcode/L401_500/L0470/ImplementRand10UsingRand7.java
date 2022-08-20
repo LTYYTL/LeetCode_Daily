@@ -42,7 +42,6 @@ public class ImplementRand10UsingRand7 {
      * @return
      */
     private int rand7() {
-        int num = (int) (Math.random()*6+1);
-        return num;
+        return (int) (Math.random() * 6 + 1);
     }
 }

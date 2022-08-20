@@ -40,12 +40,7 @@ public class StringMatchingArray {
      */
     public List<String> stringMatching(String[] words) {
         //按照字符串长度从小到大排序
-        Arrays.sort(words, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.length() - o2.length();
-            }
-        });
+        Arrays.sort(words, Comparator.comparingInt(String::length));
 
         //结果
         List<String> res = new ArrayList<>();
@@ -53,7 +48,7 @@ public class StringMatchingArray {
         for (int i = 0; i < words.length; i++) {
             for (int j = i + 1; j < words.length; j++) {
                 //是否是别的字符串字串
-                if (words[j].indexOf(words[i]) != -1) {
+                if (words[j].contains(words[i])) {
                     res.add(words[i]);
                     break;
                 }

@@ -29,7 +29,7 @@ import java.util.Map;
  * 1 <= s.length, p.length <= 3 * 104
  * s 和 p 仅包含小写字母
  *
- * 注意：本题与主站 438 题相同： https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
+ * 注意：本题与主站 438 题相同： <a href="https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/">https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/</a>
  */
 public class FindAllAnagramsString {
     /**

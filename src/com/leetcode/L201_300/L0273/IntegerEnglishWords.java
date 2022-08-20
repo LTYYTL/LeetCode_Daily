@@ -38,7 +38,7 @@ public class IntegerEnglishWords {
         if (num == 0) {
             return "Zero";
         }
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = 3, unit = 1000000000; i >= 0; i--, unit /= 1000) {
             int curNum = num / unit;
             if (curNum != 0) {
@@ -50,7 +50,7 @@ public class IntegerEnglishWords {
     }
 
     public String toEnglish(int num) {
-        StringBuffer curr = new StringBuffer();
+        StringBuilder curr = new StringBuilder();
         int hundred = num / 100;
         num %= 100;
         if (hundred != 0) {

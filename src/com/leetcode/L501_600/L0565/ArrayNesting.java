@@ -23,8 +23,6 @@ public class ArrayNesting {
     /**
      * 方法：模拟
      *
-     * @param nums
-     * @return
      */
     public int arrayNesting(int[] nums) {
         //结果

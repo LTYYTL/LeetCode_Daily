@@ -1,6 +1,9 @@
 package com.leetcode.L401_500.L0451;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 451. 根据字符出现频率排序
@@ -52,13 +55,11 @@ public class SortCharactersByFrequency {
         //将字符存入list
         List<Character> list = new ArrayList<>(map.keySet());
         //将出现次数多的字符放在前面
-        Collections.sort(list,(a,b)-> map.get(b)- map.get(a));
+        list.sort((a, b) -> map.get(b) - map.get(a));
         //遍历list
         for (Character c : list) {
             int size =map.get(c);
-            for (int i = 0; i < size; i++) {
-                res.append(c);
-            }
+            res.append(String.valueOf(c).repeat(Math.max(0, size)));
         }
         return res.toString();
     }

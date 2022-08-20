@@ -20,7 +20,8 @@ public class KSmallestOrder {
     /**
      * 方法：模拟
      * 作者：Meng_Xi
-     * 链接：https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/tou-liao-liang-wei-da-lao-de-tu-he-ti-ji-fs9r/
+     * 链接：<a href="https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/tou-liao-liang-wei-da-lao-de-tu-he-ti-ji-fs9r/">https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/tou-liao-liang-wei-da-lao-de-tu-he-ti-ji-fs9r/</a>
+     *
      * @param n
      * @param k
      * @return

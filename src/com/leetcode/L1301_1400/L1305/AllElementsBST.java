@@ -26,9 +26,6 @@ public class AllElementsBST {
     /**
      * 方法：递归
      *
-     * @param root1
-     * @param root2
-     * @return
      */
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> res = new ArrayList<>();
@@ -45,8 +42,6 @@ public class AllElementsBST {
     /**
      * 中序遍历
      *
-     * @param root
-     * @param res
      */
     private void order(TreeNode<Integer> root, List<Integer> res) {
         if (root == null)

@@ -51,16 +51,14 @@ import java.util.LinkedList;
 public class BaseballGame {
     /**
      * 方法：栈
-     * @param ops
-     * @return
      */
     public int calPoints(String[] ops) {
         //栈
         Deque<Integer> stack = new LinkedList<>();
         //遍历
-        for (int i = 0; i < ops.length; i++) {
+        for (String op : ops) {
             //“+”的情况
-            if ("+".equals(ops[i])){
+            if ("+".equals(op)) {
                 //获取前两个数
                 int first = stack.pop();
                 int second = stack.peek();
@@ -69,15 +67,15 @@ public class BaseballGame {
                 //放回栈中
                 stack.push(first);
                 stack.push(sum);
-            }else if ("D".equals(ops[i])){
+            } else if ("D".equals(op)) {
                 //“D”的情况
-                stack.push(stack.peek()*2);
-            }else if ("C".equals(ops[i])){
+                stack.push(stack.peek() * 2);
+            } else if ("C".equals(op)) {
                 //“C”的情况
                 stack.pop();
-            }else {
+            } else {
                 //数直接转换
-                stack.push(Integer.valueOf(ops[i]));
+                stack.push(Integer.valueOf(op));
             }
         }
 

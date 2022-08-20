@@ -1,6 +1,9 @@
 package com.leetcode.L801_900.L0802;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 802. 找到最终的安全状态
@@ -52,7 +55,7 @@ public class FindEventualSafeStates {
             inDeg[x] = graph[x].length;
         }
         //记录出度为0的点
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < n; ++i) {
             if (inDeg[i] == 0) {
                 queue.offer(i);
@@ -69,7 +72,7 @@ public class FindEventualSafeStates {
         }
 
         //将出度为0的点加入结果集
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < n; ++i) {
             if (inDeg[i] == 0) {
                 ans.add(i);

@@ -17,7 +17,7 @@ package com.offerII.L075;
  * arr2 中的元素 arr2[i] 各不相同
  * arr2 中的每个元素 arr2[i] 都出现在 arr1 中
  *
- * 注意：本题与主站 1122 题相同：https://leetcode-cn.com/problems/relative-sort-array/
+ * 注意：本题与主站 1122 题相同：<a href="https://leetcode-cn.com/problems/relative-sort-array/">https://leetcode-cn.com/problems/relative-sort-array/</a>
  */
 public class RelativeSortArray {
     /**

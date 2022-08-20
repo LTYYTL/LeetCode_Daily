@@ -45,12 +45,12 @@ public class Leaf_SimilarTrees {
      * @return
      */
     public boolean leafSimilar(TreeNode<Integer> root1, TreeNode<Integer> root2) {
-        List<Integer> seq1 = new ArrayList<Integer>();
+        List<Integer> seq1 = new ArrayList<>();
         if (root1 != null) {
             dfs(root1, seq1);
         }
 
-        List<Integer> seq2 = new ArrayList<Integer>();
+        List<Integer> seq2 = new ArrayList<>();
         if (root2 != null) {
             dfs(root2, seq2);
         }

@@ -50,15 +50,15 @@ public class ScoreAfterFlippingMatrix {
             int zeroNum = 0;
             //记录1的个数
             int oneNum = 0;
-            for (int i = 0; i < A.length; ++i){
-                if (A[i][j] == 0){
+            for (int[] ints : A) {
+                if (ints[j] == 0) {
                     zeroNum++;
-                }else {
+                } else {
                     oneNum++;
                 }
             }
             //0的个数比1多
-            if (zeroNum > oneNum){
+            if (zeroNum > oneNum) {
                 //反转后0的个数就是1的个数
                 oneNum = zeroNum;
             }

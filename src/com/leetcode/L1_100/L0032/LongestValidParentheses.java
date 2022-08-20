@@ -57,8 +57,8 @@ public class LongestValidParentheses {
         }
         // 计算最长子串的长度
         int res = 0;
-        for (int i = 0; i < dp.length; i++) {
-            res = Math.max(res, dp[i]);
+        for (int j : dp) {
+            res = Math.max(res, j);
         }
         return res;
     }

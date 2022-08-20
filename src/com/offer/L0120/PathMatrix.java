@@ -20,7 +20,7 @@ package com.offer.L0120;
  * 1 <= board[i].length <= 200
  * board 和 word 仅由大小写英文字母组成
  *
- * 注意：本题与主站 79 题相同：https://leetcode-cn.com/problems/word-search/
+ * 注意：本题与主站 79 题相同：<a href="https://leetcode-cn.com/problems/word-search/">https://leetcode-cn.com/problems/word-search/</a>
  */
 public class PathMatrix {
     /**

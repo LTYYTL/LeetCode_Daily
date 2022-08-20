@@ -19,7 +19,7 @@ package com.offer.L0102;
  *
  * 提示：
  * 0 <= n <= 100
- * 注意：本题与主站 70 题相同：https://leetcode-cn.com/problems/climbing-stairs/
+ * 注意：本题与主站 70 题相同：<a href="https://leetcode-cn.com/problems/climbing-stairs/">https://leetcode-cn.com/problems/climbing-stairs/</a>
  */
 public class FrogJumpingProblem {
     /**

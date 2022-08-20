@@ -40,7 +40,7 @@ import java.util.Map;
  * Ai, Bi, Cj, Dj 由小写英文字母与数字组成
  *
  *
- * 注意：本题与主站 399 题相同： https://leetcode-cn.com/problems/evaluate-division/
+ * 注意：本题与主站 399 题相同： <a href="https://leetcode-cn.com/problems/evaluate-division/">https://leetcode-cn.com/problems/evaluate-division/</a>
  */
 public class EvaluateDivision {
     /**
@@ -102,7 +102,7 @@ public class EvaluateDivision {
     /**
      * 并查集
      */
-    class UF{
+    static class UF {
         //根节点
         private final int[] parent;
         //权重

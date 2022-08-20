@@ -41,7 +41,7 @@ import java.util.TreeMap;
  * sentence 中单词之间由一个空格隔开。
  * sentence 没有前导或尾随空格。
  *
- * 注意：本题与主站 648 题相同： https://leetcode-cn.com/problems/replace-words/
+ * 注意：本题与主站 648 题相同： <a href="https://leetcode-cn.com/problems/replace-words/">https://leetcode-cn.com/problems/replace-words/</a>
  */
 public class ReplaceWords {
     /**
@@ -78,7 +78,7 @@ public class ReplaceWords {
             char c = s.charAt(i);
             //不存在
             if (cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+                cur.next.put(c, new Node());
             cur = cur.next.get(c);
         }
         //词根结束
@@ -105,16 +105,16 @@ public class ReplaceWords {
         return s;
     }
 
-    private class Node{
+    private static class Node {
         public boolean isWord;
         public TreeMap<Character, Node> next;
 
-        public Node(boolean isWord){
+        public Node(boolean isWord) {
             this.isWord = isWord;
             next = new TreeMap<>();
         }
 
-        public Node(){
+        public Node() {
             this(false);
         }
     }

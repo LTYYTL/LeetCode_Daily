@@ -33,13 +33,11 @@ import java.util.Stack;
  * -1000 <= asteroids[i] <= 1000
  * asteroids[i] != 0
  *
- * 注意：本题与主站 735 题相同： https://leetcode-cn.com/problems/asteroid-collision/
+ * 注意：本题与主站 735 题相同： <a href="https://leetcode-cn.com/problems/asteroid-collision/">https://leetcode-cn.com/problems/asteroid-collision/</a>
  */
 public class AsteroidCollision {
     /**
      * 方法：栈
-     * @param asteroids
-     * @return
      */
     public int[] asteroidCollision(int[] asteroids) {
         //存放行星

@@ -98,7 +98,7 @@ public class EvaluateDivision {
     /**
      * 并查集
      */
-    class UF{
+    static class UF {
         //根节点
         private final int[] parent;
         //权重

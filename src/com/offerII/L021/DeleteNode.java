@@ -26,7 +26,7 @@ import com.util.ListNode;
  *
  * 进阶：能尝试使用一趟扫描实现吗？
  *
- * 注意：本题与主站 19 题相同： https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+ * 注意：本题与主站 19 题相同： <a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/</a>
  */
 public class DeleteNode {
     /**

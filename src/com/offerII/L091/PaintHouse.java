@@ -23,7 +23,7 @@ package com.offerII.L091;
  * 1 <= n <= 100
  * 1 <= costs[i][j] <= 20
  *
- * 注意：本题与主站 256 题相同：https://leetcode-cn.com/problems/paint-house/
+ * 注意：本题与主站 256 题相同：<a href="https://leetcode-cn.com/problems/paint-house/">https://leetcode-cn.com/problems/paint-house/</a>
  */
 public class PaintHouse {
     /**

@@ -25,7 +25,7 @@ import java.util.Arrays;
  *
  * 进阶: 如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
  *
- * 注意：本题与主站 242 题相似（字母异位词定义不同）：https://leetcode-cn.com/problems/valid-anagram/
+ * 注意：本题与主站 242 题相似（字母异位词定义不同）：<a href="https://leetcode-cn.com/problems/valid-anagram/">https://leetcode-cn.com/problems/valid-anagram/</a>
  */
 public class ValidConjugation {
     /**

@@ -52,19 +52,17 @@ public class PositionsLargeGroups {
         //循环
         while(end < s.length()){
             //相等的情况end指针向后移动一位
-            if (s.charAt(start) == s.charAt(end)){
-                end++;
-            }else {
+            if (s.charAt(start) != s.charAt(end)) {
                 //不等情况，判断两个指针只差>=3，证明有较大分组，将索引加入集合中
-                if (end - start  >= 3){
+                if (end - start >= 3) {
                     List<Integer> list = new ArrayList<>();
                     list.add(start);
-                    list.add(end-1);//因为当前end指针指向不相等的位置，所以减1
+                    list.add(end - 1);//因为当前end指针指向不相等的位置，所以减1
                     res.add(list);
                 }
                 start = end;
-                end++;
             }
+            end++;
         }
         //处理最后三位是相同的字母，end+1后会直接超出索引最大值，无法加入list中的情况
         if(s.charAt(start) == s.charAt(end-1) && end - start >= 3){

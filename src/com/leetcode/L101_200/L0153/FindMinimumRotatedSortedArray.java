@@ -42,7 +42,7 @@ public class FindMinimumRotatedSortedArray {
      *     此时该序列的 最小值为 nums[mid] 记录后并修改边界，即 high = mid - 1 继续找 mid 左边的序列中的最小值。
      * （此时也可以用 nums[high] >= nums[mid] 当做判断条件）
      * 作者：Booooo_
-     * 链接：https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-yiyo6/
+     * 链接：<a href="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-yiyo6/">https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-yiyo6/</a>
      * @param nums
      * @return
      */

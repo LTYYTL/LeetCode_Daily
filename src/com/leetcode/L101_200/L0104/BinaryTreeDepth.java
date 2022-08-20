@@ -24,8 +24,6 @@ import java.util.Stack;
 public class BinaryTreeDepth {
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
     public int maxDepth(TreeNode root) {
         //空值情况
@@ -38,8 +36,6 @@ public class BinaryTreeDepth {
 
     /**
      * 方法二：深度优先搜索
-     * @param root
-     * @return
      */
     public int maxDepth_DFS(TreeNode root){
         //空值情况
@@ -75,8 +71,6 @@ public class BinaryTreeDepth {
 
     /**
      * 方法三：广度优先搜索
-     * @param root
-     * @return
      */
     public int maxDepth_BFS(TreeNode root){
         //空值情况

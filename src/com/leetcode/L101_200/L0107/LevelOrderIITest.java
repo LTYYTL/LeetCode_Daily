@@ -16,20 +16,20 @@ public class LevelOrderIITest {
         r1.right = r3;
         r3.left = r4;
         r3.right = r5;
-        /**
-         * 例如：
-         * 给定二叉树 [3,9,20,null,null,15,7],
-         *     3
-         *    / \
-         *   9  20
-         *     /  \
-         *    15   7
-         * 返回其自底向上的层次遍历为：
-         * [
-         *   [15,7],
-         *   [9,20],
-         *   [3]
-         * ]
+        /*
+          例如：
+          给定二叉树 [3,9,20,null,null,15,7],
+              3
+             / \
+            9  20
+              /  \
+             15   7
+          返回其自底向上的层次遍历为：
+          [
+            [15,7],
+            [9,20],
+            [3]
+          ]
          */
         System.out.println(levelOrderII.levelOrderBottom(r1).toString());
     }

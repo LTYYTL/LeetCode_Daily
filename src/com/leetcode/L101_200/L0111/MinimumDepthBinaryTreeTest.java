@@ -5,9 +5,9 @@ import com.util.TreeNode;
 public class MinimumDepthBinaryTreeTest {
     public static void main(String[] args) {
         MinimumDepthBinaryTree minimumDepthBinaryTree = new MinimumDepthBinaryTree();
-        /**示例 1：
-         * 输入：root = [3,9,20,null,null,15,7]
-         * 输出：2
+        /*示例 1：
+          输入：root = [3,9,20,null,null,15,7]
+          输出：2
          */
         TreeNode<Integer> rrl = new TreeNode<>(15);
         TreeNode<Integer> rrr = new TreeNode<>(7);

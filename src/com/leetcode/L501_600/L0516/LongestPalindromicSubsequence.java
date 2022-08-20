@@ -24,7 +24,8 @@ public class LongestPalindromicSubsequence {
     /**
      * 方法：动态规划
      * 作者：sdwwld
-     * 链接：https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/shu-ju-jie-gou-he-suan-fa-dong-tai-gui-h-3oqf/
+     * 链接：<a href="https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/shu-ju-jie-gou-he-suan-fa-dong-tai-gui-h-3oqf/">https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/shu-ju-jie-gou-he-suan-fa-dong-tai-gui-h-3oqf/</a>
+     *
      * @param s
      * @return
      */

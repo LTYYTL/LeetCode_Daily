@@ -16,7 +16,7 @@ import java.util.Set;
  * 说明:
  * 1 是丑数。
  * n 不超过1690。
- * 注意：本题与主站 264 题相同：https://leetcode-cn.com/problems/ugly-
+ * 注意：本题与主站 264 题相同：<a href="https://leetcode-cn.com/problems/ugly-">https://leetcode-cn.com/problems/ugly-</a>
  */
 public class UglyNumber {
     /**
@@ -26,8 +26,8 @@ public class UglyNumber {
      */
     public int nthUglyNumber(int n) {
         int[] factors = {2, 3, 5};
-        Set<Long> seen = new HashSet<Long>();
-        PriorityQueue<Long> heap = new PriorityQueue<Long>();
+        Set<Long> seen = new HashSet<>();
+        PriorityQueue<Long> heap = new PriorityQueue<>();
         seen.add(1L);
         heap.offer(1L);
         int ugly = 0;

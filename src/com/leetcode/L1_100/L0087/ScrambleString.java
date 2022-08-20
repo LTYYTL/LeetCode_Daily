@@ -1,6 +1,7 @@
 package com.leetcode.L1_100.L0087;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 87. 扰乱字符串
@@ -145,7 +146,7 @@ public class ScrambleString {
     }
 
     public boolean checkIfSimilar(int i1, int i2, int length) {
-        Map<Character, Integer> freq = new HashMap<Character, Integer>();
+        Map<Character, Integer> freq = new HashMap<>();
         for (int i = i1; i < i1 + length; ++i) {
             char c = s1.charAt(i);
             freq.put(c, freq.getOrDefault(c, 0) + 1);

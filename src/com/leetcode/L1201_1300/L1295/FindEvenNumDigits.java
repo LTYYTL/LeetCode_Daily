@@ -37,7 +37,7 @@ public class FindEvenNumDigits {
         //遍历
         for (int num : nums) {
             //转换成字符串
-            String s = new StringBuilder().append(num).toString();
+            String s = String.valueOf(num);
             //判断长度，是否为偶数
             if (s.length() % 2 == 0)
                 count++;

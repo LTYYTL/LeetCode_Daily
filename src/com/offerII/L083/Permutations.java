@@ -26,7 +26,7 @@ import java.util.Stack;
  * nums 中的所有整数 互不相同
  *
  *
- * 注意：本题与主站 46 题相同：https://leetcode-cn.com/problems/permutations/
+ * 注意：本题与主站 46 题相同：<a href="https://leetcode-cn.com/problems/permutations/">https://leetcode-cn.com/problems/permutations/</a>
  */
 public class Permutations {
     /**

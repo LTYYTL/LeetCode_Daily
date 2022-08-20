@@ -21,7 +21,7 @@ package com.offer.L0150;
  *
  * 提示：
  * 输入必须是长度为 32 的 二进制串 。
- * 注意：本题与主站 191 题相同：https://leetcode-cn.com/problems/number-of-1-bits/
+ * 注意：本题与主站 191 题相同：<a href="https://leetcode-cn.com/problems/number-of-1-bits/">https://leetcode-cn.com/problems/number-of-1-bits/</a>
  */
 public class NumberOneBits {
     /**

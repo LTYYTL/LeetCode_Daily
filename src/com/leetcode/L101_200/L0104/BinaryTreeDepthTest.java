@@ -5,15 +5,15 @@ import com.util.TreeNode;
 public class BinaryTreeDepthTest {
     public static void main(String[] args) {
         BinaryTreeDepth binaryTreeDepth = new BinaryTreeDepth();
-        /**
-         * 示例：
-         * 给定二叉树 [3,9,20,null,null,15,7]，
-         *     3
-         *    / \
-         *   9  20
-         *     /  \
-         *    15   7
-         * 返回它的最大深度 3 。
+        /*
+          示例：
+          给定二叉树 [3,9,20,null,null,15,7]，
+              3
+             / \
+            9  20
+              /  \
+             15   7
+          返回它的最大深度 3 。
          */
         TreeNode<Integer> root = new TreeNode(3);
         TreeNode<Integer> rl = new TreeNode(9);

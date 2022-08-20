@@ -14,7 +14,7 @@ package com.offer.L0531;
  *
  * 限制：
  * 0 <= 数组长度 <= 50000
- * 注意：本题与主站 34 题相同（仅返回值不同）：https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ * 注意：本题与主站 34 题相同（仅返回值不同）：<a href="https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/">https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/</a>
  */
 public class FindNumberSortedArrayI {
     /**

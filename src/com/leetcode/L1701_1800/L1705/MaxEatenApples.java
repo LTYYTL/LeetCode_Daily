@@ -1,5 +1,6 @@
 package com.leetcode.L1701_1800.L1705;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -43,7 +44,7 @@ public class MaxEatenApples {
      */
     public int eatenApples(int[] apples, int[] days) {
         //存储苹果{腐烂时间，数量}，按腐烂时间排序
-        PriorityQueue<int[]> queue = new PriorityQueue<>((a,b) -> a[0]-b[0]);
+        PriorityQueue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
         //长度
         int n = apples.length;
         //结果

@@ -24,7 +24,7 @@ import com.util.ListNode;
  *
  * 进阶：你可以在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序吗？
  *
- * 注意：本题与主站 148 题相同：https://leetcode-cn.com/problems/sort-list/
+ * 注意：本题与主站 148 题相同：<a href="https://leetcode-cn.com/problems/sort-list/">https://leetcode-cn.com/problems/sort-list/</a>
  */
 public class SortList {
     /**

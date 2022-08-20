@@ -37,7 +37,7 @@ public class MinParenthesesValid {
      */
     public int minAddToMakeValid(String s) {
         //空值情况
-        if(s == null || s == "")
+        if (s == null || s.equals(""))
             return 0;
         //需要左括号的数量
         int left = 0;

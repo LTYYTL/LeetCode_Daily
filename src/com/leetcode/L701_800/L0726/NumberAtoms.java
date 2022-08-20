@@ -47,13 +47,13 @@ public class NumberAtoms {
         this.n = formula.length();
         this.formula = formula;
 
-        Deque<Map<String, Integer>> stack = new LinkedList<Map<String, Integer>>();
-        stack.push(new HashMap<String, Integer>());
+        Deque<Map<String, Integer>> stack = new LinkedList<>();
+        stack.push(new HashMap<>());
         while (i < n) {
             char ch = formula.charAt(i);
             if (ch == '(') {
                 i++;
-                stack.push(new HashMap<String, Integer>()); // 将一个空的哈希表压入栈中，准备统计括号内的原子数量
+                stack.push(new HashMap<>()); // 将一个空的哈希表压入栈中，准备统计括号内的原子数量
             } else if (ch == ')') {
                 i++;
                 int num = parseNum(); // 括号右侧数字
@@ -73,9 +73,9 @@ public class NumberAtoms {
         }
 
         Map<String, Integer> map = stack.pop();
-        TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(map);
+        TreeMap<String, Integer> treeMap = new TreeMap<>(map);
 
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
             String atom = entry.getKey();
             int count = entry.getValue();
@@ -88,7 +88,7 @@ public class NumberAtoms {
     }
 
     public String parseAtom() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append(formula.charAt(i++)); // 扫描首字母
         while (i < n && Character.isLowerCase(formula.charAt(i))) {
             sb.append(formula.charAt(i++)); // 扫描首字母后的小写字母

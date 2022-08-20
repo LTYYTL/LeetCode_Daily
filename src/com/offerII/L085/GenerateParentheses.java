@@ -18,7 +18,7 @@ import java.util.List;
  * 提示：
  * 1 <= n <= 8
  *
- * 注意：本题与主站 22 题相同： https://leetcode-cn.com/problems/generate-parentheses/
+ * 注意：本题与主站 22 题相同： <a href="https://leetcode-cn.com/problems/generate-parentheses/">https://leetcode-cn.com/problems/generate-parentheses/</a>
  */
 public class GenerateParentheses {
     /**

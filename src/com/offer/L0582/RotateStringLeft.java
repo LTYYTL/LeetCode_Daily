@@ -49,10 +49,10 @@ public class RotateStringLeft {
      * @return
      */
     public String reverseLeftWords_string(String s, int n) {
-        String res = "";
-        for(int i = n; i < n + s.length(); i++)
-            res += s.charAt(i % s.length());
-        return res;
+        StringBuilder res = new StringBuilder();
+        for (int i = n; i < n + s.length(); i++)
+            res.append(s.charAt(i % s.length()));
+        return res.toString();
     }
 
 }

@@ -1,7 +1,6 @@
 package com.leetcode.L1701_1800.L1738;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -59,7 +58,7 @@ public class FindKthLargestXORCoordinateValue {
             }
         }
         //排序
-        Collections.sort(res,(o1,o2) -> o2-o1);
+        res.sort((o1, o2) -> o2 - o1);
         return res.get(k-1);
     }
 }

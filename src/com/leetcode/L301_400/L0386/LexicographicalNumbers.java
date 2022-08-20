@@ -27,7 +27,7 @@ public class LexicographicalNumbers {
      */
     public List<Integer> lexicalOrder(int n) {
         //结果集
-        List<Integer> ret = new ArrayList<Integer>();
+        List<Integer> ret = new ArrayList<>();
         //初始值
         int number = 1;
         //遍历

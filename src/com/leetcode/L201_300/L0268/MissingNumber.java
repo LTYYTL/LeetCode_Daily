@@ -62,11 +62,11 @@ public class MissingNumber {
     public int missingNumber_set(int[] nums) {
         Set<Integer> set = new HashSet<>();
         //存入数组元素
-        for (int i = 0; i < nums.length; i++) {
-            set.add(nums[i]);
+        for (int num : nums) {
+            set.add(num);
         }
         //遍历0~n不存在的直接返回
-        for (int i = 0; i <= nums.length ; i++) {
+        for (int i = 0; i <= nums.length; i++) {
             if (!set.contains(i))
                 return i;
         }
@@ -81,11 +81,11 @@ public class MissingNumber {
     public int missingNumber_bit(int[] nums) {
         int res = 0;
         //将数组中中数异或
-        for (int i = 0; i < nums.length; i++) {
-            res ^= nums[i];
+        for (int num : nums) {
+            res ^= num;
         }
         //利用 x^x = 0， x^0 = x的特性，将0~n在异或一边，除了结果所有数都出现一次
-        for (int i = 0; i <= nums.length ; i++) {
+        for (int i = 0; i <= nums.length; i++) {
             res ^= i;
         }
         return res;

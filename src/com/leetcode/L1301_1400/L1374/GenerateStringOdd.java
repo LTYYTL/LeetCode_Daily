@@ -32,9 +32,9 @@ public class GenerateStringOdd {
     public String generateTheString(int n) {
         //判断奇偶性
         if (n % 2 == 0) {
-            return new StringBuilder("a".repeat(n - 1)).append("b").toString();
+            return "a".repeat(n - 1) + "b";
         } else {
-            return new StringBuilder("a".repeat(n)).toString();
+            return "a".repeat(n);
         }
     }
 }

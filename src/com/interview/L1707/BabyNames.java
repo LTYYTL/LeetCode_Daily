@@ -24,9 +24,6 @@ import java.util.Map;
 public class BabyNames {
     /**
      * 方法：并查集
-     * @param names
-     * @param synonyms
-     * @return
      */
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         // 并查集

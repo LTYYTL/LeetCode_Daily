@@ -42,7 +42,7 @@ package com.offer.L0190;
  * s 可能为空，且只包含从 a-z 的小写字母。
  * p 可能为空，且只包含从 a-z 的小写字母以及字符 . 和 *，无连续的 '*'。
  *
- * 注意：本题与主站 10 题相同：https://leetcode-cn.com/problems/regular-expression-matching/
+ * 注意：本题与主站 10 题相同：<a href="https://leetcode-cn.com/problems/regular-expression-matching/">https://leetcode-cn.com/problems/regular-expression-matching/</a>
  */
 public class RegularExpressionMatching {
     /**

@@ -5,22 +5,22 @@ import com.util.TreeNode;
 public class InvertBinaryTreeTest {
     public static void main(String[] args) {
         InvertBinaryTree invertBinaryTree = new InvertBinaryTree();
-        /**
-         * 示例：
-         * 输入：
-         *
-         *      4
-         *    /   \
-         *   2     7
-         *  / \   / \
-         * 1   3 6   9
-         *
-         * 输出：
-         *      4
-         *    /   \
-         *   7     2
-         *  / \   / \
-         * 9   6 3   1
+        /*
+          示例：
+          输入：
+
+               4
+             /   \
+            2     7
+           / \   / \
+          1   3 6   9
+
+          输出：
+               4
+             /   \
+            7     2
+           / \   / \
+          9   6 3   1
          */
         //构建二叉树
         TreeNode<Integer> root = new TreeNode<>(4);

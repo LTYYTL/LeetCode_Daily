@@ -74,23 +74,23 @@ public class XORQueriesSubarray {
      * @return
      */
     public int[] xorQueries_math(int[] arr, int[][] queries) {
-        /**
-         * 计算从0~n的前缀和，
+        /*
+          计算从0~n的前缀和，
          */
-        int[] xor = new int[arr.length+1];
+        int[] xor = new int[arr.length + 1];
         xor[0] = 0;
         for (int i = 1; i <= arr.length; i++) {
-            xor[i] = arr[i-1] ^ xor[i-1];
+            xor[i] = arr[i - 1] ^ xor[i - 1];
         }
 
-        /**
-         * 计算每个查询的结果，第 i 个查询的结果为 xor[queries[i][0]]⊕xor[queries[i][1]+1]。
-         *
+        /*
+          计算每个查询的结果，第 i 个查询的结果为 xor[queries[i][0]]⊕xor[queries[i][1]+1]。
+
          */
         int n = queries.length;
         int[] res = new int[n];
         for (int i = 0; i < n; i++) {
-            res[i] = xor[queries[i][0]] ^ xor[queries[i][1]+1];
+            res[i] = xor[queries[i][0]] ^ xor[queries[i][1] + 1];
         }
         return res;
     }

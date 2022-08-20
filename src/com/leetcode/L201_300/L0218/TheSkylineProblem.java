@@ -53,7 +53,7 @@ public class TheSkylineProblem {
         // 降序排列
         TreeMap<Integer, Integer> heights = new TreeMap<>((a, b) -> b - a);
         heights.put(0, 1);
-        int left = 0, height = 0;
+        int left, height = 0;
 
         while (!pq.isEmpty()) {
             int[] arr = pq.poll();

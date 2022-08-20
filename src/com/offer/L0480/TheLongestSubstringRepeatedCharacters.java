@@ -25,7 +25,7 @@ import java.util.Map;
  * 提示：
  *
  * s.length <= 40000
- * 注意：本题与主站 3 题相同：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+ * 注意：本题与主站 3 题相同：<a href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/">https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/</a>
  */
 public class TheLongestSubstringRepeatedCharacters {
     /**
@@ -50,13 +50,13 @@ public class TheLongestSubstringRepeatedCharacters {
             //进行窗口内数据的一系列更新
             window.put(c,window.getOrDefault(c,0)+1);
 
-            while (window.get(c).intValue()>1){
+            while (window.get(c) > 1) {
                 //d是将移除窗口的字符
                 char d = s.charAt(left);
                 //左移动窗口
                 left++;
 
-                window.put(d,window.get(d)-1);
+                window.put(d, window.get(d) - 1);
             }
             //更新答案
             res = Math.max(res,right - left);

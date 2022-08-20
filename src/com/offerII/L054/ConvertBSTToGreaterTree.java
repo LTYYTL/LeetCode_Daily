@@ -36,8 +36,8 @@ import java.util.Stack;
  * 给定的树为二叉搜索树。
  *
  * 注意：
- * 本题与主站 538 题相同： https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
- * 本题与主站 1038 题相同：https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/
+ * 本题与主站 538 题相同： <a href="https://leetcode-cn.com/problems/convert-bst-to-greater-tree/">https://leetcode-cn.com/problems/convert-bst-to-greater-tree/</a>
+ * 本题与主站 1038 题相同：<a href="https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/">https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/</a>
  */
 public class ConvertBSTToGreaterTree {
     /**
@@ -68,7 +68,7 @@ public class ConvertBSTToGreaterTree {
     public TreeNode convertBST_iteration(TreeNode<Integer> root){
         //用于中序遍历的栈
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode res = root;
+        TreeNode<Integer> res = root;
         int pre = 0;
 
         while (!stack.isEmpty() || root!=null){

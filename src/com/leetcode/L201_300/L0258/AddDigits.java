@@ -15,9 +15,7 @@ public class AddDigits {
     /**
      * 方法：数学
      * 作者：windliang
-     * 链接：https://leetcode-cn.com/problems/add-digits/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-5-7/
-     * @param num
-     * @return
+     * 链接：<a href="https://leetcode-cn.com/problems/add-digits/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-5-7/">https://leetcode-cn.com/problems/add-digits/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-5-7/</a>
      */
     public int addDigits(int num) {
         return (num - 1) % 9 + 1;

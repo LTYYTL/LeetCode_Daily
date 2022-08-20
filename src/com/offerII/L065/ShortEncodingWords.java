@@ -32,7 +32,7 @@ import java.util.TreeMap;
  * 1 <= words[i].length <= 7
  * words[i] 仅由小写字母组成
  *
- * 注意：本题与主站 820 题相同： https://leetcode-cn.com/problems/short-encoding-of-words/
+ * 注意：本题与主站 820 题相同： <a href="https://leetcode-cn.com/problems/short-encoding-of-words/">https://leetcode-cn.com/problems/short-encoding-of-words/</a>
  */
 public class ShortEncodingWords {
     /**
@@ -64,8 +64,8 @@ public class ShortEncodingWords {
     /**
      * 方法二：字典树
      */
-    class Tire{
-        TreeMap<Character,Tire> next;
+    static class Tire {
+        TreeMap<Character, Tire> next;
 
         public Tire() {
             next = new TreeMap<>();

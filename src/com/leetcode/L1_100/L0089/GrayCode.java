@@ -43,7 +43,7 @@ public class GrayCode {
      */
     public List<Integer> grayCode(int n) {
         //结果集
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         //第一位是0
         res.add(0);
         //遍历

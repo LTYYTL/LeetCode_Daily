@@ -30,13 +30,11 @@ import com.util.TreeNode;
  *
  * 限制：
  * 0 <= 树的结点个数 <= 10000
- * 注意：本题与主站 110 题相同：https://leetcode-cn.com/problems/balanced-binary-tree/
+ * 注意：本题与主站 110 题相同：<a href="https://leetcode-cn.com/problems/balanced-binary-tree/">https://leetcode-cn.com/problems/balanced-binary-tree/</a>
  */
 public class BalancedBinaryTree {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public boolean isBalanced(TreeNode root) {
         //空值情况
@@ -55,8 +53,6 @@ public class BalancedBinaryTree {
 
     /**
      * 计算深度
-     * @param root
-     * @return
      */
     private int depth(TreeNode root) {
         if (root == null)

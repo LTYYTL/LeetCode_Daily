@@ -32,13 +32,10 @@ import java.util.LinkedList;
 public class AddTwoNumbersII {
     /**
      * 方法：栈
-     * @param l1
-     * @param l2
-     * @return
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        Deque<Integer> stack1 = new LinkedList<Integer>();
-        Deque<Integer> stack2 = new LinkedList<Integer>();
+        Deque<Integer> stack1 = new LinkedList<>();
+        Deque<Integer> stack2 = new LinkedList<>();
         //链表内各节点的值
         while (l1 != null) {
             stack1.push(l1.val);

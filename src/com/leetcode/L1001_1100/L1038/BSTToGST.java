@@ -28,7 +28,7 @@ import java.util.Stack;
  * 每个节点的值介于 0 和 100 之间。
  * 给定的树为二叉搜索树。
  *
- * 注意：该题目与 538: https://leetcode-cn.com/problems/convert-bst-to-greater-tree/  相同
+ * 注意：该题目与 538: <a href="https://leetcode-cn.com/problems/convert-bst-to-greater-tree/">https://leetcode-cn.com/problems/convert-bst-to-greater-tree/</a>  相同
  */
 public class BSTToGST {
     /**
@@ -60,7 +60,7 @@ public class BSTToGST {
     public TreeNode bstToGst_Iteration(TreeNode<Integer> root){
         //用于中序遍历的栈
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode res = root;
+        TreeNode<Integer> res = root;
         int pre = 0;
 
         while (!stack.isEmpty() || root!=null){

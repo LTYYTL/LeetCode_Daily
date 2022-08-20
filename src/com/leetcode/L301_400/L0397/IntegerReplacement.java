@@ -63,7 +63,7 @@ public class IntegerReplacement {
             return memo.get(n);
         }
 
-        int ans = 0;
+        int ans;
 
         if (n % 2 == 0) {
             ans = dfs(n / 2, memo) + 1;
@@ -79,7 +79,7 @@ public class IntegerReplacement {
     /**
      * 方法：位运算
      * 作者：tong-zhu
-     * 链接：https://leetcode-cn.com/problems/integer-replacement/solution/tong-ge-lai-shua-ti-la-yi-ti-san-jie-bao-u05f/
+     * 链接：<a href="https://leetcode-cn.com/problems/integer-replacement/solution/tong-ge-lai-shua-ti-la-yi-ti-san-jie-bao-u05f/">https://leetcode-cn.com/problems/integer-replacement/solution/tong-ge-lai-shua-ti-la-yi-ti-san-jie-bao-u05f/</a>
      */
     public int integerReplacement_bit(int n) {
         long num = n;

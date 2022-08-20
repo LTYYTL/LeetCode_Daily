@@ -50,13 +50,13 @@ public class XiaoTuanSelectionPlan {
         for (int i = 0; i < n; i++) {
             //输入意向岗位
             String[] data = reader.readLine().split(" ");
-            for (int j = 0; j < data.length; j++) {
+            for (String datum : data) {
                 //当前的意向岗位
-                int cur = Integer.parseInt(data[j]);
+                int cur = Integer.parseInt(datum);
                 //标号从0开始，没有被选
-                if (!vis[cur-1]){
-                    writer.write(cur+" ");
-                    vis[cur-1] = true;//修改为选中状态
+                if (!vis[cur - 1]) {
+                    writer.write(cur + " ");
+                    vis[cur - 1] = true;//修改为选中状态
                     break;
                 }
             }

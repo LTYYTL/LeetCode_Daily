@@ -1,6 +1,9 @@
 package com.leetcode.L1_100.L0003;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 3. 无重复字符的最长子串
@@ -98,13 +101,13 @@ public class NoRepeatLongestStr {
             //进行窗口内数据的一系列更新
             window.put(c,window.getOrDefault(c,0)+1);
 
-            while (window.get(c).intValue()>1){
+            while (window.get(c) > 1) {
                 //d是将移除窗口的字符
                 char d = s.charAt(left);
                 //左移动窗口
                 left++;
 
-                window.put(d,window.get(d)-1);
+                window.put(d, window.get(d) - 1);
             }
             //更新答案
             res = Math.max(res,right - left);

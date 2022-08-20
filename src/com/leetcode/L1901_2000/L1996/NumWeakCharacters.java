@@ -38,9 +38,7 @@ public class NumWeakCharacters {
      */
     public int numberOfWeakCharacters(int[][] properties) {
         //按照攻击力从小到大排序，防御力按从大到小排序（可以避免攻击力相同，防御力不同的情况）
-        Arrays.sort(properties,(a,b)->{
-            return a[0] == b[0] ? b[1] - a[1] : a[0] - b[0];
-        });
+        Arrays.sort(properties, (a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
         //个数
         int res = 0;
         //最大防御力

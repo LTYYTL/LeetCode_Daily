@@ -37,7 +37,7 @@ import java.util.Stack;
  * candidate 中的每个元素都是独一无二的。
  * 1 <= target <= 500
  *
- * 注意：本题与主站 39 题相同： https://leetcode-cn.com/problems/combination-sum/
+ * 注意：本题与主站 39 题相同： <a href="https://leetcode-cn.com/problems/combination-sum/">https://leetcode-cn.com/problems/combination-sum/</a>
  */
 public class CombinationSum {
     /**

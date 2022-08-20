@@ -23,7 +23,7 @@ import java.util.Stack;
  * 0 <= pushed.length == popped.length <= 1000
  * 0 <= pushed[i], popped[i] < 1000
  * pushed 是 popped 的排列。
- * 注意：本题与主站 946 题相同：https://leetcode-cn.com/problems/validate-stack-sequences/
+ * 注意：本题与主站 946 题相同：<a href="https://leetcode-cn.com/problems/validate-stack-sequences/">https://leetcode-cn.com/problems/validate-stack-sequences/</a>
  */
 public class ValidateStackSequences {
     /**

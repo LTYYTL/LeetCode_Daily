@@ -30,7 +30,8 @@ public class LongestUncommonSubI {
     /**
      * 方法：模拟
      * 作者：guanpengchn
-     * 链接：https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/solution/qi-xi-suan-fa-521-zui-chang-te-shu-xu-lie-i-by-gua/
+     * 链接：<a href="https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/solution/qi-xi-suan-fa-521-zui-chang-te-shu-xu-lie-i-by-gua/">https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/solution/qi-xi-suan-fa-521-zui-chang-te-shu-xu-lie-i-by-gua/</a>
+     *
      * @param a
      * @param b
      * @return
@@ -38,7 +39,7 @@ public class LongestUncommonSubI {
     public int findLUSlength(String a, String b) {
         if (a.equals(b))
             return -1;
-        return a.length() > b.length() ? a.length() :b.length();
+        return Math.max(a.length(), b.length());
 
     }
 }

@@ -28,7 +28,7 @@ import java.util.Stack;
  * 1 <= n <= 20
  * 1 <= k <= n
  *
- * 注意：本题与主站 77 题相同： https://leetcode-cn.com/problems/combinations/
+ * 注意：本题与主站 77 题相同： <a href="https://leetcode-cn.com/problems/combinations/">https://leetcode-cn.com/problems/combinations/</a>
  */
 public class Combination {
     /**

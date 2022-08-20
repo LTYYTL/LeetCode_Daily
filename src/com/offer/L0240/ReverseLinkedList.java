@@ -15,7 +15,7 @@ import java.util.Stack;
  * 限制：
  * 0 <= 节点个数 <= 5000
  *
- * 注意：本题与主站 206 题相同：https://leetcode-cn.com/problems/reverse-linked-list/
+ * 注意：本题与主站 206 题相同：<a href="https://leetcode-cn.com/problems/reverse-linked-list/">https://leetcode-cn.com/problems/reverse-linked-list/</a>
  */
 public class ReverseLinkedList {
     /**

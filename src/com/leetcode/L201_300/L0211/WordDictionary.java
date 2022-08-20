@@ -34,42 +34,27 @@ import java.util.TreeMap;
  * 最调用多 50000 次 addWord 和 search
  */
 public class WordDictionary {
-    /**
-     * 方法：字典树
-     */
-    private class Node{
-        //当前是否是单词结束
-        public boolean isWord;
-        //字母后的字母节点
-        public TreeMap<Character, Node> next;
-
-        public Node(boolean isWord){
-            this.isWord = isWord;
-            next = new TreeMap<>();
-        }
-
-        public Node(){
-            this(false);
-        }
-    }
-
     private final Node root;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public WordDictionary() {
         root = new Node();
 
     }
 
-    /** Adds a word into the data structure. */
+    /**
+     * Adds a word into the data structure.
+     */
     public void addWord(String word) {
         Node cur = root;
-        for(int i = 0; i < word.length(); i++){
+        for (int i = 0; i < word.length(); i++) {
             //单词当前字母
             char c = word.charAt(i);
             //不存在创建
-            if(cur.next.get(c) == null)
-                cur.next.put(c,new Node());
+            if (cur.next.get(c) == null)
+                cur.next.put(c, new Node());
             //指针向后移
             cur = cur.next.get(c);
         }
@@ -78,31 +63,52 @@ public class WordDictionary {
 
     }
 
-    /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+    /**
+     * Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
+     */
     public boolean search(String word) {
 
-        return match(root,word,0);
+        return match(root, word, 0);
     }
 
-    private boolean match(Node node,String word,int index){
+    private boolean match(Node node, String word, int index) {
         //单词遍历结束
-        if(index == word.length())
+        if (index == word.length())
             return node.isWord;
         //单词的字母
         char c = word.charAt(index);
         //分类讨论
-        if(c != '.'){
+        if (c != '.') {
             //字母不存在
-            if(node.next.get(c) == null)
+            if (node.next.get(c) == null)
                 return false;
             //指针向后移动
-            return match(node.next.get(c),word,index+1);
-        }else{
-            for(char nextChar:node.next.keySet()){
-                if(match(node.next.get(nextChar),word,index+1))
+            return match(node.next.get(c), word, index + 1);
+        } else {
+            for (char nextChar : node.next.keySet()) {
+                if (match(node.next.get(nextChar), word, index + 1))
                     return true;
             }
             return false;
+        }
+    }
+
+    /**
+     * 方法：字典树
+     */
+    private static class Node {
+        //当前是否是单词结束
+        public boolean isWord;
+        //字母后的字母节点
+        public TreeMap<Character, Node> next;
+
+        public Node(boolean isWord) {
+            this.isWord = isWord;
+            next = new TreeMap<>();
+        }
+
+        public Node() {
+            this(false);
         }
     }
 }

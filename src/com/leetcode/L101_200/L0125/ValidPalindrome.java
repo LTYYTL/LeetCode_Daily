@@ -22,7 +22,7 @@ public class ValidPalindrome {
      */
     public boolean isPalindrome(String s) {
         //将字符串s的大写变小写，用正则表达式去除字符串s中无关字符
-        s = s.toLowerCase().replaceAll("[^0-9a-z]","");
+        s = s.toLowerCase().replaceAll("[^\\da-z]", "");
         //将字符串转换成char[]
         char[] chars = s.toCharArray();
         //头指针

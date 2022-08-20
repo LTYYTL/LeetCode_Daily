@@ -5,9 +5,9 @@ import com.util.ListNode;
 public class OddEvenLinkedListTest {
     public static void main(String[] args) {
         OddEvenLinkedList oddEvenLinkedList = new OddEvenLinkedList();
-        /*** 示例 1:
-         * 输入: 1->2->3->4->5->NULL
-         * 输出: 1->3->5->2->4->NULL
+        /* 示例 1:
+         输入: 1->2->3->4->5->NULL
+         输出: 1->3->5->2->4->NULL
          */
         ListNode head = new ListNode(1);
         ListNode node1 = new ListNode(2);

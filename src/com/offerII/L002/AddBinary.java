@@ -18,14 +18,11 @@ package com.offerII.L002;
  * 1 <= a.length, b.length <= 10^4
  * 字符串如果不是 "0" ，就都不含前导零。
  *
- * 注意：本题与主站 67 题相同：https://leetcode-cn.com/problems/add-binary/
+ * 注意：本题与主站 67 题相同：<a href="https://leetcode-cn.com/problems/add-binary/">https://leetcode-cn.com/problems/add-binary/</a>
  */
 public class AddBinary {
     /**
      * 方法：模拟
-     * @param a
-     * @param b
-     * @return
      */
     public String addBinary(String a, String b) {
         //双指针
@@ -55,9 +52,6 @@ public class AddBinary {
 
     /**
      * 方法二：内置函数
-     * @param a
-     * @param b
-     * @return
      */
     public String addBinary_fun(String a, String b) {
         return Integer.toBinaryString(Integer.parseInt(a,2) + Integer.parseInt(b,2));

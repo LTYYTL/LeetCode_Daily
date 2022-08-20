@@ -19,7 +19,7 @@ package com.leetcode.L1_100.L0014;
  */
 public class LongestCommonPrefix {
     /**
-     * 链接：https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-yi-dong-de-ti-jie-by-ivan1/
+     * 链接：<a href="https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-yi-dong-de-ti-jie-by-ivan1/">https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-yi-dong-de-ti-jie-by-ivan1/</a>
      * 参考此题解的方法，改写成Java版
      *
      * 依次将基准元素x和后面的元素进行比较（假定后面的元素依次为x1,x2,x3....），不断更新基准元素，

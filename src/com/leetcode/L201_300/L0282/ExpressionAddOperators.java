@@ -48,7 +48,7 @@ public class ExpressionAddOperators {
         this.n = num.length();
         this.num = num;
         this.target = target;
-        this.ans = new ArrayList<String>();
+        this.ans = new ArrayList<>();
         StringBuffer expr = new StringBuffer();
         backtrack(expr, 0, 0, 0);
         return ans;

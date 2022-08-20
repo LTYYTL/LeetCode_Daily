@@ -21,8 +21,6 @@ public class BalanceBinarySearchTree {
 
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public TreeNode balanceBST(TreeNode root) {
         //中序遍历获取有序数组
@@ -33,10 +31,6 @@ public class BalanceBinarySearchTree {
 
     /**
      * 用分治构建树（第108题）
-     * @param list
-     * @param left
-     * @param right
-     * @return
      */
     private TreeNode getTree(List<Integer> list, int left, int right) {
         if (left > right)
@@ -52,7 +46,6 @@ public class BalanceBinarySearchTree {
 
     /**
      * 中序遍历
-     * @param root
      */
     private void order(TreeNode<Integer> root) {
         if (root != null){

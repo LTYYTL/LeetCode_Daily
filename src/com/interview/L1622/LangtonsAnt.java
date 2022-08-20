@@ -35,38 +35,6 @@ import java.util.*;
  * K <= 100000
  */
 public class LangtonsAnt {
-    /**
-     * 方法：模拟
-     * @param K
-     * @return
-     */
-    private class Position {
-
-        // 横坐标 x 纵坐标 y
-        int x, y;
-
-        public Position(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        @Override
-        public boolean equals(Object obj) {
-            if (obj == this) return true;
-            if (!(obj instanceof Position)) return false;
-            Position o = (Position) obj;
-            return x == o.x && y == o.y;
-        }
-
-        // 改写哈希算法，使两个 Position 对象可以比较坐标而不是内存地址
-        @Override
-        public int hashCode() {
-            int result = x;
-            result = 31 * result + y;
-            return result;
-        }
-    }
-
     public List<String> printKMoves(int K) {
         char[] direction = {'L', 'U', 'R', 'D'};
         // 用“向量”记录方向，顺序与上一行方向的字符顺序保持一致，每个元素的后一个元素都是可以90°向右变换得到的
@@ -96,10 +64,10 @@ public class LangtonsAnt {
         // 计算边界，即输出网格的行数和列数
         int left = antPos.x, top = antPos.y, right = antPos.x, bottom = antPos.y;
         for (Position pos : blackSet) {
-            left = pos.x < left ? pos.x : left;
-            top = pos.y < top ? pos.y : top;
-            right = pos.x > right ? pos.x : right;
-            bottom = pos.y > bottom ? pos.y : bottom;
+            left = Math.min(pos.x, left);
+            top = Math.min(pos.y, top);
+            right = Math.max(pos.x, right);
+            bottom = Math.max(pos.y, bottom);
         }
         char[][] grid = new char[bottom - top + 1][right - left + 1];
         // 填充白块
@@ -115,5 +83,37 @@ public class LangtonsAnt {
         for (char[] row : grid)
             result.add(String.valueOf(row));
         return result;
+    }
+
+    /**
+     * 方法：模拟
+     *
+     * @return
+     */
+    private static class Position {
+
+        // 横坐标 x 纵坐标 y
+        int x, y;
+
+        public Position(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (obj == this) return true;
+            if (!(obj instanceof Position)) return false;
+            Position o = (Position) obj;
+            return x == o.x && y == o.y;
+        }
+
+        // 改写哈希算法，使两个 Position 对象可以比较坐标而不是内存地址
+        @Override
+        public int hashCode() {
+            int result = x;
+            result = 31 * result + y;
+            return result;
+        }
     }
 }

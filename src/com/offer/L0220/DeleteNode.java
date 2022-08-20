@@ -16,7 +16,6 @@ public class DeleteNode {
     /**
      * 方法：双指针
      * @param head
-     * @param n
      * @return
      */
     public ListNode getKthFromEnd(ListNode head, int k) {

@@ -17,8 +17,6 @@ package com.leetcode.L501_600.L0504;
 public class Base7 {
     /**
      * 方法：数学
-     * @param num
-     * @return
      */
     public String convertToBase7(int num) {
         StringBuilder res = new StringBuilder();

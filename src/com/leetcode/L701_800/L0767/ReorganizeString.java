@@ -1,6 +1,5 @@
 package com.leetcode.L701_800.L0767;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -45,12 +44,7 @@ public class ReorganizeString {
             return "";
 
         //创建最大堆结构，根据出现次数排序
-        PriorityQueue<Character> queue = new PriorityQueue<>(new Comparator<Character>() {
-            @Override
-            public int compare(Character o1, Character o2) {
-                return counts[o2 - 'a'] - counts[o1 - 'a'];
-            }
-        });
+        PriorityQueue<Character> queue = new PriorityQueue<>((o1, o2) -> counts[o2 - 'a'] - counts[o1 - 'a']);
 
         //构建最大堆
         for (char c = 'a';c<='z'; ++c){
