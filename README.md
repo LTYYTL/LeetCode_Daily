@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1072**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1074**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -507,6 +507,7 @@
 | 1422 | 分割字符串的最大得分         | [MaxScoreString](src/com/leetcode/L1401_1500/L1422/MaxScoreString.java)                                                           | 简单  | 模拟             | 字符串                        |
 | 1436 | 旅行终点站              | [DestinationCity](src/com/leetcode/L1401_1500/L1436/DestinationCity.java)                                                         | 简单  | set集合          | 字符串、哈希表                    |
 | 1446 | 连续字符               | [ConsecutiveCharacters](src/com/leetcode/L1401_1500/L1446/ConsecutiveCharacters.java)                                             | 简单  | 双指针            | 字符串                        |
+| 1455 | 检查单词是否为句中其他单词的前缀   | [CheckPrefixWord](src/com/leetcode/L1401_1500/L1455/CheckPrefixWord.java)                                                         | 简单  | 模拟             | 字符串、 字符串匹配                 |
 | 1541 | 平衡括号字符串的最少插入次数     | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java)                                                             | 中等  | 模拟             | 字符串、栈、贪心算法                 |
 | 1576 | 替换所有的问号            | [ReplaceAvoidConsecutive](src/com/leetcode/L1501_1600/L1576/ReplaceAvoidConsecutive.java)                                         | 中等  | 模拟             | 字符串                        |
 | 1614 | 括号的最大嵌套深度          | [MaxDepthParentheses](src/com/leetcode/L1601_1700/L1614/MaxDepthParentheses.java)                                                 | 简单  | 栈              | 字符串、栈                      |
