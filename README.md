@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1075**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1077**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -176,6 +176,8 @@
 | 简单 | 双指针 | 数组 |
 | 645 | 错误的集合 | [SetMismatch](src/com/leetcode/L601_700/L0645/SetMismatch.java)
 | 简单 | set集合 | 数组、哈希表、排序、位运算 |
+| 658 | 找到 K 个最接近的元素 | [FindKClosestElements](src/com/leetcode/L601_700/L0658/FindKClosestElements.java)
+| 中等 | 排序 | 数组、堆、排序、双指针、二分查找 |
 | 682 | 棒球比赛 | [BaseballGame](src/com/leetcode/L601_700/L0682/BaseballGame.java)
 | 简单 | 栈 | 数组、栈、模拟 |
 | 690 | 员工的重要性 | [EmployeeImportance](src/com/leetcode/L601_700/L0690/EmployeeImportance.java)
@@ -287,6 +289,8 @@
 | 1450 | 形成两个异或相等数组的三元组数目
 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1401_1500/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java)
 | 中等 | 双指针 | 数组、位运算、数学 |
+| 1460 | 通过翻转子数组使两个数组相等 | [TwoArraysEqual](src/com/leetcode/L1401_1500/L1460/TwoArraysEqual.java)
+| 简单 | 排序 | 数组、哈希表、排序 |
 | 1470 | 重新排列数组 | [ShuffleArray](src/com/leetcode/L1401_1500/L1470/ShuffleArray.java)
 | 简单 | 模拟 | 数组 |
 | 1480 | 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java)
