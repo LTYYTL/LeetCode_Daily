@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1077**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1078**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -291,6 +291,9 @@
 | 中等 | 双指针 | 数组、位运算、数学 |
 | 1460 | 通过翻转子数组使两个数组相等 | [TwoArraysEqual](src/com/leetcode/L1401_1500/L1460/TwoArraysEqual.java)
 | 简单 | 排序 | 数组、哈希表、排序 |
+| 1464 | 数组中两元素的最大乘积
+| [MaxTwoElements](src/com/leetcode/L1401_1500/L1464/MaxTwoElements.java)
+| 简单 | 排序 | 数组、堆、排序 |
 | 1470 | 重新排列数组 | [ShuffleArray](src/com/leetcode/L1401_1500/L1470/ShuffleArray.java)
 | 简单 | 模拟 | 数组 |
 | 1480 | 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java)
