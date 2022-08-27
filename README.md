@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1078**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1079**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -588,6 +588,7 @@
 | 653  | 两数之和 IV - 输入 BST                                               | [TwoSumIV](src/com/leetcode/L601_700/L0653/TwoSumIV.java)                                                       | 简单  | 双指针、set集合        | 树、二叉树、二叉搜索树、哈希表、广度优先搜索、深度优先搜索、双指针 |
 | 654  | 最大二叉树                                                          | [MaxBinaryTree](src/com/leetcode/L601_700/L0654/MaxBinaryTree.java)                                             | 中等  | 递归               | 树、二叉树、数组、栈、单调栈、分治算法               |
 | 655  | 输出二叉树                                                          | [PrintBinaryTree](src/com/leetcode/L601_700/L0655/PrintBinaryTree.java)                                         | 中等  | 深度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
+| 662  | 二叉树最大宽度                                                        | [MaxBinaryTree](src/com/leetcode/L601_700/L0662/MaxBinaryTree.java)                                             | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
 | 671  | 二叉树中第二小的节点                                                     | [SecondMinimumNodeInBinaryTree](src/com/leetcode/L601_700/L0671/SecondMinimumNodeInBinaryTree.java)             | 简单  | 深度优先搜索、set集合     | 树、二叉树、深度优先搜索                      |
 | 687  | 最长同值路径                                                         | [LongestUnivaluePath](src/com/leetcode/L601_700/L0687/LongestUnivaluePath.java)                                 | 中等  | 后序遍历             | 树、二叉树、深度优先搜索                      |
 | 700  | 二叉搜索树中的搜索                                                      | [SearchBST](src/com/leetcode/L601_700/L0700/SearchBST.java)                                                     | 简单  | 递归、迭代            | 树                                 |
