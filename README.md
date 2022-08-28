@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1079**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1080**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -906,6 +906,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 728  | 自除数                                                                 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java)                                     | 简单  | 数学       | 数学                |
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                |
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学             |
+| 793  | 阶乘函数后 K 个零                                                          | [PreimageFactorialZeroesSize](src/com/leetcode/L701_800/L0793/PreimageFactorialZeroesSize.java)                     | 困难  | 数学       | 数组、二分查找           |
 | 810  | 黑板异或游戏                                                              | [ChalkboardXORGame](src/com/leetcode/L801_900/L0810/ChalkboardXORGame.java)                                         | 困难  | 数学       | 数学                |
 | 812  | 最大三角形面积                                                             | [LargestTriangleArea](src/com/leetcode/L801_900/L0812/LargestTriangleArea.java)                                     | 简单  | 数学       | 数组、数学、几何          |
 | 829  | 连续整数求和                                                              | [ConsecutiveNumbersSum](src/com/leetcode/L801_900/L0829/ConsecutiveNumbersSum.java)                                 | 困难  | 数学       | 数学、枚举             |

@@ -27,16 +27,15 @@ package com.leetcode.L101_200.L0172;
 public class FactorialTrailingZeroes {
     /**
      * 方法：数学
-     * @param n
-     * @return
      */
     public int trailingZeroes(int n) {
         //计算有多少个5因子
         int res = 0;
-        for(int d = n; d / 5 > 0; d /= 5){
-            res += d/5;
+        long divisor = 5;
+        while (divisor <= n) {
+            res += n / divisor;
+            divisor *= 5;
         }
-
         return res;
     }
 }
