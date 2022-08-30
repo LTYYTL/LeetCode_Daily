@@ -28,16 +28,16 @@ import java.util.Stack;
 public class ValidateStackSequences {
     /**
      * 方法：模拟
-     * @param pushed
-     * @param popped
-     * @return
      */
     public boolean validateStackSequences(int[] pushed, int[] popped) {
+        // 栈
         Stack<Integer> stack = new Stack<>();
         //索引
         int index = 0;
         for (int num : pushed) {
+            // 入栈
             stack.push(num);
+            // 栈不为空且栈顶元素与出栈
             while(!stack.isEmpty() && stack.peek() == popped[index]) { // 循环判断与出栈
                 stack.pop();
                 index++;

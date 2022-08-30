@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1080**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1081**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -602,6 +602,7 @@
 | 965  | 单值二叉树                                                          | [UnivaluedBinaryTree](src/com/leetcode/L901_1000/L0965/UnivaluedBinaryTree.java)                                | 简单  | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
 | 987  | 二叉树的垂序遍历                                                       | [VerticalOrderTraversalBinaryTree](src/com/leetcode/L901_1000/L0987/VerticalOrderTraversalBinaryTree.java)      | 困难  | 深度优先搜索           | 树、二叉树、哈希表、深度优先搜索、广度优先搜索           |
 | 993  | 二叉树的堂兄弟节点                                                      | [CousinsBinaryTree](src/com/leetcode/L901_1000/L0993/CousinsBinaryTree.java)                                    | 简单  | 深度优先搜索、广度优先搜索    | 树、广度优先搜索                          |
+| 998  | 最大二叉树 II                                                       | [MaxBinaryTreeII](src/com/leetcode/L901_1000/L0998/MaxBinaryTreeII.java)                                        | 中等  | 递归               | 树、二叉树                             |
 | 1022 | 从根到叶的二进制数之和                                                    | [SumRootBinaryNumbers](src/com/leetcode/L1001_1100/L1022/SumRootBinaryNumbers.java)                             | 简单  | 递归               | 树、二叉树、深度优先搜索                      |
 | 1038 | 从二叉搜索树到更大和树                                                    | [BSTToGST](src/com/leetcode/L1001_1100/L1038/BSTToGST.java)                                                     | 中等  | 递归、迭代            | 树                                 |
 | 1104 | 二叉树寻路                                                          | [PathInZigzagLabelledBinaryTree](src/com/leetcode/L1101_1200/L1104/PathInZigzagLabelledBinaryTree.java)         | 中等  | 数学               | 树、二叉树、数学                          |
