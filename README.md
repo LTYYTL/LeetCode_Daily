@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1081**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1083**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -176,6 +176,8 @@
 | 简单 | 双指针 | 数组 |
 | 645 | 错误的集合 | [SetMismatch](src/com/leetcode/L601_700/L0645/SetMismatch.java)
 | 简单 | set集合 | 数组、哈希表、排序、位运算 |
+| 646 | 最长数对链 | [MaxPairChain](src/com/leetcode/L601_700/L0646/MaxPairChain.java)
+| 中等 | 排序 | 数组、排序、动态规划、贪心算法 |
 | 658 | 找到 K 个最接近的元素 | [FindKClosestElements](src/com/leetcode/L601_700/L0658/FindKClosestElements.java)
 | 中等 | 排序 | 数组、堆、排序、双指针、二分查找 |
 | 682 | 棒球比赛 | [BaseballGame](src/com/leetcode/L601_700/L0682/BaseballGame.java)
@@ -296,6 +298,8 @@
 | 简单 | 排序 | 数组、堆、排序 |
 | 1470 | 重新排列数组 | [ShuffleArray](src/com/leetcode/L1401_1500/L1470/ShuffleArray.java)
 | 简单 | 模拟 | 数组 |
+| 1475 | 商品折扣后的最终价格 | [PricesShop](src/com/leetcode/L1401_1500/L1475/PricesShop.java)
+| 简单 | 双指针 | 数组、栈、单调栈 |
 | 1480 | 一维数组的动态和 | [RunningSumArray](src/com/leetcode/L1401_1500/L1480/RunningSumArray.java)
 | 简单 | 模拟 | 数组、前缀和 |
 | 1512 | 好数对的数目 | [NumberGoodPairs](src/com/leetcode/L1501_1600/L1512/NumberGoodPairs.java)
