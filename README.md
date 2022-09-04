@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1083**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1084**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -652,6 +652,7 @@
 | 1254 | 统计封闭岛屿的数目     | [NumberClosedIslands](src/com/leetcode/L1201_1300/L1254/NumberClosedIslands.java)                       | 中等  | 深度优先搜索        | 数组、矩阵、并查集、广度优先搜索、深度优先搜索    |
 | 1337 | 矩阵中战斗力最弱的 K 行 | [TheKWeakestRowsMatrix](src/com/leetcode/L1301_1400/L1337/TheKWeakestRowsMatrix.java)                   | 简单  | 堆+二分查找        | 数组、矩阵、堆、二分查找、排列            |
 | 1380 | 矩阵中的幸运数       | [LuckyNumbersMatrix](src/com/leetcode/L1301_1400/L1380/LuckyNumbersMatrix.java)                         | 简单  | 模拟            | 数组、矩阵                      |
+| 1582 | 二进制矩阵中的特殊位置   | [SpecialPositionsMatrix](src/com/leetcode/L1501_1600/L1582/SpecialPositionsMatrix.java)                 | 简单  | 模拟            | 数组、矩阵                      |
 | 1672 | 最富有客户的资产总量    | [RichCustomerWealth](src/com/leetcode/L1601_1700/L1672/RichCustomerWealth.java)                         | 简单  | 模拟            | 数组、矩阵                      |
 | 1706 | 球会落何处         | [WhereWillBallFall](src/com/leetcode/L1701_1800/L1706/WhereWillBallFall.java)                           | 中等  | 深度优先搜索        | 数组、矩阵、深度优先搜索、模拟、动态规划       | 
 | 1765 | 地图中的最高点       | [MapHighestPeak](src/com/leetcode/L1701_1800/L1765/MapHighestPeak.java)                                 | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
