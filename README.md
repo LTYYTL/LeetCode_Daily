@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1084**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1085**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -589,6 +589,7 @@
 | 617  | 合并二叉树                                                          | [MergeTwoBinaryTrees](src/com/leetcode/L601_700/L0617/MergeTwoBinaryTrees.java)                                 | 简单  | 递归               | 树                                 |
 | 623  | 在二叉树中增加一行                                                      | [AddOneRowTree](src/com/leetcode/L601_700/L0623/AddOneRowTree.java)                                             | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
 | 637  | 二叉树的层平均值                                                       | [BinaryTreeLevelAverage](src/com/leetcode/L601_700/L0637/BinaryTreeLevelAverage.java)                           | 简单  | 广度优先搜索           | 树                                 |
+| 652  | 寻找重复的子树                                                        | [FindDuplicateSubtrees](src/com/leetcode/L601_700/L0652/FindDuplicateSubtrees.java)                             | 中等  | 递归               | 树、二叉树、哈希表、深度优先搜索                  |
 | 653  | 两数之和 IV - 输入 BST                                               | [TwoSumIV](src/com/leetcode/L601_700/L0653/TwoSumIV.java)                                                       | 简单  | 双指针、set集合        | 树、二叉树、二叉搜索树、哈希表、广度优先搜索、深度优先搜索、双指针 |
 | 654  | 最大二叉树                                                          | [MaxBinaryTree](src/com/leetcode/L601_700/L0654/MaxBinaryTree.java)                                             | 中等  | 递归               | 树、二叉树、数组、栈、单调栈、分治算法               |
 | 655  | 输出二叉树                                                          | [PrintBinaryTree](src/com/leetcode/L601_700/L0655/PrintBinaryTree.java)                                         | 中等  | 深度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
