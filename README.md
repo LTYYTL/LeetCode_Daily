@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1085**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1086**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -521,6 +521,7 @@
 | 1455 | 检查单词是否为句中其他单词的前缀   | [CheckPrefixWord](src/com/leetcode/L1401_1500/L1455/CheckPrefixWord.java)                                                         | 简单  | 模拟             | 字符串、 字符串匹配                 |
 | 1541 | 平衡括号字符串的最少插入次数     | [MinBalanceStr](src/com/leetcode/L1501_1600/L1541/MinBalanceStr.java)                                                             | 中等  | 模拟             | 字符串、栈、贪心算法                 |
 | 1576 | 替换所有的问号            | [ReplaceAvoidConsecutive](src/com/leetcode/L1501_1600/L1576/ReplaceAvoidConsecutive.java)                                         | 中等  | 模拟             | 字符串                        |
+| 1592 | 重新排列单词间的空格         | [RearrangeSpacesWords](src/com/leetcode/L1501_1600/L1592/RearrangeSpacesWords.java)                                               | 简单  | 模拟             | 字符串                        |
 | 1614 | 括号的最大嵌套深度          | [MaxDepthParentheses](src/com/leetcode/L1601_1700/L1614/MaxDepthParentheses.java)                                                 | 简单  | 栈              | 字符串、栈                      |
 | 1629 | 按键持续时间最长的键         | [SlowestKey](src/com/leetcode/L1601_1700/L1629/SlowestKey.java)                                                                   | 简单  | 模拟             | 数组、字符串                     |
 | 1684 | 统计一致字符串的数目         | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java)                                             | 中等  | set集合          | 数组、字符串、哈希表、位运算             |
