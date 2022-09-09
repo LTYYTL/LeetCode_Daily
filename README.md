@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1086**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1087**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -306,6 +306,8 @@
 | 简单 | map映射 | 数组、哈希表、数学、计数 |
 | 1583 | 统计不开心的朋友 | [CountUnhappyFriends](src/com/leetcode/L1501_1600/L1583/CountUnhappyFriends.java)
 | 中等 | 模拟 | 数组、模拟 |
+| 1598 | 文件夹操作日志搜集器 | [CrawlerLogFolder](src/com/leetcode/L1501_1600/L1598/CrawlerLogFolder.java)
+| 简单 | 栈 | 数组、字符串、栈 |
 | 1606 | 找到处理最多请求的服务器 | [FindServersMostRequests](src/com/leetcode/L1601_1700/L1606/FindServersMostRequests.java)
 | 中等 | 优先队列+有序集合 | 数组、优先队列、有序集合、贪心算法 |
 | 1646 | 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java)
