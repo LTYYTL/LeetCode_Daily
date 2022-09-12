@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1087**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1090**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -310,6 +310,8 @@
 | 简单 | 栈 | 数组、字符串、栈 |
 | 1606 | 找到处理最多请求的服务器 | [FindServersMostRequests](src/com/leetcode/L1601_1700/L1606/FindServersMostRequests.java)
 | 中等 | 优先队列+有序集合 | 数组、优先队列、有序集合、贪心算法 |
+| 1608 | 特殊数组的特征值 | [ArrayElements](src/com/leetcode/L1601_1700/L1608/ArrayElements.java)
+| 简单 | 排序 | 数组、排序、二分查找 |
 | 1646 | 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java)
 | 简单 | 模拟 | 数组、模拟、动态规划 |
 | 1705 | 吃苹果的最大数目 | [MaxEatenApples](src/com/leetcode/L1701_1800/L1705/MaxEatenApples.java)
@@ -597,6 +599,7 @@
 | 654  | 最大二叉树                                                          | [MaxBinaryTree](src/com/leetcode/L601_700/L0654/MaxBinaryTree.java)                                             | 中等  | 递归               | 树、二叉树、数组、栈、单调栈、分治算法               |
 | 655  | 输出二叉树                                                          | [PrintBinaryTree](src/com/leetcode/L601_700/L0655/PrintBinaryTree.java)                                         | 中等  | 深度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
 | 662  | 二叉树最大宽度                                                        | [MaxBinaryTree](src/com/leetcode/L601_700/L0662/MaxBinaryTree.java)                                             | 中等  | 广度优先搜索           | 树、二叉树、广度优先搜索、深度优先搜索               |
+| 669  | 修剪二叉搜索树                                                        | [TrimBST](src/com/leetcode/L601_700/L0669/TrimBST.java)                                                         | 中等  | 递归               | 树、二叉树、二叉搜索树、深度优先搜索                |
 | 671  | 二叉树中第二小的节点                                                     | [SecondMinimumNodeInBinaryTree](src/com/leetcode/L601_700/L0671/SecondMinimumNodeInBinaryTree.java)             | 简单  | 深度优先搜索、set集合     | 树、二叉树、深度优先搜索                      |
 | 687  | 最长同值路径                                                         | [LongestUnivaluePath](src/com/leetcode/L601_700/L0687/LongestUnivaluePath.java)                                 | 中等  | 后序遍历             | 树、二叉树、深度优先搜索                      |
 | 700  | 二叉搜索树中的搜索                                                      | [SearchBST](src/com/leetcode/L601_700/L0700/SearchBST.java)                                                     | 简单  | 递归、迭代            | 树                                 |
@@ -912,6 +915,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 593  | 有效的正方形                                                              | [ValidSquare](src/com/leetcode/L501_600/L0593/ValidSquare.java)                                                     | 中等  | 数学       | 数学、几何             |
 | 598  | 范围求和 II                                                             | [RangeAdditionII](src/com/leetcode/L501_600/L0598/RangeAdditionII.java)                                             | 简单  | 数学       | 数组、数学             |
 | 633  | 平方数之和                                                               | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java)                                           | 中等  | 双指针、数学   | 数学                |
+| 667  | 优美的排列 II                                                            | [BeautifulArrangementII](src/com/leetcode/L601_700/L0667/BeautifulArrangementII.java)                               | 中等  | 数学       | 数组 、数学            |
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                |
 | 728  | 自除数                                                                 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java)                                     | 简单  | 数学       | 数学                |
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                |
