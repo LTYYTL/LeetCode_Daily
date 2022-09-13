@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1090**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1091**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -916,6 +916,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 598  | 范围求和 II                                                             | [RangeAdditionII](src/com/leetcode/L501_600/L0598/RangeAdditionII.java)                                             | 简单  | 数学       | 数组、数学             |
 | 633  | 平方数之和                                                               | [SumSquareNumbers](src/com/leetcode/L601_700/L0633/SumSquareNumbers.java)                                           | 中等  | 双指针、数学   | 数学                |
 | 667  | 优美的排列 II                                                            | [BeautifulArrangementII](src/com/leetcode/L601_700/L0667/BeautifulArrangementII.java)                               | 中等  | 数学       | 数组 、数学            |
+| 670  | 最大交换                                                                | [MaxSwap](src/com/leetcode/L601_700/L0670/MaxSwap.java)                                                             | 中等  | 数学       | 算法 、数学            |
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                |
 | 728  | 自除数                                                                 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java)                                     | 简单  | 数学       | 数学                |
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                |
