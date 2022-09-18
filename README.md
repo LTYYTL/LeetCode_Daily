@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1092**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1094**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -529,6 +529,7 @@
 | 1576 | 替换所有的问号            | [ReplaceAvoidConsecutive](src/com/leetcode/L1501_1600/L1576/ReplaceAvoidConsecutive.java)                                         | 中等  | 模拟             | 字符串                        |
 | 1592 | 重新排列单词间的空格         | [RearrangeSpacesWords](src/com/leetcode/L1501_1600/L1592/RearrangeSpacesWords.java)                                               | 简单  | 模拟             | 字符串                        |
 | 1614 | 括号的最大嵌套深度          | [MaxDepthParentheses](src/com/leetcode/L1601_1700/L1614/MaxDepthParentheses.java)                                                 | 简单  | 栈              | 字符串、栈                      |
+| 1624 | 两个相同字符之间的最长子字符串    | [LargestEqualCharacters](src/com/leetcode/L1601_1700/L1624/LargestEqualCharacters.java)                                           | 简单  | 模拟             | 字符串、哈希表                    |
 | 1629 | 按键持续时间最长的键         | [SlowestKey](src/com/leetcode/L1601_1700/L1629/SlowestKey.java)                                                                   | 简单  | 模拟             | 数组、字符串                     |
 | 1684 | 统计一致字符串的数目         | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java)                                             | 中等  | set集合          | 数组、字符串、哈希表、位运算             |
 | 1736 | 替换隐藏数字得到的最晚时间      | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java)                         | 简单  | 模拟             | 字符串                        |
@@ -654,6 +655,7 @@
 | 695  | 岛屿的最大面积       | [MaxAreaIsland](src/com/leetcode/L601_700/L0695/MaxAreaIsland.java)                                     | 中等  | 深度优先搜索、广度优先搜索 | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |
 | 733  | 图像渲染          | [FloodFill](src/com/leetcode/L701_800/L0733/FloodFill.java)                                             | 简单  | 广度优先搜索        | 数组、矩阵、深度优先搜索、广度优先搜索        |
 | 773  | 滑动谜题          | [SlidingPuzzle](src/com/leetcode/L701_800/L0773/SlidingPuzzle.java)                                     | 困难  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
+| 827  | 最大人工岛         | [MakingLargeIsland](src/com/leetcode/L801_900/L0827/MakingLargeIsland.java)                             | 困难  | 深度优先搜索        | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |
 | 909  | 蛇梯棋           | [SnakesLadders](src/com/leetcode/L901_1000/L0909/SnakesLadders.java)                                    | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
 | 994  | 腐烂的橘子         | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java)                                  | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
 | 1020 | 飞地的数量         | [NumberEnclaves](src/com/leetcode/L1001_1100/L1020/NumberEnclaves.java)                                 | 中等  | 深度优先搜索        | 数组、矩阵、并查集、广度优先搜索、深度优先搜索    |
