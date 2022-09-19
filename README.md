@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1094**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1095**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -314,6 +314,9 @@
 | 简单 | 排序 | 数组、排序、二分查找 |
 | 1619 | 删除某些元素后的数组均值 | [MeanArrayElements](src/com/leetcode/L1601_1700/L1619/MeanArrayElements.java)
 | 简单 | 排序 | 数组、排序 |
+| 1636 | 按照频率将数组升序排序
+| [SortArrayIncreasingFrequency](src/com/leetcode/L1601_1700/L1636/SortArrayIncreasingFrequency.java)
+| 简单 | map映射 | 数组、哈希表、排序 |
 | 1646 | 获取生成数组中的最大值 | [GetMaximumGeneratedArray](src/com/leetcode/L1601_1700/L1646/GetMaximumGeneratedArray.java)
 | 简单 | 模拟 | 数组、模拟、动态规划 |
 | 1705 | 吃苹果的最大数目 | [MaxEatenApples](src/com/leetcode/L1701_1800/L1705/MaxEatenApples.java)
