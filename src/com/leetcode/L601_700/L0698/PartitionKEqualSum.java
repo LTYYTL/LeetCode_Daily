@@ -24,9 +24,6 @@ import java.util.Map;
 public class PartitionKEqualSum {
     /**
      * 方法：回溯算法
-     * @param nums
-     * @param k
-     * @return
      */
     public boolean canPartitionKSubsets(int[] nums, int k) {
         //特殊情况
