@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1095**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1096**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -833,6 +833,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 526  | 优美的排列            | [BeautifulArrangement](src/com/leetcode/L501_600/L0526/BeautifulArrangement.java)                 | 中等  | 回溯算法、动态规划  | 数组、位运算、回溯算法、动态规划、状态压缩       |
 | 698  | 划分为k个相等的子集       | [PartitionKEqualSum](src/com/leetcode/L601_700/L0698/PartitionKEqualSum.java)                     | 中等  | 回溯算法       | 数组、位运算、回溯算法、动态规划、状态压缩、记忆化搜索 |
 | 784  | 字母大小写全排列         | [LetterCasePermutation](src/com/leetcode/L701_800/L0784/LetterCasePermutation.java)               | 中等  | 回溯算法       | 字符串、位运算、回溯算法                |
+| 854  | 相似度为 K 的字符串      | [KSimilarStrings](src/com/leetcode/L801_900/L0854/KSimilarStrings.java)                           | 困难  | 回溯算法 | 字符串、广度优先搜索                  |
 | 869  | 重新排序得到 2 的幂      | [ReorderedPower2](src/com/leetcode/L801_900/L0869/ReorderedPower2.java)                           | 中等  | 回溯算法、set集合 | 数学、计数、排序、枚举                 |
 | 1219 | 黄金矿工             | [PathMaxGold](src/com/leetcode/L1201_1300/L1219/PathMaxGold.java)                                 | 中等  | 回溯算法       | 数组、矩阵、回溯算法                  |
 | 1863 | 找出所有子集的异或总和再求和   | [SumAllSubsetXORTotals](src/com/leetcode/L1801_1900/L1863/SumAllSubsetXORTotals.java)             | 简单  | 回溯算法       | 回溯算法                        |
