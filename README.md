@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1097**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1098**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -1046,6 +1046,7 @@ Kruskal算法、Prim算法 | 数组、并查集、最小生成树 |
 | 676  | 实现一个魔法字典            | [MagicDictionary](src/com/leetcode/L601_700/L0676/MagicDictionary.java)       | 中等  | map映射          | 字符串、哈希表、字典树、设计                   |
 | 677  | 键值映射                | [MapSum](src/com/leetcode/L601_700/L0677/MapSum.java)                         | 中等  | 前缀树            | 字典树、设计                           |
 | 703  | 数据流中的第 K 大元素        | [KthLargest](src/com/leetcode/L701_800/L0703/KthLargest.java)                 | 简单  | 堆              | 树、二叉树、二叉搜索树、堆、数据流、设计             |
+| 707  | 设计链表                | [MyLinkedList](src/com/leetcode/L701_800/L0707/MyLinkedList.java)             | 中等  | 链表             | 链表、设计                            |
 | 710  | 黑名单中的随机数            | [Solution](src/com/leetcode/L701_800/L0710/Solution.java)                     | 困难  | map映射          | 哈希表、数学、随机化、二分查找、排序               |
 | 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                      |
 | 731  | 我的日程安排表 II          | [MyCalendarTwo](src/com/leetcode/L701_800/L0731/MyCalendarTwo.java)           | 中等  | 差分数组           | 线段树、有序集合、二分查找、设计                 |
