@@ -33,8 +33,6 @@ package com.leetcode.L1701_1800.L1800;
 public class MaximumAscendingSubarraySum {
     /**
      * 方法：双指针
-     * @param nums
-     * @return
      */
     public int maxAscendingSum(int[] nums) {
         //只有一个数的时候
@@ -48,17 +46,24 @@ public class MaximumAscendingSubarraySum {
         int max = 0;
         //子序和
         int count = 0;
-        while (j< nums.length){
+        // 遍历
+        while (j< nums.length) {
+            // 记录前面的数
             count += nums[j - 1];
-            if (nums[j -1] < nums[j]){
+            // 判断是否是升序
+            if (nums[j - 1] < nums[j]) {
                 j++;
-            }else {
+            } else {// 不是的情况
+                // 从当前位置开始算起
                 i = j;
-                j = i+1;
+                j = i + 1;
+                // 最大值
                 max = Math.max(count, max);
+                // 清空重新计数
                 count = 0;
             }
         }
+        // 处理最后一个数
         if (nums[j - 2] < nums[j - 1]){
             count += nums[j -1];
         }
