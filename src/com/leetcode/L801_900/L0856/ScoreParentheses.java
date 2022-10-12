@@ -32,8 +32,6 @@ import java.util.Stack;
 public class ScoreParentheses {
     /**
      * 方法：栈
-     * @param s
-     * @return
      */
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
