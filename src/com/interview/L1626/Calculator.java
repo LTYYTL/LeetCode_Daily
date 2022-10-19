@@ -28,8 +28,6 @@ import java.util.LinkedList;
 public class Calculator {
     /**
      * 方法：栈
-     * @param s
-     * @return
      */
     public int calculate(String s) {
         //去掉空格
@@ -53,10 +51,14 @@ public class Calculator {
             if (!Character.isDigit(c) || i == s.length()-1) {
                 //根据符号做操作
                 switch (flag) {
-                    case '+' -> stack.push(num);
-                    case '-' -> stack.push(-num);
-                    case '*' -> stack.push(stack.pop() * num);
-                    case '/' -> stack.push(stack.pop() / num);
+                    case '+':
+                        stack.push(num);
+                    case '-':
+                        stack.push(-num);
+                    case '*':
+                        stack.push(stack.pop() * num);
+                    case '/':
+                        stack.push(stack.pop() / num);
                 }
                 //记录符号
                 flag = c;

@@ -55,8 +55,6 @@ import java.util.Stack;
 public class EvaluateReversePolishNotation {
     /**
      * 方法：栈
-     * @param tokens
-     * @return
      */
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
@@ -65,27 +63,27 @@ public class EvaluateReversePolishNotation {
         for (String token : tokens) {
             //根据符号做运算
             switch (token) {
-                case "+" -> {
+                case "+": {
                     a = stack.pop();
                     b = stack.pop();
                     stack.push(a + b);
                 }
-                case "-" -> {
+                case "-": {
                     a = stack.pop();
                     b = stack.pop();
                     stack.push(b - a);
                 }
-                case "*" -> {
+                case "*": {
                     a = stack.pop();
                     b = stack.pop();
                     stack.push(a * b);
                 }
-                case "/" -> {
+                case "/": {
                     a = stack.pop();
                     b = stack.pop();
                     stack.push(b / a);
                 }
-                default -> {
+                default: {
                     int num = Integer.parseInt(token);
                     stack.push(num);
                 }

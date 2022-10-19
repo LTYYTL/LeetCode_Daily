@@ -1,9 +1,6 @@
 package com.leetcode.L801_900.L0819;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 819. 最常见的单词
@@ -34,9 +31,6 @@ import java.util.Set;
 public class MostCommonWord {
     /**
      * 方法：模拟
-     * @param paragraph
-     * @param banned
-     * @return
      */
     public String mostCommonWord(String paragraph, String[] banned) {
         //变成小写
@@ -44,13 +38,10 @@ public class MostCommonWord {
         //特殊字符替换成空格，并去除首尾空格
         paragraph = paragraph.replaceAll("[!?',;.]"," ").trim();
         //按空格分割
-        String[] res = paragraph.split("[+\s]");
+        String[] res = paragraph.split("/+s");
         //记录禁词
-        Set<String> set = new HashSet<>();
         //遍历
-        for (String s : banned) {
-            set.add(s);
-        }
+        Set<String> set = new HashSet<>(Arrays.asList(banned));
 
         //记录每个词出现次数
         Map<String,Integer> map = new HashMap<>();

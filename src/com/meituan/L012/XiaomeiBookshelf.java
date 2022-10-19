@@ -79,15 +79,19 @@ public class XiaomeiBookshelf {
             //操作编号
             int opt = Integer.parseInt(s[0]);
             switch (opt) {
-                case 1 -> put(Integer.parseInt(s[1]), Integer.parseInt(s[2]));
-                case 2 -> addLock(Integer.parseInt(s[1]));
-                case 3 -> delLock(Integer.parseInt(s[1]));
-                case 4 -> {
+                case 1:
+                    put(Integer.parseInt(s[1]), Integer.parseInt(s[2]));
+                case 2:
+                    addLock(Integer.parseInt(s[1]));
+                case 3:
+                    delLock(Integer.parseInt(s[1]));
+                case 4: {
                     writer.write(" " + borrow(Integer.parseInt(s[1])));
                     writer.newLine();
                 }
-                case 5 -> get(Integer.parseInt(s[1]));
-                default -> {
+                case 5:
+                    get(Integer.parseInt(s[1]));
+                default: {
                 }
             }
         }

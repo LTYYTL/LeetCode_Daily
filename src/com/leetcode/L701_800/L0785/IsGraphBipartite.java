@@ -38,8 +38,6 @@ import java.util.Stack;
 public class IsGraphBipartite {
     /**
      * 方法一：广度优先搜索
-     * @param graph
-     * @return
      */
     public boolean isBipartite(int[][] graph) {
         //记录节点是否着色，-1没有着色，0，1分别两种颜色
@@ -80,8 +78,6 @@ public class IsGraphBipartite {
 
     /**
      * 方法二：深度优先搜索
-     * @param graph
-     * @return
      */
     public boolean isBipartite_dfs(int[][] graph) {
         //记录节点是否着色，-1没有着色，0，1分别两种颜色

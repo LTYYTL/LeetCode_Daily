@@ -52,10 +52,14 @@ public class BasicCalculator {
             if ((!isSign(c) && c != ' ')|| index == s.length()){
                 //判断符号
                 switch (sign) {
-                    case '+' -> stack.push(num);//加入正数
-                    case '-' -> stack.push(-num);//加入负数
-                    case '*' -> stack.push(stack.pop() * num);
-                    case '/' -> stack.push(stack.pop() / num);
+                    case '+':
+                        stack.push(num);//加入正数
+                    case '-':
+                        stack.push(-num);//加入负数
+                    case '*':
+                        stack.push(stack.pop() * num);
+                    case '/':
+                        stack.push(stack.pop() / num);
                 }
                 //变符号
                 sign = c;
