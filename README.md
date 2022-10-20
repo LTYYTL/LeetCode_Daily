@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1111**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1116**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -8,15 +8,14 @@
 |---|----|----|--|-----------------|--------------------------|
 | 1 | [两数之和](src/com/leetcode/L1_100/L0001/TwoNumSum.md) | [TwoNumSum](src/com/leetcode/L1_100/L0001/TwoNumSum.java)
 | 简单 | 双指针、Map映射 | 数组、哈希表 |
-| 11 | 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L1_100/L0011/ContainerWithMostWater.java)| 中等 | 双指针
-| 数组、双指针 |
+| 11 | 盛最多水的容器 | [ContainerWithMostWater](src/com/leetcode/L1_100/L0011/ContainerWithMostWater.java)| 中等 | 双指针 | 数组、双指针
+|
 | 15 | 三数之和 | [Sum3](src/com/leetcode/L1_100/L0015/Sum3.java)| 中等 | 双指针 | 数组、双指针、排序 |
 | 16 | 最接近的三数之和 | [ThreeSumClosest](src/com/leetcode/L1_100/L0016/ThreeSumClosest.java)| 中等 | 双指针 |
 数组、双指针、排序 |
 | 18 | 四数之和 | [Sum4](src/com/leetcode/L1_100/L0018/Sum4.java)| 中等 | 双指针 | 数组、双指针、排序 |
-| 26 | 删除有序数组中的重复项
-| [RemoveDuplicatesSortedArray](src/com/leetcode/L1_100/L0026/RemoveDuplicatesSortedArray.java)| 简单 | 双指针 | 数组、双指针
-|
+| 26 | 删除有序数组中的重复项 | [RemoveDuplicatesSortedArray](src/com/leetcode/L1_100/L0026/RemoveDuplicatesSortedArray.java)| 简单 |
+双指针 | 数组、双指针 |
 | 27 | 移除元素 | [RemoveElement](src/com/leetcode/L1_100/L0027/RemoveElement.java)| 简单 | 双指针 | 数组、双指针 |
 | 31 | 下一个排列 | [NextPermutation](src/com/leetcode/L1_100/L0031/NextPermutation.java)| 中等 | 双指针 | 数组、双指针 |
 | 33 | 搜索旋转排序数组 | [SearchRotatedSortedArray](src/com/leetcode/L1_100/L0033/SearchRotatedSortedArray.java)| 简单
@@ -187,6 +186,8 @@ Map映射、双指针 | 哈希表、双指针、二分查找 |
 | 766 | 托普利茨矩阵 | [ToeplitzMatrix](src/com/leetcode/L701_800/L0766/ToeplitzMatrix.java)| 简单 | 遍历 | 数组 |
 | 768 | 最多能完成排序的块 II | [MaxChunksSortedII](src/com/leetcode/L701_800/L0768/MaxChunksSortedII.java)| 困难 | 栈 |
 数组、栈、单调栈、贪心算法、排序 |
+| 769 | 最多能完成排序的块 | [MaxChunksMakeSorted](src/com/leetcode/L701_800/L0769/MaxChunksMakeSorted.java)| 中等 | 模拟 |
+数组、栈、单调栈、贪心算法、排序 |
 | 786 | 第 K 个最小的素数分数 | [KSmallestPrimeFraction](src/com/leetcode/L701_800/L0786/KSmallestPrimeFraction.java)|
 困难 | 堆 | 数组、二分查找、优先队列 |
 | 815 | 公交路线 | [BusRoutes](src/com/leetcode/L801_900/L0815/BusRoutes.java)| 困难 | 广度优先搜索 | 数组、哈希表、广度优先搜索
@@ -262,11 +263,13 @@ Map映射、双指针 | 哈希表、双指针、二分查找 |
 Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 1431 | 拥有最多糖果的孩子 | [KidsWithMaxCandies](src/com/leetcode/L1401_1500/L1431/KidsWithMaxCandies.java)| 简单 | 模拟
 | 数组 |
-| 1442 | 在既定时间做作业的学生人数
-| [NumberStudentsGivenTime](src/com/leetcode/L1401_1500/L1450/NumberStudentsGivenTime.java)| 简单 | 模拟 | 数组 |
-| 1450 | 形成两个异或相等数组的三元组数目
+| 1441 | 用栈操作构建数组 | [BuildArrayStackOperations](src/com/leetcode/L1401_1500/L1441/BuildArrayStackOperations.java)| 中等 |
+模拟 | 数组、栈、模拟 |
+| 1442 | 形成两个异或相等数组的三元组数目
 | [CountTripletsThatCanFormTwoArraysEqualXOR](src/com/leetcode/L1401_1500/L1442/CountTripletsThatCanFormTwoArraysEqualXOR.java)
 | 中等 | 双指针 | 数组、位运算、数学 |
+| 1450 | 在既定时间做作业的学生人数
+| [NumberStudentsGivenTime](src/com/leetcode/L1401_1500/L1450/NumberStudentsGivenTime.java)| 简单 | 模拟 | 数组 |
 | 1460 | 通过翻转子数组使两个数组相等 | [TwoArraysEqual](src/com/leetcode/L1401_1500/L1460/TwoArraysEqual.java)| 简单 |
 排序 | 数组、哈希表、排序 |
 | 1464 | 数组中两元素的最大乘积 | [MaxTwoElements](src/com/leetcode/L1401_1500/L1464/MaxTwoElements.java)| 简单 | 排序 |
@@ -476,6 +479,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 726  | 原子的数量                | [NumberAtoms](src/com/leetcode/L701_800/L0726/NumberAtoms.java)                                                                   | 困难  | map映射          | 字符串、栈、哈希表                  |
 | 748  | 最短补全词                | [ShortestCompletingWord](src/com/leetcode/L701_800/L0748/ShortestCompletingWord.java)                                             | 简单  | 模拟             | 数组、字符串、哈希表                 |
 | 771  | 宝石与石头                | [JewelsAndStones](src/com/leetcode/L701_800/L0771/JewelsAndStones.java)                                                           | 简单  | Set集合          | 字符串                        |
+| 777  | 在LR字符串中交换相邻字符        | [SwapLRString](src/com/leetcode/L701_800/L0777/SwapLRString.java)                                                                 | 中等  | 模拟             | 字符串、双指针                    |
 | 794  | 有效的井字游戏              | [ValidTicState](src/com/leetcode/L701_800/L0794/ValidTicState.java)                                                               | 中等  | 模拟             | 数组、字符串                     |
 | 796  | 旋转字符串                | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java)                                                                 | 简单  | 暴力法、KMP算法      | 字符串                        |
 | 804  | 唯一摩尔斯密码词             | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java)                                                                       | 简单  | Set集合          | 字符串                        |
@@ -496,6 +500,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 925  | 长按键入                 | [LongPressedName](src/com/leetcode/L901_1000/L0925/LongPressedName.java)                                                          | 简单  | 双指针            | 字符串                        |
 | 929  | 独特的电子邮件地址            | [UniqueEmailAddresses](src/com/leetcode/L901_1000/L0929/UniqueEmailAddresses.java)                                                | 简单  | set集合          | 字符串、数组、哈希表                 |
 | 937  | 重新排列日志文件             | [ReorderDataLogFiles](src/com/leetcode/L901_1000/L0937/ReorderDataLogFiles.java)                                                  | 简单  | 排序             | 字符串、数组、排序                  |
+| 940  | 不同的子序列 II            | [DistinctSubsequencesII](src/com/leetcode/L901_1000/L0940/DistinctSubsequencesII.java)                                            | 困难  | 字符串            | 字符串、动态规划                   |
 | 944  | 删列造序                 | [DeleteColumnsSorted](src/com/leetcode/L901_1000/L0944/DeleteColumnsSorted.java)                                                  | 简单  | 模拟             | 字符串、数组                     |
 | 953  | 验证外星语词典              | [VerifyingAlienDictionary](src/com/leetcode/L901_1000/L0953/VerifyingAlienDictionary.java)                                        | 简单  | map映射          | 字符串、数组、哈希表                 |
 | 1021 | 删除最外层的括号             | [RemoveOutermostParentheses](src/com/leetcode/L1001_1100/L1021/RemoveOutermostParentheses.java)                                   | 简单  | 栈              | 字符串、栈                      |
@@ -900,6 +905,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 670  | 最大交换                                                                | [MaxSwap](src/com/leetcode/L601_700/L0670/MaxSwap.java)                                                             | 中等  | 数学       | 算法 、数学              |
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                  |
 | 728  | 自除数                                                                 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java)                                     | 简单  | 数学       | 数学                  |
+| 779  | 第K个语法符号                                                             | [KSymbolGrammar](src/com/leetcode/L701_800/L0779/KSymbolGrammar.java)                                               | 中等  | 数学       | 数学、递归、位运算           |
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                  |
 | 788  | 旋转数字                                                                | [RotatedDigits](src/com/leetcode/L701_800/L0788/RotatedDigits.java)                                                 | 中等  | 数学       | 数学、动态规划             |
 | 789  | 逃脱阻碍者                                                               | [EscapeTheGhosts](src/com/leetcode/L701_800/L0789/EscapeTheGhosts.java)                                             | 中等  | 数学       | 数组、数学               |
