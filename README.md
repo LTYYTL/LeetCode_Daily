@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1116**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1119**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -380,7 +380,10 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | [IntersectionMultipleArrays](src/com/leetcode/L2201_2300/L2248/IntersectionMultipleArrays.java)| 简单 | map映射 | -- |
 | 2250 | 统计包含每个点的矩形数目 | [CountContainingPoint](src/com/leetcode/L2201_2300/L2250/CountContainingPoint.java)|
 中等 | 二分查找 | -- |
-
+| 2441 | 与对应负数同时存在的最大正整数 | [LargestIntegerNegative](src/com/leetcode/L2401_2500/L2441/LargestIntegerNegative.java)|
+简单 | set集合 | 数组、哈希表 |
+| 2442 | 反转之后不同整数的数目 | [CountNumberIntegers](src/com/leetcode/L2401_2500/L2442/CountNumberIntegers.java)|
+中等 | set集合 | 数组、哈希表、数学 |
 ## 2. **_链表系列_**
 
 | #   | 题目              | 类名                                                                                                          | 难度  | 方法          | 标签                |
@@ -1030,6 +1033,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 729  | 我的日程安排表 I           | [MyCalendar](src/com/leetcode/L701_800/L0729/MyCalendar.java)                 | 中等  | 线段树            | 线段树、有序集合、设计                      |
 | 731  | 我的日程安排表 II          | [MyCalendarTwo](src/com/leetcode/L701_800/L0731/MyCalendarTwo.java)           | 中等  | 差分数组           | 线段树、有序集合、二分查找、设计                 |
 | 732  | 我的日程安排表 III         | [MyCalendarThree](src/com/leetcode/L701_800/L0732/MyCalendarThree.java)       | 困难  | 差分数组           | 线段树、有序集合、设计                      |
+| 901  | 股票价格跨度              | [StockSpanner](src/com/leetcode/L901_1000/L0901/StockSpanner.java)            | 中等  | 栈              | 栈、单调栈、数据流、设计                     |
 | 911  | 在线选举                | [TopVotedCandidate](src/com/leetcode/L901_1000/L0911/TopVotedCandidate.java)  | 中等  | map映射+二分查找     | 数组、哈希表、二分查找、设计                   |
 | 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等  | 队列             | 树、二叉树、广度优先搜索、设计                  |
 | 933  | 最近的请求次数             | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java)          | 简单  | 队列             | 队列、数据流、设计                        |
