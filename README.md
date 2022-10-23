@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1119**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1123**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -380,10 +380,13 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | [IntersectionMultipleArrays](src/com/leetcode/L2201_2300/L2248/IntersectionMultipleArrays.java)| 简单 | map映射 | -- |
 | 2250 | 统计包含每个点的矩形数目 | [CountContainingPoint](src/com/leetcode/L2201_2300/L2250/CountContainingPoint.java)|
 中等 | 二分查找 | -- |
+| 2367 | 算术三元组的数目 | [NumberArithmeticTriplets](src/com/leetcode/L2301_2400/L2367/NumberArithmeticTriplets.java)|
+简单 | set集合 | 数组、哈希表、双指针、枚举 |
 | 2441 | 与对应负数同时存在的最大正整数 | [LargestIntegerNegative](src/com/leetcode/L2401_2500/L2441/LargestIntegerNegative.java)|
 简单 | set集合 | 数组、哈希表 |
 | 2442 | 反转之后不同整数的数目 | [CountNumberIntegers](src/com/leetcode/L2401_2500/L2442/CountNumberIntegers.java)|
 中等 | set集合 | 数组、哈希表、数学 |
+
 ## 2. **_链表系列_**
 
 | #   | 题目              | 类名                                                                                                          | 难度  | 方法          | 标签                |
@@ -533,6 +536,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 1694 | 重新格式化电话号码            | [ReformatPhoneNumber](src/com/leetcode/L1601_1700/L1694/ReformatPhoneNumber.java)                                                 | 简单  | 模拟             | 字符串                        |
 | 1736 | 替换隐藏数字得到的最晚时间        | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java)                         | 简单  | 模拟             | 字符串                        |
 | 1763 | 最长的美好子字符串            | [LongNiceSub](src/com/leetcode/L1701_1800/L1763/LongNiceSub.java)                                                                 | 简单  | 模拟             | 字符串、哈希表、位运算、滑动窗口           |
+| 1768 | 交替合并字符串              | [MergeStrings](src/com/leetcode/L1701_1800/L1768/MergeStrings.java)                                                               | 简单  | 双指针            | 字符串、双指针                    |
 | 1773 | 统计匹配检索规则的物品数量        | [CountMatchRule](src/com/leetcode/L1701_1800/L1773/CountMatchRule.java)                                                           | 简单  | 模拟             | 数组、字符串                     |
 | 1784 | 检查二进制字符串字段           | [CheckStringSegment](src/com/leetcode/L1701_1800/L1784/CheckStringSegment.java)                                                   | 简单  | 模拟             | 字符串                        |
 | 1790 | 仅执行一次字符串交换能否使两个字符串相等 | [OneSwapStringsEqual](src/com/leetcode/L1701_1800/L1790/OneSwapStringsEqual.java)                                                 | 简单  | 双指针            | 字符串、哈希表、计数                 |
@@ -546,6 +550,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 2047 | 句子中的有效单词数            | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java)                                                             | 简单  | 模拟             | 字符串                        |
 | 2114 | 句子中的最多单词数            | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java)                                               | 简单  | 模拟             | 数组、字符串                     |
 | 2211 | 统计道路上的碰撞次数           | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等  | 模拟             | --                         |
+| 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单  | map映射          | 数组、字符串、哈希表                 |
 
 ## 4. **_二叉树系列_**
 
