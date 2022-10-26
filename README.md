@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1123**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1124**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -663,6 +663,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 773  | 滑动谜题          | [SlidingPuzzle](src/com/leetcode/L701_800/L0773/SlidingPuzzle.java)                                     | 困难  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
 | 827  | 最大人工岛         | [MakingLargeIsland](src/com/leetcode/L801_900/L0827/MakingLargeIsland.java)                             | 困难  | 深度优先搜索        | 数组、矩阵、并查集、深度优先搜索、广度优先搜索    |
 | 909  | 蛇梯棋           | [SnakesLadders](src/com/leetcode/L901_1000/L0909/SnakesLadders.java)                                    | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
+| 934  | 最短的桥          | [ShortestBridge](src/com/leetcode/L901_1000/L0934/ShortestBridge.java)                                  | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索、深度优先搜索        |
 | 994  | 腐烂的橘子         | [RottingOranges](src/com/leetcode/L901_1000/L0994/RottingOranges.java)                                  | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索               |
 | 1020 | 飞地的数量         | [NumberEnclaves](src/com/leetcode/L1001_1100/L1020/NumberEnclaves.java)                                 | 中等  | 深度优先搜索        | 数组、矩阵、并查集、广度优先搜索、深度优先搜索    |
 | 1034 | 边界着色          | [ColoringBorder](src/com/leetcode/L1001_1100/L1034/ColoringBorder.java)                                 | 中等  | 广度优先搜索        | 数组、矩阵、广度优先搜索、深度优先搜索        |
