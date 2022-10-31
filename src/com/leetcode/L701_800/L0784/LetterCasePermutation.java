@@ -24,8 +24,6 @@ import java.util.List;
 public class LetterCasePermutation {
     /**
      * 方法：回溯算法
-     * @param s
-     * @return
      */
     public List<String> letterCasePermutation(String s) {
         //结果集
@@ -43,10 +41,6 @@ public class LetterCasePermutation {
 
     /**
      * 深度优先搜索
-     * @param s
-     * @param begin
-     * @param path
-     * @param res
      */
     private void dfs(String s, int begin, StringBuilder path, List<String> res) {
         //长度相等时加入结果集

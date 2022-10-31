@@ -31,10 +31,6 @@ import java.util.List;
 public class CountMatchRule {
     /**
      * 方法：模拟
-     * @param items
-     * @param ruleKey
-     * @param ruleValue
-     * @return
      */
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         //根据key,获取对应索引

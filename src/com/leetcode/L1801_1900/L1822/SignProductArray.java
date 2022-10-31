@@ -31,8 +31,6 @@ package com.leetcode.L1801_1900.L1822;
 public class SignProductArray {
     /**
      * 方法：数学
-     * @param nums
-     * @return
      */
     public int arraySign(int[] nums) {
         //结果
