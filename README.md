@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1140**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1143**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -499,6 +499,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 748  | 最短补全词                | [ShortestCompletingWord](src/com/leetcode/L701_800/L0748/ShortestCompletingWord.java)                                             | 简单  | 模拟             | 数组、字符串、哈希表                 |
 | 771  | 宝石与石头                | [JewelsAndStones](src/com/leetcode/L701_800/L0771/JewelsAndStones.java)                                                           | 简单  | Set集合          | 字符串                        |
 | 777  | 在LR字符串中交换相邻字符        | [SwapLRString](src/com/leetcode/L701_800/L0777/SwapLRString.java)                                                                 | 中等  | 模拟             | 字符串、双指针                    |
+| 791  | 自定义字符串排序             | [CustomSortString](src/com/leetcode/L701_800/L0791/CustomSortString.java)                                                         | 中等  | 排序             | 字符串、哈希表、排序                 |
 | 794  | 有效的井字游戏              | [ValidTicState](src/com/leetcode/L701_800/L0794/ValidTicState.java)                                                               | 中等  | 模拟             | 数组、字符串                     |
 | 796  | 旋转字符串                | [RotateString](src/com/leetcode/L701_800/L0796/RotateString.java)                                                                 | 简单  | 暴力法、KMP算法      | 字符串                        |
 | 804  | 唯一摩尔斯密码词             | [MorseCode](src/com/leetcode/L801_900/L0804/MorseCode.java)                                                                       | 简单  | Set集合          | 字符串                        |
@@ -552,6 +553,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 1678 | 设计 Goal 解析器          | [Goal](src/com/leetcode/L1601_1700/L1678/Goal.java)                                                                               | 简单  | 字符串            | 字符串                        |
 | 1684 | 统计一致字符串的数目           | [CountNumConsistentStr](src/com/leetcode/L1601_1700/L1684/CountNumConsistentStr.java)                                             | 中等  | set集合          | 数组、字符串、哈希表、位运算             |
 | 1694 | 重新格式化电话号码            | [ReformatPhoneNumber](src/com/leetcode/L1601_1700/L1694/ReformatPhoneNumber.java)                                                 | 简单  | 模拟             | 字符串                        |
+| 1704 | 判断字符串的两半是否相似         | [DetermineStringAlike](src/com/leetcode/L1701_1800/L1704/DetermineStringAlike.java)                                               | 简单  | 模拟             | 字符串、计数                     |
 | 1736 | 替换隐藏数字得到的最晚时间        | [LatestTimeReplacingHiddenDigits](src/com/leetcode/L1701_1800/L1736/LatestTimeReplacingHiddenDigits.java)                         | 简单  | 模拟             | 字符串                        |
 | 1763 | 最长的美好子字符串            | [LongNiceSub](src/com/leetcode/L1701_1800/L1763/LongNiceSub.java)                                                                 | 简单  | 模拟             | 字符串、哈希表、位运算、滑动窗口           |
 | 1768 | 交替合并字符串              | [MergeStrings](src/com/leetcode/L1701_1800/L1768/MergeStrings.java)                                                               | 简单  | 双指针            | 字符串、双指针                    |
@@ -795,6 +797,7 @@ Map映射 | 数组、字符串、哈希表、排序、有序集合 |
 | 714  | 买卖股票的最佳时机含手续费    | [StockWithFee](src/com/leetcode/L701_800/L0714/StockWithFee.java)                                                             | 中等  | 动态规划        | 数组、贪心算法、动态规划                    |
 | 740  | 删除并获得点数          | [DeleteAndEarn](src/com/leetcode/L701_800/L0740/DeleteAndEarn.java)                                                           | 中等  | 动态规划        | 动态规划                            |
 | 746  | 使用最小花费爬楼梯        | [MinCostClimbingStairs](src/com/leetcode/L701_800/L0746/MinCostClimbingStairs.java)                                           | 简单  | 动态规划        | 数组、动态规划                         |
+| 790  | 多米诺和托米诺平铺        | [Domino](src/com/leetcode/L701_800/L0790/Domino.java)                                                                         | 中等  | 动态规划        | 动态规划                            |
 | 873  | 使序列递增的最小交换次数     | [MinSwapsSeq](src/com/leetcode/L801_900/L0801/MinSwapsSeq.java)                                                               | 困难  | 动态规划        | 数组、动态规划                         |
 | 873  | 最长的斐波那契子序列的长度    | [LengthLongestFibonacciSubsequence](src/com/leetcode/L801_900/L0873/LengthLongestFibonacciSubsequence.java)                   | 中等  | 动态规划、set集合  | 数组、哈希表、动态规划                     |
 | 877  | 石子游戏             | [StoneGame](src/com/leetcode/L801_900/L0877/StoneGame.java)                                                                   | 中等  | 动态规划        | 极小化极大、数学、动态规划                   |
