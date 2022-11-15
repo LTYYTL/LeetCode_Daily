@@ -2,6 +2,9 @@ package com.offerII.L050;
 
 import com.util.TreeNode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 剑指 Offer II 050. 向下的路径节点之和
  * 给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
@@ -21,15 +24,11 @@ import com.util.TreeNode;
  * -109 <= Node.val <= 109
  * -1000 <= targetSum <= 1000
  *
- *
  * 注意：本题与主站 437 题相同：<a href="https://leetcode-cn.com/problems/path-sum-iii/">https://leetcode-cn.com/problems/path-sum-iii/</a>
  */
 public class PathSumIII {
     /**
      * 方法一：递归
-     * @param root
-     * @param targetSum
-     * @return
      */
     public int pathSum(TreeNode root, int targetSum) {
         //空值情况
@@ -43,7 +42,7 @@ public class PathSumIII {
         return res;
     }
 
-    private int rootSum(TreeNode<Integer> root, int targetSum) {
+    private int rootSum(TreeNode root, int targetSum) {
         //数量
         int ret = 0;
         //叶子节点
@@ -59,6 +58,31 @@ public class PathSumIII {
 
         ret += rootSum(root.left, targetSum - val);
         ret += rootSum(root.right, targetSum - val);
+
+        return ret;
+    }
+
+    /**
+     * 方法二：前缀和
+     */
+    public int pathSum_prefix(TreeNode root, int targetSum) {
+        Map<Integer, Integer> prefix = new HashMap<>();
+        prefix.put(0, 1);
+        return dfs(root, prefix, 0, targetSum);
+    }
+
+    private int dfs(TreeNode root, Map<Integer, Integer> prefix, int curr, int targetSum) {
+        if (root == null) {
+            return 0;
+        }
+        int ret;
+        curr += root.val;
+
+        ret = prefix.getOrDefault(curr - targetSum, 0);
+        prefix.put(curr, prefix.getOrDefault(curr, 0) + 1);
+        ret += dfs(root.left, prefix, curr, targetSum);
+        ret += dfs(root.right, prefix, curr, targetSum);
+        prefix.put(curr, prefix.put(curr, 0) - 1);
 
         return ret;
     }

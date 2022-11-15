@@ -31,12 +31,8 @@ import com.util.TreeNode;
 public class LowestCommonAncestorBinaryTree {
     /**
      * 方法：递归
-     * @param root
-     * @param p
-     * @param q
-     * @return
      */
-    public TreeNode<Integer> lowestCommonAncestor(TreeNode<Integer> root, TreeNode<Integer> p, TreeNode<Integer> q) {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null)
             return null;
         if (root == p || root == q)

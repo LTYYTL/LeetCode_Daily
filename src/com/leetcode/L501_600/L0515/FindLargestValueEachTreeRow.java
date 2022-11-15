@@ -52,8 +52,6 @@ import java.util.Queue;
 public class FindLargestValueEachTreeRow {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
     public List<Integer> largestValues(TreeNode root) {
         //结果集
@@ -71,7 +69,7 @@ public class FindLargestValueEachTreeRow {
             int max = Integer.MIN_VALUE;
             //遍历层内节点
             for (int i = 0; i < size; i++) {
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 if (cur.left != null)
                     queue.add(cur.left);
                 if (cur.right != null)

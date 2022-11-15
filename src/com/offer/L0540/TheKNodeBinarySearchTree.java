@@ -34,11 +34,8 @@ public class TheKNodeBinarySearchTree {
 
     /**
      * 方法：递归
-     * @param root
-     * @param k
-     * @return
      */
-    public int kthLargest(TreeNode<Integer> root, int k) {
+    public int kthLargest(TreeNode root, int k) {
         //k作为全局变量
         this.k = k;
         dfs(root);
@@ -47,16 +44,15 @@ public class TheKNodeBinarySearchTree {
 
     /**
      * 反向中序遍历
-     * @param root
      */
-    private void dfs(TreeNode<Integer> root) {
-        if(root == null) return;
+    private void dfs(TreeNode root) {
+        if (root == null) return;
         //右子树
         dfs(root.right);
         //满足条件直接跳出
-        if(k == 0) return;
+        if (k == 0) return;
         //第k大值
-        if(--k == 0) res = root.val;
+        if (--k == 0) res = root.val;
         //左子树
         dfs(root.left);
     }

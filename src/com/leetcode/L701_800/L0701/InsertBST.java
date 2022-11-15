@@ -41,11 +41,8 @@ import com.util.TreeNode;
 public class InsertBST {
     /**
      * 方法一：递归
-     * @param root
-     * @param val
-     * @return
      */
-    public TreeNode insertIntoBST(TreeNode<Integer> root, int val) {
+    public TreeNode insertIntoBST(TreeNode root, int val) {
         //如果root为空，就直接创建一个新的节点
         if (root == null)
             return new TreeNode(val);
@@ -60,16 +57,13 @@ public class InsertBST {
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param val
-     * @return
      */
-    public TreeNode insertIntoBST_Iteration(TreeNode<Integer> root , int val){
+    public TreeNode insertIntoBST_Iteration(TreeNode root, int val) {
         TreeNode node = new TreeNode(val);
         //边界条件判断
         if (root == null)
             return node;
-        TreeNode<Integer> cur = root;
+        TreeNode cur = root;
         while (true) {
             //如果当前节点cur的值大于val，说明val值应该插入到
             //当前节点cur的左子树，否则就插入到当前节点cur的右子树

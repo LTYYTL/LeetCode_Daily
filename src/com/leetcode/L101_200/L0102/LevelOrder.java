@@ -28,34 +28,30 @@ import java.util.Queue;
 public class LevelOrder {
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
-    public List<List<Integer>> levelOrder(TreeNode<Integer> root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         //结果list
         List<List<Integer>> res = new ArrayList<>();
         //空值情况
         if (root == null)
             return res;
         //调用函数，根节点在0层
-        return levelOrder(root,0,res);
+        return levelOrder(root, 0, res);
     }
 
     /**
-     *
      * @param root  当前节点
      * @param level 层数
      * @param res   结果list
-     * @return
      */
-    private List<List<Integer>> levelOrder(TreeNode<Integer> root, int level, List<List<Integer>> res) {
+    private List<List<Integer>> levelOrder(TreeNode root, int level, List<List<Integer>> res) {
         //节点为空
         if (root == null)
             return res;
         //当前list长度等于当前层数，
         //因为是从0开始的，当层数为2时，list中已经存在0层，1层，没有2层，但list长度为2
         //在list中加入层的list
-        if (res.size() == level){
+        if (res.size() == level) {
             res.add(new ArrayList<>());
         }
         //将当前节点的val值添加到其所在层的list中
@@ -69,10 +65,8 @@ public class LevelOrder {
 
     /**
      * 方法二：广度优先搜索
-     * @param root
-     * @return
      */
-    public List<List<Integer>> levelOrder_BFS(TreeNode<Integer> root){
+    public List<List<Integer>> levelOrder_BFS(TreeNode root) {
         //结果list
         List<List<Integer>> res = new ArrayList<>();
         //空值情况
@@ -91,7 +85,7 @@ public class LevelOrder {
             //将本层节点循环输出
             for (int i = 0; i < size; i++){
                 //获得当前队首节点
-                TreeNode<Integer> temp = queue.poll();
+                TreeNode temp = queue.poll();
                 list.add(temp.val);
                 //将当前节点的孩子放入队列中
                 if (temp.left != null)

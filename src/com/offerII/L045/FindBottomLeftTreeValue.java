@@ -28,19 +28,17 @@ import java.util.Queue;
 public class FindBottomLeftTreeValue {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
-    public int findBottomLeftValue(TreeNode<Integer> root) {
+    public int findBottomLeftValue(TreeNode root) {
         //空值情况
         if (root.left == null && root.right == null) {
             return root.val;
         }
 
-        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         //存储层节点
-        List<TreeNode<Integer>> list = null;
+        List<TreeNode> list = null;
         //遍历
         while (!queue.isEmpty()){
             //当前层节点个数
@@ -48,7 +46,7 @@ public class FindBottomLeftTreeValue {
             list = new ArrayList<>(queue);
 
             for (int i = 0; i < size; i++) {
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 if (cur.left != null)
                     queue.add(cur.left);
                 if (cur.right != null)

@@ -27,7 +27,7 @@ public class TrimBST {
     /**
      * 方法：递归
      */
-    public TreeNode trimBST(TreeNode<Integer> root, int low, int high) {
+    public TreeNode trimBST(TreeNode root, int low, int high) {
         // 空值
         if (root == null)
             return root;

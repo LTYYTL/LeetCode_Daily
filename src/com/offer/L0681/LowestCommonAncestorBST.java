@@ -26,32 +26,24 @@ import com.util.TreeNode;
 public class LowestCommonAncestorBST {
     /**
      * 方法一：递归
-     * @param root
-     * @param p
-     * @param q
-     * @return
      */
-    public TreeNode lowestCommonAncestor(TreeNode<Integer> root, TreeNode<Integer> p, TreeNode<Integer> q) {
-        if(root.val < p.val && root.val < q.val)
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root.val < p.val && root.val < q.val)
             return lowestCommonAncestor(root.right, p, q);
-        if(root.val > p.val && root.val > q.val)
+        if (root.val > p.val && root.val > q.val)
             return lowestCommonAncestor(root.left, p, q);
         return root;
     }
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param p
-     * @param q
-     * @return
      */
-    public TreeNode lowestCommonAncestor_iteration(TreeNode<Integer> root, TreeNode<Integer> p, TreeNode<Integer> q) {
-        while (root != null){
+    public TreeNode lowestCommonAncestor_iteration(TreeNode root, TreeNode p, TreeNode q) {
+        while (root != null) {
             //p、q比根小，在左子树
             if (root.val > p.val && root.val > q.val)
                 root = root.left;
-            //p、q比根大，在右子树
+                //p、q比根大，在右子树
             else if (root.val < p.val && root.val < q.val)
                 root = root.right;
             else

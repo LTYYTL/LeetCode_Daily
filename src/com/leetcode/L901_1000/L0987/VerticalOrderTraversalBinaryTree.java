@@ -48,10 +48,8 @@ import java.util.List;
 public class VerticalOrderTraversalBinaryTree {
     /**
      * 方法：深度优先搜索
-     * @param root
-     * @return
      */
-    public List<List<Integer>> verticalTraversal(TreeNode<Integer> root) {
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
         //记录每个节点的行、列、值
         List<int[]> nodes = new ArrayList<>();
         //深度优先搜索
@@ -72,7 +70,7 @@ public class VerticalOrderTraversalBinaryTree {
         //记录上一个节点的号
         int lastcol = Integer.MIN_VALUE;
         for (int[] tuple : nodes) {
-            int col = tuple[0], row = tuple[1], value = tuple[2];
+            int col = tuple[0], value = tuple[2];
             if (col != lastcol) {
                 lastcol = col;
                 ans.add(new ArrayList<>());
@@ -85,12 +83,13 @@ public class VerticalOrderTraversalBinaryTree {
 
     /**
      * 深度优先搜素
+     *
      * @param node  当前节点
      * @param row   列
      * @param col   行
      * @param nodes 记录集
      */
-    public void dfs(TreeNode<Integer> node, int row, int col, List<int[]> nodes) {
+    public void dfs(TreeNode node, int row, int col, List<int[]> nodes) {
         if (node == null) {
             return;
         }

@@ -40,11 +40,8 @@ public class Leaf_SimilarTrees {
 
     /**
      * 方法：深度优先遍历
-     * @param root1
-     * @param root2
-     * @return
      */
-    public boolean leafSimilar(TreeNode<Integer> root1, TreeNode<Integer> root2) {
+    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> seq1 = new ArrayList<>();
         if (root1 != null) {
             dfs(root1, seq1);
@@ -58,7 +55,7 @@ public class Leaf_SimilarTrees {
         return seq1.equals(seq2);
     }
 
-    public void dfs(TreeNode<Integer> node, List<Integer> seq) {
+    public void dfs(TreeNode node, List<Integer> seq) {
         if (node.left == null && node.right == null) {
             seq.add(node.val);
         } else {

@@ -34,10 +34,10 @@ public class AllNodesDistanceKBinaryTree {
      */
 
     //记录每个节点的父节点
-    Map<Integer,TreeNode<Integer>> parents = new HashMap<>();
+    Map<Integer, TreeNode> parents = new HashMap<>();
     List<Integer> res = new ArrayList<>();
 
-    public List<Integer> distanceK(TreeNode<Integer> root, TreeNode<Integer> target, int k) {
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         // 从 root 出发 DFS，记录每个结点的父结点
         findParents(root);
 
@@ -49,23 +49,24 @@ public class AllNodesDistanceKBinaryTree {
     /**
      * 记录每个节点的父节点
      */
-    private void findParents(TreeNode<Integer> root) {
-        if (root.left != null){
-            parents.put((Integer) root.left.val,root);
+    private void findParents(TreeNode root) {
+        if (root.left != null) {
+            parents.put(root.left.val, root);
             findParents(root.left);
         }
 
-        if (root.right != null){
-            parents.put((Integer) root.right.val,root);
+        if (root.right != null) {
+            parents.put(root.right.val, root);
             findParents(root.right);
         }
     }
 
     /**
      * 深度优先搜索
-     * @param from  往上走时，记录那个节点走过
+     *
+     * @param from 往上走时，记录那个节点走过
      */
-    private void findAns(TreeNode<Integer> node, TreeNode<Integer> from, int depth, int k) {
+    private void findAns(TreeNode node, TreeNode from, int depth, int k) {
         if (node == null) {
             return;
         }

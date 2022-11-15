@@ -17,22 +17,20 @@ import com.util.TreeNode;
 public class LeftLeavesSum {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
-    public int sumOfLeftLeaves(TreeNode<Integer> root) {
+    public int sumOfLeftLeaves(TreeNode root) {
         //调用深度优先搜索
-        return  dfs(root,false);
+        return dfs(root, false);
 
     }
 
     /**
      * 深度优先搜索
+     *
      * @param root  当前节点
      * @param state 区分左右节点
-     * @return
      */
-    private int dfs(TreeNode<Integer> root, boolean state) {
+    private int dfs(TreeNode root, boolean state) {
         //当前节点为空，直接返回0
         if (root == null)
             return 0;
@@ -41,7 +39,7 @@ public class LeftLeavesSum {
             return root.val;
         }
         //递归调用，进入左子树找寻左子树的左叶子节点，进入右子树找寻右子树的左叶子节点
-       return dfs(root.left, true) + dfs(root.right, false);
+        return dfs(root.left, true) + dfs(root.right, false);
 
     }
 }

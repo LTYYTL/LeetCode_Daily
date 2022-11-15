@@ -9,7 +9,7 @@ public class CBTInserterTest {
           输入：inputs = ["CBTInserter","insert","get_root"], inputs = [[[1]],[2],[]]
           输出：[null,1,[1,2]]
          */
-        CBTInserter cbtInserter = new CBTInserter(new TreeNode<>(1));
+        CBTInserter cbtInserter = new CBTInserter(new TreeNode(1));
         System.out.println(cbtInserter.insert(2));
         System.out.println(cbtInserter.get_root());
         /*

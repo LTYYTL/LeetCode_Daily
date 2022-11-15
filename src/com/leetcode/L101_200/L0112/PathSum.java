@@ -2,7 +2,6 @@ package com.leetcode.L101_200.L0112;
 
 import com.util.TreeNode;
 
-
 import java.util.Stack;
 
 /**
@@ -24,9 +23,6 @@ import java.util.Stack;
 public class PathSum {
     /**
      * 方法一：dfs
-     * @param root
-     * @param sum
-     * @return
      */
     public boolean hasPathSum_dfs(TreeNode root, int sum) {
         if(root == null)
@@ -37,19 +33,16 @@ public class PathSum {
 
     /**
      * 深度优先搜索
-     * @param root
-     * @param sum
-     * @return
      */
-    private boolean dfs(TreeNode<Integer> root, int sum) {
+    private boolean dfs(TreeNode root, int sum) {
         int temp = 0;
         //节点栈
         Stack<TreeNode> stack = new Stack<>();
         //节点值和栈
         Stack<Integer> sumStack = new Stack<>();
-        while(root != null || !stack.isEmpty()){
+        while (root != null || !stack.isEmpty()) {
             //节点不为空
-            while (root != null){
+            while (root != null) {
                 //将当前节点压入栈
                 stack.push(root);
                 //节点和值
@@ -64,7 +57,7 @@ public class PathSum {
             //到父节点的和值
             temp = sumStack.pop();
             //此点为叶子节点，和值满足条件
-            if (root.left == null && root.right == null && temp == sum){
+            if (root.left == null && root.right == null && temp == sum) {
                 return true;
             }
             //走向右子树
@@ -73,13 +66,13 @@ public class PathSum {
         return false;
     }
 
-    public boolean hasPathSum(TreeNode<Integer> root, int sum) {
-        if(root == null)
+    public boolean hasPathSum(TreeNode root, int sum) {
+        if (root == null)
             return false;
         //到达叶子节点
         if (root.left == null && root.right == null)
             return sum == root.val;
         //没有到达叶子节点，继续在左右子树寻找，只要在一边找到就可以
-        return hasPathSum(root.left,sum-root.val) || hasPathSum(root.right,sum-root.val);
+        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
 }

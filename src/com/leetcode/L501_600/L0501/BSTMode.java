@@ -40,13 +40,11 @@ public class BSTMode {
     /**
      * 方法：递归
      * 原理：二叉搜索树的中序遍历是一个有序数列
-     * @param root
-     * @return
      */
-    public int[] findMode(TreeNode<Integer> root) {
+    public int[] findMode(TreeNode root) {
         inOrder(root);
         int[] res = new int[list.size()];
-        for (int i = 0; i < list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             res[i] = list.get(i);
         }
         return res;
@@ -54,9 +52,8 @@ public class BSTMode {
 
     /**
      * 递归的中序遍历
-     * @param root
      */
-    private void inOrder(TreeNode<Integer> root) {
+    private void inOrder(TreeNode root) {
         //终止条件
         if (root == null)
             return;
@@ -65,10 +62,10 @@ public class BSTMode {
 
         //获取当前节点值
         int temp = root.val;
-        if (temp == current){
+        if (temp == current) {
             //如果节点值等于current，count就加1
             count++;
-        }else {
+        } else {
             //否则，就表示遇到了一个新的值，current和count都要
             //重新赋值
             current = temp;
@@ -93,13 +90,12 @@ public class BSTMode {
 
     /**
      * 迭代的中序遍历
-     * @param root
      */
-    private void inOrder_iteration(TreeNode<Integer> root) {
+    private void inOrder_iteration(TreeNode root) {
         //终止条件
         Stack<TreeNode> stack = new Stack<>();
-        while(root != null || !stack.isEmpty()){
-            while (root!=null){
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }
@@ -107,7 +103,7 @@ public class BSTMode {
             //获取当前节点值
             root = stack.pop();
             int temp = root.val;
-            if (temp == current){
+            if (temp == current) {
                 //如果节点值等于current，count就加1
                 count++;
             }else {

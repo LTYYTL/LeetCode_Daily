@@ -56,11 +56,8 @@ public class MostFrequentSubtreeSum {
 
     /**
      * 深度优先搜索
-     *
-     * @param root
-     * @return
      */
-    private int dfs(TreeNode<Integer> root) {
+    private int dfs(TreeNode root) {
         //空节点
         if (root == null)
             return 0;

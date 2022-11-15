@@ -29,19 +29,17 @@ public class BSTMin {
     //差值的最小值
     int min = Integer.MAX_VALUE;
     //前一个节点
-    TreeNode<Integer> prev;
+    TreeNode prev;
 
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
     public int getMinimumDifference(TreeNode root) {
         inorder(root);
         return min;
     }
 
-    public void inorder(TreeNode<Integer> root) {
+    public void inorder(TreeNode root) {
         //边界条件判断
         if (root == null)
             return;
@@ -57,15 +55,12 @@ public class BSTMin {
 
     /**
      * 方法二：递归
-     * @param root
-     * @return
      */
-    public int getMinimumDifference_Iteration(TreeNode<Integer> root) {
+    public int getMinimumDifference_Iteration(TreeNode root) {
         int min = Integer.MAX_VALUE;
-        TreeNode<Integer> pre;
         Stack<TreeNode> stack = new Stack<>();
-        while(root != null || !stack.isEmpty()){
-            while (root != null){
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }

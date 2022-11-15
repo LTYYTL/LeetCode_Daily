@@ -56,9 +56,8 @@ public class BSTIterator {
 
     /**
      * 中序遍历
-     * @param root
      */
-    private void order(TreeNode<Integer> root) {
+    private void order(TreeNode root) {
         if (root == null)
             return;
         order(root.left);

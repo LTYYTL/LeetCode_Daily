@@ -37,8 +37,8 @@ public class CBTInserter {
     Deque<TreeNode> deque;
     public CBTInserter(TreeNode root) {
         this.root = root;
-        deque = new LinkedList();
-        Queue<TreeNode> queue = new LinkedList();
+        deque = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
         // BFS to populate deque
@@ -55,12 +55,11 @@ public class CBTInserter {
 
     public int insert(int val) {
         //队首节点
-        TreeNode<Integer> parent = deque.peek();
-        TreeNode<Integer> cur = new TreeNode<>(val);
+        TreeNode parent = deque.peek();
+        TreeNode cur = new TreeNode(val);
         if (parent.left == null) {
             parent.left = cur;
-        }
-        else {
+        } else {
             parent.right = cur;
             deque.poll();
         }

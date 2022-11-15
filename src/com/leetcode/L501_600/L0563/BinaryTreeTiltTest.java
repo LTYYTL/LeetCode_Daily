@@ -15,7 +15,7 @@ public class BinaryTreeTiltTest {
           节点 1 的坡度：|2-3| = 1（左子树就是左子节点，所以和是 2 ；右子树就是右子节点，所以和是 3 ）
           坡度总和：0 + 0 + 1 = 1
          */
-        System.out.println(binaryTreeTilt.findTilt(new TreeNode<>(1, new TreeNode(2), new TreeNode(3))));
+        System.out.println(binaryTreeTilt.findTilt(new TreeNode(1, new TreeNode(2), new TreeNode(3))));
         /*
           示例 2：
           输入：root = [4,2,9,3,5,null,7]
@@ -31,7 +31,7 @@ public class BinaryTreeTiltTest {
          */
         TreeNode rl = new TreeNode(2, new TreeNode(3), new TreeNode(5));
         TreeNode rr = new TreeNode(9, null, new TreeNode(7));
-        System.out.println(binaryTreeTilt.findTilt(new TreeNode<>(4, rl, rr)));
+        System.out.println(binaryTreeTilt.findTilt(new TreeNode(4, rl, rr)));
         /*
           示例 3：
           输入：root = [21,7,14,1,1,2,2,3,3]
@@ -40,7 +40,7 @@ public class BinaryTreeTiltTest {
         TreeNode rll = new TreeNode(1, new TreeNode(3), new TreeNode(3));
         rl = new TreeNode(7, rll, new TreeNode(1));
         rr = new TreeNode(14, new TreeNode(2), new TreeNode(2));
-        System.out.println(binaryTreeTilt.findTilt(new TreeNode<>(21, rl, rr)));
+        System.out.println(binaryTreeTilt.findTilt(new TreeNode(21, rl, rr)));
 
     }
 }

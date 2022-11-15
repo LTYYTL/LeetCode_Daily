@@ -23,13 +23,13 @@ public class InvertBinaryTreeTest {
           9   6 3   1
          */
         //构建二叉树
-        TreeNode<Integer> root = new TreeNode<>(4);
-        TreeNode<Integer> rl = new TreeNode<>(2);
-        TreeNode<Integer> rll = new TreeNode<>(1);
-        TreeNode<Integer> rlr = new TreeNode<>(3);
-        TreeNode<Integer> rr = new TreeNode<>(7);
-        TreeNode<Integer> rrl = new TreeNode<>(6);
-        TreeNode<Integer> rrr = new TreeNode<>(9);
+        TreeNode root = new TreeNode(4);
+        TreeNode rl = new TreeNode(2);
+        TreeNode rll = new TreeNode(1);
+        TreeNode rlr = new TreeNode(3);
+        TreeNode rr = new TreeNode(7);
+        TreeNode rrl = new TreeNode(6);
+        TreeNode rrr = new TreeNode(9);
 
         root.left = rl;
         root.right = rr;

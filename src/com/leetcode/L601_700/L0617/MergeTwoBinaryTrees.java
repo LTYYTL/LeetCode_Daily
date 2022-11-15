@@ -27,11 +27,8 @@ import com.util.TreeNode;
 public class MergeTwoBinaryTrees {
     /**
      * 方法：递归
-     * @param t1
-     * @param t2
-     * @return
      */
-    public TreeNode mergeTrees(TreeNode<Integer> t1, TreeNode<Integer> t2) {
+    public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         //如果两个节点都为空，直接返回空就行了
         if (t1 == null && t2 == null)
             return null;

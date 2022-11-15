@@ -19,11 +19,11 @@ public class ValidateBinarySearchTreeTest {
           解释: 输入为: [5,1,4,null,null,3,6]。
                根节点的值为 5 ，但是其右子节点值为 4 。
          */
-        TreeNode<Integer> root = new TreeNode<>(5);
-        TreeNode<Integer> rl = new TreeNode<>(1);
-        TreeNode<Integer> rr = new TreeNode<>(4);
-        TreeNode<Integer> rrl = new TreeNode<>(3);
-        TreeNode<Integer> rrr = new TreeNode<>(6);
+        TreeNode root = new TreeNode(5);
+        TreeNode rl = new TreeNode(1);
+        TreeNode rr = new TreeNode(4);
+        TreeNode rrl = new TreeNode(3);
+        TreeNode rrr = new TreeNode(6);
 
         root.left = rl;
         root.right = rr;

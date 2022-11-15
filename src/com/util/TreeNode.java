@@ -30,9 +30,11 @@ public class TreeNode {
         TreeNode tn = null;
         if (index < array.length) {
             Integer value = array[index];
-            tn = new TreeNode(value);
-            tn.left = createBinaryTree(array, 2 * index + 1);
-            tn.right = createBinaryTree(array, 2 * index + 2);
+            tn = value == null ? null : new TreeNode(value);
+            if (tn != null) {
+                tn.left = createBinaryTree(array, 2 * index + 1);
+                tn.right = createBinaryTree(array, 2 * index + 2);
+            }
             return tn;
         }
         return tn;

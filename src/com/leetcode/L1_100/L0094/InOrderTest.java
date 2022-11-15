@@ -15,9 +15,9 @@ public class InOrderTest {
              3
           输出: [1,3,2]
          */
-        TreeNode<Integer> root = new TreeNode<>(1);
-        TreeNode<Integer> r1 = new TreeNode<>(2);
-        TreeNode<Integer> r2 = new TreeNode<>(3);
+        TreeNode root = new TreeNode(1);
+        TreeNode r1 = new TreeNode(2);
+        TreeNode r2 = new TreeNode(3);
 
         root.right = r1;
         r1.left = r2;

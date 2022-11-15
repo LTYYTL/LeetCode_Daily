@@ -25,7 +25,6 @@ import java.util.List;
 public class AllElementsBST {
     /**
      * 方法：递归
-     *
      */
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> res = new ArrayList<>();
@@ -41,9 +40,8 @@ public class AllElementsBST {
 
     /**
      * 中序遍历
-     *
      */
-    private void order(TreeNode<Integer> root, List<Integer> res) {
+    private void order(TreeNode root, List<Integer> res) {
         if (root == null)
             return;
         order(root.left, res);

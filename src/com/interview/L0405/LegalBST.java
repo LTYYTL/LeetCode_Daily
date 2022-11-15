@@ -27,14 +27,12 @@ import com.util.TreeNode;
 public class LegalBST {
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
-    public boolean isValidBST(TreeNode<Integer> root) {
+    public boolean isValidBST(TreeNode root) {
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean isValidBST(TreeNode<Integer> root, long minVal, long maxVal) {
+    public boolean isValidBST(TreeNode root, long minVal, long maxVal) {
         if (root == null)
             return true;
         //每个节点如果超过这个范围，直接返回false

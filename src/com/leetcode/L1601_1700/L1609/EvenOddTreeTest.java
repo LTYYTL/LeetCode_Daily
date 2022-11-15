@@ -19,7 +19,7 @@ public class EvenOddTreeTest {
         TreeNode rll = new TreeNode(3, new TreeNode(12), new TreeNode(8));
         TreeNode rl = new TreeNode(10, rll, null);
         TreeNode rr = new TreeNode(4, new TreeNode(7, new TreeNode(6), null), new TreeNode(9, null, new TreeNode(2)));
-        System.out.println(evenOddTree.isEvenOddTree(new TreeNode<>(1, rl, rr)));
+        System.out.println(evenOddTree.isEvenOddTree(new TreeNode(1, rl, rr)));
         /*
           示例 2：
           输入：root = [5,4,2,3,3,7]
@@ -30,14 +30,14 @@ public class EvenOddTreeTest {
           2 层：[3,3,7]
           2 层上的节点值不满足严格递增的条件，所以这不是一棵奇偶树。
          */
-        System.out.println(evenOddTree.isEvenOddTree(new TreeNode<>(5, new TreeNode(4, new TreeNode(3), new TreeNode(3)), new TreeNode(2, new TreeNode(7), null))));
+        System.out.println(evenOddTree.isEvenOddTree(new TreeNode(5, new TreeNode(4, new TreeNode(3), new TreeNode(3)), new TreeNode(2, new TreeNode(7), null))));
         /*
           示例 3：
           输入：root = [5,9,1,3,5,7]
           输出：false
           解释：1 层上的节点值应为偶数。
          */
-        System.out.println(evenOddTree.isEvenOddTree(new TreeNode<>(5, new TreeNode(9, new TreeNode(3), new TreeNode(5)), new TreeNode(1, new TreeNode(7), null))));
+        System.out.println(evenOddTree.isEvenOddTree(new TreeNode(5, new TreeNode(9, new TreeNode(3), new TreeNode(5)), new TreeNode(1, new TreeNode(7), null))));
 
     }
 }

@@ -30,9 +30,6 @@ import java.util.List;
 public class InOrderBST {
     /**
      * 方法：递归
-     * @param root
-     * @param p
-     * @return
      */
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         //结果集
@@ -51,8 +48,6 @@ public class InOrderBST {
 
     /**
      * 中序遍历
-     * @param root
-     * @param list
      */
     private void order(TreeNode root, List<TreeNode> list) {
         if (root == null)
@@ -64,20 +59,17 @@ public class InOrderBST {
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param p
-     * @return
      */
-    public TreeNode inorderSuccessor_iteration(TreeNode<Integer> root, TreeNode<Integer> p) {
+    public TreeNode inorderSuccessor_iteration(TreeNode root, TreeNode p) {
         // ans : 记录当前比 p 节点大的节点
         TreeNode ans = null;
         // 在二叉搜索树中进行搜索
-        while(root != null){
+        while (root != null) {
             // 如果当前节点 > p，则更新当前比 p 节点大的节点 ans , 同时去左子树进行搜索
-            if(root.val > p.val){
+            if (root.val > p.val) {
                 ans = root;
                 root = root.left;
-            }else{// 如果当前节点 < p , 则到右子树进行搜索
+            } else {// 如果当前节点 < p , 则到右子树进行搜索
                 root = root.right;
             }
         }

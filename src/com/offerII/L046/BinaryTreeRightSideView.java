@@ -43,7 +43,7 @@ public class BinaryTreeRightSideView {
             //当前层的节点
             int size = queue.size();
             for (int i = size - 1; i >= 0; i--) {
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 if (cur.left != null)
                     queue.add(cur.left);
                 if (cur.right != null)

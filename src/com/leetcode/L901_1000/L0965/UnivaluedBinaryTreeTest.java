@@ -10,12 +10,12 @@ public class UnivaluedBinaryTreeTest {
           输入：[1,1,1,1,1,null,1]
           输出：true
          */
-        System.out.println(univaluedBinaryTree.isUnivalTree(new TreeNode<>(1, new TreeNode(1, new TreeNode(1), new TreeNode(1)), new TreeNode(1, null, new TreeNode(1)))));
+        System.out.println(univaluedBinaryTree.isUnivalTree(new TreeNode(1, new TreeNode(1, new TreeNode(1), new TreeNode(1)), new TreeNode(1, null, new TreeNode(1)))));
         /*
           示例 2：
           输入：[2,2,2,5,2]
           输出：false
          */
-        System.out.println(univaluedBinaryTree.isUnivalTree(new TreeNode<>(2, new TreeNode(2, new TreeNode(5), new TreeNode(2)), new TreeNode(2))));
+        System.out.println(univaluedBinaryTree.isUnivalTree(new TreeNode(2, new TreeNode(2, new TreeNode(5), new TreeNode(2)), new TreeNode(2))));
     }
 }

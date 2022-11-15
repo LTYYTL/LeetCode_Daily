@@ -23,55 +23,54 @@ import java.util.Stack;
 public class PerOrder {
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
-    public List<Integer> preorderTraversal(TreeNode<Integer> root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         //结果变量
         List<Integer> res = new ArrayList<>();
         //空值情况
-        if(root == null){
+        if (root == null) {
             return res;
         }
         //调用前序遍历函数
-        perOrder(root,res);
+        perOrder(root, res);
         return res;
     }
 
     /**
      * 前序遍历函数
+     *
      * @param root 当前节点
      * @param res  结果List
      */
-    public void perOrder(TreeNode<Integer> root,List<Integer> res){
-        if(root != null){
+    public void perOrder(TreeNode root, List<Integer> res) {
+        if (root != null) {
             //将当前节点加入list
             res.add(root.val);
             //走向左子树
-            perOrder(root.left,res);
+            perOrder(root.left, res);
             //走向右子树
-            perOrder(root.right,res);
+            perOrder(root.right, res);
         }
     }
 
     /**
      * 方法二：迭代
+     *
      * @param root
-     * @return
      */
-    public List<Integer> preorderTraversal_Iteration(TreeNode<Integer> root) {
+    public List<Integer> preorderTraversal_Iteration(TreeNode root) {
         //结果变量
         List<Integer> res = new ArrayList<>();
         //空值情况
-        if(root == null){
+        if (root == null) {
             return res;
         }
         //存储节点栈
         Stack<TreeNode> stack = new Stack<>();
         //当栈或者节点不为空进入循环
-        while(!stack.isEmpty() || root != null){
+        while (!stack.isEmpty() || root != null) {
             //向左子树走
-            while(root != null){
+            while (root != null) {
                 //将当前节点的值加入list
                 res.add(root.val);
                 stack.push(root);

@@ -28,40 +28,32 @@ import java.util.Stack;
 public class KthSmallestElementBST {
     /**
      * 方法一：递归
-     * @param root
-     * @param k
-     * @return
      */
-    public int kthSmallest(TreeNode<Integer> root, int k) {
+    public int kthSmallest(TreeNode root, int k) {
         List<Integer> list = new ArrayList<>();
-        order(root,list);
-        return list.get(k-1);
+        order(root, list);
+        return list.get(k - 1);
     }
 
     /**
      * 中序遍历
-     * @param root
-     * @param list
      */
-    private void order(TreeNode<Integer> root, List<Integer> list) {
+    private void order(TreeNode root, List<Integer> list) {
         if (root == null)
             return;
-        order(root.left,list);
+        order(root.left, list);
         list.add(root.val);
-        order(root.right,list);
+        order(root.right, list);
     }
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param k
-     * @return
      */
-    public int kthSmallest_iteration(TreeNode<Integer> root, int k) {
+    public int kthSmallest_iteration(TreeNode root, int k) {
         Stack<TreeNode> stake = new Stack<>();
-        while (root != null || !stake.isEmpty()){
+        while (root != null || !stake.isEmpty()) {
             //寻找最小左孩子
-            while (root != null){
+            while (root != null) {
                 stake.push(root);
                 root = root.left;
             }

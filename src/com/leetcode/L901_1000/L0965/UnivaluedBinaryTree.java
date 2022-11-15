@@ -25,11 +25,8 @@ import java.util.Queue;
 public class UnivaluedBinaryTree {
     /**
      * 方法：广度优先搜索
-     *
-     * @param root
-     * @return
      */
-    public boolean isUnivalTree(TreeNode<Integer> root) {
+    public boolean isUnivalTree(TreeNode root) {
         //空值
         if (root == null)
             return false;
@@ -43,7 +40,7 @@ public class UnivaluedBinaryTree {
         //遍历
         while (!queue.isEmpty()) {
             //队首元素
-            TreeNode<Integer> cur = queue.poll();
+            TreeNode cur = queue.poll();
             //不是单值
             if (cur.val != val)
                 return false;

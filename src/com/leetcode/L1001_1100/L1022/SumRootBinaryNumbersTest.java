@@ -12,8 +12,8 @@ public class SumRootBinaryNumbersTest {
           解释：(100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
          */
         System.out.println(sumRootBinaryNumbers.sumRootToLeaf(new TreeNode(1,
-                new TreeNode(0, new TreeNode<>(0), new TreeNode(1)),
-                new TreeNode(1, new TreeNode<>(0), new TreeNode(1)))));
+                new TreeNode(0, new TreeNode(0), new TreeNode(1)),
+                new TreeNode(1, new TreeNode(0), new TreeNode(1)))));
         /*
           示例 2：
           输入：root = [0]

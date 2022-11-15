@@ -11,16 +11,16 @@ public class LowestCommonAncestorBinaryTreeTest {
           输出：3
           解释：节点 5 和节点 1 的最近公共祖先是节点 3 。
          */
-        TreeNode<Integer> rrl = new TreeNode<>(0);
-        TreeNode<Integer> rrr = new TreeNode<>(8);
-        TreeNode<Integer> rr = new TreeNode<>(1, rrl, rrr);
+        TreeNode rrl = new TreeNode(0);
+        TreeNode rrr = new TreeNode(8);
+        TreeNode rr = new TreeNode(1, rrl, rrr);
 
-        TreeNode<Integer> rlrl = new TreeNode<>(7);
-        TreeNode<Integer> rlrr = new TreeNode<>(4);
-        TreeNode<Integer> rll = new TreeNode<>(6);
-        TreeNode<Integer> rlr = new TreeNode<>(2, rlrl, rlrr);
-        TreeNode<Integer> rl = new TreeNode<>(5, rll, rlr);
-        TreeNode<Integer> root = new TreeNode<>(3, rl, rr);
+        TreeNode rlrl = new TreeNode(7);
+        TreeNode rlrr = new TreeNode(4);
+        TreeNode rll = new TreeNode(6);
+        TreeNode rlr = new TreeNode(2, rlrl, rlrr);
+        TreeNode rl = new TreeNode(5, rll, rlr);
+        TreeNode root = new TreeNode(3, rl, rr);
 
         System.out.println(lowestCommonAncestorBinaryTree.lowestCommonAncestor(root, rlrl, rlrr));
         /*

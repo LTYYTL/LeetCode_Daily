@@ -27,7 +27,7 @@ public class LongestUnivaluePath {
     //结果集
     private int res = 0;
 
-    public int longestUnivaluePath(TreeNode<Integer> root) {
+    public int longestUnivaluePath(TreeNode root) {
         //空值
         if (root == null)
             return 0;
@@ -38,12 +38,8 @@ public class LongestUnivaluePath {
 
     /**
      * 后序遍历
-     *
-     * @param root
-     * @param parVal
-     * @return
      */
-    private int maxLen(TreeNode<Integer> root, int parVal) {
+    private int maxLen(TreeNode root, int parVal) {
         //空值
         if (root == null)
             return 0;

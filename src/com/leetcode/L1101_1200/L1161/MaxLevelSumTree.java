@@ -30,9 +30,6 @@ import java.util.Queue;
 public class MaxLevelSumTree {
     /**
      * 方法：广度优先搜索
-     *
-     * @param root
-     * @return
      */
     public int maxLevelSum(TreeNode root) {
         //结果
@@ -55,7 +52,7 @@ public class MaxLevelSumTree {
             //遍历层
             for (int i = 0; i < size; i++) {
                 //当前节点
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 //左节点存在
                 if (cur.left != null)
                     queue.add(cur.left);

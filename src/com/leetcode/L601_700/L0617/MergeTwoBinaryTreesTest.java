@@ -24,20 +24,20 @@ public class MergeTwoBinaryTreesTest {
          注意: 合并必须从两个树的根节点开始。
          */
 
-        TreeNode<Integer> t1ll = new TreeNode<>(5);
-        TreeNode<Integer> t1l = new TreeNode<>(3, t1ll, null);
-        TreeNode<Integer> t1r = new TreeNode<>(2);
-        TreeNode<Integer> t1 = new TreeNode<>(1, t1l, t1r);
+        TreeNode t1ll = new TreeNode(5);
+        TreeNode t1l = new TreeNode(3, t1ll, null);
+        TreeNode t1r = new TreeNode(2);
+        TreeNode t1 = new TreeNode(1, t1l, t1r);
 
-        TreeNode<Integer> t2lr = new TreeNode<>(4);
-        TreeNode<Integer> t2rr = new TreeNode<>(7);
-        TreeNode<Integer> t2l = new TreeNode<>(1, null, t2lr);
-        TreeNode<Integer> t2r = new TreeNode<>(3, null, t2rr);
-        TreeNode<Integer> t2  = new TreeNode<>(2,t2l,t2r);
+        TreeNode t2lr = new TreeNode(4);
+        TreeNode t2rr = new TreeNode(7);
+        TreeNode t2l = new TreeNode(1, null, t2lr);
+        TreeNode t2r = new TreeNode(3, null, t2rr);
+        TreeNode t2 = new TreeNode(2, t2l, t2r);
 
         System.out.println(t1);
         System.out.println(t2);
 
-        System.out.println(mergeTwoBinaryTrees.mergeTrees(t1,t2));
+        System.out.println(mergeTwoBinaryTrees.mergeTrees(t1, t2));
     }
 }

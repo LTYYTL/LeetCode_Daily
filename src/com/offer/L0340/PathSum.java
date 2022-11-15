@@ -40,15 +40,14 @@ public class PathSum {
             return res;
         }
         //深度优先搜索
-        dfs(root,sum);
+        dfs(root, sum);
         return res;
     }
+
     /**
      * 深度优先搜素
-     * @param root
-     * @param sum
      */
-    private void dfs(TreeNode<Integer> root, int sum) {
+    private void dfs(TreeNode root, int sum) {
         //空值情况
         if (root == null)
             return;

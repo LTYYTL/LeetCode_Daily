@@ -27,9 +27,6 @@ import java.util.Map;
 public class PathSumIII {
     /**
      * 方法一：递归
-     * @param root
-     * @param targetSum
-     * @return
      */
     public int pathSum(TreeNode root, int targetSum) {
         //空值情况
@@ -43,17 +40,17 @@ public class PathSumIII {
         return res;
     }
 
-    private int rootSum(TreeNode<Integer> root, int targetSum) {
+    private int rootSum(TreeNode root, int targetSum) {
         //数量
         int ret = 0;
         //叶子节点
-        if (root  == null){
+        if (root == null) {
             return 0;
         }
         //节点值
         int val = root.val;
         //等于目标值，数量+1
-        if (val == targetSum){
+        if (val == targetSum) {
             ret++;
         }
 
@@ -65,28 +62,25 @@ public class PathSumIII {
 
     /**
      * 方法二：前缀和
-     * @param root
-     * @param targetSum
-     * @return
      */
-    public int pathSum_prefix(TreeNode root,int targetSum){
-        Map<Integer,Integer> prefix = new HashMap<>();
-        prefix.put(0,1);
-        return dfs(root,prefix,0,targetSum);
+    public int pathSum_prefix(TreeNode root, int targetSum) {
+        Map<Integer, Integer> prefix = new HashMap<>();
+        prefix.put(0, 1);
+        return dfs(root, prefix, 0, targetSum);
     }
 
-    private int dfs(TreeNode<Integer> root, Map<Integer, Integer> prefix, int curr, int targetSum) {
-        if (root == null){
+    private int dfs(TreeNode root, Map<Integer, Integer> prefix, int curr, int targetSum) {
+        if (root == null) {
             return 0;
         }
         int ret;
         curr += root.val;
 
-        ret = prefix.getOrDefault(curr-targetSum,0);
-        prefix.put(curr,prefix.getOrDefault(curr,0)+1);
+        ret = prefix.getOrDefault(curr - targetSum, 0);
+        prefix.put(curr, prefix.getOrDefault(curr, 0) + 1);
         ret += dfs(root.left, prefix, curr, targetSum);
         ret += dfs(root.right, prefix, curr, targetSum);
-        prefix.put(curr,prefix.put(curr,0)-1);
+        prefix.put(curr, prefix.put(curr, 0) - 1);
 
         return ret;
     }

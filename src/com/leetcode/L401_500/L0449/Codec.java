@@ -28,9 +28,6 @@ import java.util.Stack;
 public class Codec {
     /**
      * 方法：后序遍历
-     *
-     * @param root
-     * @return
      */
     public String serialize(TreeNode root) {
         //结果
@@ -69,13 +66,13 @@ public class Codec {
         //栈顶
         int val = stack.pop();
         //构建树
-        TreeNode<Integer> root = new TreeNode<>(val);
+        TreeNode root = new TreeNode(val);
         root.right = construct(val, high, stack);
         root.left = construct(lower, val, stack);
         return root;
     }
 
-    private void postOrder(TreeNode<Integer> root, List<Integer> list) {
+    private void postOrder(TreeNode root, List<Integer> list) {
         if (root == null)
             return;
         postOrder(root.left, list);

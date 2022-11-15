@@ -30,16 +30,18 @@ public class SecondMinimumNodeInBinaryTree {
      * 方法一：深度优先搜索
      */
     int ans = -1;
-    public int findSecondMinimumValue(TreeNode<Integer> root) {
+
+    public int findSecondMinimumValue(TreeNode root) {
         dfs(root, root.val);
         return ans;
     }
-    void dfs(TreeNode<Integer> root, int cur) {
-        if (root == null) return ;
+
+    void dfs(TreeNode root, int cur) {
+        if (root == null) return;
         if (root.val != cur) {
             if (ans == -1) ans = root.val;
             else ans = Math.min(ans, root.val);
-            return ;
+            return;
         }
         dfs(root.left, cur);
         dfs(root.right, cur);
@@ -50,7 +52,8 @@ public class SecondMinimumNodeInBinaryTree {
      */
     //存储所有节点的值
     TreeSet<Integer> set = new TreeSet<>();
-    public int findSecondMinimumValue_set(TreeNode<Integer> root) {
+
+    public int findSecondMinimumValue_set(TreeNode root) {
         //获取所有值
         dfs(root);
         //set中只有一种值时，返回-1
@@ -60,8 +63,8 @@ public class SecondMinimumNodeInBinaryTree {
         return set.higher(root.val);
     }
 
-    private void dfs(TreeNode<Integer> root){
-        if (root != null){
+    private void dfs(TreeNode root) {
+        if (root != null) {
             dfs(root.left);
             set.add(root.val);
             dfs(root.right);

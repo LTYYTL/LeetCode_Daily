@@ -9,10 +9,10 @@ public class CousinsBinaryTreeTest {
           输入：root = [1,2,3,4], x = 4, y = 3
           输出：false
          */
-        TreeNode<Integer> ll = new TreeNode<>(4);
-        TreeNode<Integer> l = new TreeNode<>(2, ll, null);
-        TreeNode<Integer> r = new TreeNode<>(3);
-        TreeNode<Integer> root = new TreeNode<>(1, l, r);
+        TreeNode ll = new TreeNode(4);
+        TreeNode l = new TreeNode(2, ll, null);
+        TreeNode r = new TreeNode(3);
+        TreeNode root = new TreeNode(1, l, r);
 
         System.out.println(cousinsBinaryTree.isCousins(root, 4, 3));
         /*

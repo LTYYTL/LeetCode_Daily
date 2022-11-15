@@ -28,8 +28,6 @@ import java.util.Queue;
 public class ListDepth {
     /**
      * 方法：广度优先搜索
-     * @param tree
-     * @return
      */
     public ListNode[] listOfDepth(TreeNode tree) {
         List<ListNode> res = new ArrayList<>();
@@ -50,7 +48,7 @@ public class ListDepth {
             //遍历
             for (int i = 0; i < size; i++) {
                 //当前节点
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 //左孩子不为空，放入队中
                 if (cur.left != null)
                     queue.add(cur.left);
@@ -66,7 +64,7 @@ public class ListDepth {
         }
 
         //转换成链表数组
-        return res.toArray(new ListNode[res.size()]);
+        return res.toArray(new ListNode[0]);
     }
 }
 

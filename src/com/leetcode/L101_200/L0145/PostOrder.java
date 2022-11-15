@@ -23,8 +23,6 @@ import java.util.List;
 public class PostOrder {
     /**
      * 方法一：递归
-     * @param root
-     * @return
      */
     public List<Integer> postorderTraversal(TreeNode root) {
         //结果list
@@ -39,15 +37,13 @@ public class PostOrder {
 
     /**
      * 后序遍历
-     * @param root
-     * @param res
      */
-    private void postOrder(TreeNode<Integer> root,List<Integer> res){
-        if(root != null){
+    private void postOrder(TreeNode root, List<Integer> res) {
+        if (root != null) {
             //走向左子树
-            postOrder(root.left,res);
+            postOrder(root.left, res);
             //走向右子树
-            postOrder(root.right,res);
+            postOrder(root.right, res);
             //将当前节点的值加入list
             res.add(root.val);
         }
@@ -55,21 +51,19 @@ public class PostOrder {
 
     /**
      * 方法二：迭代
-     * @param root
-     * @return
      */
-    public List<Integer> postorderTraversal_Iteration(TreeNode<Integer> root){
+    public List<Integer> postorderTraversal_Iteration(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         LinkedList<TreeNode> stack = new LinkedList<>();
         TreeNode last = null;
-        while (root != null || ! stack.isEmpty()) {
+        while (root != null || !stack.isEmpty()) {
             if (root != null) {
                 //当前节点入栈
                 stack.push(root);
                 //遍历左子树
                 root = root.left;
             } else {
-                TreeNode<Integer> data = stack.peek();
+                TreeNode data = stack.peek();
                 //右子树为空，或者右子树已经遍历过（因为当前节点的右节点等于上一次遍历到的节点）
                 if (data.right == null || last == data.right) {
                     //左右子树遍历结束，当前节点存入结果集

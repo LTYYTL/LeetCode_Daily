@@ -44,10 +44,8 @@ public class BinaryTreeTilt{
 
     /**
      * 方法：深度优先搜索
-     * @param root
-     * @return
      */
-    public int findTilt(TreeNode<Integer> root) {
+    public int findTilt(TreeNode root) {
         //初始化
         res = 0;
         //空值情况
@@ -65,10 +63,8 @@ public class BinaryTreeTilt{
 
     /**
      * 计算节点和
-     * @param root
-     * @return
      */
-    private int dfs(TreeNode<Integer> root) {
+    private int dfs(TreeNode root) {
         //空节点返回0
         if (root == null)
             return 0;

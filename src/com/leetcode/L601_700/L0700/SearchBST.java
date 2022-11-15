@@ -25,11 +25,8 @@ import com.util.TreeNode;
 public class SearchBST {
     /**
      * 方法一：递归
-     * @param root
-     * @param val
-     * @return
      */
-    public TreeNode searchBST(TreeNode<Integer> root, int val) {
+    public TreeNode searchBST(TreeNode root, int val) {
         //空值情况
         if (root == null)
             return null;
@@ -39,7 +36,7 @@ public class SearchBST {
         } else if (root.val > val) {
             //比当前节点值小，去左子树搜索
             return searchBST(root.left, val);
-        } else  {
+        } else {
             //比当前节点值大，去右子树搜索
             return searchBST(root.right, val);
         }
@@ -47,20 +44,17 @@ public class SearchBST {
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param val
-     * @return
      */
-    public TreeNode searchBST_iteration(TreeNode<Integer> root, int val) {
+    public TreeNode searchBST_iteration(TreeNode root, int val) {
         //节点不为空
-        while (root != null){
+        while (root != null) {
             //与当前节点值相等
             if (root.val == val) {
                 return root;
             } else if (root.val > val) {
                 //比当前节点值小，去左子树搜索
                 root = root.left;
-            } else  {
+            } else {
                 //比当前节点值大，去右子树搜索
                 root = root.right;
             }

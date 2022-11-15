@@ -17,9 +17,9 @@ public class ConvertBSTToGreaterTreeTest {
                       /   \
                     20     13
          */
-        TreeNode<Integer> root = new TreeNode<>(5);
-        TreeNode<Integer> rl = new TreeNode<>(2);
-        TreeNode<Integer> rr = new TreeNode<>(13);
+        TreeNode root = new TreeNode(5);
+        TreeNode rl = new TreeNode(2);
+        TreeNode rr = new TreeNode(13);
 
         root.left = rl;
         root.right = rr;

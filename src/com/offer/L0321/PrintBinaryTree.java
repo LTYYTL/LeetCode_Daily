@@ -30,20 +30,18 @@ import java.util.Queue;
 public class PrintBinaryTree {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
     public int[] levelOrder(TreeNode root) {
         //空值判断
         if(root == null) return new int[0];
-        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         List<Integer> list = new ArrayList<>();
         //加入根节点
         queue.offer(root);
         //遍历队列
         while (!queue.isEmpty()){
             //队头节点
-            TreeNode<Integer> cur = queue.poll();
+            TreeNode cur = queue.poll();
             list.add(cur.val);
             //左孩子不为空，加入队列
             if (cur.left != null)

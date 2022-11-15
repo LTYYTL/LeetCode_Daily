@@ -17,13 +17,13 @@ public class VerticalOrderTraversalBinaryTreeTest {
           列  1 ：只有结点 20 在此列中。
           列  2 ：只有结点 7 在此列中。
          */
-        TreeNode<Integer> root = new TreeNode<>(3);
+        TreeNode root = new TreeNode(3);
 
-        TreeNode<Integer> rrl = new TreeNode<>(15);
-        TreeNode<Integer> rrr = new TreeNode<>(7);
-        TreeNode<Integer> rr = new TreeNode<>(20, rrl, rrr);
+        TreeNode rrl = new TreeNode(15);
+        TreeNode rrr = new TreeNode(7);
+        TreeNode rr = new TreeNode(20, rrl, rrr);
 
-        root.left = new TreeNode<>(9);
+        root.left = new TreeNode(9);
         root.right = rr;
 
         System.out.println(root);

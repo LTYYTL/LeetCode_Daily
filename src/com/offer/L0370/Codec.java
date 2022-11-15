@@ -20,7 +20,7 @@ import java.util.Queue;
  */
 public class Codec {
     // Encodes a tree to a single string.
-    public String serialize(TreeNode<Integer> root) {
+    public String serialize(TreeNode root) {
         //空值情况
         if (root == null)
             return "[]";
@@ -59,7 +59,7 @@ public class Codec {
         //去除“[”，“]”并将字符串按照“，”分割
         String[] vals = data.substring(1, data.length() - 1).split(",");
         //新建根节点
-        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(vals[0]));
+        TreeNode root = new TreeNode(Integer.parseInt(vals[0]));
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         //控制指针

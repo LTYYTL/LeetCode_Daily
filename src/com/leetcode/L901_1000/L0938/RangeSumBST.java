@@ -25,22 +25,18 @@ import java.util.Stack;
 public class RangeSumBST {
     /**
      * 方法一：递归
-     * @param root
-     * @param low
-     * @param high
-     * @return
      */
-    public int rangeSumBST(TreeNode<Integer> root, int low, int high) {
-        if(root == null){
+    public int rangeSumBST(TreeNode root, int low, int high) {
+        if (root == null) {
             return 0;
         }
         //当前值比范围小，走向右子树
-        if (root.val < low){
+        if (root.val < low) {
             return rangeSumBST(root.right, low, high);
         }
 
         //当前值比范围大，走向左子树
-        if (root.val > high){
+        if (root.val > high) {
             return rangeSumBST(root.left, low, high);
         }
 
@@ -50,12 +46,8 @@ public class RangeSumBST {
 
     /**
      * 方法二：迭代
-     * @param root
-     * @param low
-     * @param high
-     * @return
      */
-    public int rangeSumBST_it(TreeNode<Integer> root, int low, int high) {
+    public int rangeSumBST_it(TreeNode root, int low, int high) {
         //结果集
         int sum = 0;
         //空值情况
@@ -63,8 +55,8 @@ public class RangeSumBST {
             return 0;
         Stack<TreeNode> stack = new Stack<>();
         //将左节点放入栈中
-        while (!stack.isEmpty() || root != null){
-            while (root != null){
+        while (!stack.isEmpty() || root != null) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }

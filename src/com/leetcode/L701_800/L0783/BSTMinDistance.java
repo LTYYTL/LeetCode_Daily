@@ -28,18 +28,18 @@ import java.util.Stack;
  * 本题与 530：<a href="https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/">https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/</a> 相同
  */
 public class BSTMinDistance {
-    public int minDiffInBST(TreeNode<Integer> root) {
+    public int minDiffInBST(TreeNode root) {
         int min = Integer.MAX_VALUE;
-        TreeNode<Integer> pre = null;
+        TreeNode pre = null;
         Stack<TreeNode> stack = new Stack<>();
-        while (root != null || !stack.isEmpty()){
-            while (root != null){
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }
             root = stack.pop();
             if (pre != null)
-                min = Math.min(root.val - pre.val,min);
+                min = Math.min(root.val - pre.val, min);
             pre = root;
             root = root.right;
         }

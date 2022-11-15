@@ -21,21 +21,19 @@ import com.util.TreeNode;
 public class DiameterBinaryTree {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     int res = 0;
-    public int diameterOfBinaryTree(TreeNode<Integer> root) {
+    public int diameterOfBinaryTree(TreeNode root) {
         depth(root);
         return res;
     }
 
-    private int depth(TreeNode<Integer> root) {
+    private int depth(TreeNode root) {
         if (root == null)
             return 0;
         int L = depth(root.left);//左子树的深度
         int R = depth(root.right);//右子树的深度
-        res = Math.max(res,L+R);
-        return Math.max(L,R)+1;//树的最大深度
+        res = Math.max(res, L + R);
+        return Math.max(L, R) + 1;//树的最大深度
     }
 }

@@ -31,27 +31,29 @@ import com.util.TreeNode;
 public class ValidateBinarySearchTree {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
-    public boolean isValidBST(TreeNode<Integer> root) {
+    public boolean isValidBST(TreeNode root) {
         //递归调用
-        return isBST(root,null,null);
+        return isBST(root, null, null);
     }
 
     /**
-     *
      * @param root     当前节点
      * @param minValue 最小值
      * @param maxValue 最大值
-     * @return
      */
-    private boolean isBST(TreeNode<Integer> root, Integer minValue, Integer maxValue) {
+    private boolean isBST(TreeNode root, Integer minValue, Integer maxValue) {
         // 空树认为是BST
-        if (root == null) { return true; }
+        if (root == null) {
+            return true;
+        }
         // 一次只检查一个节点，看这个节点是否破坏了BST特性
-        if (minValue != null && root.val <= minValue) { return false; }
-        if (maxValue != null && root.val >= maxValue) { return false; }
+        if (minValue != null && root.val <= minValue) {
+            return false;
+        }
+        if (maxValue != null && root.val >= maxValue) {
+            return false;
+        }
         // 对于左子树的所有节点值来说，最小值为min，最大值为root.val
         // 对于右子树的所有节点值来说，最小值为root.val，最大值为max
         return isBST(root.left, minValue, root.val) && isBST(root.right, root.val, maxValue);

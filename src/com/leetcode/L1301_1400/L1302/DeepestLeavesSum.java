@@ -24,9 +24,6 @@ import java.util.Queue;
 public class DeepestLeavesSum {
     /**
      * 方法：广度优先搜索
-     *
-     * @param root
-     * @return
      */
     public int deepestLeavesSum(TreeNode root) {
         // 结果
@@ -48,7 +45,7 @@ public class DeepestLeavesSum {
             // 遍历层中节点
             for (int i = 0; i < size; i++) {
                 // 当前节点
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 // 有左子树
                 if (cur.left != null) {
                     queue.add(cur.left);

@@ -35,7 +35,7 @@ public class BinaryTreePruning {
     /**
      * 删除函数
      */
-    private TreeNode del(TreeNode<Integer> root) {
+    private TreeNode del(TreeNode root) {
         //空值情况
         if (root == null)
             return null;
@@ -44,7 +44,7 @@ public class BinaryTreePruning {
         //右子树
         root.right = del(root.right);
         //左子树、右子树、值为0表示此点无效可以删除
-        if (root.left == null && root.right == null && root.val == 0){
+        if (root.left == null && root.right == null && root.val == 0) {
             return null;
         }
         return root;

@@ -36,14 +36,12 @@ import com.util.TreeNode;
 public class SumRootLeafNumbers {
     /**
      * 方法：递归
-     * @param root
-     * @return
      */
     public int sumNumbers(TreeNode root) {
         return dfs(root, 0);
     }
 
-    public int dfs(TreeNode<Integer> root, int prevSum) {
+    public int dfs(TreeNode root, int prevSum) {
         if (root == null) {
             return 0;
         }

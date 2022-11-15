@@ -35,7 +35,7 @@ public class BinaryTreeLevelAverage {
         if (root == null)
             return res;
         //节点队列
-        Queue<TreeNode<Double>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         //将根节点添加到队列
         queue.add(root);
         //队列为空，跳出循环
@@ -47,7 +47,7 @@ public class BinaryTreeLevelAverage {
             //将本层节点循环输出
             for (int i = 0; i < size; i++){
                 //获得当前队首节点
-                TreeNode<Double> temp = queue.poll();
+                TreeNode temp = queue.poll();
                 double num = temp.val;
                 sum += num;
                 //将当前节点的孩子放入队列中

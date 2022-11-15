@@ -47,12 +47,8 @@ public class DeleteNodeTToBST {
      * （3）若keyNode只有右子树，那么删除后返回key.right给其父节点继承；
      * （4）若keyNode左右子树都有，可以寻找在中序遍历过程中，keyNode的前驱或者后继，然后用前驱或者后继的值代替其节点值，在将其前驱或者后继删除；
      * 4、如果最终root为null，说明找不到要删除的节点，应该返回原本的BST.
-     *
-     * @param root
-     * @param key
-     * @return
      */
-    public TreeNode deleteNode(TreeNode<Integer> root, int key) {
+    public TreeNode deleteNode(TreeNode root, int key) {
         //空值情况
         if (root == null)
             return null;
@@ -74,7 +70,7 @@ public class DeleteNodeTToBST {
         if(root.left == null)
             return root.right;
         //寻找当前节点中序遍历的后继节点，即其右子树最左点
-        TreeNode<Integer> mintree = root.right;
+        TreeNode mintree = root.right;
         while (mintree.left != null)
             mintree = mintree.left;
         //用后继节点值替代当前节点的值

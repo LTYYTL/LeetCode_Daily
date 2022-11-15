@@ -47,8 +47,8 @@ public class BalanceBinarySearchTree {
     /**
      * 中序遍历
      */
-    private void order(TreeNode<Integer> root) {
-        if (root != null){
+    private void order(TreeNode root) {
+        if (root != null) {
             order(root.left);
             list.add(root.val);
             order(root.right);

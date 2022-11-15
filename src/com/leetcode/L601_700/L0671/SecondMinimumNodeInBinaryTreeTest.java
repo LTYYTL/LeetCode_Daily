@@ -11,11 +11,11 @@ public class SecondMinimumNodeInBinaryTreeTest {
           输出：5
           解释：最小的值是 2 ，第二小的值是 5 。
          */
-        TreeNode<Integer> root = new TreeNode<>(2);
-        TreeNode<Integer> rl = new TreeNode<>(2);
-        TreeNode<Integer> rr = new TreeNode<>(5);
-        TreeNode<Integer> rrl = new TreeNode<>(5);
-        TreeNode<Integer> rrr = new TreeNode<>(7);
+        TreeNode root = new TreeNode(2);
+        TreeNode rl = new TreeNode(2);
+        TreeNode rr = new TreeNode(5);
+        TreeNode rrl = new TreeNode(5);
+        TreeNode rrr = new TreeNode(7);
         root.left = rl;
         root.right = rr;
         rr.left = rrl;

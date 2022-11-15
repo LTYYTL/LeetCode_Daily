@@ -29,9 +29,6 @@ import java.util.*;
 public class TwoSumIV {
     /**
      * 方法一：双指针
-     * @param root
-     * @param k
-     * @return
      */
     public boolean findTarget(TreeNode root, int k) {
         List<Integer> list = new ArrayList<>();
@@ -55,32 +52,27 @@ public class TwoSumIV {
 
     /**
      * 中序遍历
-     * @param root
-     * @param list
      */
-    private void order(TreeNode<Integer> root, List<Integer> list) {
+    private void order(TreeNode root, List<Integer> list) {
         if (root == null)
             return;
-        order(root.left,list);
+        order(root.left, list);
         list.add(root.val);
         order(root.right, list);
     }
 
     /**
      * 方法二：set集合
-     * @param root
-     * @param k
-     * @return
      */
-    public boolean findTarget_set(TreeNode<Integer> root, int k) {
+    public boolean findTarget_set(TreeNode root, int k) {
         Set<Integer> set = new HashSet<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         //层序遍历
-        while (!queue.isEmpty()){
-            TreeNode<Integer> cur = queue.poll();
+        while (!queue.isEmpty()) {
+            TreeNode cur = queue.poll();
             //判断是否存在值
-            if (set.contains(k-cur.val))
+            if (set.contains(k - cur.val))
                 return true;
             set.add(cur.val);
             if (cur.left != null)

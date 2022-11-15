@@ -31,25 +31,21 @@ import java.util.Queue;
 public class CousinsBinaryTree {
     /**
      * 方法一：广度优先搜索
-     * @param root
-     * @param x
-     * @param y
-     * @return
      */
-    public boolean isCousins(TreeNode<Integer> root, int x, int y) {
+    public boolean isCousins(TreeNode root, int x, int y) {
         //这两个值任意一个都不会出现在根节点中
         if (root == null || root.val == x || root.val == y)
             return false;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         //x的父节点
-        TreeNode<Integer> xFather = null;
+        TreeNode xFather = null;
         //y的父节点
-        TreeNode<Integer> yFather = null;
+        TreeNode yFather = null;
         //x的节点
-        TreeNode<Integer> xNode = null;
+        TreeNode xNode = null;
         //y的节点
-        TreeNode<Integer> yNode = null;
+        TreeNode yNode = null;
 
         while (!queue.isEmpty()){
             int size = queue.size();
@@ -98,17 +94,14 @@ public class CousinsBinaryTree {
 
     /**
      * 方法二：深度优先搜索
-     * @param root
-     * @param x
-     * @param y
-     * @return
      */
     public boolean isCousins_dfs(TreeNode root, int x, int y) {
         int[] xi = dfs(root, null, 0, x);
         int[] yi = dfs(root, null, 0, y);
         return xi[1] == yi[1] && xi[0] != yi[0];
     }
-    private int[] dfs(TreeNode<Integer> root, TreeNode<Integer> father, int depth, int t) {
+
+    private int[] dfs(TreeNode root, TreeNode father, int depth, int t) {
         if (root == null) return new int[]{-1, -1}; // 使用 -1 代表为搜索不到 t
         if (root.val == t) {
             return new int[]{father != null ? father.val : 1, depth}; // 使用 1 代表搜索值 t 为 root

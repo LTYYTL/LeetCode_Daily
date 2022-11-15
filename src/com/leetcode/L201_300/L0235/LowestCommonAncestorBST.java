@@ -24,16 +24,12 @@ import com.util.TreeNode;
  */
 public class LowestCommonAncestorBST {
     /**
+     * 方法：递归
      * 1、如果两个节点值都小于根节点，说明他们都在根节点的左子树上，我们往左子树上找
      * 2、如果两个节点值都大于根节点，说明他们都在根节点的右子树上，我们往右子树上找
      * 3、如果一个节点值大于根节点，一个节点值小于根节点，说明他们他们一个在根节点的左子树上一个在根节点的右子树上，那么根节点就是他们的最近公共祖先节点。
-     *
-     * @param root
-     * @param p
-     * @param q
-     * @return
      */
-    public TreeNode lowestCommonAncestor(TreeNode<Integer> root, TreeNode<Integer> p, TreeNode<Integer> q) {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         //如果小于等于0，说明p和q位于root的两侧，直接返回即可
         if ((root.val - p.val) * (root.val - q.val) <= 0)
             return root;

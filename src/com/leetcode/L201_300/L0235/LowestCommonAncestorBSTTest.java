@@ -25,6 +25,6 @@ public class LowestCommonAncestorBSTTest {
 
         TreeNode root = new TreeNode(6,rl,rr);
 
-        System.out.println(lowestCommonAncestorBST.lowestCommonAncestor(root,new TreeNode<>(2),new TreeNode<>(8)));
+        System.out.println(lowestCommonAncestorBST.lowestCommonAncestor(root, new TreeNode(2), new TreeNode(8)));
     }
 }

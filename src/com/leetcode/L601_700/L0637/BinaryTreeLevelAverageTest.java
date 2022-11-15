@@ -18,11 +18,11 @@ public class BinaryTreeLevelAverageTest {
           第 0 层的平均值是 3 ,  第1层是 14.5 , 第2层是 11 。因此返回 [3, 14.5, 11] 。
          */
         //构建二叉树
-        TreeNode r1 = new TreeNode(3.0);
-        TreeNode r2 = new TreeNode(9.0);
-        TreeNode r3 = new TreeNode(20.0);
-        TreeNode r4 = new TreeNode(15.0);
-        TreeNode r5 = new TreeNode(7.0);
+        TreeNode r1 = new TreeNode(3);
+        TreeNode r2 = new TreeNode(9);
+        TreeNode r3 = new TreeNode(20);
+        TreeNode r4 = new TreeNode(15);
+        TreeNode r5 = new TreeNode(7);
         r1.left = r2;
         r1.right = r3;
         r3.left = r4;

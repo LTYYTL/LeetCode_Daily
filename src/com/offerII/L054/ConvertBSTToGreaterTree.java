@@ -42,13 +42,11 @@ import java.util.Stack;
 public class ConvertBSTToGreaterTree {
     /**
      * 方法一：递归（反向中序遍历）
-     * @param root
-     * @return
      */
     int sum = 0;
-    public TreeNode convertBST(TreeNode<Integer> root) {
+    public TreeNode convertBST(TreeNode root) {
         //节点不为空
-        if (root != null){
+        if (root != null) {
             //访问当前的节点的右子树，右子树的值大
             convertBST(root.right);
             //当前节点的值=右孩子的值+当前节点的值
@@ -62,18 +60,16 @@ public class ConvertBSTToGreaterTree {
 
     /**
      * 方法二：迭代（反向中序遍历）
-     * @param root
-     * @return
      */
-    public TreeNode convertBST_iteration(TreeNode<Integer> root){
+    public TreeNode convertBST_iteration(TreeNode root) {
         //用于中序遍历的栈
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode<Integer> res = root;
+        TreeNode res = root;
         int pre = 0;
 
-        while (!stack.isEmpty() || root!=null){
+        while (!stack.isEmpty() || root != null) {
             //将右节点全部加入栈中
-            while (root != null){
+            while (root != null) {
                 stack.push(root);
                 root = root.right;
             }

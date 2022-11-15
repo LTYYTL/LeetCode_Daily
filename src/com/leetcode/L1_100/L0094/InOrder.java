@@ -24,47 +24,45 @@ public class InOrder {
     /**
      * 方法一：递归
      */
-    public List<Integer> inorderTraversal(TreeNode<Integer> root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         //结果list
         List<Integer> res = new ArrayList<>();
         //空树情况
         if (root == null)
             return res;
         //调用中序遍历函数
-        inorder(root,res);
+        inorder(root, res);
         return res;
     }
 
     /**
      * 中序遍历
-     * @param root
-     * @param res
      */
-    private void inorder(TreeNode<Integer> root, List<Integer> res) {
+    private void inorder(TreeNode root, List<Integer> res) {
         //节点不为空
-        if (root != null){
+        if (root != null) {
             //中序遍历左子树
-            inorder(root.left,res);
+            inorder(root.left, res);
             //没有左子树，直接存入list
             res.add(root.val);
             //中序遍历右子树
-            inorder(root.right,res);
+            inorder(root.right, res);
         }
     }
 
     /**
      * 方法二：迭代
      */
-    public List<Integer> inorderTraversal_NonRecursive(TreeNode<Integer> root) {
+    public List<Integer> inorderTraversal_NonRecursive(TreeNode root) {
         //结果list
         List<Integer> res = new ArrayList<>();
         //空树情况
         if (root == null)
             return res;
         Stack<TreeNode> stack = new Stack<>();
-        while(root !=null || !stack.isEmpty()){
+        while (root != null || !stack.isEmpty()) {
             //将左节点全部加入栈中
-            while(root != null){
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }

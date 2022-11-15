@@ -44,10 +44,8 @@ public class PathSumII {
 
     /**
      * 深度优先搜素
-     * @param root
-     * @param sum
      */
-    private void dfs(TreeNode<Integer> root, int sum) {
+    private void dfs(TreeNode root, int sum) {
         //空值情况
         if (root == null)
             return;

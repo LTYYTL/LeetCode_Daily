@@ -10,10 +10,10 @@ public class KthSmallestElementBSTest {
           输入：root = [3,1,4,null,2], k = 1
           输出：1
          */
-        TreeNode<Integer> rlr = new TreeNode<>(2);
-        TreeNode<Integer> rl = new TreeNode<>(1, null, rlr);
-        TreeNode<Integer> rr = new TreeNode<>(4);
-        TreeNode<Integer> root = new TreeNode<>(3, rl, rr);
+        TreeNode rlr = new TreeNode(2);
+        TreeNode rl = new TreeNode(1, null, rlr);
+        TreeNode rr = new TreeNode(4);
+        TreeNode root = new TreeNode(3, rl, rr);
         System.out.println(kthSmallestElementBST.kthSmallest(root, 1));
         /*
           示例 2：

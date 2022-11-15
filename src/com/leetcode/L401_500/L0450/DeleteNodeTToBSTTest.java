@@ -29,12 +29,12 @@ public class DeleteNodeTToBSTTest {
              \   \
               4   7
          */
-        TreeNode<Integer> root = new TreeNode<>(5);
-        TreeNode<Integer> rl = new TreeNode<>(3);
-        TreeNode<Integer> rr = new TreeNode<>(6);
-        TreeNode<Integer> rll = new TreeNode<>(2);
-        TreeNode<Integer> rlr = new TreeNode<>(4);
-        TreeNode<Integer> rrr = new TreeNode<>(7);
+        TreeNode root = new TreeNode(5);
+        TreeNode rl = new TreeNode(3);
+        TreeNode rr = new TreeNode(6);
+        TreeNode rll = new TreeNode(2);
+        TreeNode rlr = new TreeNode(4);
+        TreeNode rrr = new TreeNode(7);
 
         root.left = rl;
         root.right = rr;
@@ -44,6 +44,6 @@ public class DeleteNodeTToBSTTest {
 
         System.out.println(root);
 
-        System.out.println(deleteNodeTToBST.deleteNode(root,3));
+        System.out.println(deleteNodeTToBST.deleteNode(root, 3));
     }
 }

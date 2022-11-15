@@ -13,7 +13,7 @@ public class LegalBSTTest {
             1   3
           输出: true
          */
-        System.out.println(legalBST.isValidBST(new TreeNode<>(2, new TreeNode(1), new TreeNode(3))));
+        System.out.println(legalBST.isValidBST(new TreeNode(2, new TreeNode(1), new TreeNode(3))));
         /*
           示例 2:
           输入:
@@ -26,6 +26,6 @@ public class LegalBSTTest {
           解释: 输入为: [5,1,4,null,null,3,6]。
                根节点的值为 5 ，但是其右子节点值为 4 。
          */
-        System.out.println(legalBST.isValidBST(new TreeNode<>(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)))));
+        System.out.println(legalBST.isValidBST(new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)))));
     }
 }

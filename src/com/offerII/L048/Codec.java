@@ -2,6 +2,7 @@ package com.offerII.L048;
 
 import com.util.TreeNode;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -38,29 +39,26 @@ public class Codec {
 
     /**
      * 方法一：前序遍历
-     * @param root
-     * @return
      */
-    public String serialize_pre(TreeNode<Integer> root){
+    public String serialize_pre(TreeNode root) {
         StringBuilder sb = new StringBuilder();
         preOrder(root, sb);
         return sb.toString();
     }
-    private void preOrder(TreeNode<Integer> root, StringBuilder sb) {
-        if (root == null){
+
+    private void preOrder(TreeNode root, StringBuilder sb) {
+        if (root == null) {
             sb.append(NULL).append(SEP);
             return;
         }
         sb.append(root.val).append(SEP);
-        preOrder(root.left,sb);
-        preOrder(root.right,sb);
+        preOrder(root.left, sb);
+        preOrder(root.right, sb);
     }
 
     public TreeNode deserialize_pre(String data) {
         LinkedList<String> nodes = new LinkedList<>();
-        for (String s : data.split(SEP)) {
-            nodes.add(s);
-        }
+        Collections.addAll(nodes, data.split(SEP));
         return deserialize_pre(nodes);
     }
 
@@ -72,7 +70,7 @@ public class Codec {
         if (first.equals(NULL))
             return null;
         //转换成数字
-        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(first));
+        TreeNode root = new TreeNode(Integer.parseInt(first));
         root.left = deserialize_pre(nodes);
         root.right = deserialize_pre(nodes);
         return root;
@@ -80,30 +78,27 @@ public class Codec {
 
     /**
      * 方法二：后序遍历
-     * @param root
-     * @return
      */
-    public String serialize_last(TreeNode<Integer> root){
+    public String serialize_last(TreeNode root) {
         StringBuilder sb = new StringBuilder();
         lastOrder(root, sb);
         return sb.toString();
     }
-    private void lastOrder(TreeNode<Integer> root, StringBuilder sb) {
-        if (root == null){
+
+    private void lastOrder(TreeNode root, StringBuilder sb) {
+        if (root == null) {
             sb.append(NULL).append(SEP);
             return;
         }
 
-        lastOrder(root.left,sb);
-        lastOrder(root.right,sb);
+        lastOrder(root.left, sb);
+        lastOrder(root.right, sb);
         sb.append(root.val).append(SEP);
     }
 
     public TreeNode deserialize_last(String data) {
         LinkedList<String> nodes = new LinkedList<>();
-        for (String s : data.split(SEP)) {
-            nodes.add(s);
-        }
+        Collections.addAll(nodes, data.split(SEP));
         return deserialize_last(nodes);
     }
 
@@ -115,7 +110,7 @@ public class Codec {
         if (last.equals(NULL))
             return null;
         //转换成数字
-        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(last));
+        TreeNode root = new TreeNode(Integer.parseInt(last));
         //先构造右子树，在构造左子树
         root.right = deserialize_last(nodes);
         root.left = deserialize_last(nodes);
@@ -124,20 +119,18 @@ public class Codec {
 
     /**
      * 方法三：层序遍历
-     * @param root
-     * @return
      */
-    public String serialize(TreeNode<Integer> root) {
+    public String serialize(TreeNode root) {
         if (root == null)
             return "";
         StringBuilder sb = new StringBuilder();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
-        while (!queue.isEmpty()){
-            TreeNode<Integer> cur = queue.poll();
+        while (!queue.isEmpty()) {
+            TreeNode cur = queue.poll();
             /*层序遍历代代码*/
-            if (cur == null){
+            if (cur == null) {
                 sb.append(NULL).append(SEP);
                 continue;
             }
@@ -155,14 +148,14 @@ public class Codec {
         if (data.isEmpty())
             return null;
         String[] nodes = data.split(SEP);
-        TreeNode<Integer> root = new TreeNode<>(Integer.parseInt(nodes[0]));
+        TreeNode root = new TreeNode(Integer.parseInt(nodes[0]));
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
         for (int i = 1; i < nodes.length;) {
             //在队里中的都是父节点
-            TreeNode<Integer> parent = queue.poll();
+            TreeNode parent = queue.poll();
             //左子树
             String left = nodes[i++];
             if (!left.equals(NULL)){

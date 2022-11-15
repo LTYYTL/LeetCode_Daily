@@ -26,15 +26,13 @@ import java.util.Queue;
 public class MinimumDepthBinaryTree {
     /**
      * 方法一：广度优先遍历
-     * @param root
-     * @return
      */
-    public int minDepth(TreeNode<Integer> root){
+    public int minDepth(TreeNode root) {
         //空值情况
         if (root == null)
             return 0;
 
-        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
         //root本身就是一层，将depth初始化为1
@@ -44,7 +42,7 @@ public class MinimumDepthBinaryTree {
             int size = queue.size();
             //将当前队列中所有节点的孩子加入队列
             for (int i = 0; i < size; i++) {
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 //判断是否到终点
                 if (cur.left == null && cur.right == null)
                     return depth;

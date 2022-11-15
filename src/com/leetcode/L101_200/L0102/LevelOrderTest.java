@@ -21,11 +21,11 @@ public class LevelOrderTest {
           ]
          */
         //构建二叉树
-        TreeNode<Integer> root = new TreeNode<>(3);
-        TreeNode<Integer> rl = new TreeNode<>(9);
-        TreeNode<Integer> rr = new TreeNode<>(20);
-        TreeNode<Integer> rrl = new TreeNode<>(15);
-        TreeNode<Integer> rrr = new TreeNode<>(7);
+        TreeNode root = new TreeNode(3);
+        TreeNode rl = new TreeNode(9);
+        TreeNode rr = new TreeNode(20);
+        TreeNode rrl = new TreeNode(15);
+        TreeNode rrr = new TreeNode(7);
 
         root.left = rl;
         root.right = rr;

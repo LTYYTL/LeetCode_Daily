@@ -11,18 +11,18 @@ public class PathSumIIITest {
           输出：3
           解释：和等于 8 的路径有 3 条，如图所示。
          */
-        TreeNode<Integer> rlll = new TreeNode<>(3);
-        TreeNode<Integer> rllr = new TreeNode<>(-2);
-        TreeNode<Integer> rll = new TreeNode<>(3, rlll, rllr);
+        TreeNode rlll = new TreeNode(3);
+        TreeNode rllr = new TreeNode(-2);
+        TreeNode rll = new TreeNode(3, rlll, rllr);
 
-        TreeNode<Integer> rlrr = new TreeNode<>(1);
-        TreeNode<Integer> rlr = new TreeNode<>(2, null, rlrr);
+        TreeNode rlrr = new TreeNode(1);
+        TreeNode rlr = new TreeNode(2, null, rlrr);
 
-        TreeNode<Integer> rl = new TreeNode<>(5, rll, rlr);
+        TreeNode rl = new TreeNode(5, rll, rlr);
 
-        TreeNode<Integer> rrr = new TreeNode<>(11);
-        TreeNode<Integer> rr = new TreeNode<>(-3, null, rrr);
-        TreeNode<Integer> root = new TreeNode<>(10, rl, rr);
+        TreeNode rrr = new TreeNode(11);
+        TreeNode rr = new TreeNode(-3, null, rrr);
+        TreeNode root = new TreeNode(10, rl, rr);
 
         System.out.println(pathSumIII.pathSum(root, 8));
         System.out.println(pathSumIII.pathSum_prefix(root, 8));

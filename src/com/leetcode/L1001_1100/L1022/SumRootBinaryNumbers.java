@@ -25,15 +25,12 @@ import com.util.TreeNode;
 public class SumRootBinaryNumbers {
     /**
      * 方法：递归
-     *
-     * @param root
-     * @return
      */
     public int sumRootToLeaf(TreeNode root) {
         return dfs(root, 0);
     }
 
-    private int dfs(TreeNode<Integer> root, int val) {
+    private int dfs(TreeNode root, int val) {
         //空值情况
         if (root == null)
             return 0;

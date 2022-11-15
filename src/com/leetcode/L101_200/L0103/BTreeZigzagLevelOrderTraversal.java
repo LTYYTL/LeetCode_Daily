@@ -28,10 +28,8 @@ import java.util.Queue;
 public class BTreeZigzagLevelOrderTraversal {
     /**
      * 方法：广度优先遍历
-     * @param root
-     * @return
      */
-    public List<List<Integer>> zigzagLevelOrder(TreeNode<Integer> root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
             return res;
@@ -49,7 +47,7 @@ public class BTreeZigzagLevelOrderTraversal {
             //加入到队列中
             for (int i = 0; i < count; i++) {
                 //poll移除队列头部元素（队列在头部移除，尾部添加）
-                TreeNode<Integer> node = queue.poll();
+                TreeNode node = queue.poll();
                 //判断是从左往右打印还是从右往左打印。
                 if (leftToRight) {
                     //如果从左边打印，直接把访问的节点值加入到列表level的末尾即可

@@ -41,13 +41,13 @@ public class MaxBinaryTreeII {
     /**
      * 方法：递归
      */
-    public TreeNode insertIntoMaxTree(TreeNode<Integer> root, int val) {
+    public TreeNode insertIntoMaxTree(TreeNode root, int val) {
         if (root == null) {
-            return new TreeNode<>(val);
+            return new TreeNode(val);
         }
         if (root.val < val) {
             TreeNode temp = root;
-            root = new TreeNode<>(val);
+            root = new TreeNode(val);
             root.left = temp;
         } else {
             root.right = insertIntoMaxTree(root.right, val);

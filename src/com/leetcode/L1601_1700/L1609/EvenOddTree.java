@@ -52,18 +52,16 @@ import java.util.Queue;
 public class EvenOddTree {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
-    public boolean isEvenOddTree(TreeNode<Integer> root) {
+    public boolean isEvenOddTree(TreeNode root) {
         //存储节点
-        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         //根节点加入队列
         queue.offer(root);
         //层号
         int step = 0;
         //遍历
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             //当前层节点个数
             int size = queue.size();
             //前一个数
@@ -71,7 +69,7 @@ public class EvenOddTree {
             //遍历
             for (int i = 0; i < size; i++) {
                 //队首节点出队
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 //左子树不为空加入队列
                 if (cur.left != null)
                     queue.offer(cur.left);

@@ -33,13 +33,11 @@ import java.util.Stack;
 public class BSTToGST {
     /**
      * 方法一：递归（反向中序遍历）
-     * @param root
-     * @return
      */
     int sum = 0;
-    public TreeNode bstToGst(TreeNode<Integer> root) {
+    public TreeNode bstToGst(TreeNode root) {
         //节点不为空
-        if (root != null){
+        if (root != null) {
             //访问当前的节点的右子树，右子树的值大
             bstToGst(root.right);
             //当前节点的值=右孩子的值+当前节点的值
@@ -54,18 +52,16 @@ public class BSTToGST {
 
     /**
      * 方法二：迭代（反向中序遍历）
-     * @param root
-     * @return
      */
-    public TreeNode bstToGst_Iteration(TreeNode<Integer> root){
+    public TreeNode bstToGst_Iteration(TreeNode root) {
         //用于中序遍历的栈
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode<Integer> res = root;
+        TreeNode res = root;
         int pre = 0;
 
-        while (!stack.isEmpty() || root!=null){
+        while (!stack.isEmpty() || root != null) {
             //将右节点全部加入栈中
-            while (root != null){
+            while (root != null) {
                 stack.push(root);
                 root = root.right;
             }

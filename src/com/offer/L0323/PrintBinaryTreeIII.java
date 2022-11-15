@@ -29,11 +29,9 @@ import java.util.*;
 public class PrintBinaryTreeIII {
     /**
      * 方法：广度优先搜索
-     * @param root
-     * @return
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
-        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
         //空值判断
         if(root == null) return res;
@@ -49,7 +47,7 @@ public class PrintBinaryTreeIII {
             List<Integer> list = new ArrayList<>();
             for (int i = 0; i < size; i++) {
                 //队头节点
-                TreeNode<Integer> cur = queue.poll();
+                TreeNode cur = queue.poll();
                 list.add(cur.val);
                 //左孩子不为空，加入队列
                 if (cur.left != null)
