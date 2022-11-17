@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1145**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1147**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -443,6 +443,7 @@
 | 700  | 二叉搜索树中的搜索                                                      | [SearchBST](src/com/leetcode/L601_700/L0700/SearchBST.java)                                                     | 简单  | 递归、迭代            | 树                                 |
 | 701  | 二叉搜索树中的插入操作                                                    | [insertIntoBST](src/com/leetcode/L701_800/L0701/InsertBST.java)                                                 | 中等  | 递归、迭代            | 树                                 |
 | 783  | 二叉搜索树节点最小距离                                                    | [BSTMinDistance](src/com/leetcode/L701_800/L0783/BSTMinDistance.java)                                           | 简单  | 递归、迭代            | 树                                 |
+| 792  | 匹配子序列的单词数                                                      | [NumberMatchSub](src/com/leetcode/L701_800/L0792/NumberMatchSub.java)                                           | 中等  | 二分查找             | 字符串、哈希表、字典树、排序                    |
 | 814  | 二叉树剪枝                                                          | [BinaryTreePruning](src/com/leetcode/L801_900/L0814/BinaryTreePruning.java)                                     | 中等  | 递归               | 树                                 |
 | 863  | 二叉树中所有距离为 K 的结点                                                | [AllNodesDistanceKBinaryTree](src/com/leetcode/L801_900/L0863/AllNodesDistanceKBinaryTree.java)                 | 中等  | 深度优先搜索           | 树、深度优先搜索、广度优先搜索、二叉树               |
 | 872  | 叶子相似的树                                                         | [Leaf_SimilarTrees](src/com/leetcode/L801_900/L0872/Leaf_SimilarTrees.java)                                     | 简单  | 深度优先搜索           | 树、深度优先搜索                          |
@@ -746,6 +747,7 @@
 | 724  | 寻找数组的中心索引                                                           | [FindPivotIndex](src/com/leetcode/L701_800/L0724/FindPivotIndex.java)                                               | 简单  | 数学       | 数学                  |
 | 728  | 自除数                                                                 | [SelfDividingNumbers](src/com/leetcode/L701_800/L0728/SelfDividingNumbers.java)                                     | 简单  | 数学       | 数学                  |
 | 754  | 到达终点数字                                                              | [ReachNumber](src/com/leetcode/L701_800/L0754/ReachNumber.java)                                                     | 中等  | 数学       | 数学、二分查找             |
+| 775  | 全局倒置与局部倒置                                                           | [GlobalLocalInversions](src/com/leetcode/L701_800/L0775/GlobalLocalInversions.java)                                 | 中等  | 数学       | 数组、数学               |
 | 779  | 第K个语法符号                                                             | [KSymbolGrammar](src/com/leetcode/L701_800/L0779/KSymbolGrammar.java)                                               | 中等  | 数学       | 数学、递归、位运算           |
 | 780  | 到达终点                                                                | [ReachingPoints](src/com/leetcode/L701_800/L0780/ReachingPoints.java)                                               | 困难  | 数学       | 数学                  |
 | 788  | 旋转数字                                                                | [RotatedDigits](src/com/leetcode/L701_800/L0788/RotatedDigits.java)                                                 | 中等  | 数学       | 数学、动态规划             |

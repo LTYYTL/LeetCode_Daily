@@ -10,9 +10,6 @@ import java.util.ArrayList;
  * 进阶：
  * 如果有大量输入的 S，称作 S1, S2, ... , Sk 其中 k >= 10亿，你需要依次检查它们是否为 T 的子序列。在这种情况下，你会怎样改变代码？
  *
- * 致谢：
- * 特别感谢 @pbrother 添加此问题并且创建所有测试用例。
- *
  * 示例 1：
  * 输入：s = "abc", t = "ahbgdc"
  * 输出：true
@@ -29,9 +26,6 @@ import java.util.ArrayList;
 public class IsSub {
     /**
      * 方法：双指针
-     * @param s
-     * @param t
-     * @return
      */
     public boolean isSubsequence(String s, String t) {
         //双指针
@@ -51,9 +45,6 @@ public class IsSub {
 
     /**
      * 方法二：二分查找
-     * @param s
-     * @param t
-     * @return
      */
     public boolean isSubsequence_binary(String s, String t) {
         int m = s.length(), n = t.length();
