@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1147**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1148**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -758,6 +758,7 @@
 | 829  | 连续整数求和                                                              | [ConsecutiveNumbersSum](src/com/leetcode/L801_900/L0829/ConsecutiveNumbersSum.java)                                 | 困难  | 数学       | 数学、枚举               |
 | 832  | 翻转图像                                                                | [FlippingImage](src/com/leetcode/L801_900/L0832/FlippingImage.java)                                                 | 简单  | 数学       | 数组                  |
 | 883  | 三维形体投影面积                                                            | [Area3DShapes](src/com/leetcode/L801_900/L0883/Area3DShapes.java)                                                   | 简单  | 数学       | 数组、矩阵、数学、几何         |
+| 891  | 子序列宽度之和                                                             | [SumSubWidths](src/com/leetcode/L801_900/L0891/SumSubWidths.java)                                                   | 困难  | 数学       | 数组、数学、排序            |
 | 902  | 最大为 N 的数字组合                                                         | [MostNSet](src/com/leetcode/L901_1000/L0902/MostNSet.java)                                                          | 困难  | 数学       | 数组、字符串、数学、动态规划、二分查找 |
 | 908  | 最小差值 I                                                              | [SmallestRangeI](src/com/leetcode/L901_1000/L0908/SmallestRangeI.java)                                              | 简单  | 数学       | 数组、数学               |
 | 976  | 三角形的最大周长                                                            | [LargestPerimeterTriangle](src/com/leetcode/L901_1000/L0976/LargestPerimeterTriangle.java)                          | 简单  | 数学       | 排序、数学               |
