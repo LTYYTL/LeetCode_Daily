@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1164**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1165**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -382,6 +382,7 @@
 | 1839 | 所有元音按顺序排布的最长子字符串     | [LongestSubstringOfAllVowelsOrder](src/com/leetcode/L1801_1900/L1839/LongestSubstringOfAllVowelsOrder.java)                       | 中等  | 双指针            | 字符串、双指针                    |
 | 1859 | 将句子排序                | [SortingSentence](src/com/leetcode/L1801_1900/L1859/SortingSentence.java)                                                         | 简单  | 排序、Map映射、数组    | 字符串、排序                     |
 | 1876 | 长度为三且各字符不同的子字符串      | [SubstringsSizeThreeDistinctCharacters](src/com/leetcode/L1801_1900/L1876/SubstringsSizeThreeDistinctCharacters.java)             | 简单  | 双指针            | 字符串                        |
+| 1945 | 字符串转化后的各位数字之和 | [SumDigitsString](src/com/leetcode/L1901_2000/L1945/SumDigitsString.java)                                                         | 简单  | 模拟            | 字符串、模拟                     |
 | 2000 | 反转单词前缀               | [ReversePrefixWord](src/com/leetcode/L1901_2000/L2000/ReversePrefixWord.java)                                                     | 简单  | 模拟             | 字符串、双指针                    |
 | 2038 | 如果相邻两个颜色均相同则删除当前颜色   | [RemoveColored](src/com/leetcode/L2001_2100/L2038/RemoveColored.java)                                                             | 中等  | 双指针            | 字符串、贪心算法、数学、博弈论            |
 | 2047 | 句子中的有效单词数            | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java)                                                             | 简单  | 模拟             | 字符串                        |
