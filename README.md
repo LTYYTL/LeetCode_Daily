@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1169**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1170**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -639,6 +639,7 @@
 | 1218 | 最长定差子序列          | [LongestSubsequenceDifference](src/com/leetcode/L1201_1300/L1218/LongestSubsequenceDifference.java)                           | 中等  | 动态规划        | 数组、哈希表、动态规划                     |
 | 1269 | 停在原地的方案数         | [NumberWaysStaySamePlaceAfterSomeSteps](src/com/leetcode/L1201_1300/L1269/NumberWaysStaySamePlaceAfterSomeSteps.java)         | 困难  | 动态规划        | 动态规划                            |
 | 1312 | 让字符串成为回文串的最少插入次数 | [MinimumInsertionStepsMakeStringPalindrome](src/com/leetcode/L1301_1400/L1312/MinimumInsertionStepsMakeStringPalindrome.java) | 困难  | 动态规划        | 动态规划                            |
+| 1387 | 将整数按权重排序        | [SortIntegersByWeight](src/com/leetcode/L1301_1400/L1387/SortIntegersByWeight.java)                                           | 中等  | 动态规划        | 记忆化搜索、动态规划、排序                   |
 | 2100 | 适合打劫银行的日子        | [GoodDaysRob](src/com/leetcode/L2001_2100/L2100/GoodDaysRob.java)                                                             | 中等  | 动态规划        | 数组、动态规划、前缀和                     |
 
 ## 10. **_回溯算法系列_**
