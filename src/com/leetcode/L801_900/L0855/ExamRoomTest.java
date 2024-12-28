@@ -1,7 +1,5 @@
 package com.leetcode.L801_900.L0855;
 
-import java.util.Set;
-import java.util.TreeSet;
 
 public class ExamRoomTest {
     public static void main(String[] args) {
@@ -28,13 +26,5 @@ public class ExamRoomTest {
         System.out.println(examRoom.seat());
         examRoom.leave(4);
         System.out.println(examRoom.seat());
-
-        Set<Integer> set = new TreeSet<>((a,b)->{
-            return b-a;
-        });
-        set.add(2);
-        set.add(6);
-        set.add(4);
-        System.out.println(set);
     }
 }
