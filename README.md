@@ -353,6 +353,7 @@
 | 1190 | 反转每对括号间的子串           | [ReverseSubstringsBetweenEachPairParentheses](src/com/leetcode/L1101_1200/L1190/ReverseSubstringsBetweenEachPairParentheses.java) | 中等 | 栈              | 字符串、栈                      |
 | 1221 | 分割平衡字符串              | [SplitStringBalancedStrings](src/com/leetcode/L1201_1300/L1221/SplitStringBalancedStrings.java)                                   | 简单 | 计数             | 字符串、贪心算法、计数                |
 | 1332 | 删除回文子序列              | [RemovePalindromicSub](src/com/leetcode/L1301_1400/L1332/RemovePalindromicSub.java)                                               | 简单 | 模拟             | 字符串、双指针                    |
+| 1336 | 通过投票对团队排名            | [TeamRankByVoting](src/com/leetcode/L1301_1400/L1336/TeamRankByVoting.java)                                                       | 中等 | 排序             | 字符串、数组、哈希表、计数、排序           |
 | 1370 | 上升下降字符串              | [IncreasingDecreasingString](src/com/leetcode/L1301_1400/L1370/IncreasingDecreasingString.java)                                   | 简单 | 桶计数            | 字符串、排序                     |
 | 1374 | 生成每种字符都是奇数个的字符串      | [GenerateStringOdd](src/com/leetcode/L1301_1400/L1374/GenerateStringOdd.java)                                                     | 简单 | 字符串            | 字符串                        |
 | 1408 | 数组中的字符串匹配            | [StringMatchingArray](src/com/leetcode/L1401_1500/L1408/StringMatchingArray.java)                                                 | 简单 | 排序             | 字符串、 字符串匹配                 |
