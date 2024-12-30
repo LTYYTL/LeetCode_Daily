@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1174**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1175**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -478,6 +478,7 @@
 | 1161 | 最大层内元素和                                                        | [MaxLevelSumTree](src/com/leetcode/L1101_1200/L1161/MaxLevelSumTree.java)                                       | 中等 | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
 | 1302 | 层数最深叶子节点的和                                                     | [DeepestLeavesSum](src/com/leetcode/L1301_1400/L1302/DeepestLeavesSum.java)                                     | 中等 | 广度优先搜索           | 树、二叉树、深度优先搜索、广度优先搜索               |
 | 1305 | 两棵二叉搜索树中的所有元素                                                  | [AllElementsBST](src/com/leetcode/L1301_1400/L1305/AllElementsBST.java)                                         | 中等 | 递归               | 树、二叉树、二叉搜索树、深度优先搜索、排序             |
+| 1367 | 二叉树中的链表                                                        | [TreeLinkedListNodeInBinaryTree](src/com/leetcode/L1301_1400/L1367/TreeLinkedListNodeInBinaryTree.java)         | 中等 | 深度优先搜索           | 树、二叉树、链表、深度优先搜索                   |
 | 1382 | 将二叉搜索树变平衡                                                      | [BalanceBinarySearchTree](src/com/leetcode/L1301_1400/L1382/BalanceBinarySearchTree.java)                       | 中等 | 递归               | 树、二叉树、二叉搜索树、贪心、分治、深度优先搜索          |
 | 1609 | 奇偶树                                                            | [EvenOddTree](src/com/leetcode/L1601_1700/L1609/EvenOddTree.java)                                               | 中等 | 广度优先搜索           | 树、二叉树、广度优先搜索                      |
 | 2049 | 统计最高分的节点数目                                                     | [CountNodesHighestScore](src/com/leetcode/L2001_2100/L2049/CountNodesHighestScore.java)                         | 中等 | 深度优先搜索           | 数组、树、二叉树、深度优先搜索                   |
