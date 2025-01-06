@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1177**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1178**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -207,6 +207,7 @@
 | 2210 | 统计数组中峰和谷的数量                                        | [CountHillsAndValleys](src/com/leetcode/L2201_2300/L2210/CountHillsAndValleys.java)                                           | 简单 | 双指针             | 数组                       |
 | 2248 | 多个数组求交集                                            | [IntersectionMultipleArrays](src/com/leetcode/L2201_2300/L2248/IntersectionMultipleArrays.java)                               | 简单 | map映射           | --                       |
 | 2250 | 统计包含每个点的矩形数目                                       | [CountContainingPoint](src/com/leetcode/L2201_2300/L2250/CountContainingPoint.java)                                           | 中等 | 二分查找            | --                       |
+| 2274 | 不含特殊楼层的最大连续楼层数                                     | [FloorCountWithoutSpecialFloors](src/com/leetcode/L2201_2300/L2274/FloorCountWithoutSpecialFloors.java)                       | 中等 | 排序              | 数组、排序                    |
 | 2367 | 算术三元组的数目                                           | [NumberArithmeticTriplets](src/com/leetcode/L2301_2400/L2367/NumberArithmeticTriplets.java)                                   | 简单 | set集合           | 数组、哈希表、双指针、枚举            |
 | 2441 | 与对应负数同时存在的最大正整数                                    | [LargestIntegerNegative](src/com/leetcode/L2401_2500/L2441/LargestIntegerNegative.java)                                       | 简单 | set集合           | 数组、哈希表                   |
 | 2442 | 反转之后不同整数的数目                                        | [CountNumberIntegers](src/com/leetcode/L2401_2500/L2442/CountNumberIntegers.java)                                             | 中等 | set集合           | 数组、哈希表、数学                |
