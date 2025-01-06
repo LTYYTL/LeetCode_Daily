@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1176**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1177**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -398,7 +398,7 @@
 | 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单 | map映射          | 数组、字符串、哈希表                 |
 | 2456 | 最流行的视频创作者            | [MostPopularVideoCreator](src/com/leetcode/L2401_2500/L2456/MostPopularVideoCreator.java)                                         | 中等 | map映射          | --                         |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
-| 3280 | 将日期转换为二进制表示   | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 字符串、数学                     |
+| 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 字符串、数学                     |
 
 ## 4. **_二叉树系列_**
 
@@ -917,6 +917,7 @@
 | 2013 | 检测正方形               | [DetectSquares](src/com/leetcode/L2001_2100/L2013/DetectSquares.java)         | 中等 | 哈希表            | 设计、哈希表、数组、计数                     |
 | 2034 | 股票价格波动              | [StockPrice](src/com/leetcode/L2001_2100/L2034/StockPrice.java)               | 中等 | 哈希表            | 设计、哈希表、堆、有序集合、数据流                |
 | 2043 | 简易银行系统              | [Bank](src/com/leetcode/L2001_2100/L2043/Bank.java)                           | 中等 | 哈希表            | 设计、数组、哈希表、模拟                     |
+| 2241 | 设计一个 ATM 机器         | [Bank](src/com/leetcode/L2201_2300/L2241/ATM.java)                            | 中等 | 数组             | 设计、数组、贪心                         |
 
 ## 16. **_前缀和系列_**
 
