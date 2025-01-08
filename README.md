@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1179**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1180**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -396,9 +396,10 @@
 | 2047 | 句子中的有效单词数            | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java)                                                             | 简单 | 模拟             | 字符串                        |
 | 2114 | 句子中的最多单词数            | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java)                                               | 简单 | 模拟             | 数组、字符串                     |
 | 2211 | 统计道路上的碰撞次数           | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等 | 模拟             | --                         |
+| 2264 | 字符串中最大的 3 位相同数字      | [LargestThreeSameDigitsFinder](src/com/leetcode/L2201_2300/L2264/LargestThreeSameDigitsFinder.java)                               | 简单 | 滑动窗口           | 字符串                        |
 | 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单 | map映射          | 数组、字符串、哈希表                 |
 | 2456 | 最流行的视频创作者            | [MostPopularVideoCreator](src/com/leetcode/L2401_2500/L2456/MostPopularVideoCreator.java)                                         | 中等 | map映射          | --                         |
-| 3019 | 按键变更的次数   | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                    |
+| 3019 | 按键变更的次数              | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                        |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
 | 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 字符串、数学                     |
 
