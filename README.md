@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1181**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1182**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -849,26 +849,27 @@
 
 ## 14. **_滑动窗口系列_**
 
-| #    | 题目                       | 类名                                                                                                                                                        | 难度 | 方法               | 标签                |
-|------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----|------------------|-------------------|
-| 3    | 无重复字符的最长子串               | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java)                                                                               | 中等 | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口  |
-| 30   | 串联所有单词的子串                | [SubstringAllWords](src/com/leetcode/L1_100/L0030/SubstringAllWords.java)                                                                                 | 困难 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
-| 76   | 最小覆盖子串                   | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难 | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
-| 209  | 长度最小的子数组                 | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等 | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
-| 239  | 滑动窗口最大值                  | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难 | 滑动窗口             | 堆、滑动窗口            |
-| 424  | 替换后的最长重复字符               | [LongestRepeatingCharacter](src/com/leetcode/L401_500/L0424/LongestRepeatingCharacter.java)                                                               | 中等 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
-| 438  | 找到字符串中所有字母异位词            | [FindAllAnagramsString](src/com/leetcode/L401_500/L0438/FindAllAnagramsString.java)                                                                       | 中等 | 滑动窗口             | 哈希表、滑动窗口          |
-| 567  | 字符串的排列                   | [PermutationInString](src/com/leetcode/L501_600/L0567/PermutationInString.java)                                                                           | 中等 | 滑动窗口             | 双指针、滑动窗口          |
-| 689  | 三个无重叠子数组的最大和             | [MaxSum3NonOverSub](src/com/leetcode/L601_700/L0689/MaxSum3NonOverSub.java)                                                                               | 困难 | 滑动窗口             | 数组、动态规划           |
-| 713  | 乘积小于K的子数组                | [SubarrayProductLessThanK](src/com/leetcode/L701_800/L0713/SubarrayProductLessThanK.java)                                                                 | 中等 | 滑动窗口             | 数组、滑动窗口           |
-| 904  | 水果成篮                     | [FruitIntoBaskets](src/com/leetcode/L901_1000/L0904/FruitIntoBaskets.java)                                                                                | 中等 | 滑动窗口             | 数组、哈希表、滑动窗口       |
-| 930  | 和相同的二元子数组                | [BinarySubarraysWithSum](src/com/leetcode/L901_1000/L0930/BinarySubarraysWithSum.java)                                                                    | 中等 | 滑动窗口、Map映射       | 数组、哈希表、前缀和、滑动窗口   |
-| 1052 | 爱生气的书店老板                 | [GrumpyBookstoreOwner](src/com/leetcode/L1001_1100/L1052/GrumpyBookstoreOwner.java)                                                                       | 中等 | 滑动窗口             | 数组、滑动窗口           |
-| 1438 | 绝对差不超过限制的最长连续子数组         | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1401_1500/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口             | 数组、滑动窗口           |
-| 1610 | 可见点的最大数目                 | [MaxVisiblePoint](src/com/leetcode/L1601_1700/L1610/MaxVisiblePoint.java)                                                                                 | 困难 | 数学+滑动窗口          | 数组、数学、几何、排序、滑动窗口  |
-| 1838 | 最高频元素的频数                 | [FrequencyMostFrequentElement](src/com/leetcode/L1801_1900/L1838/FrequencyMostFrequentElement.java)                                                       | 中等 | 滑动窗口             | 滑动窗口              |
-| 2024 | 考试的最大困扰度                 | [MaximizeConfusionExam](src/com/leetcode/L2001_2100/L2024/MaximizeConfusionExam.java)                                                                     | 中等 | 滑动窗口             | 字符串、滑动窗口、前缀和、二分查找 |
-| 3297 | 统计重新排列后包含另一个字符串的子字符串数目 I | [RearrangedSubstringCounter](src/com/leetcode/L3201_3300/L3297/RearrangedSubstringCounter.java)                                                           | 中等 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
+| #    | 题目                        | 类名                                                                                                                                                        | 难度 | 方法               | 标签                |
+|------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----|------------------|-------------------|
+| 3    | 无重复字符的最长子串                | [NoRepeatLongestStr](src/com/leetcode/L1_100/L0003/NoRepeatLongestStr.java)                                                                               | 中等 | set集合、Map映射、滑动窗口 | 字符串、哈希表、双指针、滑动窗口  |
+| 30   | 串联所有单词的子串                 | [SubstringAllWords](src/com/leetcode/L1_100/L0030/SubstringAllWords.java)                                                                                 | 困难 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
+| 76   | 最小覆盖子串                    | [MinimumWindowSubstring](src/com/leetcode/L1_100/L0076/MinimumWindowSubstring.java)                                                                       | 困难 | 滑动窗口             | 哈希表、双指针、字符串、滑动窗口  |
+| 209  | 长度最小的子数组                  | [MinimumSizeSubarraySum](src/com/leetcode/L201_300/L0209/MinimumSizeSubarraySum.java)                                                                     | 中等 | 滑动窗口             | 数组、二分查找、前缀和、滑动窗口  |
+| 239  | 滑动窗口最大值                   | [SlidingWindowMax](src/com/leetcode/L201_300/L0239/SlidingWindowMax.java)                                                                                 | 困难 | 滑动窗口             | 堆、滑动窗口            |
+| 424  | 替换后的最长重复字符                | [LongestRepeatingCharacter](src/com/leetcode/L401_500/L0424/LongestRepeatingCharacter.java)                                                               | 中等 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
+| 438  | 找到字符串中所有字母异位词             | [FindAllAnagramsString](src/com/leetcode/L401_500/L0438/FindAllAnagramsString.java)                                                                       | 中等 | 滑动窗口             | 哈希表、滑动窗口          |
+| 567  | 字符串的排列                    | [PermutationInString](src/com/leetcode/L501_600/L0567/PermutationInString.java)                                                                           | 中等 | 滑动窗口             | 双指针、滑动窗口          |
+| 689  | 三个无重叠子数组的最大和              | [MaxSum3NonOverSub](src/com/leetcode/L601_700/L0689/MaxSum3NonOverSub.java)                                                                               | 困难 | 滑动窗口             | 数组、动态规划           |
+| 713  | 乘积小于K的子数组                 | [SubarrayProductLessThanK](src/com/leetcode/L701_800/L0713/SubarrayProductLessThanK.java)                                                                 | 中等 | 滑动窗口             | 数组、滑动窗口           |
+| 904  | 水果成篮                      | [FruitIntoBaskets](src/com/leetcode/L901_1000/L0904/FruitIntoBaskets.java)                                                                                | 中等 | 滑动窗口             | 数组、哈希表、滑动窗口       |
+| 930  | 和相同的二元子数组                 | [BinarySubarraysWithSum](src/com/leetcode/L901_1000/L0930/BinarySubarraysWithSum.java)                                                                    | 中等 | 滑动窗口、Map映射       | 数组、哈希表、前缀和、滑动窗口   |
+| 1052 | 爱生气的书店老板                  | [GrumpyBookstoreOwner](src/com/leetcode/L1001_1100/L1052/GrumpyBookstoreOwner.java)                                                                       | 中等 | 滑动窗口             | 数组、滑动窗口           |
+| 1438 | 绝对差不超过限制的最长连续子数组          | [LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit](src/com/leetcode/L1401_1500/L1438/LongestContinuousSubarrayWithAbsoluteDiffLessEqualLimit.java) | 中等 | 滑动窗口             | 数组、滑动窗口           |
+| 1610 | 可见点的最大数目                  | [MaxVisiblePoint](src/com/leetcode/L1601_1700/L1610/MaxVisiblePoint.java)                                                                                 | 困难 | 数学+滑动窗口          | 数组、数学、几何、排序、滑动窗口  |
+| 1838 | 最高频元素的频数                  | [FrequencyMostFrequentElement](src/com/leetcode/L1801_1900/L1838/FrequencyMostFrequentElement.java)                                                       | 中等 | 滑动窗口             | 滑动窗口              |
+| 2024 | 考试的最大困扰度                  | [MaximizeConfusionExam](src/com/leetcode/L2001_2100/L2024/MaximizeConfusionExam.java)                                                                     | 中等 | 滑动窗口             | 字符串、滑动窗口、前缀和、二分查找 |
+| 3297 | 统计重新排列后包含另一个字符串的子字符串数目 I  | [RearrangedSubstringCounter](src/com/leetcode/L3201_3300/L3297/RearrangedSubstringCounter.java)                                                           | 中等 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
+| 3297 | 统计重新排列后包含另一个字符串的子字符串数目 II | [RearrangedSubstringCounterII](src/com/leetcode/L3201_3300/L3298/RearrangedSubstringCounterII.java)                                                       | 困难 | 滑动窗口             | 字符串、哈希表、滑动窗口      |
 
 ## 15. **_设计系列_**
 
