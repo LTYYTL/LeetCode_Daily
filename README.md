@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1182**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1183**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -401,7 +401,8 @@
 | 2456 | 最流行的视频创作者            | [MostPopularVideoCreator](src/com/leetcode/L2401_2500/L2456/MostPopularVideoCreator.java)                                         | 中等 | map映射          | --                         |
 | 3019 | 按键变更的次数              | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                        |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
-| 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 字符串、数学                     |
+| 3270 | 求出数字答案               | [FindDigitalAnswer](src/com/leetcode/L3201_3300/L3270/FindDigitalAnswer.java)                                                     | 简单 | 数学             | 字符串、数学                     |
+| 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 数学                         |
 
 ## 4. **_二叉树系列_**
 
