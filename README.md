@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1183**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1184**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -942,6 +942,7 @@
 | 1894 | 找到需要补充粉笔的学生编号 | [FindStudentWillReplaceChalk](src/com/leetcode/L1801_1900/L1894/FindStudentWillReplaceChalk.java)           | 中等 | 模拟、前缀和+二分查找 | 数组、前缀和、二分查找、模拟             |
 | 2055 | 蜡烛之间的盘子       | [PlatesBetweenCandles](src/com/leetcode/L2001_2100/L2055/PlatesBetweenCandles.java)                         | 中等 | 前缀和         | 数组、字符串、前缀和、二分查找            |
 | 2155 | 分组得分最高的所有下标   | [HighScoreArrIndex](src/com/leetcode/L2101_2200/L2155/HighScoreArrIndex.java)                               | 中等 | 前缀和         | 数组                         |
+| 2270 | 分割数组的方案数      | [ArrayPartitionCount](src/com/leetcode/L2201_2300/L2270/ArrayPartitionCount.java)                           | 中等 | 前缀和         | 数组、前缀和                     |
 
 ## 17. **_力扣杯竞赛题列表_**
 
