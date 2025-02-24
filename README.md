@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1188**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1189**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -403,6 +403,7 @@
 | 2264 | 字符串中最大的 3 位相同数字      | [LargestThreeSameDigitsFinder](src/com/leetcode/L2201_2300/L2264/LargestThreeSameDigitsFinder.java)                               | 简单 | 滑动窗口           | 字符串                        |
 | 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单 | map映射          | 数组、字符串、哈希表                 |
 | 2456 | 最流行的视频创作者            | [MostPopularVideoCreator](src/com/leetcode/L2401_2500/L2456/MostPopularVideoCreator.java)                                         | 中等 | map映射          | --                         |
+| 2506 | 统计相似字符串对的数目          | [SimilarStrPairCounter](src/com/leetcode/L2501_2600/L2506/SimilarStrPairCounter.java)                                             | 简单 | map映射          | 字符串、数组、哈希表、位运算、计数          |
 | 3019 | 按键变更的次数              | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                        |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
 | 3270 | 求出数字答案               | [FindDigitalAnswer](src/com/leetcode/L3201_3300/L3270/FindDigitalAnswer.java)                                                     | 简单 | 数学             | 字符串、数学                     |
