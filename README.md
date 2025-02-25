@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1189**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1190**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -852,6 +852,7 @@
 | 1601 | 最多可达成的换楼请求数目  | [MaxAchievableRequests](src/com/leetcode/L1601_1700/L1601/MaxAchievableRequests.java)   | 困难 | 位运算           | 数组、位运算、回溯算法、枚举      |
 | 1720 | 解码异或后的数组      | [DecodeXORedArray](src/com/leetcode/L1701_1800/L1720/DecodeXORedArray.java)             | 简单 | 位运算           | 位运算                 |
 | 1734 | 解码异或后的排列      | [DecodeXORedPermutation](src/com/leetcode/L1701_1800/L1734/DecodeXORedPermutation.java) | 简单 | 位运算           | 位运算                 |
+| 2595 | 奇偶位数          | [OddEvenDigitCounter](src/com/leetcode/L2501_2600/L2595/OddEvenDigitCounter.java)       | 简单 | 位运算           | 位运算                 |
 
 ## 14. **_滑动窗口系列_**
 
