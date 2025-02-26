@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1190**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1191**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -922,6 +922,7 @@
 | 919  | 完全二叉树插入器            | [CBTInserter](src/com/leetcode/L901_1000/L0919/CBTInserter.java)              | 中等 | 队列             | 树、二叉树、广度优先搜索、设计                  |
 | 933  | 最近的请求次数             | [RecentCounter](src/com/leetcode/L901_1000/L0933/RecentCounter.java)          | 简单 | 队列             | 队列、数据流、设计                        |
 | 981  | 基于时间的键值存储           | [TimeMap](src/com/leetcode/L901_1000/L0981/TimeMap.java)                      | 中等 | Map映射+二分查找     | 字符串、哈希表、二分查找、设计                  |
+| 1472 | 设计浏览器历史记录           | [BrowserHistory](src/com/leetcode/L1401_1500/L1600/BrowserHistory.java)       | 中等 | 栈              | 栈、数组、链表、双向链表、数据流、设计              |
 | 1600 | 皇位继承顺序              | [ThroneInheritance](src/com/leetcode/L1501_1600/L1600/ThroneInheritance.java) | 中等 | 树              | 树、设计                             |
 | 1603 | 设计停车系统              | [ParkingSystem](src/com/leetcode/L1601_1700/L1603/ParkingSystem.java)         | 简单 | 数组             | 设计                               |
 | 1656 | 设计有序流               | [OrderedStream](src/com/leetcode/L1601_1700/L1656/OrderedStream.java)         | 简单 | 数组             | 数组、哈希表、数据流、设计                    |
