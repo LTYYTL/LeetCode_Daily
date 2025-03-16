@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1192**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**1193**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -406,6 +406,7 @@
 | 2506 | 统计相似字符串对的数目          | [SimilarStrPairCounter](src/com/leetcode/L2501_2600/L2506/SimilarStrPairCounter.java)                                             | 简单 | map映射          | 字符串、数组、哈希表、位运算、计数          |
 | 3019 | 按键变更的次数              | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                        |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
+| 3110 | 字符串的分数               | [StringScore](src/com/leetcode/L3101_3200/L3110/StringScore.java)                                                                 | 简单 | 模拟             | 字符串                        |
 | 3270 | 求出数字答案               | [FindDigitalAnswer](src/com/leetcode/L3201_3300/L3270/FindDigitalAnswer.java)                                                     | 简单 | 数学             | 字符串、数学                     |
 | 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 数学                         |
 
