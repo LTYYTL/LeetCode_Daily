@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**1193**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11934**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -409,6 +409,7 @@
 | 3110 | 字符串的分数               | [StringScore](src/com/leetcode/L3101_3200/L3110/StringScore.java)                                                                 | 简单 | 模拟             | 字符串                        |
 | 3270 | 求出数字答案               | [FindDigitalAnswer](src/com/leetcode/L3201_3300/L3270/FindDigitalAnswer.java)                                                     | 简单 | 数学             | 字符串、数学                     |
 | 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 数学                         |
+| 3340 | 检查平衡字符串              | [BalancedStringChecker](src/com/leetcode/L3301_3400/L3340/BalancedStringChecker.java)                                             | 简单 | 模拟             | 字符串                        |
 
 ## 4. **_二叉树系列_**
 
