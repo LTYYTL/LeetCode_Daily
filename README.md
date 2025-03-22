@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11934**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11935**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -540,6 +540,7 @@
 | 1886 | 判断矩阵经轮转后是否一致  | [DetermineWhetherMatrixRotation](src/com/leetcode/L1801_1900/L1886/DetermineWhetherMatrixRotation.java) | 简单 | 模拟            | 数组、矩阵                      |
 | 1905 | 统计子岛屿         | [CountSubIslands](src/com/leetcode/L1901_2000/L1905/CountSubIslands.java)                               | 中等 | 深度优先搜索        | 数组、矩阵、并查集、广度优先搜索、深度优先搜索    |
 | 2022 | 将一维数组转变成二维数组  | [Convert1DInto2D](src/com/leetcode/L2001_2100/L2022/Convert1DInto2D.java)                               | 简单 | 模拟            | 数组、矩阵、模拟                   |
+| 2643 | 一最多的行         | [MaxOnesRowDetector](src/com/leetcode/L2601_2700/L2643/MaxOnesRowDetector.java)                         | 简单 | 模拟            | 数组、矩阵                      |
 
 ## 7. **_图系列_**
 
