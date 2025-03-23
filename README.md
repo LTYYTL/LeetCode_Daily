@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11935**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11934**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -399,6 +399,7 @@
 | 2038 | 如果相邻两个颜色均相同则删除当前颜色   | [RemoveColored](src/com/leetcode/L2001_2100/L2038/RemoveColored.java)                                                             | 中等 | 双指针            | 字符串、贪心算法、数学、博弈论            |
 | 2047 | 句子中的有效单词数            | [NumValidWords](src/com/leetcode/L2001_2100/L2047/NumValidWords.java)                                                             | 简单 | 模拟             | 字符串                        |
 | 2114 | 句子中的最多单词数            | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java)                                               | 简单 | 模拟             | 数组、字符串                     |
+| 2116 | 判断一个括号字符串是否有效        | [ValidParenthesesChecker](src/com/leetcode/L2101_2200/L2116/ValidParenthesesChecker.java)                                         | 中等 | 字符串            | 字符串、栈、贪心                   |
 | 2211 | 统计道路上的碰撞次数           | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等 | 模拟             | --                         |
 | 2264 | 字符串中最大的 3 位相同数字      | [LargestThreeSameDigitsFinder](src/com/leetcode/L2201_2300/L2264/LargestThreeSameDigitsFinder.java)                               | 简单 | 滑动窗口           | 字符串                        |
 | 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单 | map映射          | 数组、字符串、哈希表                 |
