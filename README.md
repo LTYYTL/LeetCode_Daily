@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11935**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11936**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -403,6 +403,7 @@
 | 2211 | 统计道路上的碰撞次数           | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等 | 模拟             | --                         |
 | 2255 | 统计是给定字符串前缀的字符串数目     | [PrefixStringCounter](src/com/leetcode/L2201_2300/L2255/PrefixStringCounter.java)                                                 | 简单 | 模拟             | 字符串、数组                     |
 | 2264 | 字符串中最大的 3 位相同数字      | [LargestThreeSameDigitsFinder](src/com/leetcode/L2201_2300/L2264/LargestThreeSameDigitsFinder.java)                               | 简单 | 滑动窗口           | 字符串                        |
+| 2278 | 字母在字符串中的百分比          | [LetterPercentageInString](src/com/leetcode/L2201_2300/L2278/LetterPercentageInString.java)                                       | 简单 | 字符串            | 字符串                        |
 | 2399 | 检查相同字母间的距离           | [CheckDistancesSameLetters](src/com/leetcode/L2301_2400/L2399/CheckDistancesSameLetters.java)                                     | 简单 | map映射          | 数组、字符串、哈希表                 |
 | 2456 | 最流行的视频创作者            | [MostPopularVideoCreator](src/com/leetcode/L2401_2500/L2456/MostPopularVideoCreator.java)                                         | 中等 | map映射          | --                         |
 | 2506 | 统计相似字符串对的数目          | [SimilarStrPairCounter](src/com/leetcode/L2501_2600/L2506/SimilarStrPairCounter.java)                                             | 简单 | map映射          | 字符串、数组、哈希表、位运算、计数          |
