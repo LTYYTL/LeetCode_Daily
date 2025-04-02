@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11937**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11938**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -215,6 +215,7 @@
 | 2442 | 反转之后不同整数的数目                                        | [CountNumberIntegers](src/com/leetcode/L2401_2500/L2442/CountNumberIntegers.java)                                             | 中等 | set集合           | 数组、哈希表、数学                |
 | 2455 | 可被三整除的偶数的平均值                                       | [AverageValueThree](src/com/leetcode/L2401_2500/L2455/AverageValueThree.java)                                                 | 简单 | 数学              | --                       |
 | 2545 | 根据第 K 场考试的分数排序                                     | [ExamScoreSorterByKth](src/com/leetcode/L2501_2600/L2545/ExamScoreSorterByKth.java)                                           | 中等 | 快速排序            | 数组、矩阵、排序                 |
+| 2837 | 有序三元组中的最大值 I                                       | [OrderedTripleMaxFinderI](src/com/leetcode/L2801_2900/L2873/OrderedTripleMaxFinderI.java)                                     | 简单 | 数组              | 数组                       |
 | 3046 | 分割数组                                               | [ArraySplitter](src/com/leetcode/L3001_3100/L3046/ArraySplitter.java)                                                         | 简单 | 计数              | 数组、哈希表、计数                |
 | 3065 | 超过阈值的最少操作数 I                                       | [MinimumOperationsI](src/com/leetcode/L3001_3100/L3065/MinimumOperationsI.java)                                               | 简单 | 模拟              | 数组                       |
 | 3066 | 超过阈值的最少操作数 II                                      | [MinimumOperationsII](src/com/leetcode/L3001_3100/L3066/MinimumOperationsII.java)                                             | 中等 | 堆               | 数组、堆、模拟                  |
