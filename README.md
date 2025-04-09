@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11939**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11940**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -223,6 +223,7 @@
 | 3264 | K 次乘运算后的最终数组 I                                     | [KMultiplicationArrayI](src/com/leetcode/L3201_3300/L3264/KMultiplicationArrayI.java)                                         | 简单 | 堆（优先队列）         | 数组、数学、模拟、堆（优先队列）         |
 | 3285 | 找到稳定山的下标                                           | [StableMountainIndexFinder](src/com/leetcode/L3201_3300/L3285/StableMountainIndexFinder.java)                                 | 简单 | 数组              | 数组                       |
 | 3396 | 使数组元素互不相同所需的最少操作次数                                 | [MinOperationsForDistinctArray](src/com/leetcode/L3301_3400/L3396/MinOperationsForDistinctArray.java)                         | 简单 | 数组              | 数组、哈希表                   |
+| 3375 | 使数组的值全部为 K 的最少操作次数                                 | [ArrayToKMinOperations](src/com/leetcode/L3301_3400/L3375/ArrayToKMinOperations.java)                                         | 简单 | 数组              | 数组、哈希表                   |
 
 ## 2. **_链表系列_**
 
