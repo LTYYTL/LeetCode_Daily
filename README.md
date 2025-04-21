@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11940**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11941**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -202,6 +202,7 @@
 | 2029 | 石子游戏 IX                                            | [StoneGameIX](src/com/leetcode/L2001_2100/L2029/StoneGameIX.java)                                                             | 中等 | 博弈论             | 数组、数学、计数、贪心算法、博弈论        |
 | 2089 | 找出数组排序后的目标下标                                       | [TargetIndexSortingArr](src/com/leetcode/L2001_2100/L2089/TargetIndexSortingArr.java)                                         | 简单 | 二分查找            | 数组、二分查找、排序               |
 | 2104 | 子数组范围和                                             | [SumSubRanges](src/com/leetcode/L2101_2200/L2104/SumSubRanges.java)                                                           | 中等 | 双指针             | 数组、栈、单调栈                 |
+| 2145 | 统计隐藏数组数目                                           | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2145/HiddenArrayCounter.java)                                                | 中等 | 数学              | 数组、前缀和                   |
 | 2154 | 将找到的值乘以 2                                          | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java)                                                 | 简单 | set集合           | 数组、哈希表、排序、模拟             |
 | 2170 | 使数组变成交替数组的最少操作数                                    | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java)                                         | 中等 | map映射           | 数组、哈希表、计数、贪心算法           |
 | 2171 | 拿出最少数目的魔法豆                                         | [RemoveMinBeans](src/com/leetcode/L2101_2200/L2171/RemoveMinBeans.java)                                                       | 中等 | 排序              | 数组、前缀和、排序                |
