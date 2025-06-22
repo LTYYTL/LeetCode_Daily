@@ -48,8 +48,8 @@ public class HiddenArrayCounter {
 
         for (int i = 0; i < differences.length; i++) {
             int diff = differences[i];
-            left = Math.max(left + diff, left);
-            right = Math.min(right + diff, right);
+            left = Math.max(left + diff, lower);
+            right = Math.min(right + diff, upper);
             if (left > upper || right < lower) {
                 return 0;
             }

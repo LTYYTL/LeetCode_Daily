@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11941**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11942**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -405,6 +405,7 @@
 | 2109 | 向字符串添加空格             | [SpaceAdderToStr](src/com/leetcode/L2101_2200/L2109/SpaceAdderToStr.java)                                                         | 中等 | 双指针            | 数组、字符串、模拟、双指针              |
 | 2114 | 句子中的最多单词数            | [MaxNumWordsSentences](src/com/leetcode/L2101_2200/L2114/MaxNumWordsSentences.java)                                               | 简单 | 模拟             | 数组、字符串                     |
 | 2116 | 判断一个括号字符串是否有效        | [ValidParenthesesChecker](src/com/leetcode/L2101_2200/L2116/ValidParenthesesChecker.java)                                         | 中等 | 字符串            | 字符串、栈、贪心                   |
+| 2138 | 将字符串拆分为若干长度为 k 的组    | [StringSplitterByK](src/com/leetcode/L2101_2200/L2138/StringSplitterByK.java)                                                     | 简单 | 字符串            | 字符串、数组                     |
 | 2211 | 统计道路上的碰撞次数           | [CountCollisionsRoad](src/com/leetcode/L2201_2300/L2211/CountCollisionsRoad.java)                                                 | 中等 | 模拟             | --                         |
 | 2255 | 统计是给定字符串前缀的字符串数目     | [PrefixStringCounter](src/com/leetcode/L2201_2300/L2255/PrefixStringCounter.java)                                                 | 简单 | 模拟             | 字符串、数组                     |
 | 2264 | 字符串中最大的 3 位相同数字      | [LargestThreeSameDigitsFinder](src/com/leetcode/L2201_2300/L2264/LargestThreeSameDigitsFinder.java)                               | 简单 | 滑动窗口           | 字符串                        |
