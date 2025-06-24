@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11942**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11943**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -206,6 +206,7 @@
 | 2154 | 将找到的值乘以 2                                          | [KeepMultValuesTwo](src/com/leetcode/L2101_2200/L2154/KeepMultValuesTwo.java)                                                 | 简单 | set集合           | 数组、哈希表、排序、模拟             |
 | 2170 | 使数组变成交替数组的最少操作数                                    | [MinOpArrayAlternating](src/com/leetcode/L2101_2200/L2170/MinOpArrayAlternating.java)                                         | 中等 | map映射           | 数组、哈希表、计数、贪心算法           |
 | 2171 | 拿出最少数目的魔法豆                                         | [RemoveMinBeans](src/com/leetcode/L2101_2200/L2171/RemoveMinBeans.java)                                                       | 中等 | 排序              | 数组、前缀和、排序                |
+| 2200 | 找出数组中的所有 K 近邻下标                                    | [FindKAdjacentIndices](src/com/leetcode/L2101_2200/L2200/FindKAdjacentIndices.java)                                           | 简单 | 双指针             | 数组、双指针                   |
 | 2210 | 统计数组中峰和谷的数量                                        | [CountHillsAndValleys](src/com/leetcode/L2201_2300/L2210/CountHillsAndValleys.java)                                           | 简单 | 双指针             | 数组                       |
 | 2239 | 找到最接近 0 的数字                                        | [ClosestToZeroFinder](src/com/leetcode/L2201_2300/L2239/ClosestToZeroFinder.java)                                             | 简单 | 排序              | 数组                       |
 | 2248 | 多个数组求交集                                            | [IntersectionMultipleArrays](src/com/leetcode/L2201_2300/L2248/IntersectionMultipleArrays.java)                               | 简单 | map映射           | --                       |
