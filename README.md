@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11944**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11945**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -214,6 +214,7 @@
 | 2250 | 统计包含每个点的矩形数目                                       | [CountContainingPoint](src/com/leetcode/L2201_2300/L2250/CountContainingPoint.java)                                           | 中等 | 二分查找            | --                       |
 | 2274 | 不含特殊楼层的最大连续楼层数                                     | [FloorCountWithoutSpecialFloors](src/com/leetcode/L2201_2300/L2274/FloorCountWithoutSpecialFloors.java)                       | 中等 | 排序              | 数组、排序                    |
 | 2367 | 算术三元组的数目                                           | [NumberArithmeticTriplets](src/com/leetcode/L2301_2400/L2367/NumberArithmeticTriplets.java)                                   | 简单 | set集合           | 数组、哈希表、双指针、枚举            |
+| 2410 | 运动员和训练师的最大匹配数                                      | [AthleteTrainerMaxMatcher](src/com/leetcode/L2401_2500/L2410/AthleteTrainerMaxMatcher.java)                                   | 中等 | 双指针             | 数组、双指针、排序、贪心             |
 | 2441 | 与对应负数同时存在的最大正整数                                    | [LargestIntegerNegative](src/com/leetcode/L2401_2500/L2441/LargestIntegerNegative.java)                                       | 简单 | set集合           | 数组、哈希表                   |
 | 2442 | 反转之后不同整数的数目                                        | [CountNumberIntegers](src/com/leetcode/L2401_2500/L2442/CountNumberIntegers.java)                                             | 中等 | set集合           | 数组、哈希表、数学                |
 | 2455 | 可被三整除的偶数的平均值                                       | [AverageValueThree](src/com/leetcode/L2401_2500/L2455/AverageValueThree.java)                                                 | 简单 | 数学              | --                       |
