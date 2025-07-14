@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11945**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11946**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -257,6 +257,7 @@
 | 725 | 分隔链表            | [SplitLinkedListParts](src/com/leetcode/L701_800/L0725/SplitLinkedListParts.java)                           | 中等 | 模拟          | 链表                |
 | 817 | 链表组件            | [LinkedListComponents](src/com/leetcode/L801_900/L0817/LinkedListComponents.java)                           | 中等 | 模拟          | 链表、数组、哈希表         |
 | 876 | 链表的中间结点         | [MiddleTheLinkedList](src/com/leetcode/L801_900/L0876/MiddleTheLinkedList.java)                             | 简单 | 双指针、数组      | 链表、双指针            |
+| 876 | 二进制链表转整数        | [BinaryListToIntegerConverter](src/com/leetcode/L1201_1300/L1290/BinaryListToIntegerConverter.java)         | 简单 | 模拟          | 链表、数学             |
 
 ## 3. **_字符串系列_**
 
