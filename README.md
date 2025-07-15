@@ -1,6 +1,6 @@
 # LeetCode_Daily
 
-记录自己LeetCode每日刷题之旅（现有**11946**道，持续更新中...）
+记录自己LeetCode每日刷题之旅（现有**11947**道，持续更新中...）
 
 ## 1. **_数组系列_**
 
@@ -420,6 +420,7 @@
 | 3019 | 按键变更的次数              | [KeyChangeCounter](src/com/leetcode/L3001_3100/L3019/KeyChangeCounter.java)                                                       | 简单 | 字符串            | 字符串                        |
 | 3083 | 字符串及其反转中是否存在同一子字符串   | [StringReversalSubstringValidator](src/com/leetcode/L3001_3100/L3083/StringReversalSubstringValidator.java)                       | 简单 | 模拟             | 字符串、哈希表                    |
 | 3110 | 字符串的分数               | [StringScore](src/com/leetcode/L3101_3200/L3110/StringScore.java)                                                                 | 简单 | 模拟             | 字符串                        |
+| 3136 | 有效单词                 | [ValidWordChecker](src/com/leetcode/L3101_3200/L3136/ValidWordChecker.java)                                                       | 简单 | 模拟             | 字符串                        |
 | 3270 | 求出数字答案               | [FindDigitalAnswer](src/com/leetcode/L3201_3300/L3270/FindDigitalAnswer.java)                                                     | 简单 | 数学             | 字符串、数学                     |
 | 3280 | 将日期转换为二进制表示          | [DateToBinaryConverter](src/com/leetcode/L3201_3300/L3280/DateToBinaryConverter.java)                                             | 简单 | 模拟             | 数学                         |
 | 3340 | 检查平衡字符串              | [BalancedStringChecker](src/com/leetcode/L3301_3400/L3340/BalancedStringChecker.java)                                             | 简单 | 模拟             | 字符串                        |
